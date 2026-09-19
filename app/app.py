@@ -78,7 +78,7 @@ def _render_mascot_card(field: dict, dim_name_by_key: dict):
         <div style="
             display:flex; align-items:center; gap:14px;
             background:transparent;
-            border:1px solid #e7e1d6; border-radius:14px;
+            border:none; border-radius:14px;
             padding:12px 14px; margin-bottom:8px;
         ">
             <img src="data:image/png;base64,{b64}" style="
@@ -177,10 +177,10 @@ def _render_score_badge(result: dict):
 
 @st.cache_resource(show_spinner=False)
 def _mascot_reel_assets():
-    """给打分等待时的插画"连播"动画用的小尺寸缩略图（压到<=90px），只在Streamlit这个
+    """给打分等待时的插画"连播"动画用的小尺寸缩略图（压到<=660px，适配220px显示尺寸的高分屏），只在Streamlit这个
     进程的生命周期里统一读盘+压缩一次并缓存住，不会因为每次点"开始评估"就重新处理一遍
     全部约28张原图（1254x1254px）。返回 (按固定顺序排列的field_id列表,
-    {field_id: 90px缩略图的base64字符串})。"""
+    {field_id: 660px缩略图的base64字符串})。"""
     order = []
     b64_by_id = {}
     for fid, filename in FIELD_ID_TO_MASCOT_FILENAME.items():
@@ -188,7 +188,7 @@ def _mascot_reel_assets():
         if not path.is_file():
             continue
         img = Image.open(path).convert("RGBA")
-        img.thumbnail((90, 90), Image.LANCZOS)
+        img.thumbnail((660, 660), Image.LANCZOS)
         buf = io.BytesIO()
         img.save(buf, format="PNG")
         b64_by_id[fid] = base64.b64encode(buf.getvalue()).decode("ascii")
@@ -247,8 +247,8 @@ def _render_loading_reel(target_field: Optional[dict]):
             #${{OVERLAY_ID}} .rc-reel-visual {{ position:relative; width:220px; height:220px; }}
             #${{OVERLAY_ID}} .rc-reel-visual img {{
                 position:absolute; inset:0; width:100%; height:100%;
-                border-radius:50%; background:#fff; object-fit:contain; padding:20px;
-                box-shadow:0 10px 34px rgba(43,38,32,0.10);
+                border-radius:50%; background:transparent; object-fit:contain; padding:20px;
+                box-shadow:none;
                 opacity:0; transition:opacity .16s ease;
             }}
             #${{OVERLAY_ID}} .rc-reel-visual img.show {{ opacity:1; }}
@@ -265,9 +265,9 @@ def _render_loading_reel(target_field: Optional[dict]):
             #${{OVERLAY_ID}} .rc-landed-ring.show {{ opacity:1; transform:scale(1); }}
             #${{OVERLAY_ID}} .rc-hint-pill {{
                 position:absolute; top:22px; left:50%; transform:translateX(-50%);
-                background:#fff; border:1px solid #e7e1d6; border-radius:999px;
+                background:transparent; border:none; border-radius:999px;
                 padding:7px 16px; font-size:0.8rem; color:#8a8073;
-                box-shadow:0 4px 14px rgba(0,0,0,0.05);
+                box-shadow:none;
             }}
             #${{OVERLAY_ID}} .rc-reel-title {{ font-size:1.05rem; font-weight:700; color:#2b2620; text-align:center; margin-bottom:6px; }}
             #${{OVERLAY_ID}} .rc-reel-sub {{ font-size:0.88rem; color:#8a8073; text-align:center; }}
@@ -289,7 +289,7 @@ def _render_loading_reel(target_field: Optional[dict]):
         var overlay = doc.createElement("div");
         overlay.id = OVERLAY_ID;
         overlay.style.cssText = "position:fixed; inset:0; z-index:1000000; "
-            + "background:radial-gradient(circle at 50% 42%, #fffdf9 0%, #faf8f4 65%); "
+            + "background:transparent; "
             + "display:flex; flex-direction:column; align-items:center; justify-content:center; gap:28px;";
         overlay.innerHTML =
             '<div class="rc-hint-pill">正在评估中，请稍候…</div>'
