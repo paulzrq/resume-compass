@@ -77,7 +77,7 @@ def _render_mascot_card(field: dict, dim_name_by_key: dict):
         textwrap.dedent(f"""
         <div style="
             display:flex; align-items:center; gap:14px;
-            background:linear-gradient(135deg, #ffffff, #f4e2d3 180%);
+            background:transparent;
             border:1px solid #e7e1d6; border-radius:14px;
             padding:12px 14px; margin-bottom:8px;
         ">
@@ -432,18 +432,12 @@ def _get_secret_api_key() -> str:
 
 secret_api_key = _get_secret_api_key()
 env_api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-default_api_key = secret_api_key or env_api_key
+api_key = secret_api_key or env_api_key
+if not api_key:
+    st.error("评估服务尚未配置，请联系管理员。")
 
 with st.sidebar:
     st.subheader("设置")
-    if default_api_key:
-        st.success("已经有可用的 API Key（来自部署配置的 Secrets 或系统环境变量），下面可以留空直接用；如果想临时换一个，填了就会优先用你填的这个。")
-    api_key_input = st.text_input(
-        "Anthropic API Key",
-        type="password",
-        help="只保存在本次运行的内存里，不会被写入磁盘或上传。留空则使用部署时配置好的 Key（如果有的话）。",
-    )
-    api_key = api_key_input or default_api_key
     use_cheap = st.checkbox("使用更便宜的 Haiku 模型（速度快、成本更低，但判断可能略粗）", value=False)
     model = CHEAP_MODEL if use_cheap else DEFAULT_MODEL
     st.caption(f"当前模型：`{model}`")
@@ -462,8 +456,6 @@ with st.sidebar:
         ),
     )
     score_runs = 2 if stable_mode else 1
-    st.divider()
-    st.caption("没有 API Key？去 [console.anthropic.com](https://console.anthropic.com/settings/keys) 免费注册获取。")
 
 col1, col2 = st.columns([1, 1])
 with col1:
