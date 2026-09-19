@@ -7,6 +7,7 @@ import json
 import re
 import statistics
 from pathlib import Path
+from typing import Optional
 
 import anthropic
 
@@ -495,10 +496,11 @@ class _TruncatedResponseError(RuntimeError):
 
 
 def _score_resume_once(
-    resume_text: str,
-    field: dict,
-    jd_reference: str,
-    api_key: str,
+    resume_text: Optional[str] = None,
+    resume_image: Optional[dict] = None,
+    field: dict = None,
+    jd_reference: str = None,
+    api_key: str = None,
     model: str = DEFAULT_MODEL,
     cache_resume: bool = False,
 ) -> dict:
@@ -508,12 +510,23 @@ def _score_resume_once(
     2次调用里只要有1次踩到就会让整个评估失败，重试一次能大幅降低用户实际感知到的失败率）。
     其他类型的报错（比如API key无效、网络彻底不通）重试没有意义，直接原样抛出。
 
+    resume_text / resume_image 二选一，由调用方 score_resume 保证（见那边的校验）：
+    resume_text 是PDF提取出来的纯文字，resume_image 是 {"media_type": ..., "data": base64字符串}
+    形式的图片——2026-09-19新增，支持学生直接上传图片格式的简历，让模型直接"看图"评分，
+    具体的消息拼装分支在 _score_resume_once_attempt 里。
+
     cache_resume 透传给 _score_resume_once_attempt，见那边的说明。"""
     last_error = None
     for attempt in range(2):
         try:
             return _score_resume_once_attempt(
-                resume_text, field, jd_reference, api_key, model=model, cache_resume=cache_resume
+                resume_text=resume_text,
+                resume_image=resume_image,
+                field=field,
+                jd_reference=jd_reference,
+                api_key=api_key,
+                model=model,
+                cache_resume=cache_resume,
             )
         except (json.JSONDecodeError, _TruncatedResponseError) as e:
             last_error = e
@@ -522,10 +535,11 @@ def _score_resume_once(
 
 
 def _score_resume_once_attempt(
-    resume_text: str,
-    field: dict,
-    jd_reference: str,
-    api_key: str,
+    resume_text: Optional[str] = None,
+    resume_image: Optional[dict] = None,
+    field: dict = None,
+    jd_reference: str = None,
+    api_key: str = None,
     model: str = DEFAULT_MODEL,
     cache_resume: bool = False,
 ) -> dict:
@@ -535,11 +549,47 @@ def _score_resume_once_attempt(
     这个函数只负责老老实实地跑一次、如实返回这一次的结果。
     field/jd_reference 由调用方（score_resume）通过 resolve_field 提前解析好再传进来，
     这里不再自己查/自己判断是不是自定义方向——自定义方向的"匹配现有领域"这一步只应该做一次，
-    不能每次调用都重新匹配一遍，否则2次调用可能匹配到不同的领域组合，取中位数就没有意义了。"""
+    不能每次调用都重新匹配一遍，否则2次调用可能匹配到不同的领域组合，取中位数就没有意义了。
+
+    2026-09-19：resume_text 和 resume_image 二选一——resume_image 非空时直接把图片作为视觉输入
+    发给模型（不再要求先提取出纯文字），让Claude自己"看图"读取简历内容评分；这种情况下没有一份
+    独立的原文文字可以拿来做"_quote_in_resume 核对模型引用是否属实"这道防幻觉检查，所以图片模式下
+    跳过这道校验、把结果里 evidence_verification_available 标成 False，由 app.py/report.py 统一
+    展示一条"图片上传、无法逐字核对"的说明，而不是对每一条引用都打上误导性的"未核实"红色警告。"""
+    if (resume_text is None) == (resume_image is None):
+        raise ValueError("resume_text 和 resume_image 必须且只能提供一个")
+    has_text = resume_text is not None
+
     framework = load_framework()
     system_prompt = build_system_prompt(framework, field, jd_reference)
 
     client = anthropic.Anthropic(api_key=api_key)
+
+    if resume_image is not None:
+        user_content = [
+            {
+                "type": "image",
+                "source": {
+                    "type": "base64",
+                    "media_type": resume_image["media_type"],
+                    "data": resume_image["data"],
+                },
+                **({"cache_control": {"type": "ephemeral"}} if cache_resume else {}),
+            },
+            {
+                "type": "text",
+                "text": "以上是学生简历原文（图片形式），请按上述标准评分：",
+            },
+        ]
+    else:
+        user_content = [
+            {
+                "type": "text",
+                "text": f"以下是学生简历原文，请按上述标准评分：\n\n{resume_text}",
+                **({"cache_control": {"type": "ephemeral"}} if cache_resume else {}),
+            }
+        ]
+
     response = client.messages.create(
         model=model,
         # 7个维度的证据+理由，加上ATS关键词/优缺点等額外字段，用中文和"先摘证据再打分"的结构写完整，
@@ -565,13 +615,7 @@ def _score_resume_once_attempt(
         messages=[
             {
                 "role": "user",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": f"以下是学生简历原文，请按上述标准评分：\n\n{resume_text}",
-                        **({"cache_control": {"type": "ephemeral"}} if cache_resume else {}),
-                    }
-                ],
+                "content": user_content,
             }
         ],
         # 按固定评分标准打分属于结构化任务，不需要模型深度自由推理，
@@ -604,7 +648,9 @@ def _score_resume_once_attempt(
         rationale[key] = entry.get("rationale", "")
         ev_list = [q for q in (entry.get("evidence") or []) if isinstance(q, str) and q.strip()]
         evidence[key] = ev_list
-        evidence_verified[key] = [_quote_in_resume(resume_text, q) for q in ev_list]
+        evidence_verified[key] = (
+            [_quote_in_resume(resume_text, q) for q in ev_list] if has_text else [True] * len(ev_list)
+        )
 
     weights = field["weights"]
     base = sum(weights[k] * (scores[k] / 5) for k in weights)
@@ -618,23 +664,32 @@ def _score_resume_once_attempt(
     ats_keywords_raw = [
         kw.strip() for kw in (data.get("ats_keywords") or []) if isinstance(kw, str) and kw.strip()
     ]
-    ats_keywords, ats_keywords_unverified = [], []
-    for kw in ats_keywords_raw:
-        (ats_keywords if _quote_in_resume(resume_text, kw) else ats_keywords_unverified).append(kw)
+    if has_text:
+        ats_keywords, ats_keywords_unverified = [], []
+        for kw in ats_keywords_raw:
+            (ats_keywords if _quote_in_resume(resume_text, kw) else ats_keywords_unverified).append(kw)
+    else:
+        ats_keywords, ats_keywords_unverified = ats_keywords_raw, []
 
     vague_phrases_raw = [
         s.strip() for s in (data.get("vague_phrases") or []) if isinstance(s, str) and s.strip()
     ]
-    vague_phrases, vague_phrases_unverified = [], []
-    for s in vague_phrases_raw:
-        (vague_phrases if _quote_in_resume(resume_text, s) else vague_phrases_unverified).append(s)
+    if has_text:
+        vague_phrases, vague_phrases_unverified = [], []
+        for s in vague_phrases_raw:
+            (vague_phrases if _quote_in_resume(resume_text, s) else vague_phrases_unverified).append(s)
+    else:
+        vague_phrases, vague_phrases_unverified = vague_phrases_raw, []
 
     strong_phrases_raw = [
         s.strip() for s in (data.get("strong_phrases") or []) if isinstance(s, str) and s.strip()
     ]
-    strong_phrases, strong_phrases_unverified = [], []
-    for s in strong_phrases_raw:
-        (strong_phrases if _quote_in_resume(resume_text, s) else strong_phrases_unverified).append(s)
+    if has_text:
+        strong_phrases, strong_phrases_unverified = [], []
+        for s in strong_phrases_raw:
+            (strong_phrases if _quote_in_resume(resume_text, s) else strong_phrases_unverified).append(s)
+    else:
+        strong_phrases, strong_phrases_unverified = strong_phrases_raw, []
 
     return {
         "framework": framework,
@@ -643,6 +698,7 @@ def _score_resume_once_attempt(
         "dimension_rationale": rationale,
         "dimension_evidence": evidence,
         "dimension_evidence_verified": evidence_verified,
+        "evidence_verification_available": has_text,
         "ats_keywords": ats_keywords,
         "ats_keywords_unverified": ats_keywords_unverified,
         "vague_phrases": vague_phrases,
@@ -661,9 +717,10 @@ def _score_resume_once_attempt(
 
 
 def score_resume(
-    resume_text: str,
-    field_id: str,
-    api_key: str,
+    resume_text: Optional[str] = None,
+    resume_image: Optional[dict] = None,
+    field_id: str = None,
+    api_key: str = None,
     model: str = DEFAULT_MODEL,
     runs: int = 1,
     custom_field_name: str = None,
@@ -673,6 +730,12 @@ def score_resume(
     默认更看重便宜；app.py里"稳定性模式"勾选框打开时会显式传 runs=2，按需换稳定性。
     Claude Sonnet 5 已取消 temperature 等采样参数，API层面没法强制"完全确定性输出"，
     多次取中位数是目前能做到的最接近"稳定"的办法，代价是API调用次数/费用变成 runs 倍。
+
+    resume_text / resume_image 二选一（这里做校验）：resume_text 是PDF提取出来的纯文字，
+    resume_image 是 {"media_type": ..., "data": base64字符串} 形式的图片——2026-09-19新增，
+    支持学生直接上传图片格式的简历，跳过文字提取，直接让模型"看图"评分（这种情况下没法做
+    "引用是否见于原文"的防幻觉核对，结果里 evidence_verification_available 会是 False，
+    app.py/report.py 会据此展示一条统一的说明，而不是逐条打"未核实"标签）。
 
     聚合规则：
     - 每个维度的分数，取 runs 次结果里的中位数（用 median_low，保证中位数一定是某一次的真实取值，
@@ -691,19 +754,38 @@ def score_resume(
     现有领域并按比例融合出权重/加分项/短板/JD参考，只做这一次、结果被后面 runs 次打分共用——
     不能让每次打分都各自重新匹配一遍，否则2次可能匹配到不同的领域组合，取中位数就失去意义了。
     """
+    if (resume_text is None) == (resume_image is None):
+        raise ValueError("resume_text 和 resume_image 必须且只能提供一个")
+
     framework = load_framework()
     field, jd_reference, match_usage = resolve_field(
         framework, field_id, api_key, custom_field_name=custom_field_name
     )
 
     if runs <= 1:
-        result = _score_resume_once(resume_text, field, jd_reference, api_key, model=model, cache_resume=False)
+        result = _score_resume_once(
+            resume_text=resume_text,
+            resume_image=resume_image,
+            field=field,
+            jd_reference=jd_reference,
+            api_key=api_key,
+            model=model,
+            cache_resume=False,
+        )
         if match_usage:
             result["usage"] = _merge_usage([match_usage, result["usage"]])
         return result
 
     results = [
-        _score_resume_once(resume_text, field, jd_reference, api_key, model=model, cache_resume=True)
+        _score_resume_once(
+            resume_text=resume_text,
+            resume_image=resume_image,
+            field=field,
+            jd_reference=jd_reference,
+            api_key=api_key,
+            model=model,
+            cache_resume=True,
+        )
         for _ in range(runs)
     ]
 
@@ -741,6 +823,7 @@ def score_resume(
         "dimension_rationale": rationale,
         "dimension_evidence": evidence,
         "dimension_evidence_verified": evidence_verified,
+        "evidence_verification_available": rep["evidence_verification_available"],
         "ats_keywords": rep["ats_keywords"],
         "ats_keywords_unverified": rep["ats_keywords_unverified"],
         "vague_phrases": rep["vague_phrases"],

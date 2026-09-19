@@ -249,6 +249,14 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
 
     y = section_title(y, "分项表现区间")
 
+    if not result.get("evidence_verification_available", True):
+        y = _draw_wrapped_mixed(
+            c,
+            "ℹ️ 这份简历是以图片形式上传评估的，下面引用的原文片段没法逐字核对是否真实存在，请自行留意准确性。",
+            MARGIN, y, 7.5, CONTENT_W, 10, color=SUB,
+        )
+        y -= 4
+
     band_w = CONTENT_W
     zone_w = band_w / 5
     for key in DIM_ORDER:
@@ -344,7 +352,11 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
     }
 
     if not resume_pdf_bytes:
-        highlight_info["reason"] = "没有拿到简历原始PDF字节（可能是旧版本session状态，重新上传一次简历再评估即可）"
+        highlight_info["reason"] = (
+            "没有拿到简历原始PDF字节——如果这份简历是以图片格式上传评估的，这一段本来就会跳过"
+            "（图片没有PDF页面坐标信息，没法做关键词高亮定位）；如果上传的明明是PDF却看到这条提示，"
+            "可能是旧版本session状态，重新上传一次简历再评估即可"
+        )
     elif not ats_keywords and not vague_phrases and not strong_phrases:
         highlight_info["reason"] = "本次AI没有识别出可核实的标注内容"
     else:

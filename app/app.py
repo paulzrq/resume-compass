@@ -455,9 +455,22 @@ with st.sidebar:
     )
     score_runs = 2 if stable_mode else 1
 
+# 2026-09-19：除了PDF，现在也支持直接上传图片格式的简历（拍照/截图都可以）——
+# 图片会原样作为视觉输入发给Claude，让模型自己"看图"评分，不再要求先提取出纯文字。
+# key是Streamlit file_uploader给出的MIME类型，value是发给Anthropic API时用的media_type
+# （两者目前一致，用一个字典是为了以后要是哪个类型写法不一样时只用改这一处）。
+IMAGE_MEDIA_TYPES = {
+    "image/png": "image/png",
+    "image/jpeg": "image/jpeg",
+    "image/webp": "image/webp",
+}
+
 col1, col2 = st.columns([1, 1])
 with col1:
-    uploaded = st.file_uploader("上传简历（PDF）", type=["pdf"])
+    uploaded = st.file_uploader(
+        "上传简历（PDF 或图片：PNG / JPG / WEBP）",
+        type=["pdf", "png", "jpg", "jpeg", "webp"],
+    )
     student_name = st.text_input("学生姓名", value=(uploaded.name.rsplit(".", 1)[0] if uploaded else ""))
 with col2:
     field_name = st.selectbox("目标领域", list(field_options.keys()) + [CUSTOM_OPTION_LABEL])
@@ -494,16 +507,38 @@ if run:
     )
     try:
         with spinner_cm:
-            resume_pdf_bytes = uploaded.getvalue()
-            with pdfplumber.open(uploaded) as pdf:
-                resume_text = "\n".join(page.extract_text() or "" for page in pdf.pages)
-            if not resume_text.strip():
-                st.error("没能从这份PDF里提取到文字，可能是扫描件图片版，暂不支持。")
+            raw_bytes = uploaded.getvalue()
+            is_image = uploaded.type in IMAGE_MEDIA_TYPES
+            resume_text = None
+            resume_image = None
+            # resume_pdf_bytes 只在真正是PDF时才保留——report.py靠它生成"附原文标注"那一段，
+            # 那段逻辑是按PDF页面坐标做关键词高亮定位的，图片没有对应的坐标信息，保持None
+            # 会让report.py自然跳过那一段（它本来就有"没拿到PDF字节"的兜底分支），而不是
+            # 硬塞一个根本不是PDF的字节串进去导致后面解析报错。
+            resume_pdf_bytes = None
+            proceed = True
+            if is_image:
+                resume_image = {
+                    "media_type": IMAGE_MEDIA_TYPES[uploaded.type],
+                    "data": base64.b64encode(raw_bytes).decode("ascii"),
+                }
             else:
+                resume_pdf_bytes = raw_bytes
+                with pdfplumber.open(uploaded) as pdf:
+                    resume_text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+                if not resume_text.strip():
+                    st.error(
+                        "没能从这份PDF里提取到文字，可能是扫描件图片版——"
+                        "可以试试把它导出或截图成PNG/JPG图片再上传，图片格式现在支持直接识别评估。"
+                    )
+                    proceed = False
+
+            if proceed:
                 result = score_resume(
-                    resume_text,
-                    field_id,
-                    api_key,
+                    resume_text=resume_text,
+                    resume_image=resume_image,
+                    field_id=field_id,
+                    api_key=api_key,
                     model=model,
                     runs=score_runs,
                     custom_field_name=custom_field_name.strip() if is_custom_field else None,
@@ -547,6 +582,12 @@ if result:
         st.caption(
             f"🔁 稳定性模式：本次调用了{stability['runs']}次，{stability['runs']}次总分分别为 "
             f"{' / '.join(str(t) for t in totals)}，波动{spread}分，最终各维度取中位数得到上面这个结果"
+        )
+
+    if not result.get("evidence_verification_available", True):
+        st.info(
+            "ℹ️ 这份简历是以图片形式上传的，下面各维度引用的原文片段没法逐字核对是否真实存在，"
+            "请自行留意评估结果的准确性（PDF上传的简历不受影响，照常核对）。"
         )
 
     st.subheader("七维度评分")

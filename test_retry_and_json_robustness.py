@@ -67,7 +67,7 @@ class _FlakyClient:
 scoring.anthropic.Anthropic = _FlakyClient
 framework = scoring.load_framework()
 field = scoring.get_field(framework, "swe")
-result = scoring._score_resume_once("一份简历原文", field, "", api_key="fake-key")
+result = scoring._score_resume_once(resume_text="一份简历原文", field=field, jd_reference="", api_key="fake-key")
 assert len(call_log) == 2, f"应该正好调用了2次（1次截断+1次重试成功），实际是{len(call_log)}次"
 assert result["dimension_scores"]["edu"] == 3
 print("OK: 第1次被max_tokens截断，_score_resume_once自动重试一次后拿到正常结果")
@@ -90,7 +90,7 @@ class _AlwaysTruncatedClient:
 
 scoring.anthropic.Anthropic = _AlwaysTruncatedClient
 try:
-    scoring._score_resume_once("一份简历原文", field, "", api_key="fake-key")
+    scoring._score_resume_once(resume_text="一份简历原文", field=field, jd_reference="", api_key="fake-key")
     raise AssertionError("两次都截断，应该抛出异常，不应该正常返回")
 except scoring._TruncatedResponseError:
     pass
