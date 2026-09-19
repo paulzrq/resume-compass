@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 本地虚拟环境——里面是给 Mac 编译的二进制，不应该进版本库；
+# Streamlit Community Cloud 部署时会根据 requirements.txt 自己重新安装依赖
+app/venv/
+
+# 真实学生数据——评估报告和示例报告里有真实姓名和简历内容，
+# 免费版仓库是公开的，这些绝对不能进去
+reports/
+app/samples/
+
+# 本地专用的 Mac 应用壳（双击启动用），跟 Streamlit Cloud 部署无关
+ResumeCompass.app/
+
+# 密钥只放在 Streamlit Cloud 后台的 Secrets 里配置，不进代码库
+.streamlit/secrets.toml
