@@ -7,7 +7,7 @@ import io
 import os
 import textwrap
 from contextlib import nullcontext
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Optional
 
@@ -19,6 +19,7 @@ from PIL import Image
 
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from report import generate_pdf
+from emailer import send_report_email
 from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
 
 
@@ -511,12 +512,23 @@ if st.session_state.view == "form":
             placeholder="请选择方向分类 → 具体领域",
             key="field_cascader",
         )
-        is_custom_field = bool(selected_path) and selected_path[-1] == CUSTOM_OPTION_LABEL
-        field_name = (
-            selected_path[-1]
-            if (selected_path and not is_custom_field and len(selected_path) >= 2)
-            else None
-        )
+        # 2026-09-19【重要坑，导致了线上KeyError报错】：sac.cascader组件自己的onChange实现
+        # 内部对选中路径的key数组做了 Array.from(new Set(keys)).sort() 处理——但JS的
+        # Array.sort()默认是按"字符串"比较，不是按数字大小！framework.json字段一多，key
+        # 编号超过两位数后（比如分类key=8、它下面的子项key=15），字符串比较下"15"排在"8"
+        # 前面，导致组件返回给Python的selected_path顺序被打乱（变成[子项名, 分类名]而不是
+        # 直觉的[分类名, 子项名]）。之前直接取selected_path[-1]"最后一个"，遇到这种顺序被
+        # 打乱的情况就经常取到分类名而不是真正选中的方向名，拿这个去查field_options就
+        # KeyError了——线上报错就是这么来的。
+        # 修复思路：不依赖selected_path里元素的顺序，直接找哪个元素本身就是field_options
+        # 里的一个合法方向名——不管组件内部把顺序打乱成什么样，都能准确选中。
+        is_custom_field = bool(selected_path) and CUSTOM_OPTION_LABEL in selected_path
+        field_name = None
+        if selected_path and not is_custom_field:
+            for _label in selected_path:
+                if _label in field_options:
+                    field_name = _label
+                    break
         if field_name:
             _render_mascot_card(fields_by_id[field_options[field_name]], dim_name_by_key)
         custom_field_name = ""
@@ -746,6 +758,23 @@ elif st.session_state.view == "result" and st.session_state.result:
         out_path.write_bytes(pdf_bytes)
         st.success(f"PDF报告已自动保存到：reports/{out_name}")
         st.download_button("下载PDF报告", data=pdf_bytes, file_name=out_name, mime="application/pdf")
+
+        # 2026-09-19：顺手把报告存档邮件发出去——免费版Streamlit Cloud容器重启后
+        # reports/文件夹会清空，邮箱是目前最省事的长期留存方式。secrets里没配置发件账号
+        # 时send_report_email()会自己静默跳过，这里不用额外判断；真发送失败了（密码错、
+        # 网络问题等）也只提示一句，不影响上面已经展示的评分结果和下载按钮。
+        try:
+            send_report_email(
+                pdf_bytes,
+                out_name,
+                st.session_state.student_name,
+                result["field"].get("name", "未知方向"),
+                result["total"],
+                result["tier_label"],
+                datetime.now().strftime("%Y-%m-%d %H:%M"),
+            )
+        except Exception as e:
+            st.warning(f"报告存档邮件发送失败（不影响上面的评分结果和下载）：{e}")
 
     usage = result.get("usage") or {}
     in_tok = usage.get("input_tokens")
