@@ -247,7 +247,7 @@ def _render_loading_reel(target_field: Optional[dict]):
             #${{OVERLAY_ID}} .rc-reel-visual {{ position:relative; width:220px; height:220px; }}
             #${{OVERLAY_ID}} .rc-reel-visual img {{
                 position:absolute; inset:0; width:100%; height:100%;
-                border-radius:50%; background:transparent; object-fit:contain; padding:20px;
+                border:none; border-radius:0; background:transparent; object-fit:contain; padding:20px;
                 box-shadow:none;
                 opacity:0; transition:opacity .16s ease;
             }}
@@ -257,12 +257,6 @@ def _render_loading_reel(target_field: Optional[dict]):
                 0%, 100% {{ transform:scale(1); opacity:1; }}
                 50% {{ transform:scale(1.045); opacity:0.95; }}
             }}
-            #${{OVERLAY_ID}} .rc-landed-ring {{
-                position:absolute; inset:-8px; border-radius:50%;
-                border:4px solid #3f7a5c; opacity:0; transform:scale(0.85);
-                transition:opacity .25s ease, transform .25s ease;
-            }}
-            #${{OVERLAY_ID}} .rc-landed-ring.show {{ opacity:1; transform:scale(1); }}
             #${{OVERLAY_ID}} .rc-hint-pill {{
                 position:absolute; top:22px; left:50%; transform:translateX(-50%);
                 background:transparent; border:none; border-radius:999px;
@@ -289,11 +283,11 @@ def _render_loading_reel(target_field: Optional[dict]):
         var overlay = doc.createElement("div");
         overlay.id = OVERLAY_ID;
         overlay.style.cssText = "position:fixed; inset:0; z-index:1000000; "
-            + "background:transparent; "
+            + "background:#FFFFFF; "
             + "display:flex; flex-direction:column; align-items:center; justify-content:center; gap:28px;";
         overlay.innerHTML =
             '<div class="rc-hint-pill">正在评估中，请稍候…</div>'
-            + '<div class="rc-reel-visual" id="rcReelVisual">{imgs_html}<div class="rc-landed-ring" id="rcReelRing"></div></div>'
+            + '<div class="rc-reel-visual" id="rcReelVisual">{imgs_html}</div>'
             + '<div><div class="rc-reel-title" id="rcReelTitle">正在读取简历并调用AI模型打分</div>'
             + '<div class="rc-reel-sub" id="rcReelSub">这个过程一般要十几秒，别急着切走页面</div></div>'
             + '<div class="rc-progress-dots"><span></span><span></span><span></span></div>';
@@ -302,7 +296,6 @@ def _render_loading_reel(target_field: Optional[dict]):
         var ORDER = {order_json};
         var TARGET = "{target_id}";
         var imgs = overlay.querySelectorAll(".rc-reel-visual img");
-        var ring = doc.getElementById("rcReelRing");
         var titleEl = doc.getElementById("rcReelTitle");
         var subEl = doc.getElementById("rcReelSub");
         var targetIdx = ORDER.indexOf(TARGET);
@@ -330,7 +323,6 @@ def _render_loading_reel(target_field: Optional[dict]):
             function step(){{
                 if (steps <= 0){{
                     showIdx(targetIdx);
-                    ring.classList.add("show");
                     imgs[targetIdx].classList.add("landed");
                     titleEl.innerHTML = '已为你分析完 <b>{field_name}</b> 方向';
                     subEl.textContent = "评估结果生成中，即将为你呈现…";
