@@ -14,6 +14,7 @@ from typing import Optional
 import pdfplumber
 import streamlit as st
 import streamlit.components.v1 as components
+import streamlit_antd_components as sac
 from PIL import Image
 
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
@@ -493,10 +494,30 @@ if st.session_state.view == "form":
         )
         student_name = st.text_input("学生姓名", value=(uploaded.name.rsplit(".", 1)[0] if uploaded else ""))
     with col2:
-        category = st.selectbox("方向分类", FIELD_CATEGORIES + [CUSTOM_OPTION_LABEL])
-        is_custom_field = category == CUSTOM_OPTION_LABEL
-        if not is_custom_field:
-            field_name = st.selectbox("目标领域", FIELDS_BY_CATEGORY[category])
+        # 2026-09-19：改成单个下拉（sac.cascader，来自 streamlit-antd-components 组件库），
+        # 点开后左边是分类、右边浮出对应的方向列表，一次选完，不用先选分类再选方向两步走。
+        # 注意：这跟原生 <select><optgroup> 那种"一级标题加粗、二级标题缩进"的竖排样式不一样，
+        # 是Ant Design Cascader自带的左右并排展开面板样式——功能上等价（分组+一次选完+返回完整
+        # 路径），但视觉上是并排面板，这是目前这个组件库能做到的最接近方案。
+        # "自定义方向"作为一个没有children的顶层选项混在分类列表最后——Cascader对没有子级的
+        # 顶层项，点一下就直接算选完（不会尝试展开子级面板），所以这一项也是"点一次就选中"。
+        cascader_items = [
+            sac.CasItem(label=cat, children=[sac.CasItem(label=fname) for fname in FIELDS_BY_CATEGORY[cat]])
+            for cat in FIELD_CATEGORIES
+        ] + [sac.CasItem(label=CUSTOM_OPTION_LABEL)]
+        selected_path = sac.cascader(
+            items=cascader_items,
+            label="目标领域",
+            placeholder="请选择方向分类 → 具体领域",
+            key="field_cascader",
+        )
+        is_custom_field = bool(selected_path) and selected_path[-1] == CUSTOM_OPTION_LABEL
+        field_name = (
+            selected_path[-1]
+            if (selected_path and not is_custom_field and len(selected_path) >= 2)
+            else None
+        )
+        if field_name:
             _render_mascot_card(fields_by_id[field_options[field_name]], dim_name_by_key)
         custom_field_name = ""
         if is_custom_field:
@@ -504,13 +525,18 @@ if st.session_state.view == "form":
                 "请输入目标方向名称",
                 placeholder="比如：碳中和政策研究、跨境电商运营……",
                 help=(
-                    "这个方向不在左边下拉列表里，没有为它预先准备好加分项清单、常见短板参考、真实招聘JD摘录，"
+                    "这个方向不在下拉列表里，没有为它预先准备好加分项清单、常见短板参考、真实招聘JD摘录，"
                     "打分会靠模型对这个方向在真实招聘市场上的通用理解来判断，严谨程度会低于列表里的领域，仅供参考。"
                 ),
             )
         student_meta = ""
 
-    field_ready = (not is_custom_field) or bool(custom_field_name.strip())
+    # 2026-09-19：cascader 初始是空选择（不像旧的两个 selectbox 默认就选中第一项），
+    # 所以这里非自定义分支也要求 field_name 已经选出来，不然按钮会在还没选方向时就被点亮。
+    field_ready = (
+        (is_custom_field and bool(custom_field_name.strip()))
+        or (not is_custom_field and field_name is not None)
+    )
     run = st.button(
         "开始评估",
         type="primary",
