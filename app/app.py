@@ -289,9 +289,14 @@ def _render_loading_reel(target_field: Optional[dict]):
             '<div class="rc-hint-pill">正在评估中，请稍候…</div>'
             + '<div class="rc-reel-visual" id="rcReelVisual">{imgs_html}</div>'
             + '<div><div class="rc-reel-title" id="rcReelTitle">正在读取简历并调用AI模型打分</div>'
-            + '<div class="rc-reel-sub" id="rcReelSub">这个过程一般要十几秒，别急着切走页面</div></div>'
+            + '<div class="rc-reel-sub" id="rcReelSub">评估耗时取决于模型响应，请勿重复提交</div></div>'
             + '<div class="rc-progress-dots"><span></span><span></span><span></span></div>';
         doc.body.appendChild(overlay);
+        // iframe在重跑或停止时被卸载，也要移除属于它的遮罩。
+        window.addEventListener("pagehide", function(){{
+            overlay.remove();
+            styleTag.remove();
+        }}, {{ once:true }});
 
         var ORDER = {order_json};
         var TARGET = "{target_id}";
@@ -324,8 +329,8 @@ def _render_loading_reel(target_field: Optional[dict]):
                 if (steps <= 0){{
                     showIdx(targetIdx);
                     imgs[targetIdx].classList.add("landed");
-                    titleEl.innerHTML = '已为你分析完 <b>{field_name}</b> 方向';
-                    subEl.textContent = "评估结果生成中，即将为你呈现…";
+                    titleEl.textContent = '正在评估 {field_name} 方向';
+                    subEl.textContent = "仍在等待模型返回，完成后会自动显示结果。";
                     return;
                 }}
                 idx = (idx + 1) % ORDER.length;
@@ -349,7 +354,8 @@ def _render_loading_reel(target_field: Optional[dict]):
 
 def _clear_loading_reel(placeholder):
     """打分结果真正返回后调用：先往（已经没有可见内容的）iframe里塞一段清理脚本，
-    通过window.parent.document把之前挂在主页面上的全屏遮罩摘掉，再把placeholder本身清空。
+    通过window.parent.document把之前挂在主页面上的全屏遮罩摘掉。
+    清理iframe必须保留到下一次rerun，否则Streamlit可能合并更新，导致清理脚本根本没有执行。
     直接placeholder.empty()是不够的——遮罩是_render_loading_reel用window.parent.document
     挂到"外面"那个主页面上的，不是这个iframe自己的子节点，iframe被销毁也不会带走它，
     不额外清理的话遮罩会一直卡在屏幕上出不去。"""
@@ -367,7 +373,7 @@ def _clear_loading_reel(placeholder):
     """
     with placeholder.container():
         components.html(cleanup_js, height=1, scrolling=False)
-    placeholder.empty()
+    # 保留清理 iframe，让浏览器有机会执行脚本；不能立即 empty()。
 
 
 def render_pdf_pages_as_images(pdf_bytes: bytes, dpi: int = 150):
