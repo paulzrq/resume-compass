@@ -6,9 +6,14 @@
 顺手用SMTP把报告和原版简历分别当附件发一封邮件出去，邮箱本身就是最简单的"数据库"——
 收件箱能查、能搜、不会因为容器重启就消失。
 
-发件账号是Paul自己的企业邮箱 paul.zhang@graceharborus.com（Microsoft 365 / Outlook托管），
-所以SMTP服务器写死成 smtp.office365.com。如果以后企业邮箱换了服务商，改SMTP_HOST/SMTP_PORT
-这两个常量就行，不用改调用方（app.py）的代码。
+2026-09-19 补充：企业邮箱 paul.zhang@graceharborus.com 那边卡在Microsoft 365的租户级
+SMTP AUTH权限+应用密码开关上，来回找IT配置比较费时间，改用Paul自己的Gmail账号
+resume.compass.v1@gmail.com 当发件方，SMTP服务器相应换成 smtp.gmail.com。收件人不变，
+还是发到 paul.zhang@graceharborus.com。Gmail发信同样需要"应用专用密码"（不是登录密码，
+Gmail几年前就彻底关闭了账号密码直登SMTP这条路），生成方式：先在Google账号安全设置里开
+"两步验证"，再去 myaccount.google.com/apppasswords 生成一个16位专用密码，填进secrets
+的 SMTP_SENDER_PASSWORD 里。如果以后发件邮箱又换了服务商，改SMTP_HOST/SMTP_PORT这两个
+常量就行，不用改调用方（app.py）的代码。
 
 2026-09-19 补充：原本只附评估报告PDF一个文件，现在改成报告PDF + 学生上传的原版简历
 （可能是PDF，也可能是PNG/JPG/WEBP图片）两个附件分开发——所以附件构造这块换成了通用的
@@ -25,8 +30,8 @@ from typing import Optional
 
 import streamlit as st
 
-SMTP_HOST = "smtp.office365.com"
-SMTP_PORT = 587  # Microsoft 365 走 STARTTLS，用587端口（不是SSL专用的465）
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587  # Gmail 也走 STARTTLS，用587端口（不是SSL专用的465）
 
 
 def _get_email_config() -> Optional[dict]:
