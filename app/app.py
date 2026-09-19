@@ -414,6 +414,10 @@ if "result" not in st.session_state:
     st.session_state.result = None
 if "resume_pdf_bytes" not in st.session_state:
     st.session_state.resume_pdf_bytes = None
+if "resume_original_bytes" not in st.session_state:
+    st.session_state.resume_original_bytes = None
+if "resume_original_filename" not in st.session_state:
+    st.session_state.resume_original_filename = None
 
 framework = load_framework()
 field_options = {f["name"]: f["id"] for f in framework["fields"]}
@@ -604,6 +608,8 @@ if st.session_state.view == "form":
                     )
                     st.session_state.result = result
                     st.session_state.resume_pdf_bytes = resume_pdf_bytes
+                    st.session_state.resume_original_bytes = raw_bytes
+                    st.session_state.resume_original_filename = uploaded.name
                     st.session_state.student_name = student_name
                     st.session_state.student_meta = student_meta
                     st.session_state.view = "result"
@@ -622,6 +628,8 @@ elif st.session_state.view == "result" and st.session_state.result:
         st.session_state.view = "form"
         st.session_state.result = None
         st.session_state.resume_pdf_bytes = None
+        st.session_state.resume_original_bytes = None
+        st.session_state.resume_original_filename = None
         st.rerun()
     st.divider()
     _render_score_badge(result)
@@ -772,6 +780,8 @@ elif st.session_state.view == "result" and st.session_state.result:
                 result["total"],
                 result["tier_label"],
                 datetime.now().strftime("%Y-%m-%d %H:%M"),
+                resume_bytes=st.session_state.resume_original_bytes,
+                resume_filename=st.session_state.resume_original_filename,
             )
         except Exception as e:
             st.warning(f"报告存档邮件发送失败（不影响上面的评分结果和下载）：{e}")

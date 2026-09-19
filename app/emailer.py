@@ -3,18 +3,24 @@
 2026-09-19：免费版 Streamlit Cloud 的容器是"用完即焚"的——reports/ 文件夹存的PDF只活在当次
 容器的磁盘上，代码一有更新触发重新部署、或者12小时没人访问被自动唤醒重启，之前生成的报告
 就全没了，没有任何长期留存机制。这个模块用最省事的办法补上这个缺口：每次生成完PDF，
-顺手用SMTP把报告当附件发一封邮件出去，邮箱本身就是最简单的"数据库"——收件箱能查、能搜、
-不会因为容器重启就消失。
+顺手用SMTP把报告和原版简历分别当附件发一封邮件出去，邮箱本身就是最简单的"数据库"——
+收件箱能查、能搜、不会因为容器重启就消失。
 
 发件账号是Paul自己的企业邮箱 paul.zhang@graceharborus.com（Microsoft 365 / Outlook托管），
 所以SMTP服务器写死成 smtp.office365.com。如果以后企业邮箱换了服务商，改SMTP_HOST/SMTP_PORT
 这两个常量就行，不用改调用方（app.py）的代码。
+
+2026-09-19 补充：原本只附评估报告PDF一个文件，现在改成报告PDF + 学生上传的原版简历
+（可能是PDF，也可能是PNG/JPG/WEBP图片）两个附件分开发——所以附件构造这块换成了通用的
+_build_attachment()，靠文件名后缀猜MIME类型，PDF、图片统一处理，不用为每种格式单独写。
 """
+import mimetypes
 import smtplib
 import ssl
-from email.mime.application import MIMEApplication
+from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email import encoders
 from typing import Optional
 
 import streamlit as st
@@ -38,6 +44,22 @@ def _get_email_config() -> Optional[dict]:
     return {"sender": sender, "password": password, "recipient": recipient}
 
 
+def _build_attachment(data: bytes, filename: str) -> MIMEBase:
+    """通用附件构造：靠文件名后缀猜MIME类型（PDF、PNG、JPG、WEBP都能猜对），猜不出来的
+    统一按 application/octet-stream 处理——不管是评估报告PDF还是学生上传的原版简历
+    （PDF或图片），都走这一个函数，不用为每种格式单独写一遍attach逻辑。"""
+    mime_type, _ = mimetypes.guess_type(filename)
+    if mime_type:
+        maintype, subtype = mime_type.split("/", 1)
+    else:
+        maintype, subtype = "application", "octet-stream"
+    part = MIMEBase(maintype, subtype)
+    part.set_payload(data)
+    encoders.encode_base64(part)
+    part.add_header("Content-Disposition", "attachment", filename=filename)
+    return part
+
+
 def send_report_email(
     pdf_bytes: bytes,
     filename: str,
@@ -46,8 +68,14 @@ def send_report_email(
     total_score,
     tier_label: str,
     timestamp: str,
+    resume_bytes: Optional[bytes] = None,
+    resume_filename: Optional[str] = None,
 ) -> None:
-    """把评估报告当附件发邮件存档，供以后翻查。
+    """把评估报告PDF、以及学生上传的原版简历（如果有），分别当附件发邮件存档，供以后翻查。
+    resume_bytes/resume_filename 传None就只发报告这一个附件（不报错，正常发送）——
+    调用方app.py理论上每次评估都能拿到原版简历，但这里做成可选参数是为了防御性兜底：
+    万一以后哪个上传分支忘了存原文件字节，也不会导致整个邮件发送失败。
+
     Secrets没配置齐的话直接静默跳过（返回，不抛异常）——这种情况下调用方看不出区别，
     因为本来就没开启这功能。配置齐了但发送过程本身出错（密码错、网络问题、企业邮箱那边
     没开SMTP AUTH等）会抛异常，由调用方（app.py）负责兜底捕获并提示，绝不能让这一步的
@@ -61,18 +89,24 @@ def send_report_email(
     msg["From"] = config["sender"]
     msg["To"] = config["recipient"]
 
+    has_resume_attachment = bool(resume_bytes and resume_filename)
     body = (
         f"学生姓名：{student_name}\n"
         f"目标方向：{field_name}\n"
         f"综合得分：{total_score}/100（{tier_label}）\n"
         f"评估时间：{timestamp}\n\n"
-        f"完整评估报告见附件PDF。此邮件由简历罗盘自动发送，用于存档。"
+        + (
+            "附件包含：评估报告PDF + 学生上传的原版简历。"
+            if has_resume_attachment
+            else "附件包含：评估报告PDF（没有拿到原版简历文件，只有报告）。"
+        )
+        + "\n此邮件由简历罗盘自动发送，用于存档。"
     )
     msg.attach(MIMEText(body, "plain", "utf-8"))
 
-    attachment = MIMEApplication(pdf_bytes, _subtype="pdf")
-    attachment.add_header("Content-Disposition", "attachment", filename=filename)
-    msg.attach(attachment)
+    msg.attach(_build_attachment(pdf_bytes, filename))
+    if has_resume_attachment:
+        msg.attach(_build_attachment(resume_bytes, resume_filename))
 
     context = ssl.create_default_context()
     with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=20) as server:
