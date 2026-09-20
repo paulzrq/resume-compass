@@ -99,7 +99,11 @@ def generate_share_card(field_id, field_name, total):
     return output.getvalue()
 
 
-def render_share_button(png):
-    encoded = base64.b64encode(png).decode('ascii')
-    template = (Path(__file__).parent / 'share_button.html').read_text()
-    components.html(template.replace('__PNG__', encoded), height=125)
+_share_component = components.declare_component(
+    "resume_share", path=str(Path(__file__).parent / "share_component")
+)
+
+
+def render_share_button(png, key):
+    return _share_component(png=base64.b64encode(png).decode('ascii'),
+                            key=key, default=False)

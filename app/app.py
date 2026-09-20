@@ -6,6 +6,7 @@ import base64
 import io
 import os
 import textwrap
+import uuid
 from contextlib import nullcontext
 from datetime import date, datetime
 from pathlib import Path
@@ -655,6 +656,8 @@ if st.session_state.view == "form":
                         runs=score_runs,
                         custom_field_name=custom_field_name.strip() if is_custom_field else None,
                     )
+                    st.session_state.report_unlocked = False
+                    st.session_state.assessment_id = uuid.uuid4().hex
                     st.session_state.result = result
                     st.session_state.resume_pdf_bytes = resume_pdf_bytes
                     st.session_state.resume_original_bytes = raw_bytes
@@ -681,7 +684,6 @@ elif st.session_state.view == "result" and st.session_state.result:
         st.session_state.resume_original_filename = None
         st.rerun()
     st.divider()
-    _render_score_badge(result)
     with st.expander("分享评估卡", expanded=True):
         try:
             share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"])
@@ -689,9 +691,16 @@ elif st.session_state.view == "result" and st.session_state.result:
                 st.session_state.share_card_png = generate_share_card(*share_key)
                 st.session_state.share_card_key = share_key
             st.image(st.session_state.share_card_png, width=360)
-            render_share_button(st.session_state.share_card_png)
+            if render_share_button(st.session_state.share_card_png,
+                                   key="share-" + st.session_state.get("assessment_id", "legacy")):
+                st.session_state.report_unlocked = True
         except Exception:
-            st.warning("分享卡暂时无法生成，请继续查看或下载报告。")
+            st.warning("分享卡暂时无法生成，请稍后重试。")
+    if not st.session_state.get("report_unlocked", False):
+        st.caption("点击分享卡片后查看完整报告。")
+        st.stop()
+
+    _render_score_badge(result)
     if result.get("stage_note"):
         st.info(result["stage_note"])
 
