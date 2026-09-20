@@ -22,6 +22,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas as rl_canvas
 
+from branding import draw_report_logo
 from mascots import mascot_path
 
 _FONT_PATH = _Path(__file__).resolve().parent / "fonts" / "DroidSansFallbackFull.ttf"
@@ -159,6 +160,8 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
         return y
 
     y = PAGE_H - MARGIN
+
+    draw_report_logo(c, MARGIN, y + 8)
 
     # ---- letterhead ----
     c.setStrokeColor(BLUE)

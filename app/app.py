@@ -18,6 +18,7 @@ import streamlit_antd_components as sac
 from PIL import Image
 
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
+from branding import logo_svg_data_uri
 from report import generate_pdf
 from emailer import send_report_email
 from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
@@ -65,6 +66,15 @@ def _inject_background_decoration():
             width: calc(100% - 2.5rem);
             padding: 1.5rem 2rem 2.5rem;
             box-shadow: none;
+        }}
+        [data-testid="stMainBlockContainer"] h1 {{ position:relative; padding-right:220px; }}
+        [data-testid="stMainBlockContainer"] h1::after {{
+            content:""; position:absolute; right:0; top:50%; transform:translateY(-50%);
+            width:200px; height:37px; background:url("{logo_svg_data_uri()}") right center / contain no-repeat;
+        }}
+        @media (max-width:640px) {{
+            [data-testid="stMainBlockContainer"] h1 {{ padding-right:140px; }}
+            [data-testid="stMainBlockContainer"] h1::after {{ width:125px; height:24px; }}
         }}
         </style>
         """),
