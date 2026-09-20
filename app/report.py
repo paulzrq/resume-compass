@@ -163,22 +163,8 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
 
     draw_report_logo(c, MARGIN, y + 8)
 
-    # ---- letterhead ----
-    c.setStrokeColor(BLUE)
-    c.setLineWidth(1.8)
-    c.line(MARGIN, y, PAGE_W - MARGIN, y)
-    y -= 12
-    _draw_mixed(c, "简历罗盘 · 学生竞争力评估中心", MARGIN, y, 8, color=BLUE)
-    _draw_mixed_right(
-        c,
-        f"报告编号 RC-{date.today().strftime('%Y%m%d')}　签发日期 {date.today().isoformat()}",
-        PAGE_W - MARGIN, y, 8, color=SUB,
-    )
-    y -= 8
-    c.setStrokeColor(BLUE)
-    c.setLineWidth(0.6)
-    c.line(MARGIN, y, PAGE_W - MARGIN, y)
-    y -= 26
+    # Removed the report metadata strip; preserve all existing body positions.
+    y -= 46
 
     # ---- student ----
     _draw_mixed_centred(c, student_name, PAGE_W / 2, y, 16, color=INK)

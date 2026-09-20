@@ -90,6 +90,21 @@ def _inject_background_decoration():
             aspect-ratio: {logo_w} / {logo_h};
             background:url("{logo_svg_data_uri()}") right center / contain no-repeat;
         }}
+        @media (max-width:640px) {{
+            [data-testid="stMainBlockContainer"], .block-container {{
+                width:calc(100% - 24px); padding-left:16px; padding-right:16px;
+            }}
+            [data-testid="stMainBlockContainer"] h1 {{
+                display:flex; align-items:center; justify-content:space-between;
+                gap:12px; width:100%; padding-right:0;
+                font-size:clamp(18px, 5vw, 24px); line-height:1.25;
+                white-space:nowrap; word-break:keep-all;
+            }}
+            [data-testid="stMainBlockContainer"] h1::after {{
+                position:static; transform:none; flex:0 0 auto;
+                width:clamp(110px, 30vw, 140px);
+            }}
+        }}
         </style>
         """),
         unsafe_allow_html=True,
