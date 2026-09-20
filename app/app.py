@@ -450,7 +450,18 @@ PROJECT_DIR = APP_DIR.parent
 REPORT_DIR = PROJECT_DIR / "reports"
 REPORT_DIR.mkdir(exist_ok=True)
 
-st.set_page_config(page_title="简历罗盘", page_icon="🧭", layout="wide")
+st.set_page_config(page_title="简历罗盘", page_icon="🧭", layout="wide", initial_sidebar_state="collapsed")
+# Hide host controls independently of optional background assets.
+st.markdown(textwrap.dedent("""
+<style>
+[data-testid="stHeader"], [data-testid="stToolbar"],
+[data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"], [data-testid="stMainMenu"],
+[data-testid="stAppDeployButton"], #MainMenu {
+    display: none !important;
+}
+</style>
+"""), unsafe_allow_html=True)
 # 2026-09-19：重新启用背景装饰（见 _inject_background_decoration 里的说明）——
 # 现在内容区自己盖了层不透明白卡片，装饰图案只会露在卡片外面的留白处，不会再挡文字。
 _inject_background_decoration()
@@ -509,26 +520,9 @@ api_key = secret_api_key or env_api_key
 if not api_key:
     st.error("评估服务尚未配置，请联系管理员。")
 
-with st.sidebar:
-    st.subheader("设置")
-    use_cheap = st.checkbox("使用更便宜的 Haiku 模型（速度快、成本更低，但判断可能略粗）", value=False)
-    model = CHEAP_MODEL if use_cheap else DEFAULT_MODEL
-    st.caption(f"当前模型：`{model}`")
-    st.divider()
-    # 2026-09-19：默认改回单次调用——2次取中位数虽然更稳，但费用是2倍，
-    # 权衡下来先把"便宜"作为默认，稳定性模式留着，需要更谨慎的场合（比如正式发给学生前）
-    # 可以手动勾选，按需多花这一倍费用换稳定性，而不是每次都默认多花。
-    stable_mode = st.checkbox(
-        "稳定性模式：同一份简历调用2次取中位数分数，减少单次波动（费用变成2倍，默认关闭）",
-        value=False,
-        help=(
-            "Claude Sonnet 5 已取消 temperature 等采样参数，模型没法在API层面强制输出完全一致，"
-            "调用2次取中位数是目前能做到的最接近\"稳定\"的办法，但要多花一倍费用，默认不开。"
-            "平时单次调用已经够用；如果是要正式发给学生、比较看重分数前后一致性的场合，"
-            "可以手动勾上，用多一倍费用换一次更稳的结果。"
-        ),
-    )
-    score_runs = 2 if stable_mode else 1
+# Keep operational settings server-side; students only see the assessment form.
+model = DEFAULT_MODEL
+score_runs = 1
 
 # 2026-09-19：除了PDF，现在也支持直接上传图片格式的简历（拍照/截图都可以）——
 # 图片会原样作为视觉输入发给Claude，让模型自己"看图"评分，不再要求先提取出纯文字。
