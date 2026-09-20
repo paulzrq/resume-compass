@@ -24,19 +24,7 @@ from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
 
 
 def _inject_background_decoration():
-    """用全部28个职业插画拼成的低透明度背景图，铺满整个页面，作为简历罗盘的视觉装饰。
-    图片本身已经按最终展示尺寸生成（7列x4行，每格一个人物），平铺时按原始像素1:1显示，
-    不需要再用CSS缩放。
-
-    2026-09-19：重新启用，但换了个更安全的做法——之前是直接铺在.stApp整个背景上，
-    跟内容区的文字撞在一起导致看不清（那次的bug），这次让实际内容区（.block-container）
-    盖一层不透明白色"卡片"（圆角+留白+外边距），插画图案只会在卡片以外的页面留白处
-    露出来，不会出现在文字后面。因为页面用的是wide布局，卡片本身还是接近满宽，
-    露出来的主要是卡片四周这一圈留白，不是那种大面积背景——这是"要装饰、也要保证
-    文字永远清晰"这两个目标之间的折中，不是完整的全页平铺效果。
-    如果实测发现Streamlit这个版本用的CSS选择器（.main .block-container /
-    [data-testid="stAppViewContainer"]）跟这里写的对不上、卡片没生效，
-    需要打开浏览器开发者工具看一下实际的class/data-testid再调整选择器。"""
+    """背景与内容区跟随Streamlit主题，装饰图只在内容区外低透明度展示。"""
     bg_path = Path(__file__).resolve().parent / "assets" / "bg_pattern.png"
     if not bg_path.is_file():
         return
@@ -44,16 +32,30 @@ def _inject_background_decoration():
     st.markdown(
         textwrap.dedent(f"""
         <style>
-        .stApp {{
-            background-color: #FFFFFF;
+        #root, #root div:has(.stApp), .stApp,
+        [data-testid="stAppViewContainer"], [data-testid="stAppViewContainer"] > div,
+        [data-testid="stMain"] {{
+            background-color: inherit;
+            color: inherit;
+            isolation: isolate;
+        }}
+        [data-testid="stMain"]::before {{
+            content: "";
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
             background-image: url("data:image/png;base64,{b64}");
             background-repeat: repeat;
+            opacity: 0.12;
         }}
-        [data-testid="stAppViewContainer"] .main .block-container,
-        .main .block-container {{
-            background-color: #FFFFFF;
+        [data-testid="stMainBlockContainer"],
+        .block-container {{
+            background-color: inherit;
+            color: inherit;
             border-radius: 20px;
-            margin: 1rem 1.25rem 2rem;
+            margin: 1rem auto 2rem;
+            width: calc(100% - 2.5rem);
             padding: 1.5rem 2rem 2.5rem;
             box-shadow: 0 1px 4px rgba(43,38,32,0.05);
         }}
@@ -88,8 +90,8 @@ def _render_mascot_card(field: dict, dim_name_by_key: dict):
                 background:#ffffff; object-fit:contain; flex-shrink:0;
             ">
             <div>
-                <div style="font-size:0.78rem; color:#8a8073; margin-bottom:2px;">已选定目标方向</div>
-                <div style="font-size:1.02rem; font-weight:700; color:#2b2620;">{field['name']}</div>
+                <div style="font-size:0.78rem; color:inherit; opacity:0.72; margin-bottom:2px;">已选定目标方向</div>
+                <div style="font-size:1.02rem; font-weight:700; color:inherit;">{field['name']}</div>
             </div>
         </div>
         """),
@@ -160,10 +162,10 @@ def _render_score_badge(result: dict):
         <div style="display:flex; align-items:center; gap:24px; padding:8px 4px 4px;">
             {visual_html}
             <div>
-                <div style="font-size:0.9rem; color:#8a8073; margin-bottom:4px;">{field['name']} · 评估结果</div>
+                <div style="font-size:0.9rem; color:inherit; opacity:0.72; margin-bottom:4px;">{field['name']} · 评估结果</div>
                 <div style="display:flex; align-items:baseline; gap:6px; margin-bottom:8px;">
-                    <span style="font-size:2.4rem; font-weight:800; line-height:1; color:{color};">{total}</span>
-                    <span style="font-size:1rem; color:#8a8073;">/ 100</span>
+                    <span style="font-size:2.4rem; font-weight:800; line-height:1; color:inherit;">{total}</span>
+                    <span style="font-size:1rem; color:inherit; opacity:0.72;">/ 100</span>
                 </div>
                 <span style="display:inline-block; font-size:0.85rem; font-weight:700;
                              padding:5px 14px; border-radius:999px; color:{color}; background:{bg};">
