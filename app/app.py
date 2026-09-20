@@ -24,7 +24,7 @@ from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
 
 
 def _inject_background_decoration():
-    """背景与内容区跟随Streamlit主题，装饰图只在内容区外低透明度展示。"""
+    """统一使用系统主题底色，以低对比度人物剪影装饰，避免图片白底造成色块分界。"""
     bg_path = Path(__file__).resolve().parent / "assets" / "bg_pattern.png"
     if not bg_path.is_file():
         return
@@ -45,19 +45,26 @@ def _inject_background_decoration():
             inset: 0;
             z-index: -1;
             pointer-events: none;
-            background-image: url("data:image/png;base64,{b64}");
-            background-repeat: repeat;
-            opacity: 0.12;
+            /* 从图片亮度中扣除白底，仅保留人物轮廓；颜色随主题文字色变化。 */
+            background-color: currentColor;
+            mask-image: linear-gradient(#fff, #fff), url("data:image/png;base64,{b64}");
+            mask-mode: alpha, luminance;
+            mask-composite: subtract;
+            mask-repeat: no-repeat, repeat;
+            opacity: 0.09;
+        }}
+        @supports not (mask-composite: subtract) {{
+            [data-testid="stMain"]::before {{ display: none; }}
         }}
         [data-testid="stMainBlockContainer"],
         .block-container {{
-            background-color: inherit;
+            background-color: transparent;
             color: inherit;
-            border-radius: 20px;
+            border-radius: 0;
             margin: 1rem auto 2rem;
             width: calc(100% - 2.5rem);
             padding: 1.5rem 2rem 2.5rem;
-            box-shadow: 0 1px 4px rgba(43,38,32,0.05);
+            box-shadow: none;
         }}
         </style>
         """),
