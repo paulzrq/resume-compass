@@ -103,7 +103,7 @@ def match_custom_field_to_existing(name: str, framework: dict, api_key: str, top
             max_tokens=512,
             system=system_prompt,
             messages=[{"role": "user", "content": f"自定义方向：{name}"}],
-            output_config={"effort": "low"},
+            output_config={"effort": "low", "format": {"type": "json_schema", "schema": _score_schema(framework)}},
         )
         usage = _extract_usage(response)
         raw_text = None
@@ -490,6 +490,51 @@ def _merge_usage(usage_list: list) -> dict:
     return {k: sum((u.get(k) or 0) for u in usage_list) for k in _USAGE_KEYS}
 
 
+class _InvalidScoreResponseError(RuntimeError):
+    """Incomplete or invalid scoring data; never substitute invented scores."""
+
+
+def _score_schema(framework):
+    def obj(properties):
+        return {"type": "object", "properties": properties,
+                "required": list(properties), "additionalProperties": False}
+    strings = {"type": "array", "items": {"type": "string"}}
+    dimension = obj({"evidence": strings, "rationale": {"type": "string"},
+                     "score": {"type": "integer", "enum": [1, 2, 3, 4, 5]}})
+    return obj({
+        "dimensions": obj({d["key"]: dimension for d in framework["dimensions"]}),
+        **{key: strings for key in ("ats_keywords", "vague_phrases", "strong_phrases", "strengths", "gaps")},
+        "bonus_checked": {"type": "array", "items": {"type": "integer"}},
+        "stage_note": {"type": "string"},
+    })
+
+
+def _validate_score_data(data, framework, field):
+    def invalid():
+        raise _InvalidScoreResponseError("评分数据不完整或格式不正确")
+    if not isinstance(data, dict) or not isinstance(data.get("dimensions"), dict):
+        invalid()
+    for dimension in framework["dimensions"]:
+        entry = data["dimensions"].get(dimension["key"])
+        if not isinstance(entry, dict):
+            invalid()
+        score = entry.get("score")
+        if type(score) is not int or not 1 <= score <= 5:
+            invalid()
+        if not isinstance(entry.get("rationale"), str):
+            invalid()
+        if not isinstance(entry.get("evidence"), list) or not all(isinstance(q, str) for q in entry["evidence"]):
+            invalid()
+    for key in ("ats_keywords", "vague_phrases", "strong_phrases", "strengths", "gaps"):
+        if not isinstance(data.get(key), list) or not all(isinstance(v, str) for v in data[key]):
+            invalid()
+    bonuses = data.get("bonus_checked")
+    if not isinstance(bonuses, list) or any(type(i) is not int or not 0 <= i < len(field["bonus"]) for i in bonuses):
+        invalid()
+    if len(set(bonuses)) != len(bonuses) or not isinstance(data.get("stage_note"), str):
+        invalid()
+
+
 class _TruncatedResponseError(RuntimeError):
     """模型输出在打分JSON写完整之前就被max_tokens截断了——不是"没打完分"的业务问题，
     是这次调用本身没跑完，值得重试一次（重试是全新的一次调用，不是接着写）。"""
@@ -528,10 +573,10 @@ def _score_resume_once(
                 model=model,
                 cache_resume=cache_resume,
             )
-        except (json.JSONDecodeError, _TruncatedResponseError) as e:
+        except (json.JSONDecodeError, _TruncatedResponseError, _InvalidScoreResponseError) as e:
             last_error = e
             continue
-    raise last_error
+    raise RuntimeError("模型未能返回完整有效的评分，已自动重试一次。请稍后重新评估；本次未生成报告。") from last_error
 
 
 def _score_resume_once_attempt(
@@ -622,29 +667,25 @@ def _score_resume_once_attempt(
         # 用 low 档位大幅减少"思考"消耗的token（思考token按输出token计费，之前偏贵的主因）。
         # 现在改成"先摘证据再打分"的JSON结构后，证据摘录本身承担了一部分"想清楚再下结论"的作用，
         # 如果发现打分质量明显下降，可以改成 "medium" 再试。
-        output_config={"effort": "low"},
+        output_config={"effort": "low", "format": {"type": "json_schema", "schema": _score_schema(framework)}},
     )
-    raw_text = None
-    for block in response.content:
-        if getattr(block, "type", None) == "text":
-            raw_text = block.text
-            break
-    if raw_text is None:
-        raise ValueError("模型响应中没有文本内容（可能只返回了思考过程），请重试")
     if getattr(response, "stop_reason", None) == "max_tokens":
-        # 输出没写完JSON就被截断了——不要直接扔给json.loads产出一句看不懂的解析错误，
-        # 用专门的异常类型标出来，外层_score_resume_once会据此自动重试一次。
-        raise _TruncatedResponseError(
-            "模型输出在打分JSON写完整之前就达到了max_tokens上限，这次响应不完整"
-        )
+        raise _TruncatedResponseError("模型输出达到长度上限，评分未完成")
+    if getattr(response, "stop_reason", None) == "refusal":
+        raise RuntimeError("模型未能评估此内容，请确认上传的是简历后重试。")
+    raw_text = "".join(block.text for block in response.content
+                       if getattr(block, "type", None) == "text")
+    if not raw_text.strip():
+        raise _InvalidScoreResponseError("模型未返回评分文本")
     data = _parse_json_response(raw_text)
+    _validate_score_data(data, framework, field)
 
     dim_keys = [d["key"] for d in framework["dimensions"]]
     dims_raw = data.get("dimensions", {})
     scores, rationale, evidence, evidence_verified = {}, {}, {}, {}
     for key in dim_keys:
-        entry = dims_raw.get(key, {}) or {}
-        scores[key] = int(entry.get("score", 3))
+        entry = dims_raw[key]
+        scores[key] = entry["score"]
         rationale[key] = entry.get("rationale", "")
         ev_list = [q for q in (entry.get("evidence") or []) if isinstance(q, str) and q.strip()]
         evidence[key] = ev_list

@@ -83,7 +83,7 @@ def _inject_background_decoration():
            改成从branding.logo_geometry()实时读取裁剪后的宽高比算出的aspect-ratio，
            这样以后换logo文件也不用来这里改数字。 */
         [data-testid="stMainBlockContainer"] h1 {{
-            position:relative;
+            position:relative; box-sizing:border-box; max-width:100%;
             padding-right: clamp(56px, 18vw, 220px);
         }}
         [data-testid="stMainBlockContainer"] h1::after {{
@@ -656,6 +656,8 @@ if st.session_state.view == "form":
                         runs=score_runs,
                         custom_field_name=custom_field_name.strip() if is_custom_field else None,
                     )
+                    st.session_state.pop("report_artifact", None)
+                    st.session_state.pop("report_email_status", None)
                     st.session_state.report_unlocked = False
                     st.session_state.assessment_id = uuid.uuid4().hex
                     st.session_state.result = result
@@ -695,7 +697,10 @@ elif st.session_state.view == "result" and st.session_state.result:
                                    key="share-" + st.session_state.get("assessment_id", "legacy")):
                 st.session_state.report_unlocked = True
         except Exception:
-            st.warning("分享卡暂时无法生成，请稍后重试。")
+            st.warning("分享卡暂时无法生成，请重试。")
+            if st.button("重试生成分享卡"):
+                st.session_state.pop("share_card_key", None)
+                st.rerun()
     if not st.session_state.get("report_unlocked", False):
         st.caption("点击分享卡片后查看完整报告。")
         st.stop()
@@ -786,12 +791,15 @@ elif st.session_state.view == "result" and st.session_state.result:
             st.markdown(f"- {s}")
 
     try:
-        pdf_bytes, highlight_info = generate_pdf(
-            result,
-            st.session_state.student_name,
-            st.session_state.student_meta,
-            resume_pdf_bytes=st.session_state.resume_pdf_bytes,
-        )
+        if "report_artifact" not in st.session_state:
+            pdf_bytes, highlight_info = generate_pdf(
+                result,
+                st.session_state.student_name,
+                st.session_state.student_meta,
+                resume_pdf_bytes=st.session_state.resume_pdf_bytes,
+            )
+            st.session_state.report_artifact = (pdf_bytes, highlight_info)
+        pdf_bytes, highlight_info = st.session_state.report_artifact
     except Exception as e:
         # 打分结果已经在上面完整展示了；PDF生成这一步单独兜底，
         # 失败也不影响用户看到刚才的评分和分析，只是拿不到PDF报告。
@@ -843,17 +851,20 @@ elif st.session_state.view == "result" and st.session_state.result:
         # 给出明确提示——真发送失败了（密码错、网络问题、邮箱那边没开SMTP AUTH等）
         # 仍然只提示一句，不影响上面已经展示的评分结果和下载按钮。
         try:
-            email_status = send_report_email(
-                pdf_bytes,
-                out_name,
-                st.session_state.student_name,
-                result["field"].get("name", "未知方向"),
-                result["total"],
-                result["tier_label"],
-                datetime.now().strftime("%Y-%m-%d %H:%M"),
-                resume_bytes=st.session_state.resume_original_bytes,
-                resume_filename=st.session_state.resume_original_filename,
-            )
+            if "report_email_status" not in st.session_state:
+                email_status = send_report_email(
+                    pdf_bytes,
+                    out_name,
+                    st.session_state.student_name,
+                    result["field"].get("name", "未知方向"),
+                    result["total"],
+                    result["tier_label"],
+                    datetime.now().strftime("%Y-%m-%d %H:%M"),
+                    resume_bytes=st.session_state.resume_original_bytes,
+                    resume_filename=st.session_state.resume_original_filename,
+                )
+                st.session_state.report_email_status = email_status
+            email_status = st.session_state.report_email_status
             if email_status == "sent":
                 st.caption("📧 报告和原版简历已自动发送存档邮件")
             else:
