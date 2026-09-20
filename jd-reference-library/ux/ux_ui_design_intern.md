@@ -237,5 +237,30 @@ Collected: 2026-09-19
 - Broad aesthetic sensibility spanning software, hardware, architecture, and art
 - Demonstrated eagerness to learn and grow design skills across each new project
 
+## JD 11: Summer 2026 UX Design Intern, SharkNinja (consumer hardware / connected-appliance app design)
+Source: Job posting on SharkNinja's Greenhouse careers page, https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4653036006
+Collected: 2026-09-20
+
+### Responsibilities
+- Translate user research and consumer insights into bold, user-centered digital solutions for Shark and Ninja connected products
+- Build interactive prototypes to test concepts and refine user experience before implementation
+- Develop presentation-ready visuals and storytelling materials to communicate design direction to leadership
+- Collaborate cross-functionally with Engineering and Product teams to bring designs to life
+- Define visual identity elements (interface components, color schemes, typography) consistent with brand standards
+- Contribute to convergence efforts between UX/UI and industrial/product design
+- Gain end-to-end exposure to the UX/UI design process, from research through high-fidelity execution
+
+### Basic Requirements
+- Currently enrolled in the third year or beyond of a bachelor's program, or in a master's/doctorate program
+- Able to work full-time (40 hrs/week), five days onsite in Needham, MA, for the May–August 2026 term
+- Portfolio demonstrating product-oriented work that clearly shows a full product development process
+- Strong attention to detail while managing multiple projects under tight deadlines
+
+### Bonus / Preferred Qualifications
+- Comfortable thriving in a fast-paced environment with shifting priorities
+- Blends analytical thinking with creative energy to propose innovative, real-world solutions
+- Demonstrated natural collaborator with positive team engagement
+- Forward-thinking mindset that pushes design boundaries
+
 ## Implications for Our Framework
 Across all five postings a portfolio or "creative materials" requirement is non-negotiable — even research- and healthcare-leaning roles ask for demonstrated work — so portfolio quality should be weighted at least as heavily as GPA or coursework in any scoring rubric. Figma appears explicitly in four of five listings (with Sketch/Adobe Creative Suite as secondary tools), confirming it's the de facto baseline tool expectation for this field, while basic front-end literacy (HTML/CSS/JS) shows up as a differentiator at product-focused startups. Major flexibility is notable: acceptable degrees range from Design and HCI to Computer Science, Engineering, and Psychology, suggesting the framework should treat "design-adjacent degree + strong portfolio" as roughly equivalent to a pure design major rather than penalizing non-traditional majors. Finally, research/process fluency (user interviews, journey mapping, usability testing, mixed-methods research) recurs across big tech, research-specific, and healthcare roles alike, so process/methodology evidence in a resume or portfolio case study should be scored as a meaningful signal, not just visual polish.

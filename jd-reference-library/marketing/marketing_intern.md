@@ -229,6 +229,27 @@ Collected: 2026-09-19
 - Creative writing background or strategic storytelling experience
 - Design sensibility and aesthetic organization skills
 
+## JD 11: North America Marketing Intern, The Coca-Cola Company (food & beverage / CPG brand marketing, category team rotation — Coca-Cola Trademark, Sparkling Flavors, or Still Beverages)
+Source: Job posting on The Muse (Coca-Cola careers listing), https://www.themuse.com/jobs/thecocacolacompany/north-america-marketing-intern
+Collected: 2026-09-20
+
+### Responsibilities
+- Own a business-driven project based on current brand needs, requiring data analysis and strategic recommendations for an assigned category team (Coca-Cola Trademark, Sparkling Flavors, or Still Beverages)
+- Support day-to-day marketing operations and conduct business/competitive analysis for the category
+- Develop creative briefs and collaborate cross-functionally with brand, insights, and agency partners
+- Present final project findings and recommendations to marketing leadership at the end of the internship
+
+### Basic Requirements
+- Currently pursuing or recently completed a Bachelor's or Master's degree (graduated no earlier than December 2025)
+- Authorization to work in the United States without sponsorship
+- Working knowledge of marketing fundamentals, including brand positioning and competitive analysis
+
+### Bonus / Preferred Qualifications
+- Ability to generate new ways of thinking about consumers through trend forecasting and innovation
+- Strong data analytics and consumer-insight capabilities
+- Cross-functional collaboration skills with clear, confident communication
+- Demonstrated passion for consumer marketing and the Coca-Cola brand portfolio
+
 ## Implications for Our Framework
 - The brand-management posting (Unilever) never mentions any specific marketing tool in its basic requirements, while the digital/growth-marketing posting (Hill House Home) names Meta, TikTok, and Google plus CAC/ROAS metrics directly in the job duties — bonus item ② ("proficient with data-analysis/ad-platform tools") carries far more real weight for growth marketing than for brand management, and the two should not share one skill rubric.
 - Product marketing (IBM) is the only track to state A/B testing and Excel/Python/Tableau explicitly in the basic requirements, showing it emphasizes "strategy + data" more than brand or content marketing — gap ② ("lacks quantifiable growth/conversion data") should carry heavier deduction weight when evaluating product-marketing resumes.

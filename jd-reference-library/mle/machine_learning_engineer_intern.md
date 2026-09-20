@@ -233,6 +233,26 @@ Collected: 2026-09-19
 - Hands-on exposure to containerized deployment (Kubernetes) of ML tooling
 - Strong coding and problem-solving track record beyond coursework/notebook exercises
 
+## JD 11: Machine Learning Intern/Co-op, PathAI (healthcare ML deployment — computational pathology / computer vision, working with MLOps & platform teams)
+Source: PathAI official careers listing (via General Catalyst job board mirror of PathAI's Greenhouse posting), "Machine Learning Intern/Co-op (Summer/Fall 2026)", https://jobs.generalcatalyst.com/companies/pathai/jobs/73735263-machine-learning-intern-co-op-summer-fall-2026
+Collected: 2026-09-20
+
+### Responsibilities
+- Contribute to the design, development, and evaluation of machine learning models for PathAI's AI products and core ML systems (computational pathology on whole-slide histology images)
+- Own subprojects from the ML product roadmap, focused on novel model enhancement techniques
+- Collaborate with MLOps and platform engineering teams to build and improve ML pipeline infrastructure (training/eval/deployment pipelines)
+- Participate in experimental design, results analysis, and knowledge-sharing via design reviews and technical forums
+
+### Basic Requirements
+- Currently enrolled in an M.S. or Ph.D. program in Computer Science, Electrical Engineering, or Biomedical Engineering, with focus on Computer Vision and/or Machine Learning
+- Proficient in Python with hands-on experience using deep learning frameworks (PyTorch, TensorFlow)
+- Foundational understanding of machine learning and/or computer vision principles
+- Strong collaboration and communication skills; based in the US (Boston, MA or New York, NY preferred; remote considered)
+
+### Bonus / Preferred Qualifications
+- Publications, open-source contributions, or shipped AI/ML-based products demonstrating high-impact, applied work
+- Experience contributing to ML pipeline/infrastructure work alongside MLOps or platform teams (i.e., beyond notebook-only modeling, toward production pipeline integration)
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

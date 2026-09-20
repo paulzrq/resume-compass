@@ -246,5 +246,26 @@ Collected: 2026-09-19
 - Familiarity with data quality checks, documentation standards, and basic performance troubleshooting
 - Interest in and exposure to GenAI-enabled analytics workflows
 
+## JD 11: Data Analyst Intern: ATL – Summer 2025, Warner Bros. Discovery (Media/Entertainment company — WBD Learning & Development analytics team, HR/people-analytics flavored BI reporting)
+Source: The Muse job listing (reposting WBD's official internship posting), https://www.themuse.com/jobs/warnerbrosdiscovery/data-analyst-intern-atl-summer-2025
+Collected: 2026-09-20
+
+### Responsibilities
+- Serve as a trusted data partner to peers and managers, providing data insights that inform decision-making across the WBD Learning organization
+- Create analytical executive summaries and reporting to support the learning and development skills roadmap
+- Research and implement projects to improve the collection, retrieval, and accessibility of employee skills data
+- Support the design and delivery of data metrics used to track organizational capability development
+- Work collaboratively across technical environments/development methodologies to build out data infrastructure for L&D reporting
+
+### Basic Requirements
+- Rising senior undergraduate or graduate student majoring in Industrial Engineering, Applied Mathematics, Analytics, or a related quantitative field
+- Advanced proficiency in Excel and PowerPoint (formulas, V-lookups, pivot tables), exceptional attention to detail and accuracy
+- Minimum 3.0 GPA and good academic standing; enrolled full-time for the internship duration; U.S. work authorization (no visa sponsorship); age 18+
+
+### Bonus / Preferred Qualifications
+- 1+ years of experience analyzing qualitative and quantitative data, including mining large datasets
+- Working knowledge of Power BI or Tableau for dashboarding/visualization
+- Demonstrated ability to identify data anomalies and forecast trends to support business conclusions
+
 ## Implications for Our Framework
 Across all five postings, the load-bearing tools are consistently SQL, Excel (often at an "advanced/VLOOKUP-XLOOKUP/pivot-table" level), and a BI visualization tool (Tableau or Power BI) — Python/R and statistical modeling are rarely required and, when mentioned at all, sit in the "preferred" tier rather than "basic," which sharply distinguishes this track from a Data Science/ML internship where Python, statistics, and modeling are the baseline ask. GPA thresholds (typically 3.0) and degree-progress/eligibility logistics (graduation window, work authorization, relocation) appear as hard gates in every posting, suggesting our framework should treat these as pass/fail filters rather than scored traits. None of the five postings mention a specific certification as a requirement, so certifications (e.g., Google Data Analytics, Tableau Desktop Specialist) should be weighted as a minor tie-breaking signal rather than a core scoring criterion. Finally, the "bonus" bullets consistently reward applied, business-context experience — campaign/marketing dashboards, financial reporting, ecommerce or customer-segmentation projects — over purely academic or Kaggle-style ML projects, so resume scoring should favor project descriptions that show an SQL/Excel/BI pipeline feeding a business decision or stakeholder-facing dashboard.

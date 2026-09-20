@@ -263,5 +263,25 @@ Collected: 2026-09-19
 - Familiarity with lidar, sensor fusion, or other autonomous-vehicle perception hardware
 - Python/SQL proficiency for test-data analysis and validation workflows
 
+## JD 11: Autonomy Software Intern — Humanoid Robotics, Apptronik (humanoid robotics, different startup from Figure AI)
+Source: Apptronik official job posting via Greenhouse job board, https://job-boards.greenhouse.io/apptronik/jobs/5813869004
+Collected: 2026-09-20
+
+### Responsibilities
+- Create and support autonomy software for humanoid robots, building behavior execution and coordination logic within the autonomy stack
+- Combine autonomy software with perception, navigation, and control capabilities; produce well-documented C++ and Python code under senior engineer oversight
+- Build debugging and visualization tools for autonomy behavior; test autonomy features both in simulation and on physical robots
+- Participate in code reviews and technical discussions; contribute to improving software quality and test coverage
+
+### Basic Requirements
+- Currently enrolled in a BS, MS, or PhD program in Computer Science, Robotics, or a related field
+- Strong programming proficiency in C++ and/or Python, with foundational knowledge of robotics or autonomous systems and Linux development environment experience
+- Ability to learn rapidly, collaborate effectively, and apply a strong analytical, detail-oriented approach to problem-solving
+
+### Bonus / Preferred Qualifications
+- Robotics software or autonomous systems background, including familiarity with ROS or ROS 2, state machines, and behavior logic
+- Exposure to learning-based robotics or control systems, Git version control proficiency, and knowledge of simulation tools (Gazebo, Isaac Sim, MuJoCo)
+- Genuine interest in real-world humanoid robot applications
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline splits along two axes rather than one: postings skewing "robotics software" (Amazon) want general-purpose programming languages (Python/C++/Java/Go/Rust), data structures/algorithms, and object-oriented design, while postings skewing "robotics hardware/automation" (Cepheid, Bastian, ASML) want the ability to read electrical/pneumatic/mechanical schematics, hands-on familiarity with servo systems, sensors, vision systems and PLCs, and CAD tool exposure (SolidWorks, AutoCAD/AutoCAD Electrical) — a resume aimed at this field should be scored on whichever axis (or both) it targets rather than penalized for lacking the other. Hard filters are explicit and non-negotiable in several postings: J&J sets a minimum 3.0 GPA and a 50-mile residency radius, Bastian and J&J require U.S. work authorization without sponsorship, Amazon requires enrollment in a STEM bachelor's-or-higher program and age 18+, and ASML flags export-control/citizenship-sensitive access — these should be treated as gating criteria in the rubric (fail/flag if unmet) rather than weighted alongside soft skills. Class standing and major alignment matter concretely (ASML wants 2+ years completed toward ME/EE/Mechatronics/Physics; Bastian wants EE/CE majors specifically), so major-relevance and progress-toward-degree should be scored fields, not just presence of "engineering" somewhere on the resume. Tooling/coursework signals that function as differentiators rather than requirements — PLC coursework or a prior internship (Bastian), prior technical internship or open-source contribution (Amazon), FIRST Robotics program history (J&J), cleanroom/lab troubleshooting experience (ASML) — should be scored as bonus points that boost a candidate above baseline, not as required fields. Finally, soft/durable skills (communication, independent project management, troubleshooting, adaptability) appear in nearly every posting as either a basic requirement or strong preference, suggesting the rubric should reserve meaningful weight for evidence of self-directed technical projects or team-based engineering work (e.g., FRC/FSAE, senior design, robotics club) as a proxy for exactly these traits, since none of these employers can verify them from a resume alone beyond such project evidence.

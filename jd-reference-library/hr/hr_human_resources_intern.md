@@ -251,5 +251,27 @@ Collected: 2026-09-19
 - Familiarity with SharePoint or Microsoft Teams (or willingness to learn quickly)
 - Coursework in Human Resources, Organizational Behavior, or Psychology
 
+## JD 11: Human Resources Summer Intern, Huntington Bank (Huntington National Bank) (Talent Acquisition, banking/financial services)
+Source: Official Huntington Bank careers site job posting, https://huntington-careers.com/search/jobdetails/human-resources-summer-intern-2026/227106f7-472a-4948-91b0-94cbd1d98649
+Collected: 2026-09-20
+
+### Responsibilities
+- Collaborate directly with manager and support Talent Acquisition team initiatives, assisting with recruitment and internal employee mobility efforts
+- Provide departmental recommendations and support broader organization/department projects
+- Demonstrate professional communication skills while working with hiring teams and candidates
+- Participate in all internship program events (May 27 - August 7, 2026, based in Akron OH, Columbus OH, or Detroit MI)
+
+### Basic Requirements
+- High school diploma; currently enrolled at an accredited university with at least one semester of college remaining after the internship (August 2026)
+- Demonstrated teamwork and leadership through campus activities or prior work experience
+- Strong communication and interpersonal skills; proficiency with Microsoft Office applications
+- Able to work both independently and collaboratively
+
+### Bonus / Preferred Qualifications
+- Coursework relevant to HR/Talent Acquisition or business
+- Sound judgment, critical thinking, and ability to manage multiple priorities in a dynamic environment
+- Professional presence when interacting with management and external contacts
+- Demonstrated interest in a financial services career
+
 ## Implications for Our Framework
 Across all five postings, no employer requires or even mentions SHRM/PHR-style certifications at the internship level — what they consistently ask for instead is a relevant but broad academic major (HR, Business, Psychology/Org Behavior, Communications), a minimum GPA threshold (3.0 in two of five), and soft-skill fundamentals (written/verbal communication, attention to detail, collaboration, "strong interest" in HR). This suggests our scoring should weight coursework relevance and communication/interpersonal evidence more heavily than credentialing for entry-level HR roles. Tool familiarity is treated as a plus, not a gate: Excel/Office proficiency is near-universal and baseline, while HRIS/analytics exposure (Workday, Power BI, ATS platforms, LMS tools) appears almost exclusively in the "preferred/bonus" tier rather than as a hard requirement — so resumes should be rewarded for such exposure but not penalized for lacking it. Finally, the sub-track differences matter for framing: TA/recruiting and HRBP postings lean on interpersonal/relationship-building language, while Total Rewards and L&D postings put more emphasis on data/market-research analysis and instructional-design familiarity respectively — meaning a strong HR resume should be evaluated partly against which sub-track it targets rather than a single generic "HR skills" rubric.

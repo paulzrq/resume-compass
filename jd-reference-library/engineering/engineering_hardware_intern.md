@@ -235,6 +235,25 @@ Collected: 2026-09-19
 - Minimum 3.0 GPA
 - Geographic flexibility across Medtronic's U.S. engineering hub locations (MN, CA, CO, CT, MA, plus AZ, FL, MI, TN, TX)
 
+## JD 11: 2027 Electrical Engineer Intern, Anduril Industries (defense electronics / autonomous systems hardware)
+Source: Official Anduril Industries job posting on Greenhouse job board, https://job-boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007
+Collected: 2026-09-20
+
+### Responsibilities
+- Design electronics from concept through prototype, including hardware selection, PCB design, and system-level integration for defense/autonomous systems products
+- Troubleshoot issues spanning both electrical and software domains
+- Develop firmware for microcontrollers and embedded Linux systems
+- Collaborate cross-functionally with mechanical, software, and systems engineers to deliver functional hardware supporting real-world deployments and customer operations
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, or a related field, with plans to return to school after the internship for at least one more quarter/semester
+- U.S. Person status required (export control/ITAR compliance), with potential eligibility for security clearance; able to complete a 12-week in-person internship (Summer 2027) at one of Anduril's U.S. sites (e.g., Costa Mesa CA, Irvine CA, Broomfield CO, Reston VA, Seattle WA)
+
+### Bonus / Preferred Qualifications
+- Hands-on proficiency with test equipment (oscilloscopes, logic analyzers, debuggers) and PCB CAD tools (e.g., Altium Designer)
+- Familiarity with standard hardware interfaces/protocols (Ethernet, CAN, I2C, SPI, PCIe, USB) and embedded Linux
+- Software/firmware development skills (C/C++, plus Python/Rust/Haskell) and standard dev tooling (git, GitHub, JIRA)
+
 ## Implications for Our Framework
 - The five postings show the skill dimension means very different things by sub-track: mechanical focuses on CAD/GD&T (Tesla), electrical/hardware requires circuit design, chip architecture, RF, HDL, and lab-instrument operation (Apple), and robotics requires breadth across multiple tool domains (Amazon). Recommend splitting into sub-track-specific tool checklists rather than one generic library.
 - The acceptable range of majors for edu is broader than expected: Intel's manufacturing/process track explicitly accepts chemical engineering, materials science, chemistry, and physics — the edu dimension should not over-penalize non-ME/EE backgrounds under the manufacturing/process sub-track.

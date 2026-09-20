@@ -248,5 +248,28 @@ Collected: 2026-09-19
 - Major in Digital Media Production, Film, Animation, or Communications
 - Familiarity with Photoshop; experience with After Effects, Filemaker, or Final Draft is a plus
 
+## JD 11: TV Production Intern (Summer 2026), Lionsgate Television (TV physical production, in-house scripted television)
+Source: Job posting on EntertainmentCareers.Net (also mirrored on Prosple), https://www.entertainmentcareers.net/lionsgate/summer-paid-intern-tv-production/job/511040
+Collected: 2026-09-20
+
+### Responsibilities
+- Assist the Television production team with in-office tasks and handling of production assets
+- Manage and organize below-the-line crew resumes, credits, and credentials
+- Maintain production calendars, schedules, and team documentation
+- Write script coverage and analysis for projects in development and in production
+- Conduct pre-production research and review dailies / studio-network cuts
+- Attend weekly creative meetings, table reads, and production strategy sessions
+- Complete ad hoc projects as assigned by the production team
+
+### Basic Requirements
+- Currently enrolled in an accredited college/university (undergraduate or graduate), rising junior through recent graduate (within 6 months of start) or graduate student
+- Full availability for the entire 10-week program (June 9 – August 13, 2026), up to 40 hrs/week, primarily 4 days on-site in Santa Monica, CA
+- Excellent oral and written communication skills; proficient in Microsoft Office
+
+### Bonus / Preferred Qualifications
+- Demonstrated flexibility and adaptability across multiple concurrent productions/projects
+- Genuine passion for television production and demonstrated industry knowledge
+- Collaborative "team player" mindset enthusiastic about all aspects of filmmaking
+
 ## Implications for Our Framework
 Across all five postings, the recurring baseline is administrative/organizational competence rather than creative craft: Microsoft Office (every posting), Google Sheets, and general "strong organization/communication/attention to detail" language appear far more often than any camera or editing skill, meaning a rubric should treat basic office-software fluency as table stakes, not a differentiator. The hardest filters that would eliminate a candidate outright are logistical and eligibility-based, not skill-based: enrollment status and class year (sophomore+, rising junior/senior, or "on placement year"), work authorization/visa sponsorship (explicit in both NBCUniversal and WBD postings), minimum age (18+), and hard availability windows (16-24 hrs/week, specific in-office days, multi-month date ranges) — a resume or application that can't clear these should be scored down regardless of otherwise-strong experience, since real recruiters use them as pass/fail gates before reading further. Major/field of study is a semi-hard filter used inconsistently (Media Res explicitly requires TV/Film Production or Critical Studies; others just ask for "passion" or "related field"), so it should be weighted as a moderate positive rather than a strict requirement. GPA thresholds (3.0 at both NBCUniversal and WBD) and reliable transportation/driver's license (Totally TV, implied by on-set duties generally) function as secondary hard filters worth flagging when present or absent. The clearest bonus/differentiator tier across postings is production-specific software and tools beyond generic Office — Premiere Pro, Scenechronize, Airtable, Smartsheet, Dropbox/SharePoint — plus demonstrated hands-on production exposure (student films, prior internships, script coverage, series tracking) and niche fit signals (bilingual Spanish for a bilingual market, sports-content familiarity for a sports-adjacent role, comedy/writing/music background for a comedy-focused shop); these should be scored as meaningful upside rather than baseline expectations. Practically, this implies a film_production scoring rubric should weight eligibility/logistics as gating criteria, treat generic office/organizational skills as a low-weight baseline, give moderate credit for relevant coursework or major, and reserve the highest positive weight for named production/post-production software proficiency and concrete on-set or post-production project experience, since that is what separates a merely-eligible applicant from a standout one in every posting reviewed.

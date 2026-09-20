@@ -238,5 +238,25 @@ Collected: 2026-09-19
 - Strong interpersonal and persuasion skills for building trust and rapport with B2B clients face-to-face
 - Comfort with a metrics-driven, incentive-linked role where compensation includes performance incentives and referral rewards tied to sales results
 
+## JD 11: North America Summer 2026 Sales Internship, Gartner (B2B research & advisory sales — business development / account management)
+Source: Job posting listed via Built In (aggregating Gartner's official careers posting), https://builtin.com/job/north-america-summer-2026-sales-internship/7349500
+Collected: 2026-09-20
+
+### Responsibilities
+- Learn and execute sales organization priorities within a structured, 10-week hands-on training program (May 26 – July 31, 2026)
+- Work alongside full-time sales associates, engaging directly with clients and prospects on Gartner's B2B research/advisory accounts
+- Participate in sales and account-retention activities, gaining exposure to both new-business development and existing-account management
+- Shadow sales associates and practice core components of Gartner's sales process (prospecting, discovery, relationship management, deal support)
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's degree program, with expected graduation within one year (December 2026 or May 2027)
+- Exceptional communication and time-management skills; results-driven, goal-focused mindset with demonstrated curiosity
+- Able to commit to the full 10-week, in-office program (Irving, TX and other locations)
+
+### Bonus / Preferred Qualifications
+- Demonstrated leadership experience combined with strong academic performance
+- Prior internship or work experience showing customer-facing initiative, proactive outreach, or account-relationship building
+- Comfort with a metrics-driven, quota-oriented sales environment (Gartner's sales org tracks individual and team performance targets)
+
 ## Implications for Our Framework
 Across all five postings, employers rarely demand prior quota-carrying sales experience at the internship level — instead they consistently weight communication skills, "comfort with outbound/cold outreach," attention to detail, and the ability to self-manage multiple priorities in a fast-paced environment, meaning leadership or high-touch communication roles (e.g., campus orgs, tutoring, retail/customer-facing jobs) can reasonably substitute for direct sales experience on a resume. CRM familiarity (Salesforce, HubSpot) appears only as a "preferred, not required" bonus rather than a baseline filter, so our scoring should treat it as a plus-signal, not a gate. Quantifiable results/metrics-driven experience matters more as a proxy trait (data-driven mindset, Excel/Sheets proficiency, prior reporting or project work) than as literal sales-quota history — postings from data-heavy tracks (TikTok Shop, Salesforce-adjacent roles) explicitly reward analytical/spreadsheet skills alongside soft skills. Finally, sector fit and domain curiosity (e.g., "interest in identity security," "interest in e-commerce/creator economy," "passion for a career in sales") show up as differentiators across nearly every posting, suggesting our framework should credit resumes that show demonstrated interest in the specific industry/product category, not just generic "sales experience."

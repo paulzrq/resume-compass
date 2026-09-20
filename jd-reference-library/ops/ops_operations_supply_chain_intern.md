@@ -239,5 +239,26 @@ Collected: 2026-09-19
 - Experience with Tableau or other data visualization tools
 - Genuine interest in the Nike brand and active interest in sports, fitness, or movement
 
+## JD 11: Supply Chain/Supply Management Intern, Medtronic (medical device manufacturing supply chain)
+Source: Medtronic Workday careers posting (mirrored via Built In LA / Prosple), https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Supply-Chain-Supply-Management-Intern---Summer-2026_R40544-2
+Collected: 2026-09-20
+
+### Responsibilities
+- Support supply and demand planning activities and help drive supply chain optimization initiatives
+- Prepare and execute project plans under manager direction, identifying opportunities for productivity, cost savings, and quality improvement
+- Collaborate cross-functionally across departments, engaging in project reviews and driving strategic data analytics
+- Work onsite a minimum of 4 days per week, executing process improvements and managing stakeholder relationships (multiple U.S. sites including Irvine CA, Minneapolis, Memphis, Fort Worth)
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in supply chain management, supply management, or a related field, with anticipated graduation between Winter 2026 and Spring 2028
+- Available to work full-time (40 hours/week) for the summer internship term (June–August, dates vary by academic calendar)
+- Legally authorized to work in the U.S. on a full-time basis without requiring future visa sponsorship
+
+### Bonus / Preferred Qualifications
+- Minimum 3.0 cumulative GPA
+- Prior experience working on team-based academic or professional projects
+- Leadership experience in student organizations, volunteer activities, or related extracurriculars
+- Relevant prior internship experience in supply chain or operations
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard-skill baseline is spreadsheet/data fluency (Excel is explicit in 3 of 5; SQL/Power BI and ERP familiarity appear as differentiators rather than requirements), suggesting the framework should treat basic Excel as table-stakes and score SQL/ERP/analytics-tool exposure as a meaningful bonus rather than a core requirement. Analytical rigor and communication skills are weighted more heavily than field/warehouse experience — even the two most "hands-on" roles (Amazon Area Manager, Honeywell Supply Chain) foreground people-management, communication, and process-improvement framing over physical operations experience, so resumes should be credited for data-driven decision-making and cross-functional communication evidence at least as much as for literal warehouse/logistics work. GPA and graduation-timeline gating (3.0+ GPA, specific graduation windows, no-sponsorship clauses) matter procedurally but aren't differentiators worth much scoring weight since they're pass/fail eligibility filters, not competitive signals. Finally, prior internships, case-competition participation, and major relevance (supply chain, operations, business, engineering, economics) function as the strongest positive signals across postings, so the framework should reward directly relevant coursework/majors and any prior internship or case-competition experience in operations/supply chain more than generic leadership titles.

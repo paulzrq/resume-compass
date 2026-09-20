@@ -234,6 +234,28 @@ Collected: 2026-09-19
 - Prior exposure to search or personalization problems in digital media/streaming products
 - Demonstrated ability to communicate data-driven findings to non-technical, cross-functional stakeholders
 
+## JD 11: Data Science Intern, The Trade Desk (ad-tech / programmatic advertising DS — statistical modeling & optimization for real-time ad bidding, distinct from prior DS entries)
+Source: Official careers page posting, 2026 North America Data Science Internship, The Trade Desk — https://careers.thetradedesk.com/jobs/4822859007/2026-north-america-data-science-internship
+Collected: 2026-09-20
+
+### Responsibilities
+- Own a meaningful, well-scoped data science project contributing to new or existing data products (e.g., bidding/optimization models used in the company's real-time ad-buying platform)
+- Work directly with experienced Data Science mentors while collaborating cross-functionally with product, trading, and engineering teams
+- Apply statistical machine learning and optimization techniques to large-scale advertising and bidding data
+- Translate data insights and modeling results into clear narratives for both technical and non-technical stakeholders (e.g., trading/product partners)
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's, Master's, or PhD program, graduating between Fall 2026 and Summer 2027
+- Proficient in at least one programming language (Python, R, Java, or Scala) and solid SQL skills by internship start
+- Demonstrated understanding of statistical machine learning and optimization methods
+- Able to work in-office a minimum of 3 days/week (Tue–Thu) at one of the listed US locations (CO, CA, IL, NY, WA, DC)
+
+### Bonus / Preferred Qualifications
+- Experience with big data technologies such as Spark and AWS
+- Demonstrated ability to communicate data-driven conclusions effectively to non-technical audiences
+- Prior applied machine learning project or research experience
+- Intellectual curiosity and interest in ad-tech / programmatic advertising problem domains
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

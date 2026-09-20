@@ -243,5 +243,25 @@ Collected: 2026-09-19
 - Passionate gamer with hands-on experience across multiple platforms
 - Interest or background in casino/slots or other live-ops, data-driven mobile game design
 
+## JD 11: Game Design Intern, Funcom (Dune: Awakening MMO survival game design track)
+Source: Funcom Oslo Studio official careers posting, https://jobs.funcom.com/jobs/6445461-internship-2026-game-design
+Collected: 2026-09-20
+
+### Responsibilities
+- Review features and provide feedback alongside the design team
+- Tune features to refine and improve player experience on Dune: Awakening (MMO survival game)
+- Assist with designing features to address emerging gameplay requirements
+- Collaborate cross-functionally with designers, programmers, artists, and other disciplines
+
+### Basic Requirements
+- Currently enrolled in a relevant Bachelor's Degree program in Norway with expected 2026 graduation
+- Strong communication skills in English and a collaborative, cross-functional mindset
+- Familiarity with Unreal Engine
+
+### Bonus / Preferred Qualifications
+- Prior team-based work experience (academic or professional projects)
+- Hands-on game creation experience (personal or school game projects)
+- Broad knowledge of video game genres, plus interest in history/economics as design inspiration for a survival MMO setting
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard baseline is engine familiarity with Unreal or Unity (explicitly named by Riot, Ubisoft, and Activision Blizzard, implied by Roblox's own engine), plus a portfolio or prior design artifact — Larian and Ubisoft require a portfolio outright, Activision Blizzard requires a portfolio link, and Riot treats prototypes/mods/school-projects as a strong differentiator even though it is not absolutely mandatory. Scripting or programming ability (C++, C#, Python, or Blueprints) shows up as a hard requirement specifically where the role leans "technical game design" (Riot) or systems/multiplayer design (Activision Blizzard), but is notably absent or de-emphasized for the more narrative/level-design-flavored roles (Larian, Roblox), suggesting the rubric should weight coding skill conditionally on the specific design sub-track rather than as a universal must-have. Hard filters that resumes must clear before soft skills even matter are graduation timing/class standing (Riot's 2025/2026 grad year, Activision Blizzard's Dec 2026-Jul 2027 window, GPA minimums where stated), work authorization and location/relocation (explicit H-1B exclusion at Roblox, US residency at Activision Blizzard, mandatory on-site commitment at Larian and Ubisoft), and full-time availability for a fixed internship term (12 weeks at Riot/Roblox/Activision Blizzard, 6 months at Ubisoft) — these are pass/fail gates independent of design talent and should be scored as disqualifying rather than merely deducting points. Genre- or game-specific domain knowledge is treated as a strong bonus or even near-requirement in some cases (Riot wants deep, ranked-level familiarity with Teamfight Tactics itself; Larian wants CRPG enthusiasm matching its RPG catalog), which implies the rubric should reward resumes that show targeted, studio-relevant game literacy rather than generic "I love games" statements. Soft skills — communication, documentation ability, feedback receptiveness, collaboration, and data-driven iteration — appear in every single posting as baseline requirements, more consistently than any single technical skill, so the scoring rubric should not under-weight writing/communication evidence (e.g., design docs, blog posts, presentations) relative to technical engine bullet points. Finally, because most of these are explicitly framed for students/new grads with modest technical bars (Larian and Roblox list almost no hard technical skills at all), a resume-scoring rubric for this field should avoid over-penalizing candidates who lack deep programming backgrounds and instead prioritize portfolio evidence, shipped/prototyped work, and communicated design thinking as the primary differentiators, reserving heavy weight for programming/engine skills only when the target posting is explicitly a "technical design" or systems/multiplayer track.

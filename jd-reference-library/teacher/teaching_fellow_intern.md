@@ -258,5 +258,30 @@ Collected: 2026-09-19
 - Willingness to teach in the Bronx or other high-need districts (eligible for additional incentives)
 - Demonstrated interest in pursuing a teaching license/master's in education as part of a long-term teaching career
 
+## JD 11: GO Fellow @ Match Charter Schools, GO Tutor Corps (AmeriCorps tutoring corps with teacher-residency/certification pathway, embedded in a charter school network)
+Source: Greenhouse job posting for GO Tutor Corps' GO Fellow role at Match Charter Public School, Boston, MA, https://job-boards.greenhouse.io/gotutorcorps/jobs/8609663002
+Collected: 2026-09-20
+
+### Responsibilities
+- Deliver targeted small-group Math and/or ELA instruction to cohorts of 3-4 students per session throughout the school day
+- Prepare and adapt lesson materials to fit different student learning styles and skill levels
+- Track student progress and use data to adjust tutoring approach session to session
+- Serve as a mentor and relationship-builder, supporting students' social-emotional development and confidence
+- Collaborate with classroom teachers and school staff to align tutoring with classroom instruction
+- Commit to a full-time, in-person weekday schedule (Mon-Thu, ~6.5-7 hours/day) for a full AmeriCorps service term
+
+### Basic Requirements
+- High school diploma/GED, or currently enrolled in college, or recent college graduate
+- U.S. citizenship or legal permanent residency (AmeriCorps eligibility requirement)
+- Minimum age 18; no more than three prior terms of AmeriCorps national service
+- Ability to pass required background checks and commit to the full service term
+
+### Bonus / Preferred Qualifications
+- Prior experience or volunteer work with children/students, especially in tutoring or classroom settings
+- Demonstrated commitment to educational equity and closing achievement gaps
+- Strong relationship-building, communication, and feedback-receptiveness
+- Interest in pursuing teacher certification afterward via the affiliated GO Teacher Residency pathway
+- Growth mindset and willingness to use student performance data to improve instruction
+
 ## Implications for Our Framework
 Across all five postings, the single most consistent hard filter is availability/commitment, not credentials: every posting specifies an exact date range and full-time (or near-full-time) hours with little flexibility, so a resume that can't plausibly support a multi-week uninterrupted commitment should score poorly regardless of other strengths. Formal teaching credentials are almost never required — none of these five postings requires an education major, a teaching certification, or even completed coursework in pedagogy, and several (Breakthrough SV, City Year, TFA) explicitly state that prior teaching experience is not necessary and is replaced by trainability, adaptability, and conviction/mission-fit language. Where a GPA or degree threshold does appear (TFA's 2.5 GPA and bachelor's-by-training-date, PASE's "currently enrolled" status), it functions as a low, coarse eligibility bar rather than a differentiator — it screens out but doesn't rank. Background checks and citizenship/work-authorization status recur as binary eligibility gates (City Year, Breakthrough SV) that a scoring rubric should treat as pass/fail flags rather than weighted signals, since resumes rarely surface this data directly. The real differentiators that separate a strong from an average candidate are prior informal experience with youth — camp counselor, tutoring, after-school program, babysitting/mentoring, RA roles — plus evidence of self-directed achievement, leadership under ambiguity, and cross-background collaboration (TFA's language is the most explicit here, but Breakthrough and PASE echo it via "varying levels of teaching/tutoring experience" and "prior experience working with youth"). This implies a resume-scoring rubric for this field should weight demonstrated informal youth-facing experience and evidence of grit/leadership/adaptability heavily as the primary quality signal, treat GPA/degree-in-progress and availability as coarse eligibility gates rather than scored merits, and not penalize the absence of formal education coursework or certification, since none of these real-world entry postings require it.

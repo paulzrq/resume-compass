@@ -242,5 +242,31 @@ Collected: 2026-09-19
 - Familiarity with retail design/analytics platforms such as AutoCAD, Tableau, or Power BI
 - Strong cross-functional collaboration skills and passion for optimizing the in-store experience
 
+## JD 11: Business Analyst Intern, IGS Energy (energy/utilities BA — residential/commercial energy retailer, Ohio)
+Source: Official IGS Energy careers posting (Workday, req R6298), "Business Analyst Intern (Summer 2027)," https://igsenergy.wd1.myworkdayjobs.com/IGS/job/Ohio-Remote/Business-Analyst-Intern--Summer-2027-_R6298 (cross-verified via aggregator mirrors: https://freehire.me/jobs/business-analyst-intern-summer-2027-igs-energy-xrg7etqh and https://builtin.com/job/business-analyst-intern/3470130)
+Collected: 2026-09-20
+
+### Responsibilities
+- Review business workflows and processes to identify improvement opportunities
+- Collect, document, and analyze business requirements from cross-functional stakeholders
+- Conduct research on market conditions, competitors, and emerging industry trends
+- Assist with agile ceremonies (sprint planning, standups) and document sprint objectives/outcomes
+- Analyze data and information to provide insights that support business decision-making
+- Support identification and implementation of process improvements
+- Contribute to stakeholder communications, presentations, and reporting
+- Assist with testing and validation of business solutions
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in CIS, CSE, MIS, or a related field
+- Strong analytical, problem-solving, written, and verbal communication skills
+- Proficiency with Microsoft Word, Excel, and PowerPoint
+- Basic understanding of business analysis techniques/methodologies; strong organizational and time-management skills
+- U.S. work authorization (no visa sponsorship available)
+
+### Bonus / Preferred Qualifications
+- Familiarity with Jira, Visio, or draw.io (process/requirements documentation tools)
+- Prior exposure to agile/scrum ceremonies
+- Proactive, self-directed learning attitude suited to a fast-paced, collaborative environment
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is Excel (every listing) plus at least one of SQL/Tableau/Power BI/SAS/Python — employers seem to treat "spreadsheet fluency plus one query/BI tool" as the practical floor for a BA candidate rather than any single dominant tool, so the scoring framework should reward breadth across this small toolkit rather than depth in just one tool. GPA is notably absent as an explicit gate in any of these five (none state a minimum GPA), while expected graduation date/class standing and major relevance (business, economics, statistics, data/CS-adjacent fields, or industry-specific majors like public health at CVS) are used as hard filters — suggesting our framework should weight "major fit + timeline fit" more heavily than raw GPA. No posting mentions a professional certification (no CBAP, PMP, Six Sigma, etc.) as required or preferred, so certifications should be treated as a minor bonus signal at most, not a scored requirement. Finally, soft/applied signals — prior internship or coursework involving data analysis, leadership in student organizations, and the ability to "interpret data and turn it into a business action/presentation" — appear consistently as differentiators, indicating the framework should give real weight to a candidate's project/internship narrative (does it show data-to-decision reasoning and stakeholder communication) rather than credentials alone.

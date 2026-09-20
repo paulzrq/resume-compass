@@ -229,6 +229,24 @@ Collected: 2026-09-19
 - Reliable follow-through on independent, self-directed research and drafting projects
 - Prior exposure to impact litigation or nonprofit/public-interest legal work
 
+## JD 11: 2L Summer Associate, Sidley Austin LLP (Big Law corporate/litigation — Los Angeles/Century City office)
+Source: Sidley Austin 2026 Summer Associate Program listing (via Prosple job posting aggregator, sourced from Sidley Austin's official careers site) and Sidley Austin Careers summer program overview page, https://prosple.com/graduate-employers/sidley-austin/jobs-internships/2l-summer-associate-los-angeles and https://www.sidleycareers.com/en/northamerica/summer-program
+Collected: 2026-09-20
+
+### Responsibilities
+- Work on substantive and complex legal matters under the guidance of experienced attorneys, with the ability to select assignments and build a customized workflow across practice groups
+- Participate in structured training programs including legal writing seminars, mock trials, and negotiation exercises to build practical litigation and transactional skills
+- Take part in pro bono matters, diversity and inclusion panels, and firm well-being programming alongside local-office and national firm-wide summer associate events
+
+### Basic Requirements
+- Currently completing 2L year at an ABA-accredited law school, with a bachelor's degree (or higher) in hand
+- Strong academic credentials and demonstrated "genuine passion for the law," plus completion of the required Suited candidate assessment with scores released to Sidley
+- US work authorization (US citizen, permanent resident, or valid student visa holder) and submission of resume, transcript, personal statement, and completed application form
+
+### Bonus / Preferred Qualifications
+- Demonstrated leadership qualities, integrity, and strong interpersonal/communication skills; evidence of overcoming adversity or bringing a unique perspective from diverse life experience
+- Commitment to equity, inclusion, and pro bono service; eligibility for the firm's Built to Succeed Leadership, Diversity & Inclusion Scholarship ($50,000, split between hiring and start of full-time employment) is a notable bonus signal for standout diverse candidates
+
 ## Implications for Our Framework
 - The applicability of the cert dimension depends heavily on jurisdiction: Zhong Lun explicitly lists "passed the legal qualification exam" as a preferred condition — a strong signal in Chinese "red-circle" firm screening — while all three U.S. postings (LP, Microsoft, Finnegan) make no mention of the bar exam at the internship/1L stage. If the cert dimension's weight (currently 12) doesn't account for jurisdiction, it will systematically undervalue U.S.-track candidates and overweight this factor for them.
 - U.S.-track "certification-type" bonus items should be replaced with writing/competition signals: neither LP nor Finnegan asks about bar-exam progress, focusing instead on law review, moot court, and journal experience — bonus item ② should carry more weight than bonus item ③ (bar-exam progress) for the U.S. track.

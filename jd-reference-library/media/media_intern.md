@@ -232,6 +232,25 @@ Collected: 2026-09-19
 - Strong proofreading and editing abilities
 - Demonstrated creativity, curiosity, and adaptability in a fast-paced production environment
 
+## JD 11: Communications/PR Internship (Summer 2026), Paramount (in-house entertainment company brand PR/communications — distinct from broadcast/production and consumer-goods corporate comms subtracks already in library)
+Source: Paramount Careers job posting (original listing, now closed) cross-verified via Prosple and Glassdoor listings, https://careers.paramount.com/job/Hollywood-CommunicationsPR-Internships-(Summer-2026,-In-Person-LA)-CA-90028/1345261100/
+Collected: 2026-09-20
+
+### Responsibilities
+- Communicate the company's strategic vision both externally and internally, supporting corporate and brand communications efforts
+- Generate awareness of network/channel brands and drive tune-in to programming through media outreach and press relationship management
+- Craft and pitch compelling, consistent brand stories to enhance the image of Paramount's portfolio brands
+- Collaborate with press and influencer teams to build brand advocacy and support narrative/messaging consistency across platforms
+
+### Basic Requirements
+- Rising Senior or Master's student status (enrolled through/starting fall 2026)
+- Able to work full-time on-site or hybrid (5 days/week, 36-40 hours) for a 10-consecutive-week program (Hollywood, CA or NYC location)
+- U.S. work authorization without company sponsorship (U.S. citizen or permanent resident)
+
+### Bonus / Preferred Qualifications
+- Coursework or degree background in Communications, Journalism, Media Studies, or Creative Writing
+- No prior professional experience required, but familiarity with media relations, press outreach, or brand storytelling is a plus (program includes mentorship, resume/interview workshops, and networking as development support)
+
 ## Implications for Our Framework
 - The news/editorial track (WaPo) puts a track-specific work sample directly into the application checklist — a portfolio isn't a bonus but a gate. proj and present should be scored jointly and weighted more heavily than for the social-media track; gap ① ("missing or broken portfolio link") should be treated as near-disqualifying here.
 - The video/content-production track (The Athletic) doesn't ask for a traditional news-writing sample, instead requiring a combination of "editing tools + news sense + subject-matter interest" — the skill dimension should focus on editing software and narrative pacing, and the "portfolio" under present takes the form of video rather than articles.

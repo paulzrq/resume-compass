@@ -75,19 +75,21 @@ def send_report_email(
     timestamp: str,
     resume_bytes: Optional[bytes] = None,
     resume_filename: Optional[str] = None,
-) -> None:
+) -> str:
     """把评估报告PDF、以及学生上传的原版简历（如果有），分别当附件发邮件存档，供以后翻查。
     resume_bytes/resume_filename 传None就只发报告这一个附件（不报错，正常发送）——
     调用方app.py理论上每次评估都能拿到原版简历，但这里做成可选参数是为了防御性兜底：
     万一以后哪个上传分支忘了存原文件字节，也不会导致整个邮件发送失败。
 
-    Secrets没配置齐的话直接静默跳过（返回，不抛异常）——这种情况下调用方看不出区别，
-    因为本来就没开启这功能。配置齐了但发送过程本身出错（密码错、网络问题、企业邮箱那边
-    没开SMTP AUTH等）会抛异常，由调用方（app.py）负责兜底捕获并提示，绝不能让这一步的
-    失败影响用户已经看到的评分结果和PDF下载。"""
+    返回值是"sent"或"skipped"，供调用方在界面上给出明确反馈——之前这里没有返回值，
+    "secrets没配置、静默跳过"和"真的发送成功了"在界面上完全看不出区别，都是"没有任何
+    提示"，调试的时候没法判断到底是配置没生效还是发送本身有问题。现在跳过和发送成功
+    分得清清楚楚：跳过返回"skipped"、真发出去了返回"sent"。发送过程本身出错（密码错、
+    网络问题、邮箱那边没开SMTP AUTH等）仍然是直接抛异常，由调用方（app.py）负责兜底
+    捕获并提示，绝不能让这一步的失败影响用户已经看到的评分结果和PDF下载。"""
     config = _get_email_config()
     if config is None:
-        return
+        return "skipped"
 
     msg = MIMEMultipart()
     msg["Subject"] = f"【简历罗盘存档】{student_name} · {field_name} · {total_score}分"
@@ -118,3 +120,4 @@ def send_report_email(
         server.starttls(context=context)
         server.login(config["sender"], config["password"])
         server.sendmail(config["sender"], [config["recipient"]], msg.as_string())
+    return "sent"

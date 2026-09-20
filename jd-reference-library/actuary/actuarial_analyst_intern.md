@@ -250,5 +250,24 @@ Collected: 2026-09-19
 - Experience with R or Python for statistical analysis and data manipulation
 - Genuine interest in the insurance and reinsurance industry and enthusiasm for building an actuarial career
 
+## JD 11: Summer Intern - Actuarial, RGA (Reinsurance Group of America) (life & health reinsurance, US rotational program)
+Source: RGA official careers posting (Workday req J24776), mirrored/corroborated via Prosple, LinkedIn, and actupool job listings — https://rgare.wd1.myworkdayjobs.com/en-US/Careers/job/Summer-Intern---Actuarial_J24776 (also https://prosple.com/graduate-employers/rga/jobs-internships/actuarial-summer-intern)
+Collected: 2026-09-20
+
+### Responsibilities
+- Assist in implementing and/or maintaining actuarial models (e.g., pricing, valuation, or experience-study models used in reinsurance work)
+- Manipulate, summarize, and analyze large datasets to support actuarial and business decisions
+- Assist in developing, enhancing, and automating actuarial processes and tools
+- Coordinate and communicate across different departments/teams within RGA as part of a rotational internship structure
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Actuarial Science, Mathematics, Statistics, Finance, or a related quantitative field
+- Intermediate technical/analytical skills with strong written and oral communication; able to work both independently and collaboratively; valid US work authorization (US citizen, permanent resident, or student visa holder)
+
+### Bonus / Preferred Qualifications
+- At least one actuarial exam (SOA/CAS) passed
+- Prior internship or coursework experience in life/health insurance or reinsurance, including familiarity with actuarial software/tools (e.g., Excel/VBA, Prophet, AXIS) commonly used in reinsurance financial reporting and modeling
+- Demonstrated flexibility, initiative, and ability to multitask across rotational assignments in different actuarial functions (pricing, valuation, financial reporting)
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic major (actuarial science, math, statistics, economics, finance, or another explicitly "quantitative" field), current enrollment/class standing (three postings specify rising junior/senior or an anticipated 2027-2028 graduation window), and unrestricted US work authorization without visa sponsorship (stated explicitly by WTW, Milliman, and CSAA) — a resume missing any of these should be scored as failing a threshold condition rather than merely losing points. GPA appears as a soft-to-hard cutoff in three of five postings (3.0 at Liberty Mutual and WTW, a notably higher 3.5 at Milliman), while Elevance Health and CSAA omit a stated GPA, so the rubric should treat GPA as a weighted signal capped by whatever the specific posting states rather than a universal fixed threshold. Passing at least one actuarial exam (SOA/CAS) is the single most consistent differentiator — it is a hard requirement at Milliman but only a "preferred, not required" bonus at Liberty Mutual, WTW, and CSAA — meaning it should be weighted heavily as a bonus signal and only treated as a gate when the target posting explicitly demands it. Microsoft Excel proficiency is the universal baseline technical skill mentioned in every posting, while more advanced tooling (R, Python, SAS, SQL, VBA) is consistently framed as a preferred/bonus differentiator rather than a baseline expectation, so a rubric should award only modest baseline credit for "Excel" and reserve larger bonus weight for programming/statistical-tool experience and any AI-tool familiarity (as Elevance Health now explicitly calls out). Soft skills — analytical/problem-solving ability, written and verbal communication, leadership through campus organizations or academic projects, and prior analyst-type internship experience — appear in nearly every posting as qualitative preferred traits, suggesting the scorer should give these meaningful but secondary weight (evidenced through leadership roles, clubs like Gamma Iota Sigma, or prior internships) rather than the primary basis for scoring. Overall, the rubric for this role should be structured as: hard-gate on major/enrollment/work authorization, weighted-threshold on GPA, large bonus weight on exams passed and quantitative programming tools, moderate weight on Excel/Office proficiency as a floor skill, and secondary weight on demonstrated leadership/communication/prior internship experience.

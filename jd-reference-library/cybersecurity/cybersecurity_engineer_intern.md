@@ -251,5 +251,24 @@ Collected: 2026-09-19
 - Strong problem-solving skills and rapid learning ability in fast-moving technical environments
 - Prior exposure to cloud platform security (AWS/Azure/GCP)
 
+## JD 11: 2026 Cyber Systems Engineer Intern, Northrop Grumman (aerospace/defense, offensive security & cleared internship track)
+Source: Northrop Grumman internship listing mirrored on The Muse job board, https://www.themuse.com/jobs/northropgrumman/2026-cyber-systems-engineer-interntampa-fl
+Collected: 2026-09-20
+
+### Responsibilities
+- Support offensive cybersecurity work involving identifying and exploiting vulnerabilities in systems or networks
+- Develop Python scripts to automate LLM prompting workflows
+- Write Python scripts for multithreaded data parsing and digital asset management tasks
+- Develop a usable cryptography management platform using Python, PowerShell, and GPG
+
+### Basic Requirements
+- Currently enrolled full-time undergraduate or graduate student in an accredited institution, continuing into Fall 2026, pursuing a STEM degree
+- Cumulative GPA of 3.0/4.0 or higher; able to work full-time (40 hrs/week) for a minimum of 10 weeks in summer 2026
+- U.S. citizenship required, with ability to obtain a U.S. Government security clearance; candidate must have an active Top Secret clearance to start
+
+### Bonus / Preferred Qualifications
+- GPA of 3.70/4.0 or higher
+- Previous internship/co-op or other relevant work experience, demonstrated leadership and teamwork capabilities, strong interpersonal communication skills
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is programming fluency (Python shows up in every single listing, often alongside Java, C/C++, or scripting more generally) paired with foundational security literacy — networking protocols, OS internals (Windows/Linux), and either OWASP-style vulnerability knowledge or SOC/incident-response concepts depending on the track. The hard filters that gate candidates before any technical evaluation are non-technical: enrollment status and major (CS/cybersecurity/IT or "related technical field" in every posting), work authorization (Wells Fargo and Motorola both explicitly reject candidates needing visa sponsorship), and in two cases physical/security constraints (Leidos requires U.S. citizenship plus Secret-clearance eligibility; Motorola requires living within an hour of a specific city for a hybrid seat). GPA and class standing appear as filters only in the consulting-track posting (PwC's 3.3 GPA preference and third/fourth-year standing requirement), suggesting these matter more for prestige/Big 4 pipelines than for engineering-heavy or SOC roles, where the emphasis shifts to demonstrated tooling exposure. Certifications (Security+, CEH, OSCP) and CTF/security-research participation consistently sit in the "bonus" tier rather than being required anywhere, as do cloud platforms (AWS/Azure/GCP), containerization (Docker/Kubernetes), and DevSecOps/IaC security — these read as differentiators that separate a strong applicant from an average one rather than baseline expectations. For the resume-scoring rubric, this implies core weight should go to: (1) major/degree-in-progress relevance, (2) at least one general-purpose programming language, and (3) any concrete evidence of networking or OS fundamentals or hands-on security tooling (Wireshark, Burp Suite, ELK, SIEM/EDR exposure) — while certifications, cloud/container security, and CTF participation should be scored as meaningful upward adjustments rather than pass/fail criteria. The rubric should also be flexible enough to recognize that "Cybersecurity Engineer Intern" postings vary substantially by employer type — defense/government roles will weight clearance-eligible citizenship and low-level tooling (Vagrant, Jenkins) more heavily, while consulting-track roles will weight GPA, class standing, and framework/GRC knowledge instead of hands-on engineering skill.

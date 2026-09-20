@@ -233,6 +233,27 @@ Collected: 2026-09-19
 - Knowledge of battery management systems and energy storage fundamentals
 - Hands-on lab/debugging experience and familiarity with build tooling (Make, CMake, git)
 
+## JD 11: Robotics Software Intern - Autonomy, Boston Dynamics (robotics/autonomy stack — ML-based navigation, SLAM, and simulation, distinct from general SWE, mobile, infra/SRE, and embedded-power subtracks already in the library)
+Source: Boston Dynamics official job requisition (Workday req R2395), republished listing on Built In, https://builtin.com/job/robotics-software-intern-autonomy/8484229 (official posting: https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-MA/Robotics-Software-Intern--Autonomy_R2395)
+Collected: 2026-09-20
+
+### Responsibilities
+- Contribute to research and development of modern ML-based robot autonomy and navigation approaches
+- Build out simulation capabilities, including diverse simulated environments for testing autonomy stacks
+- Develop and implement prototype features for next-generation robot autonomy
+- Conduct thorough testing and debugging of autonomy designs using Boston Dynamics' in-house robot fleet (hardware validation)
+
+### Basic Requirements
+- Actively pursuing a PhD or research-based Master's degree in Robotics, Computer Science, or a related field
+- Strong proficiency in C++ and/or Python
+- Familiarity with navigation fundamentals such as path planning and SLAM, and/or reinforcement learning
+- Experience with machine learning frameworks such as PyTorch or TensorFlow
+
+### Bonus / Preferred Qualifications
+- Experience with robotics simulation environments (e.g., Isaac Sim, MuJoCo, Gazebo)
+- Experience working directly with physical robot hardware
+- Proven track record implementing autonomous mapping or exploration algorithms
+
 ## Implications for Our Framework
 - proj (weight 30), the field's highest-weighted dimension, is directly validated across all five postings: Amazon requires data-structure/algorithm implementation, TikTok requires frontend componentization and open-source contribution, Meta requires debugging systems serving billions of users globally, Apple emphasizes OOD practice, and MongoDB emphasizes CTF/personal security projects — all five sub-tracks put "what you've built" at the core without exception.
 - The exp gap "projects are mostly coursework, lacking real-user/production-environment experience" is precisely validated by Meta's Production Engineer posting, which requires working on "systems deployed to production, serving billions of users globally" — exactly the part hardest for a student resume to demonstrate, and where the biggest gap typically shows up.

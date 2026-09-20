@@ -234,6 +234,29 @@ Collected: 2026-09-19
 - Intellectual curiosity, growth mindset, critical thinking skills, and strong entrepreneurial initiative
 - Demonstrated ability to research and problem-solve independently in a fast-paced deal environment
 
+## JD 11: Intern, Investments – Real Estate, Technology & Growth Team, Brookfield Asset Management (real estate private equity / PropTech investing sub-track)
+Source: Brookfield official careers site (Workday job posting), https://brookfield.wd5.myworkdayjobs.com/en-US/brookfield/job/Intern--Investments---Real-Estate--Technology---Growth-Team_R2051681
+Collected: 2026-09-20
+
+### Responsibilities
+- Build financial models and analyses to project investment cash flows and returns for real estate and PropTech transactions
+- Conduct research to support the team's investment strategies and evaluate potential transaction opportunities
+- Assist in preparing presentations, memos, and investment analyses for deal teams and senior leadership
+- Participate in due diligence on prospective asset, portfolio, and corporate-level acquisitions and dispositions
+- Collaborate with Brookfield's portfolio and asset management teams on value-creation initiatives
+- Support ad hoc projects as assigned by the Real Estate Technology & Growth investment team
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree (commerce, finance, economics, or related field)
+- Strong quantitative and analytical capabilities with meticulous attention to detail
+- Foundational understanding of investment/valuation analysis and financial modeling
+- Proficiency in Microsoft Excel and PowerPoint
+
+### Bonus / Preferred Qualifications
+- Prior exposure to investment banking, private equity, credit, or asset management
+- Genuine interest in emerging real estate asset classes and PropTech / technology-enabled real estate investing
+- Entrepreneurial mindset and demonstrated leadership/interpersonal skills
+
 ## Implications for Our Framework
 - GPA-threshold sensitivity varies by firm and should be split into sub-tracks within the edu dimension: T. Rowe Price (asset management) sets a clear hard floor (3.5) with an earlier recruiting timeline, J.P. Morgan (IB) sets a lower floor (3.2), while Blackstone (PE), Morgan Stanley (S&T), and Amazon (corporate finance) give no explicit GPA figure.
 - The skill profile for S&T diverges sharply from IB/PE/AM: Morgan Stanley explicitly states no finance-major requirement, focusing instead on numerical aptitude and composure under pressure, with no mention of modeling, valuation, or industry research anywhere in the posting — the "financial modeling portfolio" bonus item has low marginal value for S&T and should be flagged as "IB/PE/AM/research-track only."

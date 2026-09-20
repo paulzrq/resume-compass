@@ -248,5 +248,26 @@ Collected: 2026-09-19
 - Demonstrated leadership and teamwork through extracurricular activities or campus organizations
 - Exposure to or coursework touching multiple audit specialization areas (AML/BSA, consumer compliance, capital markets, or technology/IT audit), reflecting the program's rotational placement model
 
+## JD 11: Audit & Assurance Summer Intern, Grant Thornton (regional/mid-size public accounting firm — external audit)
+Source: Grant Thornton USA official internship posting (Audit & Assurance Summer Intern, June 2026 start), aggregated/mirrored on Prosple and Vaia Talents; original listing hosted on Grant Thornton's Workday/DeJobs career site — https://prosple.com/graduate-employers/grant-thornton-usa/jobs-internships/audit-assurance-summer-intern and https://talents.vaia.com/companies/grant-thornton/audit-assurance-intern-summer-2026-35737136/
+Collected: 2026-09-20
+
+### Responsibilities
+- Review and audit business transaction cycles, including cash, treasury, capital expenditures, and other income and expense areas, for client engagements
+- Research audit issues and technical accounting matters using electronic databases and audit software
+- Report audit findings and observations to senior staff and engagement leads
+- Collaborate with client team members across various industries, building client relationships and supporting all phases of an audit engagement
+
+### Basic Requirements
+- Pursuing a Bachelor's or Master's degree in Accounting
+- Minimum 3.0 GPA (major and overall), preferred
+- Strong analytical, written, and verbal communication skills; technical aptitude and project management capability
+- U.S. work authorization (no visa sponsorship); ability to travel and work additional hours as needed
+
+### Bonus / Preferred Qualifications
+- On track to meet the credit-hour/educational requirements for CPA licensure eligibility (typically 150 credit hours)
+- Prior accounting-related internship, coursework in auditing/financial statement analysis, or involvement in accounting student organizations (e.g., Beta Alpha Psi)
+- Demonstrated leadership experience and comfort working in fast-paced, client-facing team environments
+
 ## Implications for Our Framework
 Across all five postings, the Big Four/PwC-style firms (Deloitte, EY, PwC) consistently anchor requirements on CPA-track credit-hour progress and a GPA floor (3.0-3.3), while corporate in-house roles (Cloudflare, Robinhood) drop the CPA/GPA language entirely and instead emphasize graduation timing, tool proficiency, and soft skills like independent ownership — suggesting our scoring framework should weight CPA-eligibility and GPA heavily for public-accounting-track applications but treat them as secondary signals for corporate accounting/internal-audit roles. Microsoft Excel is the one universal hard-skill requirement across every posting regardless of sub-track, and U.S. GAAP knowledge appears specifically at the corporate financial-reporting role, so Excel fluency should be a baseline scoring criterion while GAAP/accounting-standards knowledge should be weighted more for financial-reporting than for tax or forensic tracks. Advanced/niche technical skills (SQL, Python, Tableau, Bloomberg, VBA/MATLAB) appear only as "preferred/bonus" across the board, never as a basic requirement, indicating these should boost a candidate's score but never gate eligibility. Finally, leadership experience, prior internships, and communication/analytical skills recur as differentiators in every posting's bonus section, implying the framework should reward extracurricular leadership and any prior professional experience as meaningful tie-breakers among otherwise similarly-qualified accounting candidates.

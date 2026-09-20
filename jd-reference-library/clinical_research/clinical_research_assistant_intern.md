@@ -247,5 +247,25 @@ Collected: 2026-09-19
 - Interest in oncology, clinical research, or academic medicine
 - Experience with data analysis or scientific writing
 
+## JD 11: Summer 2026 Early Development Clinical Operations / Study and Data Management Intern, Sanofi (large pharma — vaccines & early clinical development, clinical operations/data management sub-track)
+Source: Sanofi official internship posting, mirrored with full text on job aggregator massdigitalhealth.org; original listing at jobs.sanofi.com — https://jobs.massdigitalhealth.org/companies/sanofi-2/jobs/57461597-summer-2026-early-development-clinical-operations-study-and-data-management-intern (canonical source page: https://jobs.sanofi.com/en/job/morristown/summer-2026-early-development-clinical-operations-study-and-data-management-intern/2649/28695292864)
+Collected: 2026-09-20
+
+### Responsibilities
+- Conduct data validation activities to ensure the quality of clinical trial data
+- Monitor data cleaning progress across studies and communicate status/findings to the clinical operations team
+- Perform user-acceptance testing (UAT) of clinical trial databases and data-capture systems
+- Attend study team meetings to learn how clinical trials are operationalized within Sanofi's Early Development / Clinical Sciences and Operations group
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Life Sciences or a related field, with expected degree completion by Spring 2027
+- Must remain enrolled in school the semester following the internship
+- Able to work full-time (40 hrs/week), Monday–Friday, for the full internship, relocating to Cambridge, MA or Morristown, NJ; must be permanently authorized to work in the U.S. with no visa sponsorship needed
+
+### Bonus / Preferred Qualifications
+- Proficiency with Microsoft Office, Teams, and SharePoint
+- Strong attention to detail and accuracy in reviewing/validating clinical data (aligns with data-QC emphasis)
+- Excellent written and verbal communication skills for cross-functional study team collaboration
+
 ## Implications for Our Framework
 Across these five postings, the same role title ("clinical research intern/coordinator/CRA") spans a surprisingly wide credential band, from Ochsner's high-school-diploma-plus-soft-skills entry point to Pfizer's 3.3-GPA STEM-major screen and Mayo's 3.5-GPA pre-health pipeline, which means a resume-scoring rubric for this field cannot assume one fixed minimum bar and should instead score against the likely tier of employer (large pharma vs. hospital-system training program vs. CRO new-grad program vs. academic research-administration role). GPA and declared major function as explicit hard filters only at the two most competitive, most STEM-branded programs (Pfizer, Mayo); the CRO (Parexel) and hospital-system (Ochsner, UNC) postings instead gate on degree recency, demeanor, or plain willingness to learn, so a rubric that heavily weights GPA/major fit risks under-scoring perfectly viable candidates for hospital- and CRO-track roles. Notably, none of the five postings list GCP or CITI certification as a pre-hire requirement — Parexel explicitly states this training is delivered after hire — so a resume that already lists completed GCP/CITI training, IRB protocol experience, or REDCap/EDC familiarity should be scored as a genuine differentiator/bonus rather than as baseline table stakes. Work authorization and on-site/commute commitment appear as hard, binary filters (Pfizer's no-sponsorship language, UNC's full-time in-person hours), so a rubric should treat clearly-stated work authorization and location flexibility as pass/fail gates rather than as weighted scoring factors. Prior clinical, lab, or healthcare experience is uniformly framed as a "preferred/bonus" attribute rather than a baseline requirement in every posting found, which argues against heavily penalizing first-time applicants for lacking hands-on research hours, while still rewarding candidates who show shadowing hours, patient-facing healthcare experience (CNA/EMT/MA), or committee/IRB exposure. Finally, soft-skill language — "personable," "adaptable," "naturally curious," "eager to learn," strong letters of reference — recurs across the hospital and pipeline-program postings specifically, suggesting that for this role family (unlike, say, a technical CRA monitoring role further into the pipeline) demonstrated interpersonal/communication signals on a resume (patient-facing jobs, volunteering, leadership) should carry real scoring weight alongside GPA and coursework, not be treated as an afterthought.

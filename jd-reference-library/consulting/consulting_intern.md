@@ -230,6 +230,25 @@ Collected: 2026-09-19
 - Strong communication and interpersonal skills for working across client and internal teams
 - Demonstrated ability to manage multiple deliverables under tight deadlines
 
+## JD 11: Economics Consulting Analyst/Associate Intern (Summer 2026), Charles River Associates (CRA) (economics consulting boutique — Labor & Employment practice)
+Source: Charles River Associates official job posting via Greenhouse, https://job-boards.greenhouse.io/charlesriverassociates/jobs/7191033
+Collected: 2026-09-20
+
+### Responsibilities
+- Conduct economic and industry research to build an understanding of a case's issues
+- Perform financial and economic analyses or create valuation models to support case theories, using tools such as Excel, Stata, R, Python, SQL, or SAS
+- Review and summarize analyst reports, client documents, and industry trade press
+- Assist in the production and development of research summaries, expert reports, and findings presentations
+
+### Basic Requirements
+- Bachelor's or Master's degree candidate (graduating December 2026/Summer 2027) with a quantitative research focus in Economics, Business, Statistics, Mathematics, Computer Science, or a related field
+- Demonstrated understanding of, and ability to explain, economic, financial, and/or accounting concepts, with strong written and oral communication skills and a clear, demonstrated interest in consulting
+
+### Bonus / Preferred Qualifications
+- Completion of an honors thesis, research apprenticeship, or research seminar program
+- Curious and analytical thinker who brings creative approaches to non-standard problems; eagerness to learn new programming languages
+- Mandarin fluency (for China Competition projects, requiring additional interviews)
+
 ## Implications for Our Framework
 - MBB (Bain) sets almost no hard GPA or major requirement, relying instead on case interviews and live structured problem-solving to filter candidates — this aligns with the consulting field's highest single weight going to leadership (25): MBB is essentially hiring "future engagement leads," not a specific technical skill set.
 - Technology consulting (Accenture) explicitly requires a STEM/business/engineering background and emphasizes sensitivity to trends like cloud and data/AI — showing that within the broader "consulting" category, the implicit weight of skill tools and edu-major fit is significantly higher for the tech-consulting sub-track than for strategy consulting.

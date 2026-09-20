@@ -230,6 +230,25 @@ Collected: 2026-09-19
 - Interest in applying AI and automation to product workflows
 - Excellent cross-functional communication and teamwork skills
 
+## JD 11: Associate Product Manager Intern, Coinbase (crypto/fintech, onchain/blockchain products)
+Source: Coinbase careers posting (Summer 2026, 12-week internship), mirrored on BuiltIn and The Muse job boards, https://builtin.com/job/product-manager-intern/7385724 (also https://www.themuse.com/jobs/coinbase/product-manager-intern)
+Collected: 2026-09-20
+
+### Responsibilities
+- Define product requirements and collaborate with a cross-functional team to execute product launches
+- Own a critical strategic area of the business, using market research, user insights, and data to drive product strategy
+- Conduct user research and maintain a customer-centric focus throughout the product lifecycle
+- Set success metrics and analyze results to guide iteration and future development decisions
+- Build expertise in Coinbase's competitive position across the onchain ecosystem (DeFi, NFTs, trading, blockchain infrastructure)
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Business, Computer Science, Engineering, Economics, Math, Product Management, or a related field
+- Strong analytical, communication, and problem-solving skills with quantitative aptitude; entrepreneurial mindset suited to a fast-paced environment; experience with usability testing or user-centered design
+
+### Bonus / Preferred Qualifications
+- Basic understanding of cryptocurrency/blockchain, or strong interest in learning about the space
+- Prior product management experience (e.g., a previous PM internship or a shipped 0-to-1 feature)
+
 ## Implications for Our Framework
 - Technical PM (NVIDIA) and growth/consumer PM (TikTok, Snap) require fundamentally different things under the skill dimension: the former requires Git, cloud deployment, AI/ML technical projects, and open-source contributions as basic requirements rather than bonuses; the latter centers on SQL/Excel-type analysis tools and leans more on internship/work experience than technical depth.
 - Large companies (Google) and mid-size/startups (Gusto) emphasize different things under edu: Google values major fit and "0-to-1" founder spirit — a potential-oriented approach; Gusto sets "2+ years full-time experience plus a specific graduation window" as a hard gate — a seniority-oriented approach.

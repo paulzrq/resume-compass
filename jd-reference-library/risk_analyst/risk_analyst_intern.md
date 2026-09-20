@@ -241,5 +241,27 @@ Collected: 2026-09-19
 - Proficiency or familiarity with programming in Python, R, SQL, or similar tools
 - Exposure to bank financial-condition analysis, credit risk review, or regulatory supervision processes (state member bank / bank holding company oversight)
 
+## JD 11: Corporate Risk Summer Internship – Early Careers, Wells Fargo (bank rotational/corporate risk internship — Charlotte, NC; distinct from JPMorgan/BofA/Citi rotational risk entries already in library)
+Source: Wells Fargo official internship posting (Corporate Risk Summer Internship – Early Careers, Jun 2026), mirrored on Prosple graduate-employer listings page, https://prosple.com/graduate-employers/wells-fargo/jobs-internships/corporate-risk-summer-internship-early-careers (original listing also indexed at wellsfargojobs.com, e.g. https://www.wellsfargojobs.com/en/jobs/r-467065/2026-corporate-risk-summer-internship-workout-early-careers/)
+Collected: 2026-09-20
+
+### Responsibilities
+- Participate in a 10-week structured development program (June 1–30, 2026 start) focused on corporate risk management, including professional development and program-related activities
+- Research risk issues, determine root causes, and propose/recommend solutions; review policy assignments to build familiarity with risk procedures
+- Analyze large datasets using Power BI, SAS, SQL, and/or Python to support risk analysis
+- Support moderate-risk projects and initiatives while collaborating with peers, colleagues, and managers to resolve issues and achieve goals
+- Present complex problem solutions and data-driven recommendations ("data storytelling") to build relationships across the risk division
+
+### Basic Requirements
+- 6+ months of work experience, or equivalent demonstrated through work, training, military experience, or education
+- Currently pursuing a bachelor's degree with expected graduation between December 2026 and June 2027, in IT, STEM, Statistics, Economics, Finance, Accounting, or Analytics
+- Excellent verbal, written, and interpersonal communication skills; strong analytical skills with attention to detail and accuracy
+- Intermediate Microsoft Office proficiency; current, permanent U.S. work authorization required (no visa sponsorship)
+
+### Bonus / Preferred Qualifications
+- Hands-on experience with data manipulation/analysis tools: Power BI, SAS, SQL, and/or Python
+- Extracurricular involvement such as volunteerism or leadership roles
+- Demonstrated ability to thrive in collaborative, change-driven environments
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic timing and citizenship/work-authorization status, not technical skill: every posting specifies an expected graduation window tied to penultimate-year or graduating-senior status (BofA: Nov 2026-Aug 2027; Citi and Morgan Stanley similarly tied to the 2026/2027 cycle), and three of the five (BofA, Citi, Morgan Stanley) explicitly require U.S. work authorization without future sponsorship, which functions as a binary pass/fail gate rather than a scored trait. A minimum GPA threshold appears in three of five postings and clusters tightly between 3.0 and 3.3, suggesting a rubric should treat GPA as a soft-cutoff signal (present/absent and roughly where it falls in that 3.0-3.3+ band) rather than a finely graded continuous score. None of the postings demand hard technical tools (no SQL, Python, or VaR-modeling requirement appears anywhere), which is notable for a "risk" role and implies that at the internship level, technical/quantitative tooling is a differentiator rather than a baseline — resumes that show Excel modeling, a finance/quant/econ/stats major, or prior risk-adjacent coursework should score above a generic business major even though none of these postings strictly require it. What is treated as universal baseline "soft" language is communication skills, analytical/problem-solving ability, attention to detail, and a demonstrated interest in markets/regulation — these appear in every single posting almost verbatim, so a resume-scoring rubric should weight evidence of these (leadership roles, case competitions, research, relevant coursework projects) heavily as baseline credibility rather than as bonus differentiators. True bonus/differentiator signal across postings is a quant-adjacent major (math, statistics, engineering) layered on top of the eligible business/finance majors, prior exposure to specific risk types (market, credit, liquidity, operational), and international/cross-cultural exposure (Citi, JPM AM). Given this pattern, the risk_analyst rubric should be structured as: (1) hard-gate checks for graduation timing and work authorization language when present on the resume/cover context, (2) a GPA band check calibrated to the observed 3.0-3.3 threshold, (3) a moderate-weight core score for communication/analytical soft-skill evidence and any finance/business/quant major, and (4) bonus points layered on top for quantitative coursework, Excel/data tools, or explicit risk-domain exposure — reflecting that these postings screen broadly on fit and eligibility first, and reserve technical specificity as upside rather than a floor.

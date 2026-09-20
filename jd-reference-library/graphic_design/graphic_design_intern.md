@@ -255,5 +255,25 @@ Collected: 2026-09-19
 - Growth mindset with a positive, receptive attitude toward creative feedback
 - Ability to manage multiple small production tasks simultaneously across concurrent projects
 
+## JD 11: Brand Design Intern, Electronic Arts (EA SPORTS brand/creative team — video-game studio brand design sub-track)
+Source: Official EA careers job posting (now closed/archived but verifiable), https://jobs.ea.com/en_US/careers/JobDetail/Brand-Design-Intern/210829 (cross-verified via Prosple mirror: https://prosple.com/graduate-employers/electronic-arts/jobs-internships/brand-design-intern)
+Collected: 2026-09-20
+
+### Responsibilities
+- Contribute to and/or create brand assets across the EA SPORTS portfolio, collaborating with multiple internal design teams
+- Develop visual brand identities, design systems, and cross-channel executions aligned to EA SPORTS brand guidelines
+- Communicate design concepts and rationale clearly to design partners and stakeholders
+- Work creatively while staying within established brand parameters and deadlines
+
+### Basic Requirements
+- Senior-level undergraduate student majoring in graphic design, available full-time for a paid 12-week Summer 2026 internship (June 1–30, 2026 window cited)
+- Graduation date no earlier than December 2026; must be legally authorized to work in the US (no visa sponsorship)
+- Proficiency in Adobe Creative Suite (Photoshop, Illustrator) and Google Slides; strong typography, color theory, and layout skills
+
+### Bonus / Preferred Qualifications
+- Current understanding of emerging design trends and visual culture
+- Demonstrated passion for both design and sports (fit with EA SPORTS brand)
+- Strong collaborative/communication skills, self-motivated, detail-oriented, excellent time management
+
 ## Implications for Our Framework
 Across all five postings, Adobe Creative Suite (specifically Illustrator and Photoshop, with InDesign and Keynote also named by Disney) is the universal baseline tool expectation, while Figma appears as a fast-rising second standard (required outright by Ripple and Nike, listed as a bonus by SAP) — a resume that shows neither Adobe nor Figma exposure should score low on tools regardless of other strengths. A portfolio or work-sample link is treated as a hard gate in four of the five postings (Ripple, Disney, SAP, Nike all state applications are incomplete or deprioritized without one), so the rubric should treat "portfolio link present on resume" as a near-mandatory pass/fail criterion rather than a minor bonus, and should credit resumes that name specific portfolio platforms or projects over ones that only claim design skill in prose. Degree/major alignment is a soft-to-medium filter — most postings prefer graphic design, visual communications, or a closely related creative major but explicitly accept adjacent fields (illustration, fine art, photography, communications design), so the rubric should reward relevant coursework/major without hard-rejecting adjacent majors. Work authorization, age minimum (18), and willingness to relocate/work on-site full-time are hard eligibility filters at Disney and DreamWorks specifically, suggesting the rubric should flag (not necessarily penalize) resumes that don't address location/authorization for site-based roles. Motion design, video/animation (After Effects, Premiere), 3D tools (Maya, Blender, ZBrush), and UI/prototyping familiarity (Adobe XD, InVision) consistently appear as differentiators/bonuses rather than requirements, meaning a scoring rubric should weight these as score-boosting extras layered on top of a solid Adobe+portfolio+relevant-major core, not as baseline expectations. Finally, soft skills — ability to take art direction, manage multiple projects under deadline, and collaborate within an established brand system — are called out repeatedly enough (Disney, SAP, Ripple, Nike) that the rubric should allocate meaningful weight to resume evidence of deadline-driven, feedback-incorporating, or team-based design work (e.g., agency/studio experience, class critiques, client projects) rather than only counting solo creative projects.

@@ -260,5 +260,26 @@ Collected: 2026-09-19
 - Enthusiasm for interdisciplinary, cross-practice collaboration spanning architecture, landscape architecture, and urban design
 - Demonstrated interest in sustainable, mission-driven design for positive social and environmental impact
 
+## JD 11: Urban Interface Intern, Kohn Pedersen Fox (KPF) (computational design / AI-driven parametric design studio within an elite global architecture firm — distinct from KPF's traditional architectural internship track)
+Source: Job listing aggregated via TealHQ (originally posted on KPF's careers page for its KPF Urban Interface computational design group), https://www.tealhq.com/job/urban-interface-intern_7ea1a6781e08b1db28faedcdf7c857164e3e7 ; program background corroborated by KPF Urban Interface's own site, https://ui.kpf.com/blog/2024/3/12/announcing-summer-2024-internships
+Collected: 2026-09-20
+
+### Responsibilities
+- Develop a Rhino plugin linked to KPF's internal AI system that converts natural-language prompts into 3D geometry for designers
+- Conduct experimental R&D on "natural language programming" and how generative AI can reshape designer workflows and tool development
+- Work across one or more of KPF Urban Interface's technical tracks: C#/RhinoCommon/.NET plugin development, front-end web app development, computational urban design in Rhino + Grasshopper, or smart-urbanism/data-driven city research (per the group's recurring internship structure)
+
+### Basic Requirements
+- Proficiency in C#, RhinoCommon, or .NET software development
+- Python scripting capability within Rhino or Grasshopper
+- Background in computational/parametric design (architecture, urban planning, or computer science students eligible)
+- Ability to work across the intersection of architectural design, urban planning, and technology
+
+### Bonus / Preferred Qualifications
+- Experience with AI agent development, prompt engineering, or LLM tool integration
+- Front-end web development skills (for the web-app track)
+- Data analytics / GIS experience for smart-urbanism research
+- Portfolio or work samples showing parametric/generative design work (CV, portfolio/website, and GitHub or writing samples typically requested)
+
 ## Implications for Our Framework
 Across all five postings, three software families recur as the de facto baseline: Revit (named in every single posting, usually as "preferred" or "proficiency," but functionally expected), AutoCAD (named in four of five), and a secondary 3D/visualization layer (Rhino, SketchUp, Grasshopper, Lumion/Enscape/Twinmotion) that shows up as differentiation rather than a strict floor; Adobe Creative Suite appears in three postings specifically for presentation/graphic output rather than modeling. The hardest, most consistently enforced filter is NOT software but degree status and accreditation: SOM, HOK, Jacobs, Mead & Hunt, and DLR Group all explicitly gate on enrollment in (or completion of) an accredited/NAAB architecture program and a minimum class standing (rising junior or "3rd/4th/5th year," or 4+ completed semesters for Mead & Hunt), meaning a resume from a non-accredited or unrelated program should be scored down hard regardless of software skills listed. A portfolio submission is treated as a hard gate at the more design-forward firms (SOM, HOK, DLR Group explicitly say "to be considered, submit a portfolio") but is only a soft preference at the engineering-leaning firms (Jacobs, Mead & Hunt), so the scoring rubric should weight portfolio evidence heavily when present but not zero out a resume for its absence at every firm type. GPA is almost never a stated cutoff (only Jacobs names 3.0, and only as "preferred," not required), so a rubric that penalizes missing GPA heavily would be miscalibrated against real hiring practice. Work authorization is rarely spelled out in detail except at Mead & Hunt, which explicitly states it will not sponsor visas — a signal that international-student status is a real, if usually unstated, screening factor for smaller/regional firms even when the posting is silent. Prior internship experience, sustainability/LEED awareness, and physical model-building or hand-drafting ability appear consistently in the "bonus" tier rather than the basic tier, confirming these should be treated as score boosters rather than requirements. Net implication for the "architecture" scoring field: weight (1) accredited-program enrollment/class standing and (2) demonstrated Revit/AutoCAD + one visualization tool most heavily as pass/fail-adjacent signals, (3) treat portfolio presence as a strong positive modifier rather than an absolute requirement, and (4) treat GPA, prior internships, LEED/sustainability exposure, and Adobe/rendering-tool fluency as secondary differentiators that should raise a score but not by themselves disqualify a resume that is missing them.

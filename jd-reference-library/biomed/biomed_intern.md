@@ -226,6 +226,29 @@ Collected: 2026-09-19
 - Rising junior/senior standing
 - Collaborative, detail-oriented mindset suited to a regulated clinical-lab setting
 
+## JD 11: NIH Summer Internship Program (SIP) Intern, National Institutes of Health – Intramural Research Program (biomedical/basic-translational-clinical lab research track)
+Source: Official NIH Office of Intramural Training & Education program page, https://www.training.nih.gov/research-training/pb/sip/
+Collected: 2026-09-20
+
+### Responsibilities
+- Work full-time in a Principal Investigator's laboratory or clinical research group at an NIH Institute/Center, embedded in ongoing basic, translational, or clinical research projects
+- Perform hands-on bench/lab work (e.g., assay setup, sample processing, data collection) or clinical/data-analysis tasks depending on host lab's focus area
+- Analyze and interpret experimental or clinical data generated during the internship and summarize findings for the PI/lab team
+- Present research progress at NIH's summer poster day and other trainee research events
+- Participate in NIH's professional development, career, and scientific seminar programming alongside the research assignment
+
+### Basic Requirements
+- U.S. citizen or permanent resident, at least 18 years old by the relevant program start date
+- Currently enrolled at least half-time as an undergraduate, graduate, or professional school student (or a high school senior who will have graduated, or accepted into a fall graduate program)
+- Submit a complete application package: CV/resume, academic transcripts/coursework record, a personal statement describing research experience and career goals, and two reference letters
+- Able to independently secure health insurance and housing near the NIH campus (Bethesda, MD, or other NIH sites) for the internship duration
+
+### Bonus / Preferred Qualifications
+- Prior hands-on laboratory research experience (wet-lab techniques, data collection/analysis, or clinical research procedures) relevant to the target Institute/lab
+- Evidence of independent research output, such as prior lab reports, posters, presentations, or co-authored papers/abstracts
+- Coursework or experience in biomedical sciences, public health, or clinical research that aligns with a specific PI's lab focus
+- Strong academic record and a personal statement that clearly ties past research/coursework to the chosen NIH Institute's mission (e.g., NCI, NIAID, NIA, NIDDK, NIBIB)
+
 ## Implications for Our Framework
 - The gap between PhD-track and undergraduate-track postings is categorical: JD1's "currently pursuing a PhD" is a hard gate that assumes an independent research background, while JD2/JD3/JD5 (all open to undergrads) never ask for independent data/publication output, relying instead on GPA thresholds, class standing, and work authorization. The edu dimension should not use one ruler across the field — flag JD1-type postings as "PhD-only."
 - The exp/proj dimension's scoring anchors should split into "technical-depth" and "execution-reliability" archetypes: JD3 (Children's National) treats "15 hours/week on-site, night/weekend shifts, full-cycle commitment" as a hard requirement — showing the clinical-research track values steady time commitment and reliable on-site execution over resume-level technical highlights.

@@ -18,7 +18,7 @@ import streamlit_antd_components as sac
 from PIL import Image
 
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
-from branding import logo_svg_data_uri
+from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
 from emailer import send_report_email
 from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
@@ -30,6 +30,10 @@ def _inject_background_decoration():
     if not bg_path.is_file():
         return
     b64 = base64.b64encode(bg_path.read_bytes()).decode("ascii")
+    # logo裁剪后的宽高（不是原始2000x2000画布的宽高）：h1::after的aspect-ratio要用这个比例，
+    # 保证clamp()缩放时logo始终按真实比例显示，不被拉伸变形。
+    (_, _), (_logo_left, _logo_top, _logo_right, _logo_bottom) = logo_geometry()
+    logo_w, logo_h = _logo_right - _logo_left, _logo_bottom - _logo_top
     st.markdown(
         textwrap.dedent(f"""
         <style>
@@ -67,14 +71,24 @@ def _inject_background_decoration():
             padding: 1.5rem 2rem 2.5rem;
             box-shadow: none;
         }}
-        [data-testid="stMainBlockContainer"] h1 {{ position:relative; padding-right:220px; }}
+        /* 2026-09-20【修复"简历罗盘"标题在手机上换行，且保留logo可见——不是display:none】：
+           logo靠h1::after绝对定位叠在标题右侧、用padding-right给它腾位置，本质上不参与正常的
+           文字排版流。上一版做法是手机上直接隐藏logo（display:none），但产品要求手机上logo
+           不能完全消失，只是缩小。现在改用clamp()做无断点的流式缩放：logo的宽度和h1预留的
+           padding-right都用clamp(最小值, 随视口宽度vw变化, 最大值)表达，屏幕越窄，logo和
+           预留空间同步等比缩小，最窄时也还剩56px的padding、48px的logo宽度——不会缩没，
+           也不会因为固定预留宽度在窄屏上跟标题文字抢地方导致换行。logo的高度不再写死37px，
+           改成从branding.logo_geometry()实时读取裁剪后的宽高比算出的aspect-ratio，
+           这样以后换logo文件也不用来这里改数字。 */
+        [data-testid="stMainBlockContainer"] h1 {{
+            position:relative;
+            padding-right: clamp(56px, 18vw, 220px);
+        }}
         [data-testid="stMainBlockContainer"] h1::after {{
             content:""; position:absolute; right:0; top:50%; transform:translateY(-50%);
-            width:200px; height:37px; background:url("{logo_svg_data_uri()}") right center / contain no-repeat;
-        }}
-        @media (max-width:640px) {{
-            [data-testid="stMainBlockContainer"] h1 {{ padding-right:140px; }}
-            [data-testid="stMainBlockContainer"] h1::after {{ width:125px; height:24px; }}
+            width: clamp(48px, 16vw, 200px);
+            aspect-ratio: {logo_w} / {logo_h};
+            background:url("{logo_svg_data_uri()}") right center / contain no-repeat;
         }}
         </style>
         """),
@@ -787,11 +801,14 @@ elif st.session_state.view == "result" and st.session_state.result:
         st.download_button("下载PDF报告", data=pdf_bytes, file_name=out_name, mime="application/pdf")
 
         # 2026-09-19：顺手把报告存档邮件发出去——免费版Streamlit Cloud容器重启后
-        # reports/文件夹会清空，邮箱是目前最省事的长期留存方式。secrets里没配置发件账号
-        # 时send_report_email()会自己静默跳过，这里不用额外判断；真发送失败了（密码错、
-        # 网络问题等）也只提示一句，不影响上面已经展示的评分结果和下载按钮。
+        # reports/文件夹会清空，邮箱是目前最省事的长期留存方式。
+        # 2026-09-19 补充：之前这里"secrets没配置、静默跳过"和"真的发送成功了"在界面上
+        # 完全看不出区别（都是"什么提示都没有"），调试时没法判断到底是配置没生效还是
+        # 发送本身出了问题。现在send_report_email()会返回"sent"/"skipped"，这里分情况
+        # 给出明确提示——真发送失败了（密码错、网络问题、邮箱那边没开SMTP AUTH等）
+        # 仍然只提示一句，不影响上面已经展示的评分结果和下载按钮。
         try:
-            send_report_email(
+            email_status = send_report_email(
                 pdf_bytes,
                 out_name,
                 st.session_state.student_name,
@@ -802,6 +819,10 @@ elif st.session_state.view == "result" and st.session_state.result:
                 resume_bytes=st.session_state.resume_original_bytes,
                 resume_filename=st.session_state.resume_original_filename,
             )
+            if email_status == "sent":
+                st.caption("📧 报告和原版简历已自动发送存档邮件")
+            else:
+                st.caption("ℹ️ 存档邮件功能尚未配置（Secrets里没填发件邮箱/密码），已跳过发送")
         except Exception as e:
             st.warning(f"报告存档邮件发送失败（不影响上面的评分结果和下载）：{e}")
 
