@@ -20,6 +20,7 @@ from PIL import Image
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
+from share_card import generate_share_card, render_share_button
 from emailer import send_report_email
 from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
 
@@ -681,6 +682,16 @@ elif st.session_state.view == "result" and st.session_state.result:
         st.rerun()
     st.divider()
     _render_score_badge(result)
+    with st.expander("分享评估卡", expanded=True):
+        try:
+            share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"])
+            if st.session_state.get("share_card_key") != share_key:
+                st.session_state.share_card_png = generate_share_card(*share_key)
+                st.session_state.share_card_key = share_key
+            st.image(st.session_state.share_card_png, width=360)
+            render_share_button(st.session_state.share_card_png)
+        except Exception:
+            st.warning("分享卡暂时无法生成，请继续查看或下载报告。")
     if result.get("stage_note"):
         st.info(result["stage_note"])
 

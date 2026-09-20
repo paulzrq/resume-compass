@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<style>body{margin:0;font:14px system-ui;color:#777}button,a{font:inherit;padding:12px 20px;border-radius:8px;cursor:pointer}button{background:#493a5c;color:white;border:0}a{color:#655373;display:inline-block}#status{margin:8px 0;line-height:1.5}</style>
+<button id="share" type="button">分享卡片</button><a id="save" download="简历罗盘分享卡.png">保存图片</a><p id="status" role="status" aria-live="polite"></p>
+<script>
+const bytes=Uint8Array.from(atob('__PNG__'),c=>c.charCodeAt(0));
+const file=new File([bytes],'简历罗盘分享卡.png',{type:'image/png'});
+const url=URL.createObjectURL(file);
+document.getElementById('save').href=url;
+const button=document.getElementById('share'),status=document.getElementById('status');
+// Streamlit's same-origin iframe may not delegate web-share. Use the top-level
+// navigator when accessible; click activation propagates to ancestor windows.
+function sharingNavigator(){
+  try {if(window.parent.navigator.canShare?.({files:[file]}))return window.parent.navigator;}catch(e){}
+  try {if(navigator.canShare?.({files:[file]}))return navigator;}catch(e){}
+  return null;
+}
+button.onclick=async()=>{
+  const nav=sharingNavigator();
+  if(!nav){status.textContent='当前浏览器不支持系统图片分享，请点击“保存图片”，或在卡片大图上长按保存后分享。';return;}
+  button.disabled=true;
+  try{await nav.share({files:[file],title:'简历罗盘评估卡'});status.textContent='已交给系统分享。';}
+  catch(e){status.textContent=e.name==='AbortError'?'已取消分享，可以重新点击。':'未能打开分享面板，请点击“保存图片”后分享。';}
+  finally{button.disabled=false;}
+};
+window.addEventListener('pagehide',()=>URL.revokeObjectURL(url));
+</script></html>
