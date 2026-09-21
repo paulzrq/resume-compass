@@ -15,6 +15,9 @@ app=AppTest.from_file(str(ROOT/'app/app.py'),default_timeout=30)
 for k,v in dict(view='result',result=result,report_unlocked=False,assessment_id='offline-test',student_name='虚构测试',student_meta='',resume_pdf_bytes=None,resume_original_bytes=None,resume_original_filename=None).items():app.session_state[k]=v
 with patch.object(share_card,'render_share_button',return_value=False) as share,patch.object(report,'generate_pdf',wraps=report.generate_pdf) as pdf,patch.object(emailer,'send_report_email',return_value='skipped') as mail,patch.object(Path,'write_bytes',return_value=0):
  app.run();assert not app.exception,list(app.exception);assert pdf.call_count==0;assert mail.call_count==0
+ layout=app.session_state['share_layout']
+ card=app.session_state['share_card_png']
+ assert layout in 'ABDEF'
  print('PASS locked actual app: no PDF, no email')
  share.return_value=True
  app.run();assert not app.exception,list(app.exception);assert pdf.call_count==1;assert mail.call_count==1
@@ -26,7 +29,9 @@ with patch.object(share_card,'render_share_button',return_value=False) as share,
  png=doc[0].get_pixmap(matrix=pymupdf.Matrix(1,1)).tobytes('png')
  share.return_value=False
  app.run();assert not app.exception;assert pdf.call_count==1;assert mail.call_count==1
- print('PASS rerun: no repeated PDF generation or email')
+ assert app.session_state['share_layout']==layout
+ assert app.session_state['share_card_png']==card
+ print('PASS rerun: stable layout/card, no repeated PDF generation or email')
  app.button[0].click().run();assert not app.exception;assert app.session_state['view']=='form'
  print('PASS return to form')
 # Rendering is checked in memory; no student artifacts are written.

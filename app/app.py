@@ -21,7 +21,7 @@ from PIL import Image
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
-from share_card import generate_share_card, render_share_button, render_share_preview, CARD_VERSION
+from share_card import generate_share_card, render_share_button, render_share_preview, CARD_VERSION, choose_share_layout
 from emailer import send_report_email
 from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
 
@@ -652,6 +652,7 @@ if st.session_state.view == "form":
                     )
                     st.session_state.pop("report_artifact", None)
                     st.session_state.pop("report_email_status", None)
+                    st.session_state.share_layout = choose_share_layout()
                     st.session_state.report_unlocked = False
                     st.session_state.assessment_id = uuid.uuid4().hex
                     st.session_state.result = result
@@ -682,7 +683,9 @@ elif st.session_state.view == "result" and st.session_state.result:
     st.divider()
     with st.expander("分享评估卡", expanded=True):
         try:
-            share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"])
+            if "share_layout" not in st.session_state:
+                st.session_state.share_layout = choose_share_layout()
+            share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"], st.session_state.share_layout)
             if st.session_state.get("share_card_key") != (CARD_VERSION, share_key):
                 st.session_state.share_card_png = generate_share_card(*share_key)
                 st.session_state.share_card_key = (CARD_VERSION, share_key)

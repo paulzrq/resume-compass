@@ -2,6 +2,8 @@
 import base64
 import colorsys
 import io
+import math
+import secrets
 from collections import deque
 from functools import lru_cache
 from pathlib import Path
@@ -14,8 +16,9 @@ from branding import LOGO_PATH
 from mascots import mascot_path
 
 APP_URL = 'https://resume-compass.streamlit.app/'
-CARD_VERSION = 'hd-2'
+CARD_VERSION = 'layouts-abdef-1'
 SCALE = 2
+BOLD_FONT = str(Path(__file__).parent / 'fonts' / 'NotoSerifCJKsc-Bold.otf')
 FONT = str(Path(__file__).parent / 'fonts' / 'NotoSerifCJKsc-Regular.otf')
 
 
@@ -25,7 +28,7 @@ def artwork(field_id):
     if not path:
         return None, (235, 231, 241), (62, 46, 83)
     im = Image.open(path).convert('RGBA')
-    im.thumbnail((540 * SCALE, 540 * SCALE), Image.Resampling.LANCZOS)
+    im.thumbnail((1254, 1254), Image.Resampling.LANCZOS)
     # Remove only near-white pixels connected to the outside, preserving shirts.
     px = im.load()
     w, h = im.size
@@ -53,54 +56,111 @@ def artwork(field_id):
     return im, rgb(.065, .95), rgb(.42, .28)
 
 
-def generate_share_card(field_id, field_name, total):
+# Coordinates are in a 1080 x 1440 design grid, rendered at 2x.
+LAYOUTS = {
+    'A': dict(title=[(70, 300, '我的简历评估', 96, 735)], brand=(855, 88),
+              compass=(915, 265, 104), person=(530, 490, 495, 590), score=(75, 590, 420, 235)),
+    'B': dict(title=[(80, 270, '我的', 130, 600), (80, 420, '简历评估', 130, 600)], brand=(80, 207),
+              compass=(885, 270, 125), person=(60, 585, 470, 535), score=(575, 680, 435, 240)),
+    'D': dict(title=[(75, 260, '我的', 137, 625), (75, 450, '简历评估', 137, 625)], brand=(845, 85),
+              compass=(875, 340, 135), person=(545, 605, 480, 490), score=(75, 685, 430, 230)),
+    'E': dict(title=[(720, 300, '我的', 132, 300), (500, 470, '简历评估', 120, 520)], brand=(855, 220),
+              compass=(235, 345, 125), person=(40, 590, 475, 520), score=(555, 715, 460, 225)),
+    'F': dict(title=[(75, 255, '我的简历评估', 112, 940)], brand=(80, 195),
+              compass=(230, 600, 123), person=(425, 455, 590, 660), score=(75, 815, 345, 165)),
+}
+
+
+def choose_share_layout():
+    """Choose once at assessment completion, never while drawing/rerunning."""
+    return secrets.choice(tuple(LAYOUTS))
+
+
+def generate_share_card(field_id, field_name, total, layout='A'):
+    if layout not in LAYOUTS:
+        raise ValueError('Unknown share card layout')
+    spec = LAYOUTS[layout]
     mascot, bg, ink = artwork(field_id)
     card = Image.new('RGB', (1080 * SCALE, 1440 * SCALE), bg)
     draw = ImageDraw.Draw(card)
-    def text(x, y, value, size, max_width=940):
-        font = ImageFont.truetype(FONT, size * SCALE)
-        while draw.textbbox((0, 0), value, font=font)[2] > max_width * SCALE and size > 12:
+    def coords(values):
+        return tuple(round(v * SCALE) for v in values)
+    def text(x, y, value, size, max_width=940, bold=False):
+        path = BOLD_FONT if bold else FONT
+        font = ImageFont.truetype(path, round(size * SCALE))
+        while draw.textlength(value, font=font) > max_width * SCALE and size > 12:
             size -= 1
-            font = ImageFont.truetype(FONT, size * SCALE)
-        draw.text((x * SCALE, y * SCALE), value, font=font, fill=ink)
+            font = ImageFont.truetype(path, round(size * SCALE))
+        draw.text(coords((x, y)), value, font=font, fill=ink, anchor='lt')
+        return draw.textlength(value, font=font) / SCALE
+    def line(points, width=1):
+        draw.line(coords(points), fill=ink, width=max(1, round(width*SCALE)))
     logo = Image.open(LOGO_PATH).convert('RGBA')
     logo = logo.crop(logo.getchannel('A').getbbox())
-    logo.thumbnail((370 * SCALE, 85 * SCALE), Image.Resampling.LANCZOS)
+    logo.thumbnail(coords((370, 85)), Image.Resampling.LANCZOS)
     colored = Image.new('RGBA', logo.size, ink)
     colored.putalpha(logo.getchannel('A'))
-    card.paste(colored, (80 * SCALE, 80 * SCALE), colored)
-    text(80, 215, '简历罗盘', 32)
-    text(80, 285, '我的', 112)
-    text(80, 425, '简历评估', 112)
-    # Small compass ornament, consistent with the approved card.
-    def coords(values):
-        return tuple(v * SCALE for v in values)
-    cx, cy = 860, 290
-    draw.ellipse(coords((770, 200, 950, 380)), outline=ink, width=SCALE)
-    draw.line(coords((cx, 180, cx, 400)), fill=ink, width=SCALE)
-    draw.line(coords((750, cy, 970, cy)), fill=ink, width=SCALE)
-    draw.polygon([coords(p) for p in [(cx, 220), (875, 305), (cx, 290), (845, 275)]], fill=ink)
-    text(848, 155, 'N', 23)
+    card.paste(colored, coords((80, 80)), colored)
+    text(*spec['brand'], '简历罗盘', 32, 170)
+    for x, y, label, size, width in spec['title']:
+        text(x, y, label, size, width, True)
+    # Eight-point compass with a dashed inner circle and cardinal letters.
+    cx, cy, radius = spec['compass']
+    draw.ellipse(coords((cx-radius,cy-radius,cx+radius,cy+radius)),outline=ink,width=SCALE)
+    inner=radius*.76
+    for start in range(0,360,9):
+        draw.arc(coords((cx-inner,cy-inner,cx+inner,cy+inner)),start,start+4,fill=ink,width=SCALE)
+    for i in range(8):
+        a=math.pi*i/4-math.pi/2
+        length=radius*(.76 if i%2==0 else .48)
+        tip=(cx+math.cos(a)*length,cy+math.sin(a)*length)
+        left=(cx+math.cos(a-math.pi/2)*11,cy+math.sin(a-math.pi/2)*11)
+        right=(cx+math.cos(a+math.pi/2)*11,cy+math.sin(a+math.pi/2)*11)
+        draw.polygon([coords(p) for p in [(cx,cy),left,tip]],fill=ink)
+        draw.line([coords(p) for p in [(cx,cy),right,tip,(cx,cy)]],fill=ink,width=SCALE)
+        line((cx+math.cos(a)*radius*.94,cy+math.sin(a)*radius*.94,
+              cx+math.cos(a)*radius*1.1,cy+math.sin(a)*radius*1.1))
+    for label,x,y in [('N',cx-9,cy-radius-38),('S',cx-8,cy+radius+14),
+                      ('W',cx-radius-36,cy-12),('E',cx+radius+15,cy-12)]:
+        text(x,y,label,23,35)
     if mascot:
-        card.paste(mascot, (520 * SCALE, 570 * SCALE), mascot)
-    score = f'{float(total):.1f}'.rstrip('0').rstrip('.') if float(total) % 1 else str(int(total))
-    text(80, 675, score, 172, 320)
-    text(365, 820, '/100', 40, 150)
-    text(80, 915, '简历综合评分', 48, 435)
-    text(80, 1000, '目标方向 · ' + field_name, 31, 445)
-    draw.line(coords((70, 1160, 1010, 1160)), fill=ink, width=SCALE)
-    text(80, 1200, '你的简历，还有哪些可能？', 46, 710)
-    text(80, 1275, 'resume-compass.streamlit.app', 25, 720)
-    qr = qrcode.QRCode(box_size=5, border=4)
-    qr.add_data(APP_URL)
-    qr.make(fit=True)
-    qr_image = qr.make_image(fill_color=ink, back_color=bg).convert('RGB')
-    qr_image = qr_image.resize((170 * SCALE, 170 * SCALE), Image.Resampling.NEAREST)
-    card.paste(qr_image, (840 * SCALE, 1180 * SCALE))
-    text(850, 1350, '扫码评估简历', 23, 170)
-    text(80, 1380, 'AI 辅助评估，仅供参考', 20)
-    output = io.BytesIO()
-    card.save(output, format='PNG')
+        x,y,w,h=spec['person']
+        # Remove source padding so each profession occupies its designated box.
+        bounds = Image.new('L', mascot.size)
+        bounds.putdata([255 if a and (max(r,g,b)-min(r,g,b)>18 or max(r,g,b)<150) else 0
+                        for r,g,b,a in mascot.getdata()])
+        figure=mascot.crop(bounds.getbbox() or mascot.getchannel('A').getbbox())
+        ratio=min(w*SCALE/figure.width,h*SCALE/figure.height)
+        figure=figure.resize((round(figure.width*ratio),round(figure.height*ratio)),Image.Resampling.LANCZOS)
+        card.paste(figure,(round((x+w/2)*SCALE-figure.width/2),round((y+h)*SCALE-figure.height)),figure)
+    x,y,w,size=spec['score']
+    score=f'{float(total):.1f}'.rstrip('0').rstrip('.') if float(total)%1 else str(int(total))
+    score_width=text(x,y,score,size,w-110,True)
+    divider=x+score_width+20
+    line((divider,y+12,divider,y+size*.62))
+    text(divider-10,y+size*.72,'/100',43,105)
+    text(x,y+size+22,'简历综合评分',59 if layout!='F' else 49,w,True)
+    # Long custom directions wrap rather than becoming illegibly tiny.
+    direction='目标方向 · '+field_name
+    if len(direction)>22:
+        text(x,y+size+110,'目标方向 ·',28,w)
+        text(x,y+size+148,field_name,28,w)
+    else:
+        text(x,y+size+110,direction,31,w)
+    line((70,1160,1010,1160))
+    text(80,1208,'你的简历，还有哪些可能？',55,710,True)
+    text(80,1290,'resume-compass.streamlit.app',28,725)
+    qr=qrcode.QRCode(box_size=8,border=4)
+    qr.add_data(APP_URL);qr.make(fit=True)
+    qr_image=qr.make_image(fill_color=ink,back_color=bg).convert('RGB')
+    # Integer module scaling preserves clean QR edges.
+    modules=len(qr.get_matrix())
+    side=(170*SCALE//modules)*modules
+    qr_image=qr_image.resize((side,side),Image.Resampling.NEAREST)
+    card.paste(qr_image,coords((855,1185)))
+    text(855,1350,'扫码评估简历',23,165)
+    text(80,1380,'AI 辅助评估，仅供参考',20)
+    output=io.BytesIO();card.save(output,format='PNG')
     return output.getvalue()
 
 
