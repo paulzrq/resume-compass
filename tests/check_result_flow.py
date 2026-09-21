@@ -6,6 +6,8 @@ from unittest.mock import patch
 from pathlib import Path
 from streamlit.testing.v1 import AppTest
 import report,scoring,share_card,emailer
+from local_modules import load_current_module
+load_current_module("share_card")
 from test_scoring_contract import fixture,response
 from unittest.mock import MagicMock
 client=MagicMock();client.messages.create.return_value=response(json.dumps(fixture()))

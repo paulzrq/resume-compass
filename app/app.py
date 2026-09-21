@@ -22,7 +22,15 @@ from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CU
 from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
 from web_report import render_web_report
-from share_card import generate_share_card, render_share_button, render_share_preview, CARD_VERSION, choose_share_layout
+from local_modules import load_current_module
+
+# Cloud can rerun this entry point while an earlier share_card remains in sys.modules.
+_share_card = load_current_module("share_card")
+generate_share_card = _share_card.generate_share_card
+render_share_button = _share_card.render_share_button
+render_share_preview = _share_card.render_share_preview
+CARD_VERSION = _share_card.CARD_VERSION
+choose_share_layout = _share_card.choose_share_layout
 from emailer import send_report_email
 from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
 
