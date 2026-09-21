@@ -23,7 +23,7 @@ from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
 from local_modules import load_current_module
 
-# Cloud can rerun this entry point while an earlier web_report/share_card remains in sys.modules.
+# Cloud can rerun this entry point while an earlier web_report/share_card/mascots remains in sys.modules.
 _web_report = load_current_module("web_report")
 render_web_report = _web_report.render_web_report
 _share_card = load_current_module("share_card")
@@ -33,7 +33,11 @@ render_share_preview = _share_card.render_share_preview
 CARD_VERSION = _share_card.CARD_VERSION
 choose_share_layout = _share_card.choose_share_layout
 from emailer import send_report_email
-from mascots import mascot_path, mascot_accent_color, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
+_mascots = load_current_module("mascots")
+mascot_path = _mascots.mascot_path
+mascot_accent_color = _mascots.mascot_accent_color
+MASCOTS_DIR = _mascots.MASCOTS_DIR
+FIELD_ID_TO_MASCOT_FILENAME = _mascots.FIELD_ID_TO_MASCOT_FILENAME
 
 
 def _inject_background_decoration():
