@@ -8,7 +8,6 @@ from collections import deque
 from functools import lru_cache
 from pathlib import Path
 
-import qrcode
 import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image, ImageDraw, ImageFont
@@ -16,6 +15,7 @@ from branding import LOGO_PATH
 from mascots import mascot_path
 
 APP_URL = 'https://resume-compass.streamlit.app/'
+QR_CODE_PATH = Path(__file__).parent / 'assets' / 'qr_code.png'
 CARD_VERSION = 'layouts-abdef-1'
 SCALE = 2
 BOLD_FONT = str(Path(__file__).parent / 'fonts' / 'NotoSerifCJKsc-Bold.otf')
@@ -147,19 +147,28 @@ def generate_share_card(field_id, field_name, total, layout='A'):
         text(x,y+size+148,field_name,28,w)
     else:
         text(x,y+size+110,direction,31,w)
+    def centered_text(cx, y, value, size, max_width=940, bold=False):
+        """Same as text(), but horizontally centred on cx instead of left-anchored."""
+        path = BOLD_FONT if bold else FONT
+        font = ImageFont.truetype(path, round(size * SCALE))
+        while draw.textlength(value, font=font) > max_width * SCALE and size > 12:
+            size -= 1
+            font = ImageFont.truetype(path, round(size * SCALE))
+        width = draw.textlength(value, font=font) / SCALE
+        return text(cx - width / 2, y, value, size, max_width, bold)
     line((70,1160,1010,1160))
-    text(80,1208,'你的简历，还有哪些可能？',55,710,True)
-    text(80,1290,'resume-compass.streamlit.app',28,725)
-    qr=qrcode.QRCode(box_size=8,border=4)
-    qr.add_data(APP_URL);qr.make(fit=True)
-    qr_image=qr.make_image(fill_color=ink,back_color=bg).convert('RGB')
-    # Integer module scaling preserves clean QR edges.
-    modules=len(qr.get_matrix())
-    side=(170*SCALE//modules)*modules
+    # AI-disclaimer line removed; the two lines above shift down a bit to fill the freed space evenly.
+    text(80,1230,'你的简历，还有哪些可能？',55,710,True)
+    text(80,1312,'resume-compass.streamlit.app',28,725)
+    # Static QR asset (not colour-matched to the card theme like the old generated one).
+    qr_image=Image.open(QR_CODE_PATH).convert('RGB')
+    qr_side_design=205  # enlarged from the previous 170-unit generated QR
+    side=qr_side_design*SCALE
     qr_image=qr_image.resize((side,side),Image.Resampling.NEAREST)
-    card.paste(qr_image,coords((855,1185)))
-    text(855,1350,'扫码评估简历',23,165)
-    text(80,1380,'AI 辅助评估，仅供参考',20)
+    qr_x=800
+    qr_y=1175
+    card.paste(qr_image,coords((qr_x,qr_y)))
+    centered_text(qr_x+qr_side_design/2,qr_y+qr_side_design+18,'扫码评估简历',23,qr_side_design)
     output=io.BytesIO();card.save(output,format='PNG')
     return output.getvalue()
 
@@ -169,16 +178,22 @@ _share_component = components.declare_component(
 )
 
 
-def render_share_button(png, key):
+def render_share_button(png, color, key):
+    """color: 按钮主色（十六进制），跟随当前方向插画的主色调，由调用方传入。"""
     return _share_component(png=base64.b64encode(png).decode('ascii'),
-                            key=key, default=False)
+                            color=color, key=key, default=False)
 
 
 def render_share_preview(png):
-    """Serve original PNG bytes; Streamlit st.image(width=...) downsamples them."""
+    """Serve original PNG bytes; Streamlit st.image(width=...) downsamples them.
+
+    卡片不再套外层的方框/展开器，直接给图片本身加圆角和阴影，浮在页面背景上；
+    margin-bottom 留出和下面按钮之间的呼吸空间。
+    """
     encoded = base64.b64encode(png).decode('ascii')
     st.markdown(
-        '<div style="width:100%;display:flex;justify-content:center">'
+        '<div style="width:100%;display:flex;justify-content:center;margin-bottom:28px">'
         '<img alt="简历评估分享卡" src="data:image/png;base64,' + encoded + '" '
         'style="display:block;width:100%;max-width:min(720px,65vh);height:auto;'
+        'border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,0.08);'
         'object-fit:contain" /></div>', unsafe_allow_html=True)

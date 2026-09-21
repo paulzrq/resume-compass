@@ -43,6 +43,43 @@ FIELD_ID_TO_MASCOT_FILENAME = {
     # biomed 没有对应插画（不在28张范围内）
 }
 
+# field_id -> 分享按钮主色（从对应插画的服装/主体颜色里提取，深色调，配白色文字对比度足够）。
+# 用脚本对每张插画做了一次颜色统计（排除近白背景、近黑轮廓线和肤色区间后，取出现最多的颜色
+# 区块，再统一收窄到饱和度0.45~0.75、明度0.30~0.48的范围，让28种颜色风格统一、不刺眼）。
+# 没有插画的方向（如自定义方向）用 DEFAULT_ACCENT_COLOR 兜底。
+DEFAULT_ACCENT_COLOR = "#493a5c"
+
+FIELD_ID_TO_ACCENT_COLOR = {
+    "swe": "#243054",
+    "ds": "#4c2a4c",
+    "mle": "#2e2e54",
+    "engineering": "#4c3f26",
+    "cybersecurity": "#2e3a54",
+    "robotics": "#2a3b4c",
+    "fintech_eng": "#183c60",
+    "finance": "#13414c",
+    "risk_analyst": "#26324c",
+    "actuary": "#193f4c",
+    "consulting": "#184754",
+    "marketing": "#185760",
+    "pm": "#64427a",
+    "ba": "#42597a",
+    "ops": "#2a4c4c",
+    "data_analyst": "#30517a",
+    "accounting": "#37597a",
+    "hr": "#7a3730",
+    "sales": "#1e7a74",
+    "law": "#2e543a",
+    "clinical_research": "#154954",
+    "media": "#346034",
+    "film_production": "#4c1919",
+    "teacher": "#4c3326",
+    "ux": "#243b6c",
+    "graphic_design": "#60243c",
+    "architecture": "#2a3b4c",
+    "game_design": "#3a2e54",
+}
+
 
 def mascot_path(field_id: str):
     """返回给定 field_id 对应插画的绝对路径；没有插画（或文件缺失）时返回 None。"""
@@ -51,3 +88,8 @@ def mascot_path(field_id: str):
         return None
     p = MASCOTS_DIR / filename
     return p if p.is_file() else None
+
+
+def mascot_accent_color(field_id: str) -> str:
+    """返回给定 field_id 对应插画的主色调；没有专属颜色时返回 DEFAULT_ACCENT_COLOR。"""
+    return FIELD_ID_TO_ACCENT_COLOR.get(field_id, DEFAULT_ACCENT_COLOR)

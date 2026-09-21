@@ -33,7 +33,7 @@ render_share_preview = _share_card.render_share_preview
 CARD_VERSION = _share_card.CARD_VERSION
 choose_share_layout = _share_card.choose_share_layout
 from emailer import send_report_email
-from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
+from mascots import mascot_path, mascot_accent_color, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
 
 
 def _inject_background_decoration():
@@ -691,23 +691,23 @@ elif st.session_state.view == "result" and st.session_state.result:
         st.session_state.resume_original_filename = None
         st.rerun()
     st.divider()
-    with st.expander("分享评估卡", expanded=True):
-        try:
-            if "share_layout" not in st.session_state:
-                st.session_state.share_layout = choose_share_layout()
-            share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"], st.session_state.share_layout)
-            if st.session_state.get("share_card_key") != (CARD_VERSION, share_key):
-                st.session_state.share_card_png = generate_share_card(*share_key)
-                st.session_state.share_card_key = (CARD_VERSION, share_key)
-            render_share_preview(st.session_state.share_card_png)
-            if render_share_button(st.session_state.share_card_png,
-                                   key="share-" + CARD_VERSION + "-" + st.session_state.get("assessment_id", "legacy")):
-                st.session_state.report_unlocked = True
-        except Exception:
-            st.warning("分享卡暂时无法生成，请重试。")
-            if st.button("重试生成分享卡"):
-                st.session_state.pop("share_card_key", None)
-                st.rerun()
+    try:
+        if "share_layout" not in st.session_state:
+            st.session_state.share_layout = choose_share_layout()
+        share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"], st.session_state.share_layout)
+        if st.session_state.get("share_card_key") != (CARD_VERSION, share_key):
+            st.session_state.share_card_png = generate_share_card(*share_key)
+            st.session_state.share_card_key = (CARD_VERSION, share_key)
+        render_share_preview(st.session_state.share_card_png)
+        accent_color = mascot_accent_color(result["field"].get("id", ""))
+        if render_share_button(st.session_state.share_card_png, accent_color,
+                               key="share-" + CARD_VERSION + "-" + st.session_state.get("assessment_id", "legacy")):
+            st.session_state.report_unlocked = True
+    except Exception:
+        st.warning("分享卡暂时无法生成，请重试。")
+        if st.button("重试生成分享卡"):
+            st.session_state.pop("share_card_key", None)
+            st.rerun()
     if not st.session_state.get("report_unlocked", False):
         st.caption("点击分享卡片后查看完整报告。")
         st.stop()

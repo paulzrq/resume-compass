@@ -1,11 +1,12 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8">
 <style>
+:root{--accent:#493a5c}
 body{margin:0;font:14px system-ui;color:#777}
-#row{display:flex;gap:14px;align-items:center;justify-content:center}
+#row{display:flex;gap:14px;align-items:center}
 button,a{font:inherit;cursor:pointer;text-decoration:none;box-sizing:border-box;display:flex;align-items:center;justify-content:center;border:0;white-space:nowrap}
-button{padding:13px 52px;border-radius:999px;font-size:15px;font-weight:600;letter-spacing:2px;background:#493a5c;color:#fff}
+button{flex:1;padding:15px 0;border-radius:999px;font-size:16px;font-weight:600;letter-spacing:1.5px;background:var(--accent);color:#fff}
 button:disabled{opacity:.6;cursor:default}
-a{width:46px;height:46px;padding:0;border-radius:999px;flex-shrink:0;background:#fff;border:1.5px solid #493a5c;color:#493a5c}
+a{width:50px;height:50px;padding:0;border-radius:999px;flex-shrink:0;background:#fff;border:1.5px solid var(--accent);color:var(--accent)}
 button:active,a:active{opacity:.8}
 #status{margin:14px 0 0;line-height:1.5;text-align:center}
 </style>
@@ -31,6 +32,7 @@ function sendHeight(){
 window.addEventListener('message',event=>{
   if(event.source!==window.parent || event.data.type!=='streamlit:render')return;
   const encoded=event.data.args.png;
+  if(event.data.args.color)document.documentElement.style.setProperty('--accent',event.data.args.color);
   if(!file){
     const bytes=Uint8Array.from(atob(encoded),c=>c.charCodeAt(0));
     file=new File([bytes],'简历罗盘分享卡.png',{type:'image/png'});
