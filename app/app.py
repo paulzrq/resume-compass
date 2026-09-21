@@ -21,10 +21,11 @@ from PIL import Image
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
-from web_report import render_web_report
 from local_modules import load_current_module
 
-# Cloud can rerun this entry point while an earlier share_card remains in sys.modules.
+# Cloud can rerun this entry point while an earlier web_report/share_card remains in sys.modules.
+_web_report = load_current_module("web_report")
+render_web_report = _web_report.render_web_report
 _share_card = load_current_module("share_card")
 generate_share_card = _share_card.generate_share_card
 render_share_button = _share_card.render_share_button
