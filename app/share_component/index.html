@@ -1,17 +1,23 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8">
 <style>
 body{margin:0;font:14px system-ui;color:#777}
-#row{display:flex;gap:12px;align-items:center}
+#row{display:flex;gap:14px;align-items:center;justify-content:center}
 button,a{font:inherit;cursor:pointer;text-decoration:none;box-sizing:border-box;display:flex;align-items:center;justify-content:center;border:0;white-space:nowrap}
-button{flex:1;padding:13px 0;border-radius:999px;font-size:15px;font-weight:600;background:#493a5c;color:#fff}
+button{padding:13px 52px;border-radius:999px;font-size:15px;font-weight:600;letter-spacing:2px;background:#493a5c;color:#fff}
 button:disabled{opacity:.6;cursor:default}
-a{padding:13px 22px;border-radius:999px;flex-shrink:0;background:#fff;border:1.5px solid #493a5c;color:#493a5c;font-size:15px;font-weight:600}
+a{width:46px;height:46px;padding:0;border-radius:999px;flex-shrink:0;background:#fff;border:1.5px solid #493a5c;color:#493a5c}
 button:active,a:active{opacity:.8}
-#status{margin:8px 0 0;line-height:1.5}
+#status{margin:14px 0 0;line-height:1.5;text-align:center}
 </style>
 <div id="row">
 <button id="share" type="button">分享卡片</button>
-<a id="save" download="简历罗盘分享卡.png">保存图片</a>
+<a id="save" download="简历罗盘分享卡.png" title="保存图片" aria-label="保存图片">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3v12"/>
+    <path d="M7 10l5 5 5-5"/>
+    <path d="M5 21h14"/>
+  </svg>
+</a>
 </div>
 <p id="status" role="status" aria-live="polite"></p>
 <script>
