@@ -267,5 +267,30 @@ Collected: 2026-09-20
 - Working knowledge of Power BI or Tableau for dashboarding/visualization
 - Demonstrated ability to identify data anomalies and forecast trends to support business conclusions
 
+## JD 12: Data Analyst, Emerging Category Intern, The Coca-Cola Company (CPG category/beverage business analytics)
+Source: Official Coca-Cola Company careers site (Workday requisition R-133380)
+https://careers.coca-colacompany.com/job/22852845/data-analyst-emerging-category-intern-atlanta-ga/
+Collected: 2026-09-21
+
+### Responsibilities
+- Collect, clean, and organize consumer, market, sales, and product data for the Alcohol Ready-to-Drink (ARTD) emerging category
+- Analyze category and brand performance metrics to identify trends and business opportunities
+- Build dashboards and data visualizations to track key performance indicators for stakeholders
+- Support supply chain operations, including shipment creation and delivery/fulfillment analysis
+- Prepare and present data-driven insights and recommendations to cross-functional business partners
+
+### Basic Requirements
+- Currently pursuing or recently completed (no earlier than December 2025) a Bachelor's or Master's degree in Data Science, Analytics, Statistics, Business Analytics, Marketing Analytics, Economics, Computer Science, or a related field
+- Proficiency in data cleaning, preparation, and organization from multiple raw data sources
+- Hands-on experience with visualization/BI tools such as Tableau, Power BI, or advanced Excel
+- Ability to translate data analysis into clear, actionable business recommendations
+- Must be authorized to work in the United States without company sponsorship
+
+### Bonus / Preferred Qualifications
+- Prior experience or coursework in supply chain analytics
+- Previous analytical work experience with a large consumer-facing organization
+- Experience building end-to-end reporting/dashboard solutions independently rather than one-off analyses
+- Familiarity with SQL for querying and joining sales, shipment, and consumer data across multiple tables
+
 ## Implications for Our Framework
 Across all five postings, the load-bearing tools are consistently SQL, Excel (often at an "advanced/VLOOKUP-XLOOKUP/pivot-table" level), and a BI visualization tool (Tableau or Power BI) — Python/R and statistical modeling are rarely required and, when mentioned at all, sit in the "preferred" tier rather than "basic," which sharply distinguishes this track from a Data Science/ML internship where Python, statistics, and modeling are the baseline ask. GPA thresholds (typically 3.0) and degree-progress/eligibility logistics (graduation window, work authorization, relocation) appear as hard gates in every posting, suggesting our framework should treat these as pass/fail filters rather than scored traits. None of the five postings mention a specific certification as a requirement, so certifications (e.g., Google Data Analytics, Tableau Desktop Specialist) should be weighted as a minor tie-breaking signal rather than a core scoring criterion. Finally, the "bonus" bullets consistently reward applied, business-context experience — campaign/marketing dashboards, financial reporting, ecommerce or customer-segmentation projects — over purely academic or Kaggle-style ML projects, so resume scoring should favor project descriptions that show an SQL/Excel/BI pipeline feeding a business decision or stakeholder-facing dashboard.

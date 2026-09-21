@@ -249,6 +249,33 @@ Collected: 2026-09-20
 - Curious and analytical thinker who brings creative approaches to non-standard problems; eagerness to learn new programming languages
 - Mandarin fluency (for China Competition projects, requiring additional interviews)
 
+## JD 12: 2026 Mergers & Acquisitions Consulting Intern, West Monroe (mid-market operations & technology M&A consulting)
+Source: West Monroe official internship posting (campus recruiting listing, mirrored on Runway job board)
+https://app.joinrunway.io/explore/job/cmkd4y61a000ll904964mhu6l
+Collected: 2026-09-21
+
+### Responsibilities
+- Collaborate with cross-functional deal teams to support buy-side and sell-side M&A due diligence, including on-site visits to assess target companies' operational and technology strategies
+- Assess client and target investment strategies against industry benchmarks and leading practices to identify synergy and risk areas
+- Prepare due diligence request lists, meeting agendas, and client-ready deliverables summarizing findings
+- Support post-close, value-creation projects focused on process efficiency and integration planning
+- Apply AI tools and advanced analytics to improve the efficiency of client engagements
+- Contribute to the enhancement of West Monroe's internal M&A methodologies and client-facing approaches
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree, with graduation expected between December 2026 and July 2027
+- Minimum cumulative GPA of 3.0
+- Legal authorization to work in the U.S. without current or future sponsorship
+- Residency within 50 miles of the assigned office location
+- Willingness to travel Monday through Thursday, up to 50% of the time
+
+### Bonus / Preferred Qualifications
+- Major in Business Administration, Business Analytics, Data Science, Economics, Finance, Industrial & Systems Engineering, Information Systems, or Supply Chain Management
+- Prior experience or demonstrated interest in AI tools, data visualization, or automation
+- Leadership experience presented with clear, quantified outcomes rather than task lists
+- A structured, STAR-style example of solving a complex, ambiguous business problem under time pressure
+- Demonstrated cross-functional or cross-domain collaboration, such as working across technology, operations, and finance stakeholders on a single project
+
 ## Implications for Our Framework
 - MBB (Bain) sets almost no hard GPA or major requirement, relying instead on case interviews and live structured problem-solving to filter candidates — this aligns with the consulting field's highest single weight going to leadership (25): MBB is essentially hiring "future engagement leads," not a specific technical skill set.
 - Technology consulting (Accenture) explicitly requires a STEM/business/engineering background and emphasizes sensitivity to trends like cloud and data/AI — showing that within the broader "consulting" category, the implicit weight of skill tools and edu-major fit is significantly higher for the tech-consulting sub-track than for strategy consulting.

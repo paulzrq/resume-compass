@@ -251,6 +251,32 @@ Collected: 2026-09-20
 - Coursework or degree background in Communications, Journalism, Media Studies, or Creative Writing
 - No prior professional experience required, but familiarity with media relations, press outreach, or brand storytelling is a plus (program includes mentorship, resume/interview workshops, and networking as development support)
 
+## JD 12: Communications Intern, Universal International Studios, NBCUniversal (entertainment studio publicity/corporate communications)
+Source: NBCUniversal internship posting (Universal International Studios, London), cross-verified via BuiltIn London job listing and LinkedIn job posting
+https://builtinlondon.uk/job/communications-intern-universal-international-studios/3372687
+Collected: 2026-09-21
+
+### Responsibilities
+- Assist with collating coverage reports from publicity campaigns and corporate news for internal and external stakeholders
+- Support the planning and execution of internal and external events, including press launches and screenings
+- Research and maintain media contact lists and assist in drafting press materials
+- Update internal communications documents and monitor developments across the entertainment and broadcast industry
+- Conduct daily news analysis and flag relevant coverage to the communications team
+
+### Basic Requirements
+- Currently on a placement year as an undergraduate, a recent graduate, or post A-Level/apprenticeship route
+- Eligible to work in the UK for the full duration of the 12-month placement
+- Good understanding of the entertainment, broadcast, and/or media landscape
+- Strong written and verbal communication skills
+- Proficient in Microsoft Excel, Word, and PowerPoint
+- Able to manage multiple projects simultaneously under tight deadlines
+
+### Bonus / Preferred Qualifications
+- Demonstrated ability to manage a wide range of projects independently
+- Excellent time management skills and strong attention to detail
+- Prior exposure to or interest in the entertainment/media industry
+- Quick aptitude for learning company-specific systems and processes
+
 ## Implications for Our Framework
 - The news/editorial track (WaPo) puts a track-specific work sample directly into the application checklist — a portfolio isn't a bonus but a gate. proj and present should be scored jointly and weighted more heavily than for the social-media track; gap ① ("missing or broken portfolio link") should be treated as near-disqualifying here.
 - The video/content-production track (The Athletic) doesn't ask for a traditional news-writing sample, instead requiring a combination of "editing tools + news sense + subject-matter interest" — the skill dimension should focus on editing software and narrative pacing, and the "portfolio" under present takes the form of video rather than articles.

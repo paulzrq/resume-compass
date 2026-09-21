@@ -263,5 +263,34 @@ Collected: 2026-09-20
 - Extracurricular involvement such as volunteerism or leadership roles
 - Demonstrated ability to thrive in collaborative, change-driven environments
 
+## JD 12: 2026 ETP Intern – Risk Management, Regions Bank (regional bank risk rotational: credit/model/market risk, model validation, stress-testing)
+Source: Regions Bank official careers site — Emerging Talent Program Risk Management Intern job description
+https://careers.regions.com/us/en/risk-management-job-description
+Collected: 2026-09-21
+
+### Responsibilities
+- Rotate through Risk Management functions including Financial Risk Management, Model Risk Management, Consumer and Wealth Risk Management, and Corporate Compliance
+- Support credit portfolio management and research emerging credit risk trends using internal and external data sources
+- Assist with loss forecasting, stress-testing, and portfolio analytics within the Risk Modeling & Data Science team
+- Perform validation testing and governance support for quantitative and machine learning models used across the bank
+- Develop analytical reports to monitor fraud, complaints, and regulatory compliance risk indicators
+- Collaborate with data scientists to monitor, document, and maintain statistical and machine learning risk models
+
+### Basic Requirements
+- Currently enrolled undergraduate or graduate student with expected graduation Fall 2026 or Spring 2027
+- Major in a technical field (data science, math, data management) or business-related discipline
+- Minimum 3.0 GPA
+- Ability to work 40 hours per week for a 10-week summer program
+- Must be authorized to work in the U.S. without current or future visa sponsorship
+- Strong analytical, critical-thinking, and Microsoft Office skills
+
+### Bonus / Preferred Qualifications
+- Rising junior class standing with demonstrated interest in banking/financial risk
+- Prior exposure to statistical or machine learning model monitoring and documentation
+- Familiarity with credit risk, stress-testing, or loss-forecasting concepts
+- Coursework or project experience in data analytics applied to regulatory or compliance reporting
+- Campus leadership experience or extracurricular involvement
+- Ability to quickly learn and adopt new technology in a fast-paced environment
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic timing and citizenship/work-authorization status, not technical skill: every posting specifies an expected graduation window tied to penultimate-year or graduating-senior status (BofA: Nov 2026-Aug 2027; Citi and Morgan Stanley similarly tied to the 2026/2027 cycle), and three of the five (BofA, Citi, Morgan Stanley) explicitly require U.S. work authorization without future sponsorship, which functions as a binary pass/fail gate rather than a scored trait. A minimum GPA threshold appears in three of five postings and clusters tightly between 3.0 and 3.3, suggesting a rubric should treat GPA as a soft-cutoff signal (present/absent and roughly where it falls in that 3.0-3.3+ band) rather than a finely graded continuous score. None of the postings demand hard technical tools (no SQL, Python, or VaR-modeling requirement appears anywhere), which is notable for a "risk" role and implies that at the internship level, technical/quantitative tooling is a differentiator rather than a baseline — resumes that show Excel modeling, a finance/quant/econ/stats major, or prior risk-adjacent coursework should score above a generic business major even though none of these postings strictly require it. What is treated as universal baseline "soft" language is communication skills, analytical/problem-solving ability, attention to detail, and a demonstrated interest in markets/regulation — these appear in every single posting almost verbatim, so a resume-scoring rubric should weight evidence of these (leadership roles, case competitions, research, relevant coursework projects) heavily as baseline credibility rather than as bonus differentiators. True bonus/differentiator signal across postings is a quant-adjacent major (math, statistics, engineering) layered on top of the eligible business/finance majors, prior exposure to specific risk types (market, credit, liquidity, operational), and international/cross-cultural exposure (Citi, JPM AM). Given this pattern, the risk_analyst rubric should be structured as: (1) hard-gate checks for graduation timing and work authorization language when present on the resume/cover context, (2) a GPA band check calibrated to the observed 3.0-3.3 threshold, (3) a moderate-weight core score for communication/analytical soft-skill evidence and any finance/business/quant major, and (4) bonus points layered on top for quantitative coursework, Excel/data tools, or explicit risk-domain exposure — reflecting that these postings screen broadly on fit and eligibility first, and reserve technical specificity as upside rather than a floor.

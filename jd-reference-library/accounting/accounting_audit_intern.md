@@ -269,5 +269,32 @@ Collected: 2026-09-20
 - Prior accounting-related internship, coursework in auditing/financial statement analysis, or involvement in accounting student organizations (e.g., Beta Alpha Psi)
 - Demonstrated leadership experience and comfort working in fast-paced, client-facing team environments
 
+## JD 12: Winter 2026 Tax Intern (Dallas), Armanino LLP (tax internship at a mid-size non-Big-Four public accounting firm)
+Source: Armanino LLP official posting (JR102644), mirrored on Built In job board
+https://builtin.com/job/winter-2026-tax-intern-dallas/7584432
+Collected: 2026-09-21
+
+### Responsibilities
+- Prepare corporate, partnership, trust, and individual tax returns, including drafts, quarterly estimates, vouchers, extension preparation, and tax projections
+- Research changes in federal and state tax regulations and build tax planning skills across multiple jurisdictions
+- Support client engagements across diverse industries including technology, real estate, cannabis, and nonprofit organizations
+- Collaborate with engagement teams via meetings, chat, and email to deliver client tax work
+- Build proficiency in tax and accounting software through structured training and on-the-job coaching
+- Work toward CPA certification with firm-provided support and mentorship
+
+### Basic Requirements
+- Currently enrolled in a bachelor's or master's degree program in business with an accounting emphasis
+- Legal authorization to work in the U.S. without employer sponsorship
+- Anticipated graduation between December 2025 and August 2026
+- Strong written and verbal communication skills
+- Ability to manage multiple client deliverables and deadlines simultaneously
+
+### Bonus / Preferred Qualifications
+- On track to complete the 150 semester (225 quarter) units required for CPA licensure between December 2026 and August 2027
+- Demonstrated progress toward or plans to pursue CPA exam sections
+- Prior exposure to federal and state tax return preparation or tax research
+- Experience with automated tax or accounting software platforms
+- Interest in specialized industries such as technology, real estate, or nonprofit taxation
+
 ## Implications for Our Framework
 Across all five postings, the Big Four/PwC-style firms (Deloitte, EY, PwC) consistently anchor requirements on CPA-track credit-hour progress and a GPA floor (3.0-3.3), while corporate in-house roles (Cloudflare, Robinhood) drop the CPA/GPA language entirely and instead emphasize graduation timing, tool proficiency, and soft skills like independent ownership — suggesting our scoring framework should weight CPA-eligibility and GPA heavily for public-accounting-track applications but treat them as secondary signals for corporate accounting/internal-audit roles. Microsoft Excel is the one universal hard-skill requirement across every posting regardless of sub-track, and U.S. GAAP knowledge appears specifically at the corporate financial-reporting role, so Excel fluency should be a baseline scoring criterion while GAAP/accounting-standards knowledge should be weighted more for financial-reporting than for tax or forensic tracks. Advanced/niche technical skills (SQL, Python, Tableau, Bloomberg, VBA/MATLAB) appear only as "preferred/bonus" across the board, never as a basic requirement, indicating these should boost a candidate's score but never gate eligibility. Finally, leadership experience, prior internships, and communication/analytical skills recur as differentiators in every posting's bonus section, implying the framework should reward extracurricular leadership and any prior professional experience as meaningful tie-breakers among otherwise similarly-qualified accounting candidates.

@@ -283,5 +283,29 @@ Collected: 2026-09-20
 - Exposure to learning-based robotics or control systems, Git version control proficiency, and knowledge of simulation tools (Gazebo, Isaac Sim, MuJoCo)
 - Genuine interest in real-world humanoid robot applications
 
+## JD 12: SWE Intern, Robotics, Cobot (Collaborative Robotics, Inc.) — multi-robot autonomy for collaborative service robots
+Source: Built In San Francisco job listing (mirrors Cobot's official Ashby careers posting)
+https://www.builtinsf.com/job/robotics-intern/8032610
+Collected: 2026-09-21
+
+### Responsibilities
+- Develop and maintain software for the on-robot autonomy stack with an emphasis on multi-robot control and coordination
+- Leverage open-source models and the latest robotics research to improve robot capability in real customer environments
+- Support integration, testing, and iteration of autonomy software directly on physical collaborative robots deployed in the field
+- Collaborate with cross-functional robotics engineers on multi-agent coordination and task allocation strategies
+
+### Basic Requirements
+- Pursuing a graduate degree in Computer Science, Robotics, AI, Machine Learning, or a related field
+- Prior experience developing software for on-robot systems
+- Proficiency in Python or C++, with working knowledge of Git/version control and Linux environments
+- Strong communication skills and ability to thrive in a fast-paced startup environment
+- Willingness to travel occasionally and maintain valid US work authorization
+
+### Bonus / Preferred Qualifications
+- Demonstrated track record of deploying software to robots in production
+- Experience with multi-agent coordination, auction-based planning, or distributed decision-making
+- Practical experience applying software engineering best practices in a robotics codebase
+- Familiarity with edge compute architectures
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline splits along two axes rather than one: postings skewing "robotics software" (Amazon) want general-purpose programming languages (Python/C++/Java/Go/Rust), data structures/algorithms, and object-oriented design, while postings skewing "robotics hardware/automation" (Cepheid, Bastian, ASML) want the ability to read electrical/pneumatic/mechanical schematics, hands-on familiarity with servo systems, sensors, vision systems and PLCs, and CAD tool exposure (SolidWorks, AutoCAD/AutoCAD Electrical) — a resume aimed at this field should be scored on whichever axis (or both) it targets rather than penalized for lacking the other. Hard filters are explicit and non-negotiable in several postings: J&J sets a minimum 3.0 GPA and a 50-mile residency radius, Bastian and J&J require U.S. work authorization without sponsorship, Amazon requires enrollment in a STEM bachelor's-or-higher program and age 18+, and ASML flags export-control/citizenship-sensitive access — these should be treated as gating criteria in the rubric (fail/flag if unmet) rather than weighted alongside soft skills. Class standing and major alignment matter concretely (ASML wants 2+ years completed toward ME/EE/Mechatronics/Physics; Bastian wants EE/CE majors specifically), so major-relevance and progress-toward-degree should be scored fields, not just presence of "engineering" somewhere on the resume. Tooling/coursework signals that function as differentiators rather than requirements — PLC coursework or a prior internship (Bastian), prior technical internship or open-source contribution (Amazon), FIRST Robotics program history (J&J), cleanroom/lab troubleshooting experience (ASML) — should be scored as bonus points that boost a candidate above baseline, not as required fields. Finally, soft/durable skills (communication, independent project management, troubleshooting, adaptability) appear in nearly every posting as either a basic requirement or strong preference, suggesting the rubric should reserve meaningful weight for evidence of self-directed technical projects or team-based engineering work (e.g., FRC/FSAE, senior design, robotics club) as a proxy for exactly these traits, since none of these employers can verify them from a resume alone beyond such project evidence.

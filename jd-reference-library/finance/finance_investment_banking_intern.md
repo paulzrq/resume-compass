@@ -257,6 +257,33 @@ Collected: 2026-09-20
 - Genuine interest in emerging real estate asset classes and PropTech / technology-enabled real estate investing
 - Entrepreneurial mindset and demonstrated leadership/interpersonal skills
 
+## JD 12: 2026 Private Equity Summer Analyst, StepStone Group (private markets — fund investments, co-investments & secondaries diligence)
+Source: Built In NYC job listing mirroring StepStone Group's official 2026 Private Equity Summer Analyst posting (New York, NY)
+https://www.builtinnyc.com/job/2026-private-equity-summer-analyst/4333158
+Collected: 2026-09-21
+
+### Responsibilities
+- Analyze and conduct diligence on co-investment opportunities and secondary transactions
+- Interact with fund managers and portfolio company management teams to conduct in-depth portfolio and asset-level underwriting
+- Perform financial modeling and analysis on companies across buyout, distressed, and other stages across various industries
+- Conduct due diligence on potential fund investments, evaluating team quality, strategy, and track record
+- Synthesize findings into investment memorandums for Investment Committee presentations
+- Perform market research using public information and proprietary databases to identify macroeconomic trends
+
+### Basic Requirements
+- Must be able to work legally in the U.S. without requiring visa sponsorship
+- Undergraduate student graduating December 2026 through June 2027
+- GPA of 3.5 or higher
+- Strong proficiency in Microsoft Word, PowerPoint, and Excel
+- Excellent written and verbal communication skills
+- Demonstrable analytical and quantitative/modeling capabilities
+
+### Bonus / Preferred Qualifications
+- Prior internship experience in the financial industry, consulting, or other relevant field
+- Foreign language skills
+- Ability to construct and credibly communicate an investment argument to senior executives and fund managers
+- Collaborative, proactive, team-oriented approach suited to a fast-paced diligence environment
+
 ## Implications for Our Framework
 - GPA-threshold sensitivity varies by firm and should be split into sub-tracks within the edu dimension: T. Rowe Price (asset management) sets a clear hard floor (3.5) with an earlier recruiting timeline, J.P. Morgan (IB) sets a lower floor (3.2), while Blackstone (PE), Morgan Stanley (S&T), and Amazon (corporate finance) give no explicit GPA figure.
 - The skill profile for S&T diverges sharply from IB/PE/AM: Morgan Stanley explicitly states no finance-major requirement, focusing instead on numerical aptitude and composure under pressure, with no mention of modeling, valuation, or industry research anywhere in the posting — the "financial modeling portfolio" bonus item has low marginal value for S&T and should be flagged as "IB/PE/AM/research-track only."

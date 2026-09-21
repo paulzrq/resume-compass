@@ -275,5 +275,33 @@ Collected: 2026-09-20
 - Demonstrated passion for both design and sports (fit with EA SPORTS brand)
 - Strong collaborative/communication skills, self-motivated, detail-oriented, excellent time management
 
+## JD 12: Graphic Design Intern, Hasbro (toy/game packaging & brand design, Summer 2026)
+Source: Official Hasbro careers listing (job ID 68759112580), mirrored on jobs.hasbro.com
+https://jobs.hasbro.com/job/Pawtucket-Summer-Intern-2026-Graphic-Design-Internship-Rhod-02861/1356739200/
+Collected: 2026-09-21
+
+### Responsibilities
+- Support the visual development of game components, box layouts, and packaging design
+- Design game rules layouts that integrate text and imagery for clear player guidance
+- Fabricate physical prototypes of packaging and game materials using craft tools
+- Create logos, iconography, style guides, and pitch decks for internal and external stakeholders
+- Direct photography through detailed briefs and shot lists for product sets
+- Review vendor and illustrator work for quality and brand consistency, and support digital asset creation for e-commerce
+
+### Basic Requirements
+- Currently enrolled in an accredited degree program in Graphic Design, Fine Arts, or a related field, with at least one semester/quarter remaining
+- Available to work full-time, in-person for the entire 11-week internship (June-August 2026) at the Pawtucket, RI office
+- U.S. work authorization
+- Proficiency with Adobe Creative Suite (Illustrator, Photoshop, Acrobat) and Microsoft Office
+- Comfortable using hands-on craft tools (e.g., X-acto knives, adhesives) for physical sample/prototype creation
+- Strong creativity, communication, organizational, and multitasking abilities in a fast-paced environment
+
+### Bonus / Preferred Qualifications
+- Portfolio demonstrating a complete design process from concept sketches through finished packaging/brand assets, not just isolated visuals
+- Prior experience designing for a real commercial product or client, showing packaging/branding work actually produced or sold
+- Familiarity with developing full brand style guides or visual identity systems, beyond single posters or graphics
+- Experience directing or collaborating on photography and physical prototyping for tangible consumer products
+- Ability to articulate design rationale when presenting concepts to internal creative leadership and stakeholders
+
 ## Implications for Our Framework
 Across all five postings, Adobe Creative Suite (specifically Illustrator and Photoshop, with InDesign and Keynote also named by Disney) is the universal baseline tool expectation, while Figma appears as a fast-rising second standard (required outright by Ripple and Nike, listed as a bonus by SAP) — a resume that shows neither Adobe nor Figma exposure should score low on tools regardless of other strengths. A portfolio or work-sample link is treated as a hard gate in four of the five postings (Ripple, Disney, SAP, Nike all state applications are incomplete or deprioritized without one), so the rubric should treat "portfolio link present on resume" as a near-mandatory pass/fail criterion rather than a minor bonus, and should credit resumes that name specific portfolio platforms or projects over ones that only claim design skill in prose. Degree/major alignment is a soft-to-medium filter — most postings prefer graphic design, visual communications, or a closely related creative major but explicitly accept adjacent fields (illustration, fine art, photography, communications design), so the rubric should reward relevant coursework/major without hard-rejecting adjacent majors. Work authorization, age minimum (18), and willingness to relocate/work on-site full-time are hard eligibility filters at Disney and DreamWorks specifically, suggesting the rubric should flag (not necessarily penalize) resumes that don't address location/authorization for site-based roles. Motion design, video/animation (After Effects, Premiere), 3D tools (Maya, Blender, ZBrush), and UI/prototyping familiarity (Adobe XD, InVision) consistently appear as differentiators/bonuses rather than requirements, meaning a scoring rubric should weight these as score-boosting extras layered on top of a solid Adobe+portfolio+relevant-major core, not as baseline expectations. Finally, soft skills — ability to take art direction, manage multiple projects under deadline, and collaborate within an established brand system — are called out repeatedly enough (Disney, SAP, Ripple, Nike) that the rubric should allocate meaningful weight to resume evidence of deadline-driven, feedback-incorporating, or team-based design work (e.g., agency/studio experience, class critiques, client projects) rather than only counting solo creative projects.

@@ -256,6 +256,32 @@ Collected: 2026-09-20
 - Prior applied machine learning project or research experience
 - Intellectual curiosity and interest in ad-tech / programmatic advertising problem domains
 
+## JD 12: Data Scientist Intern, 84.51° (Kroger Family of Companies) — retail customer analytics/insights track
+Source: Official 84.51° careers page (Greenhouse job board)
+https://job-boards.greenhouse.io/8451university/jobs/8086801002
+Collected: 2026-09-21
+
+### Responsibilities
+- Partner with embedded business teams to leverage first-party customer data and develop new analytical methodologies
+- Generate actionable insights across areas such as customer loyalty, pricing, promotions, assortment, new product innovation, digital media, local marketing, and direct-to-consumer communications
+- Translate data findings into business recommendations for cross-functional stakeholders including consulting, engineering, and product teams
+- Build and apply statistical and analytical models to support data-driven decision-making
+- Present analysis and conclusions in a clear, business-friendly format to non-technical audiences
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree or higher in Economics, Statistics, Mathematics, Computer Science, Business Analytics, Data Science, or a related quantitative field
+- Graduating May/June 2028 or later, and enrolled as a current student throughout the internship
+- Coding experience in Python, R, SQL, or Spark
+- Demonstrated experience with data visualization and communicating findings to business audiences
+- US work authorization with no visa sponsorship required
+
+### Bonus / Preferred Qualifications
+- Familiarity with version control systems such as GitHub
+- Knowledge of machine learning techniques and statistical methodologies
+- Natural curiosity and willingness to experiment with new analytical approaches
+- Exposure to generative AI technologies
+- Prior cross-functional collaboration experience with consulting, engineering, or product teams
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

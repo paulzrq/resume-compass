@@ -247,6 +247,34 @@ Collected: 2026-09-20
 - Demonstrated leadership qualities, integrity, and strong interpersonal/communication skills; evidence of overcoming adversity or bringing a unique perspective from diverse life experience
 - Commitment to equity, inclusion, and pro bono service; eligibility for the firm's Built to Succeed Leadership, Diversity & Inclusion Scholarship ($50,000, split between hiring and start of full-time employment) is a notable bonus signal for standout diverse candidates
 
+## JD 12: Judicial Intern, U.S. District Court, Middle District of Florida (Tampa Division rotational program — federal judicial clerkship track)
+Source: Official court announcement, United States District Court, Middle District of Florida
+https://www.flmd.uscourts.gov/announcements/tampa-division-judicial-internship-summer-2026-rotational-program
+Collected: 2026-09-21
+
+### Responsibilities
+- Rotate sequentially through the chambers of a U.S. District Judge, a U.S. Magistrate Judge, and a U.S. Bankruptcy Judge over the internship term
+- Conduct legal research on pending motions and draft bench memoranda and proposed orders for judicial review
+- Observe and analyze federal civil and criminal proceedings, hearings, and trials across district, magistrate, and bankruptcy dockets
+- Cite-check and proofread draft opinions and orders for accuracy and proper legal citation
+- Review case filings and the record to summarize procedural history and key legal issues for chambers staff
+- Assist chambers attorneys and law clerks with docket management and case preparation tasks
+
+### Basic Requirements
+- Currently enrolled law student who has completed at least two semesters of law school by the program start date
+- Ranking in the top one-third of law school class
+- Excellent legal research and writing skills
+- Submission of a complete application packet including cover letter, resume, and legal writing sample
+- Submission of a law school transcript (unofficial acceptable) reflecting all grades to date
+- Ability to pass a required federal background/security screening
+
+### Bonus / Preferred Qualifications
+- Strong professional references and letters of recommendation from law faculty or prior legal employers
+- Prior experience with substantive legal research or writing (e.g., journal, moot court, or clinic work) beyond administrative tasks
+- Demonstrated interest in federal practice areas spanning civil, criminal, and bankruptcy law given the multi-chambers rotation
+- Coursework or experience in federal civil procedure, evidence, or bankruptcy law
+- Prior judicial or courtroom exposure (e.g., mock trial, prior internship with a court or agency)
+
 ## Implications for Our Framework
 - The applicability of the cert dimension depends heavily on jurisdiction: Zhong Lun explicitly lists "passed the legal qualification exam" as a preferred condition — a strong signal in Chinese "red-circle" firm screening — while all three U.S. postings (LP, Microsoft, Finnegan) make no mention of the bar exam at the internship/1L stage. If the cert dimension's weight (currently 12) doesn't account for jurisdiction, it will systematically undervalue U.S.-track candidates and overweight this factor for them.
 - U.S.-track "certification-type" bonus items should be replaced with writing/competition signals: neither LP nor Finnegan asks about bar-exam progress, focusing instead on law review, moot court, and journal experience — bonus item ② should carry more weight than bonus item ③ (bar-exam progress) for the U.S. track.

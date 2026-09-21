@@ -254,6 +254,32 @@ Collected: 2026-09-20
 - Familiarity with standard hardware interfaces/protocols (Ethernet, CAN, I2C, SPI, PCIe, USB) and embedded Linux
 - Software/firmware development skills (C/C++, plus Python/Rust/Haskell) and standard dev tooling (git, GitHub, JIRA)
 
+## JD 12: Manufacturing Engineering Intern, Rivian (electric vehicle production/manufacturing)
+Source: Rivian Careers site (job posting mirrored/verified via climatechangecareers.com and cross-referenced on LinkedIn/EV.Careers)
+https://careers.rivian.com/careers-home/jobs/26280
+Collected: 2026-09-21
+
+### Responsibilities
+- Work alongside Production Engineers to support manufacturing ramp-up of next-generation electric vehicle production lines
+- Analyze and improve cycle time, quality control, and equipment efficiency on the production floor
+- Challenge existing assumptions and best practices to drive rapid, high-quality project deployment
+- Collaborate cross-functionally with engineering, quality, and operations teams to implement process improvements
+- Support translation of CAD designs and engineering specifications into physical manufacturing processes
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Mechanical, Manufacturing, Electrical Engineering, or Mechatronics
+- Solid grasp of manufacturing fundamentals including cycle time analysis, quality control, and equipment efficiency
+- Proficiency with 2D and 3D CAD software
+- Strong problem-solving abilities and ability to execute tasks independently
+- Excellent verbal and written communication skills for cross-functional teamwork
+- Willingness to work overtime and travel as needed, and comfort operating in ambiguous, fast-paced settings
+
+### Bonus / Preferred Qualifications
+- Demonstrated interest in automotive and clean-technology innovation
+- Prior hands-on experience taking a hardware or manufacturing project from design through physical implementation
+- Experience applying engineering first principles to solve production-floor problems under cost and reliability constraints
+- Track record of effective collaboration on cross-functional engineering teams
+
 ## Implications for Our Framework
 - The five postings show the skill dimension means very different things by sub-track: mechanical focuses on CAD/GD&T (Tesla), electrical/hardware requires circuit design, chip architecture, RF, HDL, and lab-instrument operation (Apple), and robotics requires breadth across multiple tool domains (Amazon). Recommend splitting into sub-track-specific tool checklists rather than one generic library.
 - The acceptable range of majors for edu is broader than expected: Intel's manufacturing/process track explicitly accepts chemical engineering, materials science, chemistry, and physics — the edu dimension should not over-penalize non-ME/EE backgrounds under the manufacturing/process sub-track.

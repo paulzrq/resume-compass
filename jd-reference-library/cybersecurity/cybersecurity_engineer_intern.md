@@ -270,5 +270,31 @@ Collected: 2026-09-20
 - GPA of 3.70/4.0 or higher
 - Previous internship/co-op or other relevant work experience, demonstrated leadership and teamwork capabilities, strong interpersonal communication skills
 
+## JD 12: OT Cybersecurity - Control System of the Future Intern, GE Vernova (industrial/OT security, energy & power generation sector)
+Source: GE Vernova internship posting (Summer 2026), Schenectady, NY, mirrored on Built In with original GE Vernova Workday application link (req ID R5023112-1)
+https://builtin.com/job/ge-vernova-ot-cybersecurity-control-system-future-intern-summer-2026/7465316
+Collected: 2026-09-21
+
+### Responsibilities
+- Evaluate and help implement security controls in operational technology (OT) environments, including network segmentation, access management, patch management, and monitoring
+- Support initiatives to improve the usability of cybersecurity tools and workflows for plant operations personnel
+- Create documentation and best-practice guidance to help customers meet compliance frameworks such as NERC CIP and the EU Cyber Resilience Act (CRA)
+- Assist in designing and testing cybersecurity features for power generation control systems while minimizing added operational complexity
+- Collaborate with engineering teams to prototype security capabilities for next-generation industrial control systems
+
+### Basic Requirements
+- Currently pursuing an undergraduate degree in Electrical Engineering, Computer Science, or Cybersecurity
+- Minimum GPA of 4.0/5.0 (or equivalent strong academic standing)
+- Available for an in-office, full-time internship in Schenectady, NY for Summer 2026
+- Basic understanding of networking, systems, or security fundamentals
+- Strong written communication skills for producing technical documentation
+
+### Bonus / Preferred Qualifications
+- Familiarity with zero-trust cybersecurity principles
+- Exposure to industrial protocols such as Modbus or OPC UA, or to SCADA/ICS environments
+- Coursework or hands-on projects involving critical infrastructure or OT/ICS security rather than IT-only environments
+- Interest in or pursuit of certifications relevant to industrial cybersecurity (e.g., Security+, GICSP)
+- Prior project experience translating compliance frameworks (e.g., NERC CIP) into concrete technical controls
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is programming fluency (Python shows up in every single listing, often alongside Java, C/C++, or scripting more generally) paired with foundational security literacy — networking protocols, OS internals (Windows/Linux), and either OWASP-style vulnerability knowledge or SOC/incident-response concepts depending on the track. The hard filters that gate candidates before any technical evaluation are non-technical: enrollment status and major (CS/cybersecurity/IT or "related technical field" in every posting), work authorization (Wells Fargo and Motorola both explicitly reject candidates needing visa sponsorship), and in two cases physical/security constraints (Leidos requires U.S. citizenship plus Secret-clearance eligibility; Motorola requires living within an hour of a specific city for a hybrid seat). GPA and class standing appear as filters only in the consulting-track posting (PwC's 3.3 GPA preference and third/fourth-year standing requirement), suggesting these matter more for prestige/Big 4 pipelines than for engineering-heavy or SOC roles, where the emphasis shifts to demonstrated tooling exposure. Certifications (Security+, CEH, OSCP) and CTF/security-research participation consistently sit in the "bonus" tier rather than being required anywhere, as do cloud platforms (AWS/Azure/GCP), containerization (Docker/Kubernetes), and DevSecOps/IaC security — these read as differentiators that separate a strong applicant from an average one rather than baseline expectations. For the resume-scoring rubric, this implies core weight should go to: (1) major/degree-in-progress relevance, (2) at least one general-purpose programming language, and (3) any concrete evidence of networking or OS fundamentals or hands-on security tooling (Wireshark, Burp Suite, ELK, SIEM/EDR exposure) — while certifications, cloud/container security, and CTF participation should be scored as meaningful upward adjustments rather than pass/fail criteria. The rubric should also be flexible enough to recognize that "Cybersecurity Engineer Intern" postings vary substantially by employer type — defense/government roles will weight clearance-eligible citizenship and low-level tooling (Vagrant, Jenkins) more heavily, while consulting-track roles will weight GPA, class standing, and framework/GRC knowledge instead of hands-on engineering skill.

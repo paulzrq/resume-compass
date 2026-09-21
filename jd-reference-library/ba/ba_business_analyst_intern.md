@@ -268,5 +268,32 @@ Collected: 2026-09-20
 - Prior exposure to agile/scrum ceremonies
 - Proactive, self-directed learning attitude suited to a fast-paced, collaborative environment
 
+## JD 12: 2027 Summer Intern: Technology Business Analyst & Project Coordination, PepsiCo (consumer goods / corporate technology BA track)
+Source: PepsiCo official internship posting (mirrored via ZipRecruiter/PepsiCo careers portal, uscampus-pepsico.icims.com)
+https://www.ziprecruiter.com/c/pepsico/Job/2027-Summer-Intern:-Technology-Business-Analyst-&-Project-Coordination/-in-Plano,TX?jid=260c13c45c28494b
+Collected: 2026-09-21
+
+### Responsibilities
+- Analyze business processes to define requirements and create functional designs for technology solutions
+- Serve as liaison between business stakeholders and technical teams, translating business needs into clear technical requirements
+- Partner with business teams to document requirements and write user stories for development teams
+- Build and maintain dashboards and reporting using Tableau and Power BI to support business decision-making
+- Support technology project delivery using agile/scrum methodologies and tools such as Azure DevOps
+
+### Basic Requirements
+- Currently pursuing a bachelor's or master's degree in Business Administration, Computer Science, Finance, Information Systems, MIS, Software Engineering, or a related field
+- Minimum 3.0 GPA
+- Available for a 10-12 week internship program (May-August)
+- Must graduate within one year of internship completion
+- Indefinite right to work in the United States
+- Strong verbal and written communication skills
+
+### Bonus / Preferred Qualifications
+- Prior technology-related internship or project experience
+- Demonstrated ability to learn new technologies and business processes quickly
+- Hands-on experience building dashboards or reports in Tableau or Power BI applied to a real business question
+- Comfort adapting to shifting project timelines and ambiguous requirements
+- Exposure to agile/scrum delivery tools such as Azure DevOps
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is Excel (every listing) plus at least one of SQL/Tableau/Power BI/SAS/Python — employers seem to treat "spreadsheet fluency plus one query/BI tool" as the practical floor for a BA candidate rather than any single dominant tool, so the scoring framework should reward breadth across this small toolkit rather than depth in just one tool. GPA is notably absent as an explicit gate in any of these five (none state a minimum GPA), while expected graduation date/class standing and major relevance (business, economics, statistics, data/CS-adjacent fields, or industry-specific majors like public health at CVS) are used as hard filters — suggesting our framework should weight "major fit + timeline fit" more heavily than raw GPA. No posting mentions a professional certification (no CBAP, PMP, Six Sigma, etc.) as required or preferred, so certifications should be treated as a minor bonus signal at most, not a scored requirement. Finally, soft/applied signals — prior internship or coursework involving data analysis, leadership in student organizations, and the ability to "interpret data and turn it into a business action/presentation" — appear consistently as differentiators, indicating the framework should give real weight to a candidate's project/internship narrative (does it show data-to-decision reasoning and stakeholder communication) rather than credentials alone.

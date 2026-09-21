@@ -271,5 +271,30 @@ Collected: 2026-09-20
 - Genuine passion for television production and demonstrated industry knowledge
 - Collaborative "team player" mindset enthusiastic about all aspects of filmmaking
 
+## JD 12: Fall 2026 Internship Program, NFL Films (sports documentary/long-form film production — Creative Producing, Post-Production Editing/Color, Field Acquisition, Studio Production/A-V, and Archival Editing tracks)
+Source: NFL official careers page (Greenhouse job board)
+https://job-boards.greenhouse.io/nflcareers/jobs/5231123008
+Collected: 2026-09-21
+
+### Responsibilities
+- Support production of long-form sports documentary and feature content across assigned track (creative producing, post-production, field acquisition, studio production, or archival editing)
+- Assist editors and producers with logging, organizing, and preparing footage for cuts and screenings
+- Support field acquisition crews with camera, audio, and lighting setup for on-location shoots
+- Help maintain and catalog archival footage libraries for use in current and future productions
+- Collaborate with creative teams during brainstorming and story-development sessions
+
+### Basic Requirements
+- Currently enrolled undergraduate or recent graduate pursuing a degree in Film, Television, Media Production, or a related field
+- Available to work in-person at NFL Films' studio (Mount Laurel, NJ) for the Fall 2026 term
+- Basic familiarity with video editing software and/or production equipment relevant to the chosen track
+- Strong organizational skills and attention to detail when handling footage and production assets
+- Ability to work collaboratively within a fast-paced production environment
+
+### Bonus / Preferred Qualifications
+- Prior on-set or production-crew internship/experience in a specific specialization (editing, camera, audio, archival)
+- Portfolio or reel demonstrating hands-on contribution to a completed video/film project
+- Familiarity with sports content or documentary storytelling conventions
+- Demonstrated interest in long-form documentary vs. live broadcast production
+
 ## Implications for Our Framework
 Across all five postings, the recurring baseline is administrative/organizational competence rather than creative craft: Microsoft Office (every posting), Google Sheets, and general "strong organization/communication/attention to detail" language appear far more often than any camera or editing skill, meaning a rubric should treat basic office-software fluency as table stakes, not a differentiator. The hardest filters that would eliminate a candidate outright are logistical and eligibility-based, not skill-based: enrollment status and class year (sophomore+, rising junior/senior, or "on placement year"), work authorization/visa sponsorship (explicit in both NBCUniversal and WBD postings), minimum age (18+), and hard availability windows (16-24 hrs/week, specific in-office days, multi-month date ranges) — a resume or application that can't clear these should be scored down regardless of otherwise-strong experience, since real recruiters use them as pass/fail gates before reading further. Major/field of study is a semi-hard filter used inconsistently (Media Res explicitly requires TV/Film Production or Critical Studies; others just ask for "passion" or "related field"), so it should be weighted as a moderate positive rather than a strict requirement. GPA thresholds (3.0 at both NBCUniversal and WBD) and reliable transportation/driver's license (Totally TV, implied by on-set duties generally) function as secondary hard filters worth flagging when present or absent. The clearest bonus/differentiator tier across postings is production-specific software and tools beyond generic Office — Premiere Pro, Scenechronize, Airtable, Smartsheet, Dropbox/SharePoint — plus demonstrated hands-on production exposure (student films, prior internships, script coverage, series tracking) and niche fit signals (bilingual Spanish for a bilingual market, sports-content familiarity for a sports-adjacent role, comedy/writing/music background for a comedy-focused shop); these should be scored as meaningful upside rather than baseline expectations. Practically, this implies a film_production scoring rubric should weight eligibility/logistics as gating criteria, treat generic office/organizational skills as a low-weight baseline, give moderate credit for relevant coursework or major, and reserve the highest positive weight for named production/post-production software proficiency and concrete on-set or post-production project experience, since that is what separates a merely-eligible applicant from a standout one in every posting reviewed.

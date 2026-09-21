@@ -267,5 +267,30 @@ Collected: 2026-09-20
 - Strong attention to detail and accuracy in reviewing/validating clinical data (aligns with data-QC emphasis)
 - Excellent written and verbal communication skills for cross-functional study team collaboration
 
+## JD 12: Clinical Science Summer Intern, Vertex Pharmaceuticals (biotech — clinical trial data review, safety dashboards, trial documentation)
+Source: Vertex Pharmaceuticals official internship posting (Clinical Science Summer Intern, May 2026, Boston, MA), aggregated via Prosple graduate careers listing
+https://prosple.com/graduate-employers/vertex-pharmaceuticals/jobs-internships/clinical-science-summer-intern
+Collected: 2026-09-21
+
+### Responsibilities
+- Support oversight of trial committees and key opinion leader (KOL) interactions
+- Analyze clinical trial data and assist in the creation and review of trial documents
+- Participate in day-to-day trial conduct and medical monitoring clinical data reviews
+- Present analyzed data through safety data dashboards
+- Collaborate with indication-specific clinical scientists on patient-level data review
+
+### Basic Requirements
+- Currently enrolled in an undergraduate or graduate program in Life Sciences or a related field
+- Legal authorization to work in the United States (no visa sponsorship provided)
+- Available to work full-time (40 hours/week) for the entire May-August 2026 internship period
+- If graduating before the internship ends, must be enrolled in a subsequent advanced degree program
+- Strong analytical and written/verbal communication skills to support data review and documentation
+
+### Bonus / Preferred Qualifications
+- Prior exposure to clinical trial data analysis, medical monitoring, or drug development processes
+- Meticulous attention to detail suited to reviewing trial documents and safety data dashboards
+- Coursework or hands-on experience related to clinical research operations or regulatory documentation
+- Demonstrated ability to collaborate cross-functionally with clinical scientists on patient-data review
+
 ## Implications for Our Framework
 Across these five postings, the same role title ("clinical research intern/coordinator/CRA") spans a surprisingly wide credential band, from Ochsner's high-school-diploma-plus-soft-skills entry point to Pfizer's 3.3-GPA STEM-major screen and Mayo's 3.5-GPA pre-health pipeline, which means a resume-scoring rubric for this field cannot assume one fixed minimum bar and should instead score against the likely tier of employer (large pharma vs. hospital-system training program vs. CRO new-grad program vs. academic research-administration role). GPA and declared major function as explicit hard filters only at the two most competitive, most STEM-branded programs (Pfizer, Mayo); the CRO (Parexel) and hospital-system (Ochsner, UNC) postings instead gate on degree recency, demeanor, or plain willingness to learn, so a rubric that heavily weights GPA/major fit risks under-scoring perfectly viable candidates for hospital- and CRO-track roles. Notably, none of the five postings list GCP or CITI certification as a pre-hire requirement — Parexel explicitly states this training is delivered after hire — so a resume that already lists completed GCP/CITI training, IRB protocol experience, or REDCap/EDC familiarity should be scored as a genuine differentiator/bonus rather than as baseline table stakes. Work authorization and on-site/commute commitment appear as hard, binary filters (Pfizer's no-sponsorship language, UNC's full-time in-person hours), so a rubric should treat clearly-stated work authorization and location flexibility as pass/fail gates rather than as weighted scoring factors. Prior clinical, lab, or healthcare experience is uniformly framed as a "preferred/bonus" attribute rather than a baseline requirement in every posting found, which argues against heavily penalizing first-time applicants for lacking hands-on research hours, while still rewarding candidates who show shadowing hours, patient-facing healthcare experience (CNA/EMT/MA), or committee/IRB exposure. Finally, soft-skill language — "personable," "adaptable," "naturally curious," "eager to learn," strong letters of reference — recurs across the hospital and pipeline-program postings specifically, suggesting that for this role family (unlike, say, a technical CRA monitoring role further into the pipeline) demonstrated interpersonal/communication signals on a resume (patient-facing jobs, volunteering, leadership) should carry real scoring weight alongside GPA and coursework, not be treated as an afterthought.

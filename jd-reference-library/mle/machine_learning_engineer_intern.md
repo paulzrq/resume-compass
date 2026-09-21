@@ -253,6 +253,34 @@ Collected: 2026-09-20
 - Publications, open-source contributions, or shipped AI/ML-based products demonstrating high-impact, applied work
 - Experience contributing to ML pipeline/infrastructure work alongside MLOps or platform teams (i.e., beyond notebook-only modeling, toward production pipeline integration)
 
+## JD 12: Machine Learning Engineer Intern, ServiceNow (enterprise NLP/LLM productionization on workflow-intelligence platform)
+Source: ServiceNow Careers (official posting, cross-verified via BuiltInSF and Prosple mirrors)
+https://careers.servicenow.com/jobs/744000080670612/machine-learning-engineer-intern-summer-2026/
+Collected: 2026-09-21
+
+### Responsibilities
+- Collaborate with engineers to enhance ServiceNow's natural language processing capabilities using advanced deep learning algorithms
+- Perform data collection and synthetic data generation to support model training and evaluation
+- Design, build, and evaluate machine learning solutions using customer and workflow data
+- Contribute to productionizing ML models and features that improve workflow intelligence and user experience
+- Develop LLM-based features leveraging prompt engineering techniques
+
+### Basic Requirements
+- Currently enrolled full-time in a Bachelor's or Master's program in AI, Machine Learning, Data Science, Computer Science, or a related field, graduating December 2026 or later
+- Strong theoretical and practical knowledge of machine learning and deep learning, including supervised/unsupervised learning, model evaluation, and optimization
+- Practical experience systematically designing, building, evaluating, and productionizing machine learning solutions
+- Proficiency in Java, Python, JavaScript, and SQL, with familiarity in NumPy, Pandas, Scikit-learn, and TensorFlow/PyTorch
+- Proficiency in prompt engineering and developing LLM-based features
+- Able to commit to a 12-week hybrid internship (May–September 2026) based in Santa Clara, CA
+
+### Bonus / Preferred Qualifications
+- Experience with MLOps tooling such as MLflow, Kubeflow, or Weights & Biases
+- Cloud platform experience (AWS, GCP, or Azure) and familiarity with ML services
+- Knowledge of containerization and orchestration technologies
+- Experience with AI productivity tools (e.g., Cursor, Windsurf)
+- Relational database knowledge (MySQL, Oracle)
+- Prior internship, academic project, competition, or publication experience in NLP or deep learning
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

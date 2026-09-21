@@ -249,6 +249,31 @@ Collected: 2026-09-20
 - Basic understanding of cryptocurrency/blockchain, or strong interest in learning about the space
 - Prior product management experience (e.g., a previous PM internship or a shipped 0-to-1 feature)
 
+## JD 12: Product Manager Intern, Appian (enterprise B2B low-code software platform)
+Source: Appian official careers page
+https://careers.appian.com/jobs/8041243-product-manager-intern-
+Collected: 2026-09-21
+
+### Responsibilities
+- Act as embedded product owner for an engineering squad, owning and prioritizing the agile backlog
+- Drive collaborative discovery by sharing product ideas, analyzing technical specifications, and gathering continuous stakeholder feedback
+- Partner with senior product leaders to help define and structure enterprise software roadmaps
+- Practice stakeholder negotiation, balancing conflicting business demands against engineering constraints
+- Conduct post-launch impact analysis by monitoring usability metrics and tracking user success parameters
+- Participate in department-led hackathons to prototype and showcase creative product solutions
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Computer Science or Computer Engineering with strong academic performance
+- Must be returning to school following completion of the Summer internship
+- Available to work full-time (40 hours/week) for the 10-week summer program, on-site
+- Demonstrated fluency in AI and large language models, including both strategic thinking about AI-powered platform capabilities and hands-on application of AI tools
+
+### Bonus / Preferred Qualifications
+- Prior technical internship experience
+- A portfolio of significant personal or academic projects demonstrating product or technical depth
+- Evidence of applying AI/LLM tools to build or prototype platform features (0-to-1 style exploration)
+- Experience translating post-launch data/usability metrics into product decisions
+
 ## Implications for Our Framework
 - Technical PM (NVIDIA) and growth/consumer PM (TikTok, Snap) require fundamentally different things under the skill dimension: the former requires Git, cloud deployment, AI/ML technical projects, and open-source contributions as basic requirements rather than bonuses; the latter centers on SQL/Excel-type analysis tools and leans more on internship/work experience than technical depth.
 - Large companies (Google) and mid-size/startups (Gusto) emphasize different things under edu: Google values major fit and "0-to-1" founder spirit — a potential-oriented approach; Gusto sets "2+ years full-time experience plus a specific graduation window" as a hard gate — a seniority-oriented approach.

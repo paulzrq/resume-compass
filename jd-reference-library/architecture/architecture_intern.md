@@ -281,5 +281,32 @@ Collected: 2026-09-20
 - Data analytics / GIS experience for smart-urbanism research
 - Portfolio or work samples showing parametric/generative design work (CV, portfolio/website, and GitHub or writing samples typically requested)
 
+## JD 12: Architecture Intern, Wight & Company (mid-size integrated architecture/engineering/construction firm, Chicago area)
+Source: Official Wight & Company job posting (Greenhouse ATS)
+https://job-boards.greenhouse.io/wight/jobs/7564637
+Collected: 2026-09-21
+
+### Responsibilities
+- Assist in developing design concepts and documentation, including preparing drawings, models, and presentations using AutoCAD, Revit, and Adobe Creative Suite
+- Research materials, building codes, and design trends to support project compliance and design decisions
+- Organize and prepare project documentation, including drawings, specifications, and reports
+- Participate in site visits for project analysis and contractor coordination
+- Support project teams with scheduling, meeting documentation, and cross-disciplinary coordination among architects, designers, and engineers
+- Engage in professional development opportunities such as workshops and mentorship
+
+### Basic Requirements
+- Currently enrolled in or recently graduated from a Bachelor's or Master's degree program in Architecture or a related field
+- Proficiency in AutoCAD, Revit, SketchUp, and Adobe Creative Suite
+- Strong verbal and written communication skills with the ability to collaborate effectively across disciplines
+- High attention to detail and accuracy in design work
+- Demonstrated creativity and passion for architecture
+- Strong organizational and time-management skills; portfolio submission required with application
+
+### Bonus / Preferred Qualifications
+- Basic knowledge of 3D modeling and rendering beyond core software requirements
+- Prior exposure to real project workflows spanning design development through construction documentation
+- Experience collaborating cross-functionally with engineering and construction disciplines, reflecting the firm's integrated A/E/C practice model
+- A portfolio demonstrating original design iteration and technical drawing proficiency, not solely coursework studies
+
 ## Implications for Our Framework
 Across all five postings, three software families recur as the de facto baseline: Revit (named in every single posting, usually as "preferred" or "proficiency," but functionally expected), AutoCAD (named in four of five), and a secondary 3D/visualization layer (Rhino, SketchUp, Grasshopper, Lumion/Enscape/Twinmotion) that shows up as differentiation rather than a strict floor; Adobe Creative Suite appears in three postings specifically for presentation/graphic output rather than modeling. The hardest, most consistently enforced filter is NOT software but degree status and accreditation: SOM, HOK, Jacobs, Mead & Hunt, and DLR Group all explicitly gate on enrollment in (or completion of) an accredited/NAAB architecture program and a minimum class standing (rising junior or "3rd/4th/5th year," or 4+ completed semesters for Mead & Hunt), meaning a resume from a non-accredited or unrelated program should be scored down hard regardless of software skills listed. A portfolio submission is treated as a hard gate at the more design-forward firms (SOM, HOK, DLR Group explicitly say "to be considered, submit a portfolio") but is only a soft preference at the engineering-leaning firms (Jacobs, Mead & Hunt), so the scoring rubric should weight portfolio evidence heavily when present but not zero out a resume for its absence at every firm type. GPA is almost never a stated cutoff (only Jacobs names 3.0, and only as "preferred," not required), so a rubric that penalizes missing GPA heavily would be miscalibrated against real hiring practice. Work authorization is rarely spelled out in detail except at Mead & Hunt, which explicitly states it will not sponsor visas — a signal that international-student status is a real, if usually unstated, screening factor for smaller/regional firms even when the posting is silent. Prior internship experience, sustainability/LEED awareness, and physical model-building or hand-drafting ability appear consistently in the "bonus" tier rather than the basic tier, confirming these should be treated as score boosters rather than requirements. Net implication for the "architecture" scoring field: weight (1) accredited-program enrollment/class standing and (2) demonstrated Revit/AutoCAD + one visualization tool most heavily as pass/fail-adjacent signals, (3) treat portfolio presence as a strong positive modifier rather than an absolute requirement, and (4) treat GPA, prior internships, LEED/sustainability exposure, and Adobe/rendering-tool fluency as secondary differentiators that should raise a score but not by themselves disqualify a resume that is missing them.

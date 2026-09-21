@@ -1,0 +1,794 @@
+[
+{
+  "field_id": "swe",
+  "role_company_line": "Software Engineer Intern, Bloomberg (general SWE internship at a financial data/software company, engineering-focused rather than fintech-transaction-focused)",
+  "source_line": "Source: Official Bloomberg careers posting (2026 Software Engineer Internship - New York), mirrored via job board listing quoting the original Avature posting, cross-checked against Bloomberg's own careers.bloomberg.com application-process page\nhttps://bloomberg.avature.net/careers/JobDetail/2026-Software-Engineer-Internship-New-York/13625",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Take ownership of real technical projects under the guidance of an assigned engineering mentor",
+    "Collaborate as an active member of an engineering team throughout the internship",
+    "Become proficient with Bloomberg's internal technology stack, including the Bloomberg Terminal",
+    "Deepen understanding of how technology and financial/business principles intersect in production systems",
+    "Participate in team culture activities such as tech talks and networking events with engineers across the company"
+  ],
+  "basic_requirements": [
+    "Programming experience in C, C++, Java, or Python",
+    "Currently pursuing a BA, BS, MS, or PhD in Computer Science (or a related technical field)",
+    "Completed at least one year of undergraduate study at the time of application",
+    "Strong grasp of data structures and algorithms",
+    "Demonstrated problem-solving ability, including for both small- and large-scale design questions"
+  ],
+  "bonus_preferred": [
+    "Track record of impact on prior independent, academic, or internship projects that the candidate can speak to in depth",
+    "Comfort working in a language-agnostic environment and picking up new languages/tools as needed",
+    "Strong communication skills and clear articulation of technical thought process during interviews",
+    "Passion for technology and eagerness to learn in a fast-paced, high-energy environment",
+    "Experience or interest in the intersection of engineering and financial-market technology"
+  ]
+},
+{
+  "field_id": "ds",
+  "role_company_line": "Data Scientist Intern, 84.51° (Kroger Family of Companies) — retail customer analytics/insights track",
+  "source_line": "Source: Official 84.51° careers page (Greenhouse job board)\nhttps://job-boards.greenhouse.io/8451university/jobs/8086801002",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Partner with embedded business teams to leverage first-party customer data and develop new analytical methodologies",
+    "Generate actionable insights across areas such as customer loyalty, pricing, promotions, assortment, new product innovation, digital media, local marketing, and direct-to-consumer communications",
+    "Translate data findings into business recommendations for cross-functional stakeholders including consulting, engineering, and product teams",
+    "Build and apply statistical and analytical models to support data-driven decision-making",
+    "Present analysis and conclusions in a clear, business-friendly format to non-technical audiences"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a bachelor's degree or higher in Economics, Statistics, Mathematics, Computer Science, Business Analytics, Data Science, or a related quantitative field",
+    "Graduating May/June 2028 or later, and enrolled as a current student throughout the internship",
+    "Coding experience in Python, R, SQL, or Spark",
+    "Demonstrated experience with data visualization and communicating findings to business audiences",
+    "US work authorization with no visa sponsorship required"
+  ],
+  "bonus_preferred": [
+    "Familiarity with version control systems such as GitHub",
+    "Knowledge of machine learning techniques and statistical methodologies",
+    "Natural curiosity and willingness to experiment with new analytical approaches",
+    "Exposure to generative AI technologies",
+    "Prior cross-functional collaboration experience with consulting, engineering, or product teams"
+  ]
+},
+{
+  "field_id": "mle",
+  "role_company_line": "Machine Learning Engineer Intern, ServiceNow (enterprise NLP/LLM productionization on workflow-intelligence platform)",
+  "source_line": "Source: ServiceNow Careers (official posting, cross-verified via BuiltInSF and Prosple mirrors)\nhttps://careers.servicenow.com/jobs/744000080670612/machine-learning-engineer-intern-summer-2026/",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Collaborate with engineers to enhance ServiceNow's natural language processing capabilities using advanced deep learning algorithms",
+    "Perform data collection and synthetic data generation to support model training and evaluation",
+    "Design, build, and evaluate machine learning solutions using customer and workflow data",
+    "Contribute to productionizing ML models and features that improve workflow intelligence and user experience",
+    "Develop LLM-based features leveraging prompt engineering techniques"
+  ],
+  "basic_requirements": [
+    "Currently enrolled full-time in a Bachelor's or Master's program in AI, Machine Learning, Data Science, Computer Science, or a related field, graduating December 2026 or later",
+    "Strong theoretical and practical knowledge of machine learning and deep learning, including supervised/unsupervised learning, model evaluation, and optimization",
+    "Practical experience systematically designing, building, evaluating, and productionizing machine learning solutions",
+    "Proficiency in Java, Python, JavaScript, and SQL, with familiarity in NumPy, Pandas, Scikit-learn, and TensorFlow/PyTorch",
+    "Proficiency in prompt engineering and developing LLM-based features",
+    "Able to commit to a 12-week hybrid internship (May–September 2026) based in Santa Clara, CA"
+  ],
+  "bonus_preferred": [
+    "Experience with MLOps tooling such as MLflow, Kubeflow, or Weights & Biases",
+    "Cloud platform experience (AWS, GCP, or Azure) and familiarity with ML services",
+    "Knowledge of containerization and orchestration technologies",
+    "Experience with AI productivity tools (e.g., Cursor, Windsurf)",
+    "Relational database knowledge (MySQL, Oracle)",
+    "Prior internship, academic project, competition, or publication experience in NLP or deep learning"
+  ]
+},
+{
+  "field_id": "engineering",
+  "role_company_line": "Manufacturing Engineering Intern, Rivian (electric vehicle production/manufacturing)",
+  "source_line": "Source: Rivian Careers site (job posting mirrored/verified via climatechangecareers.com and cross-referenced on LinkedIn/EV.Careers)\nhttps://careers.rivian.com/careers-home/jobs/26280",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Work alongside Production Engineers to support manufacturing ramp-up of next-generation electric vehicle production lines",
+    "Analyze and improve cycle time, quality control, and equipment efficiency on the production floor",
+    "Challenge existing assumptions and best practices to drive rapid, high-quality project deployment",
+    "Collaborate cross-functionally with engineering, quality, and operations teams to implement process improvements",
+    "Support translation of CAD designs and engineering specifications into physical manufacturing processes"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a Bachelor's or Master's degree in Mechanical, Manufacturing, Electrical Engineering, or Mechatronics",
+    "Solid grasp of manufacturing fundamentals including cycle time analysis, quality control, and equipment efficiency",
+    "Proficiency with 2D and 3D CAD software",
+    "Strong problem-solving abilities and ability to execute tasks independently",
+    "Excellent verbal and written communication skills for cross-functional teamwork",
+    "Willingness to work overtime and travel as needed, and comfort operating in ambiguous, fast-paced settings"
+  ],
+  "bonus_preferred": [
+    "Demonstrated interest in automotive and clean-technology innovation",
+    "Prior hands-on experience taking a hardware or manufacturing project from design through physical implementation",
+    "Experience applying engineering first principles to solve production-floor problems under cost and reliability constraints",
+    "Track record of effective collaboration on cross-functional engineering teams"
+  ]
+},
+{
+  "field_id": "cybersecurity",
+  "role_company_line": "OT Cybersecurity - Control System of the Future Intern, GE Vernova (industrial/OT security, energy & power generation sector)",
+  "source_line": "Source: GE Vernova internship posting (Summer 2026), Schenectady, NY, mirrored on Built In with original GE Vernova Workday application link (req ID R5023112-1)\nhttps://builtin.com/job/ge-vernova-ot-cybersecurity-control-system-future-intern-summer-2026/7465316",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Evaluate and help implement security controls in operational technology (OT) environments, including network segmentation, access management, patch management, and monitoring",
+    "Support initiatives to improve the usability of cybersecurity tools and workflows for plant operations personnel",
+    "Create documentation and best-practice guidance to help customers meet compliance frameworks such as NERC CIP and the EU Cyber Resilience Act (CRA)",
+    "Assist in designing and testing cybersecurity features for power generation control systems while minimizing added operational complexity",
+    "Collaborate with engineering teams to prototype security capabilities for next-generation industrial control systems"
+  ],
+  "basic_requirements": [
+    "Currently pursuing an undergraduate degree in Electrical Engineering, Computer Science, or Cybersecurity",
+    "Minimum GPA of 4.0/5.0 (or equivalent strong academic standing)",
+    "Available for an in-office, full-time internship in Schenectady, NY for Summer 2026",
+    "Basic understanding of networking, systems, or security fundamentals",
+    "Strong written communication skills for producing technical documentation"
+  ],
+  "bonus_preferred": [
+    "Familiarity with zero-trust cybersecurity principles",
+    "Exposure to industrial protocols such as Modbus or OPC UA, or to SCADA/ICS environments",
+    "Coursework or hands-on projects involving critical infrastructure or OT/ICS security rather than IT-only environments",
+    "Interest in or pursuit of certifications relevant to industrial cybersecurity (e.g., Security+, GICSP)",
+    "Prior project experience translating compliance frameworks (e.g., NERC CIP) into concrete technical controls"
+  ]
+},
+{
+  "field_id": "robotics",
+  "role_company_line": "SWE Intern, Robotics, Cobot (Collaborative Robotics, Inc.) — multi-robot autonomy for collaborative service robots",
+  "source_line": "Source: Built In San Francisco job listing (mirrors Cobot's official Ashby careers posting)\nhttps://www.builtinsf.com/job/robotics-intern/8032610",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Develop and maintain software for the on-robot autonomy stack with an emphasis on multi-robot control and coordination",
+    "Leverage open-source models and the latest robotics research to improve robot capability in real customer environments",
+    "Support integration, testing, and iteration of autonomy software directly on physical collaborative robots deployed in the field",
+    "Collaborate with cross-functional robotics engineers on multi-agent coordination and task allocation strategies"
+  ],
+  "basic_requirements": [
+    "Pursuing a graduate degree in Computer Science, Robotics, AI, Machine Learning, or a related field",
+    "Prior experience developing software for on-robot systems",
+    "Proficiency in Python or C++, with working knowledge of Git/version control and Linux environments",
+    "Strong communication skills and ability to thrive in a fast-paced startup environment",
+    "Willingness to travel occasionally and maintain valid US work authorization"
+  ],
+  "bonus_preferred": [
+    "Demonstrated track record of deploying software to robots in production",
+    "Experience with multi-agent coordination, auction-based planning, or distributed decision-making",
+    "Practical experience applying software engineering best practices in a robotics codebase",
+    "Familiarity with edge compute architectures"
+  ]
+},
+{
+  "field_id": "fintech_eng",
+  "role_company_line": "Software Engineering Internship - Summer 2026, CME Group (derivatives exchange/market infrastructure and electronic trading systems)",
+  "source_line": "Source: CME Group official careers site (Workday), cross-checked against BuiltIn and WayUp mirrors of the same posting\nhttps://cmegroup.wd1.myworkdayjobs.com/en-US/cme_careers/job/Chicago---20-S-Wacker/Software-Engineering-Internship---Summer-2026_33043-1",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Develop and maintain application software supporting CME Group's global electronic trading and clearing platforms",
+    "Contribute to system design discussions and participate in code reviews for production-grade financial infrastructure",
+    "Support DevOps and cloud-migration efforts, including work on Google Cloud Platform (GCP)",
+    "Conduct research and build proof-of-concept solutions, including exploration of blockchain-based applications",
+    "Participate in automation initiatives to improve engineering efficiency and reliability"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a Bachelor's or Master's degree in Computer Science, Computer Engineering, or a related technical field",
+    "Solid foundation in data structures, algorithms, and object-oriented programming",
+    "Proficiency in at least one general-purpose programming language such as Java, Python, or C++",
+    "Strong analytical and problem-solving skills",
+    "Ability to work full-time for the duration of the summer internship in Chicago, IL"
+  ],
+  "bonus_preferred": [
+    "Exposure to high-throughput, low-latency, or high-concurrency system design",
+    "Familiarity with cloud platforms (especially GCP) and containerization/orchestration tools",
+    "Interest in or coursework related to financial markets, trading systems, or blockchain technology",
+    "Prior internship or academic project experience involving production-style software systems"
+  ]
+},
+{
+  "field_id": "finance",
+  "role_company_line": "2026 Private Equity Summer Analyst, StepStone Group (private markets — fund investments, co-investments & secondaries diligence)",
+  "source_line": "Source: Built In NYC job listing mirroring StepStone Group's official 2026 Private Equity Summer Analyst posting (New York, NY)\nhttps://www.builtinnyc.com/job/2026-private-equity-summer-analyst/4333158",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Analyze and conduct diligence on co-investment opportunities and secondary transactions",
+    "Interact with fund managers and portfolio company management teams to conduct in-depth portfolio and asset-level underwriting",
+    "Perform financial modeling and analysis on companies across buyout, distressed, and other stages across various industries",
+    "Conduct due diligence on potential fund investments, evaluating team quality, strategy, and track record",
+    "Synthesize findings into investment memorandums for Investment Committee presentations",
+    "Perform market research using public information and proprietary databases to identify macroeconomic trends"
+  ],
+  "basic_requirements": [
+    "Must be able to work legally in the U.S. without requiring visa sponsorship",
+    "Undergraduate student graduating December 2026 through June 2027",
+    "GPA of 3.5 or higher",
+    "Strong proficiency in Microsoft Word, PowerPoint, and Excel",
+    "Excellent written and verbal communication skills",
+    "Demonstrable analytical and quantitative/modeling capabilities"
+  ],
+  "bonus_preferred": [
+    "Prior internship experience in the financial industry, consulting, or other relevant field",
+    "Foreign language skills",
+    "Ability to construct and credibly communicate an investment argument to senior executives and fund managers",
+    "Collaborative, proactive, team-oriented approach suited to a fast-paced diligence environment"
+  ]
+},
+{
+  "field_id": "risk_analyst",
+  "role_company_line": "2026 ETP Intern – Risk Management, Regions Bank (regional bank risk rotational: credit/model/market risk, model validation, stress-testing)",
+  "source_line": "Source: Regions Bank official careers site — Emerging Talent Program Risk Management Intern job description\nhttps://careers.regions.com/us/en/risk-management-job-description",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Rotate through Risk Management functions including Financial Risk Management, Model Risk Management, Consumer and Wealth Risk Management, and Corporate Compliance",
+    "Support credit portfolio management and research emerging credit risk trends using internal and external data sources",
+    "Assist with loss forecasting, stress-testing, and portfolio analytics within the Risk Modeling & Data Science team",
+    "Perform validation testing and governance support for quantitative and machine learning models used across the bank",
+    "Develop analytical reports to monitor fraud, complaints, and regulatory compliance risk indicators",
+    "Collaborate with data scientists to monitor, document, and maintain statistical and machine learning risk models"
+  ],
+  "basic_requirements": [
+    "Currently enrolled undergraduate or graduate student with expected graduation Fall 2026 or Spring 2027",
+    "Major in a technical field (data science, math, data management) or business-related discipline",
+    "Minimum 3.0 GPA",
+    "Ability to work 40 hours per week for a 10-week summer program",
+    "Must be authorized to work in the U.S. without current or future visa sponsorship",
+    "Strong analytical, critical-thinking, and Microsoft Office skills"
+  ],
+  "bonus_preferred": [
+    "Rising junior class standing with demonstrated interest in banking/financial risk",
+    "Prior exposure to statistical or machine learning model monitoring and documentation",
+    "Familiarity with credit risk, stress-testing, or loss-forecasting concepts",
+    "Coursework or project experience in data analytics applied to regulatory or compliance reporting",
+    "Campus leadership experience or extracurricular involvement",
+    "Ability to quickly learn and adopt new technology in a fast-paced environment"
+  ]
+},
+{
+  "field_id": "actuary",
+  "role_company_line": "Actuarial Intern, Chubb / Combined Insurance (supplemental accident, health, disability & life products — pricing/reserving track)",
+  "source_line": "Source: Actuary.com job listing (aggregated from Chubb/Combined Insurance posting)\nhttps://www.actuary.com/job/actuarial-intern/81229984/",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Perform fundamental actuarial tasks in support of pricing for supplemental accident, health, disability, and life insurance products",
+    "Calculate reserve liabilities and verify the accuracy of actuarial software outputs",
+    "Analyze policyholder and claims data using Microsoft Excel and Access to prepare reports for management and regulatory bodies",
+    "Conduct ad-hoc actuarial analyses and special projects as assigned by the actuarial team",
+    "Collaborate with senior actuaries to support experience studies and assumption reviews"
+  ],
+  "basic_requirements": [
+    "Currently enrolled in an undergraduate or graduate program, majoring in Actuarial Science, Mathematics, Economics, Statistics, or a related quantitative field",
+    "Minimum cumulative GPA of 3.5",
+    "Completion of at least one SOA/CAS actuarial exam",
+    "Proficiency with Microsoft Office, particularly Excel and Access",
+    "Strong oral and written communication skills",
+    "Able to work in-office four days per week in the Chicagoland area for the 10-week program"
+  ],
+  "bonus_preferred": [
+    "Progress toward or completion of additional actuarial exams beyond the minimum requirement",
+    "Prior actuarial internship or related insurance/data-analysis work experience",
+    "Familiarity with SQL Server or other actuarial/statistical software beyond standard MS Office tools",
+    "Demonstrated quantitative modeling or data-analysis coursework/project experience relevant to insurance risk",
+    "Anticipated graduation in December 2026 or May 2027, allowing for a possible full-time offer"
+  ]
+},
+{
+  "field_id": "consulting",
+  "role_company_line": "2026 Mergers & Acquisitions Consulting Intern, West Monroe (mid-market operations & technology M&A consulting)",
+  "source_line": "Source: West Monroe official internship posting (campus recruiting listing, mirrored on Runway job board)\nhttps://app.joinrunway.io/explore/job/cmkd4y61a000ll904964mhu6l",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Collaborate with cross-functional deal teams to support buy-side and sell-side M&A due diligence, including on-site visits to assess target companies' operational and technology strategies",
+    "Assess client and target investment strategies against industry benchmarks and leading practices to identify synergy and risk areas",
+    "Prepare due diligence request lists, meeting agendas, and client-ready deliverables summarizing findings",
+    "Support post-close, value-creation projects focused on process efficiency and integration planning",
+    "Apply AI tools and advanced analytics to improve the efficiency of client engagements",
+    "Contribute to the enhancement of West Monroe's internal M&A methodologies and client-facing approaches"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a Bachelor's degree, with graduation expected between December 2026 and July 2027",
+    "Minimum cumulative GPA of 3.0",
+    "Legal authorization to work in the U.S. without current or future sponsorship",
+    "Residency within 50 miles of the assigned office location",
+    "Willingness to travel Monday through Thursday, up to 50% of the time"
+  ],
+  "bonus_preferred": [
+    "Major in Business Administration, Business Analytics, Data Science, Economics, Finance, Industrial & Systems Engineering, Information Systems, or Supply Chain Management",
+    "Prior experience or demonstrated interest in AI tools, data visualization, or automation",
+    "Leadership experience presented with clear, quantified outcomes rather than task lists",
+    "A structured, STAR-style example of solving a complex, ambiguous business problem under time pressure",
+    "Demonstrated cross-functional or cross-domain collaboration, such as working across technology, operations, and finance stakeholders on a single project"
+  ]
+},
+{
+  "field_id": "marketing",
+  "role_company_line": "B2B Enterprise Marketing Intern, Dow Jones & Co. (B2B/enterprise media marketing)",
+  "source_line": "Source: Dow Jones Summer 2026 Internship Program listing (cross-posted on BuiltIn NYC and BuiltIn)\nhttps://www.builtinnyc.com/job/summer-2026-internship-b2b-enterprise-marketing-intern/7345000",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Research industries such as Energy and Banking to identify market dynamics and competitor strategies for B2B marketing campaigns",
+    "Execute integrated marketing campaigns across digital, content, and event-based channels for enterprise audiences",
+    "Partner cross-functionally with Product, Content, and Digital teams to align messaging and go-to-market tactics",
+    "Produce and evaluate marketing collateral including email campaigns, social content, and promotional materials",
+    "Monitor campaign performance metrics and audience engagement data to inform optimization",
+    "Participate in team meetings and brainstorming sessions to support enterprise marketing strategy"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a Bachelor's degree in Marketing, Business, or a related field, with at least two years completed",
+    "Must be a rising junior or senior by Summer 2026",
+    "Strong written and verbal communication skills with meticulous attention to detail",
+    "Proficiency with Google Suite, Canva, and familiarity with CRM systems",
+    "Working understanding of social media platforms, digital marketing trends, and content strategy",
+    "Organized, deadline-driven, and collaborative work style"
+  ],
+  "bonus_preferred": [
+    "Demonstrated enthusiasm for brand development and B2B customer engagement",
+    "Creative, curious mindset with strong initiative",
+    "Prior exposure to campaign performance tracking or audience/engagement analytics",
+    "Ability to work independently while contributing effectively within a team"
+  ]
+},
+{
+  "field_id": "pm",
+  "role_company_line": "Product Manager Intern, Appian (enterprise B2B low-code software platform)",
+  "source_line": "Source: Appian official careers page\nhttps://careers.appian.com/jobs/8041243-product-manager-intern-",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Act as embedded product owner for an engineering squad, owning and prioritizing the agile backlog",
+    "Drive collaborative discovery by sharing product ideas, analyzing technical specifications, and gathering continuous stakeholder feedback",
+    "Partner with senior product leaders to help define and structure enterprise software roadmaps",
+    "Practice stakeholder negotiation, balancing conflicting business demands against engineering constraints",
+    "Conduct post-launch impact analysis by monitoring usability metrics and tracking user success parameters",
+    "Participate in department-led hackathons to prototype and showcase creative product solutions"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a Bachelor's or Master's degree in Computer Science or Computer Engineering with strong academic performance",
+    "Must be returning to school following completion of the Summer internship",
+    "Available to work full-time (40 hours/week) for the 10-week summer program, on-site",
+    "Demonstrated fluency in AI and large language models, including both strategic thinking about AI-powered platform capabilities and hands-on application of AI tools"
+  ],
+  "bonus_preferred": [
+    "Prior technical internship experience",
+    "A portfolio of significant personal or academic projects demonstrating product or technical depth",
+    "Evidence of applying AI/LLM tools to build or prototype platform features (0-to-1 style exploration)",
+    "Experience translating post-launch data/usability metrics into product decisions"
+  ]
+},
+{
+  "field_id": "ba",
+  "role_company_line": "2027 Summer Intern: Technology Business Analyst & Project Coordination, PepsiCo (consumer goods / corporate technology BA track)",
+  "source_line": "Source: PepsiCo official internship posting (mirrored via ZipRecruiter/PepsiCo careers portal, uscampus-pepsico.icims.com)\nhttps://www.ziprecruiter.com/c/pepsico/Job/2027-Summer-Intern:-Technology-Business-Analyst-&-Project-Coordination/-in-Plano,TX?jid=260c13c45c28494b",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Analyze business processes to define requirements and create functional designs for technology solutions",
+    "Serve as liaison between business stakeholders and technical teams, translating business needs into clear technical requirements",
+    "Partner with business teams to document requirements and write user stories for development teams",
+    "Build and maintain dashboards and reporting using Tableau and Power BI to support business decision-making",
+    "Support technology project delivery using agile/scrum methodologies and tools such as Azure DevOps"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a bachelor's or master's degree in Business Administration, Computer Science, Finance, Information Systems, MIS, Software Engineering, or a related field",
+    "Minimum 3.0 GPA",
+    "Available for a 10-12 week internship program (May-August)",
+    "Must graduate within one year of internship completion",
+    "Indefinite right to work in the United States",
+    "Strong verbal and written communication skills"
+  ],
+  "bonus_preferred": [
+    "Prior technology-related internship or project experience",
+    "Demonstrated ability to learn new technologies and business processes quickly",
+    "Hands-on experience building dashboards or reports in Tableau or Power BI applied to a real business question",
+    "Comfort adapting to shifting project timelines and ambiguous requirements",
+    "Exposure to agile/scrum delivery tools such as Azure DevOps"
+  ]
+},
+{
+  "field_id": "ops",
+  "role_company_line": "Intern - Supply Chain Operations, C.H. Robinson (Robinson Fresh perishable freight brokerage/3PL sub-track)",
+  "source_line": "Source: C.H. Robinson careers listing (Robinson Fresh division), mirrored via BuiltIn job board\nhttps://builtin.com/job/intern-supply-chain-operations-robinson-fresh/7302905",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Work alongside industry professionals to learn internal business processes and best practices in perishable supply chain and freight brokerage operations",
+    "Build and maintain relationships with internal teams and external partners, including customers, carriers, growers, and suppliers",
+    "Learn and utilize proprietary supply chain technology systems, including the Navisphere global logistics platform",
+    "Develop cross-functional skills across transportation and logistics areas such as sales/negotiation, operations management, and information systems",
+    "Support day-to-day coordination of freight movement and account management activities within a deadline-driven team environment"
+  ],
+  "basic_requirements": [
+    "Currently pursuing a Bachelor's degree, Junior or Senior standing preferred (business, supply chain, marketing, sales, or related field)",
+    "Strong verbal and written communication skills",
+    "Ability to work effectively in deadline-driven, team-based settings while independently managing deliverables",
+    "Detail-oriented with strong multitasking and organizational capability",
+    "Demonstrated drive, enthusiasm, and relationship-building motivation"
+  ],
+  "bonus_preferred": [
+    "Familiarity with AI, generative AI, or automation tools and interest in applying emerging technology to logistics operations",
+    "Prior exposure to supply chain, ERP, or transportation management systems",
+    "Demonstrated experience coordinating across departments or with external stakeholders (customers, carriers, suppliers)",
+    "Commitment to diversity, equity, and inclusion in the workplace"
+  ]
+},
+{
+  "field_id": "data_analyst",
+  "role_company_line": "Data Analyst, Emerging Category Intern, The Coca-Cola Company (CPG category/beverage business analytics)",
+  "source_line": "Source: Official Coca-Cola Company careers site (Workday requisition R-133380)\nhttps://careers.coca-colacompany.com/job/22852845/data-analyst-emerging-category-intern-atlanta-ga/",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Collect, clean, and organize consumer, market, sales, and product data for the Alcohol Ready-to-Drink (ARTD) emerging category",
+    "Analyze category and brand performance metrics to identify trends and business opportunities",
+    "Build dashboards and data visualizations to track key performance indicators for stakeholders",
+    "Support supply chain operations, including shipment creation and delivery/fulfillment analysis",
+    "Prepare and present data-driven insights and recommendations to cross-functional business partners"
+  ],
+  "basic_requirements": [
+    "Currently pursuing or recently completed (no earlier than December 2025) a Bachelor's or Master's degree in Data Science, Analytics, Statistics, Business Analytics, Marketing Analytics, Economics, Computer Science, or a related field",
+    "Proficiency in data cleaning, preparation, and organization from multiple raw data sources",
+    "Hands-on experience with visualization/BI tools such as Tableau, Power BI, or advanced Excel",
+    "Ability to translate data analysis into clear, actionable business recommendations",
+    "Must be authorized to work in the United States without company sponsorship"
+  ],
+  "bonus_preferred": [
+    "Prior experience or coursework in supply chain analytics",
+    "Previous analytical work experience with a large consumer-facing organization",
+    "Experience building end-to-end reporting/dashboard solutions independently rather than one-off analyses",
+    "Familiarity with SQL for querying and joining sales, shipment, and consumer data across multiple tables"
+  ]
+},
+{
+  "field_id": "accounting",
+  "role_company_line": "Winter 2026 Tax Intern (Dallas), Armanino LLP (tax internship at a mid-size non-Big-Four public accounting firm)",
+  "source_line": "Source: Armanino LLP official posting (JR102644), mirrored on Built In job board\nhttps://builtin.com/job/winter-2026-tax-intern-dallas/7584432",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Prepare corporate, partnership, trust, and individual tax returns, including drafts, quarterly estimates, vouchers, extension preparation, and tax projections",
+    "Research changes in federal and state tax regulations and build tax planning skills across multiple jurisdictions",
+    "Support client engagements across diverse industries including technology, real estate, cannabis, and nonprofit organizations",
+    "Collaborate with engagement teams via meetings, chat, and email to deliver client tax work",
+    "Build proficiency in tax and accounting software through structured training and on-the-job coaching",
+    "Work toward CPA certification with firm-provided support and mentorship"
+  ],
+  "basic_requirements": [
+    "Currently enrolled in a bachelor's or master's degree program in business with an accounting emphasis",
+    "Legal authorization to work in the U.S. without employer sponsorship",
+    "Anticipated graduation between December 2025 and August 2026",
+    "Strong written and verbal communication skills",
+    "Ability to manage multiple client deliverables and deadlines simultaneously"
+  ],
+  "bonus_preferred": [
+    "On track to complete the 150 semester (225 quarter) units required for CPA licensure between December 2026 and August 2027",
+    "Demonstrated progress toward or plans to pursue CPA exam sections",
+    "Prior exposure to federal and state tax return preparation or tax research",
+    "Experience with automated tax or accounting software platforms",
+    "Interest in specialized industries such as technology, real estate, or nonprofit taxation"
+  ]
+},
+{
+  "field_id": "hr",
+  "role_company_line": "2027 Summer Corporate Internship – Human Resources, Caterpillar Inc. (heavy-equipment manufacturing industrial HR generalist rotational track)",
+  "source_line": "Source: Caterpillar official careers site (job ref r0000380177)\nhttps://careers.caterpillar.com/",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Rotate through core HR functions including talent acquisition, talent management, learning & development, labor relations, total rewards, and HR generalist work",
+    "Support employee onboarding processes and help standardize HR workflows across teams",
+    "Assist with people-analytics data gathering and reporting to support HR decision-making",
+    "Participate in labor-relations and total-rewards project work under the guidance of experienced HR professionals",
+    "Collaborate cross-functionally with business partners on organizational and workforce initiatives"
+  ],
+  "basic_requirements": [
+    "Currently enrolled full-time in a Bachelor's or Master's degree program in Human Resources, Business with an HR emphasis, or a related field",
+    "Minimum cumulative GPA of 3.0 (not rounded)",
+    "Completion of at least 12 semester hours (or equivalent) prior to the internship",
+    "Willingness to relocate on-site for the full 12-week summer term (Mossville/Peoria/Pontiac, IL or Irving, TX)",
+    "Strong communication and interpersonal skills"
+  ],
+  "bonus_preferred": [
+    "Strong decision-making and critical-thinking abilities",
+    "Flexibility, adaptability, and a growth mindset in a fast-paced corporate environment",
+    "Demonstrated data-gathering and reporting skills relevant to people analytics",
+    "Prior HR-related student-organization leadership or project experience"
+  ]
+},
+{
+  "field_id": "sales",
+  "role_company_line": "Sales and Brokerage Intern, CBRE (commercial real estate brokerage sales)",
+  "source_line": "Source: CBRE official careers page, Sales and Brokerage Internship Program\nhttps://www.cbre.com/careers/students-and-graduates/sales-and-brokerage-internship-program",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Partner with experienced sales/leasing brokers to support current and prospective commercial real estate deals",
+    "Conduct research on companies, properties, and industry/market trends to inform deal strategy",
+    "Manage and update prospect tracking within internal CRM databases",
+    "Create marketing collateral and client presentation materials",
+    "Monitor local market activity, including economic and employment data, to identify business development opportunities",
+    "Assist with deal-related tasks such as market surveys and financial analysis"
+  ],
+  "basic_requirements": [
+    "College junior, senior, or graduate student with a strong interest in a commercial real estate sales career",
+    "Excellent presentation, organizational, and time-management skills",
+    "Strong analytical and problem-solving abilities",
+    "Proven leadership experience through campus clubs, projects, or student government",
+    "Outgoing, self-motivated, relationship-focused personality comfortable with prospecting and occasional rejection"
+  ],
+  "bonus_preferred": [
+    "Proficiency with Salesforce (CRM) and Tableau for prospect tracking and market data analysis",
+    "Prior cold-outreach, networking, or client-relationship-building experience",
+    "Demonstrated \"scrappy, hungry\" business-development mindset with a track record of initiative",
+    "Coursework or projects involving financial/market analysis relevant to real estate deals"
+  ]
+},
+{
+  "field_id": "law",
+  "role_company_line": "Judicial Intern, U.S. District Court, Middle District of Florida (Tampa Division rotational program — federal judicial clerkship track)",
+  "source_line": "Source: Official court announcement, United States District Court, Middle District of Florida\nhttps://www.flmd.uscourts.gov/announcements/tampa-division-judicial-internship-summer-2026-rotational-program",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Rotate sequentially through the chambers of a U.S. District Judge, a U.S. Magistrate Judge, and a U.S. Bankruptcy Judge over the internship term",
+    "Conduct legal research on pending motions and draft bench memoranda and proposed orders for judicial review",
+    "Observe and analyze federal civil and criminal proceedings, hearings, and trials across district, magistrate, and bankruptcy dockets",
+    "Cite-check and proofread draft opinions and orders for accuracy and proper legal citation",
+    "Review case filings and the record to summarize procedural history and key legal issues for chambers staff",
+    "Assist chambers attorneys and law clerks with docket management and case preparation tasks"
+  ],
+  "basic_requirements": [
+    "Currently enrolled law student who has completed at least two semesters of law school by the program start date",
+    "Ranking in the top one-third of law school class",
+    "Excellent legal research and writing skills",
+    "Submission of a complete application packet including cover letter, resume, and legal writing sample",
+    "Submission of a law school transcript (unofficial acceptable) reflecting all grades to date",
+    "Ability to pass a required federal background/security screening"
+  ],
+  "bonus_preferred": [
+    "Strong professional references and letters of recommendation from law faculty or prior legal employers",
+    "Prior experience with substantive legal research or writing (e.g., journal, moot court, or clinic work) beyond administrative tasks",
+    "Demonstrated interest in federal practice areas spanning civil, criminal, and bankruptcy law given the multi-chambers rotation",
+    "Coursework or experience in federal civil procedure, evidence, or bankruptcy law",
+    "Prior judicial or courtroom exposure (e.g., mock trial, prior internship with a court or agency)"
+  ]
+},
+{
+  "field_id": "clinical_research",
+  "role_company_line": "Clinical Science Summer Intern, Vertex Pharmaceuticals (biotech — clinical trial data review, safety dashboards, trial documentation)",
+  "source_line": "Source: Vertex Pharmaceuticals official internship posting (Clinical Science Summer Intern, May 2026, Boston, MA), aggregated via Prosple graduate careers listing\nhttps://prosple.com/graduate-employers/vertex-pharmaceuticals/jobs-internships/clinical-science-summer-intern",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Support oversight of trial committees and key opinion leader (KOL) interactions",
+    "Analyze clinical trial data and assist in the creation and review of trial documents",
+    "Participate in day-to-day trial conduct and medical monitoring clinical data reviews",
+    "Present analyzed data through safety data dashboards",
+    "Collaborate with indication-specific clinical scientists on patient-level data review"
+  ],
+  "basic_requirements": [
+    "Currently enrolled in an undergraduate or graduate program in Life Sciences or a related field",
+    "Legal authorization to work in the United States (no visa sponsorship provided)",
+    "Available to work full-time (40 hours/week) for the entire May-August 2026 internship period",
+    "If graduating before the internship ends, must be enrolled in a subsequent advanced degree program",
+    "Strong analytical and written/verbal communication skills to support data review and documentation"
+  ],
+  "bonus_preferred": [
+    "Prior exposure to clinical trial data analysis, medical monitoring, or drug development processes",
+    "Meticulous attention to detail suited to reviewing trial documents and safety data dashboards",
+    "Coursework or hands-on experience related to clinical research operations or regulatory documentation",
+    "Demonstrated ability to collaborate cross-functionally with clinical scientists on patient-data review"
+  ]
+},
+{
+  "field_id": "biomed",
+  "role_company_line": "Physics, Chemistry, and Engineering Intern, Mayo Clinic (medical physics / radiochemistry / anatomic 3D-modeling track)",
+  "source_line": "Source: Mayo Clinic College of Medicine and Science, official non-clinical education internship page\nhttps://college.mayo.edu/academics/non-clinical-education/mayo-clinic-physics-and-engineering-internship-florida/",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Conduct a mentored research or clinical project within a selected specialty track: diagnostic medical physics, therapeutic medical physics, medical health physics, anatomic modeling/3D printing, or chemistry/radiochemistry",
+    "Develop and apply research methodology under the guidance of a Mayo Clinic physicist, chemist, or engineer mentor",
+    "Participate in departmental educational seminars and day-to-day clinical/research activities alongside Mayo Clinic scientific staff",
+    "Collaborate with multidisciplinary teams supporting diagnostic imaging, radiation therapy planning, or radiochemistry operations",
+    "Prepare and deliver a written project summary and an oral presentation of completed work at the end of the internship"
+  ],
+  "basic_requirements": [
+    "Currently enrolled undergraduate (junior/senior standing) or graduate student at an accredited U.S. institution",
+    "Minimum 3.0 GPA on a 4.0 scale",
+    "Demonstrated serious interest in a healthcare-related career",
+    "Able to commit 10-16 weeks at a minimum of 10-15 hours per week during standard business hours",
+    "Must be authorized to participate without visa sponsorship",
+    "Submit CV/resume, a personal statement on career goals and track selection, unofficial transcripts, and one professional letter of recommendation"
+  ],
+  "bonus_preferred": [
+    "Prior coursework or hands-on laboratory experience in physics, chemistry, or biomedical engineering relevant to the chosen track",
+    "Independent or supervised research experience yielding measurable data, analysis, or presented findings",
+    "Exposure to radiochemistry, medical imaging modalities, radiation dosimetry, or anatomic 3D modeling/printing techniques",
+    "Demonstrated understanding of clinical safety, regulatory, or procedural rigor in a healthcare research setting",
+    "Strong written and oral communication skills, evidenced by prior technical presentations or reports",
+    "Relevant volunteer or work experience in a hospital, clinic, or medical research environment"
+  ]
+},
+{
+  "field_id": "media",
+  "role_company_line": "Communications Intern, Universal International Studios, NBCUniversal (entertainment studio publicity/corporate communications)",
+  "source_line": "Source: NBCUniversal internship posting (Universal International Studios, London), cross-verified via BuiltIn London job listing and LinkedIn job posting\nhttps://builtinlondon.uk/job/communications-intern-universal-international-studios/3372687",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Assist with collating coverage reports from publicity campaigns and corporate news for internal and external stakeholders",
+    "Support the planning and execution of internal and external events, including press launches and screenings",
+    "Research and maintain media contact lists and assist in drafting press materials",
+    "Update internal communications documents and monitor developments across the entertainment and broadcast industry",
+    "Conduct daily news analysis and flag relevant coverage to the communications team"
+  ],
+  "basic_requirements": [
+    "Currently on a placement year as an undergraduate, a recent graduate, or post A-Level/apprenticeship route",
+    "Eligible to work in the UK for the full duration of the 12-month placement",
+    "Good understanding of the entertainment, broadcast, and/or media landscape",
+    "Strong written and verbal communication skills",
+    "Proficient in Microsoft Excel, Word, and PowerPoint",
+    "Able to manage multiple projects simultaneously under tight deadlines"
+  ],
+  "bonus_preferred": [
+    "Demonstrated ability to manage a wide range of projects independently",
+    "Excellent time management skills and strong attention to detail",
+    "Prior exposure to or interest in the entertainment/media industry",
+    "Quick aptitude for learning company-specific systems and processes"
+  ]
+},
+{
+  "field_id": "film_production",
+  "role_company_line": "Fall 2026 Internship Program, NFL Films (sports documentary/long-form film production — Creative Producing, Post-Production Editing/Color, Field Acquisition, Studio Production/A-V, and Archival Editing tracks)",
+  "source_line": "Source: NFL official careers page (Greenhouse job board)\nhttps://job-boards.greenhouse.io/nflcareers/jobs/5231123008",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Support production of long-form sports documentary and feature content across assigned track (creative producing, post-production, field acquisition, studio production, or archival editing)",
+    "Assist editors and producers with logging, organizing, and preparing footage for cuts and screenings",
+    "Support field acquisition crews with camera, audio, and lighting setup for on-location shoots",
+    "Help maintain and catalog archival footage libraries for use in current and future productions",
+    "Collaborate with creative teams during brainstorming and story-development sessions"
+  ],
+  "basic_requirements": [
+    "Currently enrolled undergraduate or recent graduate pursuing a degree in Film, Television, Media Production, or a related field",
+    "Available to work in-person at NFL Films' studio (Mount Laurel, NJ) for the Fall 2026 term",
+    "Basic familiarity with video editing software and/or production equipment relevant to the chosen track",
+    "Strong organizational skills and attention to detail when handling footage and production assets",
+    "Ability to work collaboratively within a fast-paced production environment"
+  ],
+  "bonus_preferred": [
+    "Prior on-set or production-crew internship/experience in a specific specialization (editing, camera, audio, archival)",
+    "Portfolio or reel demonstrating hands-on contribution to a completed video/film project",
+    "Familiarity with sports content or documentary storytelling conventions",
+    "Demonstrated interest in long-form documentary vs. live broadcast production"
+  ]
+},
+{
+  "field_id": "teacher",
+  "role_company_line": "Exeter Summer Teaching Internship, Phillips Exeter Academy (residential summer school, Harkness-method co-teaching)",
+  "source_line": "Source: Official employer posting (Phillips Exeter Academy / Exeter Summer), mirrored via university career services (UCLA Career Center)\nhttps://career.ucla.edu/jobs/phillips-exeter-academy-exeter-summer-exeter-summer-teaching-internship-residential/",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Co-teach alongside an experienced faculty mentor and progress to teaching independently using the Harkness method (student-directed, discussion-based instruction) for middle and/or high school students",
+    "Serve as a residential adviser, living in and overseeing a dormitory of students for the full summer session",
+    "Lead weekly advisee meetings and complete written evaluations of assigned advisees' academic and social progress",
+    "Plan and adapt lessons in collaboration with a faculty mentor teacher and receive ongoing instructional coaching and feedback",
+    "Chaperone and support evening, weekend, and off-campus student activities and excursions"
+  ],
+  "basic_requirements": [
+    "Current college junior, senior, or first-year graduate student",
+    "Strong interest in teaching middle and/or high school-aged students",
+    "Willingness to live on campus in a residential capacity for the full summer session",
+    "Comfortable facilitating small-group, discussion-based instruction",
+    "Submit resume, transcript(s), cover letter, and two letters of recommendation from professors or supervisors"
+  ],
+  "bonus_preferred": [
+    "Prior classroom teaching, TA, or co-teaching experience with a full class, beyond only one-on-one tutoring",
+    "Coursework or progress toward a teaching credential or education-related degree",
+    "Experience designing or adapting lesson plans/curriculum with reflection on their instructional effectiveness",
+    "Prior residential, camp counselor, or youth-advising experience with adolescents",
+    "Demonstrated leadership in an academic or extracurricular teaching-adjacent setting"
+  ]
+},
+{
+  "field_id": "ux",
+  "role_company_line": "Designer Intern 2026, IBM (enterprise software design, Carbon Design System)",
+  "source_line": "Source: IBM Careers official job posting (Designer Intern 2026, Job ID 56063), Austin/Abilene, TX\nhttps://careers.ibm.com/en_US/careers/JobDetail/Designer-Intern-2026/56063",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Collaborate with a multidisciplinary team of designers, developers, and product managers to create intuitive, accessible, and visually cohesive enterprise software experiences",
+    "Create wireframes, mockups, and interactive prototypes using Figma",
+    "Refine UI components and layouts aligned with the Carbon Design System",
+    "Contribute to design component documentation and reusable design assets",
+    "Work with UX researchers to gather insights and validate design decisions",
+    "Participate in design critiques and Design Thinking workshops, and present design concepts to stakeholders"
+  ],
+  "basic_requirements": [
+    "Currently pursuing or recently completed a degree in UX Design, Visual Design, HCI, Graphic Design, or a related field",
+    "Portfolio demonstrating design thinking and UI/UX skills",
+    "Proficiency in design tools such as Figma, Sketch, Adobe XD, Illustrator, and Photoshop",
+    "Understanding of user-centered design, accessibility, and responsive design principles",
+    "Strong communication and cross-functional collaboration abilities"
+  ],
+  "bonus_preferred": [
+    "Bachelor's degree completed (vs. in-progress associate-level standing)",
+    "Experience with collaborative design tools such as FigJam, Miro, or Mural",
+    "Working knowledge of HTML/CSS or front-end development",
+    "Motion design experience (After Effects, Lottie)",
+    "Familiarity with engagement and conversion metrics, and interest in design systems for enterprise products"
+  ]
+},
+{
+  "field_id": "graphic_design",
+  "role_company_line": "Graphic Design Intern, Hasbro (toy/game packaging & brand design, Summer 2026)",
+  "source_line": "Source: Official Hasbro careers listing (job ID 68759112580), mirrored on jobs.hasbro.com\nhttps://jobs.hasbro.com/job/Pawtucket-Summer-Intern-2026-Graphic-Design-Internship-Rhod-02861/1356739200/",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Support the visual development of game components, box layouts, and packaging design",
+    "Design game rules layouts that integrate text and imagery for clear player guidance",
+    "Fabricate physical prototypes of packaging and game materials using craft tools",
+    "Create logos, iconography, style guides, and pitch decks for internal and external stakeholders",
+    "Direct photography through detailed briefs and shot lists for product sets",
+    "Review vendor and illustrator work for quality and brand consistency, and support digital asset creation for e-commerce"
+  ],
+  "basic_requirements": [
+    "Currently enrolled in an accredited degree program in Graphic Design, Fine Arts, or a related field, with at least one semester/quarter remaining",
+    "Available to work full-time, in-person for the entire 11-week internship (June-August 2026) at the Pawtucket, RI office",
+    "U.S. work authorization",
+    "Proficiency with Adobe Creative Suite (Illustrator, Photoshop, Acrobat) and Microsoft Office",
+    "Comfortable using hands-on craft tools (e.g., X-acto knives, adhesives) for physical sample/prototype creation",
+    "Strong creativity, communication, organizational, and multitasking abilities in a fast-paced environment"
+  ],
+  "bonus_preferred": [
+    "Portfolio demonstrating a complete design process from concept sketches through finished packaging/brand assets, not just isolated visuals",
+    "Prior experience designing for a real commercial product or client, showing packaging/branding work actually produced or sold",
+    "Familiarity with developing full brand style guides or visual identity systems, beyond single posters or graphics",
+    "Experience directing or collaborating on photography and physical prototyping for tangible consumer products",
+    "Ability to articulate design rationale when presenting concepts to internal creative leadership and stakeholders"
+  ]
+},
+{
+  "field_id": "architecture",
+  "role_company_line": "Architecture Intern, Wight & Company (mid-size integrated architecture/engineering/construction firm, Chicago area)",
+  "source_line": "Source: Official Wight & Company job posting (Greenhouse ATS)\nhttps://job-boards.greenhouse.io/wight/jobs/7564637",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Assist in developing design concepts and documentation, including preparing drawings, models, and presentations using AutoCAD, Revit, and Adobe Creative Suite",
+    "Research materials, building codes, and design trends to support project compliance and design decisions",
+    "Organize and prepare project documentation, including drawings, specifications, and reports",
+    "Participate in site visits for project analysis and contractor coordination",
+    "Support project teams with scheduling, meeting documentation, and cross-disciplinary coordination among architects, designers, and engineers",
+    "Engage in professional development opportunities such as workshops and mentorship"
+  ],
+  "basic_requirements": [
+    "Currently enrolled in or recently graduated from a Bachelor's or Master's degree program in Architecture or a related field",
+    "Proficiency in AutoCAD, Revit, SketchUp, and Adobe Creative Suite",
+    "Strong verbal and written communication skills with the ability to collaborate effectively across disciplines",
+    "High attention to detail and accuracy in design work",
+    "Demonstrated creativity and passion for architecture",
+    "Strong organizational and time-management skills; portfolio submission required with application"
+  ],
+  "bonus_preferred": [
+    "Basic knowledge of 3D modeling and rendering beyond core software requirements",
+    "Prior exposure to real project workflows spanning design development through construction documentation",
+    "Experience collaborating cross-functionally with engineering and construction disciplines, reflecting the firm's integrated A/E/C practice model",
+    "A portfolio demonstrating original design iteration and technical drawing proficiency, not solely coursework studies"
+  ]
+},
+{
+  "field_id": "game_design",
+  "role_company_line": "Area Designer, Obsidian Entertainment (2026 Summer Internship — area/level design + gameplay systems, AAA RPG)",
+  "source_line": "Source: Obsidian Entertainment official careers/ATS posting (Area Designer - 2026 Summer Internship)\nhttps://obsidian.applytojob.com/apply/BtnxtlX823/Area-Designer-2026-Summer-Internship",
+  "collected_date": "2026-09-21",
+  "responsibilities": [
+    "Create and iterate on area and level layouts in Unreal Engine",
+    "Implement gameplay for combat encounters, NPC conversations, and quest scripting",
+    "Convey layout and experiential design goals through documentation, top-down maps, and editor blockouts",
+    "Collaborate cross-discipline with environment artists, narrative designers, and engineers to realize level intent"
+  ],
+  "basic_requirements": [
+    "Proficiency with Unreal Engine",
+    "Ability to communicate design intent via documentation, top-downs, and in-editor blockouts",
+    "Strong cross-disciplinary communication and collaboration skills",
+    "Knowledge of contemporary AAA role-playing games",
+    "A web portfolio demonstrating relevant design work"
+  ],
+  "bonus_preferred": [
+    "Programming or scripting language experience",
+    "Pen-and-paper / tabletop RPG design background",
+    "Branching narrative writing experience",
+    "Environment art skills (modeling, texturing, lighting)",
+    "Demonstrated passion for gaming and for Obsidian's titles specifically"
+  ]
+}
+]

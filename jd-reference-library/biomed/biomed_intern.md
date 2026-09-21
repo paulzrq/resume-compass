@@ -249,6 +249,34 @@ Collected: 2026-09-20
 - Coursework or experience in biomedical sciences, public health, or clinical research that aligns with a specific PI's lab focus
 - Strong academic record and a personal statement that clearly ties past research/coursework to the chosen NIH Institute's mission (e.g., NCI, NIAID, NIA, NIDDK, NIBIB)
 
+## JD 12: Physics, Chemistry, and Engineering Intern, Mayo Clinic (medical physics / radiochemistry / anatomic 3D-modeling track)
+Source: Mayo Clinic College of Medicine and Science, official non-clinical education internship page
+https://college.mayo.edu/academics/non-clinical-education/mayo-clinic-physics-and-engineering-internship-florida/
+Collected: 2026-09-21
+
+### Responsibilities
+- Conduct a mentored research or clinical project within a selected specialty track: diagnostic medical physics, therapeutic medical physics, medical health physics, anatomic modeling/3D printing, or chemistry/radiochemistry
+- Develop and apply research methodology under the guidance of a Mayo Clinic physicist, chemist, or engineer mentor
+- Participate in departmental educational seminars and day-to-day clinical/research activities alongside Mayo Clinic scientific staff
+- Collaborate with multidisciplinary teams supporting diagnostic imaging, radiation therapy planning, or radiochemistry operations
+- Prepare and deliver a written project summary and an oral presentation of completed work at the end of the internship
+
+### Basic Requirements
+- Currently enrolled undergraduate (junior/senior standing) or graduate student at an accredited U.S. institution
+- Minimum 3.0 GPA on a 4.0 scale
+- Demonstrated serious interest in a healthcare-related career
+- Able to commit 10-16 weeks at a minimum of 10-15 hours per week during standard business hours
+- Must be authorized to participate without visa sponsorship
+- Submit CV/resume, a personal statement on career goals and track selection, unofficial transcripts, and one professional letter of recommendation
+
+### Bonus / Preferred Qualifications
+- Prior coursework or hands-on laboratory experience in physics, chemistry, or biomedical engineering relevant to the chosen track
+- Independent or supervised research experience yielding measurable data, analysis, or presented findings
+- Exposure to radiochemistry, medical imaging modalities, radiation dosimetry, or anatomic 3D modeling/printing techniques
+- Demonstrated understanding of clinical safety, regulatory, or procedural rigor in a healthcare research setting
+- Strong written and oral communication skills, evidenced by prior technical presentations or reports
+- Relevant volunteer or work experience in a hospital, clinic, or medical research environment
+
 ## Implications for Our Framework
 - The gap between PhD-track and undergraduate-track postings is categorical: JD1's "currently pursuing a PhD" is a hard gate that assumes an independent research background, while JD2/JD3/JD5 (all open to undergrads) never ask for independent data/publication output, relying instead on GPA thresholds, class standing, and work authorization. The edu dimension should not use one ruler across the field — flag JD1-type postings as "PhD-only."
 - The exp/proj dimension's scoring anchors should split into "technical-depth" and "execution-reliability" archetypes: JD3 (Children's National) treats "15 hours/week on-site, night/weekend shifts, full-cycle commitment" as a hard requirement — showing the clinical-research track values steady time commitment and reliable on-site execution over resume-level technical highlights.

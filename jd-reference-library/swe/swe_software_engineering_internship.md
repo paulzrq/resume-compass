@@ -254,6 +254,32 @@ Collected: 2026-09-20
 - Experience working directly with physical robot hardware
 - Proven track record implementing autonomous mapping or exploration algorithms
 
+## JD 12: Software Engineer Intern, Bloomberg (general SWE internship at a financial data/software company, engineering-focused rather than fintech-transaction-focused)
+Source: Official Bloomberg careers posting (2026 Software Engineer Internship - New York), mirrored via job board listing quoting the original Avature posting, cross-checked against Bloomberg's own careers.bloomberg.com application-process page
+https://bloomberg.avature.net/careers/JobDetail/2026-Software-Engineer-Internship-New-York/13625
+Collected: 2026-09-21
+
+### Responsibilities
+- Take ownership of real technical projects under the guidance of an assigned engineering mentor
+- Collaborate as an active member of an engineering team throughout the internship
+- Become proficient with Bloomberg's internal technology stack, including the Bloomberg Terminal
+- Deepen understanding of how technology and financial/business principles intersect in production systems
+- Participate in team culture activities such as tech talks and networking events with engineers across the company
+
+### Basic Requirements
+- Programming experience in C, C++, Java, or Python
+- Currently pursuing a BA, BS, MS, or PhD in Computer Science (or a related technical field)
+- Completed at least one year of undergraduate study at the time of application
+- Strong grasp of data structures and algorithms
+- Demonstrated problem-solving ability, including for both small- and large-scale design questions
+
+### Bonus / Preferred Qualifications
+- Track record of impact on prior independent, academic, or internship projects that the candidate can speak to in depth
+- Comfort working in a language-agnostic environment and picking up new languages/tools as needed
+- Strong communication skills and clear articulation of technical thought process during interviews
+- Passion for technology and eagerness to learn in a fast-paced, high-energy environment
+- Experience or interest in the intersection of engineering and financial-market technology
+
 ## Implications for Our Framework
 - proj (weight 30), the field's highest-weighted dimension, is directly validated across all five postings: Amazon requires data-structure/algorithm implementation, TikTok requires frontend componentization and open-source contribution, Meta requires debugging systems serving billions of users globally, Apple emphasizes OOD practice, and MongoDB emphasizes CTF/personal security projects — all five sub-tracks put "what you've built" at the core without exception.
 - The exp gap "projects are mostly coursework, lacking real-user/production-environment experience" is precisely validated by Meta's Production Engineer posting, which requires working on "systems deployed to production, serving billions of users globally" — exactly the part hardest for a student resume to demonstrate, and where the biggest gap typically shows up.

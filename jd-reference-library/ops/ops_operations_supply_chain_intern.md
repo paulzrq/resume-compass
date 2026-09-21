@@ -260,5 +260,30 @@ Collected: 2026-09-20
 - Leadership experience in student organizations, volunteer activities, or related extracurriculars
 - Relevant prior internship experience in supply chain or operations
 
+## JD 12: Intern - Supply Chain Operations, C.H. Robinson (Robinson Fresh perishable freight brokerage/3PL sub-track)
+Source: C.H. Robinson careers listing (Robinson Fresh division), mirrored via BuiltIn job board
+https://builtin.com/job/intern-supply-chain-operations-robinson-fresh/7302905
+Collected: 2026-09-21
+
+### Responsibilities
+- Work alongside industry professionals to learn internal business processes and best practices in perishable supply chain and freight brokerage operations
+- Build and maintain relationships with internal teams and external partners, including customers, carriers, growers, and suppliers
+- Learn and utilize proprietary supply chain technology systems, including the Navisphere global logistics platform
+- Develop cross-functional skills across transportation and logistics areas such as sales/negotiation, operations management, and information systems
+- Support day-to-day coordination of freight movement and account management activities within a deadline-driven team environment
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree, Junior or Senior standing preferred (business, supply chain, marketing, sales, or related field)
+- Strong verbal and written communication skills
+- Ability to work effectively in deadline-driven, team-based settings while independently managing deliverables
+- Detail-oriented with strong multitasking and organizational capability
+- Demonstrated drive, enthusiasm, and relationship-building motivation
+
+### Bonus / Preferred Qualifications
+- Familiarity with AI, generative AI, or automation tools and interest in applying emerging technology to logistics operations
+- Prior exposure to supply chain, ERP, or transportation management systems
+- Demonstrated experience coordinating across departments or with external stakeholders (customers, carriers, suppliers)
+- Commitment to diversity, equity, and inclusion in the workplace
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard-skill baseline is spreadsheet/data fluency (Excel is explicit in 3 of 5; SQL/Power BI and ERP familiarity appear as differentiators rather than requirements), suggesting the framework should treat basic Excel as table-stakes and score SQL/ERP/analytics-tool exposure as a meaningful bonus rather than a core requirement. Analytical rigor and communication skills are weighted more heavily than field/warehouse experience — even the two most "hands-on" roles (Amazon Area Manager, Honeywell Supply Chain) foreground people-management, communication, and process-improvement framing over physical operations experience, so resumes should be credited for data-driven decision-making and cross-functional communication evidence at least as much as for literal warehouse/logistics work. GPA and graduation-timeline gating (3.0+ GPA, specific graduation windows, no-sponsorship clauses) matter procedurally but aren't differentiators worth much scoring weight since they're pass/fail eligibility filters, not competitive signals. Finally, prior internships, case-competition participation, and major relevance (supply chain, operations, business, engineering, economics) function as the strongest positive signals across postings, so the framework should reward directly relevant coursework/majors and any prior internship or case-competition experience in operations/supply chain more than generic leadership titles.

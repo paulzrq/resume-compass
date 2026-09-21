@@ -283,5 +283,31 @@ Collected: 2026-09-20
 - Interest in pursuing teacher certification afterward via the affiliated GO Teacher Residency pathway
 - Growth mindset and willingness to use student performance data to improve instruction
 
+## JD 12: Exeter Summer Teaching Internship, Phillips Exeter Academy (residential summer school, Harkness-method co-teaching)
+Source: Official employer posting (Phillips Exeter Academy / Exeter Summer), mirrored via university career services (UCLA Career Center)
+https://career.ucla.edu/jobs/phillips-exeter-academy-exeter-summer-exeter-summer-teaching-internship-residential/
+Collected: 2026-09-21
+
+### Responsibilities
+- Co-teach alongside an experienced faculty mentor and progress to teaching independently using the Harkness method (student-directed, discussion-based instruction) for middle and/or high school students
+- Serve as a residential adviser, living in and overseeing a dormitory of students for the full summer session
+- Lead weekly advisee meetings and complete written evaluations of assigned advisees' academic and social progress
+- Plan and adapt lessons in collaboration with a faculty mentor teacher and receive ongoing instructional coaching and feedback
+- Chaperone and support evening, weekend, and off-campus student activities and excursions
+
+### Basic Requirements
+- Current college junior, senior, or first-year graduate student
+- Strong interest in teaching middle and/or high school-aged students
+- Willingness to live on campus in a residential capacity for the full summer session
+- Comfortable facilitating small-group, discussion-based instruction
+- Submit resume, transcript(s), cover letter, and two letters of recommendation from professors or supervisors
+
+### Bonus / Preferred Qualifications
+- Prior classroom teaching, TA, or co-teaching experience with a full class, beyond only one-on-one tutoring
+- Coursework or progress toward a teaching credential or education-related degree
+- Experience designing or adapting lesson plans/curriculum with reflection on their instructional effectiveness
+- Prior residential, camp counselor, or youth-advising experience with adolescents
+- Demonstrated leadership in an academic or extracurricular teaching-adjacent setting
+
 ## Implications for Our Framework
 Across all five postings, the single most consistent hard filter is availability/commitment, not credentials: every posting specifies an exact date range and full-time (or near-full-time) hours with little flexibility, so a resume that can't plausibly support a multi-week uninterrupted commitment should score poorly regardless of other strengths. Formal teaching credentials are almost never required — none of these five postings requires an education major, a teaching certification, or even completed coursework in pedagogy, and several (Breakthrough SV, City Year, TFA) explicitly state that prior teaching experience is not necessary and is replaced by trainability, adaptability, and conviction/mission-fit language. Where a GPA or degree threshold does appear (TFA's 2.5 GPA and bachelor's-by-training-date, PASE's "currently enrolled" status), it functions as a low, coarse eligibility bar rather than a differentiator — it screens out but doesn't rank. Background checks and citizenship/work-authorization status recur as binary eligibility gates (City Year, Breakthrough SV) that a scoring rubric should treat as pass/fail flags rather than weighted signals, since resumes rarely surface this data directly. The real differentiators that separate a strong from an average candidate are prior informal experience with youth — camp counselor, tutoring, after-school program, babysitting/mentoring, RA roles — plus evidence of self-directed achievement, leadership under ambiguity, and cross-background collaboration (TFA's language is the most explicit here, but Breakthrough and PASE echo it via "varying levels of teaching/tutoring experience" and "prior experience working with youth"). This implies a resume-scoring rubric for this field should weight demonstrated informal youth-facing experience and evidence of grit/leadership/adaptability heavily as the primary quality signal, treat GPA/degree-in-progress and availability as coarse eligibility gates rather than scored merits, and not penalize the absence of formal education coursework or certification, since none of these real-world entry postings require it.

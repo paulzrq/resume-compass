@@ -3,14 +3,12 @@ import base64
 from html import escape
 from functools import lru_cache
 from pathlib import Path
-from branding import logo_svg_data_uri
 from mascots import mascot_path
 
 CSS = """
 .rc-report, .rc-report *{box-sizing:border-box}
 .rc-report{margin:0;background:#f5f6f7;color:#1b2733;font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:16px}
 .rc-report{max-width:1000px;margin:0 auto;background:white;padding:36px 50px 48px}
-.rc-report .logo{width:200px;display:block}
 .rc-report h1{text-align:center;font-size:26px;font-weight:400;margin:30px 0 38px}
 .rc-report .summary{display:flex;align-items:center;justify-content:center;gap:40px;margin-bottom:40px}
 .rc-report .mascot{width:155px;height:155px;object-fit:contain}
@@ -33,7 +31,6 @@ CSS = """
 .rc-report .note{border-top:1px solid #c7d2de;color:#5a6b7d;font-size:12px;margin-top:25px;padding-top:12px}
 @media(max-width:600px){.rc-report{background:white}
 .rc-report{padding:24px 20px 32px}
-.rc-report .logo{width:155px}
 .rc-report h1{font-size:22px;margin:28px 0}
 .rc-report .summary{gap:16px;margin-bottom:30px}
 .rc-report .mascot{width:115px;height:125px}
@@ -48,7 +45,7 @@ CSS = """
 .rc-report p{font-size:15px}
 .rc-report .interpretation{grid-template-columns:1fr;gap:24px}}
 
-.rc-report{width:100%;background:#fff;color:#1b2733;border-radius:0}.rc-report p{color:#1b2733}.rc-report .evidence{color:#5a6b7d;font-size:14px;margin:5px 0 0 8px}.rc-report .note{color:#5a6b7d}.rc-report .notice{color:#5a6b7d;font-size:14px;margin-bottom:16px}.rc-report .logo{height:auto}.rc-report .interpretation p{overflow-wrap:anywhere}.rc-report p,.rc-report .field{overflow-wrap:anywhere}
+.rc-report{width:100%;background:#fff;color:#1b2733;border-radius:0}.rc-report p{color:#1b2733}.rc-report .evidence{color:#5a6b7d;font-size:14px;margin:5px 0 0 8px}.rc-report .note{color:#5a6b7d}.rc-report .notice{color:#5a6b7d;font-size:14px;margin-bottom:16px}.rc-report .interpretation p{overflow-wrap:anywhere}.rc-report p,.rc-report .field{overflow-wrap:anywhere}
 .rc-report h1{color:#1b2733}.rc-report h1,.rc-report h2,.rc-report h3{padding:0;letter-spacing:normal}.rc-report .summary>div{min-width:0}.rc-report .mascot{flex-shrink:0}@media(max-width:360px){.rc-report{padding-left:12px;padding-right:12px}.rc-report .mascot{width:90px}.rc-report .summary{gap:10px}}"""
 DIM_ORDER = ("edu", "exp", "proj", "skill", "cert", "lead", "present")
 
@@ -64,7 +61,7 @@ def report_html(result, student_name, student_meta=""):
     path = mascot_path(field.get("id", ""))
     mascot = f'<img class="mascot" alt="职业人物" src="{_mascot_uri(str(path))}">' if path else ""
     meta = f'<p style="text-align:center">{_text(student_meta)}</p>' if student_meta else ""
-    parts = [f'<style>{CSS}</style><article class="rc-report"><img class="logo" alt="仁港学院" src="{logo_svg_data_uri()}"><h1>{_text(student_name)}</h1>{meta}<div class="summary">{mascot}<div><div class="score-label">综合竞争力得分</div><div class="score">{_text(result["total"])} <small>/100</small></div><div class="field">目标领域：{_text(field["name"])}</div></div></div><div class="rule"></div><h2>分项表现区间</h2>']
+    parts = [f'<style>{CSS}</style><article class="rc-report"><h1>{_text(student_name)}</h1>{meta}<div class="summary">{mascot}<div><div class="score-label">综合竞争力得分</div><div class="score">{_text(result["total"])} <small>/100</small></div><div class="field">目标领域：{_text(field["name"])}</div></div></div><div class="rule"></div><h2>分项表现区间</h2>']
     if not result.get("evidence_verification_available", True):
         parts.append('<p class="notice">这份简历以图片形式上传，引用的原文片段无法逐字核对，请留意准确性。</p>')
     dims = {d["key"]: d for d in result["framework"]["dimensions"]}

@@ -273,5 +273,30 @@ Collected: 2026-09-20
 - Professional presence when interacting with management and external contacts
 - Demonstrated interest in a financial services career
 
+## JD 12: 2027 Summer Corporate Internship – Human Resources, Caterpillar Inc. (heavy-equipment manufacturing industrial HR generalist rotational track)
+Source: Caterpillar official careers site (job ref r0000380177)
+https://careers.caterpillar.com/
+Collected: 2026-09-21
+
+### Responsibilities
+- Rotate through core HR functions including talent acquisition, talent management, learning & development, labor relations, total rewards, and HR generalist work
+- Support employee onboarding processes and help standardize HR workflows across teams
+- Assist with people-analytics data gathering and reporting to support HR decision-making
+- Participate in labor-relations and total-rewards project work under the guidance of experienced HR professionals
+- Collaborate cross-functionally with business partners on organizational and workforce initiatives
+
+### Basic Requirements
+- Currently enrolled full-time in a Bachelor's or Master's degree program in Human Resources, Business with an HR emphasis, or a related field
+- Minimum cumulative GPA of 3.0 (not rounded)
+- Completion of at least 12 semester hours (or equivalent) prior to the internship
+- Willingness to relocate on-site for the full 12-week summer term (Mossville/Peoria/Pontiac, IL or Irving, TX)
+- Strong communication and interpersonal skills
+
+### Bonus / Preferred Qualifications
+- Strong decision-making and critical-thinking abilities
+- Flexibility, adaptability, and a growth mindset in a fast-paced corporate environment
+- Demonstrated data-gathering and reporting skills relevant to people analytics
+- Prior HR-related student-organization leadership or project experience
+
 ## Implications for Our Framework
 Across all five postings, no employer requires or even mentions SHRM/PHR-style certifications at the internship level — what they consistently ask for instead is a relevant but broad academic major (HR, Business, Psychology/Org Behavior, Communications), a minimum GPA threshold (3.0 in two of five), and soft-skill fundamentals (written/verbal communication, attention to detail, collaboration, "strong interest" in HR). This suggests our scoring should weight coursework relevance and communication/interpersonal evidence more heavily than credentialing for entry-level HR roles. Tool familiarity is treated as a plus, not a gate: Excel/Office proficiency is near-universal and baseline, while HRIS/analytics exposure (Workday, Power BI, ATS platforms, LMS tools) appears almost exclusively in the "preferred/bonus" tier rather than as a hard requirement — so resumes should be rewarded for such exposure but not penalized for lacking it. Finally, the sub-track differences matter for framing: TA/recruiting and HRBP postings lean on interpersonal/relationship-building language, while Total Rewards and L&D postings put more emphasis on data/market-research analysis and instructional-design familiarity respectively — meaning a strong HR resume should be evaluated partly against which sub-track it targets rather than a single generic "HR skills" rubric.

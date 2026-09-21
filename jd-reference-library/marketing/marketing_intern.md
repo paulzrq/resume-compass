@@ -250,6 +250,33 @@ Collected: 2026-09-20
 - Cross-functional collaboration skills with clear, confident communication
 - Demonstrated passion for consumer marketing and the Coca-Cola brand portfolio
 
+## JD 12: B2B Enterprise Marketing Intern, Dow Jones & Co. (B2B/enterprise media marketing)
+Source: Dow Jones Summer 2026 Internship Program listing (cross-posted on BuiltIn NYC and BuiltIn)
+https://www.builtinnyc.com/job/summer-2026-internship-b2b-enterprise-marketing-intern/7345000
+Collected: 2026-09-21
+
+### Responsibilities
+- Research industries such as Energy and Banking to identify market dynamics and competitor strategies for B2B marketing campaigns
+- Execute integrated marketing campaigns across digital, content, and event-based channels for enterprise audiences
+- Partner cross-functionally with Product, Content, and Digital teams to align messaging and go-to-market tactics
+- Produce and evaluate marketing collateral including email campaigns, social content, and promotional materials
+- Monitor campaign performance metrics and audience engagement data to inform optimization
+- Participate in team meetings and brainstorming sessions to support enterprise marketing strategy
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in Marketing, Business, or a related field, with at least two years completed
+- Must be a rising junior or senior by Summer 2026
+- Strong written and verbal communication skills with meticulous attention to detail
+- Proficiency with Google Suite, Canva, and familiarity with CRM systems
+- Working understanding of social media platforms, digital marketing trends, and content strategy
+- Organized, deadline-driven, and collaborative work style
+
+### Bonus / Preferred Qualifications
+- Demonstrated enthusiasm for brand development and B2B customer engagement
+- Creative, curious mindset with strong initiative
+- Prior exposure to campaign performance tracking or audience/engagement analytics
+- Ability to work independently while contributing effectively within a team
+
 ## Implications for Our Framework
 - The brand-management posting (Unilever) never mentions any specific marketing tool in its basic requirements, while the digital/growth-marketing posting (Hill House Home) names Meta, TikTok, and Google plus CAC/ROAS metrics directly in the job duties — bonus item ② ("proficient with data-analysis/ad-platform tools") carries far more real weight for growth marketing than for brand management, and the two should not share one skill rubric.
 - Product marketing (IBM) is the only track to state A/B testing and Excel/Python/Tableau explicitly in the basic requirements, showing it emphasizes "strategy + data" more than brand or content marketing — gap ② ("lacks quantifiable growth/conversion data") should carry heavier deduction weight when evaluating product-marketing resumes.

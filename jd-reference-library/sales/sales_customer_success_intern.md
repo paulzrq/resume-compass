@@ -258,5 +258,31 @@ Collected: 2026-09-20
 - Prior internship or work experience showing customer-facing initiative, proactive outreach, or account-relationship building
 - Comfort with a metrics-driven, quota-oriented sales environment (Gartner's sales org tracks individual and team performance targets)
 
+## JD 12: Sales and Brokerage Intern, CBRE (commercial real estate brokerage sales)
+Source: CBRE official careers page, Sales and Brokerage Internship Program
+https://www.cbre.com/careers/students-and-graduates/sales-and-brokerage-internship-program
+Collected: 2026-09-21
+
+### Responsibilities
+- Partner with experienced sales/leasing brokers to support current and prospective commercial real estate deals
+- Conduct research on companies, properties, and industry/market trends to inform deal strategy
+- Manage and update prospect tracking within internal CRM databases
+- Create marketing collateral and client presentation materials
+- Monitor local market activity, including economic and employment data, to identify business development opportunities
+- Assist with deal-related tasks such as market surveys and financial analysis
+
+### Basic Requirements
+- College junior, senior, or graduate student with a strong interest in a commercial real estate sales career
+- Excellent presentation, organizational, and time-management skills
+- Strong analytical and problem-solving abilities
+- Proven leadership experience through campus clubs, projects, or student government
+- Outgoing, self-motivated, relationship-focused personality comfortable with prospecting and occasional rejection
+
+### Bonus / Preferred Qualifications
+- Proficiency with Salesforce (CRM) and Tableau for prospect tracking and market data analysis
+- Prior cold-outreach, networking, or client-relationship-building experience
+- Demonstrated "scrappy, hungry" business-development mindset with a track record of initiative
+- Coursework or projects involving financial/market analysis relevant to real estate deals
+
 ## Implications for Our Framework
 Across all five postings, employers rarely demand prior quota-carrying sales experience at the internship level — instead they consistently weight communication skills, "comfort with outbound/cold outreach," attention to detail, and the ability to self-manage multiple priorities in a fast-paced environment, meaning leadership or high-touch communication roles (e.g., campus orgs, tutoring, retail/customer-facing jobs) can reasonably substitute for direct sales experience on a resume. CRM familiarity (Salesforce, HubSpot) appears only as a "preferred, not required" bonus rather than a baseline filter, so our scoring should treat it as a plus-signal, not a gate. Quantifiable results/metrics-driven experience matters more as a proxy trait (data-driven mindset, Excel/Sheets proficiency, prior reporting or project work) than as literal sales-quota history — postings from data-heavy tracks (TikTok Shop, Salesforce-adjacent roles) explicitly reward analytical/spreadsheet skills alongside soft skills. Finally, sector fit and domain curiosity (e.g., "interest in identity security," "interest in e-commerce/creator economy," "passion for a career in sales") show up as differentiators across nearly every posting, suggesting our framework should credit resumes that show demonstrated interest in the specific industry/product category, not just generic "sales experience."

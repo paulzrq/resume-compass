@@ -550,7 +550,7 @@ if st.session_state.view == "form":
             "上传简历（PDF 或图片：PNG / JPG / WEBP）",
             type=["pdf", "png", "jpg", "jpeg", "webp"],
         )
-        student_name = st.text_input("学生姓名", value=(uploaded.name.rsplit(".", 1)[0] if uploaded else ""))
+        student_name = st.text_input("学生姓名", placeholder="请填写学生姓名（不会从上传的文件名自动带入）")
     with col2:
         # 2026-09-19：改成单个下拉（sac.cascader，来自 streamlit-antd-components 组件库），
         # 点开后左边是分类、右边浮出对应的方向列表，一次选完，不用先选分类再选方向两步走。

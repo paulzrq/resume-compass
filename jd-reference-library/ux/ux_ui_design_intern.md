@@ -262,5 +262,32 @@ Collected: 2026-09-20
 - Demonstrated natural collaborator with positive team engagement
 - Forward-thinking mindset that pushes design boundaries
 
+## JD 12: Designer Intern 2026, IBM (enterprise software design, Carbon Design System)
+Source: IBM Careers official job posting (Designer Intern 2026, Job ID 56063), Austin/Abilene, TX
+https://careers.ibm.com/en_US/careers/JobDetail/Designer-Intern-2026/56063
+Collected: 2026-09-21
+
+### Responsibilities
+- Collaborate with a multidisciplinary team of designers, developers, and product managers to create intuitive, accessible, and visually cohesive enterprise software experiences
+- Create wireframes, mockups, and interactive prototypes using Figma
+- Refine UI components and layouts aligned with the Carbon Design System
+- Contribute to design component documentation and reusable design assets
+- Work with UX researchers to gather insights and validate design decisions
+- Participate in design critiques and Design Thinking workshops, and present design concepts to stakeholders
+
+### Basic Requirements
+- Currently pursuing or recently completed a degree in UX Design, Visual Design, HCI, Graphic Design, or a related field
+- Portfolio demonstrating design thinking and UI/UX skills
+- Proficiency in design tools such as Figma, Sketch, Adobe XD, Illustrator, and Photoshop
+- Understanding of user-centered design, accessibility, and responsive design principles
+- Strong communication and cross-functional collaboration abilities
+
+### Bonus / Preferred Qualifications
+- Bachelor's degree completed (vs. in-progress associate-level standing)
+- Experience with collaborative design tools such as FigJam, Miro, or Mural
+- Working knowledge of HTML/CSS or front-end development
+- Motion design experience (After Effects, Lottie)
+- Familiarity with engagement and conversion metrics, and interest in design systems for enterprise products
+
 ## Implications for Our Framework
 Across all five postings a portfolio or "creative materials" requirement is non-negotiable — even research- and healthcare-leaning roles ask for demonstrated work — so portfolio quality should be weighted at least as heavily as GPA or coursework in any scoring rubric. Figma appears explicitly in four of five listings (with Sketch/Adobe Creative Suite as secondary tools), confirming it's the de facto baseline tool expectation for this field, while basic front-end literacy (HTML/CSS/JS) shows up as a differentiator at product-focused startups. Major flexibility is notable: acceptable degrees range from Design and HCI to Computer Science, Engineering, and Psychology, suggesting the framework should treat "design-adjacent degree + strong portfolio" as roughly equivalent to a pure design major rather than penalizing non-traditional majors. Finally, research/process fluency (user interviews, journey mapping, usability testing, mixed-methods research) recurs across big tech, research-specific, and healthcare roles alike, so process/methodology evidence in a resume or portfolio case study should be scored as a meaningful signal, not just visual polish.
