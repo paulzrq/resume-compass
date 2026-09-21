@@ -1,8 +1,8 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8">
 <style>
-:root{--accent:#493a5c}
+:root{--accent:#493a5c;--maxw:720px}
 body{margin:0;font:14px system-ui;color:#777}
-#row{display:flex;gap:14px;align-items:center}
+#row{display:flex;gap:14px;align-items:center;max-width:var(--maxw);margin:0 auto;box-sizing:border-box}
 button,a{font:inherit;cursor:pointer;text-decoration:none;box-sizing:border-box;display:flex;align-items:center;justify-content:center;border:0;white-space:nowrap}
 button{flex:1;padding:15px 0;border-radius:999px;font-size:16px;font-weight:600;letter-spacing:1.5px;background:var(--accent);color:#fff}
 button:disabled{opacity:.6;cursor:default}
@@ -29,6 +29,18 @@ function send(type,extra={}){window.parent.postMessage({isStreamlitMessage:true,
 function sendHeight(){
   requestAnimationFrame(()=>send('streamlit:setFrameHeight',{height:Math.ceil(document.body.getBoundingClientRect().height)}));
 }
+// Match the share card's own width cap (min(720px, 65vh) of the REAL page, not this
+// auto-sized iframe's tiny height) so the button row never stretches wider than the card
+// on Streamlit's wide desktop layout.
+function syncMaxWidth(){
+  try{
+    const vh=(window.parent&&window.parent.innerHeight)||window.innerHeight;
+    document.documentElement.style.setProperty('--maxw',Math.min(720,vh*0.65)+'px');
+  }catch(e){/* cross-origin fallback: keep the 720px default */}
+  sendHeight();
+}
+try{window.parent.addEventListener('resize',syncMaxWidth);}catch(e){}
+window.addEventListener('resize',syncMaxWidth);
 window.addEventListener('message',event=>{
   if(event.source!==window.parent || event.data.type!=='streamlit:render')return;
   const encoded=event.data.args.png;
@@ -65,5 +77,5 @@ button.onclick=async()=>{
 };
 window.addEventListener('pagehide',()=>{if(url)URL.revokeObjectURL(url);});
 send('streamlit:componentReady',{apiVersion:1});
-sendHeight();
+syncMaxWidth();
 </script></html>
