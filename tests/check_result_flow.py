@@ -21,7 +21,12 @@ with patch.object(share_card,'render_share_button',return_value=False) as share,
  print('PASS locked actual app: no PDF, no email')
  share.return_value=True
  app.run();assert not app.exception,list(app.exception);assert pdf.call_count==1;assert mail.call_count==1
- print('PASS share click actual app: PDF generated once')
+ html = ''.join(m.value for m in app.markdown)
+ assert 'class="rc-report"' in html
+ assert html.count('<section class="dimension">') == 7
+ assert '七维度评分' not in html
+ assert not any('报告预览' in h.value for h in app.subheader)
+ print('PASS share click actual app: responsive HTML report, PDF generated once')
  b,info=app.session_state['report_artifact'];assert b.startswith(b'%PDF')
  import pymupdf
  doc=pymupdf.open(stream=b,filetype='pdf');assert len(doc)>0

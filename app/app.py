@@ -21,6 +21,7 @@ from PIL import Image
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
+from web_report import render_web_report
 from share_card import generate_share_card, render_share_button, render_share_preview, CARD_VERSION, choose_share_layout
 from emailer import send_report_email
 from mascots import mascot_path, MASCOTS_DIR, FIELD_ID_TO_MASCOT_FILENAME
@@ -702,9 +703,7 @@ elif st.session_state.view == "result" and st.session_state.result:
         st.caption("点击分享卡片后查看完整报告。")
         st.stop()
 
-    _render_score_badge(result)
-    if result.get("stage_note"):
-        st.info(result["stage_note"])
+    render_web_report(result, st.session_state.student_name, st.session_state.student_meta)
 
     if result["field"].get("id") == CUSTOM_FIELD_ID:
         matched_fields = result["field"].get("matched_fields")
@@ -731,62 +730,6 @@ elif st.session_state.view == "result" and st.session_state.result:
             f"{' / '.join(str(t) for t in totals)}，波动{spread}分，最终各维度取中位数得到上面这个结果"
         )
 
-    if not result.get("evidence_verification_available", True):
-        st.info(
-            "ℹ️ 这份简历是以图片形式上传的，下面各维度引用的原文片段没法逐字核对是否真实存在，"
-            "请自行留意评估结果的准确性（PDF上传的简历不受影响，照常核对）。"
-        )
-
-    st.subheader("七维度评分")
-    dims = {d["key"]: d for d in result["framework"]["dimensions"]}
-    for key in ["edu", "exp", "proj", "skill", "cert", "lead", "present"]:
-        d = dims[key]
-        score = result["dimension_scores"].get(key, 0)
-        rationale = result["dimension_rationale"].get(key, "")
-        ev_list = result.get("dimension_evidence", {}).get(key, [])
-        ok_list = result.get("dimension_evidence_verified", {}).get(key, [])
-        bar_col, text_col = st.columns([1, 4])
-        with bar_col:
-            st.write(f"**{d['name']}**")
-            st.progress(score / 5, text=f"{score}/5")
-        with text_col:
-            st.write(rationale)
-            for q, ok in zip(ev_list, ok_list):
-                mark = "" if ok else "⚠️ 未在原文核实到："
-                st.caption(f"{mark}原文：“{q}”")
-
-    colA, colB = st.columns(2)
-    with colA:
-        st.subheader("优势")
-        for s in result["strengths"]:
-            st.markdown(f"- {s}")
-    with colB:
-        st.subheader("建议提升方向")
-        for g in result["gaps"]:
-            st.markdown(f"- {g}")
-
-    if result["bonus_checked"]:
-        st.subheader("命中的加分项")
-        for i in result["bonus_checked"]:
-            label, pts = result["field"]["bonus"][i]
-            st.markdown(f"- {label}（+{pts}）")
-
-    if result.get("ats_keywords"):
-        st.subheader("识别到的ATS关键词")
-        st.write("、".join(result["ats_keywords"]))
-
-    if result.get("strong_phrases"):
-        st.subheader("工作经历/项目经历中有力的量化成果")
-        st.caption("有数据支撑、写得好的句子——在下方的标注版简历里会用绿色标出，这种写法可以多用")
-        for s in result["strong_phrases"]:
-            st.markdown(f"- {s}")
-
-    if result.get("vague_phrases"):
-        st.subheader("工作经历中可优化的表述")
-        st.caption("偏笼统、缺乏具体信息量的句子——在下方的标注版简历里会用红色标出，供你参考修改")
-        for s in result["vague_phrases"]:
-            st.markdown(f"- {s}")
-
     try:
         if "report_artifact" not in st.session_state:
             pdf_bytes, highlight_info = generate_pdf(
@@ -812,32 +755,27 @@ elif st.session_state.view == "result" and st.session_state.result:
                 parts.append(f"绿色/量化成果：{'；'.join(highlight_info['strong_matched'])}")
             if highlight_info["vague_matched"]:
                 parts.append(f"红色/可优化表述：{'；'.join(highlight_info['vague_matched'])}")
-            st.caption("已在下方的报告预览里标注 —— " + "；".join(parts))
+            st.caption("已在下方的简历原文里标注 —— " + "；".join(parts))
         else:
             st.warning(f"没能生成标注版简历：{highlight_info['reason']}")
 
     if pdf_bytes is not None:
-        st.subheader("📄 报告预览")
-        if highlight_info["attached"]:
-            st.caption("黄色=ATS关键词　绿色=有力的量化成果　红色=建议优化的表述，不用下载PDF也能直接看完整报告")
-        else:
-            st.caption("不用下载PDF也能直接看完整报告")
-        try:
-            # dpi调到300（接近打印质量），源图分辨率够高，不管列宽最终撑到多大都不会糊
-            page_images = render_pdf_pages_as_images(pdf_bytes, dpi=300)
-            # 用居中的列限制预览宽度，避免图片在宽屏布局下把整页撑满，但也别太窄导致字看不清
-            _, preview_col, _ = st.columns([1, 3, 1])
-            with preview_col:
-                for i, img_bytes in enumerate(page_images):
-                    st.image(img_bytes, use_container_width=True)
-                    if i < len(page_images) - 1:
-                        st.divider()
-        except Exception as e:
-            st.info(f"页面预览暂时生成不了（{e}），可以用下面的按钮下载PDF查看。")
+        annotated_pdf = highlight_info.get("highlighted_resume_pdf_bytes")
+        if annotated_pdf:
+            st.subheader("简历原文标注")
+            st.caption("保留原稿版式。黄色=ATS关键词，绿色=量化成果，红色=建议优化的表述。")
+            try:
+                page_images = render_pdf_pages_as_images(annotated_pdf, dpi=200)
+                for img_bytes in page_images:
+                    encoded = base64.b64encode(img_bytes).decode("ascii")
+                    st.markdown(f'<div style="max-width:1000px;margin:0 auto"><img alt="标注版简历原文" src="data:image/png;base64,{encoded}" style="width:100%;height:auto"></div>', unsafe_allow_html=True)
+            except Exception:
+                st.info("标注预览暂时无法显示，请下载标注版简历查看。")
+            st.download_button("下载标注版简历", data=annotated_pdf,
+                               file_name="标注版简历.pdf", mime="application/pdf")
         out_name = f"{st.session_state.student_name}_评估_{date.today().isoformat()}.pdf"
         out_path = REPORT_DIR / out_name
         out_path.write_bytes(pdf_bytes)
-        st.success(f"PDF报告已自动保存到：reports/{out_name}")
         st.download_button("下载PDF报告", data=pdf_bytes, file_name=out_name, mime="application/pdf")
 
         # 2026-09-19：顺手把报告存档邮件发出去——免费版Streamlit Cloud容器重启后
