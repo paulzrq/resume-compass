@@ -61,6 +61,28 @@ def make_custom_field(name: str) -> dict:
 
 _DIM_KEYS = ["edu", "exp", "proj", "skill", "cert", "lead", "present"]
 
+# 2026-09-22：加分项（bonus）本来能在7个维度加权算出的基础分不到100时，把总分顶满100——
+# 只要基础分离100的差距不超过命中的加分点数（最多10分），差距就会被"抹平"，用户会看到
+# "某个维度明显没打满、总分却显示100"这种矛盾。跟Paul讨论后收紧规则：加分项机制保留
+# （命中的加分照样加、最多仍是10分），但只有当"明显短板"（单个维度≤3分，满分5）的维度数量
+# 不超过2个时，加分才能把总分顶到完整的100；一旦短板维度超过2个，说明这份简历确实存在
+# 不止一两个真实弱项，就不该因为加分命中得多而被评进"顶尖竞争力"档——总分改为封顶在
+# 比"顶尖竞争力"门槛低1分的位置（从framework.json的tiers动态取，tiers改了这里自动跟着变），
+# 加分依然生效、依然能把分数往上拉，只是拉不到能被认定为"顶尖"的程度。
+_WEAK_DIMENSION_THRESHOLD = 3
+_MAX_WEAK_DIMENSIONS_FOR_FULL_CAP = 2
+
+
+def _score_cap(scores: dict, framework: dict) -> int:
+    """返回这次打分总分的封顶值：默认是100；短板维度（分数≤_WEAK_DIMENSION_THRESHOLD）
+    超过 _MAX_WEAK_DIMENSIONS_FOR_FULL_CAP 个时，收紧到"顶尖竞争力"档位门槛再往下1分，
+    确保这种情况下无论加分命中多少，总分都够不到顶尖竞争力这一档。"""
+    weak_count = sum(1 for s in scores.values() if s <= _WEAK_DIMENSION_THRESHOLD)
+    if weak_count <= _MAX_WEAK_DIMENSIONS_FOR_FULL_CAP:
+        return 100
+    top_tier_min = max(t["min"] for t in framework["tiers"])
+    return top_tier_min - 1
+
 
 def _round_weights_to_100(raw_weights: dict) -> dict:
     """把一组浮点权重四舍五入成整数，同时保证总和精确等于100（最大余数法）：
@@ -699,7 +721,7 @@ def _score_resume_once_attempt(
     bonus_checked = [i for i in data.get("bonus_checked", []) if 0 <= i < len(field["bonus"])]
     bonus_pts = min(sum(field["bonus"][i][1] for i in bonus_checked), 10)
 
-    total = round(min(100, base + bonus_pts))
+    total = round(min(_score_cap(scores, framework), base + bonus_pts))
     tier = next(t for t in framework["tiers"] if total >= t["min"])
 
     ats_keywords_raw = [
@@ -854,7 +876,7 @@ def score_resume(
     weights = field["weights"]
     base = sum(weights[k] * (median_scores[k] / 5) for k in weights)
     bonus_pts = min(sum(field["bonus"][i][1] for i in rep["bonus_checked"]), 10)
-    total = round(min(100, base + bonus_pts))
+    total = round(min(_score_cap(median_scores, framework), base + bonus_pts))
     tier = next(t for t in framework["tiers"] if total >= t["min"])
 
     return {
