@@ -289,5 +289,174 @@ Collected: 2026-09-21
 - Motion design experience (After Effects, Lottie)
 - Familiarity with engagement and conversion metrics, and interest in design systems for enterprise products
 
+## JD 13: Product Designer, Intern (Summer 2026), DoorDash (on-demand delivery/e-commerce marketplace, AI-forward product design)
+Source: DoorDash official careers job board (Greenhouse posting), https://job-boards.greenhouse.io/doordashusa/jobs/7579899
+Collected: 2026-09-22
+
+### Responsibilities
+- Own design work from early prototypes through polished, shipped execution on real DoorDash product features
+- Experiment with AI tools/technologies to enhance the design process and to prototype AI-powered product experiences
+- Collaborate closely with product managers, engineers, researchers, and data scientists throughout the design lifecycle
+- Develop high-fidelity prototypes and help identify and validate design opportunities through user testing
+- Partner with engineering to ensure high-quality, accurate implementation of design solutions
+- Participate in design critiques, giving and receiving constructive feedback, and learn from senior design mentors
+
+### Basic Requirements
+- Currently pursuing a degree in a design or technology-related field (e.g., Human-Computer Interaction, Interaction Design, Computer Science, or related)
+- Expected graduation Fall 2026 or Spring/Summer 2027
+- Available for the 12-week internship in Summer 2026; San Francisco, CA on-site
+- Strong foundation in visual design principles, interaction design, and demonstrated user-centered problem-solving
+- Proficiency with Figma and experience prototyping with AI-driven tools
+- Portfolio demonstrating design fundamentals, including at least one case study applying AI in design or designing an AI-powered experience
+- Strong collaboration, communication skills, and ability to iterate quickly on feedback
+
+### Bonus / Preferred Qualifications
+- Prior experience designing AI-powered features or integrating AI/LLMs into product workflows
+- Familiarity with user research methodologies and usability-testing practices
+- Understanding of the broader software development lifecycle and how design fits into engineering workflows
+- Demonstrated ability to quickly learn new tools/technologies and adapt to a fast-paced environment
+- Prior internship experience or a substantial academic/personal design project beyond coursework
+
+## JD 14: Design Fellow, Coding it Forward — Civic Digital Fellowship (civic-tech/government UX & product design)
+Source: Official program pages, Coding it Forward — "Fellowship" (https://codingitforward.com/fellowship) and "Apply" (https://codingitforward.com/apply); 2026 cohort details also summarized via Grants Database (https://grantsdatabase.org/2026/01/15/coding-it-forward-summer-fellowship-2026-paid-fellowship-in-the-u-s/). 2026 cohort: application deadline January 19, 2026; program runs June 8 – August 14, 2026 (10 weeks, paid, $20–25/hr), fellows placed inside U.S. federal government agencies.
+Collected: 2026-09-23
+
+### Responsibilities
+- Research, create, and iteratively improve designs for federal government products, systems, and services in partnership with a host agency
+- Develop and standardize a unified design system / visual language for public-facing government digital tools
+- Conduct user research and build interactive prototypes to redesign interfaces for public-facing service applications (e.g., municipal/agency service apps)
+- Produce visual and graphic design assets that communicate agency policies (e.g., data collection and privacy notices) to the public
+- Collaborate closely with agency partners and cross-functional teammates (engineers, product managers, policy staff) through iterative feedback cycles
+- Present design decisions and rationale clearly to non-technical government stakeholders
+
+### Basic Requirements
+- U.S. citizen, national, or permanent resident (required for federal agency placement); international students are not eligible due to work-authorization restrictions
+- At least 18 years old by the program start date (June 8, 2026)
+- Based in the United States for the entire program duration
+- Currently enrolled in, or a recent graduate of, an accredited bachelor's, master's, professional, or doctoral program, OR completion of a bootcamp/certificate program with a minimum of 3 months of live instruction
+- Demonstrated technical proficiency in design tools, techniques, and frameworks, evidenced through coursework, internships, hackathons, or a portfolio
+- Willingness/eligibility to pass a federal background check
+
+### Bonus / Preferred Qualifications
+- Genuine, demonstrated passion for public service and using design to improve government
+- Strong written and verbal communication skills for translating design/technical concepts to non-technical government stakeholders
+- Comfort navigating ambiguity and the slower, policy-constrained pace of government work environments
+- Independent, self-directed problem-solving with initiative and minimal oversight
+- Experience conducting user research and usability testing to inform interface and product decisions
+- Prior collaborative, cross-functional project experience (e.g., working alongside engineers/PMs through an iterative design feedback process)
+
+## JD 15: UX Design Internship, Target Corporation (retail/e-commerce, big-box in-house product design)
+Source: Official Target corporate careers site, live posting (Job ID R0000451077) — https://corporate.target.com/jobs/w10/77/ux-design-internship-minneapolis,-mn-starting-summer,-2027
+Collected: 2026-09-24
+
+### Responsibilities
+- Design product experiences under the guidance and direction of UX Leads
+- Participate in user research to better understand user needs
+- Ideate and prototype to explore different options meeting requirements and user expectations
+- Begin incorporating accessibility considerations into product design
+- Present work to Design Leads and the broader UX team
+- Collaborate within a multi-disciplinary team (product, engineering, and other UX professionals) over a 10-week hybrid summer program
+
+### Basic Requirements
+- Current student working toward a 4-year degree
+- Awareness and some experience with user-centered design
+- Foundational communication and presentation skills
+- Developing understanding of Accessibility Guidelines
+- Comfortable working in a hybrid arrangement based at Target's Minneapolis, MN headquarters
+
+### Bonus / Preferred Qualifications
+- Demonstrated knowledge and proficiency in Interaction Design, Visual Design, or Information Architecture (beyond baseline awareness)
+- Exposure to user-centered design practices applied in real project work
+- Diverse backgrounds and perspectives that broaden the design team's point of view
+- Track record suggesting readiness to become eligible for a full-time UX Design role after the internship
+
+## JD 16: Design Development Internship Program, Capital One (traditional consumer banking/credit-card financial services (large bank's Experience Design team) — distinct from Gemini's fintech/crypto-startup entry; no other banking/financial-services company appears elsewhere in this file)
+Source: WayUp job board mirror of Capital One's official internship listing, corroborated by Prosple's graduate-employer profile — https://www.wayup.com/i-Financial-Services-j-Design-Development-Internship-Program-Summer-2025-Capital-One-615737567238405/
+Collected: 2026-09-25
+
+### Responsibilities
+- Advocate for and be the voice of the customer throughout the design and development process
+- Collaborate with data analysts, product managers, and fellow designers on research, strategy, ideation, design, and usability testing
+- Translate user needs, style guides, technology constraints, and business requirements into elegant design solutions
+- Present research findings and design concepts to diverse audiences, including senior stakeholders
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree or higher, with expected graduation by August 2026 or later, in Interaction Design, Communication Design, HCI, or a related design field
+- Portfolio demonstrating design work from discovery through implementation and iteration
+- Proficiency with digital design tools such as Sketch, Adobe Creative Suite, Balsamiq, Omnigraffle, or Axure
+
+### Bonus / Preferred Qualifications
+- Graduate degree in a design-related HCI/UX discipline with prior practitioner experience
+- Demonstrated experience conducting user research and translating it into tested, high-fidelity design solutions
+- Strong storytelling/presentation skills for communicating design rationale to non-design stakeholders
+
+## JD 17: Design Builder Intern (UX/Product Design), Expedia Group (travel/hospitality tech — product design intern working across travel discovery, booking, and post-booking experiences, with an AI-native/systems-thinking design practice emphasis)
+Source: Expedia Group Design Builder Summer Intern 2026, via Bright Network — https://www.brightnetwork.co.uk/graduate-jobs/expedia-group/design-builder-2026-summer-intern ; Expedia careers blog — https://careers.expediagroup.com/blog/interns-of-expedia-group-2026-design-builders/
+Collected: 2026-09-26
+
+### Responsibilities
+- Create interactive prototypes demonstrating system behavior and user workflows
+- Produce user flows, journey maps, visual layouts, and motion explorations
+- Explore how intelligent/AI-driven systems adapt interfaces across travel discovery, booking, and post-booking support
+- Collaborate with multidisciplinary teams (product, engineering, AI) on specific product areas (e.g., Hotels.com, Expedia Landing, Design Systems, AI Shopping)
+- Document design logic and rationale for handoff and continuity
+- Participate in design reviews and present work to senior leadership and the broader design organization
+
+### Basic Requirements
+- Full-time availability for the entire internship duration (June–August 2026 cohort)
+- Pursuing an undergraduate or master's degree in a design-related subject (Digital Product Design, UX/UI Design, or related field), graduating between December 2026 and July 2027
+- Willingness to relocate if necessary
+- No more than 2 years of professional experience in a similar design role
+- Portfolio demonstrating design process required
+
+### Bonus / Preferred Qualifications
+- Combined creative and coding capabilities
+- Proficiency with AI-assisted design/dev tools (e.g., Cursor, Claude, Codex, Google AI Studio)
+- Systems-thinking mindset and experience contributing to or extending a design system
+- Comfort presenting work to senior leadership and cross-functional stakeholders
+
+## JD 18: Product Designer, Palantir Technologies (Internship — Data Analytics / Government & Enterprise Software)
+Source: Official job posting on Lever — https://jobs.lever.co/palantir/1a935143-e857-480c-bc5a-ad625d754eb6
+Collected: 2026-09-27
+
+### Responsibilities
+- Own end-to-end execution of real product features that ship to actual users, working with high autonomy and minimal supervision
+- Perform interaction and visual design, designing and prototyping using tools such as Figma
+- Conduct user research through qualitative methods (e.g., scripted usability tests and contextual inquiry), paired with quantitative metrics
+- Collaborate closely with engineers and product managers to prototype and build features together
+
+### Basic Requirements
+- Currently pursuing a degree and graduating in 2028, with this internship intended as your final internship before graduation
+- A portfolio demonstrating at least one software interface design project
+
+### Bonus / Preferred Qualifications
+- Familiarity with HTML, CSS, JavaScript, and TypeScript to collaborate effectively with engineers
+- Strong collaboration and communication abilities
+- High empathy and dedication to the user
+- Experience with iterative design processes and rapid incorporation of feedback
+- Ability to independently tackle complex, data-dense interfaces while still knowing when to ask clarifying questions
+
+## JD 19: Product Designer, Thrive Intern, Duolingo (education-tech, diversity-focused early-talent design program)
+Source: Built In job listing (mirrors Duolingo's official Thrive Intern Program posting) — https://builtin.com/job/product-designer-thrive-intern/7871915
+Collected: 2026-09-28
+
+### Responsibilities
+- Complete a challenging, real-world design project as part of a small team over the 10-week internship
+- Develop product design skills through hands-on training, workshops, and Figma prototyping curriculum
+- Work under the direct mentorship of a Duolingo Product Designer, with guidance from an early-career "Thrive Buddy" on networking and professional development
+- Contribute to strategic design projects (e.g., internal tools or new product features) led by an experienced "Thrive Host"
+- Participate in company-wide events such as the internal Hackathon
+
+### Basic Requirements
+- Second-year undergraduate student pursuing a Bachelor's degree in Design, Human-Computer Interaction, or a related field
+- Completion of at least two college-level design courses
+- Proficiency with design software: Figma, Adobe XD, Origami, or Sketch
+- Portfolio with one to two independently-driven design projects required for application
+
+### Bonus / Preferred Qualifications
+- UI design project examples in the portfolio
+- Group or team project experience
+- Active personal use of the Duolingo app
+
 ## Implications for Our Framework
 Across all five postings a portfolio or "creative materials" requirement is non-negotiable — even research- and healthcare-leaning roles ask for demonstrated work — so portfolio quality should be weighted at least as heavily as GPA or coursework in any scoring rubric. Figma appears explicitly in four of five listings (with Sketch/Adobe Creative Suite as secondary tools), confirming it's the de facto baseline tool expectation for this field, while basic front-end literacy (HTML/CSS/JS) shows up as a differentiator at product-focused startups. Major flexibility is notable: acceptable degrees range from Design and HCI to Computer Science, Engineering, and Psychology, suggesting the framework should treat "design-adjacent degree + strong portfolio" as roughly equivalent to a pure design major rather than penalizing non-traditional majors. Finally, research/process fluency (user interviews, journey mapping, usability testing, mixed-methods research) recurs across big tech, research-specific, and healthcare roles alike, so process/methodology evidence in a resume or portfolio case study should be scored as a meaningful signal, not just visual polish.

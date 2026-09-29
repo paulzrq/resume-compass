@@ -295,5 +295,183 @@ Collected: 2026-09-21
 - Comfort adapting to shifting project timelines and ambiguous requirements
 - Exposure to agile/scrum delivery tools such as Azure DevOps
 
+## JD 13: Transit Business Analyst Intern (Summer 2026), Hatch (infrastructure/transit engineering consulting)
+Source: Hatch corporate careers site job posting (mirrored listing with full description via Mining.com jobs board), https://jobs.hatch.com/job/Denver-Transit-Business-Analyst-Intern-(Summer-2026)-CO-80002/1360108900/ (full text verified via https://www.mining.com/jobs/231682984-transit-business-analyst-intern-summer-2026)
+Collected: 2026-09-22
+
+### Responsibilities
+- Create and support cost models, financial models, or business cases for transit infrastructure projects and initiatives
+- Evaluate information from multiple sources and resolve inconsistencies across data sets
+- Break down high-level information to identify fundamental cost and schedule drivers
+- Communicate and collaborate with internal project teams to deliver reports and presentations
+- Summarize findings from data sources, documents, workshops, and surveys into clear deliverables
+- Support senior analysts by preparing business cases and planning scenarios
+- Manage multiple concurrent project workstreams and deadlines
+
+### Basic Requirements
+- Currently pursuing a degree in Business, Economics, Data Analytics, or Mathematics
+- Minimum 3.0 cumulative GPA (4.0 scale)
+- Strong Microsoft Office proficiency, particularly PowerPoint and Excel
+- Interest in learning Power BI report development
+- Demonstrated leadership, commitment to excellence, and problem-solving ability
+- Strong written and verbal communication skills
+- Self-starter mentality with capacity for rapid learning
+
+### Bonus / Preferred Qualifications
+- Interest in the infrastructure, transit, mining, metals, or energy sectors
+- Ability to adapt to evolving workplace environments and shifting priorities
+- Strong critical and creative thinking skills
+
+## JD 14: Early Careers – Associate Business Analyst Intern, Health Care Service Corporation (HCSC) (health insurance payer BA)
+Source: Runway job listing mirroring HCSC's official careers posting (Chicago, IL, hybrid, 10-week Summer 2026 program) — https://app.joinrunway.io/explore/job/cml9vshee00j6l504ndstf42z (original posting URL https://careers.hcsc.com/job/chicago/university-relations-associate-business-analyst-intern-job-description/43046/75027950256 has since been taken down as the role closed)
+Collected: 2026-09-23
+
+### Responsibilities
+- Gather, analyze, document, and communicate business requirements for new solutions within the Business Analyst team
+- Collaborate with solution architects and technical teams to translate business requirements into functional and technical specifications
+- Participate in cross-functional teams spanning business and technical areas across the organization
+- Support requirements gathering and documentation for insurance/health-plan systems subject to HIPAA compliance
+- Deliver a final capstone presentation (PowerPoint) summarizing the internship project findings and recommendations to stakeholders
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree or higher in IT, MIS, Computer Science, or related field
+- Expected graduation between December 2026 and June 2027
+- Minimum 3.0 GPA
+- Available for the full 10-week program (June–August)
+- Unrestricted U.S. work authorization; no visa sponsorship offered
+- Willingness to comply with HIPAA and corporate data-privacy policies
+
+### Bonus / Preferred Qualifications
+- Prior technical or business internship experience
+- Demonstrated volunteer or leadership experience
+- Involvement in IT-related student associations or technical competitions
+- Strong analytical and problem-solving skills
+- Proficiency with Office 365 and collaboration tools (Teams, SharePoint)
+
+## JD 15: Data Reporting & Analytics Bachelor's Intern, Kaiser Permanente (hospital/health-system business & data analytics intern)
+Source: Kaiser Permanente official careers site, job posting #1445888 (UDM Social Health Data Reporting & Analytics team, Renton, WA) — https://www.kaiserpermanentejobs.org/job/renton/data-reporting-and-analytics-bachelor-s-intern/641/100412189920
+Collected: 2026-09-24
+
+### Responsibilities
+- Contribute to a designated project or initiative supporting a Kaiser Permanente business objective within the Social Health Data Reporting & Analytics team
+- Track project milestones, risks, dependencies, and action items across multiple Social Health reporting and analytics initiatives
+- Coordinate requirements gathering, testing, deployment, and stakeholder communications; support User Acceptance Testing (UAT) planning and documentation
+- Develop dashboards, trackers, and operational metrics/reports to improve project visibility (report development and analytics)
+- Maintain project documentation, SharePoint content, and process guides; assist with intake requests, meeting facilitation, and status reporting
+- Identify opportunities for process improvement and standardization in data governance and analytics operations
+- Learn new applications needed to complete assignments; job-shadow in other functional areas across the healthcare technology delivery organization
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree or graduated from an accredited university within the last year; High School Diploma or GED required
+- No prior work experience required
+- Aptitude to perform data and process analytics and formulate solutions
+- Working knowledge of MS Word, Excel, and PowerPoint
+- Strong organizational, time-management, and written/verbal communication skills; ability to manage multiple priorities and document processes/decisions clearly
+- Must reside in an eligible state (CA, OR, WA, HI, CO, GA, MD, VA, CT, DC, or IL) for this flexible (hybrid/remote) internship
+
+### Bonus / Preferred Qualifications
+- 3.0 GPA or above
+- Advanced analytical and problem-solving skills
+- Exposure to data analytics, reporting, Power BI, Tableau, or SQL
+- Experience with Jira, Azure DevOps, Planner, Smartsheet, or similar project-tracking tools; exposure to Agile/Scrum methodologies
+- Experience creating project plans, status reports, meeting minutes, or process documentation; experience with SharePoint or knowledge-management tools
+- Healthcare, public health, health informatics, or analytics experience
+- Interest/coursework in Project Management, Business Analysis, Healthcare Operations, Business Analytics, or Data Analytics
+
+## JD 16: IT Business Analyst Intern (Spring 2027), BMW Manufacturing Co., LLC (BMW Group) (automotive manufacturing company; IT/digitalization-focused BA role (Power Platform, agile transformation, process improvement) — distinct in industry and sub-track from all other entries in this file)
+Source: BMW Group official careers/job finder page — https://www.bmwgroup.jobs/us/en/jobfinder/job-description-copy.191437.html
+Collected: 2026-09-25
+
+### Responsibilities
+- Support IT project planning and coordination, working alongside business stakeholders to implement business requests
+- Help design and document process improvements and create presentations per corporate standards
+- Contribute to digitalization development initiatives, including AI applications and the Microsoft Power Platform
+- Support the department's agile transformation efforts (e.g., agile ceremonies/workflow tooling)
+
+### Basic Requirements
+- Pursuing a degree in Information Technology, Engineering, Business, or a related field, enrolled full-time with at least 30 completed credit hours
+- Minimum 3.0 cumulative GPA; strong written/verbal communication; proficient in Microsoft Office; able to work on-site full-time for the Spring 2027 term
+
+### Bonus / Preferred Qualifications
+- IT background preferred, with an analytical mindset and openness to innovative approaches to problem-solving
+- Willingness/interest to learn Jira, Confluence, and Power BI for reporting and workflow management
+
+## JD 17: Business Systems Analyst Intern – Platforms & Technology (2026 Summer Internship Program), TD Bank (retail-banking IT/platforms & technology BA track — a different bank than Capital One's financial-services BA and JPMorgan Chase's corporate-functions BA rotational already in the file)
+Source: TD Bank early-careers listing (job ID R_1443916), via The Muse — https://www.themuse.com/jobs/tdbank/2026-summer-internship-program-platforms-and-technology-business-systems-analyst
+Collected: 2026-09-26
+
+### Responsibilities
+- Partner with technology and business stakeholders to define business requirements and translate them into functional specifications for core banking and customer-engagement platforms
+- Participate in agile team ceremonies (sprint planning, stand-ups, retrospectives) and help deliver end-to-end system capabilities
+- Evaluate emerging technologies through proof-of-concept initiatives to assess fit for banking platforms
+- Troubleshoot application defects, perform root-cause analysis, and document findings
+- Apply SDLC and basic project-management practices to assigned deliverables
+- Support testing and validation of platform changes prior to release
+
+### Basic Requirements
+- Currently pursuing a post-secondary degree in a technology-related field (Computer Science, Information Technology Management, or related)
+- Anticipated graduation between December 2026 and June 2027
+- Proficiency with Microsoft Office tools
+- Strong communication, analytical, and problem-solving skills
+- Able to work both independently and collaboratively in a hybrid (4 days in-office) arrangement
+
+### Bonus / Preferred Qualifications
+- Demonstrated leadership qualities and initiative
+- Detail-oriented with strong multitasking ability
+- Prior exposure to agile/SDLC methodologies or systems-analysis coursework/projects
+- Interest in translating business requirements into technical solutions within a regulated banking environment
+
+## JD 18: Business Analyst Co-op Intern, Salesforce (Global Business Growth and Automation — internal Quote-to-Cash systems)
+Source: Official Salesforce Futureforce internship listing, cross-verified via purpose.jobs and Glassdoor mirrors — https://careers.salesforce.com/en/jobs/jr326985/summer-fall-2026-co-op-intern-business-analyst-global-business-growth-and-automation/
+Collected: 2026-09-27
+
+### Responsibilities
+- Collaborate with functional leads to understand Quote-to-Cash (QTC) business processes
+- Assist in business requirements gathering and documentation
+- Participate in cross-functional meetings and track action items
+- Support solution development together with technical architects/development teams
+- Help with project management activities, requirements tracking, and status updates
+- Develop working understanding of Salesforce's internal QTC systems
+- Contribute to documentation of business rules and process flows
+- Support creation of change-management and training materials
+- Assist with ad-hoc reporting and data-driven research
+- Participate in user acceptance testing (UAT)
+
+### Basic Requirements
+- Current Junior/Rising Senior pursuing a Bachelor's degree, graduating Spring 2027
+- Enrollment in a university-sanctioned co-op program (no concurrent academic enrollment during the 6-month term)
+- Strong verbal, written, and presentation communication skills
+- Ability to work independently with minimal supervision as well as collaboratively in a team
+- Relevant coursework completed
+- Strong analytical and problem-solving abilities
+
+### Bonus / Preferred Qualifications
+- Prior experience with documentation and end-to-end project execution
+- Team experience such as group projects, leadership roles, or prior internships
+- Adaptability in fast-paced, cross-functional environments
+- High attention to detail combined with a curious mindset and willingness to learn
+
+## JD 19: Business Analyst Intern (Summer Graduate Intern), NYC Department of Environmental Protection (government/public-sector water & environmental infrastructure agency)
+Source: NYC Jobs official government job posting site, posting ID 2026-ODHR-002 — https://cityjobs.nyc.gov/job/2026-odhr-002-business-analyst-intern-in-queens-jid-40555
+Collected: 2026-09-28
+
+### Responsibilities
+- Assist DEP teams in leveraging GenAI tools to enhance productivity and identify additional use cases across the agency
+- Document business requirements and formulate recommendations for process improvements
+- Analyze existing operational processes and build frameworks for data recording and analytics dashboards
+- Synthesize data into actionable outcomes to support decision-making
+- Coordinate with fellow interns and analysts at DEP's Office of Performance and Project Management
+- Develop and deliver a final presentation summarizing project outcomes at the DEP Interns Closing Ceremony
+
+### Basic Requirements
+- Currently enrolled in an accredited graduate degree program (summer graduate-level internship track)
+- Available for the full summer internship period at DEP's Queens (Corona, NY) office
+
+### Bonus / Preferred Qualifications
+- Minimum 3.0 GPA (4.0 scale)
+- Proficiency with GenAI tools and low-code/no-code products
+- Experience with data tools such as Copilot, Power BI, Power Automate, and SharePoint
+- Strong organizational skills and attention to detail
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is Excel (every listing) plus at least one of SQL/Tableau/Power BI/SAS/Python — employers seem to treat "spreadsheet fluency plus one query/BI tool" as the practical floor for a BA candidate rather than any single dominant tool, so the scoring framework should reward breadth across this small toolkit rather than depth in just one tool. GPA is notably absent as an explicit gate in any of these five (none state a minimum GPA), while expected graduation date/class standing and major relevance (business, economics, statistics, data/CS-adjacent fields, or industry-specific majors like public health at CVS) are used as hard filters — suggesting our framework should weight "major fit + timeline fit" more heavily than raw GPA. No posting mentions a professional certification (no CBAP, PMP, Six Sigma, etc.) as required or preferred, so certifications should be treated as a minor bonus signal at most, not a scored requirement. Finally, soft/applied signals — prior internship or coursework involving data analysis, leadership in student organizations, and the ability to "interpret data and turn it into a business action/presentation" — appear consistently as differentiators, indicating the framework should give real weight to a candidate's project/internship narrative (does it show data-to-decision reasoning and stakeholder communication) rather than credentials alone.

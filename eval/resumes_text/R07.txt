@@ -1,0 +1,55 @@
+MENGDI CHAI 
+[PHONE] | [EMAIL]｜linkedin.com/in/mengdi-chai-99748621b | https://github.com/KimmDD 
+EDUCATION 
+Harvard T.H. Chan School of Public Health                                                                                                                         Boston, MA 
+Master of Science in Computational Biology and Quantitative Genetics                                                                     Expected May 2025 
+GPA: 4.00/4.00 
+Relevant Course: Basics of Statistical Inference, Computing for Big Data, Applied Regression Analysis, Data Science    
+University of Southern California                                                                                                                                  Los Angeles, CA 
+Bachelor of Science in Quantitative Biology｜Minor in Web Application and Development                                                      May 2023 
+GPA: 3.80/4.00 
+Relevant Course:  Statistical and Evolutionary Genetics, Data Structures and Object Oriented Design, Full-stack Development  
+Honors and Awards: Dean’s List (Fall 2019 - May 2023); Women in Science and Engineering (WiSE) Summer Research 
+Program (2022); Alpha Lambda Delta Honor Society; 2022 Fall Provost’s Undergraduate Research Fellowships (Fall 2022)     
+SKILLS 
+Programming & Software: Python, R, C++, SQL, Excel, PowerPoint, Word, Jupyter, HTML, CSS, JavaScript, PHP, Git, Docker, 
+Linux, Cluster, RStudio 
+Data Analysis & Visualization: Pandas, NumPy, Google Analytics, Experiment Design, Hypothesis testing, Data manipulation  
+Model Development: Regression (Linear, Logistic, Poisson, LASSO, Ridge, Survival), PCA, Time Series research  
+Frameworks and Database: MySQL, MongoDB, React, Node.js, AWS  
+WORK EXPERIENCE     
+Data Science Research Assistant | R                                                                                                                           Hong Kong, China 
+The University of Hong Kong, Li Ka Shing Faculty of Medicine                                                                                  June 2023 - Present 
+Data Pre-processing: Conducted feature engineering for a dataset of 7000+ observations, designing indicators for heat waves 
+and cold spells for later model analysis.  
+Data Visualization: Visualized temporal trends and variabilities in frequency and intensity of heat waves and cold spells to 
+verify the efficiency of indicators.  
+Statistical Modeling: Discovered the relative mortality risk decreases 5% in heat waves, and increases 8% in cold spells through 
+the application of Distributed Lag Non-Linear Models (DLNM), proving the long term impact of cold raises in Hong Kong.  
+Papers: Drafted a paper emphasizing the importance of public health departments in Hong Kong developing strategies to 
+address the impacts of low temperatures on residents. 
+Teaching Assistant | HTML, CSS, JavaScript, PHP, MySQL                                                                                      Los Angeles, CA 
+Information Technology Program, The University of Southern California                                                          January 2022 - May 2023  
+Assignments and Projects: Partnered with teachers to implement lessons in ITP104 (Web Publishing), ITP301(Front-End Web 
+Development), ITP304 (Back-End Web Development), and ITP460 (Web Application Project). 
+Teaching: Held weekly office hours, assisting 120+ students in HTML, CSS, JavaScript, PHP, and MySQL database. 
+PROJECT EXPERIENCE  
+Identifying Tiger’s Pigmentation Genes | R                                                                                                      Los Angeles, CA 
+The University of Southern California, Department of Quantitative and Computational Biology                        March 2022 - May 2023       
+Data Pre-processing: Extracted the targeted chromosome segments from 8000+ identity-by-descent (IBD) and Runs of 
+Homozygosity (ROH) tiger genome data and employed bedtools to intersect the genomic intervals for later mapping.  
+Genomic Mapping: Constructed shared genomic segments in Integrative Genomic Viewer by cross-referencing with cat species 
+genes, identifying 20 potential genes associated with the pure-white coat phenotype in tigers, which provides insights into the 
+genetic basis of the white coat phenotype observed in tigers. 
+Presentations and Reports: Presented at Women in Science and Engineering (WiSE) Undergraduate Research Mini Symposium 
+and received 3000 dollars for funding. 
+Data Mining Study on Gender and Smoking Impacts on Lung Cancer  | R                                                              Los Angeles, CA 
+The University of Southern California, Department of Quantitative and Computational Biology                      January 2022 - May 2022 
+Data Pre-processing: Collected and processed 542 lung cancer patient clinical records from The Cancer Genome Atlas (TCGA) 
+database by writing queries in R, and followed pipelines to normalize the data for later analysis.   
+Survival Analysis: Determined the disparity in survival rates between men and women within the non-smoker group by 
+conducting a survival analysis using Kaplan-Meier plots and verified the conclusion by conducting literature review.  
+Gene Mutation Identification: Developed Lollipop Plots for GATA3, MSH5, and TERT to pinpoint gene mutation locations, 
+identified mutations exclusively in smokers, confirming the presence of smoking-related genes. 
+Presentations and Reports: Presentation at Lawrence J. Ellison Institute for Transformative Medicine in front of over 30 
+audiences for final result and generated a research paper. 

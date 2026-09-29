@@ -1,0 +1,368 @@
+{
+ "per_dimension": {
+  "edu": {
+   "old": {
+    "mae": 1.2,
+    "exact_match": 0.167,
+    "n": 30
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.241,
+    "n": 29
+   }
+  },
+  "exp": {
+   "old": {
+    "mae": 0.9,
+    "exact_match": 0.2,
+    "n": 30
+   },
+   "new": {
+    "mae": 1.069,
+    "exact_match": 0.241,
+    "n": 29
+   }
+  },
+  "proj": {
+   "old": {
+    "mae": 0.867,
+    "exact_match": 0.333,
+    "n": 30
+   },
+   "new": {
+    "mae": 0.931,
+    "exact_match": 0.345,
+    "n": 29
+   }
+  },
+  "skill": {
+   "old": {
+    "mae": 1.6,
+    "exact_match": 0.167,
+    "n": 30
+   },
+   "new": {
+    "mae": 1.207,
+    "exact_match": 0.103,
+    "n": 29
+   }
+  },
+  "cert": {
+   "old": {
+    "mae": 1.733,
+    "exact_match": 0.133,
+    "n": 30
+   },
+   "new": {
+    "mae": 1.759,
+    "exact_match": 0.138,
+    "n": 29
+   }
+  },
+  "lead": {
+   "old": {
+    "mae": 1.7,
+    "exact_match": 0.133,
+    "n": 30
+   },
+   "new": {
+    "mae": 1.931,
+    "exact_match": 0.103,
+    "n": 29
+   }
+  },
+  "present": {
+   "old": {
+    "mae": 0.967,
+    "exact_match": 0.4,
+    "n": 30
+   },
+   "new": {
+    "mae": 0.931,
+    "exact_match": 0.241,
+    "n": 29
+   }
+  }
+ },
+ "total": {
+  "old": {
+   "mae": 13.033,
+   "spearman": 0.507,
+   "n": 30
+  },
+  "new": {
+   "mae": 11.414,
+   "spearman": 0.575,
+   "n": 29
+  }
+ },
+ "tier": {
+  "old": {
+   "agreement": 0.333,
+   "n": 30
+  },
+  "new": {
+   "agreement": 0.448,
+   "n": 29
+  }
+ },
+ "critic": {
+  "revised_count": 0,
+  "improved": 0,
+  "worsened": 0,
+  "same": 0,
+  "mean_delta": null,
+  "revision_noop_count": 29
+ },
+ "by_model": {
+  "claude-sonnet-5": {
+   "old": {
+    "n": 14,
+    "mean_mae": 1.194,
+    "per_dimension": {
+     "edu": 1.0,
+     "exp": 0.857,
+     "proj": 0.929,
+     "skill": 1.0,
+     "cert": 1.929,
+     "lead": 1.857,
+     "present": 0.786
+    }
+   },
+   "new": {
+    "n": 12,
+    "mean_mae": 1.274,
+    "per_dimension": {
+     "edu": 1.25,
+     "exp": 0.917,
+     "proj": 0.833,
+     "skill": 1.0,
+     "cert": 1.75,
+     "lead": 1.917,
+     "present": 1.25
+    }
+   }
+  },
+  "claude-haiku-4-5-20251001": {
+   "old": {
+    "n": 16,
+    "mean_mae": 1.357,
+    "per_dimension": {
+     "edu": 1.375,
+     "exp": 0.938,
+     "proj": 0.812,
+     "skill": 2.125,
+     "cert": 1.562,
+     "lead": 1.562,
+     "present": 1.125
+    }
+   },
+   "new": {
+    "n": 17,
+    "mean_mae": 1.252,
+    "per_dimension": {
+     "edu": 0.824,
+     "exp": 1.176,
+     "proj": 1.0,
+     "skill": 1.353,
+     "cert": 1.765,
+     "lead": 1.941,
+     "present": 0.706
+    }
+   }
+  }
+ },
+ "paired": {
+  "n": 29,
+  "mean_delta": -0.0,
+  "new_better": 11,
+  "old_better": 12,
+  "tie": 6,
+  "by_resume": [
+   {
+    "resume_id": "R01",
+    "model": "claude-sonnet-5",
+    "delta": -0.143
+   },
+   {
+    "resume_id": "R02",
+    "model": "claude-sonnet-5",
+    "delta": 0.286
+   },
+   {
+    "resume_id": "R03",
+    "model": "claude-sonnet-5",
+    "delta": 0.143
+   },
+   {
+    "resume_id": "R04",
+    "model": "claude-sonnet-5",
+    "delta": 0.143
+   },
+   {
+    "resume_id": "R05",
+    "model": "claude-sonnet-5",
+    "delta": 0.143
+   },
+   {
+    "resume_id": "R06",
+    "model": "claude-sonnet-5",
+    "delta": 0.286
+   },
+   {
+    "resume_id": "R07",
+    "model": "claude-sonnet-5",
+    "delta": 0.571
+   },
+   {
+    "resume_id": "R08",
+    "model": "claude-sonnet-5",
+    "delta": 0.143
+   },
+   {
+    "resume_id": "R09",
+    "model": "claude-sonnet-5",
+    "delta": 0.0
+   },
+   {
+    "resume_id": "R10",
+    "model": "claude-sonnet-5",
+    "delta": 0.286
+   },
+   {
+    "resume_id": "R11",
+    "model": "claude-sonnet-5",
+    "delta": 0.0
+   },
+   {
+    "resume_id": "R12",
+    "model": "claude-sonnet-5",
+    "delta": 0.429
+   },
+   {
+    "resume_id": "R14",
+    "model": "claude-sonnet-5",
+    "delta": 0.286
+   },
+   {
+    "resume_id": "R15",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.429
+   },
+   {
+    "resume_id": "R16",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.286
+   },
+   {
+    "resume_id": "R17",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": 0.0
+   },
+   {
+    "resume_id": "R18",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.143
+   },
+   {
+    "resume_id": "R19",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": 0.0
+   },
+   {
+    "resume_id": "R20",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.286
+   },
+   {
+    "resume_id": "R21",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.286
+   },
+   {
+    "resume_id": "R22",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": 0.286
+   },
+   {
+    "resume_id": "R23",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": 0.143
+   },
+   {
+    "resume_id": "R24",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.143
+   },
+   {
+    "resume_id": "R25",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.429
+   },
+   {
+    "resume_id": "R26",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": 0.0
+   },
+   {
+    "resume_id": "R27",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": 0.0
+   },
+   {
+    "resume_id": "R28",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.429
+   },
+   {
+    "resume_id": "R29",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.143
+   },
+   {
+    "resume_id": "R30",
+    "model": "claude-haiku-4-5-20251001",
+    "delta": -0.429
+   }
+  ]
+ },
+ "cost": {
+  "old": {
+   "total_seconds": 820.8,
+   "total_api_calls": 30,
+   "measured_tokens": {
+    "input": 37912,
+    "output": 38091,
+    "cache_creation": 166301,
+    "cache_read": 87587
+   },
+   "estimated_usd": 0.7,
+   "n": 30
+  },
+  "new": {
+   "total_seconds": 10170.5,
+   "total_api_calls": 390,
+   "measured_tokens": {
+    "input": 4799444,
+    "output": 479369,
+    "cache_creation": 0,
+    "cache_read": 0
+   },
+   "estimated_usd": 10.18,
+   "n": 29
+  },
+  "pricing_note": "按每份结果实际模型计价；sonnet-5: $2/$10/MTok, haiku-4-5: $1/$5/MTok (input/output), cache_read 0.1x, cache_creation 按1.25x估算)"
+ },
+ "models_used": [
+  "claude-haiku-4-5-20251001",
+  "claude-sonnet-5"
+ ],
+ "mixed_model_note": "本次 eval 混用了多个模型（Sonnet 跑完的部分保留，剩余用 Haiku 接上）。每份简历内部新旧链路模型一致，paired 差值不受模型干扰；分层的 per_dimension/by_model 仅作参考，不直接跨模型对比绝对 MAE。",
+ "errors": {
+  "old": [],
+  "new": [
+   "R13"
+  ]
+ }
+}

@@ -281,6 +281,166 @@ Collected: 2026-09-21
 - Relational database knowledge (MySQL, Oracle)
 - Prior internship, academic project, competition, or publication experience in NLP or deep learning
 
+## JD 13: ML Infra Engineer Intern (Ads Infra), TikTok (ML platform/infra engineering — distributed training, large-scale ML serving, distinct from the existing TikTok data-engineering entry)
+Source: TikTok careers site (Life at TikTok), job code A182057, https://lifeattiktok.com/search/7668881813744191749
+Collected: 2026-09-22
+
+### Responsibilities
+- Develop and optimize recommendation/ads models for training, evaluation, and low-latency inference at scale
+- Build large-scale data pipelines for sample generation, feature processing, and data quality assurance
+- Build and extend ML platform components for distributed training, model distribution, and online model serving
+- Design and implement GPU allocation, scheduling, and cost-optimization systems for ML workloads
+- Explore applications of multimodal/large language models (MLLMs) within advertising infrastructure
+- Apply AI agents to workflow orchestration and infrastructure resource scheduling
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Computer Science, AI, Machine Learning, or a related field
+- Proficiency in at least one of: C++, Python, Go, or Java
+- Solid grounding in data structures, algorithms, machine learning fundamentals, and computer systems
+- Familiarity with recommendation systems, MLLMs, distributed systems, ML platforms, or large-scale data processing
+
+### Bonus / Preferred Qualifications
+- Hands-on experience with mainstream deep learning frameworks
+- Prior distributed training experience
+- Knowledge of GPU scheduling and cluster resource management
+- Familiarity with AI agent frameworks
+- Background with cloud-native technologies
+
+## JD 14: Machine Learning Engineer Intern (Summer 2026), Cloudflare (cloud infra MLOps / Kubernetes deployment)
+Source: Official Cloudflare Careers posting (Greenhouse — https://job-boards.greenhouse.io/cloudflare/jobs/7914628
+Collected: 2026-09-23
+
+### Responsibilities
+- Deploy, monitor, and support ML applications and services on Kubernetes in the cloud
+- Evaluate MLOps tooling and implement solutions for ML/AI projects on the Data Intelligence & Analytics team
+- Collaborate with data scientists and engineers across distributed teams to deliver ML solutions
+- Integrate Cloudflare products into company-wide AI initiatives
+- Apply software engineering standards (version control, testing, documentation) to publish model insights company-wide
+
+### Basic Requirements
+- Pursuing a Bachelor's or Master's degree in Computer Science, Statistics, Mathematics, or a related quantitative field
+- Proficiency in Python, Go, or JavaScript
+- Strong software engineering practices, including git version control and shell scripting
+- Excellent communication and problem-solving abilities
+- Capacity to work cross-functionally through ambiguous requirements
+- Available for a 12-week internship (June-September 2026), in-office in Austin, TX 3-5 days/week
+
+### Bonus / Preferred Qualifications
+- Knowledge of AI agents, inference optimization, and LLM evaluations
+- Experience with Docker and Kubernetes in cloud environments
+- Familiarity with AI-assisted coding tools
+- Experience building with Cloudflare's developer platform
+
+## JD 15: Intern, Machine Learning Engineer (ADAS Perception), Lucid Motors (autonomous-driving perception / computer vision engineering)
+Source: Lucid Motors official careers posting (Greenhouse job board) — https://job-boards.greenhouse.io/lucidmotors/jobs/4964060007
+Collected: 2026-09-24
+
+### Responsibilities
+- Develop and implement machine learning and computer vision algorithms for the ADAS (Advanced Driver Assistance Systems) perception stack
+- Design and implement deep-learning algorithm prototypes for surround-view depth estimation and 3D object detection
+- Build and validate data pipelines used to train and evaluate perception algorithms on real vehicle datasets
+- Benchmark model performance metrics against production requirements for autonomous-driving perception
+- Propose and prototype new software/algorithmic approaches to improve autonomous driving capability
+- Work with large, production-scale ML codebases, debugging models end-to-end from data ingestion through inference
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree (junior level or above) in Computer Science, Electrical Engineering, Mechanical Engineering, or a related technical field
+- Theoretical and practical foundation in deep learning, including object detection, tracking, and segmentation
+- Proficient in Python with a focus on clean, efficient, and scalable software development
+- Experience with PyTorch or an equivalent deep-learning framework
+- Ability to manage and debug large, real-world ML codebases
+- Strong communication and teamwork skills for cross-functional collaboration with perception/ADAS engineers
+
+### Bonus / Preferred Qualifications
+- Prior research or project experience with autonomous vehicles / self-driving perception systems
+- Hands-on experience with image processing pipelines
+- Familiarity with BEV (bird's-eye-view) transformer model architectures
+- Experience testing perception systems against real-world driving data/scenarios
+- Pursuing an advanced (Master's/PhD) degree
+
+## JD 16: Machine Learning Engineer - Summer Intern 2027, Kensho Technologies (S&P Global's AI innovation unit) (fintech/financial-data company building agentic LLM systems and production ML pipelines — a production/engineering-flavored role distinct from all data-science/statistics/research entries in the ds field)
+Source: S&P Global official careers page, also cross-posted on Workday and Built In NYC — https://careers.spglobal.com/jobs/331714?lang=en-us
+Collected: 2026-09-25
+
+### Responsibilities
+- Solve unique challenges in agentic design and LLM orchestration, including context engineering, data access patterns, and memory management
+- Lead prototyping and testing of ML models and pipeline components under senior engineer guidance
+- Engage across the full ML lifecycle — problem framing, model selection, pipeline development, evaluation, and deployment
+- Collaborate cross-functionally with ML Engineers, Product Managers, Designers, and Full-Stack Engineers on shared projects
+
+### Basic Requirements
+- Pursuing a bachelor's degree or higher with relevant ML coursework or internship experience
+- Expertise in Python and Python-based ML frameworks (e.g., LangGraph, Pydantic AI, PyTorch)
+- Experience designing and iterating on agentic systems, with advanced ML methods knowledge and statistical grounding
+- Strong coding, documentation, and communication skills
+
+### Bonus / Preferred Qualifications
+- Real-world data modeling experience
+- Ability to explain complex technical concepts to non-technical audiences
+
+## JD 17: Machine Learning Intern (Master's) – Summer 2026, DoorDash (on-demand delivery/logistics marketplace ML — search, fulfillment, forecasting, and ads for a real-time delivery platform, distinct from all covered mle and ds application domains)
+Source: DoorDash careers posting via Greenhouse — https://job-boards.greenhouse.io/doordashusa/jobs/7295800
+Collected: 2026-09-26
+
+### Responsibilities
+- Apply advanced ML/AI techniques to real-world problems spanning discovery, ads, forecasting, fulfillment, and search on the DoorDash platform
+- Drive research and applied-engineering initiatives that span multiple DoorDash engineering teams
+- Collect, analyze, and synthesize data to build and iterate on production ML models
+- Write clean, efficient, and maintainable code that ships to production systems
+- Collaborate with cross-functional engineering and data-science partners; participate in mentoring and knowledge-sharing
+
+### Basic Requirements
+- Currently pursuing a Master's degree in Computer Science, Machine Learning, NLP, Statistics, Information Sciences, or a related field, graduating between Fall 2026 and Summer 2027
+- Proficiency in at least one systems programming language (Java, C++, Python, Kotlin, GoLang) or ML framework (TensorFlow, PyTorch, MLflow)
+- Demonstrated research or applied-project experience with strong analytical problem-solving skills
+- Strong communication and collaboration skills for cross-team work
+
+### Bonus / Preferred Qualifications
+- Published work in machine learning, AI, data science, or related technical fields
+- Experience with auctions/game theory, recommender systems, ranking, ad tech, computer vision, causal inference, or large-scale data analytics
+- Enthusiasm for applied ML in a large-scale, real-time marketplace product
+
+## JD 18: Machine Learning Engineering Intern, Snap Inc. (AR/computer-vision perception, Spectacles — production integration track)
+Source: Official Snap Inc. careers posting (job ID R0045123, London) — https://careers.snap.com/job?id=R0045123
+Collected: 2026-09-27
+
+### Responsibilities
+- Work on a technical project that aligns with Spectacles product and research needs, focused on scene understanding for AR experiences
+- Prototype, train, and evaluate machine learning models for computer vision and multimodal understanding, using Python
+- Contribute to models for geometric scene understanding, 3D reconstruction, semantic understanding, visual localization, and vision-language integration
+- Partner closely with mentor and teammates across Spectacles software and other cross-functional teams to integrate the work into production-facing systems
+
+### Basic Requirements
+- Currently enrolled in a BS or MS program in a technical field such as Computer Science, Electrical/Computer Engineering, or Mathematics
+- Graduation date no sooner than December 2026
+- Able to work in-office in London for a 13-week internship starting May/June 2026
+- Strong Python proficiency and familiarity with deep learning frameworks
+- Computer vision or NLP/LLM knowledge required
+
+### Bonus / Preferred Qualifications
+- Coursework or hands-on project experience in machine learning or deep learning
+- Experience writing, documenting, and debugging high-quality Python code
+- Familiarity with standard developer practices (version control, testing, documentation)
+
+## JD 19: Machine Learning Infra Foundations Intern (BS), Waymo (ML infrastructure & distributed-training systems engineering, autonomous driving)
+Source: Startup Jobs (mirror of Waymo's official 2026 internship posting) — https://startup.jobs/2026-summer-intern-bs-machine-learning-infra-foundations-waymo-7224343
+Collected: 2026-09-28
+
+### Responsibilities
+- Improve large-scale ML infrastructure, including components for distributed training, automation solutions, and system health monitoring
+- Identify and resolve performance bottlenecks in ML infrastructure to optimize throughput and reliability
+- Partner with research and production teams to enhance ML model scalability, reliability, and performance
+- Build tools and frameworks to instrument and inspect ML models, and create automation for infrastructure provisioning
+
+### Basic Requirements
+- Currently pursuing a BS in Computer Science or a related technical field, with at least one additional academic term remaining after the internship
+- Experience with C++
+
+### Bonus / Preferred Qualifications
+- Proficiency across C++, Python, and SQL
+- Knowledge of microservices architecture
+- Familiarity with distributed systems and cloud computing platforms (e.g., GCP)
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

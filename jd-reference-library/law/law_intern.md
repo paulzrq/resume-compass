@@ -275,6 +275,175 @@ Collected: 2026-09-21
 - Coursework or experience in federal civil procedure, evidence, or bankruptcy law
 - Prior judicial or courtroom exposure (e.g., mock trial, prior internship with a court or agency)
 
+## JD 13: Summer Associate, Knobbe Martens (patent/IP boutique law firm, technical-background track)
+Source: Knobbe Martens Law Student & Summer Associate Recruiting page, https://www.knobbe.com/careers/law-student-recruiting/
+Collected: 2026-09-22
+
+### Responsibilities
+- Complete a ten-week rotational program handling substantive assignments across patent prosecution, patent litigation, licensing, and trademark work
+- Draft and assist with patent applications, office action responses, and licensing agreements under attorney supervision
+- Attend and observe client meetings, depositions, and court/PTAB hearings alongside firm attorneys
+- Participate in structured training sessions covering patent law, trademark law, litigation practice, legal research, and licensing agreements
+- Engage in firm professional-development programming and social/networking events with attorneys and other summer associates
+
+### Basic Requirements
+- Currently enrolled in law school, having completed the second year (2L); limited slots for qualified 1Ls
+- Undergraduate degree or coursework in a technical or scientific field (e.g., engineering, computer science, chemistry, biology, physics) consistent with USPTO patent-bar eligibility, given the firm's IP-focused practice
+- Strong academic record and demonstrated legal research and writing ability
+- Apply via direct submission to the firm's recruiting team or through on-campus interview programs
+
+### Bonus / Preferred Qualifications
+- Prior coursework, research, or work experience in engineering or applied sciences that supports patent prosecution or litigation work
+- Demonstrated interest in intellectual property law (e.g., IP law society membership, patent law journal, moot court in IP-related competitions)
+- Eligibility to sit for the USPTO patent bar exam
+- Background reflecting the firm's diversity and inclusion priorities
+
+## JD 14: Summer Law Student Internship, Massachusetts Supreme Judicial Court — Clerk's Office for Suffolk County (state supreme court clerkship, single-justice session)
+Source: Massachusetts Executive Office of the Trial Court / Mass.gov official job posting — https://www.mass.gov/info-details/summer-2026-supreme-judicial-court-judicial-internship-opportunity-sjc-clerks-office-for-suffolk-county
+Collected: 2026-09-23
+
+### Responsibilities
+- Assist attorneys in the Clerk's Office for Suffolk County with single justice session caseload work
+- Support administrative matters affecting the practice of law and members of the bar
+- Assist with attorney disciplinary matters handled through the Clerk's Office
+- Support bar admission-related tasks and processes
+- Conduct legal research and assist with legal writing on matters before the single justice
+- Interact directly with members of the public, attorneys, and court staff on office business
+
+### Basic Requirements
+- Currently enrolled law student with a minimum of one year of law school completed
+- Strong academic achievement
+- Demonstrated interest in legal research and writing
+- Ability to engage professionally and effectively with the public
+- Commitment to maintaining confidentiality of sensitive court matters
+- Available 20-35 hours per week for the summer term (late May/early June through August)
+- Must submit cover letter, resume, law school transcript, and a brief writing sample (5-8 pages)
+
+### Bonus / Preferred Qualifications
+- Two or more years of law school coursework completed
+- Prior exposure to appellate or single-justice court procedure
+- Experience with legal research databases and formal legal writing/citation
+- Interest in judicial administration, bar admission, or attorney regulation
+- Prior internship or clinic experience in a court or government legal office
+
+## JD 15: Legal Intern, Bureau of Competition, Federal Trade Commission (Summer Program, antitrust enforcement)
+Source: Official FTC careers page, Bureau of Competition Legal Internships — https://www.ftc.gov/about-ftc/bureaus-offices/bureau-competition/careers-bureau-competition/legal-internships-bureau
+Collected: 2026-09-24
+
+### Responsibilities
+- Work closely with FTC attorneys, economists, and other investigative staff on active antitrust investigations and federal/administrative court litigations
+- Conduct legal and factual research to support ongoing merger and conduct investigations
+- Interview witnesses as part of investigative fact-gathering
+- Write legal memoranda analyzing antitrust issues for supervising attorneys
+- Prepare documents and exhibits for litigation and administrative proceedings
+- Learn the fundamentals of antitrust law through substantive, hands-on assignments (not routine clerical work)
+- Positions available in Washington, DC, or, for the American Competition Enforcement (ACE) division, in New York, Seattle, or San Francisco
+
+### Basic Requirements
+- Currently enrolled first-year (1L) or second-year (2L) law student for the Summer Program (2L and 3L students eligible for the separate Semester Program)
+- Must be a U.S. citizen to be eligible for employment
+- Able to commit to a minimum 8-12 week summer internship term
+- Submit a resume, cover letter, and copy of most recent law school transcript
+- Position is unpaid; students must independently secure a stipend, fellowship, or law school course credit to support participation
+- 2L Summer 2027 applications accepted July 17 - September 4, 2026; 1L Summer 2027 applications accepted November 20, 2026 - January 8, 2027
+
+### Bonus / Preferred Qualifications
+- Demonstrated interest in antitrust, competition law, or economic analysis through prior coursework, research, or writing
+- For the Semester Program track, a strong writing sample of up to seven pages is required — signaling that concrete legal-writing/research ability is weighted in review
+- Academic or professional references who can speak to research, writing, and analytical rigor
+- Prior investigative, litigation-support, or economics-adjacent experience relevant to competition enforcement work
+
+## JD 16: Summer Legal Aide (2026 Summer Paid Program), Office of the New York State Attorney General (OAG) (state attorney general's office internship spanning multiple bureaus — no state AG office represented elsewhere in this file)
+Source: Official NY Attorney General's Office recruitment PDF — https://ag.ny.gov/sites/default/files/2025-11/2026-summer-paid-law-students-web_updated-11.26.2025.pdf
+Collected: 2026-09-25
+
+### Responsibilities
+- Write legal memoranda, draft pleadings, and prepare discovery requests/responses under attorney supervision
+- Prepare for and attend depositions, hearings, and in-court matters
+- Assist with client/witness interviews, investigations, and case negotiations across an assigned bureau (e.g., Criminal Justice, Economic Justice, Social Justice)
+
+### Basic Requirements
+- Must be a full-time law student in good academic standing
+- Must be eligible to work in the United States (U.S. citizenship and NY residency not required)
+- Application requires a cover letter, resume, three professional references, and a 5-10 page legal writing sample
+
+### Bonus / Preferred Qualifications
+- Excellent legal research and writing skills (explicitly emphasized via the required writing sample)
+- Fluency in languages beyond English
+
+## JD 17: Summer Associate (Labor & Employment), Fisher Phillips LLP (national boutique law firm exclusively focused on labor and employment law — a practice-specific track distinct from the general Big Law corporate/litigation programs already in the library)
+Source: Fisher Phillips careers page — https://www.fisherphillips.com/en/careers/law-students-entry-level-associates/summer-associates
+Collected: 2026-09-26
+
+### Responsibilities
+- Conduct legal research and draft memoranda, briefs, and other work product on labor and employment law matters
+- Work directly with attorneys across the firm's national office network, contributing to active client matters
+- Participate in client-related projects and, where appropriate, litigation activities such as meetings and case strategy discussions
+- Attend formal training programs and practice-group sessions built around labor & employment subject matter
+- Receive structured mentoring from partners and associates over the roughly ten-week program
+
+### Basic Requirements
+- Currently enrolled law student (rising 2L, with some offices also considering 1L/3L) with strong academic credentials
+- Genuine, demonstrated interest in labor and employment law specifically
+- Sound judgment, professionalism, and intellectual curiosity
+- Strong written and oral communication skills
+- Ability to work collaboratively in a team-oriented, multi-office firm environment
+
+### Bonus / Preferred Qualifications
+- Prior coursework, clinic, or journal experience in employment law, labor relations, or workplace policy
+- Demonstrated legal writing ability (law review, moot court, or legal writing competition experience)
+- Early/rolling application submission
+
+## JD 18: Disneyland Legal JD Intern, The Walt Disney Company (in-house entertainment/hospitality legal, Disneyland Resort Legal Dept.)
+Source: Official Disney Careers internship posting, mirrored on Prosple — https://prosple.com/graduate-employers/walt-disney/jobs-internships/disneyland-legal-jd-intern-summer
+Collected: 2026-09-27
+
+### Responsibilities
+- Draft agreements and legal documents for the Disneyland Resort Legal team
+- Collaborate with claims and risk management teams on active matters
+- Learn regulatory compliance processes and day-to-day legal operations in a hospitality/entertainment setting
+- Shadow legal staff in internal meetings and client-facing sessions
+- Work across Disneyland Resort Legal, Risk Management, and Environmental Affairs teams
+- Gain exposure to hospitality and entertainment business operations
+- Network with other Legal & Government Affairs (LGA) interns across the Disney enterprise
+
+### Basic Requirements
+- Currently enrolled in an accredited law school with at least one year of JD coursework completed
+- Legal authorization to work in the U.S. with unrestricted work rights
+- Strong organizational skills and ability to manage multiple priorities
+- Exceptional written and verbal communication skills
+- Professional discretion in handling confidential information
+- Ability to work independently while knowing when to escalate/seek guidance
+- Proficiency in Microsoft Office applications
+- Must be at least 18 years old
+
+### Bonus / Preferred Qualifications
+- Prior law firm internship or other legal work experience
+- Contract drafting and legal document preparation experience
+- Background or demonstrated interest in entertainment law, copyright, IP, regulatory law, or contract drafting
+
+## JD 19: Law Student Volunteer, U.S. Department of Justice — Office of Enforcement Operations (federal DOJ, FOIA/Privacy Act litigation research)
+Source: DOJ Legal Careers official job posting — https://www.justice.gov/legal-careers/job/law-student-volunteer-office-enforcement-operations-summer-2026
+Collected: 2026-09-28
+
+### Responsibilities
+- Conduct legal research and writing projects on complex, often highly sensitive legal issues under direct supervision of OEO attorneys
+- Assist the FOIA and Privacy Unit in processing Freedom of Information Act and Privacy Act requests, including matters tied to active litigation
+- Perform record searches and help apply statutory exemptions to determine releasability of law enforcement and privacy-sensitive records
+- Support attorneys on litigation-related FOIA/Privacy Act disputes within the Criminal Division
+
+### Basic Requirements
+- Currently enrolled in an ABA-accredited law school
+- U.S. citizenship required
+- Strong academic background and excellent legal writing skills
+- Demonstrated interest in criminal law and/or a commitment to public service
+- Must pass a suitability review, security clearance process, background investigation, fingerprint check, and credit check
+
+### Bonus / Preferred Qualifications
+- Demonstrated legal research/writing quality (via required writing sample)
+- Veterans' preference documentation considered if applicable
+- Prior coursework or interest in FOIA/Privacy Act, federal criminal law, or government records/litigation practice
+
 ## Implications for Our Framework
 - The applicability of the cert dimension depends heavily on jurisdiction: Zhong Lun explicitly lists "passed the legal qualification exam" as a preferred condition — a strong signal in Chinese "red-circle" firm screening — while all three U.S. postings (LP, Microsoft, Finnegan) make no mention of the bar exam at the internship/1L stage. If the cert dimension's weight (currently 12) doesn't account for jurisdiction, it will systematically undervalue U.S.-track candidates and overweight this factor for them.
 - U.S.-track "certification-type" bonus items should be replaced with writing/competition signals: neither LP nor Finnegan asks about bar-exam progress, focusing instead on law review, moot court, and journal experience — bonus item ② should carry more weight than bonus item ③ (bar-exam progress) for the U.S. track.

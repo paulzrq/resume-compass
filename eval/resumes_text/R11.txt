@@ -1,0 +1,40 @@
+ Wangyi Zhang (Talia)
+New York • [PHONE] • [EMAIL]
+education
+New York University                                                     New York, United States
+Master of Science in Biostatistics                                                Sep 2023 – May 2025
+Relevant courses: Biostatistics, Epidemiology, Modeling, Programming in R, Public Health.
+Honors: NYU MPH Scholarship                                                               
+
+University of California, Santa Barbara                                 Santa Barbara, United States
+Bachelor of Arts in Chemistry                                                   Sep 2018 – Mar 2022
+Relevant courses: Statistics, Microeconomics, Macroeconomics, Calculus and Linear Algebra.
+Experiences
+Deloitte Consulting (Shanghai) Co., Ltd.                                             Beijing, China
+Consultant Intern                                                             Oct 2022 - Dec 2022
+Utilized a multiple linear regression model in R to analyze generic and original drugs at ten top pharmaceutical companies, quantifying the influence of variables including drug pipeline size, development timelines, classifications, and operational efficiency on R&D costs.
+Formulated a market differentiation strategy for the client's generic drug division, leveraging data analysis to optimize drug delivery modes, product and packaging design, and marketing strategies.
+Leveraged R to conduct a comprehensive time-series regression analysis, including variable selection, model construction, and significance evaluation, to validate the long-term efficacy of an innovative drug development strategy employing the license-in model. 
+Identified high-quality license-in projects internationally and domestically as references and established a pilot project with the government, resulting in a 60% product sales increase and a 50% prevalence rate rise.
+
+Caitong Securities Co., Ltd.                                                     Hangzhou, China Analyst Intern, Investment Banking Department                                      Jul 2020 - Sep 2020
+Evaluated the potential investment opportunities, conducting due diligence on IPOs and secondary offerings, presenting investment memos to senior executives for decision making with vice president.
+Applied Excel VBA and Python Seaborn/ Matplotlib to analyze a dataset of over 5000 investment portfolios, generating informative charts for essential indicators that were widely embraced by the team for practical use and analysis.
+Employed MATLAB's statistical toolbox to perform comprehensive correlation analysis within the portfolio, facilitating targeted asset allocation adjustments that effectively reduce risk and enhance returns through data-driven investment strategies.
+Implemented Wind API in Python and writing 50+ SQL queries to collect 200+ targeted asset pricing data, performed comprehensive correlation analysis.  Reduce risk – 指标（贝塔系数）
+
+New York University                                                     New York, United States
+Volunteer                                                                            Sep 2023 
+Coordinated event logistics, collaborating with the team to ensure flawless execution.
+Welcomed and guided attendees, contributing to a positive event experience.
+
+Academic PROJECT
+Business Analytics in Action                                      University of Southern California Team Leader                                                                 Jun 2021 - Sep 2021
+Formulated periodic team goals and delegated tasks to appropriate team members; directed team members to execute the task; and reported stage-by-stage research progress to the professor.
+Organized and conducted Analytics Simulation exercises and business model evaluation twice a month; chaired and supervised case discussions of technology and industry, such as FMCG and Sports Management.
+Leveraged Excel's pivot table and VLOOKUP function for data preparation and Tableau for visualizations, including interactive line graphs, bar charts, and heatmaps, to reveal insights such as trends in pet adoption rates within a decade of Chinese pet industry data.
+Published a lead-authored article titled “Analysis of the Future Development Trend of the Pet Industry” in March 2022 in Atlantis Press.
+
+additional information skill set
+IT Skills: R, Python(Pandas NumPy ), SAS, Microsoft Offices, Tableau, Photoshop, InDesign. 
+Hobbies: Traveling, Reading, Lego, Sudoku, Golf, Tennis, Hiking, Jogging, Cooking, Piano.

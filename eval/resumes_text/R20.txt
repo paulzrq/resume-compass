@@ -1,0 +1,36 @@
+Yueqi Tang 
+Hong Kong | [PHONE] or [PHONE] | [EMAIL] | LinkedIn
+EDUCATION
+The University of Hong Kong                                                                        Aug 2022 – Jul 2024
+Master of Science in Business Analytics                                                                         Hong Kong SAR
+Courses: Business Intelligence and Analysis (Python and Tableau), Business Statistics, Operations Analytics, Machine Learning (R Language), Database Design & Management (SQL), A/B tests, NLP, Sentiment Analysis, Financial Engineering
+University of Nottingham                                                                             Sep 2018 – Jul 2022
+BSc (Hons) International Business Economics                                                                 Ningbo, Zhejiang
+GPA: 3.67/4.0; 2019 Head’s Scholarship (10%); Nottingham Consulting Awards (outstanding team project)
+Peking University                                                                                    Jul 2019 – Aug 2019
+Summer Program in Macro/Microeconomics, Python Programming                                                  Beijing
+INTERNSHIP EXPERIENCE
+Data Analyst Intern | KeeTa (Meituan), Delivery Operations Dept.		       	                  Jul.2023 – Now
+Data Mining & Modelling: Built models in Python to forecast daily order volume and couriers’ scheduling and established an evaluation system for models, which achieving a 90% accuracy rate. Leveraged My SQL and Spark to extract data and conduct in-depth analysis of delivery operations and couriers’ behavior
+Monitoring and Interpretation: Monitored core operational metrics for couriers utilizing Power BI and developed dashboards for improving couriers’ experience and operational efficiency; Prepared 5 reports supporting business decisions
+A/B testing: Conducted A/B test to identify growth opportunities and optimize strategies; led the design of evaluation systems, achieved a 1.72% increase in on-time rate and a 3.10% increase in completion rate
+Valuation, Modelling, and Economic Intern | Ernst & Young, Strategy and Transaction Consulting     May2023 – Jun.2023
+Market Research: Actively participated in an M&A project for a new energy vehicle client, conducted in-depth research from market and product perspectives, visualized trends and assisted in writing a 10+ page report
+Valuation Modelling: Built Discounted Cash Flow (DCF) valuation model based on WACC and adjusted equity beta coefficients, analyzed and evaluated valuation results, and assisted in producing valuation analysis reports
+Strategy Consulting Intern | Roland Berger							    Jun.2022 – Aug.2022
+Industry research: Benchmarked the leading cultural/sports property management players in the US (AEG, OVG, Live Nation, etc.) through in-depth desktop research to identify the core business concepts for the sponsorships and concessions
+Regulation analysis: Thoroughly studied the latest requirements by the regulator (SASAC); formed case study benchmarks for the residential property management subsidiary of the client.
+Business Analyst Intern | Kuaishou Technology, E-Commerce Dept.                                      Sep 2021-Dec 2021
+Market Analysis: Independently conducted e-commerce market mapping in Southeast Asia and Latin America, collected and analyze key metrics such as DAU and GMV of each e-commerce platform and visualized the results and summarize the trends
+Future Prediction: Implemented an Excel-based regression model to analyze and predict future business performance of target companies, explore prospective customer behavior and potential opportunities, helped the Analyst build strategy models
+PROJECT EXPERIENCE
+Data Analytics and Modelling Project at DFS Group (HKU Capstone Project)                        Mar.2023 – May2023                                                                     
+Exploratory data analysis: Based on customers’ historical transactions and product attributes, and external sources, analyzed datasets, visualized main characteristics through Python, and built a time series model to discover trending products
+Product recommendation model: Used Python and SQL to implement various business models based on Association Rule, Item-based Collaborative Filtering, and Machine Learning, analyzed customers’ behaviors and recommended suitable products to customers through DFS Guided Shopping App; used an evaluation matrix to select the best model
+Huawei Finance Elite Challenge (Lead a team of 5 members reached the finals) 			   Mar.2021 – May2021
+Analyzed 20+ reports to summarize industry attributes and profit models, formulated a business plan for 5G business of Huawei; segmented consumers through qualitative and quantitative research, identified target markets and operators’ trends
+Utilized R language and EXCEL modeling to complete the processing and analysis of the 5G and wireless market size (50 sets of data) in each region within 10 years, and predict the potential market size in the next 3 years in turn
+ADDITIONAL INFORMATION
+Language proficiency: Mandarin (Native), English (Fluent): IELTS 7.0, Cantonese (Beginner)
+Technical Skills: Proficiency in Python, R, SQL, Tableau, SPSS, PowerBI, STATA, Excel VBA
+Interests: Voluntary work (teaching in rural Gansu in 2019); hiking; dancing; video editing; film reviews

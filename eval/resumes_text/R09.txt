@@ -1,0 +1,39 @@
+Xiaoning Zhu 
+ [PHONE] | [EMAIL] | LinkedIn  
+EDUCATION  
+University of North Carolina At Chapel Hill | Gillings School of Global Public Health  	 	 	 	 	  May 2024 Master of Science in Biostatistics 	 	GPA 3.5/4 
+Relevant Courses: Machine Learning, Data Mining, Regression Analysis, Statistical Analysis, Data Visualization      
+The Chinese University of Hong Kong, Shenzhen | School of Life and Health Science  	 	 	 	      May 2022 Bachelor of Science in Bioinformatics 	 	GPA 4/4 
+
+Professional Experience  
+Graduate Research Assistant for Electronic Health Records Project  	 	 	 	 	 	 	January 2023 - Present 
+University of North Carolina at Chapel Hill   	 	 	 	 	 	 	 	 	 	 	 	    Chapel Hill, NC, US 
+Mined and integrated health records data from 30+ raw data tables, 40K+ ICU patients into 1 analysis table using Python, and  saved for future analysis and modeling purpose 
+Performed data pre-processing based on patients’ data to deal with missing values, duplicates, outliers and so on;  
+Leveraged Python to perform exploratory data analysis to deep dive the relationship between Opioid related drugs’ intake amount  and each feature; plotted feature correlation heatmap     
+Conducted feature engineering to extract and rebuild 73 meaningful features from patient medical records, including patient demographic information, pre & post-surgery records and previous medical history   
+Leveraged Random Forest, SVM and DNN models to predict Opioid related drugs’ intake amount; improved model predication accuracy by 5% by using hyper-parameter tuning techniques      
+Summarized key insights based on Opioid drugs’ information from each segment of patients; helped hospital to optimize drugs’ prescription to lower the risk of opioid overdose 
+Drafting a paper about key findings based on Opioid drugs’ information from each segment of patients; helped hospital to optimize drugs' prescription to lower the risk of opioid overdose  
+Research Assistant   	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	September 2021 - May 2022 
+Team of Professor Tianwei Yu, School of Data Science, The Chinese University of Hong Kong, Shenzhen  	 	  Shenzhen, China Research topic: Applying Graph Algorithm to RNA expression data extracted from 5 different type of cancers.   
+Conducted statistical analysis to quantile normalized the gene expression data among different disease groups and add Gene  Ontology for each gene 
+Performed data visualization to generate density plots based on different groups (ggplot, ComplexHeatmap) 
+Research Assistant   	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	   April 2020 – August 2021 
+Warshel Institution, The Chinese University of Hong Kong, Shenzhen  	  Shenzhen, China 
+Research topic: Analysis of Patterns of Gut Microbiome Composition in Patients with Different Psychiatric Disorder   
+Preprocessed 6 groups of 16S rRNA sequencing data from 516 patients using Qiime2 (v2020.6), DADA2 and PICRUST1 to  build taxonomy abundance tables and functional-pathway tables 
+Leveraged PCA to check beta diversity and visualized gene expression patterns among the first 2 eigenvectors 
+Built Random Forest model to identify representative functional-pathway and microbiome for each disease 
+Summarized key findings about psychological status related microbiome and shared on a seminar co- sponsored by a local  pharmaceutical company focusing on gut-brain axis 
+ 
+Project Experience
+SAS Projects for Animal Crossing  	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	    May 2023 
+Conducted web scraping using SAS and R to extract data from multiple raw data sources, including the monthly level data of  villagers’ popularity and their personality, compatibility, and species 
+Performed exploratory data analysis to visualize villager attributes and frequency distributions by personality, species, and gender  
+Designed a macro function in SAS to determine villager’s compatibility score based on personality, species, and star sign 
+Tracked and visualized monthly villager popularity rankings from June to December 2020 
+ 
+Skills 
+Programing: Python (pandas, numpy, matplotlib, Scikit-learn), R, SAS 
+Analytics Skills: Database Management, Data Visualization (Tableau, PowerBI), A/B Testing, Machine Learning, Data Mining, Regression Analysis  

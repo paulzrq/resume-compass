@@ -1,0 +1,45 @@
+ZHONGYU CAI
+[PHONE] | [EMAIL] | Zhongyu Cai LinkedIn
+EDUCATION
+Yale University Yale School of Public Health Aug. 2023 - May 2025
+Master of Science in Biostatistics Data Science Pathway New Haven, CT
+Nanjing University Department of Mathematics Sep. 2019 - Jun. 2023
+Bachelor of Science in Statistics, GPA: 4.46/5.0 (Top 10%) Nanjing, China
+SKILLS
+Programming: R(Torch), Python(Numpy, Pandas, Scikit-learn, TensorFlow, PyTorch, Seaborn), MATLAB, SQL, C++
+Technologies: Statistical Modeling and Machine Learning algorithms. Regression, Tree-based Models, Classification,
+Cluster Analysis, Factor Analysis, PCA, Resampling, Neural Networks, A/B Testing, and optimization
+Tools: Linux, Git, Cloud Computing Platforms(Yale HPC, AWS S3/EC2), Tableau, Spark, SAS, Stata, SPSS, Power BI
+WORK EXPERIENCE
+Yale University Jun.2022 - Feb.2023
+Research Assistance
+ Implemented a gene regulatory network inference pipeline using single-cell ATAC-seq and RNA-seq Data.
+ Optimized the model of GRN inference using Random Forest and XGBoost by incorporating information from
+chromatin accessibility(ATAC) in predictors and created inferring pipelines, reducing false positives rate by 12%.
+ Utilized High-performance Computing on cloud platform to process large-scale (100k), high-dimensional
+(60k) Data, and manage high-volume computational tasks. Conducted data quality control, normalization, and
+batch correction. Applied dimensional reduction with t-SNE and performed cell clustering using the K-means.
+ Demonstrated the performance of the new model both qualitatively by visualizations and quantitatively by
+calculating the early precision and AUPRC using Scikit-learn, proving an significant increase in AUC by 7%.
+ Made a Poster Presentation at the 2022 annual meeting of the American Society of Human Genetics.
+PROJECT EXPERIENCE
+Intergenerational Support Study| STATA, R, Python Feb. 2023- June. 2023
+ Applied PSM model and mediation effect analysis to large-scale (30k) CHARLS data, and explored how
+intergenerational support from children can impact health care utilization for different groups of the elder.
+ Utilized Stata and R for data processing, cleaning for disordered raw data. Employed NLP algorithms including
+LSTM-based models to perform sentiment analysis on questionnaire responses.
+Power-Time-Energy Model in Cycling (Meritorious Winner, Top 8%) | MATLAB, R, Python Feb. 2022
+ Developed a user-friendly physical effort allocation strategy for riders in cycling competitions to achieve least
+time consumption. Tested the model continuity and robustness with risk management evaluation model.
+ Constructed power-time-energy equation and solved nonlinear optimization models with constraints using
+Gradient Boosted Trees for a optimal strategy, implemented with SciPy and Scikit-learn in Python.
+ Compared estimated minimum time with real-world competition results, proving a high consistency over 95%.
+Preparation of C4 Olefin (National Second Prize, Top 3%) | MATLAB, R, Python Sep. 2021
+ Explored the influence of catalyst and temperature on products based on groups of experiments. Applied PCA to
+reduce dimension, built a interpretation model based on LASSO and Ridge, and evaluated model performance.
+ Conducted hypothesis testing for factor importance and correlation, and interpreted the ANOVA table for
+industrial applications. Built a dynamic experiment design pipeline based on A/B testing to address the problem.
+DeliverySystem | SQL Server, R May. 2021 - Jun. 2021
+ Developed a delivery tracking system using SQL Server, including table design, function implementation, data
+integrity triggers, and backup, meeting the requirements of users, including customers, businesses, and delivery.
+ Designed an executive-level query dashboard with R Shiny app, presenting search results with visualizations.

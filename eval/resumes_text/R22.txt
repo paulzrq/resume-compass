@@ -1,0 +1,33 @@
+Allison Xia
+[EMAIL] | LinkedIn | [PHONE] | New York, NY
+EDUCATION    													
+Columbia University											New York, NY 
+M.S. in Biostatistics										       expected May 2025
+GPA: N/A							
+Relevant Coursework: Probability, Data Science, Biostatistical Methods
+Smith College											         Northampton, MA 
+B.A. in Computer Science and Statistical & Data Science						         May 2022
+GPA: 3.7/4.00 Honors: Dean's List 2018-2019
+Relevant Coursework: Machine Learning, Data Science Statistics, Data Structure, Visual Analytics
+SKILLS														
+Programming Languages: Python, R, Scala, Java, C++, JavaScript, HTML, CSS
+Big Data & Machine Learning: Hadoop, Spark, Python (eg, scikit-learn, numpy, pandas, matplotlib, PyTorch)
+Data Science & Miscellaneous Technologies: Data science pipeline (cleansing, wrangling, visualization modeling, interpretation), Statistics, R Shiny, Hypothesis testing, OOP, APIs, Excel, Git
+EXPERIENCES													
+Capstone - Data Analyst Intern, Flatiron Health, New York, NY				     Sep 2021 - Dec 2021
+Developed an R-Shiny-based interactive dashboard that enables clients to critically assess a deep learning model that predicts whether patients have received a new advanced cancer medication
+Constructed a user-configurable interface for adjusting model thresholds from 0 to 1 and selecting cohorts, enhancing the dashboard's flexibility and usability
+Implemented real-time, dynamic updates to the dashboard in response to user-defined inputs, ensuring immediate feedback and analysis
+Formulated a comprehensive set of performance metrics, including both overall and stratified metrics, to identify variations in model performance across different patient subgroups
+Data Science & Machine Learning Intern, JETFLOW, Nanjing, China				    July 2021 - Aug 2021
+Collaborated in a team of 15 to create an AI-based highway patrol system using Spark
+Wrangled 10TB of traffic data stored in a Hadoop Distributed File System (HDFS) using Scala, enabling the training of a traffic flow prediction model
+PROJECTS AND LEADERSHIP											
+Preliminary Real-Time AI-Assisted Aiming System for FPS Game				March 2022 - May 2022
+Course: Computer Vision
+Implemented a preliminary real-time AI aiming assist for the popular FPS game, Apex Legends, using the object-detection model YOLOv5.
+Independently collected and annotated a comprehensive dataset comprising 3,000 high-quality images to train the deep learning model
+Trained the model on a local machine equipped with an NVIDIA RTX3070 GPU, achieving a precision of 0.8 and a recall of 0.65 at a 0.5 confidence threshold.
+Content Creator	 									       May 2022 - Present
+Producing high-quality video contents including study tips, opinion pieces, lifestyle vlogs
+Grew the follower base to 180,000 in just 18 months, demonstrating exceptional initiative, stress resistance, and time management skills

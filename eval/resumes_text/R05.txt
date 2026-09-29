@@ -1,0 +1,45 @@
+WEI "WILLIAM" TAN
+Winston-Salem, NC | [EMAIL] | [PHONE] | www.linkedin.com/in/wei-tan-william
+Summary
+
+EDUCATION
+Wake Forest University School of Business	Winston-Salem, NC
+Master of Science in Business Analytics | GPA:3.8	May 2024
+Relevant Coursework: Analytics Software Technology (Python), Data Management (SQL), Machine Learning, Statistics
+
+Jilin University Zhuhai College                                                                                                                        Zhuhai, China
+Bachelor of Art in Economics 	July 2023
+Relevant Coursework: Econometrics, Corporate Finance, Macro and Micro Economics
+
+RELEVANT SKILLS
+Microsoft Office Suite:  Word (Advanced), Excel (Advanced), PowerPoint (Advanced), Outlook (Advanced)
+Technical Skills: Python (Advanced), MySQL (Advanced), Machine Learning, Tableau, AWS
+Languages: English (fluent), Chinese (native) 
+
+ANALYTIC PROJECT EXPERIENCE
+Wake Forest University Boston Housing Data Analytics Project | Data Analyst				        Month Year 
+Performed exploratory data analysis (EDA) for the 1M + Boston Housing Prices dataset to find the numerical variables and categorical variables that fit the model using Python
+Designed regression models and generated residual plots of overestimated and underestimated predictions; developed a final model that can predict and interpret over 90% of the Boston area housing prices and got the predicted values
+Skills Utilized: Python, Linear Regression Model, Machine Learning
+
+PROFESSIONAL EXPERIENCE
+Merchants Distributors, LLC                                                                                                                           Winston Salem, NC
+Graduate Consultant	July 2023 – Present 
+Built and upheld a $10mm+ yearly operational plan for a local warehouse; provided internal consultancy to warehouse network on predictive merchandise types (1000+) and storage costs using Python and MySQL
+Partnered with Direct-to-Consumer business leaders to conduct extensive operational/financial research and provide market-level strategies for e-commerce operations
+Automated numerous merchandise selection models, saving over $200k monthly for the warehouse
+Skills Utilized: Tableau, Hypothesis Testing, Unsupervised Learning, Supply Chain, Retail Operations, Machine Learning Models
+
+Ping An Bank                                                                                                                                            Shenzhen, China
+Data Analyst, Intern                                                                                                                           July 2022 – August 2022
+Managed and cleaned daily used cars loan data using MySQL, ensuring data quality and accuracy.
+Collaborated with the development department to design an automated online loan approval process using machine learning algorithms, including Logistic Regression, Decision Tree, and Random Forest.
+Worked closely with the Customer Relations department to streamline the loan approval process, resulting in a 20% monthly efficiency increase.
+Skills Utilized: VBA, Data Modeling, Digital Marketing Analytics, Supervised Learning, Database Design, Problem-Solving
+
+China Securities Co. Ltd                                                                                                                Remote
+Research Assistant, Research Department                                                                                   January 2022 – March 2022
+Conducted extensive research and financial analysis on major automotive companies, covering their financial performance, market share, and product portfolios,
+Utilized linear regression models and Python to forecast revenue and earnings growth for BYD, Great Wall Motors, and FAW Group, guiding investment decisions
+Collaborated with senior analysts and investment teams to develop investment strategies tailored to clients' risk appetite and investment objectives, resulting in a 20% increase in assets under management
+Skills Utilized: Quantitative Research, Financial, Data Science, Multitask, Advanced Mathematics 

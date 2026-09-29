@@ -1,0 +1,29 @@
+Jiachen TANG
+Email: [EMAIL] | Tel: [PHONE]
+30 Morningside Drive, NY 10025
+EDUCATION BACKGROUND
+University of California Irvine                                              CA, United States                                              
+Bachelor of Science in Mathematics - Data Science        GPA:3.75/4            09/2019 -06/2023
+Coursework
+Columbia University                                                      NY, United States
+Master of Statistics                                                        09/2023 - Present 
+Coursework                                                                 
+PROFESSIONAL EXPERIENCE
+Ernst & Young Qingdao Branch                                              Qingdao, China
+Data Analyst Intern                                                         06/2022-09/2022
+Gathered, formatted and prepared financial data in spreadsheets or specialized software
+Performed fetching work and subsequent data combing using SQL and Excel
+Built algorithmic models using Python to clean, model and analyze the acquired data
+Audit Intern                                                             07/2020 - 09/2020
+Completed audits of some simple subjects on time and in accordance with audit procedures
+Conducted business research, client interviews and wrote relevant meeting minutes and research reports
+Measured and communicated the levels of financial risk taken on by the company, studied and improved the workflows for reporting and management of the finances of the firm
+RESEARCH
+Online Research Seminar - Probability, Statistics and Applications               01/2022 - 05/2022
+Project Leader | Supervisor: F. Alberto Grunbaum, Tenured Professor from UC Berkeley
+Sought the literature to learn theories about probability theory and stochastic processes, random variables, limit theories, statistical inferences, limiting probabilities, and etc.
+Took charge of project planning and management, divided duties based on members’ strength and interest; follow up on the progress and completion of research done by the group
+Drafted and proofread a paper about Markov Chain Models in Covid-19 Prediction as the first author, mainly responsible for the data processing and model construction and optimization
+SKILLS
+Computing Skills : Excel, Python, MATLAB, Mathematica, R, MySQL
+Languages: English (business proficient), Mandarin Chinese (Native)

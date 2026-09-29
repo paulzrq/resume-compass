@@ -1,0 +1,37 @@
+Tianbai Cong
+[PHONE] | [EMAIL] | linkedin.com/in/tianbai-cong | New York, NY
+
+EDUCATION
+Columbia University                                                                    New York, NY
+Master of Science in Applied Analytics, 3.9/4.0                                            Sep 2023 - Dec 2024
+Coursework: Storytelling with Data, SQL/Python for Data Analysis, Research Design, Managing Data, Data Modeling
+Pepperdine University                                                                    Malibu, CA 
+Bachelor of Arts in Economics, Minor in Applied Mathematics, 3.64/4.0                       Aug 2019 - May 2023     
+Coursework: Differential Equations, Linear Algebra, Calculus, Econometrics, Statistics, Micro/Macroeconomics 
+TECHNICAL SKILLS
+Programming and Software Python, R, SQL, EXCEL, VBA, MATLAB, STATA, Wind, Bloomberg Terminal
+Data analysis and Visualization: Pandas, NumPy, Statsmodels, SKlearn, Matplotlib, Seaborn, Tableau, Power BI, ggplot2
+Machine learning: Classification (KNN, SVM, Decision Tree, Random Forest), Regression (Linear, Logistic, LASSO, Ridge), PCA, Feature engineering, K-means, LightGBM, XGBoost.
+PROFESSIONAL EXPERIENCE
+Sinolink Securities Co., Ltd, Fixed Income Credit Risk Intern, Shanghai China 				  May 2023 - Aug 2023                                    
+
+Conducted market research into Local Government Financial Vehicle (LGFV) bonds, performed credit risk assessments through annual reports and financial statements, and wrote for 20+ risk assessment reports independently.
+Created and maintained DCF and credit rating models tailored for LGFV and Commercial banks in Excel, focusing on financial analysis of cash flow generation, capital structure, covenants, and liquidity
+Monitored continual risk of LGFV and Corporate bonds by gathering incidents and negative news and updating the internal database and rating through SQL with Senior Associates
+Ernst&Young (China) Advisory Limited, Risk Management Consulting Intern, Shanghai China     Sep 2021 - Dec 2021                                          
+Performed anti-money laundering (AML) risks assessment for clients from 7 main perspectives including aspects of products and services, customers, and geographic location based on Random Forest in Python SKlearn library
+Employed SQL to verify two top financial companies’ AML models by editing 100+ SQL sentences within the model and constructed automation verification process.
+Oversaw the entire lifecycle of anti-money laundering processes and maintained data accuracy and protocol adherence
+PROJECT EXPERIENCE
+Kaggle Competition: Predict the sale price of a car based on its features and condition | R      Sep 2023 - Dec 2023
+Preprocessed the raw dataset including 200k+ data and impute missing values by tidyr package; converted and standardized date of time, type of data, and redundant value of dataset for merging or dropping
+Performed feature engineering by plotting correlation matrix and stepwise linear regression to select best features.
+Modeled the trend of the car price by applying Ranger RandomForest, LightGBM, and XGBoost model with 50+ variables, and selected the model with the lowest RMSE
+Equity Research Project on UBS's Acquisition of Credit Suisse | Python, Tableau             Jan 2023 - Apr 2023
+Developed automation process for 1M+ data collection and cleaning through Python Bloomberg API, fortifying data authenticity for further analysis
+Leveraged four Logistic Differential Equations models to scrutinize equity dynamics, particularly the effects of Fed-Funds rate oscillations
+Adopted Tableau for a detailed breakdown and visualization of stock price trajectories, culminating in a data-grounded "hold" recommendation with a forecast 1-year price of $21.62
+Economic Analysis Project: Influence on Presidential Elections | R                          Jan 2021 - Apr2021
+Designed five linear regression prototypes in RStudio, identifying six pivotal economic determinants affecting presidential polls
+Curated data in Excel and employed ggplot2 package for a systematic representation and contrast of diverse economic influences on election results
+Acquiring data insights from a direct linkage between unemployment figures and presidential endorsement, with a marked 2.7-point elevation in the South relative to other zones

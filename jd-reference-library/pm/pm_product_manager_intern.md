@@ -274,6 +274,173 @@ Collected: 2026-09-21
 - Evidence of applying AI/LLM tools to build or prototype platform features (0-to-1 style exploration)
 - Experience translating post-launch data/usability metrics into product decisions
 
+## JD 13: AI Product Management Intern (Master's/Ph.D.), UnitedHealth Group / Optum Insight (AI-enabled healthcare product management)
+Source: UnitedHealth Group Careers job posting, https://careers.unitedhealthgroup.com/job/22766939/ai-product-management-intern-master-s-ph-d-eden-prairie-mn-eden-prairie-mn/
+Collected: 2026-09-22
+
+### Responsibilities
+- Conduct market research and competitive analysis to identify trends, opportunities, and risks for AI-enabled healthcare products
+- Establish product requirements and roadmaps based on customer needs and business goals
+- Collaborate with engineering, design, marketing, and sales teams throughout product development
+- Analyze user data, A/B testing results, and key performance metrics to guide decisions
+- Create and present business cases for new product initiatives to stakeholders
+- Prioritize product features and define success metrics
+- Participate in Agile ceremonies including backlog grooming and sprint planning
+
+### Basic Requirements
+- Currently enrolled in a Master's or Ph.D. program in product management, data science, computer science, business analytics, or a related field with AI coursework
+- Prior professional experience in product management and exposure to the AI solution lifecycle
+- Proficiency in user-flow design and Agile methodologies (JIRA, Trello)
+- Data-driven decision-making experience combining quantitative and qualitative analysis
+- Track record of innovation initiatives delivering measurable business impact
+- Eligible to work in the U.S. without visa sponsorship; able to work on-site in Eden Prairie, MN for Summer 2026
+
+### Bonus / Preferred Qualifications
+- Strong interest in a long-term career in product management, especially in AI-enabled healthcare
+- Knowledge of software development, cloud platforms, machine learning, and automation
+- Experience with data analytics and user-centered design
+- Strategic thinking and problem-solving capabilities
+- Strong communication skills for both technical and non-technical audiences
+- Cross-functional collaboration and technology-adoption experience
+
+## JD 14: Product Manager Intern, GitHub (developer-tools / API product management)
+Source: GitHub Careers posting (job ID 2788, "Product Manager Intern," Remote–USA, May–June 2026 cohort), mirrored with full text at Simplify Jobs — https://simplify.jobs/p/063dac2d-2288-4183-a9ba-49e49887ab0e/Product-Manager-Intern (also corroborated by Prosple: https://prosple.com/graduate-employers/github-usa/jobs-internships/product-manager-intern)
+Collected: 2026-09-23
+
+### Responsibilities
+- Conduct two to four product rotations within GitHub's core product teams, taking ownership of specific product areas and collaborating with product managers to implement solutions
+- Help shape the product roadmap by maintaining transparent and accurate project timelines
+- Foster cross-team collaboration between engineering, design, and other stakeholders to drive alignment
+- Define success metrics at the inception of products and track them throughout their lifecycle
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in business administration, computer science, computer engineering, or a similar field, with at least one additional quarter/semester remaining after the internship
+- Prior experience in product management, software development, product design, or a related technical field through internships, academic projects, or equivalent work
+- Ability to distill complex technical issues and apply research-driven, data-backed reasoning to solve developer problems
+
+### Bonus / Preferred Qualifications
+- Strong written and verbal communication combined with analytical skills
+- Experience working within multidisciplinary teams across different projects
+- Proficiency in one or more major programming languages
+- Background working with software delivery teams or developer-tool workflows
+- Capacity to accept feedback, demonstrate self-directed learning, and manage time effectively
+
+## JD 15: Associate Product Manager, New Grad (2027 Start), Databricks (B2B SaaS / Data & AI Platform)
+Source: Official Databricks careers page (university recruiting) — https://www.databricks.com/company/careers/university-recruiting/associate-product-manager-new-grad-2027-start-7586263002
+Collected: 2026-09-24
+
+### Responsibilities
+- Deeply understand the customer problem space and establish the "rails" for a viable solution space
+- Prototype and test early ideas with customers and engineers to validate direction before building
+- Work directly with engineers and designers to ship features on the Databricks data/AI platform (spanning teams like AI Platform, Genie, Machine Learning, Unity Catalog, Databricks SQL, ETL, Streaming, and EDA)
+- Own a project end-to-end — design, build, launch, and iterate based on user feedback
+- Build with scale, quality, and security considerations in mind from day one
+- Work closely with a dedicated manager and mentor, with exposure across product, engineering, design, and account teams
+
+### Basic Requirements
+- Graduating Fall 2026 or Spring 2027 with a bachelor's or master's degree in computer science or a related engineering field
+- Some first-hand, hands-on experience with SQL and/or Python
+- Comfortable being hands-on and learning by doing — willing to build, test, and iterate directly
+- Able to communicate complex/technical topics simply and clearly to cross-functional partners
+- Comfortable tackling ambiguous problems collaboratively with a team
+
+### Bonus / Preferred Qualifications
+- Prior use of AI tooling for both personal productivity and development projects
+- Strong analytical instincts and demonstrated data-driven decision-making
+- A continuous-learning mindset and intellectual curiosity beyond coursework
+- Experience or comfort straddling technical (engineering/data) and product/design work — a cross-disciplinary technical background
+
+## JD 16: Associate Product Manager, Intern, Duolingo (EdTech / consumer language-learning mobile app PM internship — distinct domain from all other entries in this file)
+Source: Duolingo careers page (Greenhouse job board, University Recruitment) — https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806188002
+Collected: 2026-09-25
+
+### Responsibilities
+- Lead a specific feature of the Duolingo app through the entire product development cycle, from idea to launch (0-to-1 feature ownership)
+- Conduct market and user research to inform product decisions
+- Develop and maintain product roadmaps for the owned feature area
+- Collaborate closely with designers and engineers to ship the feature
+- Perform quantitative/data analysis on feature performance to drive iteration
+
+### Basic Requirements
+- Bachelor's degree in progress (technical or related field), expected completion Fall 2027 or Spring/Summer 2028
+- Strong data analysis and communication skills
+- Demonstrated inventiveness/innovation capability, fast learning ability, and proven leadership experience
+
+### Bonus / Preferred Qualifications
+- GPA of 3.5 or higher
+- Active personal Duolingo streak (demonstrates product/user empathy)
+- Genuine interest in technology-driven education
+
+## JD 17: Product Management, MBA Intern — Summer 2026, Rivian (automotive/EV mobility tech PM — in-vehicle infotainment & UX track)
+Source: Indeed posting mirroring Rivian Careers listing (Job ID 27871) — https://www.indeed.com/viewjob?jk=95b2c5d05a280f8e
+Collected: 2026-09-26
+
+### Responsibilities
+- Shape in-vehicle user experiences for electric vehicles, focusing on the infotainment space
+- Conduct market research and competitive analysis on infotainment and in-vehicle software trends
+- Collaborate with engineering, design, and other cross-functional teams to ensure seamless execution of product initiatives
+- Contribute to product roadmaps and requirements development for in-vehicle features
+- Support project managers in tracking progress, identifying risks, and driving mitigation plans
+- Participate in testing, validation, and concept iteration activities for new features
+
+### Basic Requirements
+- Currently enrolled in a Master's (MBA) program at an accredited US university
+- Available for a Summer 2026 internship in Palo Alto, CA
+- Strong analytical and problem-solving skills applicable to consumer-facing product decisions
+- Solid written and verbal communication skills for cross-functional collaboration
+
+### Bonus / Preferred Qualifications
+- Pursuing a degree in business, computer science, or a related field with intent to return full-time after the internship
+- Prior automotive product management or software development experience
+- Background in user research and usability testing
+- Knowledge of automotive industry trends and in-vehicle technology
+
+## JD 18: Product Management Intern, Expedia Group (Travel/Hospitality-Tech, Consumer & Marketplace Product)
+Source: Official Expedia Group Product Management Internship posting (2026 program), verified via Bright Network's republication of Expedia Group's official listing — https://www.brightnetwork.co.uk/graduate-jobs/expedia-group/product-management-internship-june-2026
+Collected: 2026-09-27
+
+### Responsibilities
+- Work with business partners to help identify and define product initiatives
+- Craft hypotheses for new features or enhancements
+- Define requirements and a backlog of work
+- Collaborate with development teams through the development cycle to ensure features meet the desired business goals
+- Use online tools to analyze and report on product test results
+
+### Basic Requirements
+- Available for full program commitment during the internship period (e.g., June–August 2026)
+- Graduating with an undergraduate or master's degree in a technical subject within the program's eligible graduation window
+- Willing to relocate to the job location if outside commuting distance
+- Able to commit to full-time hours every week for the internship duration
+- Graduating from a university in the same country as the internship location
+- No more than 2 years of professional experience in a similar role
+
+### Bonus / Preferred Qualifications
+- Effective communication skills and the ability to engage with a variety of partners/stakeholders
+- Demonstrated knowledge of basic decision frameworks using the scientific method
+- Basic understanding of setting, monitoring, and adjusting products to improve key performance indicators (KPIs)
+
+## JD 19: MBA Product Manager Intern, CrowdStrike (enterprise cybersecurity SaaS)
+Source: CrowdStrike Careers (Workday) posting — https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/MBA-Product-Manager-Intern---Summer-2026_R26715
+Collected: 2026-09-28
+
+### Responsibilities
+- Own deliverables for cybersecurity product segments, including product requirement documents (PRDs)
+- Conduct competitive and market analysis to inform product strategy
+- Create design mockups for MVP (minimum viable product) features
+- Present findings and recommendations to VP-level leadership
+- Build cross-functional relationships across product teams, partners, and customers
+
+### Basic Requirements
+- Currently pursuing an MBA, graduating between December 2026 and June 2027
+- Software/technology background or a bachelor's degree in a technology discipline
+- 3+ years of full-time industry work experience prior to the MBA
+- Onsite in Sunnyvale, CA or Redmond, WA for one of three summer 2026 cohorts (11.5-12 weeks)
+
+### Bonus / Preferred Qualifications
+- Prior technical/software background feeding cross-functional PM work
+- Experience translating market/competitive analysis into MVP feature definition
+- Demonstrated executive-level presentation experience (VP audience)
+
 ## Implications for Our Framework
 - Technical PM (NVIDIA) and growth/consumer PM (TikTok, Snap) require fundamentally different things under the skill dimension: the former requires Git, cloud deployment, AI/ML technical projects, and open-source contributions as basic requirements rather than bonuses; the latter centers on SQL/Excel-type analysis tools and leans more on internship/work experience than technical depth.
 - Large companies (Google) and mid-size/startups (Gusto) emphasize different things under edu: Google values major fit and "0-to-1" founder spirit — a potential-oriented approach; Gusto sets "2+ years full-time experience plus a specific graduation window" as a hard gate — a seniority-oriented approach.

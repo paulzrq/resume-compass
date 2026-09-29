@@ -280,6 +280,169 @@ Collected: 2026-09-21
 - Passion for technology and eagerness to learn in a fast-paced, high-energy environment
 - Experience or interest in the intersection of engineering and financial-market technology
 
+## JD 13: Software Engineering Intern, Summer 2026 Internships, Rivian (automotive software – general bucket track spanning mobile, backend, frontend, DevOps, and internal platforms)
+Source: Rivian internship posting (aggregated on EV.Careers job board, mirroring the official Rivian careers listing), https://ev.careers/jobs/179853670-software-engineering-summer-2026-internships
+Collected: 2026-09-22
+
+### Responsibilities
+- Work as part of a Rivian engineering team for the summer, matched into one of several software tracks (Digital Platforms, Mobile Development for Android/iOS, Internal Applications, DevOps, Cybersecurity, Fullstack, Front-end, or Back-end) based on skills and team needs
+- Design, build, test, and ship production code that supports Rivian's vehicle software ecosystem, internal tooling, or customer-facing digital platforms
+- Collaborate cross-functionally with engineers, product managers, and designers in a fast-paced, ambiguous environment typical of an automotive/EV company scaling its software organization
+- Participate in code reviews, debugging, and iterative development following the team's existing engineering practices
+
+### Basic Requirements
+- Currently pursuing a Bachelor's, Master's, or PhD degree in Computer Science, Computer Engineering, or a related field
+- Demonstrated experience in software development and coding in one or more of: Python, Java, JavaScript, Kotlin, Ruby, GoLang, TypeScript, or similar languages
+- Solid understanding of data structures and algorithms
+- Excellent written and verbal communication skills
+- Ability to work effectively in fast-paced, ambiguous environments and collaborate across functions
+
+### Bonus / Preferred Qualifications
+- Prior coursework, personal projects, or internship experience directly in one of the listed tracks (mobile, DevOps, cybersecurity, or fullstack development)
+- Familiarity with automotive, embedded, or IoT-adjacent software systems
+- Experience contributing to production-grade codebases rather than course projects alone
+
+## JD 14: Software Engineer Intern (Fall 2026), Cloudflare (general SWE, edge/network infrastructure company)
+Source: Cloudflare Careers (Greenhouse job board) — https://job-boards.greenhouse.io/cloudflare/jobs/8052785
+Collected: 2026-09-23
+
+### Responsibilities
+- Ship and deliver a real project over a 12-14 week internship with autonomy and support from the team
+- Work cross-functionally with various engineering and product teams
+- Work closely with an assigned mentor for technical guidance and career development
+- Present the completed project to the entire company at the end of the internship
+- Participate in professional development workshops to build engineering and career skills
+- Contribute writing to the Cloudflare engineering blog and participate in Cloudflare TV sessions
+- Build professional networks through company social events and Employee Resource Group (ERG) programs
+
+### Basic Requirements
+- Currently pursuing a degree in Computer Science, Engineering, Mathematics, Statistics, or a related field
+- Demonstrated critical thinking skills and drive to learn and adapt to new technologies
+- Curiosity, empathy, and the ability to get things done
+- Able to commit full-time (40 hours/week) for a minimum of 12 weeks
+- Available for one of two fixed internship windows: Sept 14 - Dec 4, or Sept 28 - Dec 18, 2026
+- Able to work in-office in Austin, TX, 3-5 days per week
+
+### Bonus / Preferred Qualifications
+- Demonstrated passion for software development, such as personal projects or open-source contributions
+- Prior experience with Cloudflare's developer platform (e.g., via the Cloudflare for Students program)
+
+## JD 15: Spectacles Student Worker - Software Engineering - Graphics, Snap Inc. (AR/VR wearable-device track — OS-level graphics/display engineering for Snap's Spectacles smart glasses, under Specs Inc., a Snap Inc. subsidiary)
+Source: Official Snap Inc. careers page, fetched and verified live — https://careers.snap.com/job?id=R0043744
+Collected: 2026-09-24
+
+### Responsibilities
+- Work on OS-level software for Snap's Spectacles augmented/mixed-reality eyewear, tackling engineering challenges specific to graphics and display systems on Mixed Reality devices
+- Write high-performance, production-quality code with direct, measurable impact on the Spectacles product
+- Collaborate closely with mentors and the CoreOS team on assigned technical projects
+- Build new technical competencies in AR/graphics development while contributing to a live hardware platform
+
+### Basic Requirements
+- Currently enrolled in a MS or PhD program in Computer Science, Electrical Engineering, or a related technical field
+- Legally authorized to work as a student in Austria
+- Proficiency in C/C++ development targeting Linux platforms
+- Comfortable working in Linux terminal environments (Bash)
+- Able to work on-site 4+ days per week per Snap's "default together" office policy, for a 3-6 month student-worker contract (part-time or full-time)
+
+### Bonus / Preferred Qualifications
+- Experience with software tracing/profiling tools
+- Background in Mixed Reality, Robotics, Computer Vision, or Graphics/Rendering
+- Interest in embedded systems and resource-constrained computing
+- Hands-on experience with Git, CMake, Linux, and embedded-systems toolchains
+- A demonstrated positive attitude and willingness to learn new AR-specific technologies
+
+## JD 16: Software Engineering Intern, Dynamo - Fall 2026, NVIDIA (AI/ML infrastructure tooling track — building the open-source NVIDIA Dynamo distributed LLM inference-serving framework (Kubernetes stack, Rust/Python runtime, disaggregated serving across vLLM/SGLang/TensorRT-LLM), distinct from all other entries in this file)
+Source: NVIDIA official careers page (Workday), cross-verified via independent job-board mirrors — https://jobs.nvidia.com/careers/job/893396886006
+Collected: 2026-09-25
+
+### Responsibilities
+- Collaborate on the design and development of the Dynamo Kubernetes stack
+- Develop new features for the Dynamo Python SDK and Rust Runtime Core Library
+- Design, implement, and optimize distributed inference components in Rust and Python
+- Contribute to disaggregated serving capabilities across inference engines such as vLLM, SGLang, and TensorRT-LLM
+- Enhance intelligent routing and KV-cache management systems
+- Participate in open-source development, code reviews, and community engagement on GitHub
+
+### Basic Requirements
+- Currently enrolled in a BS, MS, or PhD program in Computer Science or a related field
+- Strong programming skills in Golang, Rust, and/or Python, with solid software design ability
+- Proficiency in debugging, performance analysis, and test design; working knowledge of algorithms, data structures, and RESTful APIs
+- Demonstrated motivation, curiosity about emerging technologies, and strong communication skills
+
+### Bonus / Preferred Qualifications
+- Understanding of machine learning or NLP concepts
+- Experience with full software development cycles, including deployment and CI/CD, and prior open-source contribution experience
+- Familiarity with LLM inference engines (vLLM, SGLang, TensorRT-LLM) and hands-on experience deploying containerized applications in Kubernetes
+
+## JD 17: Software Developer Intern (Summer 2026), Epic Systems Corporation (healthcare EHR/health-IT software, distinct from Epic Games already in the library; a new industry vertical: patient-facing medical records/clinical software at massive scale)
+Source: Epic careers page — https://careers.epic.com/jobs/intern/ ; corroborating listing — https://www.indeed.com/viewjob?jk=808f8324313894ee ; mirror — https://prosple.com/graduate-employers/epic/jobs-internships/software-developer-intern-0
+Collected: 2026-09-26
+
+### Responsibilities
+- Take ownership of a meaningful, challenging software development project from start to finish
+- Understand user (clinician/patient) needs and translate them into a project plan
+- Handle design, development, testing, and documentation independently, with guidance from an assigned mentor and team lead
+- Deliver working software that contributes to Epic's EHR platform, used across healthcare systems serving hundreds of millions of patients
+- Past intern projects have included iOS features for patient progress tracking in MyChart, Apple Watch check-in via barcode scanning, voice-assistant integration for medication workflows, and ICU monitoring/medical-record visualization tools
+
+### Basic Requirements
+- Currently pursuing a BS/BA (or combined BS/MS) in Computer Science, Software Engineering, or a related discipline
+- Junior standing or higher, with intent to seek full-time employment starting 2027
+- Demonstrated strong academic performance
+- Authorized to work in the U.S. without need for employer sponsorship
+- Willing and able to relocate to Madison, Wisconsin for the full internship duration (11 weeks)
+
+### Bonus / Preferred Qualifications
+- No prior professional experience required
+- Demonstrated ability to independently own a project end-to-end (rather than only course-team assignments)
+- Interest in applying software to a mission-driven, high-stakes domain (healthcare) where reliability and correctness carry real-world consequences
+
+## JD 18: Software Engineer, Internship, Palantir Technologies (full-stack product engineering on enterprise data-platform software for public/private-sector deployments — distinct from existing fintech/infra/mobile/security/robotics/healthcare-IT entries)
+Source: Official Palantir careers posting (Lever) — https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c
+Collected: 2026-09-27
+
+### Responsibilities
+- Contribute high-quality code directly to major Palantir products (Gotham, Foundry, or Apollo)
+- Work in a small team on a specific aspect of the product, such as a front-end application or release infrastructure
+- Participate across the full product lifecycle — from idea generation, design, and prototyping to execution and shipping
+- Partner with a mentor and collaborate with both technical and non-technical teams
+- Potentially visit customer sites to understand real-world use cases and challenges firsthand
+
+### Basic Requirements
+- Engineering background in Computer Science, Mathematics, Software Engineering, Physics, or a related technical field
+- Coding experience in Java, C++, Python, JavaScript, or a similar language
+- Working knowledge of data structures, storage systems, cloud infrastructure, and front-end frameworks
+- Must be planning to graduate in 2028; this should be the candidate's final internship before graduating
+- Must hold, or be eligible to obtain, a US security clearance (for the Palo Alto, CA role)
+
+### Bonus / Preferred Qualifications
+- Ability to write clean, effective code and quickly learn new languages/technologies (e.g., Go, TypeScript, React, Spark, Elasticsearch, Cassandra)
+- Strong ownership mentality and comfort operating with autonomy in ambiguous, fast-moving problem spaces
+- Demonstrated collaboration and communication skills for working across engineering and non-engineering stakeholders
+- Interest/experience in shipping software into real production environments used by public-sector or enterprise customers
+
+## JD 19: Software Engineer Intern, GitLab (developer-tools / DevOps platform product engineering, remote-first)
+Source: GitLab's official public Job Description Library — https://handbook.gitlab.com/job-description-library/engineering/software-engineer-intern
+Collected: 2026-09-28
+
+### Responsibilities
+- Build features and enhancements to GitLab's product (the GitLab DevOps platform) with emphasis on security, testing, and performance
+- Partner with an assigned mentor and manager to uphold quality standards within a rapid, iterative development cycle
+- Champion improvements across product quality, security, and system performance
+- Address technical problems of varying complexity as part of a real engineering team
+- Ship small features independently with guidance from experienced team members, in a fully remote, asynchronous engineering culture
+
+### Basic Requirements
+- Coding experience with Ruby on Rails or a JavaScript framework (ideally Vue.js), gained through coursework, personal projects, or prior work
+- Pursuing a Computer Science education or equivalent coursework
+- English proficiency sufficient for remote, asynchronous collaboration
+- Ability to reason through intricate technical and organizational problems
+
+### Bonus / Preferred Qualifications
+- Prior experience using or contributing to GitLab itself (the product)
+- Experience contributing to open source projects
+- Completion of first-year college/university coursework in Computer Science or a related field
+
 ## Implications for Our Framework
 - proj (weight 30), the field's highest-weighted dimension, is directly validated across all five postings: Amazon requires data-structure/algorithm implementation, TikTok requires frontend componentization and open-source contribution, Meta requires debugging systems serving billions of users globally, Apple emphasizes OOD practice, and MongoDB emphasizes CTF/personal security projects — all five sub-tracks put "what you've built" at the core without exception.
 - The exp gap "projects are mostly coursework, lacking real-user/production-environment experience" is precisely validated by Meta's Production Engineer posting, which requires working on "systems deployed to production, serving billions of users globally" — exactly the part hardest for a student resume to demonstrate, and where the biggest gap typically shows up.

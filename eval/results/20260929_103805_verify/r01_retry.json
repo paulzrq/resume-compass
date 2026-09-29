@@ -1,0 +1,47 @@
+{
+ "resume_id": "R01",
+ "model": "claude-haiku-4-5-20251001",
+ "dimension_scores": {
+  "edu": 3,
+  "exp": 4,
+  "proj": 3,
+  "skill": 4,
+  "cert": 1,
+  "lead": 1,
+  "present": 4
+ },
+ "total": 73,
+ "tier_label": "有较强竞争力",
+ "revision_rounds": 1,
+ "critic_pass": false,
+ "critic_feedback": [
+  "[present] rationale 提到 \"presented finds\" 但原文是 \"presented finds\" 的拼写问题在简历中确实存在（typo），评价准确。",
+  "[exp] 建议在 rationale 中补充 Freddie Mac 项目的\"影响决策\"要素已充分体现。"
+ ],
+ "critic_corrections": [
+  {
+   "dimension": "edu",
+   "old_score": 4,
+   "new_score": 3,
+   "reason": "分数错档。虽有 MQF（与目标高度相关）+ Dean's List，但锚点 4 分要求\"成绩优异或有相关辅修/选课体现\"，简历仅列课程名称无成绩量化；相关课程列表缺乏\"选修体现\"的具体证据，只是教学大纲级别的课程名，降为 3 分（基本匹配+成绩中等偏上）更准确。"
+  },
+  {
+   "dimension": "proj",
+   "old_score": 4,
+   "new_score": 3,
+   "reason": "分数错档。evidence 中多数项目属于\"实习/工作期间的任务\"而非独立课程项目。唯一明确的独立项目是\"Valuating MW Petroleum\"，其他（dashboard、loss rate model、stocks & bonds analysis）都在实习/工作条目下。按锚点，proj 4 分需\"个人贡献清晰、有实际影响或产出\"的**独立项目**，现有证据不足，降为 3 分。"
+  }
+ ],
+ "round1_scores": {},
+ "final_snap_scores": {},
+ "n_snapshots": 0,
+ "api_calls": 9,
+ "measured_usage": {
+  "input": 43224,
+  "output": 7897,
+  "cache_creation": 4484,
+  "cache_read": 26904
+ },
+ "seconds": 79.4,
+ "cost_usd": 0.0596
+}

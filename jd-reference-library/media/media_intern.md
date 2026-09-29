@@ -277,6 +277,176 @@ Collected: 2026-09-21
 - Prior exposure to or interest in the entertainment/media industry
 - Quick aptitude for learning company-specific systems and processes
 
+## JD 13: Community Management Intern, Riot Games (video-game company community/PR team)
+Source: The Muse job listing (mirrored from Riot Games careers site), https://www.themuse.com/jobs/riotgames/community-management-intern-summer-2026-remote
+Collected: 2026-09-22
+
+### Responsibilities
+- Collaborate across Brand, Creative, Editorial, Influencer, Social and PR teams to develop player-focused initiatives and campaign strategies
+- Assist in creating and executing communication strategies for players via social platforms and content-creator partnerships
+- Work with the global Publishing team to escalate player feedback and identify emerging community trends
+- Help develop player-facing opportunities that connect communities with key events and announcements
+- Coordinate with global and regional partners to maintain consistent messaging and effective campaign delivery
+- Monitor, analyze, and report on community engagement, influencer performance, and social campaign results
+
+### Basic Requirements
+- Currently enrolled in a college, university, or non-degree program, graduating in 2027
+- Able to work full-time for the 12-week internship period (Summer 2026)
+- Eligible to work in country of residence
+- Experience or education in community management, influencer relations, marketing communications, or a related field
+- Familiarity with League of Legends, VALORANT, or Riot's intellectual property
+
+### Bonus / Preferred Qualifications
+- Background in online gaming or digital content creation
+- Knowledge of marketing communications planning and campaign integration
+- Ability to thrive in fast-paced, highly collaborative environments
+
+## JD 14: Account Coordinator, Public Affairs, BerlinRosen (entry-level political/public affairs PR agency)
+Source: BerlinRosen Careers (Greenhouse job board), "Account Coordinator, Public Affairs" — https://job-boards.greenhouse.io/berlinrosen/jobs/8817357002 (role content cross-verified against BerlinRosen's recurring Account Coordinator, Cities / Cities & Public Affairs postings, e.g. https://builtin.com/job/account-coordinator-cities-public-affairs/4376604 and https://builtin.com/job/account-coordinator-cities/3675343)
+Collected: 2026-09-23
+
+### Responsibilities
+- Execute strategic communications campaigns and creative/campaign-planning brainstorms across multiple public affairs and cities-focused client accounts
+- Pitch stories to reporters, editors, and producers; build and maintain media/press contact lists
+- Draft and revise external communications materials, including press releases, talking points, and media pitches
+- Monitor media coverage and industry news and prepare coverage summaries for clients
+- Support stakeholder engagement, grassroots organizing, and coalition-building for advocacy and government-facing campaigns
+- Coordinate client calls, meetings, and event logistics, including on-site support at press events
+- Manage day-to-day workflow and deliverables across several concurrent client accounts
+
+### Basic Requirements
+- Prior internship or relevant work experience in strategic communications, PR, journalism, government, politics, or advocacy
+- Strong written and verbal communication skills
+- Meticulous attention to detail and solid organizational skills
+- Ability to manage multiple assignments and deadlines in a fast-paced environment
+- Collaborative, team-oriented working style
+- Comfort working in a hybrid office environment (in-office several days per week)
+
+### Bonus / Preferred Qualifications
+- Background or coursework in journalism, real estate, urban policy, or government/public affairs
+- Demonstrated interest in politics, advocacy, or public-affairs-focused communications
+- Posting explicitly welcomes applicants who meet some but not all listed criteria, signaling flexibility on exact experience level
+
+## JD 15: Editorial Intern, Vogue Runway, Condé Nast (fashion magazine editorial/digital content)
+Source: Official Condé Nast careers portal (Workday) job posting, cross-verified via Built In NYC mirror — https://condenast.wd5.myworkdayjobs.com/en-US/CondeCareers/job/1-World-Trade-Center-New-York-NY/Editorial-Intern--Vogue-Runway_R-22509
+Collected: 2026-09-24
+
+### Responsibilities
+- Support the Global Vogue Runway team's day-to-day editorial operations
+- Perform "street style tagging" for runway and street-style content
+- Build and format articles directly in the CMS
+- Conduct research to support editors and writers on runway coverage
+- Attend team brainstorms and pitch original story ideas
+- Help coordinate logistics during fashion weeks (New York, London, Milan, Paris)
+- Provide administrative support to team leadership
+
+### Basic Requirements
+- Rising senior graduating in 2027, pursuing a Bachelor's degree
+- Available for the full 10-week paid summer program (June 8 - August 14, 2026)
+- Able to commute to Condé Nast's New York office (1 World Trade Center) 4 days per week (hybrid)
+- Strong written communication and organizational skills
+
+### Bonus / Preferred Qualifications
+- Demonstrated familiarity with Vogue Runway's content, tone, and editorial voice
+- Genuine fashion awareness and interest in the fashion/runway industry
+- Comfortable seeking and quickly applying editorial feedback
+- Adaptable and effective in a fast-paced, deadline-driven digital newsroom environment
+
+## JD 16: Lauder Summer 2026 Intern, Global Communications and Public Affairs, The Estée Lauder Companies Inc. (global beauty/cosmetics corporation's in-house digital/social communications and public affairs internship — no beauty/cosmetics brand or consumer-products corporate comms role exists elsewhere in this file)
+Source: Estée Lauder Companies official careers page, corroborated by multiple job-board mirrors — https://www.elcompanies.com/en/careers/students/internships
+Collected: 2026-09-25
+
+### Responsibilities
+- Partner with digital agencies on asset development, content trafficking, and distribution
+- Lead social media monitoring/listening across all social platforms and compile metrics to inform strategic recommendations
+- Ideate and help develop digital content aligned with editorial/content calendars
+- Attend brand and creative-strategy planning meetings and compile press materials for executive review
+- Maintain and update sections of the corporate website
+
+### Basic Requirements
+- Current undergraduate Junior (rising senior status); must complete junior year by June 2026 and graduate May/June 2027
+- Preferred majors/coursework in Communications, Public Relations, or Digital Marketing; based in New York, NY
+
+### Bonus / Preferred Qualifications
+- Prior exposure to social media management/analytics tools and demonstrated understanding of social metrics and audience engagement data
+- Experience with digital content creation or agency coordination (asset development, content calendars)
+- Interest/background in public affairs or corporate reputation work alongside consumer-facing digital PR
+
+## JD 17: Publicity Intern — UMLE: FONO (Bilingual English/Spanish), Universal Music Group (FONO / Universal Music Latino Entertainment) (record-label artist publicity — music-industry PR track, distinct from the agency, broadcast, sports, and in-house corporate comms tracks already in the library)
+Source: Universal Music Group 2026 Summer Internship Program, Workday — https://umusic.wd5.myworkdayjobs.com/en-US/UMGUS/job/Universal-Music-Group-2026-Summer-Internship-Program--UMLE--FONO--Onsite--CA-_UMG-25660
+Collected: 2026-09-26
+
+### Responsibilities
+- Help create and organize press materials such as press releases, artist bios, media pitches, and talking points
+- Support media outreach and maintain journalist/outlet contact databases
+- Compile weekly press coverage reports tracking artist media placements
+- Assist with event logistics for red carpets, showcases, screenings, and award-week events
+- Manage guest lists and media credentials for artist events
+- Research artists, media outlets, and competitive PR campaigns in the Latin music market
+
+### Basic Requirements
+- Currently enrolled at an accredited college/university (undergraduate, graduate, or law), graduating Spring 2026–Fall 2028
+- Bilingual fluency in English and Spanish, written and verbal
+- Strong writing and communication skills
+- Proficiency with Google Workspace
+- Genuine interest in music and entertainment
+- Valid U.S. work authorization; own housing/transportation in Woodland Hills, CA required
+
+### Bonus / Preferred Qualifications
+- Prior experience with media tracking/monitoring tools
+- Understanding of the digital platform and media landscape
+- Awareness of pop-culture and Latin-music trends
+
+## JD 18: Communications & Public Affairs Summer Intern, National Football League (NFL League Office — pro sports league corporate PR/comms)
+Source: Official NFL Careers posting (Greenhouse), 2026 Undergraduate Summer Intern Program, Communications & Public Affairs track — https://job-boards.greenhouse.io/nflcareers/jobs/5015269008
+Collected: 2026-09-27
+
+### Responsibilities
+- Write and edit PR materials (press releases, pitches, media lists, media plans)
+- Brainstorm storytelling ideas to further bolster the NFL and its initiatives at the intersection of sports and culture
+- Assist with the creation of league-wide publications, including the NFL Kickoff Guide and Black Book
+- Complete writing and research assignments related to the amplification of NFL announcements and events
+- Build media relationships with key contacts across the sports business, lifestyle, trade, and tech space
+- Monitor press coverage and create media briefings distributed to league personnel
+- Assist with NFL-licensed product seeding opportunities for media
+
+### Basic Requirements
+- Undergraduate junior (rising senior), graduating Winter 2026 or Spring 2027
+- Minimum 3.0 GPA
+- Strong writing and editing skills
+- Strong attention to detail and ability to multi-task
+- Strong teamwork skills
+- Proficiency in Microsoft Office Suite (Word, Excel, PowerPoint)
+- Legally authorized to work in the U.S.
+- Able to work full-time, in-person in New York, NY for the 10-week program (no remote option)
+
+### Bonus / Preferred Qualifications
+- Coursework in communications and/or sport management
+- Prior experience building or maintaining media contact lists / pitching press
+- Familiarity with the sports business, lifestyle, trade, or tech media landscape
+
+## JD 19: Communications Intern, ACLU of Arizona (nonprofit advocacy communications)
+Source: ACLU of Arizona official careers page — https://www.acluaz.org/jobs/communications-intern/
+Collected: 2026-09-28
+
+### Responsibilities
+- Research Arizona's media landscape and monitor current events/media coverage relevant to ACLU issues and priorities
+- Produce social media content, including graphics, short-form copy, and video
+- Maintain and update the ACLU of Arizona website
+- Support communications campaigns through research, drafting, and distribution of materials
+- Create additional public-facing communications materials aligned with the intern's specific skills and interests
+
+### Basic Requirements
+- Current college student or recent graduate in a communications-related field
+- Excellent research, writing, and communications skills; demonstrated storytelling and news-gathering ability
+- Computer proficiency, including Canva, Microsoft Office, basic video editing, and CMS platforms
+- Genuine commitment to civil liberties and social justice work
+
+### Bonus / Preferred Qualifications
+- Background or coursework in graphic design, digital media, marketing, journalism, or advertising
+- Demonstrated interest in civic engagement, political communications, or nonprofit advocacy work
+- Creativity and enthusiasm working with minimal supervision on self-directed content/campaigns
+
 ## Implications for Our Framework
 - The news/editorial track (WaPo) puts a track-specific work sample directly into the application checklist — a portfolio isn't a bonus but a gate. proj and present should be scored jointly and weighted more heavily than for the social-media track; gap ① ("missing or broken portfolio link") should be treated as near-disqualifying here.
 - The video/content-production track (The Athletic) doesn't ask for a traditional news-writing sample, instead requiring a combination of "editing tools + news sense + subject-matter interest" — the skill dimension should focus on editing software and narrative pacing, and the "portfolio" under present takes the form of video rather than articles.

@@ -296,5 +296,170 @@ Collected: 2026-09-21
 - Experience with automated tax or accounting software platforms
 - Interest in specialized industries such as technology, real estate, or nonprofit taxation
 
+## JD 13: 2026 Transaction Advisory Services Summer Intern – M&A and Capital Markets, EisnerAmper (mid-size public accounting firm, transaction advisory/valuation track)
+Source: EisnerAmper Careers job posting (req-7983), https://careers.eisneramper.com/en/career-opportunities/req-7983/2026-transaction-advisory-services-summer-intern-m-a-and-capital-markets/ (also cross-listed on LinkedIn)
+Collected: 2026-09-22
+
+### Responsibilities
+- Assist in the creation of financial models and valuation analyses for M&A transactions
+- Prepare Confidential Information Memorandums (CIMs) and other client-facing presentations
+- Conduct industry and company research to support transaction due diligence
+- Support due diligence through data room administration and document examination
+- Examine client financial statements and assess market conditions
+- Perform business valuations using DCF, comparable company, and precedent transaction approaches
+- Attend meetings with internal deal teams and external stakeholders
+
+### Basic Requirements
+- Currently a Junior or Senior pursuing a Bachelor's or Master's degree in Accounting, Finance, Business, Economics, or a related field
+- Minimum 3.0 GPA
+- Legally authorized to work in the United States without need for employer sponsorship
+- Able to commute to the assigned office location (hybrid, minimum 3 days in-office)
+
+### Bonus / Preferred Qualifications
+- 0-2 years of recent public accounting experience
+- Anticipated graduation between December 2026 and September 2027 (aligned with CPA-eligibility timing)
+- Demonstrated interest in finance, capital markets, or corporate transactions
+- Proficiency in MS Excel and MS Word
+- Strong organizational, communication, and analytical capabilities
+
+## JD 14: Financial Reporting Accounting Intern, Assured Guaranty (insurance company financial reporting/corporate accounting)
+Source: Assured Guaranty career posting via Built In NYC — https://www.builtinnyc.com/job/financial-reporting-accounting-summer-intern-2026/7201037
+Collected: 2026-09-23
+
+### Responsibilities
+- Prepare templates for various financial reporting reports, including in Workiva
+- Gather supporting documentation for financial statement preparation
+- Prepare tie-outs of financial statements and footnotes to supporting schedules
+- Assist with financial statement report preparation, mailings, and regulatory filings
+- Complete administrative tasks as assigned by the financial reporting team
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in economics, accounting, or a related field (preferred)
+- Strong organizational and time-management skills, with the ability to multi-task
+- Strong verbal and written communication abilities
+- Proficiency in Excel, Word, and PowerPoint
+- Self-motivated and reliable
+
+### Bonus / Preferred Qualifications
+- Basic accounting or business knowledge
+- Highly organized with strong problem-solving skills
+- Prior exposure to financial statement preparation, tie-out, or reconciliation work
+- Familiarity with financial reporting/disclosure management tools (e.g., Workiva)
+
+## JD 15: Assurance Intern (Summer 2026), BPM LLP (Audit/Assurance, mid-size West Coast public accounting firm)
+Source: Job posting aggregated from BPM LLP's official Lever ATS listing — Built In job board — https://builtin.com/job/assurance-intern-summer-2026/7114785
+Collected: 2026-09-24
+
+### Responsibilities
+- Receive structured on-the-job audit training from BPM's Learning & Development team and Assurance practice leaders
+- Analyze client financial statements and related disclosures to identify material misstatements or discrepancies
+- Perform audit procedures to verify the accuracy and completeness of client financial records
+- Test and evaluate the design and operating effectiveness of client internal control systems
+- Participate in regional intern events, executive speaker sessions, and collaborative team projects alongside experienced Assurance staff
+
+### Basic Requirements
+- Pursuing a Bachelor's or Master's degree in Accounting, Business Administration, Finance, or Economics (BS/BA/MSA/MST or equivalent certificate program)
+- Minimum 3.0 GPA
+- Graduating within the window BPM sets for the internship cohort (approx. Dec 2026-Aug 2027 for this cycle)
+- Demonstrated interest in pursuing CPA licensure
+- Strong written and verbal communication skills
+- Able to work on-site/hybrid out of one of BPM's California offices (San Francisco, San Jose, Santa Rosa, Santa Monica, Long Beach, or Sacramento) for the internship term
+
+### Bonus / Preferred Qualifications
+- Coursework or credit progress already underway toward the 150-hour CPA education requirement, beyond a bare stated "interest" in CPA licensure
+- Personal traits BPM explicitly screens for: compassionate, proactive, authentic, driven, resilient, and a "lifelong learner" mindset
+- Prior exposure to real audit engagement work (testing, control walkthroughs) rather than only classroom accounting theory
+- Willingness/ability to engage actively in firm-sponsored intern events, executive speaker sessions, and cross-office collaborative projects, signaling leadership/presentation readiness
+
+## JD 16: Corporate 12-month Internship - Hilton Accounting and Financial Services (HAFS Global Internship), Hilton (hospitality-industry corporate accounting/finance internship (12-month rotational program) — no hospitality company represented elsewhere in this file)
+Source: Hilton corporate careers site, cross-verified via a university career center posting — https://jobs.hilton.com/hilton-accounting-financial-services-internship-3
+Collected: 2026-09-25
+
+### Responsibilities
+- Take ownership of real projects within an assigned track (Record-to-Report Corporate Accounting, Order-to-Cash Hotel accounting, Compliance & Process Integration, or Global Transitions/PMO), including preparing reports, conducting research, and analyzing data
+- Support corporate accounting/finance team operations depending on track — e.g., reconciliations and reporting in RTR, cash application and hotel-level revenue processes in OTC, or process/compliance documentation in the Compliance track
+- Participate in structured learning workshops, mentorship, and networking events, culminating in a final presentation of intern work to leadership
+
+### Basic Requirements
+- Sophomore or junior standing (or under one year of professional experience), pursuing a degree in Accounting, Finance, Business, Hospitality, or related field depending on track
+- Basic to intermediate Microsoft Excel skills (formulas, pivot tables, VLOOKUP), with intermediate accounting coursework preferred for the Accounting/RTR track
+- Must commit to on-site presence at Hilton's Memphis, TN headquarters for the full 12-month program
+
+### Bonus / Preferred Qualifications
+- Leadership experience or active involvement in student organizations
+- Prior hospitality or customer-service industry experience
+- Additional tool proficiency (PowerPoint, Visio, SharePoint, Power BI) and exposure to project management
+
+## JD 17: Corporate Intern – Accounting and Finance Development Program (AFDP), Accounting Track, Walmart (retail/consumer-goods corporate accounting rotational track — Controllership & Internal Audit rotations, feeder into a 2-year FT rotational program)
+Source: Walmart Careers/Workday — https://careers.walmart.com/us/en/jobs/R-2621665
+Collected: 2026-09-26
+
+### Responsibilities
+- Complete a 10-week internship placed within Controllership or Internal Audit teams (Accounting track) supporting one of Walmart's business segments
+- Work on strategically relevant, business-value-driving projects assigned by the finance/accounting team
+- Present project findings and recommendations to executive leadership at the end of the internship
+- Participate in case-study workshops and internal competitions alongside other program interns
+- Attend Walmart's Annual Shareholders' Meeting and other company-wide events
+
+### Basic Requirements
+- Pursuing a Bachelor's degree in Accounting, Finance, Economics, Business Analytics/Data Analytics/Data Science, Business, Strategy, or a related field
+- Graduating December 2027 or May 2028
+- No employment visa sponsorship required now or in the future
+- Able to relocate to Bentonville, AR for the 10-week program
+
+### Bonus / Preferred Qualifications
+- GPA of 3.0 or higher
+- Demonstrated interest in Controllership or Internal Audit work
+- Leadership or case-competition experience
+- Prior exposure to large-scale retail/supply-chain operations or interest in a rotational career path
+
+## JD 18: Assurance Intern, RSM US LLP (Winter 2027 cohort — public accounting external audit, mid-size Top 6 firm)
+Source: Official RSM Careers posting (jobs.rsmus.com), Baltimore, MD — https://jobs.rsmus.com/posting/assurance-intern---winter-2027/JR115909/
+Collected: 2026-09-27
+
+### Responsibilities
+- Analyze client needs, business operations, and accounting/control systems across engagements
+- Learn and apply RSM's audit methodologies and tools
+- Evaluate internal control frameworks and assess associated risks
+- Conduct substantive testing and tests of internal controls to identify and help resolve accounting or reporting issues
+- Draft financial statements under prescribed formats
+
+### Basic Requirements
+- Minimum 90 completed credit hours toward a degree
+- Currently pursuing a B.A./B.S. in Accounting from an accredited institution
+- Reliable transportation to client sites required
+
+### Bonus / Preferred Qualifications
+- Minimum 3.0 GPA
+- Strong written and verbal communication skills
+- Proficiency in Microsoft Excel
+- Team collaboration skills and ability to manage multiple tasks in a fast-paced environment
+
+## JD 19: Summer 2026 Accounting Intern (Undergraduate), Blue Origin (aerospace/private space industry corporate accounting rotation spanning cost accounting, program economics/FP&A analysis, and government contract accounting)
+Source: Blue Origin careers posting (Workday) — https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Summer-2026-Accounting-Intern---Undergraduate_R55034
+Collected: 2026-09-28
+
+### Responsibilities
+- Support the corporate accounting team across cost accounting, fixed assets, general ledger, accounts payable, tax, and treasury functions
+- Provide analytical support to business units (New Shepard, New Glenn, Blue Engines, Space Systems Development)
+- Develop corporate and business-unit financial analysis; assess program economics, model financial outlook, and track key performance indicators
+- Build analytical tools/reports on internal metrics and create business cases to support investment decisions
+- Support mergers & acquisitions activity and government contract accounting functions
+
+### Basic Requirements
+- U.S. citizenship, permanent residency, refugee status, or asylum grant (export-control related)
+- Currently enrolled in an undergraduate or graduate program with at least one semester remaining after the internship
+- Strong quantitative skill set and attention to detail; ability to structure analytical frameworks
+- Strong written communication and presentation abilities; solid organizational/time-management skills
+- Demonstrated teamwork and leadership potential; available for full-time work with no concurrent coursework
+
+### Bonus / Preferred Qualifications
+- Accounting coursework and basic tax knowledge
+- Financial modeling, data analytics, and AI-tool experience
+- Pursuing a degree in Accounting, Finance, or Business
+- CPA-track exam progress
+- Demonstrated professional leadership with measurable impact
+- Familiarity with the private space/aerospace industry
+
 ## Implications for Our Framework
 Across all five postings, the Big Four/PwC-style firms (Deloitte, EY, PwC) consistently anchor requirements on CPA-track credit-hour progress and a GPA floor (3.0-3.3), while corporate in-house roles (Cloudflare, Robinhood) drop the CPA/GPA language entirely and instead emphasize graduation timing, tool proficiency, and soft skills like independent ownership — suggesting our scoring framework should weight CPA-eligibility and GPA heavily for public-accounting-track applications but treat them as secondary signals for corporate accounting/internal-audit roles. Microsoft Excel is the one universal hard-skill requirement across every posting regardless of sub-track, and U.S. GAAP knowledge appears specifically at the corporate financial-reporting role, so Excel fluency should be a baseline scoring criterion while GAAP/accounting-standards knowledge should be weighted more for financial-reporting than for tax or forensic tracks. Advanced/niche technical skills (SQL, Python, Tableau, Bloomberg, VBA/MATLAB) appear only as "preferred/bonus" across the board, never as a basic requirement, indicating these should boost a candidate's score but never gate eligibility. Finally, leadership experience, prior internships, and communication/analytical skills recur as differentiators in every posting's bonus section, implying the framework should reward extracurricular leadership and any prior professional experience as meaningful tie-breakers among otherwise similarly-qualified accounting candidates.

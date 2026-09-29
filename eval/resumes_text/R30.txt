@@ -1,0 +1,37 @@
+Yifei Xu
+[EMAIL] | Ithaca, NY 14850 | www.linkedin.com/in/yf-xu | [PHONE]
+
+EDUCATION
+Cornell University, Bowers College of Computing and Information Science	Ithaca, NY
+Master of Professional Studies in Applied Statistics                  	                                                  Expected December 2023
+
+The Ohio State University	Columbus, OH
+Bachelor of Science in Statistics, GPA: 3.79/4.0                        	                                                   August 2019 - May 2023
+
+SPECIALIZED SKILLS
+Technical: Python, C++, R, SAS, SQL, MATLAB
+Microsoft Office Suite: Excel, Word, & PowerPoint
+Language Skills: Native in Mandarin, fluent in English
+
+INTERNSHIP EXPERIENCE
+China Securities Co. Ltd.								                             Beijing, China
+Intern quantitative analyst at the Derivatives Trading Department				       July 2022 - September 2022
+Conducted in-depth analysis of recent stock quotations and trading data for Chinese equities using advanced Python programming. Collaborated with team members to curate a dependable stock pool for further evaluation. Utilized data modeling to establish rotation indicators essential for subsequent predictive model development.
+Enhanced a data model centered on selected stock pools and rotation indicators for analysis of rotation strategies and stock trading predictions in collaboration with team members. Co-developed and iteratively refined several backtesting trading strategies to optimize the model.
+Acquired knowledge of the operations and indices within the investment and securities markets, gaining insights into quantitative methods for multifactor stock selection. Familiarized with fundamental investment portfolio management techniques, including classic formulas of the multi-factor influence model. 
+Enhanced proficiency in advanced quantitative analysis tools using Python and comprehended the responsibilities of a quantitative analyst.
+
+PROJECT EXPERIENCE
+Data Collection and Analysis for Electric Car Project						               Columbus, OH
+Group leader, supervised by Prof. Nicole Kelbick                                                              September 2022 - December 2022
+Utilized SAS's data visualization capabilities to assess and differentiate various electric cars, pinpointing the correlation between performance and price. 
+Sourced and analyzed extensive relevant data, establishing key indicators and structuring comprehensive tables for in-depth analysis. 
+Constructed multiple statistical models using SAS to probe the relationships between price and attributes such as range, top speed, and efficiency. 
+Deduced a substantial correlation indicating a linear relationship between the price of European trams and metrics like efficiency, endurance, and acceleration. This conclusion was fortified with precise data derived from meticulous experiments, simulations, and tests.
+
+Statistical Modeling for Water Supply System and Sewage Discharge Facilities Project                        Columbus, OH
+Group leader, supervised by Prof. Richard Linder						       January - May 2022
+Analyzed the distribution of water supply systems and sewage discharge facilities in American Black communities using relevant databases and statistical methodologies. 
+Employed R alongside other statistical techniques to process, visualize, and model data derived from pertinent reference materials. 
+Formulated and tested hypotheses rooted in statistical theories, conducting thorough analyses of the associated data. 
+Concluded from model insights and data visualizations that variations in ethnic composition can moderately impact the prevalence and probability of water supply and sewer infrastructure installations.

@@ -292,5 +292,172 @@ Collected: 2026-09-21
 - Campus leadership experience or extracurricular involvement
 - Ability to quickly learn and adopt new technology in a fast-paced environment
 
+## JD 13: Risk Analyst Summer Intern, Experian (Consumer Services credit-risk/data analytics, remote)
+Source: Experian Careers job posting (Risk Analyst Summer Intern, Remote & Paid — Risk and Operations team, Experian Consumer Services), https://jobs.experian.com/job/risk-analyst-summer-intern-remote-and-paid-in-united-states-jid-3328
+Collected: 2026-09-22
+
+### Responsibilities
+- Collect and analyze operational data to identify trends and build reports for business partners
+- Develop database queries to aggregate data supporting quantitative and qualitative analysis for Experian Consumer Services (ECS) products
+- Support development of risk mitigation strategies and conduct research to guide risk-related decision-making
+- Collaborate on ad hoc research, impact analysis, and validation of new risk control procedures
+- Detect operational data patterns to help resolve risk control issues
+- Communicate analytical findings clearly to diverse internal stakeholders
+- Build and maintain working relationships with project sponsors and cross-functional partners
+
+### Basic Requirements
+- Pursuing a Master's degree in Computer Science, Math, Engineering, Data Science, Finance, or Economics; must return to school in Fall 2026 to complete the degree
+- Proficiency with Excel for data discovery, cleansing, and analysis
+- Hands-on experience with AWS Redshift and Python for data querying/analysis
+- Relational database querying skills
+- Ability to present analyses clearly to varied, non-technical audiences
+
+### Bonus / Preferred Qualifications
+- Data visualization experience (e.g., Tableau or similar BI tools)
+- Prior exposure to consumer credit-risk data or credit-bureau/financial-services products
+- Comfort operating in a matrixed, cross-functional team environment
+- Experience translating data analysis into concrete risk-mitigation recommendations
+
+## JD 14: GRM, Environmental & Social Risk Analyst Intern (Fall 2026, 8 Months), RBC (climate/ESG risk — non-bank-rotational niche)
+Source: RBC internship posting via Climate Change Careers job board — https://www.climatechangecareers.com/job/rbc/toronto-canada/fall-2026-grm-environmental-social-risk-analyst-intern-8-months/
+Collected: 2026-09-23
+
+### Responsibilities
+- Support the Global Risk Management (GRM) Environmental & Social Risk Management team in implementing E&S risk solutions and integrating environmental/social risk data into monitoring processes
+- Assist with E&S risk policy implementation and monitor emerging regulatory issues affecting the bank's risk framework
+- Conduct analysis on large datasets and communicate resulting insights to internal stakeholders
+- Support internal and external climate disclosures, including carbon-related assets and financed emissions reporting
+- Research ESG risk topics to inform ongoing risk assessments
+- Develop educational materials and coordinate training sessions on E&S risk topics
+
+### Basic Requirements
+- Currently pursuing a degree in Science, Math, Statistics, Computer Science, Engineering, Environmental Studies, Economics, or another quantitative field
+- Experience developing presentations, visualizations, and dashboards (e.g., PowerPoint, Tableau)
+- Strong analytical capabilities with the ability to query and manipulate large datasets
+- Excellent written and verbal communication skills
+- High level of attention to detail and commitment to accuracy
+- Self-starter mentality with the ability to multitask across competing priorities
+
+### Bonus / Preferred Qualifications
+- Climate risk knowledge, including climate scenario modeling and climate science fundamentals
+- Prior statistical, financial, or economic analysis experience
+- Background in banking, commercial lending, or financial risk management
+- Experience collaborating with diverse internal and external stakeholders
+
+## JD 15: Risk Management Intern, Cargill (Commodity Trading — Market Risk / Trading & Merchandising rotational)
+Source: Cargill official careers page (job content cross-verified via matching Glassdoor and Prosple mirror listings) — https://careers.cargill.com/en/job/minneapolis/risk-management-internship-summer-2026-wayzata-mn/23251/85176071152
+Collected: 2026-09-24
+
+### Responsibilities
+- Help monitor short-term trading strategies and positions/books for a specific commodity, tracking exposure and market moves in real time
+- Assist with reconciling and preparing profit-and-loss (P&L) reports for trading desks
+- Track customer and competitor activity, industry news, and broader commodity market trends that could affect risk exposure
+- Support sales strategy implementation and customer relationship development alongside the trading/merchandising team
+- Handle routine risk-monitoring and reporting issues under supervision, escalating complex or unusual situations to senior traders/risk staff
+- Work a 12-week rotational internship (May/June-August 2026) based in Wayzata, MN, with hybrid on-site expectations
+
+### Basic Requirements
+- Currently pursuing a bachelor's or master's degree in Economics, Finance, Business, Mathematics, or a related quantitative field
+- Expected graduation between December 2026 and August 2027
+- U.S. work authorization not dependent on a student visa or third-party employer sponsorship
+- Strong analytical, quantitative, and problem-solving skills; sound judgment when facing ambiguous/uncertain situations
+- Ability to work both independently and collaboratively within a diverse team; strong written/verbal communication
+- Willingness/flexibility to relocate to Wayzata, MN for the internship
+
+### Bonus / Preferred Qualifications
+- Completed or currently enrolled in introductory microeconomics and macroeconomics coursework
+- Existing knowledge of commodity markets and how supply/demand, price, and macro factors drive short-term trading risk
+- Demonstrated interest in trading/risk-monitoring workflows (P&L reconciliation, position tracking) as a stepping stone to full-time trading-risk roles
+- Track record as a strong performer opens the door to a return internship, co-op, or full-time offer
+
+## JD 16: BLP Intern – Risk, Synchrony Financial (consumer financial services / private-label credit card issuer's Risk Management Business Leadership Program, rotating across Credit, Operational/Model, Compliance, Strategic, and Market & Liquidity Risk — distinct from the bank rotational programs, Experian's bureau-side risk analytics, and RBC's ESG risk focus already in this file)
+Source: Synchrony Financial careers site (Workday job board) — https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/University/details/BLP-Intern---Risk_2601693
+Collected: 2026-09-25
+
+### Responsibilities
+- Work side-by-side with Risk Management experts across Credit Risk, Operational Risk (including Model Risk), Compliance, Strategic Risk, and Market & Liquidity Risk functions to gain hands-on risk experience
+- Support independent assessment of company risks by helping identify, measure, monitor and control relevant risks in business activities, and challenge business teams to ensure they fully understand their risks
+- Deliver a summer project of real business importance while participating in an immersive orientation and ongoing mentor support
+
+### Basic Requirements
+- Pursuing a Bachelor's degree in Risk Management (preferred), Actuarial Science, Analytics, Economics, Mathematics, Statistics, Finance, or other relevant major, with a minimum overall 3.0 GPA
+- Available for the full 10-consecutive-week program (June–August), able to work a minimum 40-hour week, and legally authorized to work in the U.S. without visa sponsorship
+
+### Bonus / Preferred Qualifications
+- Finance or accounting knowledge/experience
+- Strong analytical and problem-solving skills, intellectual curiosity, and the ability to synthesize complex information and apply critical reasoning
+- Demonstrated leadership ability, including leading projects of varying scope, plus strong project management and communication skills
+
+## JD 17: Risk Management & Insurance Internship Program, Great American Insurance Group (specialty P&C insurance underwriting-risk track, distinct from Chubb's engineering/underwriting risk track already in the library)
+Source: Mirror of official posting via Prosple — https://prosple.com/graduate-employers/great-american-insurance-group/jobs-internships/risk-management-insurance-internship-program ; corroborated via LinkedIn — https://www.linkedin.com/jobs/view/risk-management-insurance-internship-program-summer-2026-cincinnati-oh-at-great-american-insurance-group-4301611554
+Collected: 2026-09-26
+
+### Responsibilities
+- Complete meaningful day-to-day assignments plus one special project within an assigned business unit (underwriting, product, or research)
+- Assess and evaluate risk exposures as part of underwriting-support work in a specialty property & casualty insurance line
+- Network cross-functionally with employees and leaders across the organization
+- Participate in structured learning sessions with other interns and business leaders
+- Present findings/outcomes of the special project to business unit leadership at the end of the internship
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree (Business, Risk Management & Insurance, Finance, or related field)
+- Junior-level standing, graduating December 2026 or May 2027
+- Minimum 3.5 GPA
+- Strong analytical, planning, and organizational skills; superior written/verbal communication
+- U.S. work authorization
+
+### Bonus / Preferred Qualifications
+- Demonstrated leadership through prior internships, co-ops, or extracurricular activities
+- Genuine interest in property and casualty (P&C) insurance and risk/underwriting career paths
+- Willingness to relocate for a 10-week program, with company-provided furnished housing for non-local candidates
+
+## JD 18: Summer Analyst, Risk and Quantitative Analysis (RQA), BlackRock (asset-management investment risk track)
+Source: BlackRock official careers site — RQA function page and 2027 Summer Internship Program (AMERS) posting — https://careers.blackrock.com/students-and-graduates-functions-risk-quantitative-analysis
+Collected: 2026-09-27
+
+### Responsibilities
+- Develop a strong understanding of fundamental risk management principles and apply them to real, live investment portfolios
+- Apply statistical techniques to financial data to identify, measure, and analyze investment risk
+- Critique existing risk models and recommend improvements to methodology
+- Communicate complex analytical concepts and findings clearly to internal stakeholders
+- Partner with Core Risk Management on risk oversight initiatives spanning investment risk, enterprise risk, and portfolio analytics
+- Use Python to query data and conduct statistical analyses as part of day-to-day risk work
+- Complete a 9-week program (June–August) including orientation, on-the-job training, a speaker series, mentoring, and networking with the broader Risk and Quantitative Analysis team
+
+### Basic Requirements
+- Undergraduate or master's student graduating within the program's eligible window
+- Strong quantitative problem-solving ability and critical thinking
+- Intermediate programming experience in R and/or Python, or demonstrated interest in developing Python proficiency
+- Effective communication and presentation skills that make complex ideas accessible to non-technical stakeholders
+- Genuine curiosity about financial markets
+- Must complete a pre-interview assessment within 5 days of applying to remain under consideration
+
+### Bonus / Preferred Qualifications
+- Interest in pursuing the FRM (Financial Risk Manager) and/or CFA (Chartered Financial Analyst) designation
+- Demonstrated (vs. beginner) Python coding proficiency for querying data and running statistical analyses
+- Prior exposure to portfolio analytics or enterprise/investment risk oversight
+
+## JD 19: Finance and Risk Quantitative Strats Summer Analyst, Goldman Sachs (quantitative risk modeling / model risk & treasury rotational track)
+Source: Goldman Sachs official careers site (higher.gs.com), cross-verified via Prosple mirror — https://higher.gs.com/roles/152613
+Collected: 2026-09-28
+
+### Responsibilities
+- Complete a 9-10 week summer internship fully immersed in day-to-day work across the Controllers, Corporate Treasury, Risk, and Quantitative Strategies functions
+- Support risk assessment, liquidity management, capital management, and financial/regulatory reporting activities
+- Contribute to quantitative modeling work used to identify, monitor, and evaluate the firm's financial and non-financial risks (credit, market, operational, model, and finance risk)
+- Collaborate with business units, control departments, and technology teams, leveraging cloud computing and big data tools
+- Attend structured orientation and training before taking on substantive project work alongside full-time risk professionals
+
+### Basic Requirements
+- Currently pursuing a bachelor's or graduate degree (no prior full-time experience required)
+- Interest in financial markets, accounting, valuation, capital management, liquidity, risk management, or quantitative finance
+- Background in Business & Management-related fields preferred, or equivalent quantitative coursework
+- U.S. work authorization for this Salt Lake City-based role
+
+### Bonus / Preferred Qualifications
+- Strong quantitative analysis, programming, and logical problem-solving skills
+- Ability to work collaboratively in a fast-paced, cross-functional environment
+- Familiarity with model risk, capital/liquidity frameworks, or regulatory risk concepts
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic timing and citizenship/work-authorization status, not technical skill: every posting specifies an expected graduation window tied to penultimate-year or graduating-senior status (BofA: Nov 2026-Aug 2027; Citi and Morgan Stanley similarly tied to the 2026/2027 cycle), and three of the five (BofA, Citi, Morgan Stanley) explicitly require U.S. work authorization without future sponsorship, which functions as a binary pass/fail gate rather than a scored trait. A minimum GPA threshold appears in three of five postings and clusters tightly between 3.0 and 3.3, suggesting a rubric should treat GPA as a soft-cutoff signal (present/absent and roughly where it falls in that 3.0-3.3+ band) rather than a finely graded continuous score. None of the postings demand hard technical tools (no SQL, Python, or VaR-modeling requirement appears anywhere), which is notable for a "risk" role and implies that at the internship level, technical/quantitative tooling is a differentiator rather than a baseline — resumes that show Excel modeling, a finance/quant/econ/stats major, or prior risk-adjacent coursework should score above a generic business major even though none of these postings strictly require it. What is treated as universal baseline "soft" language is communication skills, analytical/problem-solving ability, attention to detail, and a demonstrated interest in markets/regulation — these appear in every single posting almost verbatim, so a resume-scoring rubric should weight evidence of these (leadership roles, case competitions, research, relevant coursework projects) heavily as baseline credibility rather than as bonus differentiators. True bonus/differentiator signal across postings is a quant-adjacent major (math, statistics, engineering) layered on top of the eligible business/finance majors, prior exposure to specific risk types (market, credit, liquidity, operational), and international/cross-cultural exposure (Citi, JPM AM). Given this pattern, the risk_analyst rubric should be structured as: (1) hard-gate checks for graduation timing and work authorization language when present on the resume/cover context, (2) a GPA band check calibrated to the observed 3.0-3.3 threshold, (3) a moderate-weight core score for communication/analytical soft-skill evidence and any finance/business/quant major, and (4) bonus points layered on top for quantitative coursework, Excel/data tools, or explicit risk-domain exposure — reflecting that these postings screen broadly on fit and eligibility first, and reserve technical specificity as upside rather than a floor.

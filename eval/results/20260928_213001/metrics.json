@@ -1,0 +1,149 @@
+{
+ "per_dimension": {
+  "edu": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 0.0,
+    "exact_match": 1.0,
+    "n": 1
+   }
+  },
+  "exp": {
+   "old": {
+    "mae": 0.0,
+    "exact_match": 1.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "proj": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "skill": {
+   "old": {
+    "mae": 2.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 2.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "cert": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "lead": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "present": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  }
+ },
+ "total": {
+  "old": {
+   "mae": 20.0,
+   "spearman": null,
+   "n": 1
+  },
+  "new": {
+   "mae": 21.0,
+   "spearman": null,
+   "n": 1
+  }
+ },
+ "tier": {
+  "old": {
+   "agreement": 0.0,
+   "n": 1
+  },
+  "new": {
+   "agreement": 0.0,
+   "n": 1
+  }
+ },
+ "critic": {
+  "revised_count": 0,
+  "improved": 0,
+  "worsened": 0,
+  "same": 0,
+  "mean_delta": null,
+  "revision_noop_count": 1
+ },
+ "cost": {
+  "old": {
+   "total_seconds": 34.3,
+   "total_api_calls": 1,
+   "measured_tokens": {
+    "input": 1013,
+    "output": 1221,
+    "cache_creation": 7643,
+    "cache_read": 0
+   },
+   "estimated_usd": 0.02,
+   "n": 1
+  },
+  "new": {
+   "total_seconds": 247.9,
+   "total_api_calls": 11,
+   "measured_tokens": {
+    "input": 103943,
+    "output": 10544,
+    "cache_creation": 0,
+    "cache_read": 0
+   },
+   "estimated_usd": 0.16,
+   "n": 1
+  },
+  "pricing_note": "claude-haiku-4-5-20251001: $1.0/MTok input, $5.0/MTok output, cache_read $0.1/MTok, cache_creation $1.25/MTok(按1.25x估算)"
+ },
+ "errors": {
+  "old": [],
+  "new": []
+ }
+}

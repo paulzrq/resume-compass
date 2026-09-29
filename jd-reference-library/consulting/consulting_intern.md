@@ -276,6 +276,179 @@ Collected: 2026-09-21
 - A structured, STAR-style example of solving a complex, ambiguous business problem under time pressure
 - Demonstrated cross-functional or cross-domain collaboration, such as working across technology, operations, and finance stakeholders on a single project
 
+## JD 13: Strategy& and Deals Strategy Intern – Summer 2026, PwC (Big-4 firm, Deals/M&A strategy consulting track)
+Source: PwC official job posting via TheMuse (job ID PricewaterhouseCoopers-658575WD; cross-verified on LinkedIn and PwC's Workday careers site), https://www.themuse.com/jobs/pwc/strategy-and-deals-strategy-intern-summer-2026
+Collected: 2026-09-22
+
+### Responsibilities
+- Support strategy consulting teams on the development and execution of client engagements within the Deals/Strategy& practice
+- Conduct market research and analyze industry trends to generate data-driven insights for clients
+- Prepare presentations and reports that clearly communicate strategic findings to stakeholders
+- Apply analytical thinking to interpret data and identify opportunities for business improvement and profitable growth
+- Collaborate with cross-functional team members to develop innovative, client-specific solutions
+- Learn directly from experienced strategy consulting professionals through structured mentorship
+
+### Basic Requirements
+- Currently pursuing or have completed a Bachelor's degree
+- Must be in the third year of a four-year program (or fourth year of a five-year program) at the time of application
+- Eligible for U.S. work authorization (role is not eligible for H-1B lottery sponsorship except per company policy)
+- Strong written and verbal communication skills
+
+### Bonus / Preferred Qualifications
+- Field of study in Engineering or Business
+- Preference for a 3.3+ overall GPA
+- Demonstrated analytical thinking and strategic data-analysis capability
+- Prior experience with market research and industry/competitive analysis
+- Intellectual curiosity, creativity, and learning agility
+- Ability to leverage AI tools to develop innovative solutions
+
+## JD 14: Summer Analyst, Cornerstone Research (litigation & regulatory economic consulting)
+Source: Cornerstone Research official careers page (https://www.cornerstone.com/careers/analyst/) and Summer Analyst posting via WayUp (https://www.wayup.com/i-Management-Consulting-j-Summer-Analyst-Cornerstone-Research-667401023872182/)
+Collected: 2026-09-23
+
+### Responsibilities
+- Work on case teams alongside academic experts, senior consultants, and fellow analysts across all phases of litigation and regulatory engagements
+- Develop financial and economic models and analyze large, complex datasets
+- Conduct research using academic articles, industry literature, and other sources to inform case strategy
+- Assist in preparing written expert reports and materials used in testimony
+- Present research findings and analysis to colleagues and clients
+- Gain exposure to diverse industries, case types (e.g., antitrust, securities, intellectual property), and phases of litigation and regulatory work
+
+### Basic Requirements
+- Currently in junior year of undergraduate study, with expected graduation between December 2026 and June 2027
+- GPA typically above 3.6
+- Strong quantitative and analytical background demonstrated through coursework or prior internships
+- Genuine interest in business and economics
+- Strong written and verbal communication skills
+
+### Bonus / Preferred Qualifications
+- Coursework or experience in economics, finance, statistics, or other applied quantitative fields
+- Prior research assistant, internship, or analytical project experience involving large-dataset work
+- Demonstrated preference for broad, generalist exposure across industries and case types rather than one specialization
+- Experience distilling and presenting analytical findings to non-technical audiences (e.g., clients, testifying experts)
+
+## JD 15: MBA Summer Consultant, Consumer & Retail Group, Alvarez & Marsal (boutique turnaround/restructuring firm — industry-vertical management consulting practice)
+Source: Official Alvarez & Marsal careers page job posting — https://careers.alvarezandmarsal.com/jobs/16609795-mba-summer-consultant-consumer-and-retail-group
+Collected: 2026-09-24
+
+### Responsibilities
+- Collaborate with A&M's Consumer & Retail Group (CRG) consulting teams on high-impact client engagements spanning growth strategy & implementation, large-scale transformation, M&A/carve-outs and post-merger integration, operations, merchandising & assortment optimization, interim leadership, digital & analytics/IT strategy, PMO, and channel optimization
+- Build structured, hypothesis-driven, data-backed approaches to solve complex consumer and retail business problems
+- Synthesize complex analyses into actionable insights and produce client-ready decks and documents (PowerPoint, Excel, Word, Access) with minimal direction
+- Complete a one-week onboarding bootcamp, then work an apprenticeship model on live project teams with 1-on-1 mentorship/coaching from senior consultants throughout the 10-week internship
+- Interact directly with client leadership and senior A&M leadership, gaining exposure to private equity, hedge fund, and corporate clients
+- Contribute to proposal development and business development, helping build the "case for change" with clients
+- Travel to client sites up to approximately 70% of the time, Monday through Friday
+
+### Basic Requirements
+- Currently pursuing an MBA with a graduation date between December 2026 and July 2027
+- Undergraduate degree from a top university
+- 3-5 years of prior business or consulting experience in a consumer/retail-related role (professional services or corporate roles with a financial/operational focus preferred)
+- Advanced proficiency in Microsoft Word, PowerPoint, Excel, and Access, with strong comfort handling complex data
+- Strong analytical mindset — able to independently structure problem-solving approaches and adapt to shifting priorities
+- Advanced written and verbal communication skills; able to create client-ready materials
+- Proven ability to lead and manage complex workstreams and projects
+- Willingness and ability to travel up to ~70%
+
+### Bonus / Preferred Qualifications
+- Direct industry or consulting experience in retail/consumer merchandising and category management, sales & marketing effectiveness, distribution & logistics/network modeling, manufacturing/contract manufacturing, or direct & indirect procurement
+- Experience with SG&A cost reduction initiatives
+- Experience with M&A divestitures/carve-outs and post-merger integration
+- Experience with information technology and digital improvement initiatives
+- Track record of proposal development with strong commercial instincts and interest in business development
+- Demonstrated creativity and innovation in developing new tools, methodologies, and approaches
+
+## JD 16: EY-Parthenon - Strategy and Execution - EY Growth Platforms - Summer Associate 2026, EY-Parthenon (Ernst & Young) (a different Big-4 firm's strategy practice than the PwC Strategy& entry already in this file — EY's dedicated strategy-consulting arm applying AI-driven approaches to corporate strategy/transformation engagements)
+Source: EY official early-careers job board — https://usearlycareers.ey.com/job/new-york/usa-ey-parthenon-strategy-and-execution-ey-growth-platforms-summer-associate-2026/39053/88350824432
+Collected: 2026-09-25
+
+### Responsibilities
+- Join project teams addressing strategic challenges for executive-level clients as part of EY-Parthenon's Growth Platforms initiative
+- Receive training in business analysis and analytical methods while contributing to client engagements
+- Collaborate with engagement teams to maintain quality standards on deliverables
+- Interact directly with clients to understand and help address their operational and strategic challenges
+
+### Basic Requirements
+- Bachelor's degree (predicted/expected graduation)
+- Professional English proficiency, written and verbal
+- Willingness to travel and work extended hours as needed
+
+### Bonus / Preferred Qualifications
+- Strong academic record with quantitative coursework (finance, math, business, economics, computer science, or engineering)
+- Prior internship experience and aptitude for quantitative/qualitative analysis and complex problem-solving
+- Relationship-building skills, Microsoft Office proficiency, and experience with AI tools such as Microsoft Copilot
+
+## JD 17: Summer Business Analyst Intern, Kearney (global generalist strategy & operations consulting — Tier-2/MBB-adjacent firm, distinct from the boutique and Big-4-affiliated firms already in the file)
+Source: Kearney careers portal, cross-posted via university career centers — https://ocs.yale.edu/jobs/kearney-kearney-summer-business-analyst-intern-2026/
+Collected: 2026-09-26
+
+### Responsibilities
+- Join live client engagement teams for an 8-10 week internship, working alongside consultants across industries
+- Gather and analyze data and conduct competitor/market assessment studies
+- Build client-ready analyses and slides, and support the creation of client recommendations
+- Participate in team meetings and help implement co-created solutions for clients
+- Receive structured on-the-job learning and development, including a dedicated mentor
+
+### Basic Requirements
+- Currently in penultimate year of undergraduate study (rising senior) or first-year MBA
+- Open to all academic majors; no specific degree required
+- Strong analytical mindset and problem-solving orientation
+- Excellent written and verbal communication skills
+- US roles: must have work authorization (no visa sponsorship)
+
+### Bonus / Preferred Qualifications
+- Strong GPA (competitive candidates often 3.5+)
+- Leadership experience in student organizations/extracurriculars
+- Prior internship experience, especially in business or analytics roles
+- Demonstrated interest in consulting and industry focus areas (e.g., chemicals, oil & gas, utilities, metals & mining, ESG/sustainability)
+- Operations background (planning, manufacturing, sourcing, or delivery)
+
+## JD 18: Business Analyst Intern, McKinsey & Company (Generalist Strategy Consulting — Summer Internship)
+Source: Official McKinsey & Company careers site job posting — https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275
+Collected: 2026-09-27
+
+### Responsibilities
+- Join a client service team for 8–10 weeks, contributing to live workstreams
+- Help solve some of the toughest challenges clients face, ranging from Fortune 500 giants to innovative startups
+- Deliver solutions that solve immediate problems while uncovering the true challenges behind a client's strategy
+- Create actionable plans that drive real change for the client organization
+- Combine research, data analysis, interviews, and structured brainstorming to develop recommendations
+- Help clients solve problems, refine strategies, and implement transformations
+- Equip clients with the tools and knowledge to continue innovating after the engagement ends
+
+### Basic Requirements
+- Undergraduate degree in progress
+- Excellent organization capabilities, including the ability to initiate tasks independently
+- Strong communication skills, both verbal and written, in English and local office language(s)
+- Proficient in rational decision making based on data, facts, and logical reasoning
+- Ability to create work-product-focused materials/outputs, which may include PowerPoint decks, Excel models, articles, or other written deliverables
+- Exceptional time management to meet responsibilities in a complex and largely autonomous work environment
+
+### Bonus / Preferred Qualifications
+- Ability to work or attend meetings outside of traditional business hours
+- Ability to travel to and work in varying environments that may be challenging and/or not easily accessible (e.g., factories, hospitals, mine sites), reflecting readiness for diverse, hands-on client settings across McKinsey's global office network
+
+## JD 19: Associate, Internship (US Offices), US Campus, Boston Consulting Group (BCG) (MBB — generalist strategy consulting, undergrad/master's track)
+Source: Boston Consulting Group careers posting, mirrored on Glassdoor — https://www.glassdoor.com/job-listing/associate-internship-us-offices-us-campus-boston-consulting-group-JV_IC1132348_KO0,41_KE42,65.htm?jl=1010087362991
+Collected: 2026-09-28
+
+### Responsibilities
+- Work alongside BCG consultants, analysts, industry experts, technology specialists, and designers on live client consulting projects (cases) addressing complex business, government, and organizational problems
+- Gather and analyze data, conduct market/industry research, and assess business performance to support case teams
+- Collaborate cross-functionally with team members from varied academic and professional backgrounds on interdisciplinary problem-solving
+- Participate in client-facing activities, including potential travel to client sites, and help develop and present recommendations
+
+### Basic Requirements
+- Currently enrolled undergraduate or non-MBA master's student in any field of study
+- Must be able to live within reasonable commuting distance of the assigned U.S. home office for the internship duration
+- Must obtain a valid driver's license and passport within six months of employment (supports client travel requirements)
+- Open to candidates from all academic disciplines
+
+### Bonus / Preferred Qualifications
+- Demonstrated interdisciplinary problem-solving ability
+- Prior exposure to case-style or structured business problem-solving (e.g., case competitions)
+- Willingness/flexibility to relocate or work across multiple U.S. office locations
+
 ## Implications for Our Framework
 - MBB (Bain) sets almost no hard GPA or major requirement, relying instead on case interviews and live structured problem-solving to filter candidates — this aligns with the consulting field's highest single weight going to leadership (25): MBB is essentially hiring "future engagement leads," not a specific technical skill set.
 - Technology consulting (Accenture) explicitly requires a STEM/business/engineering background and emphasizes sensitivity to trends like cloud and data/AI — showing that within the broader "consulting" category, the implicit weight of skill tools and edu-major fit is significantly higher for the tech-consulting sub-track than for strategy consulting.

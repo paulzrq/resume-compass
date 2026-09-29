@@ -298,5 +298,172 @@ Collected: 2026-09-21
 - Demonstrated data-gathering and reporting skills relevant to people analytics
 - Prior HR-related student-organization leadership or project experience
 
+## JD 13: Human Resources Intern, Commonwealth of Massachusetts (Office of the State Treasurer and Receiver General) (state government agency HR, DEI&B focus)
+Source: Job posting via The Muse (Commonwealth of Massachusetts employer page), https://www.themuse.com/jobs/thecommonwealthofmassachusetts/human-resources-intern-2026-treasury-summer-internship-program
+Collected: 2026-09-22
+
+### Responsibilities
+- Support employee onboarding by helping design and deliver engaging new-hire orientation experiences
+- Collaborate with the HR team to design and execute employee engagement initiatives
+- Help evaluate and recommend improvements to organizational policies
+- Research employee training needs and identify development opportunities
+- Compile and organize recruitment, retention, and programming data
+- Contribute to the office's DEI&B (Diversity, Equity, Inclusion & Belonging) and recruitment strategic goals
+- Assist with general office duties such as typing, scanning, and filing
+- Complete assigned ad-hoc HR projects as needed
+
+### Basic Requirements
+- Currently enrolled in an undergraduate, master's, or MBA program
+- Strong verbal and written communication skills
+- Ability to manage multiple projects simultaneously and meet deadlines
+- Strong interpersonal and organizational abilities
+- Ability to handle confidential information responsibly
+- Proficiency in Microsoft Office (Word, Excel, PowerPoint)
+- Able to work both independently and collaboratively in a team setting
+
+### Bonus / Preferred Qualifications
+- Academic focus or coursework in Human Resources or Organization Management
+- Prior exposure to onboarding, employee engagement, or DEI&B program work
+- Experience compiling or analyzing HR/recruitment data for reporting purposes
+
+## JD 14: Global Mobility Coordinator Intern (HROP), TikTok / ByteDance (global mobility & immigration HR operations)
+Source: The Muse job listing (mirrors TikTok's official careers site, lifeattiktok.com) — https://www.themuse.com/jobs/tiktok/global-mobility-coordinator-internhrop-2026-summer-bsms ; cross-verified via Simplify.jobs — https://simplify.jobs/p/81d0cd0d-7cc4-4caf-87a9-234a03a8830f/Global-Mobility-Coordinator-Intern
+Collected: 2026-09-23 (posting listed as published August 2025 for Summer 2026 internship cohort)
+
+### Responsibilities
+- Provide administrative support for international relocations, assignments, and permanent transfers within the HR Operations (HROP) team
+- Coordinate and track immigration case statuses, including visas, work permits, and renewals
+- Liaise between employees, internal stakeholders, and external immigration/legal vendors
+- Collect and organize required documentation for visa applications and immigration filings
+- Maintain up-to-date records in immigration and mobility tracking systems and monitor case deadlines, flagging expirations and escalating urgent issues to the Program Manager
+- Assist with compliance reporting and respond to employee inquiries regarding relocation
+- Help prepare assignment letters, support letters, and communication templates; support continuous improvement of mobility/immigration processes
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's or Master's degree program
+- Able to commit to a full 12-week internship during Summer 2026 (flexible start dates between May 11 and June 22, 2026)
+- Strong problem-solving and analytical thinking
+- Ability to work in a fast-paced, collaborative, cross-functional environment
+- Comfortable handling confidential/sensitive employee data
+- In-person role based in San Jose, CA (or Seattle, WA for related mobility postings)
+
+### Bonus / Preferred Qualifications
+- Coursework or prior exposure to international HR, global mobility, or immigration processes
+- Familiarity with HRIS or mobility/case-tracking systems (e.g., immigration case management platforms)
+- Proficiency in Microsoft Office/Google Workspace for documentation and case tracking
+- Cross-cultural communication skills and comfort coordinating across time zones with global stakeholders
+- Prior internship or coursework involving data organization, compliance tracking, or vendor coordination
+
+## JD 15: Human Resources Manager Internship, Procter & Gamble (HR Generalist rotational track, consumer packaged goods)
+Source: P&G official job requisition (Job ID R000137026), Summer 2026 12-week HR internship in Cincinnati, OH, mirrored on BuiltIn's job board — https://builtin.com/job/human-resources-manager-internship/7543702
+Collected: 2026-09-24
+
+### Responsibilities
+- Own a specific HR project end-to-end from day one — spanning assessment, design, transition, or process improvement tied to a real business need
+- Partner directly with business leaders to help shape organizational strategy rather than only administering existing HR policy
+- Build skills across core HR functions (recruiting, employee relations, compensation/benefits, training and development) depending on the specific plant/business assignment
+- Collaborate within multicultural, cross-functional teams to design and help implement people-related programs
+- Solve people-related problems and propose creative solutions with measurable impact on the business
+
+### Basic Requirements
+- Junior-year bachelor's student, or first-year master's student (for 2-year programs) / second-year (for 3+ year programs)
+- Major/concentration in Human Resources, Business, Industrial & Labor Relations, Organizational Development, or a related field
+- Available for a full-time, 12-week Summer 2026 internship
+- Good academic standing
+- Willingness to relocate geographically during and after the internship
+- U.S. work authorization (no immigration sponsorship provided)
+
+### Bonus / Preferred Qualifications
+- Demonstrated problem-solving ability and willingness to challenge existing approaches with creative solutions
+- Strong relationship-building and cross-cultural collaboration skills, given work with multicultural teams
+- Integrity and discretion in handling confidential employee and organizational data
+- Growth mindset and comfort operating in ambiguous, fast-changing business environments
+
+## JD 16: Human Resources Intern, Cinemark USA, Inc. (entertainment/media industry (movie theater exhibition chain) HR internship with a workforce-planning/succession-management/people-analytics focus — distinct from all other entries in this file)
+Source: Cinemark official careers page — https://careers.cinemark.com/search/jobdetails/human-resources-intern/8e679a46-2821-4df5-a8df-666f30045e99
+Collected: 2026-09-25
+
+### Responsibilities
+- Collect and organize workforce data from HR systems to evaluate current staffing levels
+- Analyze employee tenure and historical attrition patterns to forecast future retirements and turnover
+- Assess talent pipeline readiness for promotion using established benchmarks
+- Build staffing models comparing projected 12-36 month workforce needs against available internal talent
+- Create reports and executive-facing dashboards summarizing findings and hiring/development recommendations
+
+### Basic Requirements
+- Currently enrolled as a Sophomore, Junior, or Senior at an accredited university, pursuing a degree in HR, Business Administration, Data Analytics, or I/O Psychology
+- Cumulative GPA of 3.0 or higher, with strong Excel proficiency and analytical/problem-solving skills; detail-oriented with strong organizational and communication abilities
+
+### Bonus / Preferred Qualifications
+- Genuine interest in HR strategy and data-driven decision-making
+- Prior exposure to building workforce/succession forecasting models or presenting analytical recommendations to senior stakeholders
+
+## JD 17: 2026 Human Resources Intern, Northrop Grumman (aerospace & defense manufacturing — personnel administration/HRBP support track, Aeronautics Systems sector)
+Source: Northrop Grumman internship posting, mirrored via Texas A&M–San Antonio Future Intern job board — https://apps.tamusa.edu/future-intern/job.php?job_status=historical&page=376&table=historical&id=441596683
+Collected: 2026-09-26
+
+### Responsibilities
+- Maintain and update employee records and personnel files in HR systems
+- Compile and analyze confidential personnel statistics and generate reports using HR software
+- Support benefits administration and coordinate related employee inquiries
+- Inform staff of HR policies, procedures, and program changes
+- Assist with training/onboarding support and workflow-improvement design projects
+
+### Basic Requirements
+- Enrolled full-time in an undergraduate or graduate program (HR, Business, or related field), graduating after August 2026
+- Available for full-time work (40 hrs/week) for at least 10 weeks during Summer 2026
+- Must be able to obtain and maintain a U.S. Government Secret security clearance (U.S. citizenship required)
+- Proficient with HR software/HRIS for recordkeeping and reporting
+
+### Bonus / Preferred Qualifications
+- Cumulative GPA of 3.25 or higher
+- Prior internship, co-op, or work experience demonstrating leadership, teamwork, and communication skills
+- Willingness/ability to travel (~10%) and work on-site at the Palmdale, CA facility
+
+## JD 18: Human Resources Employee Relations Intern, Piedmont Airlines (HR employee relations, regional airline — wholly owned subsidiary of American Airlines Group)
+Source: Official Piedmont Airlines job posting (Charlotte, NC), reproduced by Glassdoor — https://www.glassdoor.com/job-listing/human-resources-employee-relations-intern-piedmont-airlines-JV_IC1138644_KO0,41_KE42,59.htm?jl=1009485769435
+Collected: 2026-09-27
+
+### Responsibilities
+- Participate in employee investigations alongside the HR/Employee Relations team
+- Maintain electronic personnel records
+- Proofread HR documents, including training materials and policy documentation
+- Arrange meetings and travel as needed for the HR team
+- Develop proficiency working with HR information databases
+
+### Basic Requirements
+- Pursuing an undergraduate degree in Business Administration (Human Resources preferred) or another related field
+- Strong computer proficiency
+- Excellent written and verbal communication skills
+- Outstanding organizational skills and ability to multi-task
+- Ability to work independently and meet specified deadlines
+- Must pass background clearance (driving record check, 10-year criminal history verification, drug screening) and provide proof of high school diploma/GED, per airline employment requirements
+
+### Bonus / Preferred Qualifications
+- Proficiency with Microsoft Office Suite (Excel, Word, PowerPoint, Teams)
+- Public speaking and presentation experience
+
+## JD 19: Human Resources Intern, JDC (American Jewish Joint Distribution Committee) (nonprofit/humanitarian org — recruiting & HR operations generalist)
+Source: Built In job listing (mirrored from JDC's official careers posting) — https://builtin.com/job/human-resources-intern/9598638
+Collected: 2026-09-28
+
+### Responsibilities
+- Support recruitment operations: research staffing agencies and job platforms, analyze applicant tracking system (ATS) data, shadow candidate interviews, and help organize/maintain candidate records
+- Develop programming and materials for JDC's internship initiative in partnership with the Marketing/Communications team
+- Participate in planning employee engagement and wellness initiatives and activities
+- Assist with benefits design research and related administrative projects
+- Support general HR operations work, including personnel file digitization and HR document review
+
+### Basic Requirements
+- Current undergraduate or graduate student, or recent graduate, with interest in HR or a related field
+- Strong organizational skills and attention to detail
+- Excellent verbal and written communication skills
+- Ability to handle confidential employee/candidate information appropriately
+
+### Bonus / Preferred Qualifications
+- Prior internship or campus leadership experience
+- Demonstrated interest in nonprofit or humanitarian-sector work
+- Career interest in HR, talent acquisition, or organizational development
+
 ## Implications for Our Framework
 Across all five postings, no employer requires or even mentions SHRM/PHR-style certifications at the internship level — what they consistently ask for instead is a relevant but broad academic major (HR, Business, Psychology/Org Behavior, Communications), a minimum GPA threshold (3.0 in two of five), and soft-skill fundamentals (written/verbal communication, attention to detail, collaboration, "strong interest" in HR). This suggests our scoring should weight coursework relevance and communication/interpersonal evidence more heavily than credentialing for entry-level HR roles. Tool familiarity is treated as a plus, not a gate: Excel/Office proficiency is near-universal and baseline, while HRIS/analytics exposure (Workday, Power BI, ATS platforms, LMS tools) appears almost exclusively in the "preferred/bonus" tier rather than as a hard requirement — so resumes should be rewarded for such exposure but not penalized for lacking it. Finally, the sub-track differences matter for framing: TA/recruiting and HRBP postings lean on interpersonal/relationship-building language, while Total Rewards and L&D postings put more emphasis on data/market-research analysis and instructional-design familiarity respectively — meaning a strong HR resume should be evaluated partly against which sub-track it targets rather than a single generic "HR skills" rubric.

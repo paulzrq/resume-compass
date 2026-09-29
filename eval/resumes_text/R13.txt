@@ -1,0 +1,35 @@
+(RYAN) CHENGXI  LI
+Mississauga, ON  |  [PHONE]  |  [EMAIL]  | 
+https://www.linkedin.com/in/chengxi-li-420562259/  |  https://github.com/Togata1
+
+EDUCATION 
+University of Toronto, Mississauga, ON   (CGPA 3.81/4.00)	Expected May 2025
+Honours Bachelor of Science (H.Bsc.): Computer Science Specialist and Applied Statistics Major, PEY Co-op 
+Relevant Coursework: Software Design, Data Structure and Analysis, Principles of Computer Networks, Software Tools and Systems Programming, Algorithm Design and Analysis, Introduction to AI and Machine Learning
+Awards: Dean’s List Scholar, 2021-2022 Mathematical and Computational Sciences Honour Roll
+
+TECHNICAL SKILLS 	 
+Coding Languages: Python, Java, C, C++, SQL, R
+Tools: Tensorflow, PyTorch, Keras, MATLAB, Numpy, JavaFX, Git
+Technical Skills: Advanced Machine Learning, Artificial Intelligence, Software Design Patterns, Complexity Analysis
+
+WORKING EXPERIENCE
+Manorlead Group Inc. Software Engineer Intern, Richmond Hill, ON | JavaScript, Node, AI	Aug 2023 - Sep 2023
+Collaboratively designed and developed a detailed webpage using Node.js and JavaScript in a group of 3 to showcase new property developments, meeting the needs of numerous users and providing them a greatly enhanced experience.
+Curated and developed AI training sets that rectified price reading inaccuracies and focused on keyword recognition, significantly enhancing the AI's ability to interpret values correctly and identify property-related terms like 'bedroom', 'bathroom', 'condo', 'house', etc.
+
+PROJECTS EXPERIENCE 
+Activity Scheduling App using Machine Learning and RL-DQN (Working for Professor Chi-Guhn Lee), Group Project | AI, Python, TensorFlow	Sep 2023 - Present
+Developed a Python-based activity scheduling app that utilizes AI algorithms to intelligently allocate and manage time slots for various tasks and events.
+Utilized TensorFlow and OpenAi’s gym to implement and train the RL-DQN model, simulating various scheduling scenarios and refining decision-making processes for optimal task allocation.
+Applied a combination of greedy strategies and mini-batch techniques to improve the model's learning efficiency.
+ 
+Tetris Game, Group Project Leader | Java, JavaFX, GUI, Design Patterns, Leadership	Sep 2022 - Nov 2022
+Led a team of 4 members and adopted the Agile software development methodology to develop a Tetris game.
+Collaborated closely with the team to ensure smooth and effective communication and task distribution. Unitedly addressed and overcame challenges that arose during the development process.
+Utilized JavaFX to craft an engaging GUI and introduced a customizable color palette feature, allowing users to modify the colors of Tetris board and pieces for an optimized gaming experience.
+Integrated advanced software design techniques to develop the game, employing different design patterns to strategically architect the code implementation.
+
+File Compress/Decompress App using Huffman Tree | Python, Unicode	May 2022 - Apr 2022
+Designed and developed a Python-based application for compression and decompression of various file types, including .txt, .png, and .mp3 files.
+Implemented and utilized the Huffman Tree algorithm for file compression, resulting in significantly faster and more efficient compression and decompression processes compared to traditional methods.

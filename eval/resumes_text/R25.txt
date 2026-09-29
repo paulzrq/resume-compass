@@ -1,0 +1,43 @@
+Shuo(Ava) Qin            	
+[EMAIL] | [PHONE] | Ann Arbor, MI | www.linkedin.com/in/shuoqin12
+EDUCATION
+University of Michigan, Ann Arbor	             						                  Expected May 2025
+M.S in Applied Statistics	
+Relevant Coursework: Linear Regression, Statistical Computing, Probability Distribution Theory.		
+University of California, San Diego 									        June 2023
+B.S in Mathematics	GPA3.81/4.0 
+UCSD Provost Honors and Good Standing. Marshall College Honors Program.
+Relevant Coursework: Real Analysis, Calculus, Linear Algebra, Differential Equation, Probability and Statistics, Data Science, Cognitive Science, Finance, Accounting.
+
+SKILLS 
+Languages: Chinese (Native), English (advanced)
+Technical Proficiencies: Python, R, Microsoft Office Suite, HTML, CSS, MATLAB
+
+EXPERIENCE 
+UCSD Transportation Campus Curbside, La Jolla, California	                    	       January 2022 – June 2023
+Customer Relations Representative
+Greet all customers with a smile and an upbeat attitude while displaying customer service and interpersonal skills.
+Resolve or escalate customer inquiries promptly and professionally to promote confidence, retention, and trust.
+Demonstrate a strong work ethic and exceptional attention to detail; excel both independently and working in a team environment.
+Identify opportunities to streamline work processes and improve efficiency; strategize actionable recommendations for presentation to management.
+Balance multiple tasks and priorities simultaneously while meeting tight deadlines; contribute to a positive and productive workplace culture. 
+Agriculture Bank of China, Chaoyang, Beijing 					         June 2021 – August 2021
+Bank Teller Intern
+Conducted financial research and analysis to support decision-making processes.
+Assisted in the verification and processing of various financial documents.
+Facilitated the implementation of new banking systems, contributing to increased operational efficiency and accuracy.
+Actively promoted bank products and services, identifying opportunities to cross-sell and enhance customer relationships, resulting in increased revenue for the branch. 
+Maintained a strong commitment to confidentiality and compliance with all banking regulations, safeguarding sensitive customer information and financial data.
+
+PROJECTS
+Spam Classification(R)
+Conducted logistic regression modeling for each data version, providing insightful interpretations of the results. 
+Performed data cleaning and integration on a dataset comprising 4601 entries. Visualized the results in the report.
+Implemented linear and quadratic discriminant analysis techniques and linear and nonlinear support vector machines on both standardized and log-transformed datasets.
+Generated tree-based classifiers on the provided data.
+Employed a carefully selected method through a singular approach with optimized tuning parameters or a blend of multiple methods to construct a classifier aiming for a minimal test error rate.
+Predictive Modeling for Breast Cancer(R)
+Utilized R to import and analyze a dataset for predicting the probability of recurrence or death based on hormonal therapy treatment.
+Calculated the predicted probability of recurrence or death for both patients treated with hormonal therapy and those not treated with it.
+Computed the 95% Wald Confidence Interval for the logarithm of the odds ratio comparing recurrence or mortality rates between patients receiving hormonal therapy and those not while controlling for other variables.
+Applied parametric bootstrap with 1000 iterations to compute a 95% Confidence Interval of the data.

@@ -1,0 +1,47 @@
+Hao (Fiona) Mei 
+[PHONE], [EMAIL] 
+University of California, Berkeley - Berkeley, CA					                   August 2020 - December, 2024
+Data Science with domain emphasis in Mathematics & Modeling- Bachelor of Arts   	           
+Psychology - Bachelor of Arts							           
+Major GPA: 3.8/4.0
+Relevant Coursework: Programming, Data Structures, Machine Learning, Algorithms, Probability, Statistical Modeling, Database Management, Linear Algebra, Multivariable Calculus, Optimization
+
+Programming: Python(Numpy, Pandas, Xarray, Matplot, Seaborn, Scikit-Learn), SQL, R, Power BI, JavaScript, Spark
+Tools: A/B Testing, Tableau, EXCEL, Visual Studio, Git, Microsoft Suites, Logistic Regression Regression, Jupyter Notebook, Adobe	
+
+Data Scientist Intern – Decathlon  		  					     	    Feb, 2023 to June, 2023
+Leveraged Python to extract insights from datasets, creating dashboards for e-commerce promotions, optimizing sales, and operations
+Achieved a 70% reduction in GMV gaps by analyzing and cleaning data with SQL and Python on large datasets(3m+ lines)
+Executed multiple A/B testing models to enhance user experiences and boost conversion rates during promotion seasons
+Enhanced dashboards efficiency by 60% by updating from manual to automated updates within Excel with queries and pivot tables
+Module Developer – College of Computing, Data Science and Society		             	             September, 2022 to Present
+Developed over 30 educational Jupyter notebook modules for 5+ courses involving Python, R, SQL and Machine Learning
+Collaborated with faculty members to perform data analysis and data visualization on course datasets
+Conducted in-class presentations and delivered tutoring support to students, fostering a supportive learning environment
+Data Analyst Research Assistant Research Assistant – Berkeley Ruhi Lab			    August, 2023 to Present
+Spearheaded data analysis in Python for a pivotal lab project on beaver population restoration
+Executed advanced geospatial analysis in Python, producing 20+ graphs to evaluate potential beaver dam density
+Analyzed large-scale netCDF files from the LIS model using Berkeley’s supercomputer, Savio, optimizing parameters and running simulations for diverse beaver restoration scenarios 
+Search Query Project Developer – Ithaka (JSTOR)					        	         July, 2023 to Present
+Utilized Python to analyze datasets, enhancing user query construction with 3+ implemented suggestions for the team
+Contributed to the creation and training of large language models to improve search query suggestions 
+Conducted rigorous data-driven end-user testing, leading to a 25% improvement in search query recommendations
+Marketing Analyst Intern – Emotewell    					             	             June, 2022 to August, 2022
+Developed 8 user personas for 4 products using 700+ survey responses and 30 interviews, visualized through Power BI.
+Gathered user demographics and campaign performance through SQL and Python, and conceived innovative promotion strategies
+Pioneered monthly email newsletter via Mailchimp, achieved a 40% boost in website views and a 20% subscriber growth
+Research Assistant – Berkeley Cognitive and Developmental Lab			        January, 2022 to August, 2023 
+Took leadership as head research assistant, helped design and execute experiments on children’s cognitive development stages
+Employed Excel for data storage and analysis following study execution
+Utilized Tableau to craft data visualizations and regularly presented study updates and results to lab management
+
+President – Healbridge			   					             	                   August, 2022 to Present
+Founded Berkeley’s first mental health organization focuing on Asian Community
+Coordinated sponsorships and collaborations while strategizing and executing 20+ successful events with 500+ attendees
+Director and Vice President – Korean Performance Group				          August, 2022 to August, 2023
+Played a vital role in team development by actively participating in the recruitment process, ensuring a diverse and talented group 
+Cultivated various partnerships with famous organizations such as PUBG and San Francisco City Department
+EDUCATION
+SKILLS
+WORK EXPERIENCE
+ACTIVITIES

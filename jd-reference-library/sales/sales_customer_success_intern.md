@@ -284,5 +284,171 @@ Collected: 2026-09-21
 - Demonstrated "scrappy, hungry" business-development mindset with a track record of initiative
 - Coursework or projects involving financial/market analysis relevant to real estate deals
 
+## JD 13: Disney Advertising Sales Intern, The Walt Disney Company (media & entertainment advertising sales, TV/streaming ad sales)
+Source: Disney Careers job posting (Summer 2026 Ad Sales Internship, New York, NY), https://www.disneycareers.com/en/job/new-york/disney-ad-sales-intern-summer-2026/391/88015719168 (also mirrored at https://www.showbizjobs.com/internships/disney-summer-intern-ad-sales-in-new-york/jid-4kyy9y)
+Collected: 2026-09-22
+
+### Responsibilities
+- Placed on one of six ad sales teams: Ad Operations, Advertising Sales, Business Operations, Client Brand Solutions, Creative Studios, or Revenue Analytics
+- Support account executives with client reporting, campaign trafficking, and industry/market research
+- Manage and book TV and streaming commercial ad inventory and implement agency requests (Ad Operations track)
+- Create sales communications, presentations, and marketing materials for clients and internal teams
+- Analyze the advertising sales ecosystem and translate data into actionable insights for inventory and campaign performance (Business Operations / Revenue Analytics tracks)
+- Collaborate cross-functionally on organizational planning and marketplace analysis
+
+### Basic Requirements
+- Currently enrolled full-time in a college/university (junior or senior year preferred), majoring in advertising, business, or marketing preferred
+- Proficiency in Word, Excel, PowerPoint, Outlook, and Keynote
+- Experience managing multiple projects in a collaborative, fast-paced setting
+- Strong written and verbal communication, leadership, and problem-solving skills
+- High attention to detail and ability to handle confidential information and meet deadlines
+- At least 18 years old with unrestricted U.S. work authorization; able to work full-time in New York, NY for the June-August 2026 term
+
+### Bonus / Preferred Qualifications
+- Knowledge of the advertising sales industry
+- Adobe Creative Suite experience
+- Prior media and entertainment industry experience
+- Familiarity with Disney properties and brands
+
+## JD 14: Sales Development Representative Intern – Summer 2026, Delinea (cybersecurity/privileged access management SaaS, SDR)
+Source: Delinea (Insight Partners portfolio company) careers portal — https://jobs.insightpartners.com/companies/delinea-2-49859f77-af91-4a4f-8a07-0629e1e028aa/jobs/64162891-sales-development-representative-intern-summer-2026
+Collected: 2026-09-23
+
+### Responsibilities
+- Execute outbound prospecting through cold calls, emails, and social media outreach to generate qualified leads
+- Evaluate and qualify prospects against defined criteria, then hand off qualified opportunities to the sales team
+- Document all prospect interactions and pipeline activity in CRM systems (Salesforce)
+- Participate in structured sales training sessions and regular team meetings
+- Support marketing and sales teams with event attendance and follow-up efforts
+- Assist with additional sales enablement initiatives as needed
+
+### Basic Requirements
+- Currently enrolled in a bachelor's degree program (Business, Marketing, Communications, or related field)
+- Strong written and verbal communication skills
+- Self-motivated, with a demonstrated commitment to learning
+- Comfortable engaging customers by phone, email, and social media
+- Solid organizational skills and effective time management
+- Genuine interest in sales, technology, or the cybersecurity industry
+
+### Bonus / Preferred Qualifications
+- Prior customer service, retail, or sales experience
+- Familiarity with CRM software such as Salesforce or HubSpot
+- Working understanding of sales fundamentals and outbound prospecting methodology
+
+## JD 15: Commercial Trainee Program Intern (CTPi), Anheuser-Busch (Beer/Alcohol Beverage Field Sales & Distribution)
+Source: Anheuser-Busch official Commercial Trainee Program Internship (CTPi) posting, distributed via RippleMatch and cross-listed on Anheuser-Busch's official job board (anheuser-busch.dejobs.org) — https://job-boards.greenhouse.io/ripplematchinterns/jobs/8231460002
+Collected: 2026-09-24
+
+### Responsibilities
+- Complete a 10-week, field-based sales immersion at one of Anheuser-Busch's Front-Line Sales & Distribution Centers, learning how beer/beverage brands (Budweiser, Bud Light, Michelob ULTRA, Stella Artois, etc.) move from distributor to retail shelf and tap
+- Work directly with retail and on-premise accounts (grocery, convenience, bars/restaurants) to understand order-taking, merchandising, and account relationship-building in the field
+- Take part in structured leadership-development programming alongside the field rotation to build commercial and people-management skills
+- Own an individual capstone project analyzing a real commercial/sales challenge and present findings and recommendations to senior sales leadership at the end of the internship
+- Be open to geographic and functional mobility, gaining exposure to different markets/functions within the commercial organization during the internship
+
+### Basic Requirements
+- Current university student or recent graduate with a Bachelor's degree, minimum 3.0 GPA
+- U.S. work authorization required; no visa sponsorship available
+- Willingness to relocate/travel across the U.S. for the duration of the 10-week program (housing and travel stipends provided based on eligibility)
+- Demonstrated leadership capability in prior work experience and/or extracurricular activities
+- Comfortable working in team environments with active listening and collaboration skills
+- Self-motivated, results-driven, and able to manage multiple projects simultaneously in a fast-paced, ambiguous environment
+
+### Bonus / Preferred Qualifications
+- Background in Business or Sales coursework/experience (though all majors are accepted)
+- Prior experience working directly with consumers and/or retailers (e.g., retail, merchandising, or customer-facing roles)
+- Data-driven problem-solving ability and a process-improvement mindset
+- Intellectual curiosity and openness to innovation, including a willingness to question existing processes and take calculated risks
+- Adaptability to shifting priorities and comfort operating with limited structure in the field
+
+## JD 16: Verizon Business Public Sector Sales Summer 2026 Internship, Verizon (telecom carrier B2B/public-sector field sales internship — a sub-track not represented elsewhere in this file)
+Source: Verizon Careers official careers site — https://mycareer.verizon.com/jobs/r-1085636/verizon-business-public-sector-sales-summer-2026-internship/
+Collected: 2026-09-25
+
+### Responsibilities
+- Partner with the Verizon Business public sector sales team to help unlock new business and close sales with government/education customers
+- Grow existing customer relationships and help develop customer-facing product programs
+- Conduct market research and competitive analysis, and manage sales tracking and appointment scheduling
+- Analyze customer data to help inform proposed solutions
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's degree program (Sales, Business, Political Science, Marketing, Communications/PR, or related field), expected graduation Dec 2026–June 2027
+- Authorized to work in the U.S. without visa sponsorship; willing to work 40 scheduled hours/week on-site and willing to travel/relocate
+
+### Bonus / Preferred Qualifications
+- Prior customer-facing/customer-interaction experience
+- Knowledge of contract management, procurement strategy, or market research in a sales context; strong analytical, communication, leadership, and presentation abilities
+
+## JD 17: Inside Sales Intern, W.W. Grainger, Inc. (industrial MRO distribution — B2B inside sales/account management track, distinct from CPG field sales, medical device sales, and existing SaaS SDR programs already in the library)
+Source: Grainger Careers — https://jobs.grainger.com/job/SAN-ANTONIO-Inside-Sales-Intern-San-Antonio-TX-78229-2108/1419737000/
+Collected: 2026-09-26
+
+### Responsibilities
+- Complete a 10-week summer internship beginning with four weeks of structured sales training covering foundational selling skills and product/solution knowledge
+- Communicate with customers by phone (up to 40 hours/week) to assess business needs and recommend appropriate product and service solutions
+- Gain hands-on exposure to account management, including managing and growing an assigned book of business
+- Participate in learning sessions and Q&A discussions with senior/executive leadership across the sales organization
+- Deliver a final presentation to department leadership summarizing internship projects and outcomes
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Sales, Business, Marketing, or a related field, expected graduation December 2027–May 2028
+- Minimum cumulative GPA of 3.0
+- Strong verbal/written communication skills and ability to adapt to a fast-paced, customer-facing environment
+- Available to work up to 40 hours per week for the full 10-week program
+
+### Bonus / Preferred Qualifications
+- Demonstrated, stated interest in pursuing a professional sales career after graduation
+- Willingness to relocate (housing support offered for candidates living more than 30 miles from the work location)
+- Prior customer-facing, phone-based, or account-management experience
+
+## JD 18: Sales Development Intern, Uber (US — Uber for Business, mobility/tech platform)
+Source: Official Uber internship posting (2026 Sales Development Intern, US), Chicago, IL, mirrored on The Muse — https://www.themuse.com/jobs/uber/2026-sales-development-intern-us
+Collected: 2026-09-27
+
+### Responsibilities
+- Generate qualified new business opportunities through outbound prospecting for Uber for Business
+- Conduct strategic outreach via calls, emails, and LinkedIn to identify and qualify prospective customers across diverse industry verticals
+- Research target accounts and tailor messaging to engage decision-makers
+- Deliver Sales Qualified Leads (SQLs) each month that convert into revenue opportunities, maintaining a strong pipeline of new prospects
+- Lead conversations with decision-makers to uncover business needs
+- Maintain data hygiene and accurate records in Salesforce
+- Represent Uber's values and brand professionally in all customer-facing interactions
+
+### Basic Requirements
+- Actively pursuing a bachelor's degree in sales, marketing, business, or a related field
+- Anticipated graduation date of December 2026
+- Full availability for the 12-week internship program (May/June 2026 start)
+
+### Bonus / Preferred Qualifications
+- Prior cold calling and email campaign experience
+- Proficiency with LinkedIn Sales Navigator, ZoomInfo, and Salesforce
+- Strong organizational and time management skills
+- Excellent written and verbal communication skills, with the ability to build rapport quickly
+- Self-starter mentality with a strong learning orientation
+
+## JD 19: 2026 Management and Sales Internship, Sherwin-Williams (retail store sales + outside contractor B2B sales training)
+Source: Indeed job posting (Sherwin-Williams career listing) — https://www.indeed.com/viewjob?jk=69e6f4c78aadf526
+Collected: 2026-09-28
+
+### Responsibilities
+- Deliver customer service in-store and via phone at a Sherwin-Williams retail paint/coatings store
+- Support sales through product recommendations and maintaining product displays
+- Build product knowledge to answer customer questions and assist with purchasing decisions
+- Manage inventory and perform visual merchandising tasks
+- Complete a team-based capstone project addressing a real business challenge for the district
+- Travel with outside sales representatives calling on contractor accounts to gain exposure to B2B/outside sales
+
+### Basic Requirements
+- At least 18 years old, legally authorized to work in the U.S. without sponsorship
+- Currently enrolled in a college or university program
+- Able to lift up to 70 lbs occasionally and 50 lbs frequently
+- Available to work scheduled hours including evenings and weekends
+
+### Bonus / Preferred Qualifications
+- Valid, unrestricted driver's license
+- At least one year of experience in delivery, retail, or customer service
+- Prior team-oriented work experience
+- Multilingual ability, particularly Spanish proficiency
+
 ## Implications for Our Framework
 Across all five postings, employers rarely demand prior quota-carrying sales experience at the internship level — instead they consistently weight communication skills, "comfort with outbound/cold outreach," attention to detail, and the ability to self-manage multiple priorities in a fast-paced environment, meaning leadership or high-touch communication roles (e.g., campus orgs, tutoring, retail/customer-facing jobs) can reasonably substitute for direct sales experience on a resume. CRM familiarity (Salesforce, HubSpot) appears only as a "preferred, not required" bonus rather than a baseline filter, so our scoring should treat it as a plus-signal, not a gate. Quantifiable results/metrics-driven experience matters more as a proxy trait (data-driven mindset, Excel/Sheets proficiency, prior reporting or project work) than as literal sales-quota history — postings from data-heavy tracks (TikTok Shop, Salesforce-adjacent roles) explicitly reward analytical/spreadsheet skills alongside soft skills. Finally, sector fit and domain curiosity (e.g., "interest in identity security," "interest in e-commerce/creator economy," "passion for a career in sales") show up as differentiators across nearly every posting, suggesting our framework should credit resumes that show demonstrated interest in the specific industry/product category, not just generic "sales experience."

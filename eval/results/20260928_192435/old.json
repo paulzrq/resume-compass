@@ -1,0 +1,888 @@
+[
+ {
+  "resume_id": "R01",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 5,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 2,
+   "present": 5
+  },
+  "total": 94,
+  "tier_label": "顶尖竞争力",
+  "usage": {
+   "input_tokens": 1557,
+   "output_tokens": 969,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1557,
+   "output": 993,
+   "cache_creation": 0,
+   "cache_read": 9400
+  },
+  "api_calls": 1,
+  "seconds": 23.0
+ },
+ {
+  "resume_id": "R02",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 3,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 73,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1145,
+   "output_tokens": 1483,
+   "thinking_tokens": 721,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1145,
+   "output": 1711,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 29.8
+ },
+ {
+  "resume_id": "R03",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 87,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1579,
+   "output_tokens": 1400,
+   "thinking_tokens": 431,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1579,
+   "output": 1064,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 27.2
+ },
+ {
+  "resume_id": "R04",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 3,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 2
+  },
+  "total": 73,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1624,
+   "output_tokens": 983,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1624,
+   "output": 901,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 22.4
+ },
+ {
+  "resume_id": "R05",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 5,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 81,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1354,
+   "output_tokens": 1678,
+   "thinking_tokens": 819,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1354,
+   "output": 1249,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 29.9
+ },
+ {
+  "resume_id": "R06",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 3,
+   "skill": 3,
+   "cert": 1,
+   "lead": 3,
+   "present": 4
+  },
+  "total": 68,
+  "tier_label": "中等，需针对性提升",
+  "usage": {
+   "input_tokens": 1737,
+   "output_tokens": 1884,
+   "thinking_tokens": 874,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1737,
+   "output": 1803,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 31.7
+ },
+ {
+  "resume_id": "R07",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 4
+  },
+  "total": 82,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1976,
+   "output_tokens": 1511,
+   "thinking_tokens": 496,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1976,
+   "output": 1842,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 37.4
+ },
+ {
+  "resume_id": "R08",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 2,
+   "present": 4
+  },
+  "total": 81,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1876,
+   "output_tokens": 1782,
+   "thinking_tokens": 872,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1876,
+   "output": 1470,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 37.0
+ },
+ {
+  "resume_id": "R09",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 73,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1664,
+   "output_tokens": 2226,
+   "thinking_tokens": 1211,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1664,
+   "output": 1416,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 34.5
+ },
+ {
+  "resume_id": "R10",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 5,
+   "skill": 5,
+   "cert": 1,
+   "lead": 2,
+   "present": 5
+  },
+  "total": 94,
+  "tier_label": "顶尖竞争力",
+  "usage": {
+   "input_tokens": 1504,
+   "output_tokens": 913,
+   "thinking_tokens": 25,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1504,
+   "output": 1376,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 27.0
+ },
+ {
+  "resume_id": "R11",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 4
+  },
+  "total": 79,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1457,
+   "output_tokens": 982,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1457,
+   "output": 977,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 21.5
+ },
+ {
+  "resume_id": "R12",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 5,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 2,
+   "present": 5
+  },
+  "total": 95,
+  "tier_label": "顶尖竞争力",
+  "usage": {
+   "input_tokens": 1887,
+   "output_tokens": 1022,
+   "thinking_tokens": 22,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1887,
+   "output": 967,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 22.5
+ },
+ {
+  "resume_id": "R13",
+  "dimension_scores": {
+   "edu": 3,
+   "exp": 2,
+   "proj": 2,
+   "skill": 2,
+   "cert": 1,
+   "lead": 3,
+   "present": 3
+  },
+  "total": 44,
+  "tier_label": "竞争力较弱",
+  "usage": {
+   "input_tokens": 1306,
+   "output_tokens": 1736,
+   "thinking_tokens": 876,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1306,
+   "output": 1525,
+   "cache_creation": 9400,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 35.4
+ },
+ {
+  "resume_id": "R14",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 87,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1506,
+   "output_tokens": 1352,
+   "thinking_tokens": 394,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1506,
+   "output": 1609,
+   "cache_creation": 0,
+   "cache_read": 9400
+  },
+  "api_calls": 1,
+  "seconds": 27.9
+ },
+ {
+  "resume_id": "R15",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 5,
+   "skill": 5,
+   "cert": 2,
+   "lead": 3,
+   "present": 4
+  },
+  "total": 92,
+  "tier_label": "顶尖竞争力",
+  "usage": {
+   "input_tokens": 1396,
+   "output_tokens": 1211,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 1396,
+   "output": 1231,
+   "cache_creation": 7643,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 27.5
+ },
+ {
+  "resume_id": "R16",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 5,
+   "proj": 5,
+   "skill": 5,
+   "cert": 1,
+   "lead": 1,
+   "present": 5
+  },
+  "total": 98,
+  "tier_label": "顶尖竞争力",
+  "usage": {
+   "input_tokens": 1265,
+   "output_tokens": 1377,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 1265,
+   "output": 1432,
+   "cache_creation": 7643,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 29.0
+ },
+ {
+  "resume_id": "R17",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 3,
+   "present": 4
+  },
+  "total": 85,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1152,
+   "output_tokens": 1520,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 1152,
+   "output": 1209,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 28.5
+ },
+ {
+  "resume_id": "R18",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 2,
+   "proj": 2,
+   "skill": 3,
+   "cert": 1,
+   "lead": 2,
+   "present": 3
+  },
+  "total": 53,
+  "tier_label": "竞争力较弱",
+  "usage": {
+   "input_tokens": 748,
+   "output_tokens": 852,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 748,
+   "output": 1224,
+   "cache_creation": 7643,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 22.0
+ },
+ {
+  "resume_id": "R19",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 3,
+   "skill": 3,
+   "cert": 1,
+   "lead": 2,
+   "present": 3
+  },
+  "total": 60,
+  "tier_label": "中等，需针对性提升",
+  "usage": {
+   "input_tokens": 941,
+   "output_tokens": 1034,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 941,
+   "output": 1195,
+   "cache_creation": 7643,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 26.3
+ },
+ {
+  "resume_id": "R20",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 2,
+   "present": 3
+  },
+  "total": 82,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1189,
+   "output_tokens": 1286,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 1189,
+   "output": 1312,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 27.3
+ },
+ {
+  "resume_id": "R21",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 4,
+   "present": 4
+  },
+  "total": 85,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 974,
+   "output_tokens": 1452,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 974,
+   "output": 1634,
+   "cache_creation": 7643,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 35.3
+ },
+ {
+  "resume_id": "R22",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 3,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 2,
+   "present": 4
+  },
+  "total": 71,
+  "tier_label": "中等，需针对性提升",
+  "usage": {
+   "input_tokens": 758,
+   "output_tokens": 1178,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 758,
+   "output": 1369,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 24.2
+ },
+ {
+  "resume_id": "R23",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 5,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 79,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1182,
+   "output_tokens": 1225,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 1182,
+   "output": 1378,
+   "cache_creation": 7643,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 27.1
+ },
+ {
+  "resume_id": "R24",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 3,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 2,
+   "present": 4
+  },
+  "total": 75,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1134,
+   "output_tokens": 1262,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 1134,
+   "output": 1159,
+   "cache_creation": 7643,
+   "cache_read": 0
+  },
+  "api_calls": 1,
+  "seconds": 25.2
+ },
+ {
+  "resume_id": "R25",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 2,
+   "proj": 3,
+   "skill": 3,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 56,
+  "tier_label": "中等，需针对性提升",
+  "usage": {
+   "input_tokens": 809,
+   "output_tokens": 1015,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 809,
+   "output": 935,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 25.3
+ },
+ {
+  "resume_id": "R26",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 2
+  },
+  "total": 77,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 1209,
+   "output_tokens": 1095,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 1209,
+   "output": 1186,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 34.4
+ },
+ {
+  "resume_id": "R27",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 2,
+   "present": 3
+  },
+  "total": 75,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 850,
+   "output_tokens": 1231,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 850,
+   "output": 1064,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 23.9
+ },
+ {
+  "resume_id": "R28",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 2,
+   "proj": 3,
+   "skill": 3,
+   "cert": 1,
+   "lead": 3,
+   "present": 2
+  },
+  "total": 57,
+  "tier_label": "中等，需针对性提升",
+  "usage": {
+   "input_tokens": 519,
+   "output_tokens": 917,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 519,
+   "output": 919,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 19.4
+ },
+ {
+  "resume_id": "R29",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 3,
+   "exp": 2,
+   "proj": 3,
+   "skill": 2,
+   "cert": 1,
+   "lead": 1,
+   "present": 2
+  },
+  "total": 45,
+  "tier_label": "竞争力较弱",
+  "usage": {
+   "input_tokens": 863,
+   "output_tokens": 853,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 863,
+   "output": 882,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 17.5
+ },
+ {
+  "resume_id": "R30",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 3,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 2,
+   "present": 3
+  },
+  "total": 72,
+  "tier_label": "有较强竞争力",
+  "usage": {
+   "input_tokens": 751,
+   "output_tokens": 939,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 7643
+  },
+  "measured_usage": {
+   "input": 751,
+   "output": 1059,
+   "cache_creation": 0,
+   "cache_read": 7643
+  },
+  "api_calls": 1,
+  "seconds": 20.7
+ }
+]
