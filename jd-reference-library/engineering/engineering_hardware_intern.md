@@ -447,6 +447,32 @@ Collected: 2026-09-28
 - Familiarity with board layout, CAD tools, or systems integration workflows
 - Knowledge of electromechanical assemblies, manufacturing/fabrication techniques, or rapid prototyping
 
+## JD 20: Mechanical Engineering Intern, Boston Dynamics (legged/mobile robotics mechanical design track, distinct from Amazon Robotics' broad hardware-development-and-test internship already in this file)
+Source: Official Boston Dynamics careers posting (Workday), https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Mechanical-Engineering-Intern_R2475 (cross-verified via Simplify Jobs mirror: https://simplify.jobs/p/ab274a99-7cfc-4f7c-a6cb-5fe1baaccfb8/Mechanical-Engineering-Intern)
+Collected: 2026-09-29
+
+### Responsibilities
+- Collaborate with multidisciplinary engineering teams to design and support robotic systems
+- Execute verification and validation testing on prototype and production equipment
+- Create and develop innovative features for existing robot products
+- Analyze failures, identify root causes, and implement corrective measures
+- Design and release parts using CATIA CAD software
+- Produce technical documentation including bills of materials (BOMs) and detailed drawings
+- Support design analyses focused on reliability, manufacturability, and cost reduction
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's degree program in Mechanical Engineering or Robotics Engineering
+- Demonstrated interest in robotics and mechanical design
+- Proficiency with 3D CAD tools (SolidWorks, CATIA), including FEA simulation and 2D drawing generation
+- Strong technical writing abilities
+
+### Bonus / Preferred Qualifications
+- Programming experience (Python, LabVIEW, MATLAB)
+- Injection-molded plastic part design experience
+- Knowledge of ASME GD&T standards (Y14.5-2018)
+- Motion control systems design experience
+- Prior internship experience developing mechanical assemblies for commercial products
+
 ## Implications for Our Framework
 - The five postings show the skill dimension means very different things by sub-track: mechanical focuses on CAD/GD&T (Tesla), electrical/hardware requires circuit design, chip architecture, RF, HDL, and lab-instrument operation (Apple), and robotics requires breadth across multiple tool domains (Amazon). Recommend splitting into sub-track-specific tool checklists rather than one generic library.
 - The acceptable range of majors for edu is broader than expected: Intel's manufacturing/process track explicitly accepts chemical engineering, materials science, chemistry, and physics — the edu dimension should not over-penalize non-ME/EE backgrounds under the manufacturing/process sub-track.

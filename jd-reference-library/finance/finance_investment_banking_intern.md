@@ -456,6 +456,31 @@ Collected: 2026-09-28
 - Preferred majors: Finance, Accounting, and/or Economics (though all majors considered)
 - Prior experience with Bloomberg terminal and other technical/quantitative data analysis or modeling tools
 
+## JD 20: Quantitative Trader – Intern (US), Citadel Securities (systematic/quantitative market-making — proprietary trading, distinct from the sell-side client S&T desks (Morgan Stanley, Citi) and discretionary hedge-fund training program (Point72) already in this library)
+Source: Citadel Securities official careers site, live job posting — https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/
+Collected: 2026-09-29
+
+### Responsibilities
+- Complete two rotations with different teams over the summer to build exposure across distinct areas of the trading business
+- Own a defined project in each rotation, supported by a dedicated project manager and mentors
+- Develop in-depth knowledge of a financial market
+- Sharpen decision-making under uncertainty through a structured program of mock trading and game theory
+- Conceptualize valuation strategies, and develop and continuously improve upon mathematical models
+- Design, build, and implement predictive models to generate novel trading signals
+- Use unconventional data sources to drive innovation
+- Conduct research and statistical analysis to build and refine monetization systems for trading signals
+
+### Basic Requirements
+- Bachelor's degree in applied math, engineering, statistical modeling, calculus, computer science, physics, or a related discipline
+- Ability to think about the world systematically and quantitatively
+- Expertise in translating mathematical models and algorithms into code (Python, R, or C++)
+- Ability to manage multiple tasks and thrive in a fast-paced team environment
+- Excellent analytical skills, with strong attention to detail
+- Strong written and verbal communication skills
+
+### Bonus / Preferred Qualifications
+- Experience with modern AI concepts such as Large Language Models (LLMs) and agentic systems is highly desirable
+
 ## Implications for Our Framework
 - GPA-threshold sensitivity varies by firm and should be split into sub-tracks within the edu dimension: T. Rowe Price (asset management) sets a clear hard floor (3.5) with an earlier recruiting timeline, J.P. Morgan (IB) sets a lower floor (3.2), while Blackstone (PE), Morgan Stanley (S&T), and Amazon (corporate finance) give no explicit GPA figure.
 - The skill profile for S&T diverges sharply from IB/PE/AM: Morgan Stanley explicitly states no finance-major requirement, focusing instead on numerical aptitude and composure under pressure, with no mention of modeling, valuation, or industry research anywhere in the posting — the "financial modeling portfolio" bonus item has low marginal value for S&T and should be flagged as "IB/PE/AM/research-track only."

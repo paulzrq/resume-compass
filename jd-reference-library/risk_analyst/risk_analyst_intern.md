@@ -459,5 +459,31 @@ Collected: 2026-09-28
 - Ability to work collaboratively in a fast-paced, cross-functional environment
 - Familiarity with model risk, capital/liquidity frameworks, or regulatory risk concepts
 
+## JD 20: Risk Analyst Intern, USAA (May 2026 start; enterprise risk-management intern at a member-owned military-focused insurance & financial services company — San Antonio/Charlotte/Plano)
+Source: Prosple mirror of USAA careers posting "Risk Analyst Intern (May 2026)" https://prosple.com/graduate-employers/usaa/jobs-internships/risk-analyst-intern
+Collected: 2026-09-29
+
+### Responsibilities
+- Support the identification, assessment, aggregation, and documentation of risks and controls
+- Acquire knowledge of risk management principles and practices
+- Apply foundational learning to support implementation of new risk policies
+- Assist in improving strategies, tools, and methodologies to measure, monitor, and report risks
+- Support cross-functional initiatives to identify, assess, aggregate, and mitigate current and emerging risk events
+- Assist in formulating stress test plans for a line of business or the enterprise
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree or higher in Business, Finance, or a related field
+- Graduation required after August 7, 2026
+- 0 to 2 years of related experience handling simple to moderately complex tasks
+- Foundational knowledge of risk management or relevant operational experience
+- Foundational knowledge of data analysis tools and techniques
+- Proficiency with Excel
+- Must not require visa sponsorship at any time
+
+### Bonus / Preferred Qualifications
+- Information security / IT knowledge
+- Reporting and analysis experience
+- Control testing background
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic timing and citizenship/work-authorization status, not technical skill: every posting specifies an expected graduation window tied to penultimate-year or graduating-senior status (BofA: Nov 2026-Aug 2027; Citi and Morgan Stanley similarly tied to the 2026/2027 cycle), and three of the five (BofA, Citi, Morgan Stanley) explicitly require U.S. work authorization without future sponsorship, which functions as a binary pass/fail gate rather than a scored trait. A minimum GPA threshold appears in three of five postings and clusters tightly between 3.0 and 3.3, suggesting a rubric should treat GPA as a soft-cutoff signal (present/absent and roughly where it falls in that 3.0-3.3+ band) rather than a finely graded continuous score. None of the postings demand hard technical tools (no SQL, Python, or VaR-modeling requirement appears anywhere), which is notable for a "risk" role and implies that at the internship level, technical/quantitative tooling is a differentiator rather than a baseline — resumes that show Excel modeling, a finance/quant/econ/stats major, or prior risk-adjacent coursework should score above a generic business major even though none of these postings strictly require it. What is treated as universal baseline "soft" language is communication skills, analytical/problem-solving ability, attention to detail, and a demonstrated interest in markets/regulation — these appear in every single posting almost verbatim, so a resume-scoring rubric should weight evidence of these (leadership roles, case competitions, research, relevant coursework projects) heavily as baseline credibility rather than as bonus differentiators. True bonus/differentiator signal across postings is a quant-adjacent major (math, statistics, engineering) layered on top of the eligible business/finance majors, prior exposure to specific risk types (market, credit, liquidity, operational), and international/cross-cultural exposure (Citi, JPM AM). Given this pattern, the risk_analyst rubric should be structured as: (1) hard-gate checks for graduation timing and work authorization language when present on the resume/cover context, (2) a GPA band check calibrated to the observed 3.0-3.3 threshold, (3) a moderate-weight core score for communication/analytical soft-skill evidence and any finance/business/quant major, and (4) bonus points layered on top for quantitative coursework, Excel/data tools, or explicit risk-domain exposure — reflecting that these postings screen broadly on fit and eligibility first, and reserve technical specificity as upside rather than a floor.

@@ -466,5 +466,28 @@ Collected: 2026-09-28
 - Prior technical role experience in reinsurance or catastrophe modeling
 - Insurance/reinsurance industry background and understanding of reinsurance products
 
+## JD 20: 2026 – Early Career – Actuarial – Summer Intern, AIG (American International Group) (global commercial/specialty P&C insurer — actuarial pricing/reserving rotational program, Chicago IL or New York NY)
+Source: Official AIG Workday careers posting (req JR2504970), cross-verified via Indeed and Built In Chicago mirrors — https://aig.wd1.myworkdayjobs.com/en-US/early_careers/job/XMLNAME-2026---Early-Career---Actuarial---Summer-Intern---United-States--Chicago--IL---or-New-York--NY-_JR2504970
+Collected: 2026-09-29
+
+### Responsibilities
+- Work with actuaries who quantify risk, price insurance, and reserve losses for AIG's insurance operating companies globally
+- Collaborate cross-functionally with Finance, Claims, Operations, Marketing, and Risk Management teams on dynamic, real-business projects
+- Gain hands-on experience in insurance industry operations over the 10-week immersive summer program
+- Participate in instructor-led masterclasses and attend senior leader presentations
+- Engage in mentoring circles, networking events, and volunteer opportunities alongside the broader early-career intern cohort
+
+### Basic Requirements
+- Bachelor's degree in Actuarial Science, Mathematics, Statistics, or a related field, to be received no later than June 2027
+- Unofficial transcript required upon application
+- Available to work in-person in Chicago, IL or New York, NY for the full program (June 1 – August 7, 2026)
+
+### Bonus / Preferred Qualifications
+- Excellence in previous work experience
+- Outstanding academic and extracurricular achievement
+- Strong analytical, quantitative, and interpersonal skills
+- Enthusiasm about and genuine interest in the insurance industry
+- Global perspective and a team-oriented track record
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic major (actuarial science, math, statistics, economics, finance, or another explicitly "quantitative" field), current enrollment/class standing (three postings specify rising junior/senior or an anticipated 2027-2028 graduation window), and unrestricted US work authorization without visa sponsorship (stated explicitly by WTW, Milliman, and CSAA) — a resume missing any of these should be scored as failing a threshold condition rather than merely losing points. GPA appears as a soft-to-hard cutoff in three of five postings (3.0 at Liberty Mutual and WTW, a notably higher 3.5 at Milliman), while Elevance Health and CSAA omit a stated GPA, so the rubric should treat GPA as a weighted signal capped by whatever the specific posting states rather than a universal fixed threshold. Passing at least one actuarial exam (SOA/CAS) is the single most consistent differentiator — it is a hard requirement at Milliman but only a "preferred, not required" bonus at Liberty Mutual, WTW, and CSAA — meaning it should be weighted heavily as a bonus signal and only treated as a gate when the target posting explicitly demands it. Microsoft Excel proficiency is the universal baseline technical skill mentioned in every posting, while more advanced tooling (R, Python, SAS, SQL, VBA) is consistently framed as a preferred/bonus differentiator rather than a baseline expectation, so a rubric should award only modest baseline credit for "Excel" and reserve larger bonus weight for programming/statistical-tool experience and any AI-tool familiarity (as Elevance Health now explicitly calls out). Soft skills — analytical/problem-solving ability, written and verbal communication, leadership through campus organizations or academic projects, and prior analyst-type internship experience — appear in nearly every posting as qualitative preferred traits, suggesting the scorer should give these meaningful but secondary weight (evidenced through leadership roles, clubs like Gamma Iota Sigma, or prior internships) rather than the primary basis for scoring. Overall, the rubric for this role should be structured as: hard-gate on major/enrollment/work authorization, weighted-threshold on GPA, large bonus weight on exams passed and quantitative programming tools, moderate weight on Excel/Office proficiency as a floor skill, and secondary weight on demonstrated leadership/communication/prior internship experience.

@@ -453,5 +453,30 @@ Collected: 2026-09-28
 - Critical thinking, problem-solving, and an ethical mindset
 - Self-driven with strong communication, organization, teamwork, flexibility, and creativity
 
+## JD 20: Information Security Engineering Intern (Detection Engineering track), MongoDB (developer data platform / DBaaS vendor, detection-engineering & security-tooling internship)
+Source: Built In Seattle "2026 - Information Security Engineering Intern, Seattle" (MongoDB) — https://www.builtinseattle.com/job/2026-information-security-engineering-intern-seattle/8246076
+Collected: 2026-09-29
+
+### Responsibilities
+- Gain hands-on experience with the Detection Engineering team's security infrastructure and workflows
+- Work directly with SOAR/SIEM platforms, DLP (data loss prevention) tooling, and internally developed detection tools
+- Collaborate across MongoDB teams to correlate security data pulled from multiple sources
+- Help construct and tune detection logic/rules used to identify security threats
+- Automate triage processes to speed up incident response and reduce analyst workload
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Cybersecurity, Computer Information Systems, Computer Science, or a related field
+- Foundational knowledge of information security principles, including the CIA triad and threat detection concepts
+- Familiarity with networking concepts and common security threats
+- Python scripting and automation experience
+- Interest in security monitoring platforms such as SIEM/SOAR systems
+- Minimum one quarter/semester of study remaining after the internship concludes
+- U.S. work authorization (employer states sponsorship may be available)
+
+### Bonus / Preferred Qualifications
+- Participation in security-related coursework, certifications, CTF competitions, or personal security projects/initiatives
+- Prior experience with email security or SaaS security tooling
+- Demonstrated ability to learn independently in a hybrid team environment
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is programming fluency (Python shows up in every single listing, often alongside Java, C/C++, or scripting more generally) paired with foundational security literacy — networking protocols, OS internals (Windows/Linux), and either OWASP-style vulnerability knowledge or SOC/incident-response concepts depending on the track. The hard filters that gate candidates before any technical evaluation are non-technical: enrollment status and major (CS/cybersecurity/IT or "related technical field" in every posting), work authorization (Wells Fargo and Motorola both explicitly reject candidates needing visa sponsorship), and in two cases physical/security constraints (Leidos requires U.S. citizenship plus Secret-clearance eligibility; Motorola requires living within an hour of a specific city for a hybrid seat). GPA and class standing appear as filters only in the consulting-track posting (PwC's 3.3 GPA preference and third/fourth-year standing requirement), suggesting these matter more for prestige/Big 4 pipelines than for engineering-heavy or SOC roles, where the emphasis shifts to demonstrated tooling exposure. Certifications (Security+, CEH, OSCP) and CTF/security-research participation consistently sit in the "bonus" tier rather than being required anywhere, as do cloud platforms (AWS/Azure/GCP), containerization (Docker/Kubernetes), and DevSecOps/IaC security — these read as differentiators that separate a strong applicant from an average one rather than baseline expectations. For the resume-scoring rubric, this implies core weight should go to: (1) major/degree-in-progress relevance, (2) at least one general-purpose programming language, and (3) any concrete evidence of networking or OS fundamentals or hands-on security tooling (Wireshark, Burp Suite, ELK, SIEM/EDR exposure) — while certifications, cloud/container security, and CTF participation should be scored as meaningful upward adjustments rather than pass/fail criteria. The rubric should also be flexible enough to recognize that "Cybersecurity Engineer Intern" postings vary substantially by employer type — defense/government roles will weight clearance-eligible citizenship and low-level tooling (Vagrant, Jenkins) more heavily, while consulting-track roles will weight GPA, class standing, and framework/GRC knowledge instead of hands-on engineering skill.

@@ -441,6 +441,32 @@ Collected: 2026-09-28
 - Experience translating market/competitive analysis into MVP feature definition
 - Demonstrated executive-level presentation experience (VP audience)
 
+## JD 20: Product Management Intern, Summer 2027, Mastercard (global payments network / card-scheme fintech track)
+Source: Mastercard Careers posting (Job ID R-287624, "Product Management Intern, Summer 2027 - United States"; original careers.mastercard.com listing has since closed) — mirrored in full via Zapply job board: https://zapply.jobs/jobs/355cf03c-7e19-4f7a-b291-21be7ecffc76/
+Collected: 2026-09-29
+
+### Responsibilities
+- Collaborate with cross-functional teams to solve customer and business challenges within the payments ecosystem
+- Use data, research, and insights to support product decisions
+- Apply analytical and problem-solving skills to identify product opportunities and risks
+- Support product planning, delivery, and continuous improvement
+- Communicate ideas and recommendations to stakeholders
+- Explore emerging technologies, including AI, and their applications to digital products and the payments business
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's degree or accelerated Master's program, with anticipated graduation between December 2027 and June 2028
+- Demonstrated problem-solving and critical-thinking skills
+- Strong communication and collaboration skills
+- Ability to manage priorities and stay organized
+- Proficiency with Microsoft Office tools, including Excel and PowerPoint
+- Eligible to work in the United States without employer sponsorship; must submit an unofficial school transcript
+
+### Bonus / Preferred Qualifications
+- Curiosity and eagerness to learn about customers, products, and technology
+- Interest in technology and emerging fields, including AI, data, APIs, and digital products
+- Adaptability in a fast-paced, evolving environment
+- Attention to detail and a focus on delivering high-quality work
+
 ## Implications for Our Framework
 - Technical PM (NVIDIA) and growth/consumer PM (TikTok, Snap) require fundamentally different things under the skill dimension: the former requires Git, cloud deployment, AI/ML technical projects, and open-source contributions as basic requirements rather than bonuses; the latter centers on SQL/Excel-type analysis tools and leans more on internship/work experience than technical depth.
 - Large companies (Google) and mid-size/startups (Gusto) emphasize different things under edu: Google values major fit and "0-to-1" founder spirit — a potential-oriented approach; Gusto sets "2+ years full-time experience plus a specific graduation window" as a hard gate — a seniority-oriented approach.

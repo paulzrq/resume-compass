@@ -473,5 +473,28 @@ Collected: 2026-09-28
 - Experience with data tools such as Copilot, Power BI, Power Automate, and SharePoint
 - Strong organizational skills and attention to detail
 
+## JD 20: Analyst Development Internship Program, Liberty Mutual Insurance (property & casualty insurance — general business analyst development track)
+Source: The Muse, listing sourced from Liberty Mutual's careers site, "Analyst Development Internship Program - Seattle, WA/Plano, TX (Summer 2026)" https://www.themuse.com/jobs/libertymutualinsurance/analyst-development-internship-program-seattle-waplano-tx-summer-2026-d45848
+Collected: 2026-09-29
+
+### Responsibilities
+- Work individually and as part of a team to gather and analyze data using both qualitative and quantitative methods
+- Research, analyze, and recommend solutions that impact business decisions
+- Participate in a diverse mix of short- and long-term projects that directly affect business results
+- Retrieve, analyze, and present operational datasets to peers and managers
+- Develop fluency in the key drivers of business results and apply insights to make recommendations with measurable impact
+- Contribute to project areas such as brand impact assessment (marketing campaign effectiveness and consumer awareness), pricing strategy (evaluating regional data to adjust pricing/service offerings), and customer experience (gathering operational data and defining metrics for service improvements)
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in Economics, Finance, Business, MIS, Mathematics, Statistics, or a related field
+- 0-2 years of related professional experience
+- Permanent work authorization in the United States
+- Able to commit to the full-time, 11-week program (June 2026) based in Boston, MA, Seattle, WA, or Plano, TX
+
+### Bonus / Preferred Qualifications
+- Strong academic record with a preferred cumulative GPA of 3.0 or higher
+- Experience with, or willingness to learn, MS Excel, SAS, Power BI, R, Python, or SQL
+- Strong interpersonal, communication, organizational, and leadership skills
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is Excel (every listing) plus at least one of SQL/Tableau/Power BI/SAS/Python — employers seem to treat "spreadsheet fluency plus one query/BI tool" as the practical floor for a BA candidate rather than any single dominant tool, so the scoring framework should reward breadth across this small toolkit rather than depth in just one tool. GPA is notably absent as an explicit gate in any of these five (none state a minimum GPA), while expected graduation date/class standing and major relevance (business, economics, statistics, data/CS-adjacent fields, or industry-specific majors like public health at CVS) are used as hard filters — suggesting our framework should weight "major fit + timeline fit" more heavily than raw GPA. No posting mentions a professional certification (no CBAP, PMP, Six Sigma, etc.) as required or preferred, so certifications should be treated as a minor bonus signal at most, not a scored requirement. Finally, soft/applied signals — prior internship or coursework involving data analysis, leadership in student organizations, and the ability to "interpret data and turn it into a business action/presentation" — appear consistently as differentiators, indicating the framework should give real weight to a candidate's project/internship narrative (does it show data-to-decision reasoning and stakeholder communication) rather than credentials alone.

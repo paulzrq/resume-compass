@@ -481,5 +481,28 @@ Collected: 2026-09-28
 - Capability to independently design and operate electrical test stands
 - Strong measurement, technical writing, and data analysis skills
 
+## JD 20: Sensor Calibration & Integration Intern, Robotics and AI Institute (RAI) (legged/dynamic-robotics research institute, founded by former Boston Dynamics leadership; Zurich office — perception/sensor-calibration research track distinct from all covered companies)
+Source: Official Lever job posting "Sensor Calibration & Integration Intern" — https://jobs.lever.co/rai/7add1b9b-aa30-4d93-8cef-2c0a57e6d11f
+Collected: 2026-09-29
+
+### Responsibilities
+- Build a user-friendly calibration suite for multi-modal sensors, including RGB cameras, LiDARs, and IMUs
+- Collaborate closely with researchers to provide a solid sensing foundation for advanced robotic systems
+- Develop solutions that address real-world challenges encountered when deploying robots outside the lab
+- Design well-architected, usable tools and systems rather than one-off scripts
+- Apply optimization and learning-based algorithms (e.g., factor graph optimization) to practical robotics calibration problems
+
+### Basic Requirements
+- Currently pursuing a Master's or PhD degree in robotics, computer vision, or a related field
+- Proficiency in both C++ and Python
+- Solid understanding of state estimation and optimization methods
+- Familiarity with factor graph optimization, ideally with hands-on GTSAM experience
+- Commitment to building dependable, well-engineered tools that support robotics research
+
+### Bonus / Preferred Qualifications
+- Experience with learning-based (rather than purely classical) calibration techniques
+- Open-source contributions to robotics or computer-vision projects demonstrating strong problem-solving ability
+- Publications at top-tier robotics/vision/ML venues (CVPR, ICCV, NeurIPS, ICRA, IROS, etc.)
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline splits along two axes rather than one: postings skewing "robotics software" (Amazon) want general-purpose programming languages (Python/C++/Java/Go/Rust), data structures/algorithms, and object-oriented design, while postings skewing "robotics hardware/automation" (Cepheid, Bastian, ASML) want the ability to read electrical/pneumatic/mechanical schematics, hands-on familiarity with servo systems, sensors, vision systems and PLCs, and CAD tool exposure (SolidWorks, AutoCAD/AutoCAD Electrical) — a resume aimed at this field should be scored on whichever axis (or both) it targets rather than penalized for lacking the other. Hard filters are explicit and non-negotiable in several postings: J&J sets a minimum 3.0 GPA and a 50-mile residency radius, Bastian and J&J require U.S. work authorization without sponsorship, Amazon requires enrollment in a STEM bachelor's-or-higher program and age 18+, and ASML flags export-control/citizenship-sensitive access — these should be treated as gating criteria in the rubric (fail/flag if unmet) rather than weighted alongside soft skills. Class standing and major alignment matter concretely (ASML wants 2+ years completed toward ME/EE/Mechatronics/Physics; Bastian wants EE/CE majors specifically), so major-relevance and progress-toward-degree should be scored fields, not just presence of "engineering" somewhere on the resume. Tooling/coursework signals that function as differentiators rather than requirements — PLC coursework or a prior internship (Bastian), prior technical internship or open-source contribution (Amazon), FIRST Robotics program history (J&J), cleanroom/lab troubleshooting experience (ASML) — should be scored as bonus points that boost a candidate above baseline, not as required fields. Finally, soft/durable skills (communication, independent project management, troubleshooting, adaptability) appear in nearly every posting as either a basic requirement or strong preference, suggesting the rubric should reserve meaningful weight for evidence of self-directed technical projects or team-based engineering work (e.g., FRC/FSAE, senior design, robotics club) as a proxy for exactly these traits, since none of these employers can verify them from a resume alone beyond such project evidence.

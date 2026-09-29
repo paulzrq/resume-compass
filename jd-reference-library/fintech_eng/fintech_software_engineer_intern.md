@@ -475,5 +475,33 @@ Collected: 2026-09-28
 - Understanding of microservices architecture and containerization (Docker)
 - Familiarity with deployment automation tooling (e.g., Jenkins)
 
+## JD 20: Software Engineer Intern, Visa (global card payment network infrastructure — card-scheme/network engineering track, distinct from the payments-processor, neobank, exchange, and crypto tracks already covered in this file)
+Source: Official Visa Workday careers listing, "Software Engineer, Intern, Bellevue - 2027" — https://visa.wd5.myworkdayjobs.com/en-US/Visa_Early_Careers/job/Software-Engineer--Intern--Bellevue---2027_REF088585W-1
+Collected: 2026-09-29
+
+### Responsibilities
+- Participate in a 12-week internship program working on Visa technology initiatives
+- Build self-serve deployment tooling for Kafka clusters using Docker and Kubernetes
+- Develop a natural language chatbot for internal knowledge base searches
+- Prototype automated payment solutions (e.g., for gas station transactions)
+- Create testing tools and visual monitoring systems to track transactional issues
+- Build features supporting digital currency routing and mobile banking
+- Support the full software development lifecycle while applying secure coding practices
+- Work on-site at least 3 days/week in Bellevue, WA
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Computer Science, Engineering, CIS/MIS, Cybersecurity, or a related field
+- Expected graduation between December 2027 and August 2028
+- Ability to communicate clearly and professionally in writing and verbally
+- U.S. work authorization required; no visa sponsorship available
+
+### Bonus / Preferred Qualifications
+- Proficiency in Java, C/C++, C#, .NET, Python, JavaScript, or HTML
+- Experience with testing tools/frameworks such as Selenium, REST, or Groovy
+- Knowledge of software testing principles
+- Strong problem-solving and analytical capabilities
+- Ability to lead and handle ambiguity effectively
+- Resourceful, team-oriented mindset
+
 ## Implications for Our Framework
 Across all five postings, the hard technical floor is remarkably consistent and modest: general-purpose programming proficiency (most commonly Python, Java, Go, JavaScript, or C/C++) demonstrated through coursework, personal projects, hackathons, or a prior internship — none of these companies demand fintech-specific experience as an entry bar, they demand solid CS fundamentals plus evidence of having actually shipped something. The recurring hard filters that function as eligibility gates rather than scoring signals are: current full-time enrollment in a CS/Engineering/quantitative degree program with a specific expected graduation window (Winter 2026/Spring 2027 at Robinhood and Plaid), in-person or hybrid location requirements tied to specific cities (Menlo Park, SF, NYC), and work authorization — three of five postings (Stripe, Robinhood, Affirm/Plaid) explicitly restrict to US citizens/permanent residents/student visa holders or state no sponsorship is offered, which should be treated as a binary pass/fail screen rather than a weighted rubric item since a resume that is otherwise perfect but fails this gate would not advance in real hiring. GPA is notably absent as an explicit criterion in every posting collected, suggesting a resume scorer should not over-weight GPA relative to demonstrated project/internship experience. The clearest differentiators/bonus signals across postings are: genuine "fintech passion" or domain interest called out explicitly by name at Robinhood, Plaid, and Affirm (suggesting resumes that show payments/banking/trading-adjacent side projects or coursework should score meaningfully higher than generic CS resumes); breadth across the stack (backend systems, databases/transactions, and increasingly frontend/API/cloud familiarity per Affirm); and, notably new in the Coinbase posting, fluency with generative-AI-assisted development workflows as a core rather than bonus expectation, which the rubric should start weighting given it appears to be shifting from differentiator to baseline expectation. Overall, this implies a scoring rubric for this field should weight (1) core programming/CS-fundamentals evidence heavily as a baseline, (2) shipped project/internship experience as the primary differentiator, (3) explicit fintech/payments/banking domain signal as a moderate bonus, (4) AI-tool fluency as an emerging bonus trending toward baseline, and (5) treat degree program, graduation timing, location, and work authorization as gating checks rather than continuous score inputs, since none of these companies substitute a strong technical profile for missing eligibility.
