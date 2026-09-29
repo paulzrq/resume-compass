@@ -125,7 +125,7 @@ def match_custom_field_to_existing(name: str, framework: dict, api_key: str, top
             max_tokens=512,
             system=system_prompt,
             messages=[{"role": "user", "content": f"自定义方向：{name}"}],
-            output_config={"effort": "low", "format": {"type": "json_schema", "schema": _score_schema(framework)}},
+            output_config=_output_config(CHEAP_MODEL, _score_schema(framework)),
         )
         usage = _extract_usage(response)
         raw_text = None
@@ -412,6 +412,21 @@ def build_system_prompt(framework: dict, field: dict, jd_reference: str = "") ->
     return "\n".join(lines)
 
 
+# effort 参数目前只有 claude-sonnet-5 支持；Haiku 等模型传了会直接 400。
+# 新模型默认不支持，确认支持后再加进来（fail-closed，宁可不用也不炸）。
+_EFFORT_SUPPORTED_MODELS = {"claude-sonnet-5"}
+
+
+def _output_config(model: str, schema: dict) -> dict:
+    """按模型能力组装 output_config：只给支持的模型加 effort。"""
+    cfg = {"format": {"type": "json_schema", "schema": schema}}
+    if model in _EFFORT_SUPPORTED_MODELS:
+        # 按固定评分标准打分属于结构化任务，不需要模型深度自由推理，
+        # 用 low 档位大幅减少"思考"消耗的token（思考token按输出token计费，之前偏贵的主因）。
+        cfg["effort"] = "low"
+    return cfg
+
+
 def _extract_json_object(raw: str) -> str:
     """从原始文本里抠出第一个完整的花括号JSON对象——正常情况下raw本身就是干净的JSON，
     这一步基本是空操作；但模型偶尔会在JSON前后多带几个字（哪怕提示里明确说了不要），
@@ -685,11 +700,11 @@ def _score_resume_once_attempt(
                 "content": user_content,
             }
         ],
-        # 按固定评分标准打分属于结构化任务，不需要模型深度自由推理，
-        # 用 low 档位大幅减少"思考"消耗的token（思考token按输出token计费，之前偏贵的主因）。
+        # 按固定评分标准打分属于结构化任务，不需要模型深度自由推理；
         # 现在改成"先摘证据再打分"的JSON结构后，证据摘录本身承担了一部分"想清楚再下结论"的作用，
         # 如果发现打分质量明显下降，可以改成 "medium" 再试。
-        output_config={"effort": "low", "format": {"type": "json_schema", "schema": _score_schema(framework)}},
+        # effort 只加给支持它的模型（见 _output_config），Haiku 等传了会 400。
+        output_config=_output_config(model, _score_schema(framework)),
     )
     if getattr(response, "stop_reason", None) == "max_tokens":
         raise _TruncatedResponseError("模型输出达到长度上限，评分未完成")

@@ -441,6 +441,30 @@ Collected: 2026-09-28
 - Knowledge of microservices architecture
 - Familiarity with distributed systems and cloud computing platforms (e.g., GCP)
 
+## JD 20: 2027 Intern - Machine Learning Engineer, Adobe (generative AI / creative-software product deployment track)
+Source: Official Adobe Careers posting (Workday) — https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519
+Collected: 2026-09-29
+
+### Responsibilities
+- Build ML systems including LLM applications, recommendation models, and multimodal AI features
+- Design, train, and evaluate models throughout the full ML lifecycle, from data preparation through production deployment
+- Contribute to real product impact through generative AI features and intelligent systems (e.g. within Adobe's Firefly / Creative Cloud ecosystem)
+- Collaborate with engineers and product managers to deliver solutions
+
+### Basic Requirements
+- Currently enrolled full-time, pursuing a Bachelor's, Master's, or PhD in Computer Science or a related technical field, graduating December 2027 – June 2028
+- Strong Python programming ability
+- Solid understanding of machine learning and deep learning concepts, including LLMs
+- Analytical problem-solving ability
+- Strong communication skills and teamwork capability
+- Available for a full-time internship, May–September
+
+### Bonus / Preferred Qualifications
+- Experience with PyTorch or TensorFlow
+- Familiarity with LLM tooling such as Hugging Face or LangChain
+- Exposure to cloud platforms (AWS, Azure, GCP)
+- Knowledge of model deployment workflows
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

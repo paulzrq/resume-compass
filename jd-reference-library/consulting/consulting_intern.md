@@ -449,6 +449,32 @@ Collected: 2026-09-28
 - Prior exposure to case-style or structured business problem-solving (e.g., case competitions)
 - Willingness/flexibility to relocate or work across multiple U.S. office locations
 
+## JD 20: Americas Division Summer Intern, Simon-Kucher (pricing, sales & marketing strategy consulting — a distinct commercial-strategy specialty boutique, not covered by the file's other economics/turnaround/generalist boutiques)
+Source: Simon-Kucher official careers posting ("Americas Division Summer Intern, Jun 2026"), mirrored on the Prosple graduate-careers job board — https://prosple.com/graduate-employers/simon-kucher-global/jobs-internships/americas-division-summer-intern (original posting: https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/3651?c=simon-kucher)
+Collected: 2026-09-29
+
+### Responsibilities
+- Work in specialized, high-energy teams addressing commercial strategy, pricing, and sales challenges for clients, on one of three tracks: Generalist (broad cross-industry exposure), Elevate (using AI/machine learning to analyze large-scale datasets), or TSPE (supporting transaction due diligence and commercial-improvement identification)
+- Develop and help implement growth strategies, including go-to-market and product-launch support
+- Analyze market, customer, competitor, and pricing data to identify revenue and profitability opportunities
+- Build quantitative/financial models, customer segmentation analyses, and pricing simulations to test scenarios
+- Conduct research, and synthesize findings into client-ready recommendations
+- Contribute to client workshops, presentations, and reports that translate complex data into actionable insights
+- Support internal capability-building and business-development/proposal work
+
+### Basic Requirements
+- Undergraduate or graduate student with an expected graduation date between May and June 2027
+- Degree in progress in business, statistics, economics, marketing, finance, mathematics, or a related quantitative field
+- Unrestricted U.S. work authorization required (CPT/OPT-only status not accepted)
+- No prior full-time work experience required
+- Strong problem-solving, quantitative, and communication abilities
+
+### Bonus / Preferred Qualifications
+- Strategic thinking focused on business growth and revenue optimization
+- Prior involvement in consulting clubs, case competitions, or industry groups
+- Genuine interest in pricing and commercial strategy specifically, rather than generalist strategy consulting
+- Ability to thrive in a fast-paced, entrepreneurial, collaborative environment
+
 ## Implications for Our Framework
 - MBB (Bain) sets almost no hard GPA or major requirement, relying instead on case interviews and live structured problem-solving to filter candidates — this aligns with the consulting field's highest single weight going to leadership (25): MBB is essentially hiring "future engagement leads," not a specific technical skill set.
 - Technology consulting (Accenture) explicitly requires a STEM/business/engineering background and emphasizes sensitivity to trends like cloud and data/AI — showing that within the broader "consulting" category, the implicit weight of skill tools and edu-major fit is significantly higher for the tech-consulting sub-track than for strategy consulting.

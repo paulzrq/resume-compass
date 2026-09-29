@@ -440,6 +440,31 @@ Collected: 2026-09-28
 - Demonstrated leadership experience in academic or extracurricular settings
 - Strong interest in the automotive industry
 
+## JD 20: BELOTERO Global Marketing Internship, Merz Aesthetics (medical aesthetics/pharma brand marketing)
+Source: Built In job listing (Merz Aesthetics careers posting) — https://builtin.com/job/belotero-global-marketing-internship/11374536
+Collected: 2026-09-29
+
+### Responsibilities
+- Organize, review, and consolidate patient before-and-after materials through classification and segmentation analysis
+- Support marketing activities and deliverables for a global BELOTERO brand event, collaborating with internal and external partners
+- Develop competitive-intelligence decks to help regional teams understand market positioning and implications
+- Create and refine presentations and marketing materials aligned with brand identity and strategy
+
+### Basic Requirements
+- Recently graduated from an accredited undergraduate program in Business, Marketing, or a related field
+- Eligible to work in the U.S. without employer sponsorship
+- Able to work onsite three days per week, 20 hours/week
+- Strong written/verbal communication, project-management, and cross-functional collaboration skills
+- Detail-oriented with the ability to translate complex information clearly; analytical and creative thinking capability
+- Proficiency with Microsoft Office (PowerPoint, Excel, Word, Outlook)
+
+### Bonus / Preferred Qualifications
+- Interest in global marketing, aesthetics, and medical aesthetics
+- Market research or competitive-analysis experience
+- Presentation and marketing-material development background
+- Copywriting, editing, and visual-storytelling skills
+- Strong data-analysis experience
+
 ## Implications for Our Framework
 - The brand-management posting (Unilever) never mentions any specific marketing tool in its basic requirements, while the digital/growth-marketing posting (Hill House Home) names Meta, TikTok, and Google plus CAC/ROAS metrics directly in the job duties — bonus item ② ("proficient with data-analysis/ad-platform tools") carries far more real weight for growth marketing than for brand management, and the two should not share one skill rubric.
 - Product marketing (IBM) is the only track to state A/B testing and Excel/Python/Tableau explicitly in the basic requirements, showing it emphasizes "strategy + data" more than brand or content marketing — gap ② ("lacks quantifiable growth/conversion data") should carry heavier deduction weight when evaluating product-marketing resumes.

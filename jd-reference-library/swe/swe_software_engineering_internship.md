@@ -443,6 +443,26 @@ Collected: 2026-09-28
 - Experience contributing to open source projects
 - Completion of first-year college/university coursework in Computer Science or a related field
 
+## JD 20: Software Engineer, Summer Internship, Jane Street (proprietary quantitative trading firm — functional-programming/production-trading-systems engineering track, distinct from Stripe's payments infrastructure and Bloomberg's financial-data-software tracks already in the library)
+Source: Official Jane Street careers site (position listing) — https://www.janestreet.com/join-jane-street/position/8599644002/
+Collected: 2026-09-29
+
+### Responsibilities
+- Pair with a full-time software engineer mentor to work on one or two substantive, production-level software projects with real business impact
+- Learn OCaml, Jane Street's primary programming language, along with the firm's internal libraries, tools, and development practices; may also work in Python depending on team assignment
+- Develop maintainable, production-quality software across a wide range of problem domains, from high-performance trading systems to programming-language design and tooling
+- Take trading-oriented classes and build automated trading bots that compete against one another on a simulated exchange, to build context on the firm's business
+- Contribute to projects in areas such as protocol compilers, the internals of the firm's concurrency library, and real-time visualization tools, some of which have previously been released as open source
+
+### Basic Requirements
+- Exceptional programming ability paired with genuine enthusiasm for technology
+- Intellectual curiosity, a collaborative mindset, and a commitment to continuous learning
+- Comfortable being humble, asking questions, and admitting mistakes
+- No prior background in finance, OCaml, or functional programming required
+
+### Bonus / Preferred Qualifications
+- Not explicitly itemized by the posting — Jane Street states no prior finance, OCaml, or functional-programming experience is required, and evaluates candidates primarily on general programming strength and curiosity rather than a checklist of specific tools or technologies
+
 ## Implications for Our Framework
 - proj (weight 30), the field's highest-weighted dimension, is directly validated across all five postings: Amazon requires data-structure/algorithm implementation, TikTok requires frontend componentization and open-source contribution, Meta requires debugging systems serving billions of users globally, Apple emphasizes OOD practice, and MongoDB emphasizes CTF/personal security projects — all five sub-tracks put "what you've built" at the core without exception.
 - The exp gap "projects are mostly coursework, lacking real-user/production-environment experience" is precisely validated by Meta's Production Engineer posting, which requires working on "systems deployed to production, serving billions of users globally" — exactly the part hardest for a student resume to demonstrate, and where the biggest gap typically shows up.

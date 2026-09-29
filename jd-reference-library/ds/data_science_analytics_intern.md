@@ -442,6 +442,30 @@ Collected: 2026-09-28
 - Skill with visualization/reporting tools such as PowerPoint, Power BI, Tableau
 - Previous exposure to financial services, credit cards, or merchant analytics
 
+## JD 20: Data Scientist Intern (PhD or Masters), Duolingo (consumer product analytics / experimentation track, edtech)
+Source: Official Duolingo careers posting (Greenhouse job board) — https://job-boards.greenhouse.io/duolingo/jobs/7643899002
+Collected: 2026-09-29
+
+### Responsibilities
+- Derive insights from data to influence product roadmaps and drive business results
+- Apply analytical and machine learning methods to model user behavior and estimate feature impact
+- Evaluate product experiments to create and improve user experiences
+- Communicate and present findings and recommendations to senior management
+- Help maintain a fact-based decision-making culture
+
+### Basic Requirements
+- Pursuing a Master's or PhD degree (at least third year of PhD program) in a quantitative field
+- Strong understanding of consumer digital products and an interest in applying advanced analytics
+- Previous experience analyzing large datasets and communicating results to technical and non-technical audiences
+- Skilled in SQL, R or Python, and/or statistical methods to analyze behavioral data
+- Ability to relocate to Pittsburgh or NYC
+
+### Bonus / Preferred Qualifications
+- Experience with BigQuery, Snowflake, and/or dbt
+- Experience articulating business questions and using available data to find answers
+- Self-starter mentality
+- Previous applied business internships
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

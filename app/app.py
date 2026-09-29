@@ -19,6 +19,7 @@ import streamlit_antd_components as sac
 from PIL import Image
 
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
+from agents.app_adapter import run_agent_assessment
 from branding import logo_svg_data_uri, logo_geometry
 from report import generate_pdf
 from local_modules import load_current_module
@@ -259,6 +260,67 @@ def _mascot_reel_assets():
         b64_by_id[fid] = base64.b64encode(buf.getvalue()).decode("ascii")
         order.append(fid)
     return order, b64_by_id
+
+
+def _render_agent_plan_tab(tab, result, dim_name_by_key):
+    """Agent 模式 tab：planner 的取证计划。"""
+    with tab:
+        st.subheader("📋 取证计划")
+        st.caption("planner 先为 7 个维度制定取证策略，scorer 再按计划打分——先想后做。")
+        plan = result.get("plan") or []
+        if not plan:
+            st.info("本次运行没有取证计划。")
+            return
+        st.table([{
+            "维度": dim_name_by_key.get(p.get("dimension"), p.get("dimension")),
+            "取证策略": p.get("strategy", ""),
+            "JD 检索问题": "; ".join(p.get("jd_queries") or []) or "—",
+        } for p in plan])
+
+
+def _render_agent_scoring_tab(tab, result, dim_name_by_key):
+    """Agent 模式 tab：scorer 的逐维度打分过程。"""
+    with tab:
+        st.subheader("🔍 打分过程")
+        st.caption(
+            f"ReAct agent 带 3 个工具逐维度打分"
+            f"（get_dimension_rubric / search_jd_library / verify_quote），"
+            f"scorer 共跑了 {result.get('revision_rounds', 0)} 轮。"
+        )
+        scores = result.get("dimension_scores", {})
+        rationale = result.get("dimension_rationale", {})
+        evidence = result.get("dimension_evidence", {})
+        for key, score in scores.items():
+            with st.expander(
+                    f"{dim_name_by_key.get(key, key)}：{score} 分", expanded=False):
+                if rationale.get(key):
+                    st.write(rationale[key])
+                for q in evidence.get(key) or []:
+                    st.code(q)
+
+
+def _render_agent_critic_tab(tab, result, dim_name_by_key):
+    """Agent 模式 tab：critic v2 的审计与改分。"""
+    with tab:
+        st.subheader("🛡️ Critic 审计")
+        corrections = result.get("critic_corrections") or []
+        if result.get("critic_pass") and not corrections:
+            st.success("critic 一次通过，没有发现硬伤。")
+        elif corrections:
+            st.warning(f"critic 发现 {len(corrections)} 处硬伤，已直接修正分数：")
+            st.table([{
+                "维度": dim_name_by_key.get(c.get("dimension"), c.get("dimension")),
+                "原分": c.get("old_score"),
+                "修正后": c.get("new_score"),
+                "理由": c.get("reason", ""),
+            } for c in corrections])
+        else:
+            st.info("critic 没有通过，但未产生改分（已达修订上限，直接汇总）。")
+        feedback = result.get("critic_feedback") or []
+        if feedback:
+            st.caption("critic 反馈：")
+            for f in feedback:
+                st.write(f"- {f}")
 
 
 _FULLSCREEN_OVERLAY_ID = "resume-compass-fullscreen-loading"
@@ -611,6 +673,13 @@ if st.session_state.view == "form":
         (is_custom_field and bool(custom_field_name.strip()))
         or (not is_custom_field and field_name is not None)
     )
+    agent_mode = st.checkbox(
+        "🤖 Agent 模式（多智能体打分）",
+        value=False,
+        help=("用 LangGraph 多智能体流水线打分（planner→scorer→critic→reporter），"
+              "约需 2-3 分钟，结果页可分步查看取证计划、打分过程和 critic 审计。"
+              "关闭则用原来的单次打分链路。暂不支持图片简历。"),
+    )
     run = st.button(
         "开始评估",
         type="primary",
@@ -654,16 +723,29 @@ if st.session_state.view == "form":
                         )
                         proceed = False
 
+                if proceed and agent_mode and resume_text is None:
+                    st.error("Agent 模式暂不支持图片简历，请上传 PDF 版本再试。")
+                    proceed = False
+
                 if proceed:
-                    result = score_resume(
-                        resume_text=resume_text,
-                        resume_image=resume_image,
-                        field_id=field_id,
-                        api_key=api_key,
-                        model=model,
-                        runs=score_runs,
-                        custom_field_name=custom_field_name.strip() if is_custom_field else None,
-                    )
+                    if agent_mode:
+                        result = run_agent_assessment(
+                            resume_text=resume_text,
+                            field_id=field_id,
+                            api_key=api_key,
+                            model=model,
+                            custom_field_name=custom_field_name.strip() if is_custom_field else None,
+                        )
+                    else:
+                        result = score_resume(
+                            resume_text=resume_text,
+                            resume_image=resume_image,
+                            field_id=field_id,
+                            api_key=api_key,
+                            model=model,
+                            runs=score_runs,
+                            custom_field_name=custom_field_name.strip() if is_custom_field else None,
+                        )
                     st.session_state.pop("report_artifact", None)
                     st.session_state.pop("report_email_status", None)
                     st.session_state.share_layout = choose_share_layout()
@@ -695,160 +777,170 @@ elif st.session_state.view == "result" and st.session_state.result:
         st.session_state.resume_original_filename = None
         st.rerun()
     st.divider()
-    try:
-        if "share_layout" not in st.session_state:
-            st.session_state.share_layout = choose_share_layout()
-        share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"], st.session_state.share_layout)
-        if st.session_state.get("share_card_key") != (CARD_VERSION, share_key):
-            st.session_state.share_card_png = generate_share_card(*share_key)
-            st.session_state.share_card_key = (CARD_VERSION, share_key)
-        render_share_preview(st.session_state.share_card_png)
-        accent_color = mascot_accent_color(result["field"].get("id", ""))
-        if render_share_button(st.session_state.share_card_png, accent_color,
-                               key="share-" + CARD_VERSION + "-" + st.session_state.get("assessment_id", "legacy")):
-            st.session_state.report_unlocked = True
-    except Exception:
-        st.warning("分享卡暂时无法生成，请重试。")
-        if st.button("重试生成分享卡"):
-            st.session_state.pop("share_card_key", None)
-            st.rerun()
-    if not st.session_state.get("report_unlocked", False):
-        st.caption("点击分享卡片后查看完整报告。")
-        st.stop()
-
-    render_web_report(result, st.session_state.student_name, st.session_state.student_meta)
-
-    if result["field"].get("id") == CUSTOM_FIELD_ID:
-        matched_fields = result["field"].get("matched_fields")
-        if matched_fields:
-            match_desc = "　/　".join(
-                f"{m['name']} {round(m['weight'] * 100)}%" for m in matched_fields
-            )
-            st.caption(
-                f"✏️ 目标方向「{result['field']['name']}」是你自己输入的自定义方向，"
-                f"已自动匹配到现有领域并按比例融合出本次打分依据的权重/加分项/短板/JD参考：{match_desc}"
-            )
-        else:
-            st.caption(
-                f"✏️ 目标方向「{result['field']['name']}」是你自己输入的自定义方向，"
-                "没能自动匹配到相近的现有领域，用的是通用兜底权重，打分依据的是模型对这个方向的通用理解，仅供参考。"
-            )
-
-    stability = result.get("stability")
-    if stability:
-        totals = stability["total_all_runs"]
-        spread = max(totals) - min(totals)
-        st.caption(
-            f"🔁 稳定性模式：本次调用了{stability['runs']}次，{stability['runs']}次总分分别为 "
-            f"{' / '.join(str(t) for t in totals)}，波动{spread}分，最终各维度取中位数得到上面这个结果"
-        )
-
-    try:
-        if "report_artifact" not in st.session_state:
-            pdf_bytes, highlight_info = generate_pdf(
-                result,
-                st.session_state.student_name,
-                st.session_state.student_meta,
-                resume_pdf_bytes=st.session_state.resume_pdf_bytes,
-            )
-            st.session_state.report_artifact = (pdf_bytes, highlight_info)
-        pdf_bytes, highlight_info = st.session_state.report_artifact
-    except Exception as e:
-        # 打分结果已经在上面完整展示了；PDF生成这一步单独兜底，
-        # 失败也不影响用户看到刚才的评分和分析，只是拿不到PDF报告。
-        st.error(f"生成PDF报告失败：{e}（上面的评分结果不受影响，可以先看这些）")
-        pdf_bytes, highlight_info = None, None
-
-    if pdf_bytes is not None and (result.get("ats_keywords") or result.get("vague_phrases") or result.get("strong_phrases")):
-        if highlight_info["attached"]:
-            parts = []
-            if highlight_info["ats_matched"]:
-                parts.append(f"黄色/ATS关键词：{'、'.join(highlight_info['ats_matched'])}")
-            if highlight_info["strong_matched"]:
-                parts.append(f"绿色/量化成果：{'；'.join(highlight_info['strong_matched'])}")
-            if highlight_info["vague_matched"]:
-                parts.append(f"红色/可优化表述：{'；'.join(highlight_info['vague_matched'])}")
-            st.caption("已在下方的简历原文里标注 —— " + "；".join(parts))
-        else:
-            st.warning(f"没能生成标注版简历：{highlight_info['reason']}")
-
-    if pdf_bytes is not None:
-        annotated_pdf = highlight_info.get("highlighted_resume_pdf_bytes")
-        if annotated_pdf:
-            st.subheader("简历原文标注")
-            st.caption("保留原稿版式。黄色=ATS关键词，绿色=量化成果，红色=建议优化的表述。")
-            try:
-                page_images = render_pdf_pages_as_images(annotated_pdf, dpi=200)
-                for img_bytes in page_images:
-                    encoded = base64.b64encode(img_bytes).decode("ascii")
-                    st.markdown(f'<div style="max-width:1000px;margin:0 auto"><img alt="标注版简历原文" src="data:image/png;base64,{encoded}" style="width:100%;height:auto"></div>', unsafe_allow_html=True)
-            except Exception:
-                st.info("标注预览暂时无法显示，请下载标注版简历查看。")
-            st.download_button("下载标注版简历", data=annotated_pdf,
-                               file_name="标注版简历.pdf", mime="application/pdf")
-        out_name = f"{st.session_state.student_name}_评估_{date.today().isoformat()}.pdf"
-        out_path = REPORT_DIR / out_name
-        out_path.write_bytes(pdf_bytes)
-        st.download_button("下载PDF报告", data=pdf_bytes, file_name=out_name, mime="application/pdf")
-
-        # 2026-09-19：顺手把报告存档邮件发出去——免费版Streamlit Cloud容器重启后
-        # reports/文件夹会清空，邮箱是目前最省事的长期留存方式。
-        # 2026-09-19 补充：之前这里"secrets没配置、静默跳过"和"真的发送成功了"在界面上
-        # 完全看不出区别（都是"什么提示都没有"），调试时没法判断到底是配置没生效还是
-        # 发送本身出了问题。现在send_report_email()会返回"sent"/"skipped"，这里分情况
-        # 给出明确提示——真发送失败了（密码错、网络问题、邮箱那边没开SMTP AUTH等）
-        # 仍然只提示一句，不影响上面已经展示的评分结果和下载按钮。
+    if result.get("agent_mode"):
+        tab_report, tab_plan, tab_scoring, tab_critic = st.tabs(
+            ["📄 最终报告", "📋 取证计划", "🔍 打分过程", "🛡️ Critic 审计"])
+        _render_agent_plan_tab(tab_plan, result, dim_name_by_key)
+        _render_agent_scoring_tab(tab_scoring, result, dim_name_by_key)
+        _render_agent_critic_tab(tab_critic, result, dim_name_by_key)
+        report_ctx = tab_report
+    else:
+        report_ctx = nullcontext()
+    with report_ctx:
         try:
-            if "report_email_status" not in st.session_state:
-                email_status = send_report_email(
-                    pdf_bytes,
-                    out_name,
-                    st.session_state.student_name,
-                    result["field"].get("name", "未知方向"),
-                    result["total"],
-                    result["tier_label"],
-                    datetime.now().strftime("%Y-%m-%d %H:%M"),
-                    resume_bytes=st.session_state.resume_original_bytes,
-                    resume_filename=st.session_state.resume_original_filename,
+            if "share_layout" not in st.session_state:
+                st.session_state.share_layout = choose_share_layout()
+            share_key = (result["field"].get("id", ""), result["field"]["name"], result["total"], st.session_state.share_layout)
+            if st.session_state.get("share_card_key") != (CARD_VERSION, share_key):
+                st.session_state.share_card_png = generate_share_card(*share_key)
+                st.session_state.share_card_key = (CARD_VERSION, share_key)
+            render_share_preview(st.session_state.share_card_png)
+            accent_color = mascot_accent_color(result["field"].get("id", ""))
+            if render_share_button(st.session_state.share_card_png, accent_color,
+                                   key="share-" + CARD_VERSION + "-" + st.session_state.get("assessment_id", "legacy")):
+                st.session_state.report_unlocked = True
+        except Exception:
+            st.warning("分享卡暂时无法生成，请重试。")
+            if st.button("重试生成分享卡"):
+                st.session_state.pop("share_card_key", None)
+                st.rerun()
+        if not st.session_state.get("report_unlocked", False):
+            st.caption("点击分享卡片后查看完整报告。")
+            st.stop()
+
+        render_web_report(result, st.session_state.student_name, st.session_state.student_meta)
+
+        if result["field"].get("id") == CUSTOM_FIELD_ID:
+            matched_fields = result["field"].get("matched_fields")
+            if matched_fields:
+                match_desc = "　/　".join(
+                    f"{m['name']} {round(m['weight'] * 100)}%" for m in matched_fields
                 )
-                st.session_state.report_email_status = email_status
-            email_status = st.session_state.report_email_status
-            if email_status == "sent":
-                st.caption("📧 报告和原版简历已自动发送存档邮件")
+                st.caption(
+                    f"✏️ 目标方向「{result['field']['name']}」是你自己输入的自定义方向，"
+                    f"已自动匹配到现有领域并按比例融合出本次打分依据的权重/加分项/短板/JD参考：{match_desc}"
+                )
             else:
-                st.caption("ℹ️ 存档邮件功能尚未配置（Secrets里没填发件邮箱/密码），已跳过发送")
+                st.caption(
+                    f"✏️ 目标方向「{result['field']['name']}」是你自己输入的自定义方向，"
+                    "没能自动匹配到相近的现有领域，用的是通用兜底权重，打分依据的是模型对这个方向的通用理解，仅供参考。"
+                )
+
+        stability = result.get("stability")
+        if stability:
+            totals = stability["total_all_runs"]
+            spread = max(totals) - min(totals)
+            st.caption(
+                f"🔁 稳定性模式：本次调用了{stability['runs']}次，{stability['runs']}次总分分别为 "
+                f"{' / '.join(str(t) for t in totals)}，波动{spread}分，最终各维度取中位数得到上面这个结果"
+            )
+
+        try:
+            if "report_artifact" not in st.session_state:
+                pdf_bytes, highlight_info = generate_pdf(
+                    result,
+                    st.session_state.student_name,
+                    st.session_state.student_meta,
+                    resume_pdf_bytes=st.session_state.resume_pdf_bytes,
+                )
+                st.session_state.report_artifact = (pdf_bytes, highlight_info)
+            pdf_bytes, highlight_info = st.session_state.report_artifact
         except Exception as e:
-            st.warning(f"报告存档邮件发送失败（不影响上面的评分结果和下载）：{e}")
+            # 打分结果已经在上面完整展示了；PDF生成这一步单独兜底，
+            # 失败也不影响用户看到刚才的评分和分析，只是拿不到PDF报告。
+            st.error(f"生成PDF报告失败：{e}（上面的评分结果不受影响，可以先看这些）")
+            pdf_bytes, highlight_info = None, None
 
-    usage = result.get("usage") or {}
-    in_tok = usage.get("input_tokens")
-    out_tok = usage.get("output_tokens")
-    think_tok = usage.get("thinking_tokens")
-    cache_write_tok = usage.get("cache_creation_tokens") or 0
-    cache_read_tok = usage.get("cache_read_tokens") or 0
-    if in_tok is not None and out_tok is not None:
-        # 价格取当前所用模型的官方单价，仅供估算参考。
-        # 注：自定义方向那次分类匹配调用固定用的是Haiku（比这里的model便宜），
-        # 但它的token量很小（通常几百token），混进来按主模型单价估算，误差可以忽略不计。
-        price_in, price_out = (1.0, 5.0) if model == CHEAP_MODEL else (2.0, 10.0)
-        # 缓存写入价是原价的1.25倍（首次调用把system prompt/简历原文写进缓存），
-        # 缓存命中价是原价的1折（后续调用直接读缓存，稳定性模式下第2次调用大部分会命中）。
-        cache_write_price = price_in * 1.25
-        cache_read_price = price_in * 0.1
-        est_cost = (
-            in_tok / 1_000_000 * price_in
-            + cache_write_tok / 1_000_000 * cache_write_price
-            + cache_read_tok / 1_000_000 * cache_read_price
-            + out_tok / 1_000_000 * price_out
-        )
-        cache_note = f"，其中 {cache_read_tok} tokens 命中缓存（按1折计费）" if cache_read_tok > 0 else ""
-        st.caption(
-            f"本次调用消耗：输入 {in_tok} tokens，输出 {out_tok} tokens"
-            f"（其中思考过程 {think_tok} tokens）{cache_note}，预估费用 ${est_cost:.4f}"
-        )
+        if pdf_bytes is not None and (result.get("ats_keywords") or result.get("vague_phrases") or result.get("strong_phrases")):
+            if highlight_info["attached"]:
+                parts = []
+                if highlight_info["ats_matched"]:
+                    parts.append(f"黄色/ATS关键词：{'、'.join(highlight_info['ats_matched'])}")
+                if highlight_info["strong_matched"]:
+                    parts.append(f"绿色/量化成果：{'；'.join(highlight_info['strong_matched'])}")
+                if highlight_info["vague_matched"]:
+                    parts.append(f"红色/可优化表述：{'；'.join(highlight_info['vague_matched'])}")
+                st.caption("已在下方的简历原文里标注 —— " + "；".join(parts))
+            else:
+                st.warning(f"没能生成标注版简历：{highlight_info['reason']}")
 
-    with st.expander("查看模型原始输出（调试用）"):
-        st.code(result["raw_model_output"])
+        if pdf_bytes is not None:
+            annotated_pdf = highlight_info.get("highlighted_resume_pdf_bytes")
+            if annotated_pdf:
+                st.subheader("简历原文标注")
+                st.caption("保留原稿版式。黄色=ATS关键词，绿色=量化成果，红色=建议优化的表述。")
+                try:
+                    page_images = render_pdf_pages_as_images(annotated_pdf, dpi=200)
+                    for img_bytes in page_images:
+                        encoded = base64.b64encode(img_bytes).decode("ascii")
+                        st.markdown(f'<div style="max-width:1000px;margin:0 auto"><img alt="标注版简历原文" src="data:image/png;base64,{encoded}" style="width:100%;height:auto"></div>', unsafe_allow_html=True)
+                except Exception:
+                    st.info("标注预览暂时无法显示，请下载标注版简历查看。")
+                st.download_button("下载标注版简历", data=annotated_pdf,
+                                   file_name="标注版简历.pdf", mime="application/pdf")
+            out_name = f"{st.session_state.student_name}_评估_{date.today().isoformat()}.pdf"
+            out_path = REPORT_DIR / out_name
+            out_path.write_bytes(pdf_bytes)
+            st.download_button("下载PDF报告", data=pdf_bytes, file_name=out_name, mime="application/pdf")
+
+            # 2026-09-19：顺手把报告存档邮件发出去——免费版Streamlit Cloud容器重启后
+            # reports/文件夹会清空，邮箱是目前最省事的长期留存方式。
+            # 2026-09-19 补充：之前这里"secrets没配置、静默跳过"和"真的发送成功了"在界面上
+            # 完全看不出区别（都是"什么提示都没有"），调试时没法判断到底是配置没生效还是
+            # 发送本身出了问题。现在send_report_email()会返回"sent"/"skipped"，这里分情况
+            # 给出明确提示——真发送失败了（密码错、网络问题、邮箱那边没开SMTP AUTH等）
+            # 仍然只提示一句，不影响上面已经展示的评分结果和下载按钮。
+            try:
+                if "report_email_status" not in st.session_state:
+                    email_status = send_report_email(
+                        pdf_bytes,
+                        out_name,
+                        st.session_state.student_name,
+                        result["field"].get("name", "未知方向"),
+                        result["total"],
+                        result["tier_label"],
+                        datetime.now().strftime("%Y-%m-%d %H:%M"),
+                        resume_bytes=st.session_state.resume_original_bytes,
+                        resume_filename=st.session_state.resume_original_filename,
+                    )
+                    st.session_state.report_email_status = email_status
+                email_status = st.session_state.report_email_status
+                if email_status == "sent":
+                    st.caption("📧 报告和原版简历已自动发送存档邮件")
+                else:
+                    st.caption("ℹ️ 存档邮件功能尚未配置（Secrets里没填发件邮箱/密码），已跳过发送")
+            except Exception as e:
+                st.warning(f"报告存档邮件发送失败（不影响上面的评分结果和下载）：{e}")
+
+        usage = result.get("usage") or {}
+        in_tok = usage.get("input_tokens")
+        out_tok = usage.get("output_tokens")
+        think_tok = usage.get("thinking_tokens")
+        cache_write_tok = usage.get("cache_creation_tokens") or 0
+        cache_read_tok = usage.get("cache_read_tokens") or 0
+        if in_tok is not None and out_tok is not None:
+            # 价格取当前所用模型的官方单价，仅供估算参考。
+            # 注：自定义方向那次分类匹配调用固定用的是Haiku（比这里的model便宜），
+            # 但它的token量很小（通常几百token），混进来按主模型单价估算，误差可以忽略不计。
+            price_in, price_out = (1.0, 5.0) if model == CHEAP_MODEL else (2.0, 10.0)
+            # 缓存写入价是原价的1.25倍（首次调用把system prompt/简历原文写进缓存），
+            # 缓存命中价是原价的1折（后续调用直接读缓存，稳定性模式下第2次调用大部分会命中）。
+            cache_write_price = price_in * 1.25
+            cache_read_price = price_in * 0.1
+            est_cost = (
+                in_tok / 1_000_000 * price_in
+                + cache_write_tok / 1_000_000 * cache_write_price
+                + cache_read_tok / 1_000_000 * cache_read_price
+                + out_tok / 1_000_000 * price_out
+            )
+            cache_note = f"，其中 {cache_read_tok} tokens 命中缓存（按1折计费）" if cache_read_tok > 0 else ""
+            st.caption(
+                f"本次调用消耗：输入 {in_tok} tokens，输出 {out_tok} tokens"
+                f"（其中思考过程 {think_tok} tokens）{cache_note}，预估费用 ${est_cost:.4f}"
+            )
+
+        with st.expander("查看模型原始输出（调试用）"):
+            st.code(result["raw_model_output"])
 
 else:
     # 防御性兜底：view是"result"但session里没有对应的result数据
