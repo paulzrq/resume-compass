@@ -9,3 +9,6 @@ pymupdf>=1.24
 pillow>=10.0
 streamlit-antd-components==0.3.2
 qrcode>=7.4,<9
+# agent-upgrade 分支：多智能体打分流水线
+langgraph>=0.6
+langchain-anthropic>=0.3

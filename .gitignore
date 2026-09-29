@@ -19,3 +19,7 @@ ResumeCompass.app/
 
 # 密钥只放在 Streamlit Cloud 后台的 Secrets 里配置，不进代码库
 .streamlit/secrets.toml
+eval/.venv/
+
+# 原始简历（含完整个人信息）：只放本地，绝不进版本库
+eval/raw_resumes/
