@@ -280,6 +280,173 @@ Collected: 2026-09-21
 - Experience applying engineering first principles to solve production-floor problems under cost and reliability constraints
 - Track record of effective collaboration on cross-functional engineering teams
 
+## JD 13: Mechanical Design Engineer Intern, Nextracker (solar tracker / renewable energy hardware manufacturing)
+Source: Nextracker (Nasdaq: NXT) official posting via Workday careers portal, https://nextracker.wd5.myworkdayjobs.com/nextpower_careers/job/Mechanical-Design-Engineer-Intern_NX-3492 (cross-verified via Simplify Jobs mirror: https://simplify.jobs/p/c9ff0448-4c44-4748-aed4-a768c42a045e/Mechanical-Design-Engineer-Intern)
+Collected: 2026-09-22
+
+### Responsibilities
+- Support mechanical engineers in the design and development of next-generation horizontal solar tracking products
+- Perform engineering analysis using CAD/CAE software covering mechanical/structural design, design optimization, prototype generation, structural dynamics, kinematics, vibrations, and thermal analysis
+- Create manufacturing drawings and own individual component designs
+- Develop testing fixtures that simulate real-world field conditions, and conduct and document engineering tests
+- Write technical proposals and reports; participate in brainstorming sessions with the mechanical engineering team to generate design concepts
+- Complete Design for Manufacturing (DFM) reviews in coordination with external suppliers
+- Travel to project sites to observe live construction and field deployment of tracker systems
+
+### Basic Requirements
+- Pursuing a B.S. in Mechanical Engineering, Structural Engineering, Aerospace Engineering, or a related field, graduating Spring 2025/2026
+- Experience with 3D CAD software (SolidWorks preferred)
+- Practical, hands-on experience with machine shop tools (chop saw, band saw, grinders, wrenches, 3D printers, rapid prototyping)
+- Strong written and verbal communication skills
+- Self-motivated and able to collaborate cross-functionally with systems, electrical, applications, and project engineering teams
+- Proficiency in common PC applications (Word, Excel, PowerPoint)
+
+### Bonus / Preferred Qualifications
+- Familiarity with LabView, MATLAB, Python, or other coding languages
+- Aptitude in mechanical failure analysis
+- Genuine passion for solar or renewable energy technology
+
+## JD 14: Hardware Engineering Intern (R&D), Keysight Technologies (test & measurement / RF-microwave instrumentation hardware)
+Source: Keysight Technologies official careers page, "R&D Hardware Engineering Internship," Santa Rosa, CA — https://careers.keysight.com/external/jobs/51775?lang=en-us (cross-verified via mirrored listing at https://simplify.jobs/p/35469412-d5f5-4fb4-857f-382c12fbcf55/Hardware-Engineering-Intern)
+Collected: 2026-09-23
+
+### Responsibilities
+- Support R&D efforts on advanced measurement solutions for phased array antennas
+- Assist with test automation and data analypis workflows
+- Help perform calibration using vector network analyzers (VNAs) and antenna test chambers
+- Collaborate with engineers to prototype and validate new application features
+- Contribute to technical documentation for test systems
+- Help identify and implement improvements to overall system performance
+
+### Basic Requirements
+- Currently pursuing a degree in Electrical Engineering, Physics, or a related field
+- Coursework in electromagnetics, RF/microwave systems, or signal processing
+- Self-motivated and adaptable to dynamic, fast-changing project requirements
+- Must be enrolled in an accredited college/university at the time of the internship
+- No visa sponsorship available for this role
+
+### Bonus / Preferred Qualifications
+- Familiarity with EDA tools such as Keysight PathWave, ADS, SystemVue, or EEsof
+- Working knowledge of digital, analog, and antenna design fundamentals
+- Hands-on experience with oscilloscopes, signal generators, and other RF test equipment
+- Prior exposure to analog/RF/microwave circuit design or phase-locked-loop structures
+
+## JD 15: Co-op, Manufacturing Engineering, Rockwell Automation (industrial automation / power-solutions manufacturing engineering)
+Source: Official Rockwell Automation careers portal (Workday ATS), job requisition R26-6978, Cambridge, Ontario, Canada — https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External-Rockwell-Automation-Early-Careers/job/Cambridge-Ontario-Canada/Co-op--Manufacturing-Engineering_R26-6978
+Collected: 2026-09-24
+
+### Responsibilities
+- Collaborate with cross-functional teams to improve manufacturing processes for power solution products, identifying opportunities for efficiency gains, cost reduction, and quality enhancement
+- Work directly with production teams to keep manufacturing operations running smoothly; troubleshoot and resolve issues that arise during the production process
+- Apply Lean Manufacturing principles and drive improvement plans that streamline workflows, raise efficiency, and eliminate waste
+- Help develop and implement quality control procedures; conduct root cause analysis and implement corrective actions on quality issues
+- Coordinate with maintenance staff, contractors, and production teams to understand and roll out engineering changes and production updates
+- Create documentation supporting equipment operation and manufacturing processes for the plant
+- Implement measures to safeguard production/process data and maintain confidentiality of sensitive implementation information
+
+### Basic Requirements
+- Completed at least freshman year of a college/university program
+- Legally authorized to work in Canada (no visa sponsorship provided)
+- Available full-time, 8-12 months, hybrid on-site at the Cambridge, ON facility (in-office Monday, Tuesday, Thursday)
+- Must reside within 50 miles of the Cambridge, ON office (no relocation assistance provided)
+
+### Bonus / Preferred Qualifications
+- Pursuing a Bachelor's degree in Mechanical Engineering, Mechatronics, Automation Engineering, or a similar discipline
+- Enrolled in a degree-seeking program for at least one semester after completing the co-op
+- Prior co-op or internship experience
+- Knowledge of manufacturing processes and principles
+- Familiarity with CAD software and process simulation tools
+- Knowledge of industrial control systems and programmable logic controllers (PLCs)
+
+## JD 16: 2027 Summer Intern - Manufacturing Engineering — Global Propulsion Systems, General Motors (automotive powertrain/propulsion manufacturing engineering internship, distinct from Rivian's general EV production, Caterpillar's heavy-equipment manufacturing, and Rockwell's industrial-automation manufacturing already in this file)
+Source: General Motors official Workday careers site — https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Engineering--Global-Propulsion-Systems_JR-202619351
+Collected: 2026-09-25
+
+### Responsibilities
+- Support manufacturing process development for propulsion components through testing, debugging, and optimization
+- Assist with production equipment installation and qualification, applying lean manufacturing principles to improve efficiency, safety, and quality
+- Use virtual engineering tools (3D layouts, CAD/CAM documentation) and collaborate across cross-functional teams to resolve manufacturing quality issues
+- Participate in structured problem-solving at manufacturing plants and develop technical reports/engineering presentations on findings
+
+### Basic Requirements
+- Pursuing a Bachelor's or Master's degree in Mechanical, Manufacturing, Electrical, Industrial Engineering, or Materials Science, graduating between December 2027 and June 2029
+- Demonstrated data analysis and systematic problem-solving ability from coursework or projects, strong communication skills, and willingness to work onsite/travel to manufacturing plants and labs
+
+### Bonus / Preferred Qualifications
+- CAD proficiency (NX, CATIA, SolidWorks, AutoCAD), familiarity with lean manufacturing/PFMEA and GD&T/quality tools, and data-analysis tool experience (Excel, Python, MATLAB, Minitab)
+- Prior manufacturing or automotive internship experience, EV/propulsion technology knowledge, or engineering competition participation
+
+## JD 17: Hardware Engineering Intern (Jun 2026), Nokia (telecom infrastructure hardware — high-speed digital/PCB signal-integrity track for carrier Service Router hardware, distinct from Cisco's board-level ASIC/networking track)
+Source: Nokia Careers posting (job ID 28179) — https://jobs.nokia.com/en/sites/CX_1/job/28179/ ; mirror — https://prosple.com/graduate-employers/nokia/jobs-internships/hardware-engineering-intern
+Collected: 2026-09-26
+
+### Responsibilities
+- Collaborate with the IP Routing team on next-generation Service Router hardware for global telecom networks
+- Perform complex board bring-up and testing on carrier-grade router hardware
+- Use oscilloscopes, logic analyzers, and digital debug tools to diagnose and resolve signal-integrity issues
+- Support high-speed digital hardware design activities alongside senior engineers
+- Document lab findings and contribute to design/debug reports
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in Electrical Engineering or Computer Engineering
+- Coursework or hands-on experience in high-speed digital design, PCB layout, or signal integrity
+- Working proficiency with lab equipment (oscilloscopes, logic analyzers)
+- Strong problem-solving skills; able to work both independently and collaboratively
+
+### Bonus / Preferred Qualifications
+- Experience with PCB design tools (Altium Designer, Cadence Allegro, KiCad)
+- Simulation tool experience (SPICE, HyperLynx)
+- Scripting/automation skills (Python, Tcl, or MATLAB)
+- Basic embedded firmware exposure (C/C++) for microcontrollers or FPGAs
+
+## JD 18: Hardware Systems Engineer, Intern, Meta (data center / cloud infrastructure hardware validation & test)
+Source: Official Meta Careers posting (Release to Production Engineering team) — https://www.themuse.com/jobs/meta/hardware-systems-engineer-intern-9b4bc9
+Collected: 2026-09-27
+
+### Responsibilities
+- Interface with hardware, mechanical, power, thermal and software engineers to understand system architecture
+- Perform hands-on system-level debug including silicon, PCB board, firmware, and operating systems
+- Drive hardware optimizations by creating hardware, thermal, and mechanical test plans
+- Create and execute system-level tests while keeping a complete procedural record and data logs
+- Create automated test infrastructure through the use of scripting languages and remotely controlled test equipment
+- Develop and publish test plans and reports and communicate findings to team members
+- Diagnose and root-cause hardware and system failures with the help of data analytical tools
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, or a related field
+- Coding experience with Python, Ruby, C++, Java, or PHP
+- Knowledge of Linux/Unix environments
+- Troubleshooting and analytical skills
+- Must obtain work authorization for employment purposes
+
+### Bonus / Preferred Qualifications
+- Experience in hacking, prototyping and/or overclocking or related hands-on hardware work
+- Experience with latest server and CPU architecture and system-level components
+- Intent to return to degree program after completion of the internship/co-op
+
+## JD 19: Hardware Engineering Intern, BS/MS, Google (consumer devices & data center hardware)
+Source: Google Careers official job posting — https://www.google.com/about/careers/applications/jobs/results/122803627516404422-hardware-engineering-intern-bsms-summer-2027
+Collected: 2026-09-28
+
+### Responsibilities
+- Join either the Platforms Infrastructure Engineering team (designing hardware that powers Google's services using custom in-house silicon) or the Devices and Services team (building first-party consumer hardware such as phones, smart home, and wearables)
+- Work on hardware system integration, signal/power integrity, and system validation for platforms or products
+- Support product design and computer architecture work involving FPGAs, embedded systems, and memory systems
+- Perform modeling/simulation and data center testing for infrastructure hardware
+- Contribute to board layout and CAD-based design work (NX, Creo, Solidworks) and electromechanical assembly development
+- Engage in manufacturing, fabrication, and rapid prototyping of technical subsystems (e.g., wireless, antenna, RF, imaging, display, sensors, audio, charging, batteries)
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Electrical Engineering, Mechanical Engineering, Computer Engineering, Computer Science, or a related technical field
+- Available for a full-time internship (typically 12 weeks) within the US
+
+### Bonus / Preferred Qualifications
+- Experience with hardware system integration, signal/power integrity, system validation, product design, or computer architecture
+- Hands-on background with FPGAs, embedded systems, memory systems, modeling/simulation, or data center testing
+- Prior exposure to data center systems, consumer electronics, or device manufacturing environments
+- Familiarity with board layout, CAD tools, or systems integration workflows
+- Knowledge of electromechanical assemblies, manufacturing/fabrication techniques, or rapid prototyping
+
 ## Implications for Our Framework
 - The five postings show the skill dimension means very different things by sub-track: mechanical focuses on CAD/GD&T (Tesla), electrical/hardware requires circuit design, chip architecture, RF, HDL, and lab-instrument operation (Apple), and robotics requires breadth across multiple tool domains (Amazon). Recommend splitting into sub-track-specific tool checklists rather than one generic library.
 - The acceptable range of majors for edu is broader than expected: Intel's manufacturing/process track explicitly accepts chemical engineering, materials science, chemistry, and physics — the edu dimension should not over-penalize non-ME/EE backgrounds under the manufacturing/process sub-track.

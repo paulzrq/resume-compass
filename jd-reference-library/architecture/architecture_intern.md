@@ -308,5 +308,170 @@ Collected: 2026-09-21
 - Experience collaborating cross-functionally with engineering and construction disciplines, reflecting the firm's integrated A/E/C practice model
 - A portfolio demonstrating original design iteration and technical drawing proficiency, not solely coursework studies
 
+## JD 13: Architectural Design Intern (Cultural, Institutional, Higher Education), Beyer Blinder Belle (historic preservation & adaptive-reuse firm, New York)
+Source: Beyer Blinder Belle internship listing via Prosple graduate careers platform, https://prosple.com/graduate-employers/beyer-blinder-belle/jobs-internships/architectural-design-intern-cultural-institutional-higher-education
+Collected: 2026-09-22
+
+### Responsibilities
+- Collaborate on architectural design projects within the firm's Cultural, Institutional & Higher Education studio
+- Apply standard design processes and contribute to developing design solutions under senior architect supervision
+- Prepare presentation drawings and develop physical/digital models for concept discussion
+- Create graphic diagrams, drawings, renderings, and models to support project teams
+- Execute basic architectural assignments as directed by studio leadership
+- Participate in site visits, Lunch & Learn sessions, design charrettes, and firmwide summer-intern workshops
+
+### Basic Requirements
+- Currently pursuing a bachelor's or master's degree in architecture
+- Strong design and graphic capabilities
+- Clear and concise written, graphic, and oral communication skills
+- Ability to work both collaboratively in a studio setting and independently
+- Introductory/basic understanding of technical aspects such as zoning, planning, and construction
+- Research and independent problem-solving capacity
+- Portfolio required as part of application
+
+### Bonus / Preferred Qualifications
+- Genuine interest in adaptive reuse and historic preservation project types
+- Working proficiency with Revit, Rhino, SketchUp, and Adobe Creative Suite
+- Prior coursework or project exposure involving cultural, institutional, or higher-education building types
+
+## JD 14: Architecture Intern, GH2 Architects (hospitality & equine architecture, multi-disciplinary regional firm)
+Source: GH2 Architects Internships page — https://gh2.com/internships/
+Collected: 2026-09-23
+
+### Responsibilities
+- Fully integrate into a design team and learn the firm's real project workflow across multiple concurrent projects in different phases
+- Perform real-time project work including conceptual design development and production drawings
+- Attend client meetings and project site visits alongside licensed staff
+- Assist with marketing and business development materials tied to active pursuits
+- Use firm technology such as Matterport 3D scanning, AutoCAD/Revit, 3D printers, VR (Oculus) headsets, and drone scanning to support design and documentation
+- Participate in firm culture activities and cross-team collaboration across architecture, interior design, and landscape architecture
+
+### Basic Requirements
+- Currently enrolled college student pursuing a degree in architecture, interior design, landscape architecture, or a related field
+- Working knowledge of AutoCAD and/or Revit
+- Strong communication skills for client-facing and site-visit interactions
+- Available for summer internship placement (or other times of year, per firm scheduling) at one of the firm's four offices: Tulsa, Oklahoma City, Phoenix, or Denver
+- Ability to work collaboratively within a multi-disciplinary studio team
+
+### Bonus / Preferred Qualifications
+- Prior exposure to specialty project types such as hospitality, equine facilities, or historic preservation/adaptive reuse
+- Familiarity with 3D visualization/scanning tools (Matterport, VR) beyond standard CAD/BIM software
+- Demonstrated interest or coursework spanning architecture, interior design, and landscape architecture (cross-disciplinary design exposure)
+- Portfolio showing iterative design development rather than single course deliverables
+- Flexibility to work across multiple project phases simultaneously (from concept through site visits)
+
+## JD 15: Design Performance Intern, Lake|Flato Architects (sustainability/building-performance specialization, San Antonio TX)
+Source: Official Lake|Flato Architects careers posting (linked from lakeflato.com/careers) — https://lakeflato.b-cdn.net/wp-content/uploads/2026/07/for-Design-Performance-Internship.pdf
+Collected: 2026-09-24
+
+### Responsibilities
+- Conduct climate analysis, energy modeling, solar analysis, water collection studies, and embodied carbon assessments for active project teams
+- Support pursuit of sustainability certifications including WELL, Zero Carbon, CORE, LEED, and the Living Building Challenge
+- Maintain and update project performance data for the firm's AIA 2030 Commitment reporting and Materials Pledge tracking
+- Assist the marketing team in preparing industry design-award and sustainability-award submissions
+- Help manage the studio's sustainability tools, workflows, and internal resource library
+- Support design technology research initiatives tied to building performance analysis
+
+### Basic Requirements
+- Bachelor's degree (or in progress) in architecture, engineering, environmental design, building science, or a related field
+- Working proficiency with Revit, Rhino, or SketchUp
+- Baseline understanding of building performance analysis concepts (daylight, energy use, embodied carbon)
+- Strong data organization skills and proficiency with Adobe Creative Suite / Microsoft Office
+- Excellent organizational and written/verbal communication skills, able to work across an interdisciplinary studio
+
+### Bonus / Preferred Qualifications
+- LEED AP, WELL AP, or equivalent sustainable-design credential
+- Prior coursework, research, or project experience in sustainable design, building science, passive design, or renewable energy
+- Experience with specialized performance/computational tools such as Autodesk Forma, ClimateStudio, Grasshopper, or Tally LCA
+- Portfolio evidence of applying environmental/performance analysis to a real design iteration rather than purely aesthetic coursework
+
+## JD 16: Architectural Intern, Populous (global architecture firm specializing in sports/entertainment venues (stadiums, arenas, convention centers) — a stadium/sports-facility architecture sub-track not represented elsewhere in this file)
+Source: Prosple graduate/internship job board listing, cross-verified against Populous's own careers site — https://prosple.com/graduate-employers/populous-usa/jobs-internships/architectural-intern
+Collected: 2026-09-25
+
+### Responsibilities
+- Assist in conceptualizing and developing design ideas, generating diagrams, digital models, and presentation materials for stadium/arena/venue projects
+- Collaboratively review design concepts with project teams and contribute to design charrettes, including site visits and conceptual design development
+- Help produce construction documents, physical/digital models, and client presentation materials
+- Conduct research projects supporting ongoing design work
+
+### Basic Requirements
+- Currently pursuing a Bachelor of Architecture degree from a NAAB-accredited program (Master of Architecture preferred)
+- Proficiency in Rhino, Grasshopper, Revit, AutoCAD, and Adobe Creative Suite, plus Microsoft Office
+- Strong communication skills and basic hand-drawing ability
+
+### Bonus / Preferred Qualifications
+- Demonstrated real-project design experience using Rhino/Grasshopper/Revit/AutoCAD in a large-scale or complex-geometry building typology (sports/entertainment venues)
+- Exposure to firm mentorship structure, reflecting real firm/professional integration beyond coursework
+- Portfolio work showing iterative design development through charrette-style rapid concept generation and client-facing presentation skills
+
+## JD 17: Student Architectural Intern | Summer 2026, Corgan (aviation/airport terminal design track — global AE firm HQ'd in Dallas, a leading specialist in airport/transportation architecture; distinct from all firms already on file, none of which specialize in aviation/transportation building types)
+Source: Corgan careers listing, via LinkedIn — https://www.linkedin.com/jobs/view/student-architectural-intern-summer-2026-at-corgan-4400931652 ; program overview — https://www.corgan.com/internships-scholarships
+Collected: 2026-09-26
+
+### Responsibilities
+- Assist project teams in generating timely, creative design solutions across Corgan's core sectors (Aviation, Data Centers, Commercial, Healthcare, Multifamily, or Education)
+- Support construction document development and detailing under the guidance of licensed architects
+- Assist with contract administration tasks such as shop drawing and submittal review
+- Participate in on-site construction visits to see projects move from concept to completion
+- Contribute to weekly firm design presentations, lunch-and-learns, and professional development activities
+- Collaborate with multidisciplinary project teams (engineering, interiors, sustainability) on active work
+
+### Basic Requirements
+- Currently pursuing a NAAB-accredited professional degree in Architecture
+- Familiarity with Revit, with eagerness to learn additional firm software and workflows
+- Able to work in-office (onsite internship, not remote)
+- Strong collaborative work style and professional communication skills
+- Demonstrated proactive, positive approach to problem-solving and ability to juggle multiple priorities
+
+### Bonus / Preferred Qualifications
+- Working knowledge of Rhino/Grasshopper or AutoCAD in addition to Revit
+- Prior internship or coursework exposure to large-scale or technically complex building types (e.g., transportation, healthcare, mission-critical facilities)
+- Portfolio showing design iteration and technical detailing, not only conceptual studio work
+- Prior participation in design competitions or award-recognized studio projects
+
+## JD 18: 2026 Student Intern – Architecture, HGA Architects and Engineers (national multidisciplinary A/E firm — healthcare, civic, higher-ed & science/tech buildings)
+Source: Official employer job posting republished via Cornell University Career Services job board — https://career.cornell.edu/jobs/hga-architects-and-engineers-2026-student-intern-architecture/
+Collected: 2026-09-27
+
+### Responsibilities
+- Accept specific assignments and develop design concepts according to parameters defined by the senior architect
+- Conduct quality control and review architectural documentation for compliance
+- Keep the lead architect or designated team leader informed of progress
+- Manage project documentation and project archives
+- Assist with construction administration tasks (RFIs, change orders, etc.)
+- Pursue Internship Development Program (IDP) credits toward architectural registration
+
+### Basic Requirements
+- Currently pursuing a Bachelor of Architecture degree (Master's degree preferred)
+- Proficiency with Revit, AutoCAD, SketchUp, and other graphic/visualization tools
+- Actively pursuing progress toward architectural registration (NCARB/AXP)
+- Strong communication and technical documentation abilities
+
+### Bonus / Preferred Qualifications
+- Experience working on small- to large-scale architectural projects
+- Paid summer internship, 10–12 weeks, beginning on/before June 1, 2026; projects located throughout the country
+
+## JD 19: Intern, Architecture (Fall), Ware Malcomb (commercial/industrial base-building architecture)
+Source: Official Ware Malcomb careers posting (Lever ATS) — https://jobs.lever.co/waremalcomb/2d25566c-a246-404c-9c1a-b26b582ee602
+Collected: 2026-09-28
+
+### Responsibilities
+- Support the architecture studio in design, document development, and project administration
+- Assist with site visits and site surveys for active projects
+- Contribute to conceptual design and design management
+- Participate in schematic design and design development phases
+- Support contract administration and project coordination tasks
+
+### Basic Requirements
+- Currently enrolled in the 3rd or 4th year of an accredited (NAAB or equivalent) architecture program
+- Strong Revit skills required
+- On-site, paid internship (Ottawa, ON), Fall 2026 term
+
+### Bonus / Preferred Qualifications
+- Familiarity with Adobe Creative Suite (Photoshop/InDesign/Illustrator) for presentation and graphics
+- Prior architecture internship or firm experience preferred
+- Exposure to Ware Malcomb's core sectors (office, industrial, science & technology, healthcare, multifamily, retail, hospitality, public/institutional)
+
 ## Implications for Our Framework
 Across all five postings, three software families recur as the de facto baseline: Revit (named in every single posting, usually as "preferred" or "proficiency," but functionally expected), AutoCAD (named in four of five), and a secondary 3D/visualization layer (Rhino, SketchUp, Grasshopper, Lumion/Enscape/Twinmotion) that shows up as differentiation rather than a strict floor; Adobe Creative Suite appears in three postings specifically for presentation/graphic output rather than modeling. The hardest, most consistently enforced filter is NOT software but degree status and accreditation: SOM, HOK, Jacobs, Mead & Hunt, and DLR Group all explicitly gate on enrollment in (or completion of) an accredited/NAAB architecture program and a minimum class standing (rising junior or "3rd/4th/5th year," or 4+ completed semesters for Mead & Hunt), meaning a resume from a non-accredited or unrelated program should be scored down hard regardless of software skills listed. A portfolio submission is treated as a hard gate at the more design-forward firms (SOM, HOK, DLR Group explicitly say "to be considered, submit a portfolio") but is only a soft preference at the engineering-leaning firms (Jacobs, Mead & Hunt), so the scoring rubric should weight portfolio evidence heavily when present but not zero out a resume for its absence at every firm type. GPA is almost never a stated cutoff (only Jacobs names 3.0, and only as "preferred," not required), so a rubric that penalizes missing GPA heavily would be miscalibrated against real hiring practice. Work authorization is rarely spelled out in detail except at Mead & Hunt, which explicitly states it will not sponsor visas — a signal that international-student status is a real, if usually unstated, screening factor for smaller/regional firms even when the posting is silent. Prior internship experience, sustainability/LEED awareness, and physical model-building or hand-drafting ability appear consistently in the "bonus" tier rather than the basic tier, confirming these should be treated as score boosters rather than requirements. Net implication for the "architecture" scoring field: weight (1) accredited-program enrollment/class standing and (2) demonstrated Revit/AutoCAD + one visualization tool most heavily as pass/fail-adjacent signals, (3) treat portfolio presence as a strong positive modifier rather than an absolute requirement, and (4) treat GPA, prior internships, LEED/sustainability exposure, and Adobe/rendering-tool fluency as secondary differentiators that should raise a score but not by themselves disqualify a resume that is missing them.

@@ -1,0 +1,58 @@
+MEIQI (MAGGIE) HU
+[EMAIL] |[PHONE]| www.linkedin.com/in/maggie-simon
+EDUCATION
+Simon Business School, University of Rochester							     Rochester, NY
+Master of Science in Business Analytics (STEM-Certified Program)| GPA: 3.7/4.0	                                December 2023                                                                                                             
+Relevant Coursework: Programming for Analytics, Predictive & Causal Analytics, Pricing Analytics
+School of Landscape Architecture, Beijing Forestry University					     Beijing, China   Bachelor of Agriculture in Ornamental Horticulture | GPA: 3.8/4.0	    			                           June 2022
+Relevant Coursework: Botany, Ecology, Molecular biology and organic chemistry
+Minor in Computer Science and Technology
+National School of Development, Peking University						     Beijing, China 
+Minor in Economics		                                                                                                                                June 2022
+ Relevant Coursework: Financial Economics, Accounting, Microeconomics, Econometrics
+
+PROFESSIONAL EXPERIENCE
+Biopeptek Pharmaceuticals, LLC                                                                                                                         Malvern, PA
+Business Development Analyst	                                                                                                                 May 2023 - Present 
+Leveraged Excel VBA and Python RPA to achieve a 30% reduction in supply chain management workload by streamlining shipping operations.
+Conducted inventory data preprocessing, including data reduction, fusion, integration, and unit transformation, while creating daily pivot tables for inventory checks and facilitating shipping arrangements.
+Analyzed customer purchase histories to identify attrition trends, successfully reclaiming 40% of potential customer records, and used data-driven analysis to predict buying patterns, reducing friction costs by 20%. 
+Established a Python-based product recommendation system based on product relevance and historical sales data, resulting in a 20% revenue increase. 
+Utilized Tableau to combine sales data from various regions and arrange the submission of compliance certificate applications in an efficient order in collaboration with the compliance department. 
+Conducted extensive market research in the peptide industry by using SQL queries to analyze data from multiple tables, identifying over 1000 potential target companies. Formulated effective outreach strategies considering factors like public/private status, location, M&A history, vendor relationships, financing, pipeline progress, and phase specialization.
+
+COFCO Futures										     Beijing, China
+Assistant Trading Guide	                                                                                                                  January 2021 - March 2021
+Analyzed market commodity data with Excel VBA and illustrated products to customers; delivered recommendations on agricultural market expansion to increase profit
+Managed buying and selling transactions in warehouse and predict future trends on commodity
+Recommended trading strategies to clients through weekly meetings; increased new customers by 30%
+
+EXPERIENTIAL LEARNING
+Paychex(Capstone Project)							                                            Remote
+Data Analyst	                                                                                                                                               Sep 2023 - Present
+Managed a 5-member team, overseeing the initial division of roles into management and technical teams, and subsequently ensuring a well-organized technical workflow, with team members assigned to data operations, preprocessing, and model building.
+Harnessed Beautiful Soup and LDA to capture basic company information from a total of 10,000 company websites in more than 500 industries to prepare for the next step of text processing.
+Transformed text data to vectors using TF-IDF and Word2Vec models. Engineered and fine-tuned prediction models, encompassing LDA, KNN, linear SVC, regression, decision tree, and random forest. and accurately locate the company's industry through text predictions crawled from the company's website code. 
+Leveraged K-Fold Cross Validation to ensure the model's robustness and performance, effectively splitting the dataset into two segments: one for model training (80%) and the other for performance evaluation (20%).
+Achieved 40% accuracy in industry code prediction and 60% accuracy in outcome category prediction, resulting in improved client industry positioning, enhanced differentiation in insurance tax rates for companies, and potential cost savings.
+
+CleanTech Industry Compliance Evaluation for WexEnergy(Simon Vision Consulting)                                     April 2023
+Consultant	                                                                                                                                            Jan 2023 - Apr 2023
+Identified 3 programs under a US Federal Act which will benefit a window retrofit solutions company and its consumers.
+Developed a strategic plan to leverage an agency’s real-estate portfolio as a testbed for technical performance; identified product potential deployment in 33% of buildings
+Recommended to client that implementation would allow for $4K/per unit rebate and offer 15% in energy savings. 
+
+Simon School Venture Fund                                                                                                     	                    Rochester,NY
+Analyst                                                                                                                                                  October - December 2022
+Conducted due diligence on a CPG company (Current portfolio of the fund valued at ~USD 2M), identifying a significant correlation between customer acquisition and advertising spend.
+Devised a strategic plan for Templi, emphasizing a subscription-based website, and warehouse acquisition.
+Recommended a $25,000 investment to the Venture Fund Board, accompanied by a well-justified allocation proposal.
+
+Simon Life Sciences Club Case Competition(1st place)                                                  		                    February 2023
+Partnered with team of 4 to deliver strategic initiatives to startup client providing telemedicine services to help overcome current barriers of technology in rural areas and figure out potential ways to make revenue.
+Developed community and rural hospital outreach programs to expand access and build trust for telemedicine service.
+Enhanced client’s business model by creating benchmark for different income groups and constructed two-way business model to maintain the revenue of the company while ensuring that it provides assistance to and for the underprivileged.
+
+SKILLS
+Tech Stack: Python, SQL, R, Tableau, Power BI, SPSS, STATA, AWS cloud computing
+Certifications: Wall Street Prep Technical Finance Seminar & Online Modeling (DCF,M&A)

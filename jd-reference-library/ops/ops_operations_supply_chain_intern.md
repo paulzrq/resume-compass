@@ -285,5 +285,167 @@ Collected: 2026-09-21
 - Demonstrated experience coordinating across departments or with external stakeholders (customers, carriers, suppliers)
 - Commitment to diversity, equity, and inclusion in the workplace
 
+## JD 13: Intern – Global Supply Chain Analyst, Micron Technology (semiconductor manufacturing / global supply chain analytics)
+Source: Micron Technology Careers job posting, https://careers.micron.com/careers/job/42120117?hl=en
+Collected: 2026-09-22
+
+### Responsibilities
+- Support Micron's "transform the business" team of engineering and technology specialists working to improve planning and execution capabilities across a 30+ billion-dollar semiconductor supply chain
+- Help deconstruct and analyze complex end-to-end supply chain challenges, then frame solution options for partnering with Global Supply Chain business teams on implementation
+- Build dashboards and perform large data-set analysis to surface actionable insights for supply chain planning and execution
+- Identify and drive process enhancements across supply chain workflows, acting as a change agent for continuous improvement
+- Communicate findings and recommendations clearly to cross-functional business stakeholders
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Engineering, Supply Chain, Operations Research, Data Analytics, or a similar field
+- Must be in the final year of school
+- Strong data analysis capabilities and ability to learn quickly
+- Strong systems and critical-thinking skills
+
+### Bonus / Preferred Qualifications
+- Interest in and knowledge of supply chain models and semiconductor manufacturing/planning environments
+- Highly self-motivated and outcome-oriented, with a bias toward digging deep on unfamiliar topics
+- Strong communication and presentation skills for simplifying and sharing complex ideas with others
+- Demonstrated capability to act as a change agent driving process or efficiency improvements
+
+## JD 14: Part-Time Student – Supply Chain, John Deere (heavy equipment/agricultural machinery manufacturing supply chain)
+Source: John Deere Careers posting, "Part-Time Student - Supply Chain - Waterloo, IA" — https://careers.deere.com/careers/job/137469830397-part-time-student-supply-chain-waterloo-ia-waterloo-iowa-united-states?domain=johndeere.com (mirrored with full description at https://interninsider.me/internships/john-deere/part-time-student-supply-chain-b23f728e-4e5e-4200-acc9-fe7d3c4dc910); posted July 22, 2026; applications closed August 25, 2026
+Collected: 2026-09-23
+
+### Responsibilities
+- Create and maintain key team performance reports and data sources for internal and external project management
+- Support project management and sourcing work tied to continuous improvement initiatives
+- Contribute to supplier resilience efforts within the Supply Management organization
+- Assist with department budget reconciliation
+- Take on additional assigned projects as needed
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Supply Chain, Business, MIS, or a related field
+- Registered as a full-time student at an accredited U.S. college or university, graduating May 2027 or later
+- Cumulative GPA of 2.8 or higher
+- Strong interpersonal, negotiation, and conflict-resolution abilities
+- Proficiency in Microsoft Excel and PowerPoint
+- Available 16-20 hours/week during the academic year and 30-40 hours/week in summer; able to commute daily to Waterloo, IA (no relocation assistance)
+- Must be 18 years or older; no visa sponsorship available
+
+### Bonus / Preferred Qualifications
+- Experience creating visual reporting tools such as Power BI, Power Apps, or SharePoint
+- SAP system experience
+- High attention to detail and data accuracy
+
+## JD 15: 2026 L'Oréal USA Summer Internship Program - Operations, L'Oréal USA (Beauty/Personal Care CPG, Manufacturing & Supply Chain)
+Source: Official L'Oréal Careers job posting (careers.loreal.com, job ID 215813) — https://careers.loreal.com/en_US/jobs/JobDetail/?jobId=215813
+Collected: 2026-09-24
+
+### Responsibilities
+- Complete an 11-week paid summer internship fully integrated into a manufacturing/supply chain team's day-to-day operations across New Jersey plant/office locations (Clark, South Brunswick, Berkeley Heights, Cranbury, Piscataway, Somerset, Jersey City)
+- Lead an individual strategic project in one of several operations tracks: Manufacturing (performance improvement, production/process engineering, safety initiatives, formula processing), Supply Chain (demand planning, supply planning, production scheduling), Corporate Operations (packaging development, sourcing initiatives), or Quality (pilot plant and industrial quality oversight)
+- Collaborate with cross-functional plant and corporate teams (manufacturing, planning, quality, sourcing) as part of daily project work
+- Present the completed project and its outcomes to senior leadership at the end of the internship, as part of consideration for a full-time return offer
+- Participate in structured mentorship, professional development sessions, and networking events alongside the project work
+
+### Basic Requirements
+- Currently enrolled full-time in a 4-year bachelor's degree program, with an expected graduation date between December 2026 and July 2027
+- Legally authorized to work in the United States on a permanent basis without current or future sponsorship
+- Willing to relocate to a New Jersey office/plant location for the duration of the internship
+- Able to begin full-time employment immediately upon graduation (available for a return offer starting ~September 2027)
+
+### Bonus / Preferred Qualifications
+- No prior industry experience required — the program is explicitly designed for students without prior supply chain/manufacturing work history
+- Interest or coursework in supply chain planning, industrial/process engineering, or operations management is relevant given the project tracks offered
+- Comfort working cross-functionally and communicating results to senior stakeholders, since the internship culminates in a leadership presentation
+- Openness to relocating and adapting to a plant/manufacturing environment (as opposed to a purely corporate office setting)
+
+## JD 16: 2026 Spring Internship Program - Supply Chain, Nashville, TN, The Kroger Co. (grocery/retail chain — corporate supply chain project-management internship, distinct from Walmart's merchandising track and Uline's warehouse/distribution focus; no grocery retailer represented elsewhere in this file)
+Source: Kroger's official Oracle Cloud recruiting career site, cross-verified against a mirrored listing — https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/153070
+Collected: 2026-09-25
+
+### Responsibilities
+- Manage multiple supply chain projects while adhering to timelines, communicating status and potential risks/issues to appropriate teams
+- Assist with documentation of supply chain processes and best practices, and support the creation of process improvement projects
+- Conduct supply chain analysis and seek/recommend new supply chain project opportunities
+- Partner with cross-functional teams to elicit, analyze, document, and deliver supply chain solutions
+- Assist with project risk management and complete a cumulative project summary presented to the executive team/managers
+
+### Basic Requirements
+- Currently pursuing a degree at an accredited college or university (open to all majors); U.S. work authorization without need for visa sponsorship
+- Proficiency in Microsoft Office Suite; ability to manage multiple priorities simultaneously
+
+### Bonus / Preferred Qualifications
+- Demonstrated initiative and strong leadership skills, with ability to work both independently and collaboratively
+- Excellent written and verbal communication skills, including presenting findings/status to various organizational levels up to executives
+- Track record of supporting or recommending process-improvement initiatives within supply chain operations
+
+## JD 17: Boeing Summer 2026 Internship Program (Paid) - Supply Chain, Boeing (aerospace/defense OEM supply chain — commercial airplane & defense/space program materials, sourcing, and supplier support, distinct from Honeywell's industrial-components focus already in the file)
+Source: Boeing Careers/Workday — https://boeing.wd1.myworkdayjobs.com/en-US/INTERN/job/Boeing-Summer-2026-Internship-Program--Paid----Supply-Chain_JR2025465638
+Collected: 2026-09-26
+
+### Responsibilities
+- Work directly with a mentor in your field of study to find solutions to real-world supply chain problems
+- Support one of the world's most complex supply chain organizations, spanning Commercial Airplanes, Defense/Space/Security, and Global Services business units
+- Tour Boeing manufacturing and research facilities to see how supply chain decisions connect to aircraft and defense production
+- Interact with company leaders and executives to discuss supply chain strategy and Boeing's future direction
+- Participate in structured networking, social events, and professional development activities alongside other interns
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree, graduating on or after August 2026
+- Able to commit to a full-time, 10-12 week internship during summer 2026
+- Minimum cumulative GPA of 3.0
+- Major in Supply Chain, Business, Operations, Project Management, Information Systems, or a related field
+- U.S. citizenship required (security clearance and export-control/ITAR compliance); no visa sponsorship offered
+
+### Bonus / Preferred Qualifications
+- Prior business, operations, or supply-chain-related internship or work experience
+- Active involvement in student organizations, civic groups, or leadership activities
+- Familiarity with aerospace manufacturing, materials planning, or large-scale program/supplier coordination
+
+## JD 18: Summer 2026 Internship, Supply Chain and Planning, Under Armour (apparel/footwear — Planning, Sourcing, Materials & Allocation tracks)
+Source: Under Armour official careers site, cross-verified via Prosple and Vaia job-listing mirrors — https://careers.underarmour.com/job/Baltimore-Summer-2026-Internship,-Supply-Chain-and-Planning-MD-21230/1330077200/
+Collected: 2026-09-27
+
+### Responsibilities
+- Complete a self-driven, 12-week "Rookie" internship project with measurable business impact, placed on one of five Supply Chain & Planning tracks
+- Planning track: support coordination and distribution of new product assortments using merchandise plans and product strategies
+- Product Supply (Materials) track: support the materials services team to help drive cost savings across the supply network and provide insights to key decision makers
+- Product Supply (Product Operations) track: support the Footwear Costing team within the footwear product creation process, including seasonal financial planning
+- Sourcing track: gain hands-on experience supporting product innovation and supply chain sourcing strategy
+- Allocation track: support planning and distribution of product inventory across sales/distribution channels
+- Participate in mentorship, executive Q&A sessions, and structured professional development programming alongside the internship project
+
+### Basic Requirements
+- Currently enrolled in a 4-year undergraduate or graduate program, with expected graduation between December 2026 and July 2027
+- Pursuing a degree in Business & Management, Transportation/Logistics/Procurement, IT, or Data Science (or related field)
+- Legally authorized to work in the U.S. without need for employment-based visa sponsorship now or in the future
+- Detail-oriented with strong written and verbal communication skills
+- No prior professional experience required
+
+### Bonus / Preferred Qualifications
+- Comfort working with data/planning tools
+- Demonstrated interest in retail/apparel supply chain functions (sourcing, allocation, materials costing)
+- Ability to independently drive a project to completion within a fixed 12-week timeline
+
+## JD 19: Supply Chain Internship, MultiCare Health System (hospital/health system supply chain)
+Source: MultiCare Health System official careers site — https://jobs.multicare.org/students-grads/internships/supply-chain-internship/
+Collected: 2026-09-28
+
+### Responsibilities
+- Complete a 2-week shadowing phase observing multiple supply chain departments to understand their roles in healthcare logistics
+- Move into a project-based role, actively contributing to a specialized supply chain team on live initiatives
+- Conduct data analysis to improve operational efficiency
+- Track inventory and identify usage/demand trends
+- Coordinate deliveries to optimize logistics; analyze demand forecasts to ensure resource availability
+- Identify cost-saving opportunities and work with cross-functional teams across the health system to improve performance
+
+### Basic Requirements
+- Undergraduate student entering Junior or Senior year (recent graduates also welcome)
+- Problem-solving and analytical thinking ability
+- Communication and collaboration skills
+- Basic project management ability
+
+### Bonus / Preferred Qualifications
+- Familiarity with Power BI, Excel, and ERP systems
+- Experience or coursework involving cross-functional collaboration
+- Demonstrated interest in cost-reduction/efficiency-improvement analysis
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard-skill baseline is spreadsheet/data fluency (Excel is explicit in 3 of 5; SQL/Power BI and ERP familiarity appear as differentiators rather than requirements), suggesting the framework should treat basic Excel as table-stakes and score SQL/ERP/analytics-tool exposure as a meaningful bonus rather than a core requirement. Analytical rigor and communication skills are weighted more heavily than field/warehouse experience — even the two most "hands-on" roles (Amazon Area Manager, Honeywell Supply Chain) foreground people-management, communication, and process-improvement framing over physical operations experience, so resumes should be credited for data-driven decision-making and cross-functional communication evidence at least as much as for literal warehouse/logistics work. GPA and graduation-timeline gating (3.0+ GPA, specific graduation windows, no-sponsorship clauses) matter procedurally but aren't differentiators worth much scoring weight since they're pass/fail eligibility filters, not competitive signals. Finally, prior internships, case-competition participation, and major relevance (supply chain, operations, business, engineering, economics) function as the strongest positive signals across postings, so the framework should reward directly relevant coursework/majors and any prior internship or case-competition experience in operations/supply chain more than generic leadership titles.

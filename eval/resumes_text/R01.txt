@@ -1,0 +1,56 @@
+Jingyu“Roger”  Li
+[PHONE] ● [EMAIL] ● linkedin.com/in/jli1222 ● Jersey City, NJ 
+education
+
+University of Maryland, Robert H. Smith School of Business	College Park, MD, USA
+Master of Quantitative Finance	May 2023
+Terrain Scholarship
+Smith Analytics Consortium Datathon Competition, Finalist, 2022
+Big Data, ETL, Financial Data Analytics, Machine Learning in Finance, Data Mining, Financial Programming
+
+University at Albany – State University of New York 	                                                                                       Albany, NY, USA
+Bachelor of Science, Business Economics	May 2021
+Dean’s List, 2019 – 2021
+
+TECHNICAL SKILLS
+j
+Programming Language: Python (Pandas, NumPy, SciPy, Scikit-Learn, TensorFlow, PyTorch), SQL, R, SAS
+Visualization Tools: Tableau, Power BI
+Other Tools: Microsoft Excel, Snowflake, SSMS, PowerPoint, Word, Outlook
+
+
+WORK EXPERIENCE
+
+Shelter Forest International                                                                                                                                    Portland, OR, USA
+Business Analyst Intern                                                                                                                                      May 2023 – Aug 2023
+Implemented exploratory data analysis and ARIMA, SARIMA time series model in python, fit plywood import volume to warehouse capacity, reduced 8% expenditure in a quarter.
+Developed automated order tracking dashboards using Tableau and SQL, resulting in a 30% reduction in manual workload for the sales team.
+
+Freddie Mac	College Park, MD, USA
+Data Analyst - Experimental Learning Project	 Sept 2022 – Nov 2022
+Leveraged National Risk Index data and 40M rows mortgage data by SQL from Snowflake, performed analysis and visualization with Python and Tableau, identified the portfolio's exposure to climate hazards is 13.25%. 
+Utilized multivariate analysis techniques (Logistic regression and XGBoost), discovered that loans in high-risk areas had 17.5% higher risk of default based on odds ratio.
+Influenced loan issuance decisions through insightful findings presented to senior management. 
+
+
+University of Maryland, Robert H. Smith School of Business                                                               College Park, MD, USA
+Financial Data Analyst - Financial Engineering Project                                                                               Aug 2022 – Oct 2022
+Developed an ETL pipeline on data of 1Million loans in 20 years using Python, employed cloglog models to estimate default and prepayment survival rates in SAS, ensuring error rates were consistently below 3%.
+Built loss rate model to simulate default rates in Python and R, generated lognormally shaped loss distributions, accurately calculated prices and yields for each Credit Risk Transaction (CRT) tranche.
+
+ShanghaiTech University                                                                                                                                           Shanghai, China
+Research Assistant                                                                                                                                             May 2021 – Apr 2022
+Extracted and organized stocks & bonds data using SQL, conducted machine learning analysis in Python to examine the impact of 50 variables on excess return, achieved a mean squared error (MSE) of 0.0104.
+Performed regression analysis in Python on 7k records, revealing statistically significant factors, suggest analysts introduce noise in public recommendations to maintain value of their private advice to funds.
+
+Crafted Capital	Houston, TX, USA
+Investment Analyst Intern	July 2020 – Aug 2020
+Researched the CBD & hemp sector as well as funds investing in this space, collected and organized data in Excel and SQL. Evaluated attractive fund sources using NumPy, Pandas, Seaborn in Python, found 20 potential investors.
+Conducted Monte Carlo Simulation in Python to predict outcomes and risks in the investment, analyzed data and model to screen financing candidates, presented finds and recommendations to client on Top 5 target investors.
+
+project experience
+
+
+Valuating MW Petroleum Corporation Using Discounted Cash Flow Valuation and Option Models
+Performed financial analysis on data and applied DCF method in Excel to calculate the Enterprise Value of $586.7M.
+Utilized Black-Scholes model and Monte Carlo simulation in Python to value MW Petroleum with options, analyzing the impact of uncertainties, estimated a target price of $557.9M, achieved a 5% cost reduction.

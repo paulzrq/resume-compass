@@ -298,5 +298,182 @@ Collected: 2026-09-21
 - Interest in or coursework related to financial markets, trading systems, or blockchain technology
 - Prior internship or academic project experience involving production-style software systems
 
+## JD 13: Software Engineering Intern (Fall 2026), Gemini (regulated crypto exchange & digital-asset custody platform)
+Source: Gemini careers posting via Greenhouse job board, https://job-boards.greenhouse.io/gemini/jobs/7875125
+Collected: 2026-09-22
+
+### Responsibilities
+- Drive development of new products and features on the Gemini platform, owning meaningful pieces of the roadmap
+- Collaborate with senior engineers on system design, testing, and scalability while receiving structured mentorship
+- Contribute technical ideas during planning and design discussions that shape key engineering initiatives
+- Review and critique teammates' code with a focus on correctness, performance, and security
+- Improve system reliability and maintainability through refactoring and technical-debt reduction
+- Support production systems by triaging, diagnosing, and resolving on-call alerts and bugs
+
+### Basic Requirements
+- Currently pursuing a Bachelor's, Associate's, or Master's degree in Computer Science or a related field
+- Passionate about blockchain, digital assets, and the broader Web3 industry
+- Solid software engineering and coding fundamentals, with strong learning agility
+- Self-motivated and proactive, able to take initiative with limited guidance
+- Clear written/verbal communication and collaborative teamwork skills
+- Open to feedback and committed to continuous growth
+
+### Bonus / Preferred Qualifications
+- Interest in or exposure to security-first engineering practices (code auditing, threat modeling) relevant to a regulated financial institution
+- Prior experience with production-grade or high-availability systems, including on-call/incident-response exposure
+- Familiarity with blockchain protocols, cryptography, or distributed-ledger concepts beyond coursework
+- Comfort working across both frontend and backend, since placement depends on candidate strengths
+
+## JD 14: Software Engineer Intern – Analysis Workflow, Addepar (wealthtech / portfolio analytics platform for financial advisors)
+Source: Addepar official careers board (Greenhouse — https://boards.greenhouse.io/addepar1/jobs/7802318002 ; also cross-listed on LinkedIn — https://www.linkedin.com/jobs/view/software-engineer-intern-analysis-workflow-at-addepar-4215960155
+Collected: 2026-09-23 (original posting was for Summer 2025 intern cohort, June–August 2025; posting is now closed but content verified as authentic via Addepar's own Greenhouse board)
+
+### Responsibilities
+- Join the Analysis, Widgets, and Dashboards team building new product modules for Addepar's portfolio analytics and reporting platform
+- Implement backend improvements to analysis workflows, with opportunities for full-stack development
+- Collaborate closely with product managers and designers to scope and build client-facing features
+- Ship client-requested features into production during the 12-week internship
+- Participate in code review, engineering standups, and team planning processes
+- Deliver a project retrospective/presentation at the end of the internship program
+
+### Basic Requirements
+- Currently enrolled in a US or Canadian post-secondary institution (must return to school after the internship)
+- Available for the full 12-week internship commitment
+- Strong object-oriented programming skills and understanding of good coding practices
+- Familiarity with HTTP, REST, and web APIs
+- Exposure to Java, Python, React, MySQL, or Kafka
+- Basic Linux proficiency and shell scripting
+- Excellent written and verbal communication skills
+
+### Bonus / Preferred Qualifications
+- Systems-level programming experience
+- Specific experience with or knowledge of financial data systems
+- Comfort navigating ambiguous, cross-functional problems (working with PMs/designers on real client requirements)
+- Prior exposure to large-scale data/analytics platforms handling investment portfolio data
+
+## JD 15: Software Engineer Intern, Summer 2027, IMC Trading (proprietary trading / algorithmic market-making technology)
+Source: Official IMC Trading careers page — https://www.imc.com/us/careers/jobs/4823924101
+Collected: 2026-09-24
+
+### Responsibilities
+- Join an engineering team building and maintaining IMC's proprietary trading systems, contributing to projects with direct, measurable business impact on live trading operations
+- Work through a structured 10-week internship combining hands-on production coding with classroom training on financial markets, IMC's trading technology stack, and core coding fundamentals
+- Collaborate closely with quant researchers, traders, and senior engineers to translate market/trading requirements into working software
+- Participate in code reviews, technical mentorship sessions, and cross-team knowledge sharing
+- Build professional relationships across the firm through career development sessions and structured networking events
+- Present completed project work to engineering and business stakeholders at the end of the internship
+
+### Basic Requirements
+- Currently enrolled in a university program, graduating between September 2027 and July 2028
+- Pursuing a degree in Computer Science, Engineering, or a related technical field
+- Strong foundation in algorithms and data structures
+- Proficiency in Java or C++
+- Strong analytical and problem-solving ability
+- Available to start the internship on June 7, 2027
+
+### Bonus / Preferred Qualifications
+- Genuine interest in financial markets and electronic/algorithmic trading (no prior finance background required)
+- Exposure to high-performance, low-latency system design or competitive programming
+- Collaborative mindset suited to working with diverse technical and trading teams
+- Prior personal or academic projects involving real-time systems, concurrency, or performance-critical code
+
+## JD 16: Software Engineering Intern 2026, Wise (formerly TransferWise) (consumer/business cross-border money-transfer neobank (multi-currency accounts, remittances) — distinct from Airwallex's B2B-only cross-border payments infrastructure; no remittance/neobank entry exists elsewhere in this file)
+Source: Official Wise careers site, cross-checked against a Built In job mirror — https://wise.jobs/job/software-engineering-intern-2026-in-london-jid-2492
+Collected: 2026-09-25
+
+### Responsibilities
+- Collaborate cross-functionally with product, design, and engineering teams to shape and build features of Wise's cross-border money transfer product
+- Create clear, consistent, and high-performing user interfaces
+- Understand and help solve real customer challenges related to international payments/money movement
+- Participate in code reviews and follow best coding practices as part of the engineering team's workflow
+
+### Basic Requirements
+- Graduating in 2027 with a Bachelor's or Master's degree (Computer Science or other STEM field; technical background not strictly mandatory)
+- Proficiency in at least one major programming language (Java, JavaScript, Python, Kotlin, or Swift)
+- Solid grounding in computer science fundamentals and basic knowledge of modern web technologies
+- Able to commit to the full 10-week internship and eligible to work in the UK without visa sponsorship
+
+### Bonus / Preferred Qualifications
+- Strong, demonstrated interest in web development beyond coursework
+- Ability to explain complex technical concepts clearly to diverse, cross-functional audiences (product, support, compliance)
+- Prior exposure to or curiosity about international payments/fintech customer problems (e.g., FX, multi-currency transfers) rather than only generic software projects
+
+## JD 17: Software Engineering Internship (Summer 2026), Anchorage Digital (crypto custody & institutional digital-asset infrastructure — the only federally chartered crypto bank in the U.S., covering custody/staking/trading security infra rather than exchange or stablecoin-payments tracks)
+Source: Mirror of official listing via BuiltIn NYC — https://www.builtinnyc.com/job/software-engineering-internship-summer-2026/7456526 ; corroborating listing — https://jobs.khoslaventures.com/companies/anchorage-digital/jobs/61003104-software-engineering-internship-summer-2026
+Collected: 2026-09-26
+
+### Responsibilities
+- Work with a specific engineering team, designing and developing code to specs through the full software development lifecycle into production
+- Own and manage an assigned team project over the 12-week internship, from requirements through shipped code
+- Participate in software ceremonies (standups, sprint planning) and requirements/design discussions alongside full-time engineers
+- Write, review, test, and document code according to Anchorage's engineering and team standards
+- Receive dedicated mentorship while contributing to Anchorage's institutional digital-asset custody, trading, and staking platform
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Computer Science or a related field
+- Demonstrates curiosity about learning Anchorage's technologies and systems
+- Able to troubleshoot and debug engineering issues and apply sound problem-solving techniques
+- Operates autonomously while knowing when to ask for help
+- Strong collaboration and communication skills
+
+### Bonus / Preferred Qualifications
+- Graduating December 2026 or Summer 2027
+- Prior blockchain or digital-asset engineering experience
+- Strong, peer-recognized problem-solving and code-quality skills
+- Familiarity with institutional custody, staking, or security-infrastructure concepts
+
+## JD 18: Intern, Software Engineer, Platform, SoFi (personal-finance super-app / neobank platform engineering)
+Source: Job posting listed on Peerlist (mirroring SoFi's official Greenhouse-hosted careers posting) — https://peerlist.io/company/sofi614/careers/intern-software-engineer-platform/jobheogodl7qnabl6frdj8nng9r9ke
+Collected: 2026-09-27
+
+### Responsibilities
+- Write, test, and deploy efficient, scalable code to production that impacts millions of SoFi members
+- Design and develop software systems, improvements, and user-facing experiences
+- Work across multiple programming languages and frameworks (Java, Kotlin, Flutter, Spring Boot, AWS, PostgreSQL, React, C#)
+- Contribute to standard methodologies, architecture, and implementation decisions
+- Convert user stories into technical solutions
+- Participate in design and code reviews
+- Collaborate closely with software architects and senior developers
+- Present summer project findings to senior leadership at the end of the internship
+
+### Basic Requirements
+- Currently enrolled in an accredited U.S. university pursuing a Bachelor's or Master's degree
+- Expected graduation December 2026 or Spring 2027
+- Must return to school for at least one quarter/semester after the internship
+- No more than 12 months of professional full-time work experience (internships excluded)
+- Willing to relocate to and work on-site in the San Francisco Bay Area
+- Prior software development experience in a non-academic setting
+- Solid understanding of computer science fundamentals, algorithms, and data structures
+
+### Bonus / Preferred Qualifications
+- DevOps experience
+- Software architecture knowledge
+- Ability to rapidly learn new languages and technologies in a fast-paced environment
+- Strong problem-solving skills and intellectual curiosity
+
+## JD 19: Software Developer/Engineer Intern – 2026 Summer Internship, Nasdaq (equities exchange/capital markets platform engineering — Capital Access Platform team)
+Source: Nasdaq official careers site (Workday) — https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/Software-Developer-Engineer-Intern---2026-Summer-Internship_R0024173
+Collected: 2026-09-28
+
+### Responsibilities
+- Write quality, production-ready code using C#, .NET, .NET Core, Vue.js, MSSQL, PostgreSQL, and Terraform, supporting the Core Analytics team on Nasdaq's Capital Access Platform
+- Work with AWS cloud infrastructure to build and manage microservices, provisioning systems via Terraform
+- Participate in automation efforts across the software development lifecycle (build, test, deployment pipelines)
+- Review code quality and ensure adherence to coding standards and project requirements
+- Assist with debugging and troubleshooting issues across development and production environments
+
+### Basic Requirements
+- Passion for learning and building innovative software solutions
+- Interest in modern SaaS-based platforms
+- Hands-on experience with programming languages/tools such as C#, Vue.js, and/or SQL
+- Understanding of data-driven systems and data analytics
+
+### Bonus / Preferred Qualifications
+- Knowledge of single-page application development combining Vue.js, .NET, and PostgreSQL
+- Familiarity with AI-enhanced/AI-powered application development
+- Experience with cloud platforms (AWS or Azure)
+- Understanding of microservices architecture and containerization (Docker)
+- Familiarity with deployment automation tooling (e.g., Jenkins)
+
 ## Implications for Our Framework
 Across all five postings, the hard technical floor is remarkably consistent and modest: general-purpose programming proficiency (most commonly Python, Java, Go, JavaScript, or C/C++) demonstrated through coursework, personal projects, hackathons, or a prior internship — none of these companies demand fintech-specific experience as an entry bar, they demand solid CS fundamentals plus evidence of having actually shipped something. The recurring hard filters that function as eligibility gates rather than scoring signals are: current full-time enrollment in a CS/Engineering/quantitative degree program with a specific expected graduation window (Winter 2026/Spring 2027 at Robinhood and Plaid), in-person or hybrid location requirements tied to specific cities (Menlo Park, SF, NYC), and work authorization — three of five postings (Stripe, Robinhood, Affirm/Plaid) explicitly restrict to US citizens/permanent residents/student visa holders or state no sponsorship is offered, which should be treated as a binary pass/fail screen rather than a weighted rubric item since a resume that is otherwise perfect but fails this gate would not advance in real hiring. GPA is notably absent as an explicit criterion in every posting collected, suggesting a resume scorer should not over-weight GPA relative to demonstrated project/internship experience. The clearest differentiators/bonus signals across postings are: genuine "fintech passion" or domain interest called out explicitly by name at Robinhood, Plaid, and Affirm (suggesting resumes that show payments/banking/trading-adjacent side projects or coursework should score meaningfully higher than generic CS resumes); breadth across the stack (backend systems, databases/transactions, and increasingly frontend/API/cloud familiarity per Affirm); and, notably new in the Coinbase posting, fluency with generative-AI-assisted development workflows as a core rather than bonus expectation, which the rubric should start weighting given it appears to be shifting from differentiator to baseline expectation. Overall, this implies a scoring rubric for this field should weight (1) core programming/CS-fundamentals evidence heavily as a baseline, (2) shipped project/internship experience as the primary differentiator, (3) explicit fintech/payments/banking domain signal as a moderate bonus, (4) AI-tool fluency as an emerging bonus trending toward baseline, and (5) treat degree program, graduation timing, location, and work authorization as gating checks rather than continuous score inputs, since none of these companies substitute a strong technical profile for missing eligibility.

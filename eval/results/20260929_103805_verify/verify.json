@@ -1,0 +1,84 @@
+[
+ {
+  "resume_id": "R01",
+  "error": "JSONDecodeError: Invalid control character at: line 7 column 40 (char 183)"
+ },
+ {
+  "resume_id": "R02",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 2,
+   "skill": 2,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 56,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 1,
+  "critic_pass": false,
+  "critic_feedback": [],
+  "critic_corrections": [
+   {
+    "dimension": "proj",
+    "old_score": 3,
+    "new_score": 2,
+    "reason": "证据造假（第1类硬伤）：rationale 声称项目缺『看板/可视化产出与SQL实战案例』，但简历中完全未提及SQL在项目中的应用，此为臆测。按锚点，3个项目技术方法应用得当但缺实际产出与影响力验证，应为2分"
+   },
+   {
+    "dimension": "skill",
+    "old_score": 3,
+    "new_score": 2,
+    "reason": "证据造假与理由臆测（第1、3类硬伤）：rationale 声称『缺数据可视化工具应用与SQL实战证据』，但简历技能列表本身就未提及任何可视化工具（Tableau/Power BI/Matplotlib），这不是『缺证据』而是『技能本身不含』。SQL虽列举但无项目佐证。按锚点应为2分（基础相关技能缺乏使用场景佐证）"
+   }
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 7,
+  "measured_usage": {
+   "input": 26632,
+   "output": 8396,
+   "cache_creation": 4244,
+   "cache_read": 16976
+  },
+  "seconds": 83.4,
+  "cost_usd": 0.0544
+ },
+ {
+  "resume_id": "R03",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 82,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 1,
+  "critic_pass": true,
+  "critic_feedback": [
+   "[exp] rationale 中提及'缺乏可视化输出显式记录'，但项目经历部分明确出现'Adopted Tableau for a detailed breakdown and visualization'，建议在 exp rationale 中补充这一证据或调整措辞，避免自相矛盾",
+   "[present] rationale 提及'学术风格略重'，这是小瑕疵意见，不影响分数，但可在反馈中建议优化'Logistic Differential Equations''Acquiring data insights from'等表述为更直白的商业表达"
+  ],
+  "critic_corrections": [],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 10,
+  "measured_usage": {
+   "input": 72494,
+   "output": 7965,
+   "cache_creation": 4521,
+   "cache_read": 31647
+  },
+  "seconds": 83.3,
+  "cost_usd": 0.085
+ }
+]

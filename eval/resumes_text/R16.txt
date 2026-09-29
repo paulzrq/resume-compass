@@ -1,0 +1,53 @@
+Buning Fan
+Tel: (+1) [PHONE] | Email: [EMAIL]
+EDUCATION
+Boston University	  Boston, MA
+Bachelor of Arts (B.A.) 	09/2020 - Expected 05/2024
+GPA: 3.91/4.00   Major: Mathematics with Statstics track   Minor: Data Science & Business Administration
+Relevant Coursework: Probability, Applied Statistics, Linear Algebra, Multivariable Calculus, Analysis of Variance, Modern Regression Analysis in R, Data Science in Python, Programming for Data Science in Rust, Data Science in R, Discrete Mathematics, Information Systems
+Awards and Honors: Dean’s List (4 semesters), British Biology Olympiad 2018 Commended Award, Australian Mathematics Competition 2017 Distinction Award
+SKILLS
+Languages: Mandarin (Native), English (Fluent), Japanese (Basic)
+Programming Skills and Tools: Python (Pandas, NumPy, matplotlib, seaborn, sklearn), R (ggplot2, tidyverse), SQL, SAS, STATA, Rust, JMP, Tableau, Git/GitHub & Command Line, Microsoft Suite (Word, Excel VBA, Access, Power BI, PowerPoint)
+RESEARCH & PROJECTS
+Heart Disease Risk Prediction and Intervention Study	Boston, MA
+Group Research, Boston University	01/2023 - 05/2023
+Conducted exploratory data analysis (EDA) on a heart disease dataset using R to uncover trends, relationships, and outliers, explored the potential associations between various factors (such as age, gender, BMI, lifestyle behaviors, other diseases, and race) and the risk of heart disease to provide a deeper understanding for subsequent modeling and prediction
+Analyzed heart disease risk prediction factors using logistic regression models, performed variable selection, multicollinearity checks, and model interpretation, and successfully discovered key indicators strongly associated with heart disease risk
+Evaluated model performance using likelihood ratio tests, identified high-risk populations and proposed effective strategies and recommendations for heart disease prevention
+
+Social Network Analysis and Graph Clustering Project	Boston, MA
+Individual Research, Boston University	01/2023 - 05/2023
+Used Rust programming language to preprocess and construct an undirected graph from the first 4000 rows of a Twitter user relationship dataset
+Identified core user groups, niche interest groups, and main characteristics of interest groups through K-means clustering
+	Optimized analysis efficiency by implementing Dijkstra’s algorithm for distance calculation, HashMap for storing node indices, and multiple iterations of K-means optimization for accurately analyzing relationships among interest groups
+Quantified social networks of interest groups though the final model and determined average Twitter users followed 1.57 friends, implying a smaller number of other users with specific interests or close relationships
+
+Statistics Research and Analysis on US Air Quality Index	Boston, MA
+Group Research, Boston University	09/2022 - 12/2022
+	Explored the relationship between the air quality index and city characteristics in 100+ cities based on the latest US Census data
+Utilized JMP software for data preprocessing, descriptive and inferential statistical analysis, including data visualization using bar charts and histograms, and hypothesis testing of means using z-scores, p-values, and confidence intervals
+Built a multiple linear regression model with key explanatory variables after perfoming residual analysis, variable transformations, multicollinearity checks (VIF), and ANOVA
+	Revealed a positive correlation between higher AQI values and four main factors by interpreting regression coefficients and analyzing the impact of each explanatory variable
+
+Student Performance Data Analysis Project 	 Boston, MA
+Group Research, Boston University	   09/2022 - 12/2022
+Analyzed a student performance dataset using Python to investigate the impact of family factors on exam scores, including the guardian’s educational level, quality of family relationships, and weekday alcohol consumption
+Conducted data cleaning and employed data visualization techniques to uncover trends in the data
+Applied linear regression analysis and hypothesis testing to assess the influence of each factor on student performance, revealing that guardian’s educational level is the most influential positive factor, while weekday alcohol consumption negatively affects student performance
+Presented data visualizations and research findings in Jupyter Notebook, effectively conveying insights for enhancing student performance through storytelling
+
+PROFESSIONAL EXPERIENCE
+Bilibili	Shanghai, CN
+Data Analytics and Product Operations Intern, Game Business Ecosystem Department	06/2023 - 10/2023
+Leveraged statistical models and SQL to perform in-depth analysis of cyclical ad data and customer feedback
+Utilized statistical clustering techniques to categorize 1500 games based on playstyle and themes
+Employed predictive modeling and time-series analysis in Power BI reports for real-time industry revenue monitoring, enabling sophisticated potential reach assessment and fine-tuning of algorithm models for optimization
+Applied statistical hypothesis testing and regression analysis to assess pre-launch potential reach and interest group analysis in the daily advertising operations of over 20 mobile game beta campaigns
+Generated dynamic, statistically-driven line charts through pivot tables, conducting rigorous hypothesis tests and regression diagnostics to pinpoint and promptly rectify intricate advertising delivery issues based on client feedback
+
+Boston University	Boston, MA
+Grader, Mathematics and Statistics Department	09/2022 - 12/2022
+Accurately graded assignments and exams for a mathematics course using platforms such as Gradescope, ensuring prompt feedback to students
+Coordinated with faculty and fellow graders to maintain consistent grading standards and address student queries efficiently
+Contributed to refining grading protocols, enhancing efficiency and turnaround time for assignment evaluations

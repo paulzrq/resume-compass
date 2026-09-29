@@ -1,0 +1,41 @@
+ Jonah Shi
+z2424 W, Territorial Road, Apt, 415 ǀ St Paul, Minnesota | [PHONE] | [EMAIL] 
+
+EDUCATION
+
+Master of Science in Data Science, University of Minnesota Twin Cities                      	       Sep 2022 – May 2024
+Bachelor of Science in Statistics, University of Minnesota Twin Cities		                      Sep 2019 – May 2022
+
+WORKING EXPERIENCE
+
+CHS Inc., IT Data Engineering, Intern 	        	    		                                     Jun 2021 – Aug 2021
+Developed automated solution for data ingestion by utilizing API calls to scrape data from multiple sources, saving the company 3 hours of manual work every week.
+Sorted and cleaned data in different layers of the data lake to identify missing data and remove redundancies to generate more accurate reports and models.
+Conducted research to test the feasibility of integrating augmented reality software with the company’s current processes and developed demos for future employee trainings.
+
+Hangzhou Jireh Rubber & Plastic Co. Ltd., Data Analyst Intern.                                                    Feb 2019 – Aug 2019
+Analyzed historical monthly revenue by comparing sales trends to assist in determining future business strategies.
+Utilizing data from data analysis, formulated business strategies for improving sales and profits that could potentially increase profit margins by 10%. 
+Created Excel functions to calculate residual production material and automated reminders when production supply is running low to prevent supply chain interruptions. 
+
+TECHNICAL PROJECTS
+
+Applying Machine Learning Methods to Identify Causes in Criminal Justice System	           Jan 2023 – Present
+Leveraged bootstrap analysis to obtain a multitude of simulated samples and analyze the casual relationships within the dataset to verify the dataset’s reliability and accuracy.
+Developed models to analyze causal relationships between Internet gaming disorder and symptoms in R. 
+Processed and cleaned up dirty data to remove redundant and faulty data points before compiling into a report.
+
+Developed an Appliance to Auto Generate Questions                                                                    Sep 2022 – Jan 2023
+Used the provided structural designs and class diagrams, compiled and documented user journeys and requirements that was used to determine the functions that were required for the application.
+Programmed algorithm in Python to parse through and search a data file to retrieve specific data objects that can be served up to the user in a customizable format. 
+Designed and implemented unit and integration tests to identify any possible errors in the codebase.
+
+Programmatic Analysis on U.S. Violent Crime	                                                                 Feb 2021 – May 2021
+Cleaned and managed government provided data to aggregate the average violent crime rate for each state.
+Developed R functions to apply machine learning method (random forest) for calculating the importance value for each predictor to make conclusions for their significance.
+Wrote R functions for analyzing crime ratio among different states in the U.S. using linear regression model and proposing hypothesis for calculated p-value.
+
+TECHNICAL SKILLS
+
+Coding Languages: Python, C++, Java, R, MATLAB, SQL
+Environments: IntelliJ IDEA, RStudio, PyCharm, Terminal/Shell, Windows, Mac OSX, Linux

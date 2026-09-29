@@ -309,5 +309,181 @@ Collected: 2026-09-21
 - Prior residential, camp counselor, or youth-advising experience with adolescents
 - Demonstrated leadership in an academic or extracurricular teaching-adjacent setting
 
+## JD 13: Outdoor Education Teacher/Naturalist, Echo Hill Outdoor School (EHOS) (outdoor/environmental education program, residential)
+Source: NOLS Jobsnetwork job posting, https://jobsnetwork.nols.edu/job/echo-hill-outdoor-school-4-outdoor-education-teacher-naturalist/
+Collected: 2026-09-22
+
+### Responsibilities
+- Plan and teach hands-on classes for visiting school groups (grades 3-9) across curriculum areas such as watershed ecology, Chesapeake Bay natural history, and regional/environmental science
+- Facilitate the low- and high-ropes challenge course, leading group initiatives and belaying/safety operations
+- Supervise residential life for a cabin group, including overnight accommodations, meal-time supervision, and evening/recreational programming
+- Manage whole-group behavior and safety in outdoor, non-classroom settings (trails, waterfront, challenge course) for multi-day stays
+- Serve as a full member of the seasonal teaching team, contributing to curriculum planning and program improvement
+
+### Basic Requirements
+- Motivated, energetic individual with creativity, commitment, and a genuine passion for the outdoors
+- Experience working with children or diverse age groups (camp counseling, coaching, tutoring, or similar)
+- Willingness to live on-site in a residential setting and work irregular/extended hours during multi-day school programs
+- Comfortable teaching outdoors in varied weather and physically active settings (hiking, boating, ropes course)
+
+### Bonus / Preferred Qualifications
+- Coursework or degree in education, environmental science, natural sciences, marine biology, recreation, or psychology
+- Prior outdoor/challenge-course facilitation experience
+- Certifications such as Wilderness First Responder (WFR), Wilderness First Aid (WFA), American Red Cross Lifeguard Training, or a valid state teaching certification
+- Multi-season or long-term (10-12 month) availability
+
+## JD 14: English Teaching Assistant (ETA), Fulbright U.S. Student Program (international teaching abroad / ESL, cultural ambassador)
+Source: US Fulbright Program – English Teaching Assistant Awards, https://us.fulbrightonline.org/applicants/types-of-awards/english-teaching-assistant-awards ; application requirements at https://us.fulbrightonline.org/applicants/application-components/eta
+Collected: 2026-09-23
+
+### Responsibilities
+- Serve as an assistant English teacher in a classroom abroad, supporting the local lead English teacher with lesson delivery, conversation practice, and student engagement
+- Teach students ranging from kindergarten through university level depending on host country placement, with weekly teaching loads of roughly 10-38 hours
+- Design and lead supplementary activities (conversation clubs, cultural presentations, extracurricular English enrichment) alongside core classroom duties
+- Act as an informal cultural ambassador for the United States, engaging with the host school and broader local community outside the classroom
+- Adapt teaching approach and classroom materials to fit local pedagogical norms, resources, and student needs, which vary significantly by country and grant type
+- Submit a Statement of Grant Purpose describing planned classroom contributions and strategies for engaging students prior to placement
+
+### Basic Requirements
+- U.S. citizenship
+- Bachelor's degree completed before the award start date; no Ph.D. holders eligible
+- Relatively limited prior professional experience in the field (typically 7 years or less)
+- Willingness to apply to only one host country and meet that country's specific placement and language requirements
+- Three recommendations addressing teaching ability and cross-cultural potential, plus academic transcripts from all post-secondary institutions
+- For many host countries, no foreign language proficiency required; for others, novice to advanced proficiency required or recommended depending on placement (e.g., intermediate for France/Germany/Spain, advanced for Mexico)
+
+### Bonus / Preferred Qualifications
+- Prior tutoring, teaching assistant, or classroom experience that demonstrates readiness to lead instructional activities
+- Demonstrated flexibility and adaptability shown through specific, concrete personal examples rather than general statements
+- Relevant coursework, training, or credential progress in education, TESOL/TEFL, or applied linguistics
+- Existing target-language proficiency appropriate to the host country, beyond the program minimum
+- Prior community engagement or cross-cultural experience (study abroad, volunteering, host-community involvement) supporting integration into the placement community
+- Clear articulation of how the ETA experience connects to future career or education goals, and willingness to share the experience with others afterward
+
+## JD 15: ClassiCorps Teaching Fellow, Classical Charter Schools (3-year, full lead-teacher fellowship with fully-funded Master's in Teaching, South Bronx charter network)
+Source: Official 2026 job posting on Classical Charter Schools' Greenhouse careers board, cross-verified against the organization's own ClassiCorps program page — https://job-boards.greenhouse.io/classicalcharterschools/jobs/6641006003
+Collected: 2026-09-24
+
+### Responsibilities
+- Serve as the full lead teacher of record for a classroom in a Classical Charter Schools building in the South Bronx, NY, starting June 1, 2026
+- Plan and deliver daily standards-aligned lessons so that scholars close academic gaps and master grade-level Common Core standards
+- Build and sustain a structured, highly-ordered classroom culture centered on respect, responsibility, caring, trustworthiness, fairness, and citizenship
+- Participate in the Summer Learning Academy, delivering summer instruction and completing pre-service teacher training before the school year begins
+- Meet twice weekly with instructional coaches/school leaders for intensive, data-driven coaching cycles on lesson delivery and classroom management
+- Work an extended school-day schedule (7:30 AM-4:45 PM) plus additional out-of-school planning, grading, and family-communication responsibilities
+- Concurrently complete coursework toward a Master of Arts in Teaching at Touro Graduate School of Education while teaching full-time
+
+### Basic Requirements
+- Bachelor's degree in any major, completed by May 2026
+- Minimum 3.0 undergraduate GPA (stated as non-negotiable)
+- Prior experience working with children
+- U.S. work authorization (no visa sponsorship offered)
+- Willingness to work fully in-person in the Bronx, NY (no remote option)
+- Ability to commit to the full three-year fellowship term
+
+### Bonus / Preferred Qualifications
+- Demonstrated leadership experience and strong, evidenced work ethic
+- Clear alignment with Classical Charter Schools' mission and educational philosophy
+- Embodiment of the network's core values: Accountability, Innovation, Professionalism, Rigor, Tenacity, Transparency, and Urgency
+- Openness to pursuing a formal teaching credential/Master's in Teaching while working full-time in the classroom
+- Track record of receiving and acting on instructional coaching feedback to improve teaching practice
+
+## JD 16: Teaching Fellow, Princeton in Asia (PiA) (international teaching-placement fellowship (non-Fulbright) placing US college grads as English teachers at partner universities/secondary schools across Asia via employer-paid host contracts, distinct in structure/funding model from the Fulbright ETA program already in this file)
+Source: Princeton in Asia official fellowship pages — https://www.princetoninasia.org/fellowships
+Collected: 2026-09-25
+
+### Responsibilities
+- Teach English as a foreign language to students at a partner university or secondary school host organization somewhere in Asia, planning and delivering lessons within the host institution's curriculum
+- Complete a 120-hour Teaching English as a Foreign Language (TEFL) certification course as part of pre-departure/orientation training
+- Serve a 1- to 2-year placement embedded in the host organization, handling day-to-day classroom management and student mentorship/relationship-building
+- Work with an assigned PiA Country Advisor and host-organization staff to adapt teaching approach to the local educational and cultural context
+
+### Basic Requirements
+- Bachelor's degree completed by the fellowship start date; open to college seniors and recent graduates of any accredited institution
+- Native or near-native English-speaking ability and professional proficiency in English
+- Valid passport and willingness to relocate abroad for 1-2 years
+
+### Bonus / Preferred Qualifications
+- Prior TEFL/TESOL coursework or ESL tutoring/teaching experience (not required — PiA provides TEFL training — but strengthens candidacy)
+- Relevant Asian language proficiency (generally not required but a plus for certain placements)
+- Demonstrated cross-cultural adaptability/prior living-abroad experience and prior mentorship or classroom experience working with young people
+
+## JD 17: STEM Fellowship (Summer Teaching Assistant/Counselor), Memphis Teacher Residency (MTR) (STEM-specific summer teaching fellowship for undergraduates, faith-informed, distinct from the general subject teaching corps already in the library)
+Source: Memphis Teacher Residency STEM Fellowship program page — https://memphistr.org/stemfellowship
+Collected: 2026-09-26
+
+### Responsibilities
+- Serve as a counselor and teaching assistant at the Marjorie Lee Browne STEM Discovery Camp for rising 7th and 8th graders
+- Co-teach mathematics classes alongside an experienced mentor teacher
+- Lead small-group instruction during dedicated open math time to reinforce concepts
+- Facilitate team-building, evening programming, and camp community-building activities
+- Participate in daily professional development sessions and faith-and-education seminars
+- Support classroom management and student engagement across a four-week intensive term
+
+### Basic Requirements
+- Undergraduate student, rising college sophomore or junior status (graduating after summer 2027)
+- Minimum 2.75 cumulative GPA
+- US citizen, permanent resident, or DACA recipient
+- Able to commit to the full fellowship term (June–July), including live-in housing
+- Strong mathematics background and interest in STEM education as a career path
+
+### Bonus / Preferred Qualifications
+- Declared STEM major or minor
+- Demonstrated prior leadership, mentoring, or camp/tutoring experience with youth
+- Interest in exploring teaching as a long-term vocation, particularly in under-resourced schools
+
+## JD 18: Teaching Resident (Fellow Year 1), City Teaching Alliance (paid multi-year urban teacher residency with dual certification, incl. Special Education)
+Source: City Teaching Alliance official site — Program and Apply pages — https://cityteachingalliance.org/the-program/
+Collected: 2026-09-27
+
+### Responsibilities
+- Complete a paid, full-year immersive classroom residency (Fellow Year 1) alongside an experienced mentor/host teacher in a partner Title I school
+- Lead mini-lessons and progressively take on more instructional responsibility under mentor guidance
+- Analyze student data and conduct assessments to inform and adjust instruction
+- Support small-group instruction and differentiate learning for diverse learners
+- Complete graduate-level coursework (leading to an M.A. in Teaching from American University School of Education) concurrent with the residency
+- Engage in weekly 1:1 instructional coaching and cohort-based professional learning
+- Advance to Fellow Year 2 as teacher of record in own content-area classroom, independently planning and delivering full lessons while continuing coursework and coaching
+- Progress toward dual certification (subject-area license plus Special Education) by end of Year 3
+- Commit to at least 3 years total in the classroom (1 year as resident, 2 years as full-time teacher of record)
+
+### Basic Requirements
+- Bachelor's degree completed by June 2027 (any major; no teaching experience required)
+- Minimum cumulative undergraduate GPA of 3.0
+- U.S. citizen, U.S. national, permanent resident, or DACA recipient
+- Submit online application with resume, written prompts, undergraduate transcripts, and two letters of recommendation
+- Pass a 90-minute virtual final interview that includes delivering a mock teaching lesson
+- Willingness to relocate to and teach in one of the program's partner cities (e.g., Baltimore, Washington DC, Dallas, Philadelphia, Memphis)
+
+### Bonus / Preferred Qualifications
+- Prior experience in a classroom as a paraprofessional, teacher's assistant, tutor, or informal educator
+- Demonstrated relationship-building skills with students and families from under-resourced communities
+- Evidence of adaptability, perseverance, and a continuous-improvement mindset
+- Interest in earning Special Education certification alongside content-area licensure
+- Strong written and verbal communication skills, as shown in application essays and interview performance
+
+## JD 19: Assistant Language Teacher (ALT), JET Programme (Japan Exchange and Teaching Programme — government-sponsored international ESL/foreign-language teaching)
+Source: Official JET Programme USA position page and Application Guidelines — https://jetprogramusa.org/positions/
+Collected: 2026-09-28
+
+### Responsibilities
+- Assist Japanese teachers of English in foreign-language classes at elementary, junior high, and/or senior high schools
+- Create and adapt instructional/teaching materials for language classes
+- Provide guidance on linguistic matters such as pronunciation, intonation, and correct word usage/grammar
+- Supervise and support foreign-language extracurricular and club activities, including after-school activities
+- Support students preparing for foreign-language competitions and speech contests
+- Participate in community-level international/cultural exchange initiatives connected to the placing school or municipality
+
+### Basic Requirements
+- Hold a bachelor's degree (in any field) or possess a teaching certification/license for primary or secondary education by the time of arrival in Japan
+- Demonstrate excellent command of the designated language (e.g., English), including correct pronunciation and grammar
+- U.S. citizenship (for U.S. applicants)
+- Not have lived in Japan for 6+ years in total in the last 8 years, and no disqualifying criminal record
+
+### Bonus / Preferred Qualifications
+- Prior language-teaching experience or credentials such as TEFL/TESL/TESOL certification
+- General K-12 teaching experience or a formal teaching qualification/license
+- Advanced Japanese language proficiency (JLPT N1 or N2 level)
+
 ## Implications for Our Framework
 Across all five postings, the single most consistent hard filter is availability/commitment, not credentials: every posting specifies an exact date range and full-time (or near-full-time) hours with little flexibility, so a resume that can't plausibly support a multi-week uninterrupted commitment should score poorly regardless of other strengths. Formal teaching credentials are almost never required — none of these five postings requires an education major, a teaching certification, or even completed coursework in pedagogy, and several (Breakthrough SV, City Year, TFA) explicitly state that prior teaching experience is not necessary and is replaced by trainability, adaptability, and conviction/mission-fit language. Where a GPA or degree threshold does appear (TFA's 2.5 GPA and bachelor's-by-training-date, PASE's "currently enrolled" status), it functions as a low, coarse eligibility bar rather than a differentiator — it screens out but doesn't rank. Background checks and citizenship/work-authorization status recur as binary eligibility gates (City Year, Breakthrough SV) that a scoring rubric should treat as pass/fail flags rather than weighted signals, since resumes rarely surface this data directly. The real differentiators that separate a strong from an average candidate are prior informal experience with youth — camp counselor, tutoring, after-school program, babysitting/mentoring, RA roles — plus evidence of self-directed achievement, leadership under ambiguity, and cross-background collaboration (TFA's language is the most explicit here, but Breakthrough and PASE echo it via "varying levels of teaching/tutoring experience" and "prior experience working with youth"). This implies a resume-scoring rubric for this field should weight demonstrated informal youth-facing experience and evidence of grit/leadership/adaptability heavily as the primary quality signal, treat GPA/degree-in-progress and availability as coarse eligibility gates rather than scored merits, and not penalize the absence of formal education coursework or certification, since none of these real-world entry postings require it.

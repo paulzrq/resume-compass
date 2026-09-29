@@ -292,5 +292,171 @@ Collected: 2026-09-21
 - Experience building end-to-end reporting/dashboard solutions independently rather than one-off analyses
 - Familiarity with SQL for querying and joining sales, shipment, and consumer data across multiple tables
 
+## JD 13: Intern - Air Traffic Strategy Data Analytics (Summer 2027), United Airlines (airline/aviation operations data analytics)
+Source: United Airlines Careers job posting (mirrored via job aggregator after original listing closed), https://careers.united.com/us/en/job/WHQ00026613/Intern-Air-Traffic-Strategy-Data-Analytics-Summer-2027 (also indexed at https://freehire.me/jobs/intern-air-traffic-strategy-data-analytics-summer-2027-united-airlines-zb4htznh)
+Collected: 2026-09-22
+
+### Responsibilities
+- Leverage and operationalize large operational data sets to support air traffic decision-making
+- Build dashboards to track and communicate operational metrics
+- Conduct quantitative analysis of air traffic and flight operations data
+- Translate analytical findings into actionable recommendations for Air Traffic Strategy Managers
+- Collaborate cross-functionally with operations teams to align analysis with business needs
+
+### Basic Requirements
+- Currently studying data science, statistics, computer science, engineering, aeronautics, or air traffic management
+- Experience with applied statistics and empirical data analysis
+- Proficiency in Python, SQL, or similar data manipulation tools
+- Experience designing dashboards using Tableau, Power BI, or equivalent platforms
+- Strong cross-functional communication skills
+- Problem-solving skills with attention to detail
+
+### Bonus / Preferred Qualifications
+- Knowledge of air traffic control operations
+- Understanding of the capabilities and limitations of generative AI tools
+- Ability to apply critical thinking when validating AI-generated outputs, per data privacy and responsible-AI policies
+
+## JD 14: Data Analyst Intern - TX, Xcel Energy (energy/utility industry analytics)
+Source: Xcel Energy official careers site (Workday) — https://xcelenergy.wd1.myworkdayjobs.com/External/job/Amarillo-TX-79101/Data-Analyst-Intern--TX_JR115565-1 (Req ID JR115565-1)
+Collected: 2026-09-23
+
+### Responsibilities
+- Develop and maintain interactive Power BI dashboards and reports to visualize energy consumption trends, outage metrics, and key performance indicators
+- Perform exploratory data analysis and statistical modeling to identify usage patterns and support predictive maintenance
+- Collaborate with cross-functional teams (operations, customer service, engineering) to gather requirements, clean data, and deliver analytical solutions
+- Assist in ad-hoc reporting, data quality validation, and automation of routine analytics processes using tools like Excel
+- Document analytical findings, create presentations, and participate in team meetings to communicate insights effectively
+
+### Basic Requirements
+- Current student, Junior class status or higher (as of Fall 2027)
+- Enrolled in an ABET-accredited college/university pursuing a degree in Science, Business Analytics, Computer Science, Statistics, Applied Mathematics, Electrical/Industrial Engineering, Information Systems, or Management Information Systems
+- Able to work full-time during the summer (up to 40 hours/week), commuting in-person to the designated Amarillo, TX work location (hybrid)
+
+### Bonus / Preferred Qualifications
+- Strong proficiency in Power BI
+- Experience or coursework involving Databricks
+- Excellent problem-solving skills and attention to detail with the ability to handle large, messy datasets
+- Strong communication skills — able to translate technical findings into clear business recommendations
+- Familiarity with the energy/utility industry, statistics, machine learning, or GIS tools
+- Ability to work independently and as part of a team in a fast-paced, regulated environment
+
+## JD 15: Data Analytics Intern, Realtor.com (Move, Inc.) (real estate / PropTech online marketplace — consumer & business analytics)
+Source: Job posting mirrored on The Muse (originating from Realtor.com/Move, Inc.'s official careers site) — https://www.themuse.com/jobs/realtorcom/intern-data-analytics
+Collected: 2026-09-24
+
+### Responsibilities
+- Support Data Science and Analytics teams in analyzing consumer behavior and product/site performance metrics for Realtor.com's real estate marketplace
+- Conduct exploratory data analysis and build reporting/dashboarding to surface trends for stakeholders
+- Apply statistical techniques to underlying datasets and translate findings into actionable, business-facing insights and recommendations
+- Contribute to data pipelines and data integration work alongside engineering partners
+- Collaborate cross-functionally (Analytics, Data Science, Finance/Revenue, and Machine Learning Engineering partners) on projects tied to real business problems (e.g., pricing, inventory, and operational improvements)
+- Present analysis and recommendations to non-technical stakeholders
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in Computer Science, Statistics, Economics, Mathematics, Analytics, Business, Engineering, or a related field
+- Expected graduation between December 2026 and June 2027
+- Coursework or hands-on experience with SQL, Python, R, or data visualization tools
+- Familiarity with core data concepts, metrics definition, and basic statistical analysis
+- Strong attention to detail and professional communication skills
+- Able to complete the full 11-week program (June 1 - August 14, 2026) on a hybrid schedule (3 days on-site in Austin, TX / 2 days remote); no visa sponsorship or relocation assistance provided
+
+### Bonus / Preferred Qualifications
+- Exposure to experimentation concepts such as A/B testing and hypothesis testing
+- Experience working with large-scale or consumer-behavior datasets
+- Coursework or project experience involving data storytelling, dashboards, or BI/analytics tooling
+- Additional familiarity with Tableau, dbt, or Airflow, and experience applying statistical/mathematical methods to generate strategic recommendations for business stakeholders
+
+## JD 16: Platform Solutions Data Analyst Summer Intern (Remote & Paid), Experian (credit bureau / consumer-data and fintech-adjacent analytics company, product-analytics BI internship — distinct from all other entries in this file)
+Source: Experian official careers site (posting since closed but was genuinely live) — https://jobs.experian.com/job/platform-solutions-data-analyst-summer-intern-remote-and-paid-in-united-states-jid-3335
+Collected: 2026-09-25
+
+### Responsibilities
+- Develop interactive dashboards to visualize product/usage metrics and monitor product health
+- Analyze client data and produce reports and presentations that demonstrate product value to internal and client stakeholders
+- Access internal data warehouse tools to fulfill ad hoc data requests supporting other teams
+- Document and share insights from client feedback and market trends to inform product enhancements
+- Collaborate with team members to gather requirements and align on analytical findings
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree or higher in Data Analytics, Computer Science, or a related field, and returning to school in Fall 2026 to complete the degree
+- Proficiency in SQL and experience working with large datasets, plus familiarity with cloud-based data platforms (e.g., Snowflake, BigQuery) and BI/visualization tools (e.g., Tableau, Looker, Power BI)
+
+### Bonus / Preferred Qualifications
+- Ability to build client-facing dashboards/reports that translate raw metrics into a clear business narrative on product value
+- Comfort working across multiple cloud data-warehouse tools and BI platforms to independently self-serve ad hoc analysis requests
+
+## JD 17: Summer 2026 Data Analyst Internship, T-Mobile US, Inc. (wireless telecom/data quality & data governance analytics, distinct from Charter/Spectrum's cable BI track already in the file)
+Source: T-Mobile internship posting, aggregated by TealHQ and WayUp — https://www.wayup.com/i-Telecommunications-j-Summer-2026-Data-Analyst-Internship-T-Mobile-547971433026163/
+Collected: 2026-09-26
+
+### Responsibilities
+- Collaborate with business subject matter experts and data professionals to define critical data elements and prepare data for analysis
+- Perform data profiling and monitor data quality, working with data stewards and quality leads to support remediation efforts
+- Partner with product owners and agile teams to ensure timely, quality delivery of data-related projects
+- Interpret data models and convert user requirements into technical specifications and design documents
+- Support data-driven organizational decision-making
+
+### Basic Requirements
+- Bachelor's or graduate degree in progress, graduating December 2026 or June 2027
+- Knowledge of relational databases and data architecture, including SQL query writing
+- Experience with data querying, cleaning, and wrangling, ideally in a cloud environment (Azure, AWS, or Google Cloud)
+- Experience articulating and translating business questions using statistical analysis
+- Data visualization proficiency (Power BI, Tableau, etc.); familiarity with Agile methodology
+
+### Bonus / Preferred Qualifications
+- Multi-year experience with data identification, querying, and wrangling in big data environments
+- Experience translating business questions into data-driven solutions
+- Experience with big data architecture (Hadoop, Hive, Spark, Kafka)
+- Technical writing and presentation experience
+
+## JD 18: Summer Associate Internship (Data Analyst), Navy Federal Credit Union (retail banking / credit union member-analytics, dashboards & data governance)
+Source: Official internship posting, mirrored via The Muse job board (Navy Federal Credit Union careers) — https://www.themuse.com/jobs/navyfederalcreditunion/summer-associate-internship-data-analyst-f806e6
+Collected: 2026-09-27
+
+### Responsibilities
+- Develop and refine reports and dashboards in Tableau and Power BI
+- Perform data automation, collection, processing, and cleaning
+- Identify actionable insights from data to support business decisions
+- Prepare presentations and reports summarizing findings for stakeholders
+- Interview and collaborate with stakeholders to understand reporting/analysis needs
+- Support data governance initiatives
+
+### Basic Requirements
+- Currently pursuing a degree from an accredited college or university, with anticipated graduation date of December 2026 or later
+- Basic research, analytical, and problem-solving skills
+- Familiarity with data querying and reporting
+- Experience with at least one of: Power BI, Tableau, SQL, or Databricks
+- Working knowledge of Microsoft Office, including Advanced Excel
+- Strong written and verbal communication skills
+- Available for the 12-week program (May–August 2026), Monday–Friday, with schedule flexibility
+
+### Bonus / Preferred Qualifications
+- Effective creative problem-solving and active-listening skills
+- Broader/deeper proficiency across multiple listed tools (Power BI, Tableau, SQL, Databricks) rather than just one
+- Prior exposure to data governance concepts and practices
+
+## JD 19: IT Data Analytics Intern, Mystic Lake Casino Hotel (Shakopee Mdewakanton Sioux Community) (gaming/casino & tribal enterprise, IT-adjacent data analytics)
+Source: Casino Careers job board posting — https://www.casinocareers.com/jobs/4280408-it-data-analytics-intern
+Collected: 2026-09-28
+
+### Responsibilities
+- Support IT/business departments with data analysis and reporting for a gaming and hospitality enterprise (Mystic Lake Casino Hotel and Little Six Casino)
+- Execute real-world data projects with measurable business impact across the 10-week internship
+- Analyze business trends within operational/IT data and develop actionable recommendations for stakeholders
+- Acquire and apply a data-handling process end-to-end and comprehensively document it for repeatability/handoff
+- Collaborate cross-departmentally and participate in mentorship sessions and professional-development activities
+
+### Basic Requirements
+- Currently enrolled in a post-secondary program in IT, Computer Science, or a related field
+- Good understanding of the Windows platform, troubleshooting theory, and tools standard to the desktop support field
+- Strong organizational skills and ability to multitask
+- Excellent verbal and written communication skills
+
+### Bonus / Preferred Qualifications
+- Experience with R, Python, statistics, and mathematics for data analysis
+- Above-average computer skills beyond baseline desktop support
+- Detail-oriented approach to data management and quality
+- Ability to make cross-departmental connections and translate data into business insight
+
 ## Implications for Our Framework
 Across all five postings, the load-bearing tools are consistently SQL, Excel (often at an "advanced/VLOOKUP-XLOOKUP/pivot-table" level), and a BI visualization tool (Tableau or Power BI) — Python/R and statistical modeling are rarely required and, when mentioned at all, sit in the "preferred" tier rather than "basic," which sharply distinguishes this track from a Data Science/ML internship where Python, statistics, and modeling are the baseline ask. GPA thresholds (typically 3.0) and degree-progress/eligibility logistics (graduation window, work authorization, relocation) appear as hard gates in every posting, suggesting our framework should treat these as pass/fail filters rather than scored traits. None of the five postings mention a specific certification as a requirement, so certifications (e.g., Google Data Analytics, Tableau Desktop Specialist) should be weighted as a minor tie-breaking signal rather than a core scoring criterion. Finally, the "bonus" bullets consistently reward applied, business-context experience — campaign/marketing dashboards, financial reporting, ecommerce or customer-segmentation projects — over purely academic or Kaggle-style ML projects, so resume scoring should favor project descriptions that show an SQL/Excel/BI pipeline feeding a business decision or stakeholder-facing dashboard.

@@ -284,6 +284,178 @@ Collected: 2026-09-21
 - Ability to construct and credibly communicate an investment argument to senior executives and fund managers
 - Collaborative, proactive, team-oriented approach suited to a fast-paced diligence environment
 
+## JD 13: Markets – Sales and Trading, Summer Analyst, New York City, Citi (Sell-Side Fixed Income & Equities Sales & Trading)
+Source: Citi Careers official job posting, https://jobs.citi.com/job/new-york/markets-sales-and-trading-summer-analyst-new-york-city-us-2027/287/89809477504
+Collected: 2026-09-22
+
+### Responsibilities
+- Complete a comprehensive, week-long training program covering Markets fundamentals (fixed income, equities, FX, and derivatives products)
+- Rotate across multiple products and functions within the Markets division over a 10-week internship to build a well-rounded view of sales, trading, and structuring
+- Participate in group projects and pitch trade ideas alongside peers and senior bankers
+- Attend weekly senior speaker series, networking events, and desk-specific training sessions
+- Work directly with junior and senior Markets professionals, supporting live trade flow monitoring, market commentary, and client-facing materials
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree, graduating Fall 2027 or Spring 2028
+- Minimum cumulative GPA of 3.3
+- Strong oral and written communication skills; ability to juggle multiple tasks under time pressure
+- Demonstrated intellectual curiosity and creative problem-solving ability
+- Willingness/availability to work on-site in the New York office (hybrid schedule)
+
+### Bonus / Preferred Qualifications
+- Genuine, demonstrated interest in a Markets/sales-and-trading career path (e.g., active trading simulations, market commentary, or trading club leadership)
+- Global perspective on macro and market trends across asset classes
+- Track record of collaborative achievement toward group and client objectives
+- Diverse academic/university background valued (not limited to target-school pipelines)
+
+## JD 14: GIC Internship Programme - Investment Professionals Track, GIC (sovereign wealth fund / public & private markets investing)
+Source: GIC official careers site, internship programme page — https://gic.careers/programmes/gic-internship-programme/
+Collected: 2026-09-23
+
+### Responsibilities
+- Work alongside GIC investment professionals on live projects spanning public and private markets, including equities, fixed income, private equity, infrastructure, and real estate
+- Support investment analysis and due diligence work as part of a structured 12-week internship
+- Contribute to impactful projects in an AI-enabled workplace, applying both investment judgement and AI tools to real workstreams
+- Participate in structured learning and immersive training sessions run by the investment teams
+- Build exposure across GIC's global network of offices (11 locations worldwide) through cross-team collaboration
+- Present project findings/insights to supervising investment professionals and business leaders as part of the programme
+
+### Basic Requirements
+- Currently a pre-penultimate or penultimate year university student (i.e., not in final year)
+- Open to students of any nationality and any academic discipline
+- No prior full-time work experience required
+- Strong analytical and quantitative reasoning ability suited to investment work across asset classes
+- Genuine interest in global public and private markets investing (equities, fixed income, PE, infrastructure, real estate)
+- Able to complete GIC's selection process, which typically includes online assessments and case studies/technical interviews
+
+### Bonus / Preferred Qualifications
+- Demonstrated interest in or coursework related to sovereign wealth fund / long-horizon institutional investing
+- Prior exposure to financial modeling, valuation, or portfolio analysis through coursework, competitions, or projects
+- Strong "AI fluency" — comfort using AI tools to support investment research and judgement, as emphasized in the programme description
+- Interest in the potential pathway to return as a full-time analyst through the GIC Professionals Programme
+- Cross-cultural adaptability, given GIC's global office network and internationally diverse intern cohort
+
+## JD 15: Financial Analyst (Class of 2027), Portfolio Valuation and Fund Advisory Services, Houlihan Lokey (middle-market/elite boutique investment bank — alternative asset & illiquid-security valuation for hedge funds, PE funds, and BDCs)
+Source: Official Houlihan Lokey careers site (Workday), live posting, req ID R3496 — https://hl.wd1.myworkdayjobs.com/Campus/job/XMLNAME-2027-Financial-Analyst--Class-of-2027---Portfolio-Valuation-and-Fund-Advisory-Services---Multiple-Locations_R3496
+Collected: 2026-09-24
+
+### Responsibilities
+- Support Financial and Valuation Advisory (FVA) portfolio valuation teams that value illiquid debt and equity securities held by hedge funds, private equity funds, and business development companies (BDCs) for fair value reporting to investors
+- Perform financial statement analysis and other quantitative and qualitative assessments of portfolio companies and securities
+- Review client investment memoranda, board presentations, debt/equity agreements, and financial models to understand the company or security being valued
+- Compile statistical summaries of company financials, develop and compute financial ratios, and present analyses in organized, firm-standard formats
+- Research and compile public company filings, press releases, sell-side research, and Bloomberg data across industries
+- Identify comparable public companies and precedent M&A transactions using S&P Capital IQ, Bloomberg, and SIC classification methods
+- Construct and review guideline public company, guideline transaction, and discounted cash flow analyses using Houlihan Lokey proprietary valuation models
+- Participate in telephonic and in-person due diligence discussions, and respond to client and auditor questions on valuation analyses
+- Draft client deliverables, assist with fee proposals, pitch materials, and internal pricing committee memoranda
+- Coordinate with internal teams on engagement invoicing, working paper files, and compliance close-out procedures; support marketing initiatives
+
+### Basic Requirements
+- Bachelor's degree in Finance, Accounting, Data Analytics, Financial Engineering, Mathematics, or a similar major, graduating between December 2026 and June 2027
+- Able to start full-time in July 2027
+- Strong analytical ability and excellent understanding of financial statement analysis, including key assumptions and limitations
+- Fundamental understanding of financial valuation theory, methodologies, and applications
+- Strong Excel modeling skills, including integrated cash flow modeling
+- Excellent verbal and written communication skills; demonstrated ability to work cooperatively on teams
+- Exceptional work ethic
+- Must be authorized to work for any U.S. employer (firm does not sponsor visas for this role)
+
+### Bonus / Preferred Qualifications
+- Working familiarity with financial data platforms referenced in the role (S&P Capital IQ, Bloomberg) from coursework, internships, or prior projects
+- Exposure to fair value/ASC 820 concepts or hedge fund/private equity/BDC portfolio reporting, given the role's fair-value-to-investors focus
+- Prior internship experience in valuation, transaction advisory, audit/accounting, or investment banking that produced real analytical or modeling output
+- Progress toward or interest in the CFA or ASA (valuation) credential, consistent with the technical, methodology-driven nature of the practice
+- Demonstrated interest in alternative assets (hedge funds, private equity, direct lending) and sustained attention to market/industry developments
+
+## JD 16: Ratings and Research Support Summer Intern, Moody's (Moody's Ratings) (credit ratings agency analytical-support internship — a distinct sub-sector (credit ratings, not IB/PE/HF/AM/VC/restructuring/private credit/real-estate-PE/valuation-advisory) not represented elsewhere in this file)
+Source: Moody's official careers page — https://careers.moodys.com/en/job/new-york/ratings-and-research-support-summer-intern/49841/100482312640
+Collected: 2026-09-25
+
+### Responsibilities
+- Support analytical teams within one of five rating groups (Corporate Finance, Financial Institutions, Public Finance, Project and Infrastructure Finance, or Structured Finance) on case studies and credit analysis
+- Collect and prepare financial data/documents, and help identify trends used in credit rating assessments
+- Conduct media/market monitoring and contribute to research publication development
+
+### Basic Requirements
+- Currently pursuing a bachelor's or master's degree in finance, accounting, economics, statistics, mathematics, or a related quantitative field, with graduation between December 2027 and June 2028
+- Proficient in Excel, Word, and PowerPoint, with strong analytical and communication skills and demonstrated interest in fixed income markets and credit analysis
+
+### Bonus / Preferred Qualifications
+- Experience with programming/data tools such as Python, SQL, Power BI, Tableau, KNIME, or Alteryx
+- Foundational understanding of AI concepts and enthusiasm for responsible AI practices, or prior internship/coursework experience relevant to credit analysis
+
+## JD 17: Commodity Trading Internship, Cargill (physical/agricultural commodity trading — a diversified global commodities trader, distinct from the financial-markets sell-side/buy-side roles already in the library)
+Source: Cargill Careers — https://careers.cargill.com/en/job/olathe/commodity-trading-internship-summer-2026-multiple-u-s-locations/23251/85172411184
+Collected: 2026-09-26
+
+### Responsibilities
+- Develop and manage customer relationships with grain industry partners and counterparties
+- Analyze market conditions, supply/demand dynamics, and macroeconomic forces affecting commodity prices
+- Negotiate commodity purchase and sale contracts
+- Coordinate transportation and logistics execution for physical commodity flows
+- Manage contract follow-up and execution details end-to-end
+- Collaborate cross-functionally with sales, quality assurance, and accounting teams; complete a market/process-improvement project
+
+### Basic Requirements
+- Pursuing a bachelor's or master's degree, graduating December 2025–Summer 2026
+- U.S. work authorization not solely based on student/employer-sponsored visa status
+- Geographically flexible/willing to relocate across multiple U.S. plant and office locations
+- Able to complete a 12-week summer internship
+- Strong analytical, problem-solving, prioritization, and communication skills
+
+### Bonus / Preferred Qualifications
+- Completion of introductory college-level economics coursework (micro or macro)
+- Prior exposure to agricultural/physical commodities markets or trading simulations
+- Demonstrated quantitative/analytical project work beyond coursework
+
+## JD 18: 2027 Summer Investment Intern, University of Virginia Investment Management Company (UVIMCO) (endowment fund / external-manager allocator track)
+Source: Official job posting on UVIMCO's Greenhouse careers board — https://job-boards.greenhouse.io/uvimco/jobs/5079509008
+Collected: 2026-09-27
+
+### Responsibilities
+- Conduct research on global investment themes across multiple asset classes
+- Evaluate external fund managers and support due diligence, including participating in manager due diligence meetings
+- Perform quantitative analysis of investment opportunities and existing portfolio holdings
+- Prepare and present investment recommendations alongside senior investment staff
+- Attend investment committee meetings
+- Assess market opportunities and risks relevant to the endowment's multi-asset-class portfolio
+- Complete special projects as assigned
+
+### Basic Requirements
+- Currently pursuing an undergraduate degree, preferably in finance, economics, mathematics, data analysis, or engineering
+- Strong academic record
+- Demonstrated passion for investing and global markets
+- Excellent analytical ability
+- Effective communication skills, attention to detail, teamwork, and professionalism
+- Ability to work independently
+- Based in Charlottesville, VA for the approximately 10-week summer internship
+
+### Bonus / Preferred Qualifications
+- Candidates on track to graduate December 2027 or May 2028 are preferred
+
+## JD 19: 2026 Fixed Income Summer Investment Analyst Program (Credit Research Group), PGIM (Prudential Financial) (insurance-affiliated fixed income asset manager — credit research track)
+Source: Official Prudential/PGIM Workday careers posting (req R-120020-1) — https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2026-Fixed-Income--Summer-Investment-Analyst-Program--Credit-Research-Group-_R-120020-1
+Collected: 2026-09-28
+
+### Responsibilities
+- Work alongside senior credit research analysts to perform fundamental investment analysis on corporate issuers
+- Identify relative value within issuer capital structures and across industry sectors
+- Communicate investment recommendations and credit views to portfolio managers
+- Contribute to credit analysis that feeds into fixed income portfolio construction
+- Interact regularly with company management teams, industry consultants, and Wall Street sell-side contacts
+- Gain exposure to PGIM Fixed Income's broader capabilities spanning interest rates, currencies, government/agency bonds, and corporate securities
+
+### Basic Requirements
+- Enrolled in an accredited bachelor's or 5th-year master's program, graduating between December 2026 and May 2027
+- Minimum 3.0 GPA
+- U.S. employment authorization required; no visa sponsorship provided
+- Proficiency with Microsoft Office Suite (Excel, Word, PowerPoint)
+
+### Bonus / Preferred Qualifications
+- Preferred majors: Finance, Accounting, and/or Economics (though all majors considered)
+- Prior experience with Bloomberg terminal and other technical/quantitative data analysis or modeling tools
+
 ## Implications for Our Framework
 - GPA-threshold sensitivity varies by firm and should be split into sub-tracks within the edu dimension: T. Rowe Price (asset management) sets a clear hard floor (3.5) with an earlier recruiting timeline, J.P. Morgan (IB) sets a lower floor (3.2), while Blackstone (PE), Morgan Stanley (S&T), and Amazon (corporate finance) give no explicit GPA figure.
 - The skill profile for S&T diverges sharply from IB/PE/AM: Morgan Stanley explicitly states no finance-major requirement, focusing instead on numerical aptitude and composure under pressure, with no mention of modeling, valuation, or industry research anywhere in the posting — the "financial modeling portfolio" bonus item has low marginal value for S&T and should be flagged as "IB/PE/AM/research-track only."

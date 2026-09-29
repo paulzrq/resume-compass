@@ -1,0 +1,36 @@
+YITIAN (PHOEBE) XU
+[PHONE] // [EMAIL] // www.linkedin.com/in/yitian-xu
+EDUCATION
+Carnegie Mellon University, School of Computer Science	                                        Pittsburgh, PA                               
+M.S. in Computational Data Science, GPA 4.33/4.33                                                May. 2023-May 2025
+New York University, College of Arts and Science                                                 New York, NY                               
+B.A. in Math and Computer Science, GPA 3.93/4.00                                                Aug. 2019-May 2023
+Honors: National Phi Beta Kappa Honors Society, Magma Cum Laude, Dean’s List 2019-2023
+SKILLS
+Programming Languages & Software: Python, SQL, R, Java, C, Excel, MATLAB, Javascript, Jupyter, Linux shell, Git, Unity
+Coursework: Linear Algebra, Statistics, Data Structures, Basic Algorithms, Operating Systems, Machine Learning (PhD), NLP
+Data Analysis & Visualization: ETL, NumPy, Pandas, Matplotlib, Altair, Streamlit, Tableau, Power BI, Google Analytics
+Statistics: Regression(Linear, Logistic, Regularized), classification(KNN, Decision Tree, Random Forest, SVM), clustering(K-means), probabilistic modeling(Naïve Bayes, Bayesian Network), Neural Network, A/B testing, experimental design and analysis
+Machine Learning & Model Deployment: Scikit-learn, NLTK, PyTorch, PySpark, AWS Athena, Microsoft Azure
+EXPERIENCE
+Data Product Analyst Intern, BigOne Lab, Beijing, China                                              Jun. 2023-Jul. 2023                                       
+Cleaned and queried 5 million+ multi-platform product data using SQL to perform sales trend analysis on key metrics
+Developed comprehensive ticker review with 5 interactive dashboards using Redash; deliver insights to leadership
+Collaborated with industry analysts to understand the analytics objective, effectively reducing their research time by 30%
+AR Mobile Application Developer Intern, Berlin State Museum, Berlin, Germany                           Oct. 2020-Dec. 2020
+Collaborated cross-functionally and developed an AR mobile application with Unity for Gemäldegalerie 
+Created 3 interactive features with object recognition techniques to facilitate the immersive visitor experience
+Participated in the development of retro-planning, wireframing, product roadmap, user testing and documentation
+PROJECTS
+End-to-end Online Retail Customer Service Assistant System from ChatGPT API                     Aug. 2023-Sep. 2023 
+Developed an end-to-end customer service assistant system by calling ChatGPT 3.5 turbo API with Python
+Conducted input moderation check, input processing (chain of reasoning and prompts), answer validation, and output evaluation to ensure response quality and user satisfaction
+Amazon Product Rating Prediction System Development and Deployment                          Jul. 2023-Aug. 2023       
+Enhanced data quality through rigorous text data preprocessing with Python(NLTK, Scikit-learn) to ensure reliable insights
+Identified class-imbalance and addressed with SMOTE oversampling; Constructed features using TF-IDF vectorizer
+Applied Logistic Regression, SVM, and HistGradientBoostingClassifier; cross-validated to select the optimal model
+Enhanced test accuracy to 62% and deployed the optimal model on Microsoft Azure for seamless public access
+MovieLens Data Analysis and Recommender System Development                                 Jun. 2023-Jul. 2023       
+Conducted exploratory data analysis on the MovieLens dataset with 100k ratings; utilizing Pandas and NumPy to visualize average movie ratings by genre, movie ratings over time, best & worst movies by filtering, merging, and grouping 
+Implemented collaborative filtering, i.e., User-User and Item-Item similarity to make personalized recommendations
+Improved spatial and computational efficiency by Sparse Matrix Factorization approach with Alternating Least Squares, successfully reducing the Mean Squared Error (MSE) from 0.76 to 0.64

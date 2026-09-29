@@ -292,5 +292,190 @@ Collected: 2026-09-21
 - Coursework or hands-on experience related to clinical research operations or regulatory documentation
 - Demonstrated ability to collaborate cross-functionally with clinical scientists on patient-data review
 
+## JD 13: Clinical Trial Intern – 2026/2027 Grads, Medpace, Inc. (global CRO, clinical trial project coordination track)
+Source: Medpace clinical trial internship posting (Clinical Operations team, Cincinnati, OH), mirrored on Glassdoor, https://www.glassdoor.com/job-listing/clinical-trial-intern-2026-2027-grads-medpace-JV_IC1145705_KO0,37_KE38,45.htm?jl=1010011493834 (original listing: https://careers.medpace.com/jobs/12677?lang=en-us)
+Collected: 2026-09-22
+
+### Responsibilities
+- Provide day-to-day project support on the Clinical Operations team, gaining insight into the responsibilities of a Project Coordinator on active clinical trials
+- Maintain project files/documentation and correspond with study teams
+- Coordinate and schedule meetings and document meeting minutes
+- Maintain project databases and generate project status reports
+- Support quality-control review of regulatory filings
+- Assist with study supply management and tracking
+- Perform additional administrative duties as assigned in support of clinical trial management projects
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in a Life Sciences field (e.g., Biology, Biochemistry, Chemistry), graduating between Summer 2026 and Spring 2027
+- Strong organizational, written/verbal communication, and prioritization skills
+- Proficiency with Microsoft Office (Word, Excel, Outlook)
+- Available to work a minimum of 20 hours per week onsite in Medpace's Cincinnati, OH office
+- Eligible to work in the U.S. (U.S. Citizen, U.S. Permanent Resident, or U.S. Student Visa holder)
+
+### Bonus / Preferred Qualifications
+- Prior exposure to clinical research operations, GCP concepts, or regulatory/CRF documentation practices
+- Coursework or interest specifically aligned with a career path in clinical research/CRO project management
+- Demonstrated attention to detail and data-accuracy habits
+- No prior professional experience required, making this suitable as a true entry point into CRO-based clinical trial operations
+
+## JD 14: 2026 Summer Intern – Medical Affairs, Stryker (medical device clinical affairs, Trauma & Extremities)
+Source: Stryker Careers job posting — https://careers.stryker.com/2026-summer-intern-medical-affairs/job/5EA67BB4827689869F1888B9ECE517B4
+Collected: 2026-09-23
+
+### Responsibilities
+- Support clinical evaluation activities for Trauma & Extremities medical devices used in regulatory submissions
+- Conduct systematic reviews of published clinical and scientific literature
+- Extract, organize, and interpret data from scientific sources relevant to device safety and performance
+- Articulate scientific insights in written reports and summaries for the Clinical Affairs team
+- Collaborate with cross-functional Medical Affairs and Clinical Affairs colleagues on evaluation projects
+- Contribute findings that support device clinical evaluation reports (CERs) and regulatory documentation
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree, preferably in Biomedical, Mechanical, Electrical, Software, Manufacturing, Industrial, Quality, or Systems Engineering (or related field)
+- Minimum cumulative GPA of 3.0
+- Legal authorization to work in the U.S. without need for sponsorship
+- Strong written and verbal communication skills with proven ability to collaborate cross-functionally
+- Proficiency in Microsoft Office applications
+- Able to work onsite in Memphis, TN for the internship duration
+
+### Bonus / Preferred Qualifications
+- Prior exposure to medical device clinical evaluation, literature review, or regulatory submission processes
+- Familiarity with systematic literature review methodology and evidence synthesis
+- Coursework or project experience touching clinical research design, biostatistics, or regulatory affairs
+- Demonstrated attention to detail and rigor in data extraction/documentation, relevant to GCP-style meticulous record-keeping
+- Interest in orthopedic/trauma medical devices and the medtech regulatory pathway (distinct from pharma/CRO trial-operations tracks)
+
+## JD 15: Clinical Research Coordinator I, Children's Hospital of Philadelphia (Pediatric Rheumatology Research, children's hospital academic medical center)
+Source: Live job posting on Indeed (sourced from CHOP's official career listing) — https://www.indeed.com/viewjob?jk=1bbdf07d24abe89b
+Collected: 2026-09-24
+
+### Responsibilities
+- Coordinate clinical trials and research studies within the Rheumatology Research Core under the direction of the Clinical Research Director
+- Ensure strict adherence to IRB-approved protocols and proper informed consent procedures for pediatric patients and families
+- Oversee patient safety throughout study visits, procedures, and follow-up activities
+- Screen, recruit, and enroll eligible patients into active research studies
+- Maintain accurate and complete study documentation and source records
+- Report adverse events to the Principal Investigator per regulatory timelines
+- Educate subjects and families on study protocols, expectations, and procedures
+- Manage regulatory documents and submissions to IRB/oversight authorities
+- Coordinate communications and meetings across multi-site study teams
+- Collect, process, and ship biological samples per protocol requirements
+- Maintain post-study record retention and archival per institutional policy
+
+### Basic Requirements
+- High school diploma/GED minimum (Bachelor's degree preferred)
+- At least two (2) years of clinical or research-related experience
+- Basic working knowledge of IRB processes and human subjects protection
+- Strong communication, organizational, and time-management skills
+- Ability to collaborate effectively with physicians, families, and multi-site study stakeholders
+- Compliance with hospital health requirements (e.g., annual influenza vaccination) for patient-facing duties
+
+### Bonus / Preferred Qualifications
+- Bachelor's degree in a health-related, life sciences, or related field
+- Three or more years of clinical or research experience
+- Prior direct experience with pediatric patient populations
+- Familiarity with GCP (Good Clinical Practice) principles and regulatory compliance in a research setting
+- Demonstrated rigor in source documentation and case report form (CRF) completion
+
+## JD 16: 2027 Future Talent Program - Global Clinical Trial Operations Intern, Merck & Co., Inc. (known as MSD outside the U.S. and Canada) (a different large pharma company than Pfizer/Gilead/Sanofi/Vertex/Moderna already in this file — focuses on Global Clinical Trial Operations (GCTO)/PMO trial-performance metrics and site/patient benchmarking rather than hands-on CRC/CRA/bench-lab work)
+Source: Merck Careers official job posting, cross-verified via LinkedIn, Indeed and Bandana.com listings — https://jobs.merck.com/us/en/job/R415137/2027-Future-Talent-Program-Global-Clinical-Trial-Operations-Intern
+Collected: 2026-09-25
+
+### Responsibilities
+- Support Global Clinical Trial Operations (GCTO) regional teams or the PMO in driving ethical, efficient execution of clinical trials across Merck's international portfolio
+- Generate performance metrics and support resource management for ongoing clinical trial activities
+- Support site and patient benchmarking activities used to inform trial planning and site selection
+- Develop communication tools and process-improvement recommendations to enhance clinical trial operations workflows
+- Prepare and deliver a capstone presentation summarizing internship project deliverables to internal stakeholders
+
+### Basic Requirements
+- Currently enrolled full-time in a BS/BA degree program in a science-related discipline (or business/project management for certain tracks), having completed at least two years of college by June 2027
+- Available to work full-time for approximately 10-12 weeks during Summer 2027 at a Merck hub location, beginning in May or June 2027
+
+### Bonus / Preferred Qualifications
+- Strong analytical and data-management skills, relevant to generating trial performance metrics and site/patient benchmarking data
+- Coursework or interest in project management, global health, or clinical operations
+- Strong written and verbal communication skills, needed to build process-improvement communication tools and deliver the final capstone presentation
+
+## JD 17: 2026 Clinical Trial Operations Intern, AbbVie (large pharma (immunology/oncology-focused), distinct from Pfizer/Gilead/Sanofi/Merck already in the file; rotates across clinical data strategy, study management, and trial-acceleration/data-science teams)
+Source: AbbVie Careers — https://careers.abbvie.com/en/job/2026-clinical-trial-operations-intern-in-north-chicago-il-jid-20561
+Collected: 2026-09-26
+
+### Responsibilities
+- Support clinical data collection, management, and integration strategy across active clinical trials
+- Assist study/project managers with protocol development, informed consent document development, and study start-up logistics
+- Contribute to initiatives improving efficiency, quality, and speed of clinical trial execution using data science and process innovation
+- Develop strategic initiatives and operational analytics tools to support trial start-up planning
+- Build management dashboards/tools and efficiency playbooks used by clinical operations teams
+- Partner cross-functionally with clinical operations, data management, and study teams on real assigned projects
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in Engineering, Science, Business Administration, or a related field
+- Must remain enrolled for at least one semester following the internship (expected graduation Dec 2026–June 2027)
+- Strong communication, teamwork, adaptability, and analytical skills
+- Legally authorized to work in the U.S.
+- 11-week paid summer program based in North Chicago, IL
+
+### Bonus / Preferred Qualifications
+- Demonstrated track record of teamwork, adaptability, innovation, and integrity
+- Leadership and project-management experience
+- Microsoft Excel or database/data-management experience
+- Prior exposure to clinical trial processes, protocol/informed consent documentation, or clinical data operations
+
+## JD 18: Clinical Research Coordinator I/II, Mass General Brigham (hospital system — psychiatric/behavioral health clinical trials, Center for Suicide Research and Prevention)
+Source: Mass General Brigham official careers site (Workday job posting), Center for Suicide Research and Prevention — https://massgeneralbrigham.wd1.myworkdayjobs.com/en-US/MGBExternal/job/Clinical-Research-Coordinator-I-II_RQ4069619
+Collected: 2026-09-27
+
+### Responsibilities
+- Recruit and enroll patients for clinical trials, including conducting phone screening interviews
+- Collect, organize, and maintain patient data and research databases
+- Verify accuracy of and update study source documents/case report forms according to protocol
+- Prepare study data for analysis and enter it into research data management systems
+- Document patient visits, procedures, and study interactions
+- Assist with the informed consent process and explain study details to subjects
+- Administer and score study questionnaires/assessments
+- Manage regulatory binders and support quality-assurance procedures
+- Review study proposals and materials for compliance with sponsor and IRB guidelines
+- (CRC II) Perform independent data analysis and data-quality checks, develop recruitment strategies, and assist with staff training and annual study report preparation
+
+### Basic Requirements
+- Bachelor's degree in a related field (relevant experience may substitute)
+- CRC I: open to new graduates with relevant coursework; no prior clinical research experience required
+- CRC II: minimum 1-2 years of directly related clinical research experience
+- Strong attention to detail and organizational ability
+- Strong interpersonal and communication skills; comfort interacting with patients
+- Basic computer literacy and working understanding of clinical research protocols
+- Demonstrated respect for research-subject rights and professional conduct in a fast-paced clinical environment
+
+### Bonus / Preferred Qualifications
+- Experience working with clinically severe or medically acute patient populations
+- Scientific/technical writing proficiency and statistical software skills
+- Prior emergency department or other direct patient-care experience
+- Supervisory experience (CRC II)
+- Independent work capability, analytical skills, and familiarity with data management programs (CRC II)
+
+## JD 19: Clinical Research Coordinator, Columbia University Irving Medical Center (cardiology/hypertension specialty, academic medical center)
+Source: Columbia University Irving Medical Center careers portal — https://opportunities.columbia.edu/jobs/3d61efae-e001-41b9-9d9f-d69aa3701122
+Collected: 2026-09-28
+
+### Responsibilities
+- Recruit, enroll, and obtain informed consent from study participants
+- Administer standardized study questionnaires
+- Instruct participants in study procedures (dietary instruction, urine collection, office/ambulatory/home blood pressure monitoring, and other physiologic measures)
+- Conduct laboratory visits under controlled conditions and collect anthropometric measures
+- Perform phlebotomy and collect blood specimens
+- Maintain case report forms (CRFs), organize records, and perform data entry and data cleaning
+- Create CONSORT diagrams and study reports and present at team meetings
+
+### Basic Requirements
+- Bachelor's degree or equivalent combination of education, training, and experience
+- Two years of related experience
+
+### Bonus / Preferred Qualifications
+- Prior research/laboratory experience in an academic or community setting
+- Experience with REDCap and Qualtrics data entry platforms
+- Customer service or public-facing occupational experience
+- Spanish language proficiency
+
 ## Implications for Our Framework
 Across these five postings, the same role title ("clinical research intern/coordinator/CRA") spans a surprisingly wide credential band, from Ochsner's high-school-diploma-plus-soft-skills entry point to Pfizer's 3.3-GPA STEM-major screen and Mayo's 3.5-GPA pre-health pipeline, which means a resume-scoring rubric for this field cannot assume one fixed minimum bar and should instead score against the likely tier of employer (large pharma vs. hospital-system training program vs. CRO new-grad program vs. academic research-administration role). GPA and declared major function as explicit hard filters only at the two most competitive, most STEM-branded programs (Pfizer, Mayo); the CRO (Parexel) and hospital-system (Ochsner, UNC) postings instead gate on degree recency, demeanor, or plain willingness to learn, so a rubric that heavily weights GPA/major fit risks under-scoring perfectly viable candidates for hospital- and CRO-track roles. Notably, none of the five postings list GCP or CITI certification as a pre-hire requirement — Parexel explicitly states this training is delivered after hire — so a resume that already lists completed GCP/CITI training, IRB protocol experience, or REDCap/EDC familiarity should be scored as a genuine differentiator/bonus rather than as baseline table stakes. Work authorization and on-site/commute commitment appear as hard, binary filters (Pfizer's no-sponsorship language, UNC's full-time in-person hours), so a rubric should treat clearly-stated work authorization and location flexibility as pass/fail gates rather than as weighted scoring factors. Prior clinical, lab, or healthcare experience is uniformly framed as a "preferred/bonus" attribute rather than a baseline requirement in every posting found, which argues against heavily penalizing first-time applicants for lacking hands-on research hours, while still rewarding candidates who show shadowing hours, patient-facing healthcare experience (CNA/EMT/MA), or committee/IRB exposure. Finally, soft-skill language — "personable," "adaptable," "naturally curious," "eager to learn," strong letters of reference — recurs across the hospital and pipeline-program postings specifically, suggesting that for this role family (unlike, say, a technical CRA monitoring role further into the pipeline) demonstrated interpersonal/communication signals on a resume (patient-facing jobs, volunteering, leadership) should carry real scoring weight alongside GPA and coursework, not be treated as an afterthought.

@@ -282,6 +282,166 @@ Collected: 2026-09-21
 - Exposure to generative AI technologies
 - Prior cross-functional collaboration experience with consulting, engineering, or product teams
 
+## JD 13: Experimentation & Causal Inference Intern, Summer 2026, Netflix (research-track experimentation/causal-inference DS, PhD-level)
+Source: Job posting (Netflix Data Science & Engineering org), verified via Glassdoor listing https://www.glassdoor.com/job-listing/experimentation-causal-inference-intern-summer-2026-netflix-JV_IC1147427_KO0,51_KE52,59.htm?jl=1009956078295 (cross-checked against LinkedIn https://www.linkedin.com/jobs/view/experimentation-causal-inference-intern-summer-2026-at-netflix-4348183485 and Netflix careers via Workday https://netflix.wd1.myworkdayjobs.com/en-US/Netflix/job/Experimentation---Causal-Inference-Intern--Summer-2026_JR37465)
+Collected: 2026-09-22
+
+### Responsibilities
+- Work within Netflix's Data Science & Engineering organization on analytical products supporting partners' complex, nuanced business decisions across commerce, content, studio, and product development
+- Apply online/sequential/adaptive experimentation and observational causal-inference methods to truly massive, real-world datasets
+- Collaborate cross-functionally with data scientists and engineers to translate statistical findings into actionable business decisions
+- Present research and analysis at internal forums to stakeholders across the org
+
+### Basic Requirements
+- Currently pursuing a PhD at an accredited university (entering 2nd year or later), graduating December 2026 or later, and able to return to school for at least one term after the internship
+- Active research in online experimentation (sequential, adaptive, etc.), observational causal inference, or a closely related area
+- Programming proficiency in R and/or Python, plus SQL competency
+- Experience with version control (e.g., Git)
+- Strong oral and written communication skills
+- Authorization to work as a summer intern in the USA
+
+### Bonus / Preferred Qualifications
+- Self-motivated and curious about solving open-ended, ambiguous challenges
+- Past publications in relevant peer-reviewed conferences or journals
+- Demonstrated ability to manipulate and apply advanced statistical/econometric methods (spanning ML, statistics, econometrics, optimization, and operations research) at large scale
+
+## JD 14: Master's Data Science Internship 2026 (USA), Pinterest (product analytics / experimentation)
+Source: Pinterest Careers listing (job ID 7241588), mirrored with full posting text on Built In NYC — https://www.builtinnyc.com/job/master-s-data-science-internship-2026-usa/7199188 (original: https://www.pinterestcareers.com/jobs/7241588/masters-data-science-internship-2026-usa/)
+Collected: 2026-09-23
+
+### Responsibilities
+- Use data and exploratory analysis to understand user behavior and trends, informing Pinterest's product roadmap
+- Design and define core product metrics
+- Set up and evaluate A/B experiments to measure feature and product impact
+- Explore and apply experimentation techniques to speed up idea evaluation and decision-making
+- Collaborate with product managers, engineers, and designers to translate data into actionable product insights
+
+### Basic Requirements
+- Currently pursuing a Master's degree in Statistics, Mathematics, Economics, Computer Science, or a related quantitative field
+- Proficiency working with and manipulating large datasets; fluency in SQL and Python or R
+- Experience with analytical problem-solving, including machine learning, statistical modeling, or forecasting
+- Strong communication skills, able to convey technical findings to both technical and non-technical audiences
+- Ability to connect data analysis to concrete business impact and decisions
+
+### Bonus / Preferred Qualifications
+- Prior internship or applied project experience in product analytics or experimentation
+- Demonstrated experience designing or analyzing A/B tests / causal inference in a real product setting
+- Track record of driving a product or business decision from a data analysis, not just reporting metrics
+
+## JD 15: Data Scientist Intern, USAA (insurance & financial-services DS, predictive modeling & experimentation)
+Source: USAA Careers (Workday) — Data Scientist Intern, Plano, TX, Req# R0121200 — https://usaa.wd1.workdayjobs.com/USAAJOBSWD/job/Plano-Legacy/Data-Scientist-Intern_R0121200
+Collected: 2026-09-24
+
+### Responsibilities
+- Develop predictive, prescriptive, and machine learning models to solve complex business problems across USAA's insurance and financial-services operations
+- Analyze large structured and unstructured datasets to surface actionable business insights
+- Design experiments and evaluate model performance using statistical methods
+- Refine and optimize AI/ML models to improve business outcomes
+- Present analytical findings and recommendations to both technical and executive (non-technical) stakeholders
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Computer Science, Computer Engineering, Software Engineering, or a related technical field
+- Anticipated graduation between September 2027 and May 2028
+- Foundational proficiency in Python and R
+- Working understanding of machine learning frameworks, statistical modeling, and SQL/data querying
+- Strong analytical, problem-solving, and communication skills (written and verbal)
+- Demonstrated leadership through academic, project, or community involvement
+- U.S. work authorization required (no visa sponsorship)
+
+### Bonus / Preferred Qualifications
+- Data visualization expertise and storytelling ability for translating findings to non-technical audiences
+- Experience integrating or deploying AI solutions in enterprise environments
+- Software development coursework or project experience
+- Familiarity with Agile development methodologies
+- Interest in AI-assisted development tools
+
+## JD 16: Data Science Intern - Fall 2026 (Data Scientist Intern – Sports Modeling), PrizePicks (daily-fantasy-sports/prediction-markets data science role (sports projection modeling, line calibration, probabilistic forecasting, Bayesian statistics) — a statistical-modeling/research role distinct from Riot Games' gaming live-ops DS entry in this file and from all machine-learning-engineering-flavored roles in the mle field)
+Source: Sports-industry job board mirroring the official PrizePicks posting, cross-verified against a second independent job board — https://www.sportsjobs.online/jobs/12921-data-science-intern-fall-2026
+Collected: 2026-09-25
+
+### Responsibilities
+- Work with the PrizePicks data science team on sports projection modeling and pricing/line calibration problems
+- Contribute to model development and data collection for player performance projections
+- Research new approaches to daily-fantasy-sports challenges such as probabilistic forecasting and calibration
+- Analyze strategies to help optimize financial/pricing performance across the platform
+
+### Basic Requirements
+- Currently pursuing a degree in computer science, statistics, mathematics, physics, or a related quantitative field
+- Strong, practical proficiency in Python and SQL for data analysis and modeling
+- Demonstrable sports-focused or predictive-modeling project experience, and genuine interest in daily fantasy sports/prediction markets/sports analytics
+- U.S. work authorization (no visa sponsorship available for this role)
+
+### Bonus / Preferred Qualifications
+- Advanced statistical knowledge: Bayesian modeling, calibration techniques
+- Success in competitive data challenges such as Kaggle or the NFL Big Data Bowl
+- Experience with lower-level languages (Rust, Java, C++) or open-source contributions
+- Academic research background in sports analytics
+
+## JD 17: Biostatistics and Statistical Programming Summer Intern, Vertex Pharmaceuticals (biotech/pharma clinical R&D — dose-response modeling & statistical simulation for drug development, a new industry vertical distinct from CVS Health's healthcare-insurance/retail-pharmacy DS role and from all ML-engineering-flavored mle roles)
+Source: Vertex Pharmaceuticals Workday posting (REQ-26583) — https://vrtx.wd501.myworkdayjobs.com/vertex_intern/job/Vertex-Summer-Intern-2026--Biostatistics-and-Statistical-Programming_REQ-26583-2 ; mirror with full text — https://builtin.com/job/vertex-summer-intern-2026-biostatistics-and-statistical-programming/7277469
+Collected: 2026-09-26
+
+### Responsibilities
+- Explore statistical methodology for dose selection and dose-response modeling
+- Conduct simulation studies to support clinical trial design decisions
+- Analyze clinical study data and present findings to cross-functional drug-development teams
+- Build R programs and potentially R Shiny applications; conduct analyses in SAS
+- Present research at departmental seminars and company poster sessions
+- Document work for departmental use and potential peer-reviewed publication
+
+### Basic Requirements
+- Currently enrolled in a graduate-level (PhD) program in statistics, biostatistics, or a related quantitative field, with 2+ years completed
+- Proficiency in R, Python, and SAS
+- Legal authorization to work in the U.S.; must qualify as a “U.S. person” (citizen, permanent resident, asylee, or refugee) due to export-control requirements
+- Full-time availability (40 hrs/week), May–August 2026
+
+### Bonus / Preferred Qualifications
+- Growth-minded, collaborative research approach
+- Interest in biotechnology / drug development
+- Advanced coursework or degree work in Data Science or Quantitative Pharmacology
+
+## JD 18: Data Scientist Intern, Two Sigma (quantitative finance / research track)
+Source: Official Two Sigma careers site job posting — https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Data-Scientist-Internship-Summer-2026/13585
+Collected: 2026-09-27
+
+### Responsibilities
+- Independently research and develop hypotheses based on diverse and unique real-world datasets
+- Conduct literature reviews and apply advanced methodologies for signal extraction
+- Collaborate closely with engineers and other stakeholders to rigorously test theories
+- Engage with the broader research/academic community through internal reading circles and seminars
+- Work on a single, mentored research project over the 10-week program, culminating in a final presentation
+
+### Basic Requirements
+- Currently pursuing a technical or quantitative degree (e.g., chemistry, computer science, economics, statistics, or similar), with approximately one year of study remaining (bachelor's, master's, or PhD candidates welcome)
+- Proficient in Python and SQL
+- Demonstrated experience with in-depth research projects involving real-world data
+- Strong independent-thinking ability, with clear communication skills for explaining complex ideas
+
+### Bonus / Preferred Qualifications
+- Background or coursework in finance (explicitly noted as not required — more than half of Two Sigma's employees come from outside the finance industry)
+- Experience with rigorous hypothesis testing and signal-extraction methodologies on novel/unconventional datasets
+
+## JD 19: Data Science Intern, Visa (payments network — card & merchant analytics, GenAI-augmented)
+Source: The Muse (mirrors Visa's official Workday posting REF94329J) — https://www.themuse.com/jobs/visa/data-science-intern-summer-2026-8cb742
+Collected: 2026-09-28
+
+### Responsibilities
+- Develop data analytics solutions to solve business problems using large datasets
+- Work with large data sets using quantitative techniques and build complex statistical models that learn from big data
+- Collaborate across multiple teams and functions to develop cutting-edge, creative and advanced analytic solutions
+
+### Basic Requirements
+- Pursuing a master's degree in Computer Science, Data Analytics, Data Science, Information Technology, Statistics, or a related STEM/quantitative field
+- Strong communication skills
+- U.S. work authorization; no visa sponsorship available for this role
+
+### Bonus / Preferred Qualifications
+- Experience with generative AI tools alongside established technical skills, to automate content generation and streamline coding
+- Proficiency in database tools such as Hadoop/HIVE/SQL and programming languages such as Python/PySpark
+- Experience delivering analytics solutions using any machine learning framework
+- Skill with visualization/reporting tools such as PowerPoint, Power BI, Tableau
+- Previous exposure to financial services, credit cards, or merchant analytics
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

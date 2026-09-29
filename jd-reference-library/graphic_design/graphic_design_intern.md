@@ -303,5 +303,178 @@ Collected: 2026-09-21
 - Experience directing or collaborating on photography and physical prototyping for tangible consumer products
 - Ability to articulate design rationale when presenting concepts to internal creative leadership and stakeholders
 
+## JD 13: Visual Design Art Intern, Teamfight Tactics — Riot Games (video-game studio, in-house UI/visual design beyond EA)
+Source: Riot Games official careers site (mirrored listing via gamejobs.co), https://www.riotgames.com/en/work-with-us/job/7306519/visual-design-art-intern-teamfight-tactics-summer-2026-remote-los-angeles-usa (full text also at https://gamejobs.co/Visual-Design-Art-Intern-Teamfight-Tactics-Summer-2026-Remote-at-Riot-Games)
+Collected: 2026-09-22
+
+### Responsibilities
+- Create 2D UI visuals for player-facing features, including themed events, battle passes, and game modes for Teamfight Tactics
+- Design UI that balances aesthetics with functionality per Teamfight Tactics visual standards
+- Support out-of-game PC and mobile client development
+- Collaborate cross-functionally with UX, motion graphics, production, audio, and engineering teams
+- Implement pixel-perfect UI assets across devices and screen sizes
+- Maintain clean files and organized project structures for handoff and iteration
+
+### Basic Requirements
+- Currently enrolled in an art or visual design degree program, graduating in 2027
+- Available full-time for the 12-week summer internship
+- Work authorization in country of residence
+- Proficiency in Figma and/or other UI/UX design applications
+- Experience with Photoshop and Illustrator
+- Basic knowledge of game design/production pipelines, including optimization and localization considerations
+
+### Bonus / Preferred Qualifications
+- Comfort working within Unity or Unreal Engine
+- Cross-platform (PC/mobile) UI design experience
+- Thematic/visual art direction skills
+- Motion graphics or illustration expertise
+- Familiarity with Spine, After Effects, or similar animation/rigging software
+
+## JD 14: Graphic Design Internship & Asset Management Assistant, Move For Hunger (nonprofit/social-cause marketing design)
+Source: Move For Hunger official internships page — https://moveforhunger.org/internships/graphic-design
+Collected: 2026-09-23
+
+### Responsibilities
+- Design visual content (social graphics, flyers, email assets) for food drives, fundraising campaigns, and partner events
+- Manage the organization's graphic asset library through proper file naming, categorization, and storage
+- Export and upload finished designs to social media, email, and web platforms
+- Adhere to established brand and style guidelines across all deliverables
+- Participate in team brainstorm and design review meetings
+- Provide general administrative support to the marketing team
+
+### Basic Requirements
+- Proficiency with Canva and the Adobe Creative Suite, with Photoshop and Illustrator skills considered critical
+- Strong organizational skills and attention to detail
+- Comfortable working and collaborating remotely
+- Familiarity with Microsoft Office and Google Docs
+- Available 2-3 days per week, minimum 10 hours weekly, for the September-December term
+- Must have and use a personal laptop
+- Portfolio required to be submitted/reviewed as part of the interview process
+
+### Bonus / Preferred Qualifications
+- A design portfolio that demonstrates range across social, print, and campaign-style assets
+- Prior experience designing for a brand or organization with existing style guidelines
+- Interest or background in nonprofit, cause-driven, or community marketing work
+- Ability to work independently on deliverables with light supervision (remote setting)
+
+## JD 15: Graphics Production Intern, Warner Bros. Discovery (Entertainment Marketing - Motion & Still Graphics Production)
+Source: The Muse job listing mirroring Warner Bros. Discovery's official Spring 2026 internship posting (Job Req ID: Discovery-WAMEGLOBALR000100469EXTERNALENGLOBAL) — https://www.themuse.com/jobs/warnerbrosdiscovery/graphics-production-intern-nyc-spring-2026
+Collected: 2026-09-24
+
+### Responsibilities
+- Assist Marketing Art & Video (MAV) producers in developing and revising still and motion graphics for marketing campaigns supporting WBD shows (e.g., Euphoria, Industry)
+- Evaluate incoming vendor deliverables built in After Effects, Photoshop, Illustrator, and Cinema 4D for technical quality and brand/style consistency
+- Organize, label, and archive final creative assets and renders in shared production libraries
+- Coordinate with Campaign Management teams to track graphics requests, prioritize workloads, and monitor deliverable status across concurrent shows
+- Prepare and version creative assets for different distribution platforms (broadcast, social, digital)
+- Sit in on creative reviews, capture technical and creative feedback, and route revisions back to designers/vendors
+
+### Basic Requirements
+- Currently enrolled in an accredited college or university as a rising Junior or Senior, age 18+
+- Minimum 3.0 GPA (transcript required at application)
+- Must already hold U.S. work authorization; no visa sponsorship available
+- Working proficiency in Adobe Creative Suite, particularly After Effects, Illustrator, and Photoshop
+- Strong organizational skills; able to manage multiple concurrent asset requests and deadlines
+- Available for a hybrid schedule, 16-24 hrs/week, for the full 12-week program (Jan 26 - Apr 17, 2026)
+
+### Bonus / Preferred Qualifications
+- Experience with Cinema 4D for motion/3D graphics work
+- Familiarity with Adobe InDesign
+- Experience with Avid Media Composer
+- Prior internship or coursework involving entertainment/media marketing graphics production
+- A portfolio showing both still and motion graphic design work (including process from concept to final render) for real or mock entertainment campaigns
+
+## JD 16: Summer 2026 Design and Production Internship, Sony Music Entertainment (music label/artist brand design internship (album artwork, artist websites, AR filters) — no music-industry entry exists elsewhere in this file)
+Source: Sony Music Entertainment Internship Program job board (Greenhouse) — https://job-boards.greenhouse.io/sonymusicinternshipsus/jobs/8313152002
+Collected: 2026-09-25
+
+### Responsibilities
+- Design and develop artist websites, promotional landing pages, and social media content
+- Create visual assets including album artwork and playlist graphics, with artwork manipulation and retouching
+- Produce video and motion graphics for dynamic social content, plus design AR Lenses/Camera Effects for Facebook, Instagram, and Snapchat using SparkAR and Snap Lens Studio
+- Provide research support as needed across creative projects
+
+### Basic Requirements
+- Currently enrolled in an Associate's, Bachelor's, or Graduate degree program (sophomore standing or higher), authorized to work in the U.S., able to work on-site in Los Angeles
+- Portfolio demonstrating relevant experience required, with coursework or experience in UX/UI, web development, or design/production
+
+### Bonus / Preferred Qualifications
+- Proficiency in Adobe Creative Cloud (Photoshop, Illustrator, Premiere, After Effects) and prototyping tools (Adobe XD, Figma, InVision)
+- Front-end skills (HTML/CSS/JavaScript/jQuery), CMS experience, AR/VR creation tools (SparkAR, Snap Lens Studio), and A/B testing platform knowledge
+
+## JD 17: Intern - Graphic Design (2026 Summer), Pittsburgh Pirates (Major League Baseball) (sports league/team creative — MLB baseball, distinct from the NBA/Oklahoma City Thunder entry already in the library)
+Source: MLB team careers listing via TheCreativeLoft.com — https://graphic-design.thecreativeloft.com/graphic-design/jobs/intern-graphic-design-20-4
+Collected: 2026-09-26
+
+### Responsibilities
+- Collaborate with the Sr. Designer, Designers, and Creative Director on a variety of design projects
+- Communicate design concepts visually to internal stakeholders
+- Maintain brand consistency across platforms and creative deliverables
+- Produce cohesive creative content for the organization
+- Receive projects and tasks from the Project Manager via the Lytho project management system and upload completed deliverables to that platform
+- Attend project meetings; available for select gameday work during the internship
+
+### Basic Requirements
+- Legal authorization to work in the U.S.
+- Currently enrolled as a Junior, Senior, or Graduate student majoring in Graphic Design
+- Available full-time, on-site for the full internship duration (May–August 2026), weekdays
+- Solid understanding of the graphic production process
+- Working knowledge of Adobe InDesign, Photoshop, and Illustrator
+
+### Bonus / Preferred Qualifications
+- Availability for select gameday work
+- Experience with Adobe After Effects
+- Proficiency in Canva
+- Knowledge of both digital and print design
+
+## JD 18: Graphic & Product Design Assistant Intern, Estee Lauder Companies (Beauty/Fragrance Innovation — L'Atelier team)
+Source: Official Estee Lauder Companies careers portal listing, mirrored on Glassdoor — https://careers.elcompanies.com/careers/job/1168272591655
+Collected: 2026-09-27
+
+### Responsibilities
+- Create 2D and 3D assets, toolkits, and visual frameworks for internal and external communication
+- Develop concept sketches, prototypes, and storyboards that translate strategic insights into visual form
+- Contribute to design briefs defining project intent and visual direction
+- Build 3D models and CAD renderings for products and packaging
+- Document design systems and creative guidelines to ensure visual consistency
+- Design internal communication materials, including presentations and newsletters
+- Collaborate across design, marketing, and R&D teams
+- Prepare materials for workshops and innovation sprints
+
+### Basic Requirements
+- Student in the final phase of studies, or recent graduate, in Industrial Design, Product Design, or a related design discipline
+- Proficiency in 3D modeling and rendering software
+- Expertise in Adobe Creative Suite (InDesign, Photoshop, Illustrator)
+- Strong organizational skills and attention to detail
+- Fluent in English; French is a plus
+- Digital portfolio demonstrating creative thinking is required for application
+
+### Bonus / Preferred Qualifications
+- Skills in motion graphics, video editing, or GenAI creative tools
+- Familiarity with generative AI for creative visualization
+- Ability to work across the full concept-to-execution pipeline (sketch, 3D prototype, final asset/toolkit), spanning both digital and physical (packaging/CAD) outputs
+
+## JD 19: Graphic Design Intern, NVIDIA (tech hardware company — brand/marketing design, 3D & motion graphics)
+Source: NVIDIA official careers site (Job ID JR2004830) — https://jobs.nvidia.com/careers/job/Graphic-Design-Intern---Summer-2026_JR2004830
+Collected: 2026-09-28
+
+### Responsibilities
+- Collaborate with creative directors and designers to produce marketing materials for NVIDIA's brand
+- Create social media marketing material, videos, and 3D animations
+- Work across the full range of campaign concepting through social media design and product identity work
+- Coordinate and collaborate cross-functionally with multiple creative and marketing teams
+
+### Basic Requirements
+- Currently enrolled in a BFA, BS, or MFA program in Graphic Design, Animation, or VFX (or related field)
+- Demonstrated fundamentals of graphic design, typography, and layout applied to digital projects
+- Proficiency in Adobe Creative Cloud (Photoshop, Illustrator, InDesign) and motion graphics software (After Effects or Premiere)
+- Experience with a 3D application (Blender, Maya, or Cinema 4D) and motion graphics
+- Application must include resume, cover letter, and a PDF or online portfolio with 5-10 work samples
+
+### Bonus / Preferred Qualifications
+- Passion for hand-drawn illustration and sketching
+- Evidence of a meticulous, well-documented ideation/creative process
+- Demonstrated awareness of current creative industry trends and openness to new tools/technology
+
 ## Implications for Our Framework
 Across all five postings, Adobe Creative Suite (specifically Illustrator and Photoshop, with InDesign and Keynote also named by Disney) is the universal baseline tool expectation, while Figma appears as a fast-rising second standard (required outright by Ripple and Nike, listed as a bonus by SAP) — a resume that shows neither Adobe nor Figma exposure should score low on tools regardless of other strengths. A portfolio or work-sample link is treated as a hard gate in four of the five postings (Ripple, Disney, SAP, Nike all state applications are incomplete or deprioritized without one), so the rubric should treat "portfolio link present on resume" as a near-mandatory pass/fail criterion rather than a minor bonus, and should credit resumes that name specific portfolio platforms or projects over ones that only claim design skill in prose. Degree/major alignment is a soft-to-medium filter — most postings prefer graphic design, visual communications, or a closely related creative major but explicitly accept adjacent fields (illustration, fine art, photography, communications design), so the rubric should reward relevant coursework/major without hard-rejecting adjacent majors. Work authorization, age minimum (18), and willingness to relocate/work on-site full-time are hard eligibility filters at Disney and DreamWorks specifically, suggesting the rubric should flag (not necessarily penalize) resumes that don't address location/authorization for site-based roles. Motion design, video/animation (After Effects, Premiere), 3D tools (Maya, Blender, ZBrush), and UI/prototyping familiarity (Adobe XD, InVision) consistently appear as differentiators/bonuses rather than requirements, meaning a scoring rubric should weight these as score-boosting extras layered on top of a solid Adobe+portfolio+relevant-major core, not as baseline expectations. Finally, soft skills — ability to take art direction, manage multiple projects under deadline, and collaborate within an established brand system — are called out repeatedly enough (Disney, SAP, Ripple, Nike) that the rubric should allocate meaningful weight to resume evidence of deadline-driven, feedback-incorporating, or team-based design work (e.g., agency/studio experience, class critiques, client projects) rather than only counting solo creative projects.

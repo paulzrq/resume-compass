@@ -277,6 +277,169 @@ Collected: 2026-09-21
 - Prior exposure to campaign performance tracking or audience/engagement analytics
 - Ability to work independently while contributing effectively within a team
 
+## JD 13: Growth Marketing Intern (Summer 2027), Robinhood (fintech/consumer-app performance marketing)
+Source: Robinhood careers posting (Growth Marketing Intern, Summer 2027), https://zapply.jobs/jobs/30c0793c-6d47-40c7-8c68-4f586c8a1304/
+Collected: 2026-09-22
+
+### Responsibilities
+- Manage and optimize day-to-day performance marketing campaigns across Google Ads and paid social platforms
+- Analyze campaign data to identify trends and inform optimization decisions
+- Build and maintain performance dashboards to track key growth and acquisition metrics
+- Conduct A/B tests on ad creative and audience targeting strategies
+- Collaborate with the growth team on budget allocation and channel-mix decisions
+
+### Basic Requirements
+- Currently pursuing or recently completed a degree in a quantitative field (Finance, Economics, Statistics, or related discipline)
+- Expected graduation Winter 2027 or Summer 2028
+- Strong analytical capabilities with the ability to turn data into actionable insights
+- Demonstrated self-starter mentality with an ownership orientation
+- Able to work in-person 3+ days/week at the Menlo Park, CA office
+
+### Bonus / Preferred Qualifications
+- SQL familiarity
+- Comfort working with data and quick to master new analytical/reporting tools
+- Genuine curiosity and a proactive, hands-on problem-solving approach
+
+## JD 14: Organic Search (SEO & Content Marketing) Intern, Power Digital Marketing (SEO/search marketing, agency)
+Source: BuiltIn job listing — https://builtin.com/job/organic-search-seo-content-marketing-intern-spring-2026/7501224
+Collected: 2026-09-23
+
+### Responsibilities
+- Learn and apply search engine optimization (SEO) methods and best practices
+- Revise and optimize website content for search performance
+- Perform keyword research and competitive analysis
+- Write title tags and meta descriptions
+- Identify internal linking opportunities across client sites
+- Develop SEO content calendars with blog topic suggestions
+- Apply on-page website optimizations (no coding required)
+- Support the Organic Search team on client projects using Google Analytics and industry-standard SEO platforms
+
+### Basic Requirements
+- Currently enrolled in a college internship course for academic credit
+- Strong interest in combining analytics with creative work in search marketing
+- Excellent oral and written communication skills
+- Proficiency with MS Office (Excel, PowerPoint) and Google Drive
+- Strong time management and ability to prioritize multiple tasks
+- Self-motivated, proactive work ethic and ability to work in a team
+
+### Bonus / Preferred Qualifications
+- Field of study in Business, Advertising, Marketing, Journalism, or Communications
+- Basic understanding of HTML (not required, but a plus)
+- Prior exposure to Google Analytics or other SEO/analytics tools
+
+## JD 15: Intern, Destination & Loyalty Marketing, Marriott International (travel/hospitality — loyalty & destination marketing, APAC)
+Source: Marriott International official careers page (Marriott Bonvoy loyalty marketing internship, Singapore Regional Office, Jul-Dec 2026) — https://careers.marriott.com/intern-destination-loyalty-marketing-jul-to-dec-2026/job/00DC37BFFF0F4CA4BE44C99A5D17C6BF
+Collected: 2026-09-24
+
+### Responsibilities
+- Assist in executing loyalty marketing activities and support the Marriott Bonvoy Moments program
+- Liaise with event, brand and PR agencies on campaign execution
+- Help execute integrated marketing initiatives spanning Loyalty, Portfolio and Destination campaigns
+- Manage communications for the APEC program and coordinate related event activations
+- Support preparation of post-campaign reports, including light performance-analysis work
+
+### Basic Requirements
+- Singaporean citizen, Singapore Permanent Resident, or holder of a valid student/work holiday pass
+- Currently enrolled in or a recent graduate of an accredited university in Singapore, Australia, France, Germany, Hong Kong, Japan, New Zealand, Switzerland, UK, or US
+- Able to commit to a six-month internship (Jul-Dec 2026)
+- Maintains professional grooming standards per Marriott policy
+
+### Bonus / Preferred Qualifications
+- Undergraduate degree focus in Business Management, Economics, or Marketing
+- Ability to learn quickly and perform well in a fast-paced environment
+- Detail-oriented, structured, and organized working style
+- Excellent command of spoken and written English
+- Proficient in Microsoft Office, especially Excel and PowerPoint
+- Strong analytical and numeracy skills
+
+## JD 16: 2026 US Summer Internships - Marketing, Activision Blizzard (Activision Publishing) (video-game publisher brand/consumer marketing internship spanning Brand Marketing, Consumer Marketing, and Licensing — a games-industry marketing track not represented elsewhere in this file)
+Source: Job-board mirror of the original Activision careers posting (original listing has since closed) — https://prosple.com/graduate-employers/activision-global/jobs-internships/marketing-summer-internships
+Collected: 2026-09-25
+
+### Responsibilities
+- Provide day-to-day support across Brand Marketing, Consumer Marketing, and Licensing initiatives
+- Organize digital/SharePoint assets and track deliverables for marketing campaigns
+- Assist with pitching, outreach efforts, and partner/vendor coordination
+- Help develop campaigns and content that connect players with Activision Blizzard entertainment franchises
+
+### Basic Requirements
+- Currently enrolled in a certificate, associate's, bachelor's, or master's degree program, graduating December 2026 through July 2027, pursuing a degree in Marketing, Communications, Business, or a related field
+- Available for a 12-week internship, in-person in Santa Monica, CA; US residency or willingness to relocate, US work authorization required
+
+### Bonus / Preferred Qualifications
+- Demonstrated interest in brand strategy, consumer insights, and licensing/IP management
+- Passion for entertainment, storytelling, and player-focused experiences
+- Learning agility and ability to collaborate cross-functionally in a fast-paced team
+
+## JD 17: Advertising and Marketing Intern, Ralph Lauren (fashion/luxury retail brand marketing — EMEA campaign production & agency management track)
+Source: Ralph Lauren Corporate Careers (req #W173004) — https://careers.ralphlauren.com/CareersCorporate/JobDetail/Advertising-and-Marketing-Intern/62611
+Collected: 2026-09-26
+
+### Responsibilities
+- Oversee and produce campaign assets across formats (evites, invitations, menus, web banners, social media formats)
+- Brief and liaise with external agencies; prioritize and manage deadlines across concurrent projects
+- Support major 360-degree seasonal marketing campaigns for EMEA brands
+- Manage production of all seasonal point-of-sale (POS) materials across all brands
+- Manage internal communications highlighting newly posted imagery/videos via the team's creative planning system
+
+### Basic Requirements
+- Internship agreement required; role runs approximately 9-12 months starting March 2026
+- Strong organizational skills; able to work under pressure and to tight schedules
+- Strong IT skills (Excel, PowerPoint) plus understanding of the Adobe Creative Suite
+- Fluent in English and French, spoken and written
+- Self-driven and flexible, able to pivot quickly when deadlines/priorities change
+
+### Bonus / Preferred Qualifications
+- Additional EU language proficiency
+- Creative mindset with a positive, dynamic approach to fast-paced, high-volume campaign work
+
+## JD 18: Marketing Intern, L'Oreal USA (beauty/personal-care CPG brand marketing)
+Source: Official L'Oreal Careers posting — https://careers.loreal.com/en_US/jobs/JobDetail/2026-L-Or-al-USA-Marketing-New-York-NY-Summer-Internship-Undergraduate/215827
+Collected: 2026-09-27
+
+### Responsibilities
+- Become immersed in a marketing team on one of L'Oreal's 37+ brands, owning day-to-day brand responsibilities including consumer insights, competitive marketplace assessment, data analysis and dashboards, and campaign execution
+- Support ideation and development of new product innovations, ensuring consumer usability aligns with global trends
+- Collaborate on the development and execution of comprehensive (360) marketing plans to grow market share on key brand pillars and drive sales growth
+- Develop data-driven storytelling skills to present business recommendations through an individual strategic project to senior leadership
+- Network across functions (Digital, Supply Chain, Finance, Research & Innovation, Sales) to understand how each function impacts brand performance
+- Gain business acumen and learn brand strategy directly from experienced brand managers in the beauty and consumer sectors
+- Build presentation, teamwork, leadership, analytics, and strategic thinking competencies
+
+### Basic Requirements
+- Currently enrolled full-time in a 4-year college/university program
+- Expected graduation between December 2026 and July 2027
+- Legally authorized to work full-time in the US without current or future sponsorship needs
+- Able to relocate to New York, NY or Jersey City, NJ for the internship
+- Able to begin full-time work upon completion of bachelor's degree
+
+### Bonus / Preferred Qualifications
+- Ambitious, trend-forward students who are innovative thinkers
+- No prior industry experience required — open to candidates whose past experience doesn't perfectly align with the listed qualifications
+- Candidates from diverse academic and personal backgrounds encouraged to apply
+
+## JD 19: Brand Marketing Intern (2026 BRANDS Summer Internship), Stellantis (automotive OEM brand strategy)
+Source: Built In job listing (Stellantis careers posting) — https://builtin.com/job/2026-brands-summer-internship/7420698
+Collected: 2026-09-28
+
+### Responsibilities
+- Assist in developing marketing and brand strategies through assessment of customer aspirations and needs
+- Conduct competitive analysis to inform brand positioning
+- Coordinate and synthesize buyer demographics and customer research to guide brand decisions
+- Support cross-functional collaboration across teams (product planning, customer experience) during vehicle brand initiatives
+
+### Basic Requirements
+- Pursuing an associate degree or higher from an accredited institution
+- Available to work full-time (40 hours/week) for the full May-August 2026 internship period
+- No immigration sponsorship provided for this role
+
+### Bonus / Preferred Qualifications
+- Major in Marketing, Finance, Economics, Business, or a related field
+- Strong written and verbal communication skills; proficiency in Microsoft Office
+- Ability to work both independently and collaboratively
+- Demonstrated leadership experience in academic or extracurricular settings
+- Strong interest in the automotive industry
+
 ## Implications for Our Framework
 - The brand-management posting (Unilever) never mentions any specific marketing tool in its basic requirements, while the digital/growth-marketing posting (Hill House Home) names Meta, TikTok, and Google plus CAC/ROAS metrics directly in the job duties — bonus item ② ("proficient with data-analysis/ad-platform tools") carries far more real weight for growth marketing than for brand management, and the two should not share one skill rubric.
 - Product marketing (IBM) is the only track to state A/B testing and Excel/Python/Tableau explicitly in the basic requirements, showing it emphasizes "strategy + data" more than brand or content marketing — gap ② ("lacks quantifiable growth/conversion data") should carry heavier deduction weight when evaluating product-marketing resumes.

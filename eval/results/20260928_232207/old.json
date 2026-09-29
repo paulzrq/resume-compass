@@ -1,0 +1,31 @@
+[
+ {
+  "resume_id": "R01",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 5,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 2,
+   "present": 5
+  },
+  "total": 97,
+  "tier_label": "顶尖竞争力",
+  "usage": {
+   "input_tokens": 1557,
+   "output_tokens": 958,
+   "thinking_tokens": 0,
+   "cache_creation_tokens": 0,
+   "cache_read_tokens": 9400
+  },
+  "measured_usage": {
+   "input": 1557,
+   "output": 985,
+   "cache_creation": 0,
+   "cache_read": 9400
+  },
+  "api_calls": 1,
+  "seconds": 23.4
+ }
+]

@@ -1,0 +1,46 @@
+Yiyun (Eloise) Xu
+Seattle, WA 98105│[EMAIL] │ [PHONE] │  LinkedIn  │  Work Portfolio
+EXECUTIVE SUMMARY                             									 Analyst with 2+ years of experience in data analysis and graduate student specializing in Information Systems. Expertise in transforming complex datasets into insightful visualizations: notable achievements include optimizing financial data accuracy and efficiency using SQL at a leading accounting firm, resulting in error-free financial reports. Proficient in Python, SQL, Power BI, and Tableau. 
+EDUCATION           												 
+University of Washington – Michael G. Foster School of Business			   	                                           Seattle, WA 
+Master of Science in Information System                                    	                                                                               Expected June 2024
+
+University of Hawaii at Manoa 							                                         Honolulu, HI
+Bachelor of Business Admission in Accounting and Finance                                                                                                      December 2021
+
+WORK EXPERIENCE                                                           							 	
+University of Washington								        Seattle, Washington
+Financial Data Analyst Intern				                                                                   April 2023 – Present
+Transform intricate raw quantitative data exports into CSV format structured tables, achieving a 20% reduction in data transformation time and enhancing the comprehensibility of cash flow statement information for the UW Food & Housing finance department.
+Enhance revenue and expense forecasting model accuracy by 25% by applying advanced Excel functions (VLOOKUP, IF statements, SUMPRODUCT, Pivot Table), empowering proactive financial planning and spearheading the university's FY2024 budgeting process.
+Conducted financial analysis that compared accounts money flow exceeding $500,000 between the current year and the prior year by utilizing a cross-functional approach to data handling and presented comprehensive analysis reports to KPMG external auditors.
+
+KMH LLP RSM US Alliance (Top 5 Public Accounting Firm in Hawaii)	                                        Honolulu, Hawaii
+Assurance Data Analyst						                                   August 2021 – November 2022
+Achieved a 15% operational efficiency enhancement at the Hawaii Department of Health by utilizing advanced SQL techniques (e.g., CASE WHEN, JOIN, UNION, Subqueries, Aggregate) for structured consolidation of distinct accounts into relevant financial sections.
+Led cleansing of outlier and null value data within the data lake utilizing SQL techniques (e.g., TRIM, CONCAT, EXTRACT, COALESCE) leading to a 20% improvement in data analysis precision and heightened dependability for audit assessments.
+Conceptualized and executed a predictive modeling framework for trend analysis spanning three years of financial data, revenue projection, and strategic planning, resulting in a noteworthy 10% revenue growth for a local hotel company.
+Detected irregular patterns in financial transactions using advanced data analytics and integrated statistical analysis, leading to the identification and prevention of fraudulent activities, and ultimately saving a local retail company $20,000 annually.
+
+Verity Certified Public Accountants 		                                                                                    Honolulu, Hawaii
+Audit Intern 				                                                                                         July 2020 – August 2021
+Provided valuable recommendations to enhance access control, cybersecurity measures, and risk management through comprehensive evaluation and improved the integrity of financial data.
+Conducted 35+ financial audits which included assisting with balance sheet and income statement detail testing to ensure compliance with GAAP standards, thereby aiding companies in avoiding potential penalties.
+
+PROJECTS                                                                                                       						
+Analysis of Electric Vehicle Adoption in Washington State
+Data Analysis on Electric Vehicle    |   Tools: SQL, Power BI, Tableau	
+By leveraging raw data and SQL to conduct in-depth time series analysis and visualization of electric vehicle adoption trends.
+Discovered Tesla Model 3 is the most popular EV in King County and formulated targeted marketing strategies to boost sales revenue.
+Discovered that among WA residents who own EVs, 62% owned Battery electric vehicles and 38% owned hybrid electric vehicles.
+
+Google Play Store Apps and Reviews Data Analysis  
+ Google Play Store |   Tools: Python, Matplotlib     	      
+Developed a Python data analysis script using Matplotlib to generate interactive visualizations, revealing that the 'Family' category held a dominant market share of 30% among active applications.
+Conducted an average rating of 4.17 across all categories and presented findings through a histogram plot, showcasing the predominance of highly rated apps (above 4.17) and a left-skewed distribution.
+Analyzed Google Play Store Apps size and pricing, revealing that top-rated apps (rating > 4) typically fall within the size range of 2 MB to 20 MB and most apps are priced under $10.
+
+SKILLS                                                                                  							 	
+Programming: Python, Pandas, NumPy, Matplotlib, Seaborn, SQL, Machine Learning, Statistics - Linear Regression, Logistic Regression
+Data Visualization: Power BI, Tableau, Advanced Excel: Solver, TreePlan, Oracle Crystal Balls
+Database Management: Microsoft Azure DB, Asterix DB

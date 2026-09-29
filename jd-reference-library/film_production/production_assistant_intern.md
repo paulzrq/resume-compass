@@ -296,5 +296,170 @@ Collected: 2026-09-21
 - Familiarity with sports content or documentary storytelling conventions
 - Demonstrated interest in long-form documentary vs. live broadcast production
 
+## JD 13: Stop Motion Animation Intern, LAIKA Studios (stop-motion feature animation production, beyond Illumination's CG animation track)
+Source: LAIKA Studios official careers listing, https://www.laika.com/careers/job-listing?jobid=6658516
+Collected: 2026-09-22
+
+### Responsibilities
+- Perform hands-on frame-by-frame stop-motion animation work on set, including staging test performances and executing walk cycles and weight shifts
+- Translate scripted emotion and character intent into precise physical puppet movement, shot by shot
+- Support day-to-day production needs: stage maintenance, puppet care/upkeep, and troubleshooting rig or armature issues in collaboration with the rigging team
+- Communicate and coordinate across departments (animation, rigging, camera) to keep shots moving through the production pipeline
+- Maintain meticulous shot-to-shot consistency, catching sub-millimeter deviations in puppet positioning between frames
+
+### Basic Requirements
+- Currently enrolled as a Junior or Senior in a college/university program, or a recent graduate (within 12 months), with a focus in animation, fine arts, or a related creative field
+- Demonstrated understanding of movement, timing, and character acting through a portfolio or demo reel (walk cycles, character performance)
+- Strong artistic sensibility, fine motor dexterity, and physical stamina to sustain extended, detail-intensive shooting sessions
+- Ability to work 100% on-site in Hillsboro, OR
+- Resume clearly stating graduation/academic status; portfolio/demo reel required for application
+
+### Bonus / Preferred Qualifications
+- Prior hands-on experience with Dragonframe or other stop-motion capture software
+- Familiarity with DSLR photography/camera operation on a physical set
+- Background in sculpting, model-making, or practical puppet fabrication
+- Prior on-set production experience (student or professional) showing real collaborative problem-solving with a crew, not just solo coursework
+
+## JD 14: Fall Intern – Production Office, Interloper Films (independent documentary film production company)
+Source: EntertainmentCareers.Net job listing #527378 — https://www.entertainmentcareers.net/interloper-films/fall-intern-production-office/job/527378/
+Collected: 2026-09-23
+
+### Responsibilities
+- Support day-to-day production office operations, including filing, scanning, and organizing production and financial documents
+- Assist with bookkeeping tasks such as maintaining ledgers, tracking receipts, and basic QuickBooks entry
+- Organize physical and digital production materials and help manage and maintain the shared drive
+- Handle email correspondence and provide general production coordination assistance
+- Support media management and archival projects for the company's documentary film library
+- Conduct research and complete general production office tasks as assigned
+- Gain exposure to multiple stages of documentary filmmaking (development, production, post) while assisting the core team
+
+### Basic Requirements
+- Highly organized, detail-oriented, and dependable; comfortable with repetitive administrative tasks
+- Strong written and verbal communication skills
+- Reliable transportation to the Pasadena, CA office; able to work in person 2–3 days per week (~7 hours/day)
+- Self-motivated with good time-management and problem-solving ability
+- Eager to learn about independent documentary production and studio operations
+- Available for the internship term (approx. August/September–December 2026); unpaid, for academic credit where applicable
+
+### Bonus / Preferred Qualifications
+- Background or coursework in production coordination or production office administration
+- Basic financial literacy or bookkeeping experience
+- Familiarity with editing software (e.g., Avid) or basic camera/technical skills
+- Experience with social media management or web design
+- Prior exposure to a documentary or independent film production environment
+
+## JD 15: Fall Paid Intern - Production & Operations, Bubba's LA (commercial/branded-content production studio, Burbank)
+Source: EntertainmentCareers.Net job listing, cross-verified against Bubba's LA's own site — https://www.entertainmentcareers.net/bubba-s-la/fall-paid-intern-production-and-operations/job/529770/
+Collected: 2026-09-24
+
+### Responsibilities
+- Shadow producers and project managers to observe how commercial/branded-content projects are planned and run
+- Organize project materials, schedules, and production files across active jobs
+- Conduct research to support current and upcoming client projects
+- Participate in brainstorming sessions for client work and marketing initiatives
+- Learn directly from professional artists across animation, motion graphics, design, VFX, and live-action production
+- Gain exposure to AI-assisted creative workflows and emerging production technologies
+- Support day-to-day studio operations and light administrative tasks
+- Take ownership of small projects with team guidance
+
+### Basic Requirements
+- Genuine enthusiasm for learning studio/production operations
+- Strong organizational skills and reliability
+- Proactive problem-solving ability
+- Effective written and verbal communication
+- Ability to manage multiple priorities and tight schedules
+- Reliable transportation to the Burbank studio (in-person role)
+- Availability up to 24 hours/week for the Fall 2026 term (start Sept 8 or 15, 2026)
+
+### Bonus / Preferred Qualifications
+- Experience with Adobe Creative Cloud
+- Familiarity with Google Workspace
+- Experience with Frame.io or similar review/collaboration tools
+- Familiarity with AI-assisted creative/production tools
+
+## JD 16: Unpaid Producer Intern, Nexstar Media Group (KFOR-TV / KAUT-TV, Oklahoma City) (local/regional TV station broadcast internship — a different company and a smaller-market local-news production context than the NBCUniversal Local Bay Area entry already in this file)
+Source: Nexstar Media Group official Workday careers site — https://nexstar.wd5.myworkdayjobs.com/en-US/nexstar/details/Unpaid-Producer-Intern_REQ-43052-1
+Collected: 2026-09-25
+
+### Responsibilities
+- Assist the Production department (and cross-functionally with News, Sales, and Community Development as assigned) on day-to-day studio and field production tasks
+- Work under direct supervision to complete assigned production duties and shift work as part of a structured, meaningful learning experience
+- Support the planning and execution of segments/projects of advancing complexity as skills develop over the internship period
+- Participate in a supervised internship program culminating in a written performance evaluation
+
+### Basic Requirements
+- Currently enrolled college/university student studying broadcast journalism, video/TV production, or a related communications field
+- Able to work assigned shifts each week, collaborate as part of a team, and take on projects of advancing complexity as skill level grows
+
+### Bonus / Preferred Qualifications
+- Prior internship or hands-on production experience
+- Demonstrated willingness to learn and collaborate across multiple production-adjacent departments (News, Sales, Community Development)
+
+## JD 17: VFX Production Intern (Visual Effects Global Production), Industrial Light & Magic (ILM) / Lucasfilm (a Disney company) (VFX/post-production house track — visual-effects production support across film, TV, and theme-park projects, distinct from the studio-side feature-film post-production entry already in the library)
+Source: University of Miami career posting mirroring the Disney Careers listing — https://com.miami.edu/job_posting/ilm-vfx-intern-summer-2026-disney-san-francisco-ca/
+Collected: 2026-09-26
+
+### Responsibilities
+- Provide administrative and support services to the VFX production team across multiple concurrent shows
+- Manage show life-cycle reports and tracking documentation
+- Function as a Production Assistant for the Visual Effects Global Production department
+- Coordinate details and schedules for departmental meetings
+- Host visiting executives and guests
+- Support VFX production processes while learning the pipeline for film, television, and theme-park IP
+
+### Basic Requirements
+- Proficiency with both PC and Mac systems, Microsoft Office (Word/Excel), and Google Mail
+- General understanding of film/VFX production with genuine industry interest
+- Excellent verbal and written communication skills
+- Strong interpersonal and organizational abilities; able to multitask and adapt to shifting priorities
+- Proven ability to work both autonomously and in team settings
+
+### Bonus / Preferred Qualifications
+- Currently enrolled Junior or Senior pursuing a Bachelor's degree in Film, Art, Theater, or a related field
+- Minimum age 18 with unrestricted U.S. work authorization
+- Reliable full-time availability with flexible evening/weekend hours
+
+## JD 18: Production Intern, Amazon Studios (Prime Video & Amazon MGM Studios — Post Production, streaming scripted TV/film)
+Source: Amazon internship posting, mirrored via Prosple career listing — https://prosple.com/graduate-employers/amazon/jobs-internships/production-intern-prime-video-amazon-mgm-studios
+Collected: 2026-09-27
+
+### Responsibilities
+- Assist with tracking delivery requirements and deadlines for the US Scripted Post Production team, which manages 50+ live-action and animated series annually
+- Help maintain and update team and project databases and status reports
+- Learn industry-standard post-production software and workflows
+- Collaborate with various internal departments and external vendors across worldwide teams
+- Gain exposure to pre-production, budgeting, editorial, and finishing processes, including emerging cloud-based and AI-integrated workflows
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's degree or above; expected graduation between December 2026 and June 2028
+- Field of study in Film & TV Production, Digital Media, Multimedia Arts, Audio Engineering, Visual Arts, Communications, Journalism, Graphic Design, or a related major
+- Able to commit 40 hours/week for a minimum 12-week internship (June 2026 start)
+- Experience or knowledge of organizational and process management tools
+
+### Bonus / Preferred Qualifications
+- Prior experience in scripted, unscripted, or film production (e.g., Production Assistant roles)
+- Student film project experience
+- Leadership roles in student productions or campus organizations
+
+## JD 19: Film Intern – Reality TV Production (Videography & Editing Focused), Lavonne's The Agency (Burbank, CA — reality/unscripted TV production, on-set + post-production hybrid)
+Source: Hollylist job posting (company verified via IMDbPro, LinkedIn, Instagram) — https://www.hollylist.com/job/film-intern-reality-tv-production-videography-editing-focused-r2YYrMyyjM2jQiHEB
+Collected: 2026-09-28
+
+### Responsibilities
+- Assist with multi-camera setups, operate secondary B-roll cameras, and manage field audio equipment on reality TV shoots
+- Handle data wrangling, offload memory cards safely, and organize raw production footage files
+- Build initial rough cuts, create assembly string-outs, and organize multi-cam timelines
+- Assist with dialogue cleanup, basic sound placement, and exporting final episode deliverables
+
+### Basic Requirements
+- Current enrollment in a college/university film, television, or media production program
+- Foundational experience operating DSLR or mirrorless cinema cameras (Sony, Canon, or Blackmagic)
+- Proficient technical knowledge of non-linear editing software, preferably Adobe Premiere Pro or DaVinci Resolve
+- Ability to work independently on tight deadlines and manage large file structures
+- Must own a reliable camera capable of shooting HD video and a laptop for video editing
+
+### Bonus / Preferred Qualifications
+- Combines real on-set camera/audio operation with hands-on post-production editing experience, a distinctive dual-skillset combination for a reality-TV production environment
+
 ## Implications for Our Framework
 Across all five postings, the recurring baseline is administrative/organizational competence rather than creative craft: Microsoft Office (every posting), Google Sheets, and general "strong organization/communication/attention to detail" language appear far more often than any camera or editing skill, meaning a rubric should treat basic office-software fluency as table stakes, not a differentiator. The hardest filters that would eliminate a candidate outright are logistical and eligibility-based, not skill-based: enrollment status and class year (sophomore+, rising junior/senior, or "on placement year"), work authorization/visa sponsorship (explicit in both NBCUniversal and WBD postings), minimum age (18+), and hard availability windows (16-24 hrs/week, specific in-office days, multi-month date ranges) — a resume or application that can't clear these should be scored down regardless of otherwise-strong experience, since real recruiters use them as pass/fail gates before reading further. Major/field of study is a semi-hard filter used inconsistently (Media Res explicitly requires TV/Film Production or Critical Studies; others just ask for "passion" or "related field"), so it should be weighted as a moderate positive rather than a strict requirement. GPA thresholds (3.0 at both NBCUniversal and WBD) and reliable transportation/driver's license (Totally TV, implied by on-set duties generally) function as secondary hard filters worth flagging when present or absent. The clearest bonus/differentiator tier across postings is production-specific software and tools beyond generic Office — Premiere Pro, Scenechronize, Airtable, Smartsheet, Dropbox/SharePoint — plus demonstrated hands-on production exposure (student films, prior internships, script coverage, series tracking) and niche fit signals (bilingual Spanish for a bilingual market, sports-content familiarity for a sports-adjacent role, comedy/writing/music background for a comedy-focused shop); these should be scored as meaningful upside rather than baseline expectations. Practically, this implies a film_production scoring rubric should weight eligibility/logistics as gating criteria, treat generic office/organizational skills as a low-weight baseline, give moderate credit for relevant coursework or major, and reserve the highest positive weight for named production/post-production software proficiency and concrete on-set or post-production project experience, since that is what separates a merely-eligible applicant from a standout one in every posting reviewed.

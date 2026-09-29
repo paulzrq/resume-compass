@@ -1,0 +1,61 @@
+xxxxxx xxxx
+xxx xxxxxxx, xx
++1 (xxx) xxx-xxxx       xxxxxxxxxxxxxxxxxxxx
+EDUCATION
+
+
+
+Technical Skills     Machine Learning
+
+Python, R(Time Series), SQL, SPSS, Tableau, Microsoft Office, Google Cloud ML Methods, Scikit-learn, TensorFlow, Keras
+University of California, Los Angeles
+Master of Economics, Quantitative Economics (GPA3.9/4.0)                                                            2022 - Expected 2024 Relevant Coursework: Econometrics with Python, SQL and Data Management, Machine Learning, Time Series
+University of California, Los Angeles
+Master of Economics, Quantitative Economics (GPA3.9/4.0)                                                            2022 - Expected 2024 Relevant Coursework: Econometrics with Python, SQL and Data Management, Machine Learning, Time Series
+Xiamen University
+Bachelor of Economics, Major in Finance
+WORKING EXPERIENCE
+Xiamen, China 2018 - 2022
+Data Scientist
+Baynovation, LCC.
+Jul 2023 - Sep 2023 Remote,  United States
+• Designed a real-time loan GUI with dynamic visualizations and key metrics, rigorously validated for accuracy.
+• Optimized rate prediction model RMSE by 7.4% through web scraping real-time market data and algorithmic experimentation.
+• Led the development of a mortgage delinquency model, covering EDA, feature engineering, and model tuning. Managed outliers, applied PCA for dimension reduction, and employed tree-based algorithms like Decision Trees and XGBoost, ultimately achieving an AUC of 0.77.
+Jan 2022 - Apr 2022 Shenzhen,  China
+• Utilized web scraping and automation to gather multi-year reports from multiple regions for regional industrial planning. Created a concise 10-page presentation for data-driven planning.
+• Analyzed business data for benchmark projects and contributed to a first-stage report for a regional redevelopment initiative.
+
+DATA EXPERIENCE
+• Designed a real-time loan GUI with dynamic visualizations and key metrics, rigorously validated for accuracy.
+• Optimized rate prediction model RMSE by 7.4% through web scraping real-time market data and algorithmic experimentation.
+• Led the development of a mortgage delinquency model, covering EDA, feature engineering, and model tuning. Managed outliers, applied PCA for dimension reduction, and employed tree-based algorithms like Decision Trees and XGBoost, ultimately achieving an AUC of 0.77.
+Jan 2022 - Apr 2022 Shenzhen,  China
+• Utilized web scraping and automation to gather multi-year reports from multiple regions for regional industrial planning. Created a concise 10-page presentation for data-driven planning.
+• Analyzed business data for benchmark projects and contributed to a first-stage report for a regional redevelopment initiative.
+
+DATA EXPERIENCE
+Predict Student Performance from Game Play (Top 9%)                                                      Mar 2023 - Jun 2023
+Kaggle Competition
+• Implemented a robust pipeline to train and optimize a CatBoost Classifier for predicting the likelihood of correct answers across 18 questions, achieving an F1-score of 0.696.
+Advertising Effectiveness Study                                                                                                     Mar 2023 - Jun 2023
+University of California, Los Angeles
+• Developed sales increment models using Logistic Regression and KNN, with Python-based interactive result visu- alization.
+• Enhanced analysis by leveraging web scraping to collect detailed information on 50,000+ products.
+Marketing Strategy Analysis                                                                                                           Aug 2020 - Sep 2020
+Shenzhen, China
+• Collected market and consumer demographic data for analysis while also employing web scraping techniques to gather product reviews, enabling the identification of emerging market trends and consumer preferences.
+• Identified potential market segments using clustering algorithms and establishing predictive models for market trends and consumer behavior through supervised algorithms such as decision trees.
+SKILLS
+Predict Student Performance from Game Play (Top 9%)                                                      Mar 2023 - Jun 2023
+Kaggle Competition
+• Implemented a robust pipeline to train and optimize a CatBoost Classifier for predicting the likelihood of correct answers across 18 questions, achieving an F1-score of 0.696.
+Advertising Effectiveness Study                                                                                                     Mar 2023 - Jun 2023
+University of California, Los Angeles
+• Developed sales increment models using Logistic Regression and KNN, with Python-based interactive result visu- alization.
+• Enhanced analysis by leveraging web scraping to collect detailed information on 50,000+ products.
+Marketing Strategy Analysis                                                                                                           Aug 2020 - Sep 2020
+Shenzhen, China
+• Collected market and consumer demographic data for analysis while also employing web scraping techniques to gather product reviews, enabling the identification of emerging market trends and consumer preferences.
+• Identified potential market segments using clustering algorithms and establishing predictive models for market trends and consumer behavior through supervised algorithms such as decision trees.
+SKILLS

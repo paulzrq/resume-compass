@@ -1,0 +1,133 @@
+{
+ "per_dimension": {
+  "edu": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 0.0,
+    "exact_match": 1.0,
+    "n": 1
+   }
+  },
+  "exp": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 0.0,
+    "exact_match": 1.0,
+    "n": 1
+   }
+  },
+  "proj": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "skill": {
+   "old": {
+    "mae": 2.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 2.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "cert": {
+   "old": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "lead": {
+   "old": {
+    "mae": 0.0,
+    "exact_match": 1.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  },
+  "present": {
+   "old": {
+    "mae": 0.0,
+    "exact_match": 1.0,
+    "n": 1
+   },
+   "new": {
+    "mae": 1.0,
+    "exact_match": 0.0,
+    "n": 1
+   }
+  }
+ },
+ "total": {
+  "old": {
+   "mae": 28.0,
+   "spearman": null,
+   "n": 1
+  },
+  "new": {
+   "mae": 14.0,
+   "spearman": null,
+   "n": 1
+  }
+ },
+ "tier": {
+  "old": {
+   "agreement": 0.0,
+   "n": 1
+  },
+  "new": {
+   "agreement": 0.0,
+   "n": 1
+  }
+ },
+ "critic": {
+  "revised_count": 0,
+  "improved": 0,
+  "worsened": 0,
+  "same": 0,
+  "mean_delta": null
+ },
+ "cost": {
+  "old": {
+   "total_seconds": 11.7,
+   "total_api_calls": 1,
+   "n": 1
+  },
+  "new": {
+   "total_seconds": 167.9,
+   "total_api_calls": 11,
+   "n": 1
+  }
+ },
+ "errors": {
+  "old": [],
+  "new": []
+ }
+}

@@ -1,0 +1,39 @@
+[
+ {
+  "resume_id": "R01",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 5,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 90,
+  "tier_label": "顶尖竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] evidence '40M rows mortgage data by SQL from Snowflake' 在简历原文中是 'Leveraged National Risk Index data and 40M rows mortgage data by SQL from Snowflake'，scorer 截断了前半句。虽不构成编造，但理由中声称'SQL复杂查询'缺乏该项evidence的原文佐证（简历未明确说明是复杂查询），仅提到数据量——理由与证据不够匹配（违反理由合规规则）→ 建议：在rationale中改为'处理40M行级数据'或在evidence补充原文展示复杂查询语句的具体描述",
+   "[proj] evidence 中'loss rate model...generated lognormally shaped loss distributions'和'achieved a mean squared error (MSE) of 0.0104'——这两条是否逐字出自简历？scorer未在evidence标签内附上简历原句位置，难以验证真实性（违反证据真实性规则）→ 建议：补充简历原文或标注出处页码",
+   "[proj] rationale 说'缺乏实际部署或外部获奖认证'，但同时列举了'Smith Analytics Consortium Datathon Competition, Finalist, 2022'作为evidence——Finalist本身就是外部认证，与理由自相矛盾（违反跨维度一致性规则）→ 建议：若认为Datathon Finalist足以加分，应将score从4提至4.5或5；若认为不足，rationale应改为'缺乏顶级获奖或部署上线证据'而非笼统说缺乏获奖",
+   "[skill] rationale 说'R、SAS、Snowflake多元技能，经验多次印证'，但在exp中仅见'employed cloglog models...in SAS'一次、'Snowflake'一次、未见R的应用证据（违反理由与evidence匹配规则）→ 建议：rationale改为'SQL+Python+Tableau核心工具熟练，R、SAS、Snowflake等扩展工具虽列表出现但应用案例有限'，或补充proj中有R应用的evidence",
+   "[present] evidence '向管理层汇报成果'和'向客户呈现投资建议'——这两条是否逐字出自简历，还是scorer转述的内容概括？若是转述，违反逐字规则（违反证据真实性规则）→ 建议：提供简历原文",
+   "[bonus_checked] 声称'SQL复杂查询和多表关联案例充分'是bonus项2的判断依据，但exp中找不到'多表关联'的明确表述，仅见'Leveraged National Risk Index data and 40M rows mortgage data by SQL'——这是多表关联吗？（违反加分项宁缺毋滥规则）→ 建议：补充简历中有'JOIN、UNION、子查询'等多表关联关键词的原文，否则bonus项2应移除",
+   "[vague_phrases] 列举'ensuring error rates were consistently below 3%'为模糊短语，但exp evidence中就是用这个表述的。scorer既然认定为模糊，为何没有在exp的rationale中扣分反映？（违反跨维度一致性规则）→ 建议：若认为模糊，应在exp或skill的rationale中体现，或删除vague_phrases列表中的该条",
+   "[cert] pass的说法是正确的（MQF属edu不属cert），但logic上：如果cert确实为0分和空evidence，为何不检视整个简历是否遗漏了其他认证（如CFA、SQL Server认证等）？当前判断依据可能不完整（违反全面性检查规则）→ 建议：明确说明简历确实未提任何认证资格，或建议求职者补充"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 11,
+  "measured_usage": {
+   "input": 103943,
+   "output": 10544,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 247.9
+ }
+]

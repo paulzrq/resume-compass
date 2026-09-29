@@ -1,0 +1,49 @@
+Jiecan Wang
+Long Island City, NY 11101 | [PHONE] |[EMAIL]
+
+EDUCATION
+New York University, Tandon School of Engineering | Brooklyn, NY			                           May 2024 
+Master of Science in Management of Technology GPA
+Related coursework: data engineering, data visualization 
+The University of Arkansas, Sam M. Walton College of Business | Fayetteville, Arkansas         Aug2019-May 2021
+Bachelor of Science in Business Administration, Major: Finance, Concentration: Financial Management and Investment 
+	
+Arkansas State University, Neil Griffin College of Business | Jonesboro, Arkansas                  Aug 2016 - May 2019
+Major in Finance
+
+
+
+		  								  
+INTERNSHIP EXPERIENCE
+Global Ace Space Inc | Flushing, New York 						         May 2021 – June 2022
+Consultant Assistant
+Monitor market condition, collect corresponding sales data, and maintain the database
+Perform data analytics for hundreds of pieces of data and formulated comprehensive reports to provide support in data-driven decision-making
+Assist consultants in researching and analyzing the clients’ requirements and formulate report and service plan
+Liaise between the industry leaders, key stakeholders, and the company’s managerial team, building lasting rapport and relationships with clients
+Oversee business operations and engage with the vendors and clients to reduce operational costs while maintaining optimized inventory
+Luggeasy Inc. | New York/Remote							           Jun 2020 - Aug 2020
+Sales Intern
+Acquired the relevant techniques to perform the company's core business in logistic consulting
+Familiarized with the product to have a good grasp and independently analyze its composition and give an accurate quotation
+Independently developed customers utilizing multichannel approaches, including online social media and telephone marketing
+Provided clients with mailing plans and responded to inquiries with timely answers regarding product specifications and quality
+Jinsun Lighting Inc | Zhongshan, China						            Jun 2019 - Aug 2019
+Accounting Assistant 
+Reviewed original documents of various bills on a daily basis, handled accounting operations, and subsequently entered the information into the system promptly and accurately
+Performed regular checks on the balance with the business department to ensure balance accuracy; worked cooperatively with and supported financial management team activity by preparing complete financial information
+Organized the data and reported it to the financial manager for review purposes; promptly improved the work based on the feedback
+ACADEMIC PROJECTS
+Real-Time Trailing-Stop Strategy for Currency Trading                                                            Nov 2022 – Dec 2022
+Utilize Python to analyze real-time data from 7 currency pairs over a 10-hour period and gain insights on when to invest, take no action or stop during this time frame
+Aggregated and visualized the data by using Panda, matplotlib, and PyCaret to compile a strategy report
+Stock Performance Analysis-Boeing                                                                                                                  Dec 2022   
+Analyzed historical daily stock prices of Boeing using Excel to identify trends
+Conducted regression analysis in Excel to estimate coefficients, providing insights into the stock's behavior and risk-adjusted returns
+Market Analytics and Data Visualization                                                                                                        Apr 2023
+Created Tableau dashboard for business leaders to analyze economic and demographic trends in major US cities, aiding expansion decisions
+Processed and validated economic data using Excel to ensure accurate insights for decision-making
+SKILLS
+Languages: Mandarin Chinese (Fluent), Arabic (Beginner)
+Software: ERP Fundamental, Microsoft Word, Powe Point, Excel(VLOOKUP, Pivot Tables), Tableau, SQL (SQL Server), Python (Pandas, NumPy, matplotlib BeautifulSoup )
+Tools: API  Word excel  wind Bloomberg terminal 

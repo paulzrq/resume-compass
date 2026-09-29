@@ -296,5 +296,162 @@ Collected: 2026-09-21
 - Interest in or pursuit of certifications relevant to industrial cybersecurity (e.g., Security+, GICSP)
 - Prior project experience translating compliance frameworks (e.g., NERC CIP) into concrete technical controls
 
+## JD 13: Cybersecurity Management System (CSMS) Security Engineer Intern, Rivian and Volkswagen Group Technologies (automotive/vehicle cybersecurity, ISO/SAE 21434 compliance)
+Source: ClimateTechList job posting aggregator (live listing sourced from Rivian's careers site, Palo Alto, CA, Summer 2026), https://www.climatetechlist.com/job/rivian-cybersecurity-management-system-csms-security-engineer-intern-summer-2026-9cSXJazLlXBJxS
+Collected: 2026-09-22
+
+### Responsibilities
+- Support development of the joint venture's compliant vehicle cybersecurity program under the Cybersecurity Management System (CSMS)
+- Build processes and procedures that align with the ISO/SAE 21434 automotive cybersecurity engineering standard
+- Develop Governance, Risk and Compliance (GRC) documentation for vehicle software and systems
+- Enhance and help execute the Threat Assessment and Risk Analysis (TARA) program for connected-vehicle components
+- Conduct security reviews as part of the Secure Development Lifecycle (SDLC) for automotive software
+- Collaborate with cross-functional engineering teams to define and validate security requirements
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's or Master's degree program at an accredited US university, remaining enrolled through the internship term
+- Working understanding of the ISO/SAE 21434 road-vehicle cybersecurity engineering standard
+- Available for a full-time Summer 2026 internship in Palo Alto, CA
+
+### Bonus / Preferred Qualifications
+- Pursuing a degree in Cybersecurity, Computer Science, or a related technical field
+- Familiarity with the UNECE R155 EU Vehicle Cybersecurity Regulation
+- Demonstrated ability to execute Threat Assessment and Risk Analysis (TARA) and structured security reviews
+- Prior internship or project experience in GRC, compliance, or security-audit work
+
+## JD 14: Security (Product, Systems, Cyber) Engineering Intern, Qualcomm (semiconductor/mobile chipset hardware & systems security)
+Source: Qualcomm Technologies official careers listing (careers.qualcomm.com), mirrored at https://zapply.jobs/jobs/c1d72792-b164-4f53-9d14-4531ef251cd6/ — "Security (Product, Systems, Cyber) Engineering Internship"
+Collected: 2026-09-23 (posting dated 2026-09-18)
+
+### Responsibilities
+- Collaborate with engineering teams to strengthen security across chipsets, systems, and products deployed on billions of devices worldwide
+- Work in one of three assigned tracks: Product Security Engineering, Secure Systems Engineering, or Cybersecurity Engineering
+- Gain hands-on experience identifying and mitigating real-world attack vectors against hardware and embedded/mobile systems
+- Support threat modeling, security architecture reviews, and secure-by-design efforts depending on track assignment
+- Partner cross-functionally with hardware, firmware, and software engineering teams on security requirements and mitigations
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's, Master's, or PhD program in Electrical/Computer Engineering, Computer Science, Information Security/Systems, or a related technical field
+- Available for an 11-14 week internship during the summer term (typically May-September)
+- Expected graduation not before the following fall (rolling eligibility per cohort year)
+- Basic programming proficiency in C, C++, Python, or Java
+
+### Bonus / Preferred Qualifications
+- 1+ years of academic or project experience in security-related coursework or research
+- Familiarity with the specific track's domain: OS/kernel security, embedded/hardware security, or broader cybersecurity frameworks and threat modeling
+- Pursuing an MS or PhD (preferred for some tracks, particularly research-oriented ones)
+- Prior exposure to vulnerability analysis, reverse engineering, or secure systems design on embedded/mobile hardware
+
+## JD 15: Associate Cybersecurity Engineer, Intern - Summer 2026, Visa Inc. (payments/card-network fintech security, AppSec + pentesting + IAM)
+Source: Visa Inc. official internship posting, corroborated via WayUp and Prosple job-board listings mirroring the Visa careers site (corporate.visa.com/en/jobs/REF95280X) — https://www.wayup.com/i-Financial-Services-j-Associate-Cybersecurity-Engineer-Intern-Summer-2026-Visa-72869877981212/
+Collected: 2026-09-24
+
+### Responsibilities
+- Conduct security architecture reviews of Web, API, and mobile applications, identifying design-level weaknesses and proposing risk mitigations
+- Perform hands-on ethical hacking / penetration-testing exercises against mobile and Mac assets as part of Visa's offensive security practice
+- Support Visa's Identity and Access Management (IAM) ecosystem, including reviewing access controls and authentication flows
+- Evaluate vulnerabilities across backend datastores (MySQL, MS SQL, Couchbase, Cassandra) and multiple programming-language codebases
+- Develop internal automation tooling and AI-driven agents/workflows to accelerate threat modeling and security-review processes
+- Collaborate with software development teams to triage identified vulnerabilities and drive remediation
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Computer Science, Computer Engineering, CIS/MIS, Cybersecurity, Business, or a related field, graduating between December 2026 and August 2027
+- Proficiency in at least one of Java or JavaScript, plus scripting ability in Python or Bash
+- Working understanding of security architecture concepts and secure coding best practices
+- Familiarity with the OWASP Top 10, SANS Top 25, and basic threat-modeling frameworks
+- Strong written and verbal communication skills; US citizenship or permanent residency required (no visa sponsorship)
+
+### Bonus / Preferred Qualifications
+- Hands-on experience with security tools such as Burp Suite, Nmap, and Kali Linux
+- Prior exposure to SAST, SCA, and DAST tooling in a real (non-tutorial) development pipeline
+- Knowledge of cryptographic concepts, secure network protocols, and networking fundamentals (OSI model, TCP/IP)
+- Cloud security awareness across AWS, Azure, or GCP
+- Demonstrated penetration-testing experience (labs, CTFs, or real engagements) and problem-solving/leadership orientation
+
+## JD 16: Security Automation Engineer Intern, Electronic Arts (EA) (gaming-industry security team (EA Security's SPEAR Automation group) building tooling for an internal source-code security scanning platform — no gaming company or security-tooling-engineering role exists elsewhere in this file)
+Source: Electronic Arts official careers page — https://jobs.ea.com/en_US/careers/JobDetail/Security-Automation-Engineer/210837
+Collected: 2026-09-25
+
+### Responsibilities
+- Develop front-end architecture and components (React, Angular) for an internal source-code security scanning platform used across EA studios
+- Implement UI/UX designs, improve application performance, and integrate front-end code with back-end security services/APIs
+- Write clean, maintainable, secure code and participate in code reviews with the SPEAR (Secure Product Engineering & Anti-Cheat Response) Automation team within EA Security
+
+### Basic Requirements
+- Currently pursuing a Computer Science or related degree, expected to graduate December 2026 or later; enrolled full-time and returning to school after the internship
+- Proficient in JavaScript, React/Angular, TypeScript, and HTML/CSS; familiarity with Rust and Python; US work authorization required (no visa sponsorship), full-time availability for the roughly 3-month Summer 2026 term
+
+### Bonus / Preferred Qualifications
+- Experience with Git version control and API integration
+- Background/interest in web security and secure coding practices
+
+## JD 17: Security Engineering Summer 2026 Internship, Verizon (telecom carrier network/5G security — a carrier's own network security org, a distinct vertical from the existing cloud, defense, retail, and OT postings)
+Source: Verizon Careers official posting — https://mycareer.verizon.com/jobs/r-1086113/security-engineering-summer-2026-internship/
+Collected: 2026-09-26
+
+### Responsibilities
+- Work on hands-on security engineering projects spanning access management, cloud security, data administration, identity & access management, incident response, and network security across Verizon's carrier network
+- Support projects touching emerging technology areas including 5G network technology and AR/VR/computer vision systems
+- Apply programming skills (Python, Java) and database management (SQL) to build or support internal security tooling
+- Participate in a structured 10-week program with assigned mentorship and cross-functional exposure to global security teams
+- Collaborate with engineering teams on network and security protocol work relevant to carrier-scale infrastructure
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's or Master's program in Cybersecurity, Software Engineering, Computer Engineering, Mathematics, Data Analytics, Data Science, or a related major
+- Able to work full-time, hybrid (minimum 3 days/week in office in Southlake, TX) for the full 10-week program (June-August 2026)
+- Authorized to work in the U.S. without current or future need for sponsorship
+- Willing and able to relocate/travel as needed for the program
+
+### Bonus / Preferred Qualifications
+- Coursework or demonstrated experience in scripting/coding (Python, Java)
+- Cybersecurity fundamentals and knowledge of network & security protocols (e.g., TCP/IP)
+- Prior exposure to incident response or threat management
+- Familiarity with cloud infrastructure and security configuration
+
+## JD 18: Information Security Summer Intern, UPS (United Parcel Service) (logistics/supply-chain enterprise InfoSec — new industry vertical)
+Source: UPS Information Security Summer 2026 Internship, official UPS Careers, corroborated via Monster.com mirror — https://www.monster.com/job-openings/ups-information-security-summer-2026-internship-nj-mahwah-nj--5b9a376b-a69e-4ba5-b796-2abcb14886a9
+Collected: 2026-09-27
+
+### Responsibilities
+- Support real-time threat responses across UPS's global information security operations
+- Help protect the large volume of valuable data that passes through UPS servers each day
+- Provide onsite technical support to an assigned InfoSec team (specific focus area depends on team placement)
+- Perform data analytics work to enhance and improve internal security tools
+- Uphold the company's standards for data integrity and information security
+
+### Basic Requirements
+- Currently enrolled in, or graduated within the past 24 months from, an accredited college/university program in Information Security, Computer Science, or a related discipline (Freshman–Senior standing accepted)
+- Must be a U.S. Citizen, National, or otherwise authorized to work in the U.S.
+- Able to work 40 hours/week, Monday–Friday, for the full June–August internship period
+- Proficiency in three or more of: Cloud Architecture, SQL, Python/R, Linux/Unix, Java, Security+, Azure, ServiceNow, or IAM provisioning
+- Strong verbal and written communication, attention to detail, collaboration, problem-solving, and multi-tasking/project-management skills
+
+### Bonus / Preferred Qualifications
+- Security+ certification knowledge as part of the listed technical skill set
+- Cloud platform experience (Azure) and IAM/identity-provisioning tooling (e.g., ServiceNow)
+- Bilingual proficiency in Spanish
+
+## JD 19: Intern - Cyber Security, St. Luke's Health System (hospital/healthcare provider, not payer — distinct from the existing UnitedHealth Group payer entry)
+Source: St. Luke's Health System Careers Marketplace posting — https://careers.slhs.org/careersmarketplace/JobDetail/Intern-Cyber-Security/155453
+Collected: 2026-09-28
+
+### Responsibilities
+- Collaborate with Cyber Security Protection engineers and stakeholders to enhance security tools, processes, and overall security posture
+- Support technical security controls and control-hygiene improvement work
+- Assist with end-user support activities, including refinement of standard operating procedures
+- Participate in cross-team initiatives for broad cybersecurity exposure across the health system
+- Build foundational knowledge through security awareness and threat research activities
+- Gain hands-on exposure to endpoint protection, access management, data protection, and vulnerability management workstreams
+
+### Basic Requirements
+- Must be currently enrolled in an undergraduate or graduate degree program with a focus on Cybersecurity, Computer Science with an emphasis in Cybersecurity, or a related technical field
+- Minimum GPA of 3.0 or higher
+- On-site role, Boise, ID (Cyber Security System Office)
+
+### Bonus / Preferred Qualifications
+- Software development or scripting experience
+- Critical thinking, problem-solving, and an ethical mindset
+- Self-driven with strong communication, organization, teamwork, flexibility, and creativity
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is programming fluency (Python shows up in every single listing, often alongside Java, C/C++, or scripting more generally) paired with foundational security literacy — networking protocols, OS internals (Windows/Linux), and either OWASP-style vulnerability knowledge or SOC/incident-response concepts depending on the track. The hard filters that gate candidates before any technical evaluation are non-technical: enrollment status and major (CS/cybersecurity/IT or "related technical field" in every posting), work authorization (Wells Fargo and Motorola both explicitly reject candidates needing visa sponsorship), and in two cases physical/security constraints (Leidos requires U.S. citizenship plus Secret-clearance eligibility; Motorola requires living within an hour of a specific city for a hybrid seat). GPA and class standing appear as filters only in the consulting-track posting (PwC's 3.3 GPA preference and third/fourth-year standing requirement), suggesting these matter more for prestige/Big 4 pipelines than for engineering-heavy or SOC roles, where the emphasis shifts to demonstrated tooling exposure. Certifications (Security+, CEH, OSCP) and CTF/security-research participation consistently sit in the "bonus" tier rather than being required anywhere, as do cloud platforms (AWS/Azure/GCP), containerization (Docker/Kubernetes), and DevSecOps/IaC security — these read as differentiators that separate a strong applicant from an average one rather than baseline expectations. For the resume-scoring rubric, this implies core weight should go to: (1) major/degree-in-progress relevance, (2) at least one general-purpose programming language, and (3) any concrete evidence of networking or OS fundamentals or hands-on security tooling (Wireshark, Burp Suite, ELK, SIEM/EDR exposure) — while certifications, cloud/container security, and CTF participation should be scored as meaningful upward adjustments rather than pass/fail criteria. The rubric should also be flexible enough to recognize that "Cybersecurity Engineer Intern" postings vary substantially by employer type — defense/government roles will weight clearance-eligible citizenship and low-level tooling (Vagrant, Jenkins) more heavily, while consulting-track roles will weight GPA, class standing, and framework/GRC knowledge instead of hands-on engineering skill.

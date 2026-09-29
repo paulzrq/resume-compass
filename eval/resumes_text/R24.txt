@@ -1,0 +1,47 @@
+Manyuan Luo
+[EMAIL] | [PHONE] | 333 E 45th St, NY, 10017
+
+EDUCATION
+Columbia University	New York, NY
+Master of Arts in Quantitative Methods in the Social Sciences: Data Science Concentration  	Aug. 2022 – Dec. 2023
+GPA: 3.91 / 4.00
+Coursework: Data Analysis, Machine Learning, Modern Data Structure, Advanced Analytics Technique  
+
+Cornell University 	Ithaca, NY
+Master of Public Administration     	Aug. 2020 – May 2022
+
+Nanjing University 	Nanjing, CN
+Bachelor of Arts in German Studies (People’s Scholarship – 10%)    	Sept. 2016 – Jun. 2020
+Study Abroad: Gerorg-August Göttingen University  (Junior Year) 
+
+PROFESSIONAL EXPERIENCE 
+IMP Digital 	Shanghai, CN
+Business Analyst Intern 	Feb. 2021 – Aug. 2021
+Conducted data analysis and regression models and created a marketing ROI model to assist the marketing department in assessing the returns of the luxury goods industry shift to online platforms for budget planning for the next year
+Summarized consumption patterns, both offline and online, using customer segmentation, product analysis, and competitors' campaigns, to report the consumption trends of luxury goods, including watches, jewelry, clothing, bags, and accessories in China from 2019 to 2021 following the COVID-19 pandemic, for both Cartier China and YSL China 
+Analyzed 7 metrics (e.g. viewing time, number of clicks, etc.) weekly and monthly to interpret target customer profile as middle-class millennials and Gen X females and their preferences on brand ambassadors; reported findings and implemented related marketing plan to achieve an increase of 20% traffic flow on official WeChat applet 
+
+Ernst & Young 	Chengdu, CN
+Audit Intern	Nov. 2020 – Feb. 2021
+Engaged in busy-season audit for a real estate and machinery company including engagement planning, analytical procedures on financial statements to identify accounts out of threshold, and documentation of root causes 
+Performed substantive testing in cash and accounts payable account, noting zero misstatements; conducted interview with the client on inventory procedures for internal control testing and tested inventory on-site for operating effectiveness 
+
+Ruder Finn	Shanghai, CN
+Business Analyst Intern   	Feb. 2019 – May 2019
+Conducted market research for a luxury jewelry brand on its business value, competitors, and target customers to analyze a proposal for a new brand ambassador, specifically validating the feasibility of this proposal with data on market, competitor, and customer 
+Organized Valentine’s campaign for a luxury jewelry brand by analyzing competitors’ activity and participants, promoting jewelry exhibition, and collaborating with other departments to advance the project process
+  
+ACADEMIC PROJECT
+Survey Analysis with Social Media Insights 	New York, NY
+Proposed strategies used for integrating data from various social media platforms, including Twitter, Reddit, and survey data, to provide a comprehensive and consistent picture of brand health for Quantilope clients
+Utilized M3 Inference, a pre-trained deep learning model to predict Twitter users’ background information, such as gender and age group, and collected location data to lead exploratory data analysis
+Performed sentiment analysis using the Roberta model and performed correlation analysis using Kendall’s Tau metric to understand the correspondence between datasets; utilized calculated brand health KPIs, including sentiment score, the share of voices, activity per Tweet, etc., to prepare for Multilevel Regression and Poststratification (MRP) regression
+Applied MRP using survey data as the source of truth, trained model on Twitter data and post-stratified using survey data; visualized brands’ MRPs in the US map through heatmaps across states to provide a direct description of results and conclude on brands analysis
+Refine Strategies on Association of Corporate Treasures (ACT) 	Ithaca, NY
+Conducted a 16-page research paper on refining ACT  training strategy and expanding market globally among young professionals
+Performed intensive literature review on responsibility, challenges, and innovation in corporate treasury and identified opportunities as new technology and ESG investment; built SWOT analysis on ACT, CFA, and Green Finance Institute regarding syllabus and operations
+Distributed, collected, and analyzed 150 questionnaires on syllabus and interest in corporate treasury; recommended adding community-based learnings and innovative topics based on regional preferences and expanding market in European and Asian market
+
+ADDITIONAL INFORMATION
+Skills: Proficient in Python, SQL, Microsoft Excel (Function, Pivot Table), Tableau, Looker, PowerBI, C-code (MySQL), Data Visualization, experimentation, A/B testing, data modeling, Stakeholder Management, Agile Project Management, Google Analytics
+Language: Native in Chinese, Fluent in English, and German 

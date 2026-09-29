@@ -1,0 +1,39 @@
+Xilidan (Sara) Feng
+[PHONE] | [EMAIL] | linkedin.com/in/xilidan-feng
+Education                                                                           
+Columbia University 	New York, NY
+Master of Science in Enterprise Risk Management	        12/2024
+The University of California, Davis                   	 Davis, CA
+Bachelor of Science in Managerial Economics; Minor in Psychology        	6/2023                                           
+GPA: 3.7; Dean’s List in Fall 2021 and Winter 2021
+Related Courses: Econometrics for Business Decisions, Applied Statistics, Econometrics, Principles of Finance, Managerial marketing, Intermediate Microeconomics, Intermediate Macroeconomics etc. 
+Quantitative Skills 
+Fluent in R-studio, SPSS, MATLAB, Tableau, Python and Microsoft Suite (Word, PowerPoint, Excel)          
+Relevant Experience                                                                                           
+HP Tech Ventures                                                                              	
+Corporate VC & Business Analytics Remote Externship, Remote                            	 08/2022-10/2022                       
+Accomplished market mapping demonstrating market research on industry data, macro trends, and market segments by sourcing startups, reading articles and industry reports, across the hybrid-working software industry.
+Completed 5 startup profiles with HPTV criteria including company info, team, product, revenue, funding stage, etc. sourced from Crunchbase, Apollo, websites, and LinkedIn for preliminary screening.
+Managed and cleaned data with Excel, analyzed data performing regression, visualized data in charts/Tableau presenting the correlation find crucial factors predict future growth to select the most promising startup.
+Summarized, drafted into deck with market size, talent assessment, product-market fit, key metrics/financials, capital structure, risks, etc., and delivered presentation to pitch the attractive company.
+China International Capital Corporation Limited                         	
+Quantitative Analyst Intern, Remote                                           	   08/2022-09/2022        
+Studied data of domestic new energy automobile industry using Pestel model and completed macro analysis report by sorting target market groups, historical evolution, key management teams, and ownership structure information.
+Identified multiple potential growth and investment opportunities through evaluation and visualization of data from various business and industry sources. Created informative PPTs and contributed business goals.
+Praised for strong attention to detail and creative ideas, contributed to accuracy and innovation of analytical work.
+Southern Asset Management										
+Investment Monitoring intern, Shenzhen, China	08/2021-09/2021
+Assisted in organizing external data related to investment operation and industry development, utilizing python for
+Data analysis and visualization to provide actionable insight for decision making processes.
+Compiled and analyzed real-world industry risk event cases, leveraging Python for data analysis identify trends and patterns, ultimately contributing to more effective risk assessment and mitigation strategies.
+Handled ad-hoc compliance projects as assigned by department, demonstrating adaptability and a proactive approach to addressing emerging compliance challenges.	
+Shenzhen Renjun Capital Management Co. LTD                                          	
+Assistant, Equity Project Department, Shenzhen, China	                                          06/2021-07/2021                       
+Executed field surveys and visited enterprises, searched and collected relevant materials, and wrote reports based on findings; demonstrated identifying key market trends and guiding strategic decisions.
+Facilitated collecting, collating, comparing, and analyzing industry data, information, hot spots, etc., and in preparing market studies and impact analyses based on market environment changes.
+Projects & Activities                                                                                         
+Chinese undergraduate student union                                              	  12/2019-05/2020                         
+Manage event budget and secure funding through grant application and sponsorships, ensuring events are financially viable and cost-effective. 
+Promote events to students through various channels, including social media, posters and email campaigned.
+Global ESG Leadership Association Columbia								               09/2023
+Contributed to ESG initiatives, including data analysis, policy development, and stakeholder communication, to promote sustainability and social responsibility within the organization

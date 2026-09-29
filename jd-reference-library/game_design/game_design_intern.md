@@ -288,5 +288,166 @@ Collected: 2026-09-21
 - Environment art skills (modeling, texturing, lighting)
 - Demonstrated passion for gaming and for Obsidian's titles specifically
 
+## JD 13: Game Design Intern, Utopic (indie mobile studio — gacha/cozy casual games)
+Source: Utopic Game Design Intern posting, syndicated via Cornell University Career Network, https://career.cornell.edu/jobs/utopic-game-design-intern/
+Collected: 2026-09-22
+
+### Responsibilities
+- Analyze games in the gacha, cozy, and casual mobile genres, studying mechanics, feedback loops, progression systems, pacing, and monetization
+- Track gaming industry trends and viral/breakout titles to inform team strategy and design direction
+- Collaborate with designers and artists to develop gameplay mechanics and new content ideas
+- Write game design documentation, including feature specifications and user flow diagrams
+- Support playtesting by designing test scenarios, observing player behavior, and recommending design adjustments based on findings
+
+### Basic Requirements
+- Currently enrolled in or recently graduated from a Game Design, Game Development, Psychology, English, Marketing, or comparable program
+- Solid understanding of core game design principles and theory
+- Demonstrated ability to identify what game elements create enjoyment vs. frustration for players
+- Strong portfolio showing design work, game analysis, or personal projects
+- Self-directed working style with strong written and verbal communication skills
+
+### Bonus / Preferred Qualifications
+- Genuine interest in anime and kawaii culture, gacha games, and collectible-toy aesthetics
+- Familiarity with cozy-genre design conventions (comfort-driven progression, low-stakes gameplay, collection loops)
+
+## JD 14: Game Design Intern, Schell Games (VR/AR & educational/serious games)
+Source: Schell Games job posting via GameJobs.co (mirrored studio listing), https://gamejobs.co/Game-Design-Intern-at-Schell-Games-5434
+Collected: 2026-09-23
+
+### Responsibilities
+- Design, prototype, implement, and iterate on gameplay mechanics across VR, AR, location-based, and social game projects
+- Collaborate with cross-disciplinary teams on UI flow and overall player experience (UX) design
+- Define content needs and work with engineering/art teams to get content implemented
+- Refine and balance gameplay elements using playtest feedback and data
+- Create and maintain design documentation and specifications
+- Run and analyze playtests to optimize player experience
+- Use rapid prototyping tools to develop and evaluate new gameplay concepts
+
+### Basic Requirements
+- Pittsburgh-area residence, with a hybrid in-studio schedule (Tuesday/Wednesday/Thursday on-site)
+- Professional-level experience with Unreal Engine or Unity
+- Cross-disciplinary team project experience or a degree in an interactive-media-related field
+- A portfolio of released games or playable prototypes available for evaluation
+- Strong interpersonal, teamwork, and collaboration skills
+
+### Bonus / Preferred Qualifications
+- Demonstrated excellence in gameplay design and hands-on implementation
+- Strong rapid-prototyping skills
+- Strong written, oral, and presentation communication skills
+- Good time-management ability across multiple concurrent responsibilities
+- Experience in VR, AR, educational games, or location-based entertainment specifically
+- Multidisciplinary background or prior work experience outside the games industry
+
+## JD 15: Associate Game Designer, Technical, Naughty Dog (PlayStation Studios, AAA single-player narrative action - The Last of Us / Uncharted lineage)
+Source: Official Sony Interactive Entertainment careers portal listing — https://careers.playstation.com/associate-game-designer-technical/job/6105185004
+Collected: 2026-09-24
+
+### Responsibilities
+- Prototype, implement, and own gameplay scenarios, narrative sequences, interactive objects, and AI behaviors using Naughty Dog's in-house tools and scripting language
+- Collaborate with the Design team to conceptualize, prototype, implement, tune, and balance gameplay mechanics
+- Communicate with animation, programming, and art departments to effectively produce the assets and code support needed for design features
+- Take design direction from leads while brainstorming, iterating, and proposing fun, creative solutions to gameplay problems
+
+### Basic Requirements
+- Significant programming ability (Computer Science undergraduate degree preferred)
+- Knowledge of 3D math
+- Experience with C++, C#, Lua, or another scripting language
+- Broad understanding of the gaming landscape
+- Self-starter with excellent communication and teamwork skills
+- Willingness to undergo a technical interview as part of the process
+
+### Bonus / Preferred Qualifications
+- Experience developing third-person action games
+- Experience with 3D level editors
+- Understanding of narrative principles and how to convey emotion through gameplay
+- Experience with behavior trees, melee/combat systems, character animation, and enemy or boss design
+
+## JD 16: Game Designer Intern, Tencent (Level Infinite division) (Chinese-headquartered global games publisher/developer — no Chinese or Korean company represented elsewhere in this file; publishing-side game design/analysis across third-party PC, console and mobile titles rather than first-party single-franchise design)
+Source: Built In job listing aggregated from the original Tencent/Level Infinite posting — https://builtin.com/job/game-designer-intern/7349804
+Collected: 2026-09-25
+
+### Responsibilities
+- Support partner game development studios through project follow-ups and design discussions
+- Analyze games across PC, console, and mobile platforms, conducting competitive research and game teardowns
+- Assist with maintaining and writing game design documentation
+- Assist with data collection and analysis to inform design decisions
+
+### Basic Requirements
+- Extensive, broad gaming knowledge across PC, console, and mobile platforms with ability to clearly articulate gameplay insights
+- Strong passion for game design and games publishing
+- Foundational data analysis capability
+
+### Bonus / Preferred Qualifications
+- Prior experience with game mods, custom level creation, or writing design documents
+- Familiarity with F2P/live-service game design and publishing considerations across genres
+
+## JD 17: Intern, D&D Game Design, Wizards of the Coast (Hasbro) (tabletop RPG design track — Dungeons & Dragons; the first tabletop/board-game entry in this field, distinct from the all-video-game roster already covered)
+Source: Hasbro Careers — https://jobs.hasbro.com/job/Intern,-D&D-Game-Design/1367691200/ ; LinkedIn — https://www.linkedin.com/jobs/view/intern-d-d-game-design-at-wizards-of-the-coast-4377559620
+Collected: 2026-09-26
+
+### Responsibilities
+- Brainstorm themes, stories, encounters, and discrete game design elements for D&D products
+- Craft tabletop game content such as monsters, spells, and magic items
+- Collaborate with senior designers on playtesting and iterative refinement of new mechanics
+- Produce design documentation to support development and editorial handoff
+- Participate in cross-functional creative sessions with art, editorial, and narrative teams
+
+### Basic Requirements
+- Demonstrated creative writing and storytelling ability
+- Strong technical writing skills with solid grammar and clarity
+- Excellent interpersonal and presentation capabilities
+- Ability to work both independently and collaboratively in a fast-paced team
+- Strong time management and attention to detail
+
+### Bonus / Preferred Qualifications
+- Familiarity with Dungeons & Dragons rules and lore
+- Prior experience creating TRPG content, rules systems, or worldbuilding materials
+- Systems-thinking approach to game design
+- Deep engagement with player emotional experience and narrative design
+
+## JD 18: Intern in Level Design Team, CD PROJEKT RED (Action-RPG Level Design, Warsaw HQ — RED Summer Internship)
+Source: Official CD PROJEKT RED job posting for the RED Summer Internship program (level design track) — https://www.cdprojektred.com/en/jobs/744000047727140-intern-in-level-design-team
+Collected: 2026-09-27
+
+### Responsibilities
+- Assist with designing and iterating in-game levels, including level geometry and enemy encounters
+- Collaborate with developers across disciplines to maintain level quality standards
+- Create new in-game locations and script events using the Unreal Engine editor
+
+### Basic Requirements
+- Minimum 18 years old; recent high school graduate or current university student
+- Able to reside in Poland for the full internship period (July–September, 40 hrs/week, on-site in Warsaw)
+- Fluent/proficient in English communication
+- Basic familiarity with game editors and/or 3D software packages
+- Strong communication, creativity, and critical-thinking abilities
+- Knowledge of current Action/RPG video games
+
+### Bonus / Preferred Qualifications
+- Hands-on experience with the Unreal Engine editor
+- Deep knowledge of the Witcher franchise / CD PROJEKT RED's game design conventions
+
+## JD 19: Game Design Intern, TapBlaze (indie mobile studio — casual/economy design, "Good Pizza, Great Pizza")
+Source: TapBlaze job posting on Ashby job board — https://jobs.ashbyhq.com/tapblaze/0e2eb53a-52b2-4d19-bc2f-b35413aeaa2d
+Collected: 2026-09-28
+
+### Responsibilities
+- Prototype and pitch an original idea for a new feature, event, or content update
+- Develop game mechanics and content for TapBlaze titles, including "Good Pizza, Great Pizza"
+- Design, document, and balance in-game systems including recipes, progression, customer behaviors, and economy tuning
+- Conduct playtesting and give feedback on gameplay balance
+- Analyze player data to identify improvement opportunities
+
+### Basic Requirements
+- Currently enrolled junior/senior undergraduate, graduate student, or recent graduate (within 6 months)
+- Available full-time (40 hrs/week) onsite in Los Angeles for a 10-week internship
+- Strong understanding of game design principles and economy design
+- Analytical skills with spreadsheet proficiency
+
+### Bonus / Preferred Qualifications
+- Experience with game design/prototyping tools (e.g. Unity)
+- Portfolio or game jam projects demonstrating design thinking
+- Mobile/casual game design familiarity
+- Background in data analysis or player behavior research
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard baseline is engine familiarity with Unreal or Unity (explicitly named by Riot, Ubisoft, and Activision Blizzard, implied by Roblox's own engine), plus a portfolio or prior design artifact — Larian and Ubisoft require a portfolio outright, Activision Blizzard requires a portfolio link, and Riot treats prototypes/mods/school-projects as a strong differentiator even though it is not absolutely mandatory. Scripting or programming ability (C++, C#, Python, or Blueprints) shows up as a hard requirement specifically where the role leans "technical game design" (Riot) or systems/multiplayer design (Activision Blizzard), but is notably absent or de-emphasized for the more narrative/level-design-flavored roles (Larian, Roblox), suggesting the rubric should weight coding skill conditionally on the specific design sub-track rather than as a universal must-have. Hard filters that resumes must clear before soft skills even matter are graduation timing/class standing (Riot's 2025/2026 grad year, Activision Blizzard's Dec 2026-Jul 2027 window, GPA minimums where stated), work authorization and location/relocation (explicit H-1B exclusion at Roblox, US residency at Activision Blizzard, mandatory on-site commitment at Larian and Ubisoft), and full-time availability for a fixed internship term (12 weeks at Riot/Roblox/Activision Blizzard, 6 months at Ubisoft) — these are pass/fail gates independent of design talent and should be scored as disqualifying rather than merely deducting points. Genre- or game-specific domain knowledge is treated as a strong bonus or even near-requirement in some cases (Riot wants deep, ranked-level familiarity with Teamfight Tactics itself; Larian wants CRPG enthusiasm matching its RPG catalog), which implies the rubric should reward resumes that show targeted, studio-relevant game literacy rather than generic "I love games" statements. Soft skills — communication, documentation ability, feedback receptiveness, collaboration, and data-driven iteration — appear in every single posting as baseline requirements, more consistently than any single technical skill, so the scoring rubric should not under-weight writing/communication evidence (e.g., design docs, blog posts, presentations) relative to technical engine bullet points. Finally, because most of these are explicitly framed for students/new grads with modest technical bars (Larian and Roblox list almost no hard technical skills at all), a resume-scoring rubric for this field should avoid over-penalizing candidates who lack deep programming backgrounds and instead prioritize portfolio evidence, shipped/prototyped work, and communicated design thinking as the primary differentiators, reserving heavy weight for programming/engine skills only when the target posting is explicitly a "technical design" or systems/multiplayer track.

@@ -296,5 +296,175 @@ Collected: 2026-09-21
 - Demonstrated quantitative modeling or data-analysis coursework/project experience relevant to insurance risk
 - Anticipated graduation in December 2026 or May 2027, allowing for a possible full-time offer
 
+## JD 13: Summer 2026 Intern - P&C Actuarial - Analyst, State Farm (property & casualty insurer, corporate rotational)
+Source: State Farm Careers job posting (job ID 41675), mirrored/cross-listed on LinkedIn: https://www.linkedin.com/jobs/view/summer-2026-intern-p-c-actuarial-analyst-at-state-farm-4274348664 (original: https://jobs.statefarm.com/main/jobs/41675?lang=en-us)
+Collected: 2026-09-22
+
+### Responsibilities
+- Complete innovative and meaningful actuarial project work in a collaborative team environment
+- Assess risk and financial needs to provide analysis and solutions for property & casualty insurance offerings
+- Develop innovative methods and applications to enhance insurance product pricing
+- Execute data mining and predictive modeling using regression, forecasting, and machine learning techniques
+- Research emerging industry trends and hot topics affecting the P&C insurance business
+- Participate in training, mentoring, and leadership development programs alongside actuarial staff
+
+### Basic Requirements
+- Pursuing a degree in Actuarial Science, Mathematics, Statistics, Data Science, Computer Science, Information Management, or a related analytical field
+- Successful completion of at least one Society of Actuaries (SOA) or Casualty Actuarial Society (CAS) actuarial exam
+- Minimum GPA of 3.25 (unofficial transcripts required)
+- Proficiency with data analysis tools including Excel, SQL, R, and/or Python
+- Demonstrated communication, interpersonal, organizational, problem-solving, and critical-thinking abilities
+
+### Bonus / Preferred Qualifications
+- GPA of 3.5 or higher
+- Stated intention to pursue the ACAS/FCAS actuarial designation (multiple exams passed / clear progression toward fellowship viewed favorably)
+- Prior exposure to predictive modeling or pricing analytics projects using SQL/R/Python
+- Involvement in actuarial clubs, case competitions, or student actuarial organizations with demonstrable results
+
+## JD 14: Actuarial Intern, Oscar Health (health InsurTech — pricing/valuation/trend forecasting)
+Source: Oscar Health careers site job posting, cross-verified via BuiltIn NYC and Acturhire listings — https://www.hioscar.com/careers/7384564 (also mirrored at https://www.builtinnyc.com/job/actuary-intern/7654494 and https://www.linkedin.com/jobs/view/actuarial-intern-at-oscar-health-4339760262)
+Collected: 2026-09-23
+
+### Responsibilities
+- Support one of three actuarial teams — Pricing, Experience/Trends/Forecasting (ETF), or Valuation — on a predetermined internship project
+- Build automation tools, projection/pricing models, and dashboards used by the actuarial function
+- Conduct experience studies analyzing health plan claims and utilization trends
+- Gain hands-on exposure to core actuarial concepts within a health insurance business context
+- Participate in team meetings and provide ad hoc analysis to actuarial staff and stakeholders
+- Support work that ensures regulatory compliance of actuarial deliverables
+
+### Basic Requirements
+- Currently has completed 3+ years of college coursework toward a degree in Actuarial Science, Mathematics, Statistics, or a related field (open to current students or recent graduates)
+- Proficiency in Microsoft Excel
+- Able to work hybrid from the New York, NY office (in-office required on Thursdays)
+- Strong problem-solving, communication, and collaboration skills
+
+### Bonus / Preferred Qualifications
+- Cumulative GPA of 3.0 or higher (for active college students)
+- Credit for one or more actuarial exams (current students) or two or more actuarial exams passed (college graduates)
+- Proficiency in SQL or Python in addition to Excel
+- Interest in health insurance actuarial work specifically (pricing, trend, or valuation)
+- Comfort delivering project-based modeling or experience-study work independently
+
+## JD 15: Actuarial Intern, QBE Insurance Group (Global Specialty P&C / Reinsurance — Pricing, Reserving & Modeling)
+Source: Official QBE North America careers posting (Workday), cross-verified against WayUp and BuiltIn job-board mirrors — https://qbe.wd3.myworkdayjobs.com/en-US/QBE-Careers/job/Actuarial-Intern--Summer-2026-_344659
+Collected: 2026-09-24
+
+### Responsibilities
+- Assist the actuarial staff in extracting, compiling, reviewing, and analyzing data
+- Support actuarial functions including pricing, reserving, modeling, reinsurance, and business planning
+- Perform quality checks within processes and verify data reconciliations to minimize errors and inaccuracies
+- Network and build relationships across the actuarial department and cross-functional teams
+- Present project results and findings to both technical and non-technical audiences
+
+### Basic Requirements
+- High school diploma or GED completion
+- Currently enrolled full-time in a bachelor's degree program in Actuarial Science (or closely related quantitative field)
+- Must be returning to college/university upon completion of the internship
+- Available to work June 1 - August 7, 2026 (hybrid schedule, 4 days/week in the Sun Prairie, WI office)
+- Coursework or relevant experience demonstrating strong academic achievement
+
+### Bonus / Preferred Qualifications
+- Completion of at least one actuarial exam (SOA/CAS)
+- Programming proficiency in Python, R, SQL, SAS, or Julia
+- Strong mathematical foundation in calculus, probability, and linear algebra
+- Understanding of property & casualty insurance principles and professional actuarial standards/code of conduct
+- Strong analytical thinking, problem-solving ability, and effective, collaborative communication skills
+
+## JD 16: Actuarial Intern, Summer 2026, MassMutual (Massachusetts Mutual Life Insurance Company) (a different U.S. life insurer than Northwestern Mutual/Prudential/RGA already in this file)
+Source: MassMutual official careers page, cross-verified via a Built In job listing — https://careers.massmutual.com/actuarial-internship
+Collected: 2026-09-25
+
+### Responsibilities
+- Work on significant, real-business-impact assignments within the actuarial department, applying classroom knowledge to real business challenges
+- Gain hands-on experience in pricing and valuation through simulations and analytical projects
+- Develop technical/analytical skills, with training provided in Excel and VBA
+- Contribute to broader business initiatives while building professional networks with actuaries at various career levels and senior executives
+
+### Basic Requirements
+- Currently pursuing a quantitative degree (Actuarial Science, Math, Finance, Economics, or related) with a commitment to pursuing an SOA actuarial designation
+- Strong analytical abilities demonstrated through coursework or professional experience, plus strong communication and leadership skills; minimum cumulative GPA of 3.0
+
+### Bonus / Preferred Qualifications
+- One or more actuarial exams (SOA) already completed, with GPA 3.2+ preferred
+- Prior actuarial internship experience
+- Programming/technical proficiency in Excel/VBA, Python, R, or SQL
+- Demonstrated leadership through school, work, or volunteer activities, and ability to manage multiple projects independently
+
+## JD 17: Actuarial Internship (Undergrad) – Summer 2026, The Cigna Group (Cigna Healthcare) (major national health insurer — commercial health plan pricing/reserving track, distinct from Elevance/Milliman/Oscar already in the library)
+Source: Cigna Workday posting (Job ID 25006607) — https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2026_25006607
+Collected: 2026-09-26
+
+### Responsibilities
+- Own and present a high-impact business-aligned project over the 11-week internship
+- Analyze the financial impact of market trends on health plan pricing
+- Conduct effectiveness evaluations of medical policies
+- Build predictive models to estimate claim variations and improve reserve accuracy
+- Create pricing-optimization tools used by the actuarial team
+- Participate in training sessions, case studies, and networking events with actuarial leadership
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Actuarial Science, Mathematics, Statistics, Finance, Economics, Data Analytics, or a related field
+- Minimum 3.2 cumulative GPA
+- Strong technical and analytical/problem-solving skills; proficient in Excel
+- Strong written and verbal communication skills
+- U.S. work authorization (no visa sponsorship available for this role)
+
+### Bonus / Preferred Qualifications
+- Coding experience in Python, R, or SQL
+- Progress toward SOA/CAS actuarial exams (compensation scales with exam progress)
+- Leadership experience and demonstrated initiative
+- Working understanding of the health insurance / health plan business
+
+## JD 18: Actuarial Internship (Pricing & Predictive Analytics / Corporate Actuarial), The Cincinnati Insurance Company (P&C insurer — personal & commercial lines)
+Source: Official Cincinnati Insurance Company (Cincinnati Financial Corp.) internship posting, mirrored on Workforce Innovation Center job board — https://careers.workforceinnovationcenter.com/companies/cincinnati-insurance-company/jobs/52749269-student-opportunities-actuarial-internship-summer-2026-hybrid
+Collected: 2026-09-27
+
+### Responsibilities
+- Rotate/work within either the Pricing & Predictive Analytics or Corporate Actuarial department at Cincinnati Insurance's Fairfield, OH headquarters
+- Support pricing analysis and predictive modeling work for property & casualty (personal and/or commercial lines) products
+- Assist with actuarial data projects using tools such as Excel, R, and SQL for database maintenance, query writing, and data cleansing/manipulation
+- Contribute to corporate actuarial functions (e.g., reserving/analysis support) depending on department placement
+- Work up to 40 hours/week during the summer internship term in a hybrid format
+
+### Basic Requirements
+- Enrolled full-time undergraduate student at an accredited institution
+- Majoring in Actuarial Science, Data Science, Math, Statistics, Physics, Chemistry, Finance, or a related discipline
+- Cumulative GPA of 3.0 or higher preferred
+- Proficient in Microsoft Office tools, specifically Excel
+- Able to work in the United States for an unlimited amount of time without sponsorship
+- Able to work up to 40 hours weekly
+
+### Bonus / Preferred Qualifications
+- Passed at least one actuarial exam (preferred, not required)
+- Experience with R, SQL, SAS, or related data/statistical software
+- Interest in Property and Casualty Insurance
+
+## JD 19: Actuarial Summer Intern - College Program 2026, Guy Carpenter (a Marsh McLennan business — reinsurance broker/advisory)
+Source: Built In job listing (mirrors official Marsh McLennan careers posting, req R_321386) — https://builtin.com/job/actuarial-summer-intern-college-program-2026/6978231
+Collected: 2026-09-28
+
+### Responsibilities
+- Organize and analyze client data, verifying reasonableness and performing calculations using actuarial methodologies
+- Share insights with senior colleagues and help develop risk narratives for clients
+- Support reinsurance transactions by assessing risk exposures and predicting client outcomes
+- Assist with proposal presentations for clients
+- Research industry trends affecting reinsurance programs
+- Use MetaRisk software to help develop customized reinsurance solutions
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree or equivalent
+- Open to all majors; STEM focus preferred
+- Proficiency with Microsoft Office Suite (PowerPoint, Excel, Word)
+- Strong problem-solving and financial aptitude
+- Excellent communication and presentation abilities
+
+### Bonus / Preferred Qualifications
+- Successfully passed at least one actuarial exam (SOA/CAS)
+- Demonstrated progress toward Casualty Actuarial Society (CAS) exams
+- Familiarity with a programming language or data visualization tool
+- Prior technical role experience in reinsurance or catastrophe modeling
+- Insurance/reinsurance industry background and understanding of reinsurance products
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic major (actuarial science, math, statistics, economics, finance, or another explicitly "quantitative" field), current enrollment/class standing (three postings specify rising junior/senior or an anticipated 2027-2028 graduation window), and unrestricted US work authorization without visa sponsorship (stated explicitly by WTW, Milliman, and CSAA) — a resume missing any of these should be scored as failing a threshold condition rather than merely losing points. GPA appears as a soft-to-hard cutoff in three of five postings (3.0 at Liberty Mutual and WTW, a notably higher 3.5 at Milliman), while Elevance Health and CSAA omit a stated GPA, so the rubric should treat GPA as a weighted signal capped by whatever the specific posting states rather than a universal fixed threshold. Passing at least one actuarial exam (SOA/CAS) is the single most consistent differentiator — it is a hard requirement at Milliman but only a "preferred, not required" bonus at Liberty Mutual, WTW, and CSAA — meaning it should be weighted heavily as a bonus signal and only treated as a gate when the target posting explicitly demands it. Microsoft Excel proficiency is the universal baseline technical skill mentioned in every posting, while more advanced tooling (R, Python, SAS, SQL, VBA) is consistently framed as a preferred/bonus differentiator rather than a baseline expectation, so a rubric should award only modest baseline credit for "Excel" and reserve larger bonus weight for programming/statistical-tool experience and any AI-tool familiarity (as Elevance Health now explicitly calls out). Soft skills — analytical/problem-solving ability, written and verbal communication, leadership through campus organizations or academic projects, and prior analyst-type internship experience — appear in nearly every posting as qualitative preferred traits, suggesting the scorer should give these meaningful but secondary weight (evidenced through leadership roles, clubs like Gamma Iota Sigma, or prior internships) rather than the primary basis for scoring. Overall, the rubric for this role should be structured as: hard-gate on major/enrollment/work authorization, weighted-threshold on GPA, large bonus weight on exams passed and quantitative programming tools, moderate weight on Excel/Office proficiency as a floor skill, and secondary weight on demonstrated leadership/communication/prior internship experience.

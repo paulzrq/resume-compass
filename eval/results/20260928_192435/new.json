@@ -1,0 +1,1039 @@
+[
+ {
+  "resume_id": "R01",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 71,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale中'顶尖商学院'纯属臆测，evidence仅有'Master of Quantitative Finance'字样，未提及学校排名或声誉信息（违反禁止臆测规则）→ 删除'顶尖商学院'表述，仅保留可从证据直接推出的内容",
+   "[proj] gaps中写'仅1个正式项目条目'，但proj维度evidence列出2条（DCF估值与Black-Scholes/Monte Carlo估值），若为同一项目应在gaps中说明是'1个项目含2种方法'，若为2个独立项目则gaps描述错误（跨维度不一致）→ 核实原简历项目条目数量，修正gaps表述与proj证据保持一致",
+   "[edu] rationale提及'选修大数据分析与机器学习课程'与evidence中课程列表用词有出入（如'Financial Data Analytics'被概括为'大数据分析'），存在轻微转述风险→ 建议rationale直接引用课程原文关键词而非概括表达"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 14,
+  "measured_usage": {
+   "input": 221940,
+   "output": 19791,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 407.8
+ },
+ {
+  "resume_id": "R02",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 4,
+   "skill": 3,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 64,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[proj] rationale中提到'涉及...随机森林'，但proj维度的evidence仅包含bootstrap分析、因果关系模型、线性回归三条引用，未见任何随机森林相关的原文证据，疑似臆测或从ats_keywords直接搬入未经验证的方法名（违反理由需从evidence直接推出的规则）→ 要么在proj的evidence中补充随机森林对应的原文引用，要么从rationale中删除'随机森林'表述，并相应复核4分是否仍成立",
+   "[ats_keywords] 'random forest'被列入关键词列表，但stage_note仅说明verify_quote确认了'data lake'，未提及对'random forest'做逐字校验，存在关键词编造风险（违反证据真实性规则）→ 对'random forest'执行verify_quote，若简历原文无此表述应从ats_keywords中删除",
+   "[present] evidence复用了exp维度的'saving the company 3 hours...'和'could potentially increase profit margins by 10%'两条引用，这两条体现的是业务量化产出而非展示/汇报/沟通能力，与present维度定义存在牵强对应，理由虽承认'未见正式展示经历'但仍打3分依据薄弱→ 建议核实present维度的评分锚点定义，若该维度专指展示/汇报能力，应下调分数或替换为更贴切的证据",
+   "[proj] 4分作为较高分，仅凭三条学术/课程项目的方法使用（bootstrap、回归、因果分析）支撑'方法深度'，但均无业务落地或复杂度进阶证据（如模型效果对比、业务应用场景），4分是否达到该锚点的'深度'要求存疑→ 建议复核4分与5分锚点区别，确认当前证据是否仅够支撑3分"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 12,
+  "measured_usage": {
+   "input": 150952,
+   "output": 15922,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 372.0
+ },
+ {
+  "resume_id": "R03",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 83,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[skill] 打5分（满分）依据为技能列表罗列PCA、Feature engineering、K-means、LightGBM、XGBoost等，但proj和exp的evidence中完全没有任何一处实际使用这些方法的描述（proj仅用到线性回归、Tableau、数据预处理），属于仅凭关键词列表给出极端分，未满足'极端分必须有硬证据背书'的要求 → 建议将skill分数下调至4，或在rationale中注明'部分高级技能未见实际项目应用佐证'",
+   "[exp] rationale写'负责信用风险评估与SQL数据核验、建模'，但evidence中只体现'verify...AML models by editing SQL sentences'（验证/核验模型），并无自行'建模'的具体证据，属于对简历信息的过度推断 → 删除'建模'表述或补充能证明其独立建模的原文证据"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 14,
+  "measured_usage": {
+   "input": 117091,
+   "output": 25804,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 450.5
+ },
+ {
+  "resume_id": "R04",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 3,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 3
+  },
+  "total": 75,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[ats_keywords] 'Redis' 在所有维度的evidence中均未出现（skill证据仅列出Numpy, Pandas, Scikit-learn等，未见Redis字样），疑似编造或来源不明的关键词（违反证据真实性规则）→ 删除'Redis'或在skill维度补充其原文出处",
+   "[bonus_checked] bonus_checked=[1,3]缺乏对应的加分项定义和exp/proj具体证据支撑，stage_note声称已补充核实但当前输出中未展示对应证据链（违反bonus宁缺毋滥规则）→ 明确列出bonus_checked对应的具体加分类别及其在exp/proj中的原文证据，否则应剔除该项",
+   "[proj] evidence中'based on geni'及'to xxxx'等截断/缺失内容虽为原文摘录不算编造，但作为vague_phrases列出时未说明是否为简历本身残缺表述，建议在feedback中注明这是原文缺陷而非转述失误，避免误判简历完整性"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 11,
+  "measured_usage": {
+   "input": 170339,
+   "output": 20846,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 408.5
+ },
+ {
+  "resume_id": "R05",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 72,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale中'名校商业分析硕士'的'名校'一词在evidence中无学校名称支撑，纯属臆测简历未写明的信息（违反理由需从evidence直接推出的规则）→ 删除'名校'表述，仅保留学位与GPA描述，或补充学校名称证据",
+   "[bonus_checked] bonus_checked=[3]对应的具体加分项定义未在输出中展示，仅靠stage_note文字说明无法独立核实是否'宁缺毋滥'→ 需在输出中列出该bonus项的完整定义及对应的exp/proj原文证据，便于核查是否真实存在应用场景而非仅关键词匹配"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 10,
+  "measured_usage": {
+   "input": 79109,
+   "output": 18254,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 384.3
+ },
+ {
+  "resume_id": "R06",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 2,
+   "present": 3
+  },
+  "total": 65,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] rationale中'均为短期实习'缺乏evidence支撑，三条证据均未提及实习时长信息，属于臆测简历未写的内容（违反理由需从evidence直接推出的规则）→ 删除'短期实习'表述，或在evidence中补充能说明实习期限的原文",
+   "[present] evidence'Culminate in over 600 lines of Python code and the development of a comprehensive 14-page user manual.'语法上缺主语，疑似从原句中截断/改写而非逐字引用（违反证据逐字规则）→ 核对简历原文，补全完整句子或替换为真实逐字片段"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 10,
+  "measured_usage": {
+   "input": 82781,
+   "output": 14113,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 349.2
+ },
+ {
+  "resume_id": "R07",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 2,
+   "present": 4
+  },
+  "total": 67,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] rationale声称\"仅提及用R写查询\"，但该维度的evidence列表中没有任何一条包含R查询相关原文，属于臆测简历未直接体现的内容（违反证据需支撑rationale的规则）→ 请在evidence中补充能证明\"用R写查询\"的原文引用，若找不到则删除该表述，仅保留\"工作经历中未见SQL实际应用记录\"",
+   "[skill] skill维度声称\"SQL仅见于技能栏，未见实操证据\"，但lead维度evidence提到\"assisting 120+ students in HTML, CSS, JavaScript, PHP, and MySQL database\"涉及MySQL数据库，存在跨维度潜在矛盾（违反跨维度一致性要求）→ 需在skill的gaps或rationale中说明为何该MySQL相关表述不计入SQL实操证据，或调整表述避免遗漏该线索",
+   "[bonus_checked] bonus_checked仅列出数字[3]，未附具体加分项名称及对应evidence引用，无法核实该加分是否满足\"以exp/proj实际应用为准\"的宁缺毋滥标准（违反bonus可验证性要求）→ 补充该bonus项的具体内容描述及原文证据引用"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 14,
+  "measured_usage": {
+   "input": 268552,
+   "output": 16842,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 400.1
+ },
+ {
+  "resume_id": "R08",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 3
+  },
+  "total": 70,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale中'硕士就读顶尖分析项目'缺乏证据支撑，evidence仅显示'MS in Analytics (Data Science)'未提及学校排名或'顶尖'字样，属于臆测简历未写信息（违反理由不可臆测规则）→ 删除'顶尖'表述，改为客观描述学位名称及双学位背景",
+   "[edu] 需核实evidence是否为逐字摘录，'BS in Computer Science combine Statistics'语法不通顺，疑似转述或简历原文本身有误，需确认原文一致性→ 核对简历原文，若为转述需改为逐字引用"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 9,
+  "measured_usage": {
+   "input": 89748,
+   "output": 13805,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 308.9
+ },
+ {
+  "resume_id": "R09",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 3,
+   "skill": 3,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 65,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[present] evidence中'EDUCATION'‘Professional Experience’‘Project Experience’仅为板块标题，未能实际体现排版/结构质量，建议替换为更具体的格式化证据（如项目符号一致性、量化密度等）",
+   "[present] '40K+ ICU patients'与exp维度证据重复使用，存在跨维度证据重叠嫌疑，建议为present单独选取不涉及量化成果内容的结构性证据",
+   "[ats_keywords] 'Random Forest'、'SVM'、'DNN'、'PCA'等关键词未在任何维度evidence中出现原文支撑，建议核实是否确系简历原文用词，避免臆测"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 192242,
+   "output": 21366,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 463.5
+ },
+ {
+  "resume_id": "R10",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 3,
+   "proj": 5,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 79,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] rationale中'8个月研究助理经历'的具体时长在evidence列表中未见任何字段佐证（违反理由需可从evidence直接推出的规则）→ 若简历原文确有'8 months'等表述，需补充为evidence；若无，删除该具体时长描述，改为泛化表述",
+   "[skill] rationale声称'多处项目经历相互印证'，但evidence仅列出Programming/Tools两条技能清单本身，未给出与exp/proj中具体项目交叉印证的原文片段（违反证据需支撑理由的规则）→ 补充至少一条exp或proj中出现同一工具（如XGBoost、Scikit-learn）的原文作为交叉印证证据，或弱化该表述",
+   "[bonus] bonus_checked仅给出索引[1,3]，未附对应的具体加分项名称及原文证据，无法核实是否满足'宁缺毋滥'标准（违反加分项需以实际应用为准的规则）→ 补充每个索引对应的加分项名称及其在exp/proj中的原文出处",
+   "[cert][lead] 两维度均判1分且evidence为空，虽符合'无证据即最低分'逻辑，但需在stage_note之外，于rationale中也明确标注'已排除同义词/近义表述'的复核范围，避免被质疑为查找不充分"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 10,
+  "measured_usage": {
+   "input": 75217,
+   "output": 17601,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 425.0
+ },
+ {
+  "resume_id": "R11",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 5,
+   "skill": 3,
+   "cert": 1,
+   "lead": 4,
+   "present": 3
+  },
+  "total": 76,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] evidence列出'NYU MPH Scholarship'与学位'Master of Science in Biostatistics'不符（MPH≠MS Biostatistics），怀疑是转述或简历原文本身存在项目名称混用，需要核对原文逐字表述，若为奥数据分析师自己臆测的关联需删除或替换为准确原文 → 核查简历原文中奖学金名称是否确为'MPH Scholarship'，若不一致需说明或换用真实证据",
+   "[bonus] bonus_checked=[3]所指的'统计方法支撑业务结论'加分项，在strengths中被具体化为'多元线性回归、时间序列回归'，但exp的evidence字段中并无该具体表述（仅有'performed comprehensive correlation analysis'），存在超出证据范围的臆测细节（违反证据真实性规则）→ 要么在exp的evidence中补充逐字引用支持'多元线性回归/时间序列回归'的说法，要么删除strengths中这一具体化表述，仅保留'相关性分析'层级的表述",
+   "[ats_keywords] 关键词列表中的'Regression'和'Time-series analysis'未在任何维度的evidence中以逐字形式出现，无法验证是否真实存在于简历（违反证据真实性规则）→ 补充这两个关键词在简历中的原文出处，或从关键词列表中移除",
+   "[proj] 5分为该维度最高档，仅凭'发表一篇会议论文集(Atlantis Press)'作为唯一硬证据，未说明是否为核心期刊/高影响力发表，5分是否虚高存疑（需重新核对评分锚点中5分对应的具体门槛）→ 复核proj维度5分锚点定义，若锚点要求'顶级期刊/显著影响力'而非'普通会议论文集'，应降为4分并说明理由",
+   "[skill] rationale提到'未列SQL'作为扣分依据，但同时exp证据显示大量使用SQL（50+条查询），两处信息存在'技能列表'与'实际应用'的矛盾未在skill维度分数中充分体现，3分是否应更低或在rationale中说明扣分幅度依据不清 → 补充说明3分具体对应的扣分逻辑（如满分5分因缺SQL列出扣2分），避免评分随意性"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 195284,
+   "output": 23891,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 487.2
+ },
+ {
+  "resume_id": "R12",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 78,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[bonus] stage_note称bonus 3由\"Rockey AB-Testing案例\"支撑，但所有维度evidence中均未出现\"Rockey\"字样或AB-Testing实际业务应用的原文引用，skill维度仅将AB-Testing列为关键词未附应用场景（违反bonus需以exp/proj实际证据为准的规则）→ 需在exp/proj evidence中补充可逐字核对的AB-Testing应用原文，否则取消该bonus勾选",
+   "[bonus] stage_note称bonus 1由\"JD Tech自动化调度平台+Tableau监控看板\"支撑，但evidence中未见\"JD Tech\"公司名称，也未见\"监控看板\"表述，仅有笼统的\"automated scheduling platform, BI tools\"（违反证据逐字规则，疑似臆测简历未写细节）→ 核实原文是否含该公司名与看板描述，若无则修正stage_note或撤回bonus",
+   "[skill] evidence条目'Created user portrait...K-means, PCA...'来源未标注(exp还是proj)，且更像project成果被挪用作skill证据，跨维度证据复用需核实是否重复计分（建议核实该句在原文中的段落归属）"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 199766,
+   "output": 20838,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 443.8
+ },
+ {
+  "resume_id": "R15",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 3,
+   "cert": 1,
+   "lead": 3,
+   "present": 2
+  },
+  "total": 74,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] evidence '\"Utilized Tableau to combine sales data from various regions and arrange the submission of compliance certificate applications\"' 在简历原文中仅有 \"Utilized Tableau to combine sales data from various regions\"，后半句 \"arrange the submission of compliance certificate applications\" 疑似编造或转述（违反证据逐字规则）→ 删除后半句，仅保留有效部分",
+   "[exp] evidence 中 \"increased new customers by 30%\"（COFCO Futures 部分）缺少完整上下文，unclear 是否为量化成果还是与其他 30% 重复混淆（违反证据清晰性规则）→ 补充该句完整原文或删除",
+   "[proj] Paychex 项目精度数据 \"40% accuracy in industry code prediction and 60% accuracy in outcome category prediction\" 需逐字确认简历是否包含该具体数字；如简历仅笼统说 \"accuracy\" 而无具体百分比，则疑似转述（违反证据逐字规则）→ 查证简历原文确认精度数字是否精确对应",
+   "[skill] rationale 宣称 \"多处经历印证\"，但 R/SPSS/STATA/Power BI/AWS 仅在列表出现，无任何 evidence 条目对应这五项工具的实战应用（违反证据-分数匹配规则）→ 如无实战案例，应在 skill 维度 evidence 中明确标注\"仅列表出现\"，或补充实战证据",
+   "[lead] rationale 表述 \"短期项目团队管理经历充分\"，但仅 2 段证据（Paychex 5人、Case Competition 4人）支撑，不足以界定为 \"充分\"；与「无常设学生组织长期领导角色」形成论证空洞（违反理由合规规则）→ 明确定义 \"充分\" 的具体标准（如参与项目数、团队规模范围），或调降分数至 2",
+   "[present] rationale 指出 3 处表述欠妥，但仅列举 vague_phrases 的片段，未体现修改建议在简历中是否已落实；stage_note 说 \"修订轮完成\"，但 evidence 中仍保留原有模糊表述（违反一致性规则）→ 确认是否已在简历文本中修正这 3 处措辞，若已修正则 evidence 需更新为修订后文本；若未修正则 score 应降至 1",
+   "[bonus] bonus_checked 认定第 1 项 \"独立搭建数据看板\" 基于 exp 中 \"Utilized Tableau to combine sales data from various regions\"，但 \"combine sales data\" 与 \"搭建看板\" 存在语义跳跃，简历未明确说明是否为「独立搭建」（违反加分宁缺毋滥规则）→ 需要简历中有明确的「built/created/designed a dashboard」等主动搭建表述，现有证据仅体现工具使用，不足以支撑 +2 分"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 12,
+  "measured_usage": {
+   "input": 120485,
+   "output": 16716,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 401.0
+ },
+ {
+  "resume_id": "R14",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 3,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 69,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale 中提到'GPA皆优异'但 evidence 中仅列出具体 GPA，未见'皆优异'的表述依据（臆测了简历措辞）→ 建议改为'CMU M.S. GPA 4.33/4.33、NYU B.A. GPA 3.93/4.00'更客观",
+   "[exp] evidence '5 million+ multi-platform product data' 和 'Redash 5 interactive dashboards' 是否逐字出自简历需二次确认，scorer 未附原文对照（违反逐字规则）→ 需补充原始简历截图或确认无转述",
+   "[exp] rationale 称'成果表述模糊、缺乏业务影响定量证据'但 evidence 本身包含'5 million+''5 interactive dashboards'等量化数据，矛盾（违反证据-分数匹配规则）→ 若 evidence 已是原文则不应打 3 分，应重新评估或调整 rationale 为'量化不足但有基础数据'",
+   "[exp] stage_note 提到'删除exp中的30%降低研究时间'但 evidence 中不见该句，说明删除动作已执行，但 scorer 未更新 stage_note 的完整性（流程记录不一致）→ 建议 stage_note 改为已执行的最终状态说明",
+   "[proj] evidence 中'successfully reducing the Mean Squared Error (MSE) from 0.76 to 0.64'来自简历未知段落（推荐系统项目）→ 需确认此句是否逐字出自简历或属于概括转述",
+   "[skill] rationale 称'无前沿算法或领域特有工具证据'但 skill evidence 包含'PyTorch、PySpark、AWS Athena、Microsoft Azure'（违反臆测规则）→ 若这些工具在简历有列出则应在 rationale 中提及，或改为'无前沿算法深度应用证据'更准确",
+   "[skill] stage_note 提到'删除skill中Machine Learning(PhD)声明，简历教育部分无PhD项目'，但 evidence 中未见该声明，删除动作是否完整执行存疑（流程不透明）→ 需确认原始简历是否真的包含此句",
+   "[lead] score 1 分、evidence 空数组合理，但 rationale 中文字数不足 35 字，表述不清→ 建议改为'无任何领导力经历、社团活动或竞赛奖项'",
+   "[present] rationale 称'缺乏精准语言和数据驱动呈现'但 strong_phrases 中列出'5 million+'、'MSE 从 0.76 到 0.64'等多个量化表达（矛盾）→ 建议澄清：现有量化表达是否充分分散在简历中还是过于零散",
+   "[bonus_checked] 仅包含'1'（Redash仪表板），但 score 4 分的 skill 维度中列有'PySpark、AWS Athena'等大数据工具，这些在实习 exp 或 proj 中是否有具体应用证据（违反'以实际应用为准'规则）→ 需补充 PySpark/AWS 在 exp/proj 中的实战证据或确认 bonus 不应包含"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 108857,
+   "output": 9591,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 254.4
+ },
+ {
+  "resume_id": "R17",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 5,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 4
+  },
+  "total": 87,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] evidence 'achieving a 20% improvement in data demands solution efficiency' 在简历原文中找不到该表述，scorer 的 rationale 中也标注该措辞为'vague_phrases'，此条 evidence 疑似编造或严重转述（违反证据逐字规则）→ 删除该条或用简历原文'achieving a 20% improvement'的完整上下文替换",
+   "[exp] score=5 的支撑力度与锚点不符：虽有两段实习经历，但两个实习都未明确说明复杂 SQL 场景（JOIN、子查询、多表关联），仅有'Extracted and analyzed 300+ data outputs using SQL'的通用描述；JD 若要求'复杂 SQL 查询能力'，该证据不足以支撑满分（违反分数与锚点匹配规则）→ 建议降为 4 分，或在 rationale 中明确说明'SQL 使用有实际产出，但复杂度证据不足'",
+   "[proj] rationale 中'RFM 模型在 PowerBI 可视化后被用于营销策略支撑'的因果链条强度有歧义：evidence 原文为'leading to a 25% increase in monthly customer retention'，但 stage_note 中改为'informed'因果关系，rationale 中仍用'支撑'的主动语态（违反理由严谨性规则）→ 统一表述为'informed marketing strategies'或明确说明这是模型应用的直接结果还是参考输入",
+   "[lead] score=3 与 exp/proj 的高分形成倒挂：lead evidence 中'Led a team of 7'出自 exp 的第二段实习，但 exp 评为 5 分、lead 仅 3 分，两个维度对同一段经历的评价不一致（违反跨维度一致性规则）→ 明确说明 lead 维度评价标准是什么（如'7 人团队规模不足以支撑 4 分以上'），并在 rationale 中写清楚为何同一段经历在 exp 中体现为全链路能力、在 lead 中体现为'规格偏低'",
+   "[cert] score=1、evidence=[] 的设置正确，但 rationale 中'不符合数据分析师岗位通常期望'的表述为主观评价（违反理由需从 evidence 推导规则）→ 建议改为客观表述：'简历未列报任何认证证书（无 evidence），根据数据分析师常见加分项缺失，评 1 分'",
+   "[bonus_checked_detail] 项目 1 标注为'✓ 命中'但 score=4 分未获得加分反映（violated bonus 应体现在最终 score 中）→ 确认：若 bonus 项 1、3 实际命中，proj score 是否应为 5 分？若 score=4 是已扣除其他因素（如'缺乏生产级产出'），应在 proj rationale 中明确说明扣分理由"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 15,
+  "measured_usage": {
+   "input": 171317,
+   "output": 20536,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 427.6
+ },
+ {
+  "resume_id": "R18",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 1,
+   "proj": 2,
+   "skill": 2,
+   "cert": 1,
+   "lead": 1,
+   "present": 2
+  },
+  "total": 38,
+  "tier_label": "竞争力较弱",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale 中提及'Dean's List、Honour Roll'但 evidence 中未列出该内容，涉嫌臆测简历中没有明确写出的信息（违反证据-理由一致性规则）→ 建议从 rationale 中删除这两项荣誉提及，或补充到 evidence 中",
+   "[exp] evidence 中'Aug 2023 - Sep 2023'只能推断 1 个月实习（8月到9月），不是 scorer 陈述的'2个月'（违反证据与理由匹配规则）→ 确认简历原文是否为'Aug 2023 - Sep 2023'或'Aug 2023 - Oct 2023'，据实更正 rationale",
+   "[proj] 时间逆序错误'May 2022 - Apr 2022'在 evidence 中有列出，但 score 2 分可能过高——该项目实际开始时间不明确，简历记录本身存疑（违反证据真实性规则）→ 建议在 feedback 中标注该项目时间有误，暂不作为佐证，或直接从 evidence 移除该条错误日期",
+   "[skill] score 2 分理由为'有基础但缺佐证'，但 evidence 未包含 Excel、Tableau、PowerBI 等工具列表的原文截图或描述，只有'Tools: Tensorflow, PyTorch, Keras, JavaFX, Git'——无法确认简历中是否声称掌握这些工具（违反证据真实性规则）→ 补充确认简历原文是否列出 Excel/BI 工具；若无，则 rationale 中'缺失数据可视化、Excel 等行业关键工具'的表述应改为'简历未列出数据可视化工具'以避免臆测",
+   "[present] rationale 提及'整体组织清晰'但未在 evidence 中体现——这是对整体排版的主观评价，非可验证的证据（违反证据支撑规则）→ 建议删除该修饰词，仅聚焦于'时间逆序错误'这一客观问题",
+   "[cert/lead] stage_note 中提及'按 conservative_skip 策略确认无遗漏后打 1 分'，但简历内容是否真的经过逐行检查、是否存在隐含的学生组织/证书信息无法从本输出验证（违反 conservative_skip 透明性规则）→ 建议在 feedback 中明确说明：是否已逐条对照简历原文确认 cert 和 lead 部分完全为空"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 14,
+  "measured_usage": {
+   "input": 100085,
+   "output": 18645,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 342.7
+ },
+ {
+  "resume_id": "R19",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 2,
+   "skill": 3,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 55,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] 时间重叠疑虑：'Corporate VC & Business Analytics Remote Externship (08/2022-10/2022)' 与 'Quantitative Analyst Intern (08/2022-09/2022)' 时间重叠2个月，但 rationale 仅提及'存疑'——需要澄清应聘者是否同时进行两份工作、一份是否为兼职、或简历中的日期是否有误（违反证据真实性规则）→ 建议直接联系应聘者核实，或在报告中明确标注为'待验证'，不能按完整实习经历计分",
+   "[proj] evidence 文本转述问题：'Completed 5 startup profiles with HPTV criteria'、'leveraging Python for data analysis identify trends and patterns' 等措辞不完全吻合常见简历原文风格，且无完整上下文——无法确认是否逐字摘取自简历还是概括转述（违反证据逐字规则）→ 需要提供简历原文截图或引用中文标记出原始位置，确保 evidence 追溯性",
+   "[skill] SQL 缺失问题表述过度化：rationale 说'未在简历中提及 SQL'，但数据分析师岗位中 SQL 是核心必修工具，缺失这一项应该影响 skill 的评分锚点（3分 是否合理）——若确实无 SQL，建议降至 2 分并在 gaps 中加重权重；若只是简历未明确标出但应聘者口述有 SQL，则需明确边界（违反分数-锚点匹配规则）→ 建议重新评估 skill 维度的分数，或在 gaps 中特别强调 SQL 缺失对数据分析师岗位的影响度",
+   "[cert] 评分为 1 分但无 evidence 支撑：rationale 说'简历中无认证证书'，但 evidence 为空数组——这违反了'极端分必须有硬证据背书'的规则，即使是负向证据（证书确实没有）也应该列出搜索范围说明（违反证据规则）→ 建议在 evidence 中添加说明性文字如'[简历中无证书部分]' 或 '[已查证：简历无 Certifications 或 Licenses 相关段落]'",
+   "[lead] 评分为 1 分但 evidence 为空数组，且 rationale 过度评价：rationale 提到'学生会预算管理角色'但未在 evidence 中列出——这是转述而非逐字摘取（违反证据逐字规则）→ 如果简历确实提及学生会预算管理，应在 evidence 中逐字引用；如果简历未提及，则不应在 rationale 中出现",
+   "[present] rationale 对成效的评价模糊：说'演讲成效未量化'但没有说明什么样的量化数据应该出现（如'参与者反馈'、'决策影响'）——这些是臆测简历应该写但未写的内容（违反臆测规则）→ 建议改为'简历中无演讲直接成果的量化指标，仅提及'delivered presentation'和'pitch'，无后续业务决策或参与反馈记录'",
+   "[bonus_checked] 为空数组但 gaps 提到仪表板/SQL/统计方法：若 bonus_checked 为空是因为这些都不符合加分项定义，应在 bonus_checked 旁加说明；若是因为证据不足，应在 gaps 中明确区分'缺失项'vs'未充分证实的项目'（违反加分项审查规则）→ 建议补充 bonus_checked 部分或在 stage_note 中说明为何这些常见加分项均不符合",
+   "[ats_keywords] 与 skill 维度分数的一致性问题：keywords 列表包含 13 个技术关键词（data analysis、Excel、Python 等），但 skill 只得 3 分——若 ATS 验证通过这么多关键词，skill 应该倾向更高分；反之若只有 3 分水平，keywords 应该精简（违反跨维度一致性规则）→ 建议重新审视 skill 的锚点：是基于'关键词覆盖度'还是'每项工具的深度'来打分，并调整评分结果"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 178628,
+   "output": 11875,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 244.1
+ },
+ {
+  "resume_id": "R20",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 3
+  },
+  "total": 76,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale 中'技能基础扎实'为臆测——简历教育部分仅列课程名和 GPA，未体现具体技能掌握深度（违反臆测规则）→ 改为'课程覆盖商业分析核心领域，GPA 优异'",
+   "[exp] 'evaluation system for models, which achieving a 90% accuracy rate' 表述不清——evidence 中缺少明确说明这个 90% 准确率是模型预测准确度还是评估系统本身的指标，与 rationale 中'建模精度 90%'的对应关系不明确（违反证据-分数匹配规则）→ 从简历原文补充：这个准确率具体衡量的是什么",
+   "[skill] rationale 声称'SPSS/STATA 声称但无实战证据'，但这属于 gaps 范畴不应在 rationale 中混入批评性结论（违反理由合规规则）→ rationale 应客观陈述'核心技能 Python/SQL/R/Tableau/PowerBI 有多项目佐证'，删除对 SPSS/STATA 的评价，留给 gaps",
+   "[cert] evidence 为空数组但 score 为 1 分——按评分锚点，1 分应对应'声称但无证明'而非'完全缺失'（违反分数锚点规则）→ 如确认简历未提及任何认证，score 应改为 0；如有声称需补充 evidence；否则说明为何给 1 分而非 0 分",
+   "[lead] rationale 仅基于'Lead a team of 5 members reached the finals'一句给出 3 分，但缺乏对团队领导深度的定义——是否有预算管理、人员评估、冲突解决等细节（违反证据充分性规则）→ 明确说明：3 分锚点是'有明确团队带队证据但无跨部门协作'还是'带队规模小/深度浅'，确保与 score 3 对应的 evidence 充分",
+   "[present] rationale 提及'格式错误的具体验证证据'但 evidence 为空（违证据逐字规则）→ 要么在 evidence 中补充简历格式问题（如日期排版、符号不一致等），要么删除这个措辞，改为'简历整体结构清晰、量化表达充分'",
+   "[vague_phrases] '50 sets of data' 条目中，evidence 为简历原文，但 rationale 中的解释'数据规模维度不清：行数、列数还是样本数'属于质疑而非事实陈述（该内容应在 gaps 中）→ 若保留此项，evidence 应补充'50 sets of data'的上下文来源，或移至 gaps",
+   "[bonus_checked] 'item_2_sql_complex' 对应 evidence 仅为'Leveraged My SQL and Spark to extract data'，未见复杂 SQL 查询的具体例子（如 JOIN、子查询、窗口函数等），可能不满足'复杂查询'的加分标准（违反加分宁缺毋滥规则）→ 补充具体的 SQL 复杂度证据（如'多表 JOIN 构建数据仓库'等），或删除此加分项",
+   "[bonus_checked] 'item_3_ab_testing' 对应 evidence 仅为'achieved a 1.72% increase in on-time rate and a 3.10% increase in completion rate'，缺少 A/B 测试的关键要素证明（如对照组、假设检验、显著性检验等），仅有结果数字不足以证明是严格的 A/B 测试（违反加分证据充分规则）→ 补充证据：是否有'A/B 测试'、'对照组'、'统计显著性'等关键词，否则改为'业务指标提升'加分项",
+   "[跨维度一致性] exp 得 4 分、proj 得 4 分、skill 得 4 分，但 lead 仅得 3 分——如果候选人领导 5 人团队进决赛且有 4 段递进实习，lead 3 分与总体强度不匹配（违反跨维度一致性规则）→ 明确说明：lead 3 分是否因缺跨部门协作证据而压分，还是因团队规模、影响力有限，确保与其他维度分数逻辑自洽"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 21,
+  "measured_usage": {
+   "input": 367086,
+   "output": 17934,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 344.5
+ },
+ {
+  "resume_id": "R22",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 2,
+   "proj": 1,
+   "skill": 2,
+   "cert": 1,
+   "lead": 2,
+   "present": 4
+  },
+  "total": 45,
+  "tier_label": "竞争力较弱",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] 'Formulated a comprehensive set of performance metrics, including both overall and stratified metrics' 在简历中的原文为 'Formulated a comprehensive set of performance metrics, including both overall and stratified metrics'，但 rationale 声称'缺乏核心数据分析工具实践'——设计指标正是数据分析的核心职责，不应被归类为'无证据'（违反证据-分数匹配规则）→ 建议重新评估 exp 的 rationale，明确指出具体缺失的工具（如 SQL、具体的 BI 工具名称），而非笼统否定指标设计工作",
+   "[skill] rationale 中提到'缺少 SQL 和传统 BI 工具'，但 evidence 中确实列出了'Excel'——Excel 在数据分析中是必备工具，不应被忽略（违反证据完整性）→ 建议在 rationale 中补充说明 Excel 等基础工具已具备，主要缺口是高级 SQL 和 Tableau/PowerBI 等专业 BI 工具",
+   "[proj] score 1 分和 rationale'均与数据分析领域无关'过于绝对——'Preliminary Real-Time AI-Assisted Aiming System for FPS Game' 涉及机器学习/AI 应用，与数据分析的统计建模、预测等技能有关联（违反跨维度一致性：skill 中认可机器学习能力，proj 中却完全否定 AI 项目）→ 建议将 proj score 调至 2 分并修改 rationale，承认 AI 项目的数据科学相关性，但说明应用场景不是传统数据分析",
+   "[lead] evidence 中'Collaborated in a team of 15'只能证明团队规模，不能证明是否为'参与者'还是'负责人'——该条证据对判定领导力无区分力（违反证据有效性）→ 建议删除该条 evidence 或补充简历中关于职责分工的原文；如简历中无明确角色描述，score 应维持 2 分但 rationale 应改为'职位名称未明确标注领导/主导角色'",
+   "[cert] pass 审查前已将 bonus_checked 设为[1]（仅计 Flatiron Health），但 cert score 为 1 分说明'未发现任何证书'——这两项信息不一致（违反维度逻辑）→ 建议明确：bonus_checked 是指'实习岗位计入加分项'，与 cert 维度（正式证书认证）无关，应在 stage_note 或输出说明中澄清两者关系"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 18,
+  "measured_usage": {
+   "input": 249092,
+   "output": 17695,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 353.0
+ },
+ {
+  "resume_id": "R23",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 3
+  },
+  "total": 66,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale 提及\"无学位以外的学术成就或科研论文\"，但简历中并未出现这类信息，这是对简历内容的臆测而非基于evidence的判断（违反证据-理由逻辑规则）→ 改为：\"拥有会计金融本科和信息系统硕士，学位与数据分析相关\"，删除臆测内容",
+   "[exp] evidence 中\"$500,000分析无量化成果\"的表述模糊——\"presented comprehensive analysis reports to KPMG external auditors\"是否为原文？简历中是否真实存在这条记述？若为转述需补充原文（违反证据逐字规则）→ 确认该句是否为简历原文或标注为转述",
+   "[exp] rationale 声称\"缺乏知名机构印证\"，但证据中出现了\"KPMG external auditors\"和\"Hawaii Department of Health\"，这两者不算知名机构吗？理由与evidence存在矛盾（违反跨维度一致性）→ 重新审视是否应调整score或修正rationale",
+   "[proj] evidence 中的\"Discovered Tesla Model 3 is the most popular EV\"等具体洞察是否逐字出自简历？还是从\"$500,000 accounts money flow analysis\"类推而出？若为转述须标注（违反证据逐字规则）→ 补充原文或标记为推导内容",
+   "[skill] rationale 提到\"简历中已删除未验证的机器学习和回归算法\"，但审查员应基于当前简历评分，不应引入删除前的历史信息（违反基于当前简历评分原则）→ 删除这条解释，仅评价当前简历中的skill内容",
+   "[cert] evidence 为空数组但 score=1，这符合预期。但rationale 说\"简历未提及\"，应进一步确认：简历中是否有任何认证相关内容被漏掉了？（检查确认性）→ 若简历中确实无认证内容，则逻辑成立；若有遗漏需补充evidence",
+   "[present] rationale 提到\"摘要中'leading accounting firm'表述模糊（原为'Top 5 Public Accounting Firm in Hawaii'）\"——这说明scorer做了改写建议。但按照通过标准，scorer的职责是打分而非改稿建议。这条建议是否应放在stage_note而非rationale中（违反角色边界）→ 将这条改写建议移至feedback或stage_note，rationale 仅说明现状",
+   "[bonus_checked] bonus item 2（SQL复杂查询）被标记为命中，evidence 为\"advanced SQL techniques (e.g., CASE WHEN, JOIN, UNION, Subqueries, Aggregate)\"。但这是技能列表描述，exp和proj中是否有实际应用SQL这些复杂技术的具体案例记述？若仅在skill section出现，不符合\"生产应用\"加分标准（违反bonus宁缺毋滥原则）→ 检查exp/proj中是否有\"使用JOIN/UNION优化查询\"等具体事例，若无则应删除bonus item 2",
+   "[stage_note] 提及\"(2)重新评价$500,000分析的权重，仅保留报告呈递事实\"，但exp score=3未因此调整。若确实为\"权重较轻\"的工作内容，是否应与其他2段实习在分数上有更明显的区分？或rationale需更清楚说明为何3分合理（违反score与evidence的量级匹配）→ 检查：$500,000分析工作占简历篇幅/重要性的多少，若权重轻是否应在rationale中定量说明（如\"占工作经历25%\"）"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 14,
+  "measured_usage": {
+   "input": 96586,
+   "output": 14477,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 304.8
+ },
+ {
+  "resume_id": "R24",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 4,
+   "skill": 3,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 65,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] rationale 中声称'明确涉及回归模型、客户分割等技能'，但简历原文仅写'conducted data analysis and regression models'和'customer segmentation'，未体现这些是否真正'明确'应用到该岗位工作中，有主观夸大之嫌（违反理由从证据直接推出规则）→ 改为：'三段实习经历涉及数据分析工作，包括回归模型、客户分割分析；有量化成果（20%流量提升）'",
+   "[skill] evidence 列出的技能清单（Python、SQL等）未配对到具体应用案例。rationale 提到'未明确说明SQL复杂查询、多表关联等高阶应用案例'，这是扣分理由，但应直接体现在 evidence 中缺失上，而非笼统列工具名称（违反证据-分数匹配规则）→ 建议 evidence 应聚焦简历中有具体应用背景的工具，如'conducted data analysis and regression models'（体现Python应用）、'Analyzed 7 metrics'（可能体现SQL应用），而非单纯列工具名单",
+   "[proj] evidence 中'Utilized M3 Inference, a pre-trained deep learning model'和'Performed sentiment analysis using the Roberta model'的措辞过于复杂，需确认这是简历原文还是转述（违反逐字引用规则）→ 请逐字对照原简历确认，特别是技术名词是否完全一致",
+   "[present] rationale 评价'实习和项目段落重点突出'，但 evidence 仅列数字，未体现段落结构本身如何'突出'或'清晰'（违反理由从证据推出规则）→ 改为提供段落结构本身的证据，或重新定义 evidence 为段落开头句、排版方式等",
+   "[bonus_checked] 为空数组，但根据 gaps 提到'无明确的数据看板/自动化报表独立搭建记录'。在 proj 中'visualized brands' MRPs in the US map through heatmaps'能否认定为'看板搭建'？若可以，应纳入 bonus；若不可以，rationale 需澄清为什么不算（违反加分项宁缺毋滥规则的明确化）→ 在 proj rationale 或 bonus_checked 中显式说明：heatmap 属于单点可视化而非系统性看板，故不计 bonus"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 167488,
+   "output": 10629,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 248.2
+ },
+ {
+  "resume_id": "R25",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 2,
+   "proj": 3,
+   "skill": 2,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 51,
+  "tier_label": "竞争力较弱",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale提及'coursework涵盖回归、概率、数据科学等核心科目'，但evidence中'Data Science'仅在第二行Relevant Coursework中出现一次，'数据科学'表述为转述而非逐字引用（违反证据逐字规则）→ rationale改为：'攻读应用统计硕士，本科数学GPA 3.81；coursework涵盖回归、概率、统计计算等核心科目'，删掉'数据科学'或用evidence中的原文'Statistical Computing'替代",
+   "[exp] evidence仅提供两条碎片信息，缺乏银行实习的具体描述——'Conducted financial research and analysis'无法确认是否逐字出自简历原文，且'涉及财务分析但无量化细节'为rationale中的臆测（违反证据支撑规则）→ 需补充或验证该句是否原文出现，若原文未明确量化指标，rationale应删除'量化细节'的评价，仅陈述'财务分析内容描述不具体'",
+   "[skill] evidence第二行'简历未提及：SQL、Tableau、Power BI、数据可视化工具等数据分析师核心工具'为反向陈述（列举缺失项），不符合'证据逐字出自简历'的规则——反向证据需格式调整（违反证据格式规则）→ 建议将evidence改为：'Technical Proficiencies列表：Python, R, Microsoft Office Suite, HTML, CSS, MATLAB'，并在rationale中直接指出'简历技能列表未包含SQL、Tableau、Power BI等关键工具'，而非在evidence中体现缺失内容",
+   "[cert] 根据stage_note，该维度rationale已修改措辞避免绝对化，但当前rationale'简历未明确列出任何正式认证'仍为绝对表述——若简历确实完全无认证，score=1分合理，但请确认：evidence为空数组是否意味着'根本没提认证'vs'认证信息不在提供的简历片段中'（违反证据完整性规则）→ 建议补充说明：是否已完整审查整份简历，若完整审查则evidence保持空数组；否则需声明'基于提供的简历片段未发现认证信息'",
+   "[lead] 同样rationale'简历未涉及团队合作'为绝对表述，evidence为空数组——请确认是否完整审查整份简历（违反证据完整性规则）→ 若确实无合作场景描述，建议rationale改为'未在Education/Skills/Experience/Projects中发现明确的团队协作或项目管理关键词'，并声明审查范围",
+   "[ats_keywords] stage_note提到已删除'Data Science'和'Machine Learning'，但当前列表仍包含'Data Science'——检查是否未同步更新（违反一致性规则）→ 确认'Data Science'是否在简历原文逐字出现；若不在，应删除该关键词",
+   "[bonus_checked] 为空数组符合当前简历无加分项的判断，但建议明确声明：是否曾检查过以下场景且确认缺失：(1)exp/proj中是否有SQL实际应用案例被遗漏；(2)是否存在数据可视化、仪表板设计的隐性描述（如'生成报告'、'可视化结果'等）——若完整检查后确认缺失，bonus_checked=[]合理（违反完整性透明度）→ 建议在stage_note中补充'已逐句检查exp/proj，未发现SQL或可视化工具的实际应用证据'",
+   "[跨维度一致性] exp=2分（缺乏成果）vs proj=3分（有清晰技术方法和量化成果），逻辑上不矛盾，但需确认：proj中的'4601条数据处理'是否属于某个exp实习？若属于同一段经历，两个分数应有明确的维度区隔说明（违反关联维度解释规则）→ 建议在stage_note或总体评价中标注proj与exp的关系（是否来自同一实习），以解释分数差异的合理性"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 17,
+  "measured_usage": {
+   "input": 218219,
+   "output": 12119,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 253.4
+ },
+ {
+  "resume_id": "R27",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 3,
+   "skill": 3,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 61,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale 超出 35 字限制（共 42 字），违反规范→ 建议简化为：'NYU 数学与计算机科学双主修，GPA 3.833/4.0，专业高度相关，学校层次优秀。'（33字）",
+   "[exp] evidence 中'Venture Capital & Business Analytics Externship'与简历原文不符——简历标题应为'Venture Capital & Business Analytics Externship'还是其他？需逐字对应→ 请提供简历原文确认该职位完整标题",
+   "[exp] rationale 中'SQL 应用缺乏具体复杂度描述'的表述已改进，但仍需验证：简历是否真的未提及 JOIN、子查询、窗口函数等复杂 SQL 技能？→ 确认 evidence 中 SQL 相关描述是否完整提取",
+   "[proj] 最大问题：'Sourced 100+ startups'等四条 evidence 逐字出自实习职责（HP externship），但 proj 维度却给出 3 分——此举混淆了'实习内任务'与'独立项目'的边界，违反跨维度一致性→ 建议明确：这四条 evidence 应归属 exp 维度内的具体交付物，不应单独作为 proj 维度的证据。如无真正独立的数据分析项目（课程项目、个人作品等），proj 应降至 1-2 分",
+   "[skill] evidence 中'Organized and participated in business analysis skills training'与技能掌握程度的关系模糊——'参加培训'≠'掌握技能'，无法作为 Python/SQL/Excel 实战证据→ 建议删除该条或改为来自 exp 中的实战应用证据（如'Utilized SQL and Excel to perform EDA'）",
+   "[skill] rationale 正确指出缺 Tableau/Power BI，但简历中提及'Developed visually engaging data presentations, including charts and graphs'——此表述能否证明使用过特定 BI 工具？若仅为 Excel 图表，应明确说明→ 建议在 rationale 中补充：'仅见 Excel 图表记录，未见 Tableau/Power BI 等行业标准工具'",
+   "[present] evidence 中'Dealt with hundreds of data cleaning methods'在阶段说明中已被识别为模糊短语，不应作为强势短语证据→ 建议从 strong_phrases 中删除或替换为更精确的短语如'Performed correlation analysis to find out the trend correlation'",
+   "[ats_keywords] 包含'Startup Analysis'等在 JD 中未必高频的关键词，而缺少'数据分析'本身的核心术语——keywords 是否应基于目标 JD 的实际要求而非简历内容？→ 确认 ATS 关键词是否经过 JD 对标筛选",
+   "[bonus_checked] stage_note 说'correlation/regression analysis'已在 EXP/PROJ 中体现，故保守不列为加分项——但这违反了 exp 3 分评价标准。若已掌握统计方法并应用于实际分析，应在 exp 或 bonus 中有所体现，目前评分逻辑不一致→ 建议明确：统计分析能力是否应视为加分项（若 JD 要求）或仅作为 exp 的常规证据",
+   "[cross-dimension] exp 3 分 + proj 3 分 + skill 3 分，三个维度同分但职责混合——'数据清理、EDA、可视化'既出现在 exp 的实习职责，又出现在 proj 的分析步骤，此种重复使用 evidence 容易高估候选人综合实力→ 建议重新梳理：实习中的具体交付物应独占 exp 证据，独立项目/课程作品应独占 proj 证据，两者不应混用"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 14,
+  "measured_usage": {
+   "input": 189023,
+   "output": 13538,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 289.0
+ },
+ {
+  "resume_id": "R28",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 2,
+   "proj": 3,
+   "skill": 2,
+   "cert": 1,
+   "lead": 2,
+   "present": 4
+  },
+  "total": 51,
+  "tier_label": "竞争力较弱",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] evidence '仅一段6周实习' 是评分者的推论，未见简历原文说明实习周数（违反证据逐字规则）→ 删除该推论或补充简历中明确标注实习时长的原文",
+   "[exp] rationale 中'措辞异常（'fetching work'、'data combing'非标准术语）'属于质量评价，但 'fetching work' 和 'data combing' 在 evidence 中已逐字摘录，应在 vague_phrases 中体现而非作为 rationale 的核心扣分理由（违反理由论证清晰度）→ rationale 改为聚焦职责层级和量化成果缺失",
+   "[skill] rationale 说'实际应用佐证不足'但给出的 evidence 包含'Built algorithmic models using Python'和'used SQL'，这些恰好是应用佐证，评分逻辑自相矛盾（违反证据-分数匹配）→ 明确说明为何'Built models'和'used SQL'的描述深度不足以支撑3分，而非笼统说'佐证不足'",
+   "[lead] evidence 中'Took charge of project planning and management, divided duties based on members' strength and interest; follow up on the progress and completion of research done by the group' 已体现任务分配，rationale 却说'缺乏团队规模、任务分配等具体细节'属臆测简历没写（违反臆测规则）→ rationale 改为承认有分配职责的记录，但缺乏量化的团队规模和冲突解决案例",
+   "[cert] evidence 为空数组正确，但 score 1 分是否为该维度的最低锚点需确认；若 0-5 分制，1 分是否恰当？（违反分数与锚点匹配）→ 确认评分锚点并调整为一致的梯度定义",
+   "[present] rationale 给出 score 4 分但理由为'存在措辞模糊、语法异常等表述质量问题'——这些负面因素与 4 分不符（违反证据-分数匹配）→ 若表述质量有明显问题应扣分（给3分或以下），或修改 rationale 说明为何这些问题不足以扣分",
+   "[overall] stage_note 中调整历史表明对 [exp]、[proj]、[skill]、[lead] 进行了多轮降分，但最终输出的分数调整记录不完整，无法追溯每维最终分数的决策路径（违反审查过程透明度）→ 在各维度中补充'修正前/修正后'的分数记录或在 stage_note 中明确最终锚定的分数逻辑"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 146239,
+   "output": 10166,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 209.1
+ },
+ {
+  "resume_id": "R29",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 3,
+   "exp": 2,
+   "proj": 4,
+   "skill": 2,
+   "cert": 1,
+   "lead": 1,
+   "present": 2
+  },
+  "total": 50,
+  "tier_label": "竞争力较弱",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale中'GPA未披露，无法评估学业成绩'表述中立，但'本科金融专业基础可接受'是臆测——简历未明确说明金融专业如何支撑数据分析目标（违反臆测信息规则）→ 删除或改为'本科背景在evidence中未体现'",
+   "[exp] evidence中'Monitor market condition, collect corresponding sales data, and maintain the database'缺乏具体量化，但rationale声称'缺乏具体量化'作为扣分理由，这是循环逻辑——应该说明这段经历具体做了什么数据工作（如数据规模、周期、工具），而非因为没量化就判分低（违反分数与证据的直接推导规则）→ 要么补充具体职责，要么明确说明其他实习如何与数据分析无关",
+   "[proj] rationale中'基础2分+Tableau实战加2分=4分'的拆解没有依据——评分规则表（锚点）在审查材料中未提供，无法验证'Tableau实战'凭什么加2分（违反分数与锚点对应规则）→ 补充维度评分锚点说明（如'Tableau应用≥2个项目或企业级应用+2分'）",
+   "[skill] rationale称'SQL仅在技能列表中出现，无实战案例支撑'，但'Regression analysis in Excel'同样在skill列表中出现，为何Excel得分默认2分而SQL不见实战就扣分——逻辑不一致（违反跨维度一致性规则）→ 统一SQL和Excel的评分标准，或在evidence中补充SQL实战应用（如'在xxx项目中用SQL查询xxx'）",
+   "[skill] BeautifulSoup在简历中无任何应用记录，仅在skill列表提及，但scorer评价为'与数据分析核心工作关联度有限，未见在主业务中应用'——此时不应在ATS_keywords中列出'BeautifulSoup'（违反bonus加分'宁缺毋滥'规则）→ 从ats_keywords删除BeautifulSoup，或如有实际爬虫应用项目应补充evidence",
+   "[cert] score为1分且evidence为空，符合'未发现认证'的事实，但'bonus_checked'中保留'1'对应'Tableau仪表板搭建（+2分）'——这里'1'的含义混淆：是指有1个认证还是打分为1分？（违反bonus逻辑清晰规则）→ 澄清bonus_checked的含义，如果是'+2分项目数'应改为'[\"Tableau\"]'而非'[\"1\"]'",
+   "[present] rationale提及'Powe Point'拼写错误，但这是质量问题而非内容问题——score 2分是否足以反映拼写错误+表述冗余的综合影响？（违反分数与证据强度对应规则）→ 补充说明'简历表述质量问题（拼写、冗余）通常在present维度扣0.5～1分'的标准，或将present从2分调整至1分",
+   "[ats_keywords] 'VLOOKUP'和'Pivot Tables'在简历中未明确出现——evidence中仅有'Processed and validated economic data using Excel'，无具体提及VLOOKUP或Pivot Tables的功能应用（违反evidence逐字规则）→ 从ats_keywords删除未明确提及的Excel技能，或在项目描述中补充'使用VLOOKUP关联xxx表'的具体案例",
+   "[vague_phrases] 'Perform data analytics for hundreds of pieces of data and formulated comprehensive reports'被列为模糊短语，但'hundreds of pieces of data'本身是数据量化尝试——scorer在[exp]维度又批评'缺乏量化'，这里存在自相矛盾（违反内部一致性规则）→ 统一评价：要么认可'hundreds of pieces'作为基础量化指标，要么明确要求'千级以上'或'具体业务影响（如成本降低x%）'的量化标准",
+   "[bonus_checked] stage_note中解释'bonus仅保留1对应Tableau仪表板搭建（+2分）'，但未说明为何Python/Pandas/NumPy多个项目中体现却不计bonus——bonus规则应明确：是'技能+实战应用数≥2'还是'仅计最强项目'？（违反bonus评分规则清晰性）→ 补充bonus_checked的选择标准（如'仅计行业标配技能中的+2分项，Python虽多项但不单独加分'）"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 11,
+  "measured_usage": {
+   "input": 93005,
+   "output": 8436,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 212.8
+ },
+ {
+  "resume_id": "R16",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 5,
+   "exp": 4,
+   "proj": 4,
+   "skill": 4,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 78,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale 中 'Statstics' 为简历原文拼写错误，但 scorer 在 rationale 中应使用正确拼写 'Statistics'（违反专业规范）→ 建议 rationale 改为'波士顿大学数学专业统计方向，GPA 3.91/4.00，Dean's List 4 次，统计课程完整'，保持 evidence 原文不变",
+   "[exp] 第二条 evidence '09/2022 - 12/2022' 为助教经历，但 rationale 表述'实验室助教经验稳定'缺乏硬证据支撑——简历中未明确指出该职位属于'实验室'，且'稳定'为评价性描述而非事实描述（违反理由可推导规则）→ 建议改为'助教职位时长覆盖一整个学期'或删除'稳定'评价",
+   "[exp] rationale 中'融合统计建模、SQL、时间序列分析'的'融合'一词暗示三者在单一实习中紧密集成，但 evidence 中 SQL 和时间序列分析分别出现在不同的职责描述中，未明确证明三者是否在同一分析项目中协作（违反臆测规则）→ 建议改为'涵盖统计建模、SQL、时间序列分析等多项技能'",
+   "[proj] evidence 中'Student Performance Data Analysis Project'的描述'guardian's educational level is the most influential positive factor, while weekday alcohol consumption negatively affects student performance'为研究结论，但未明确说明使用了什么统计检验方法证实这一结论的因果性（仅提及'hypothesis testing'和'linear regression analysis'笼统应用）→ 虽不违反规则但建议在 proj 维度 rationale 中补充说明具体方法",
+   "[skill] evidence 列表中'[from exp]'和'[from proj]'为 scorer 添加的索引标注，但这些标注在原 evidence 中不存在（违反逐字规则）→ 建议删除这些标注符，仅保留简历原文的直接引用",
+   "[present] rationale 中'表达清晰具体'为评价性描述，而 evidence 中未明确体现'清晰具体'程度的量化或对比证据（如受众反馈、数据洞察的业务转化等）（违反理由可推导规则）→ 建议改为'通过 Jupyter Notebook 和 Power BI 呈现数据可视化与分析洞察'",
+   "[cert] evidence 为空数组，score 为 1 分——符合无证书的判断，但建议在 rationale 中补充'简历未提及或无'，以防未来信息补充时混淆（非违规但为严谨性建议）",
+   "[lead] 同样 evidence 为空，score 为 1 分。建议 rationale 改为'简历未提及团队领导或跨部门协调经历'以提高精准度"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 22,
+  "measured_usage": {
+   "input": 373359,
+   "output": 18260,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 378.4
+ },
+ {
+  "resume_id": "R21",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 3,
+   "skill": 4,
+   "cert": 1,
+   "lead": 3,
+   "present": 3
+  },
+  "total": 72,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] 时间线重叠矛盾（违反证据真实性规则）→ 简历显示\"Marketing Analyst Intern – Emotewell June, 2022 to August, 2022\"与\"Research Assistant – Berkeley Cognitive and Developmental Lab January, 2022 to August, 2023\"在2022年6-8月同时进行，但rationale声称\"职责递进：研究助理(2022.1-2023.8)→市场分析(2022.6-2023.8)\"，这两段重叠期间如何同时完成两份实习需要澄清或修正描述",
+   "[exp] \"Module Developer\"职责定位模糊（违反理由推导规则）→ rationale称其为\"职责递进\"中的第三阶段，但简历显示\"September, 2022 to Present\"，与同期的\"Data Scientist Intern – Decathlon Feb, 2023 to June, 2023\"时间关系不清，是否同时进行？建议理由中明确说明这是兼职教学项目还是全职工作，而非简单列入\"职责递进\"序列",
+   "[proj] 内容与exp存在重复且分类不当（违反维度独立性原则）→ rationale声称\"教学模块开发非自主创意项目\"并将其打3分，但evidence中\"Developed over 30 educational Jupyter notebook modules\"这一条在exp维度\"Module Developer\"中已完整出现，项目维度应展示独立创意作品而非工作职责的重复，建议删除或用不同的独立项目案例替换",
+   "[skill] SQL深度声明不足（违反证据支撑规则）→ rationale称\"覆盖SQL/Python数据清洗\"但evidence中仅见\"analyzing and cleaning data with SQL and Python on large datasets(3m+ lines)\"和\"Gathered user demographics and campaign performance through SQL and Python\"，两处均未显示具体SQL操作（如JOIN、子查询、窗口函数等复杂度），与gaps自述\"SQL复杂查询/多表关联缺乏具体描述\"矛盾，建议rationale诚实评价为\"基础SQL+Python清洗\"而非暗示有复杂查询证据",
+   "[lead] 量化缺陷（违反理由精准规则）→ rationale称\"规模清晰但缺外部认可度量证据\"，但\"500+参与者\"和\"20+场活动\"本身来源于简历\"500+ attendees\"和\"20+ successful events\"，描述为\"缺外部认可\"时未说明何谓外部（是指赞助商反馈、校级奖项还是社区评价？），建议明确指出缺什么类型的外部证据，而非模糊化",
+   "[present] 拼写错误已列但未体现在rationale中（违反审查完整性）→ gaps正确指出\"focuing\"应为\"focusing\"，但present维度的rationale中并未提及此错误，仅说\"存拼写错误\"\n后未具体说明位置和更正方案，建议rationale补充\"Healbridge简介中'focuing'应为'focusing'\"",
+   "[cert] 分数与锚点应验证（违反标准操作规则）→ cert打1分并evidence为空，按锚点推导正确；但建议rationale改为\"简历无证书/认证记录（Tableau认证、Google Analytics认证、SQL认证等均缺）\"以更明确说明对标岗位要求的具体缺口",
+   "[vague_phrases] \"Played a vital role in team development\"出处不当（违反证据定位规则）→ 该短语来自\"Director and Vice President – Korean Performance Group\"的招聘职责，但在lead维度中仅显示了Healbridge，建议指明这是KPG的模糊表述，\"actively participating in the recruitment process\"同样需要说明具体参与内容（如面试官、选角标准制定等），避免挂一漏万",
+   "[bonus_checked] 为空是否合理（违反加分项勤勉评估规则）→ gaps明确指出\"缺复杂SQL、独立项目、统计方法三项加分项证据\"，但rationale中未解释为何未勾选任何bonus（如\"Advanced SQL\"、\"Statistical Rigor\"、\"Solo Project\"），建议在bonus_checked中显示\"已评估但不符\"的项目列表，而非直接空置，以证明审查人员有认真检视加分项",
+   "[ats_keywords] 关键词\"Statistical Modeling\"可信度存疑（违反证据链接规则）→ 该关键词来自edu的\"Relevant Coursework\"，但exp中无任何关于统计建模方法论的应用证据（A/B测试处仅说\"执行\"而未涉及统计显著性检验、样本量计算等），建议将\"Statistical Modeling\"降级为可选或在exp中补充统计方法的实际应用以支撑此关键词"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 10,
+  "measured_usage": {
+   "input": 90298,
+   "output": 26217,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 480.4
+ },
+ {
+  "resume_id": "R26",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 2,
+   "proj": 2,
+   "skill": 2,
+   "cert": 1,
+   "lead": 1,
+   "present": 1
+  },
+  "total": 42,
+  "tier_label": "竞争力较弱",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale 中\"相关课程齐备\"为转述，简历原文应逐字引用课程名称（违反证据逐字规则）→ 改为直引：\"Econometrics with Python、SQL and Data Management、Machine Learning、Time Series 课程完整\"",
+   "[exp] evidence 缺失第二段实习的具体岗位名称和成果量化，仅写\"Jan 2022 - Apr 2022\"无雇主/岗位信息（违反证据完整性规则）→ 补全：添加第二段实习的岗位名称、公司名、具体贡献指标",
+   "[exp] rationale 中\"侧重机器学习建模而非SQL查询、报表等\"含有对简历未明写内容的臆测解释（违反不臆测原则）→ 改为客观描述：\"两段实习均为数据科学方向，缺乏SQL查询、报表开发、仪表板搭建等数据分析师核心交付物的明确记录\"",
+   "[proj] evidence 中\"Developed sales increment models using Logistic Regression and KNN, with Python-based interactive result visualization\"需确认是否为简历逐字原文，\"Python-based interactive result visualization\"措辞过于正式（疑似转述或编纂）→ 查验原简历并改为逐字引文，或删除该条证据",
+   "[skill] rationale 准确指出无具体应用场景，但应明确说明：SQL、Tableau 在 evidence 中仅作工具列表出现，未在 exp/proj 中展示应用案例（违反应用证据支持原则）→ 保持现有表述但补充：\"SQL和Tableau在工作经验和项目中均无实际应用记录\"",
+   "[skill] score=2 降分理由充分，但需确认：是否因缺乏应用证据而扣分，还是因工具列表不符合数据分析师岗位要求？若为前者，应在 rationale 中明确\"工具列表完整但缺乏应用证据\"；若为后者，应解释哪些工具（如TensorFlow/Keras）不符合数据分析师岗位（违反理由合规性）→ 建议改为：\"工具列表完整（包含SQL、Tableau等核心工具），但简历正文无具体应用案例支持\"",
+   "[present] evidence 中\"SKILLS标题重复出现3次\"需在简历原文中逐一位置确认，避免计数误差（违反证据精确性）→ 查验简历原文，确认重复出现次数并改为准确数字",
+   "[present] rationale 中\"DATA EXPERIENCE与SKILLS章节内容重复出现\"需补充证据：具体重复了哪些项目名称或技能描述（违反证据具体化规则）→ 改为：\"DATA EXPERIENCE与SKILLS章节中'Predict Student Performance from Game Play'和'Advertising Effectiveness Study'各出现两次；SKILLS标题重复[X]次\"",
+   "[bonus_checked] 空数组判断需二次确认：Kaggle Top 9% 是否确属建模竞赛而非分析竞赛？若简历未明确说明竞赛类型，建议以保守原则不计入加分项（遵循宁缺毋滥）→ 查验简历中Kaggle竞赛的具体描述，确认其性质是预测建模还是数据分析，若无明确标注则维持空数组",
+   "[整体逻辑] exp=2、proj=2、skill=2 的平行低分需交叉验证：三个维度均因\"缺乏应用证据\"而低分，但有无可能某一维度（如 skill）的低分源自工具选择不当而非应用缺失？（违反跨维度一致性）→ 建议逐维度澄清：exp 低分=工作经验不足+缺乏数据分析核心交付物；proj 低分=项目交付物单一+缺乏仪表板/报表；skill 低分=工具应用无证据，三者因果链条需明确区分"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 14,
+  "measured_usage": {
+   "input": 121922,
+   "output": 12499,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 259.4
+ },
+ {
+  "resume_id": "R30",
+  "model": "claude-haiku-4-5-20251001",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 3,
+   "proj": 3,
+   "skill": 2,
+   "cert": 1,
+   "lead": 3,
+   "present": 3
+  },
+  "total": 56,
+  "tier_label": "中等，需针对性提升",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[exp] evidence '\"Collaborated with team members to curate a dependable stock pool for further evaluation\"' - 此表述在简历中应为 'curate a dependable stock pool'，但 'dependable' 一词是否为简历原文？需确认简历是否明确使用了此形容词，否则涉嫌转述（违反证据逐字规则）→ 确认简历原文措辞，若为转述需改为简历原有表述",
+   "[exp] rationale 写有 '策略收益率、模型准确率等'，但这些内容简历中完全不存在。rationale 中不应该列举简历没有的期望信息，这属于臆测（违反理由合规规则）→ 将 rationale 改为：'量化分析实习职责相关，但缺乏量化成果指标和具体影响，与JD深度不符'，去掉臆测的指标类型",
+   "[proj] rationale 长度 '两个项目为学术课程作业，缺乏生产级别或商业应用证据，技术应用得当但未达4分上限' 为 34 字，此处可接受，但逻辑需强化：既然是课程作业为何得 3 分而非 2 分？rationale 需要解释为何给 3 分而非更低分（违反分数与锚点明确度规则）→ 建议改为：'两个学术项目缺乏生产证据和商业应用，技术选择恰当但影响范围局限，故评3分'",
+   "[skill] evidence '\"Technical: Python, C++, R, SAS, SQL, MATLAB\"' 和 '\"Microsoft Office Suite: Excel, Word, & PowerPoint\"' - 这些是简历中的技能列表。但 rationale 中声称 'SQL和BI工具（PowerBI/Tableau）缺失实际应用证据'，这是正确的；但 evidence 本身只有列举，没有应用证据。score 2 是否过严？按评分锚点，缺乏应用证据的纯列举通常得 1-2 分。如果 SQL 和 BI 工具都无应用证据，score 2 还是偏高，应该是 1 分（违反分数与锚点规则）→ 建议将 skill score 从 2 降至 1，理由：'仅列举技能堆栈，无任何项目或工作中的应用证据，不符合数据分析师岗位的 SQL 和 BI 工具核心要求'",
+   "[lead] rationale '两个项目担任Group leader，但项目为学术课程性质，实际领导范围和成果有限' - 这里定性为'范围和成果有限'，但用量词'有限'较为模糊。score 3 如何定义？按锚点，学术项目领导经验通常在 2-3 之间。如果没有任何量化成果或实际团队规模数据，3 分是否仍偏高？（违反分数与锚点清晰度规则）→ 建议补充 evidence 中是否有团队规模信息，若无则考虑降至 2 分，并调整 rationale 为更客观的描述",
+   "[present] rationale 列举了 vague_phrases 中的例子，但 rationale 本身 '部分表述模糊不清，缺乏量化具体成果；关键指标未量化，降低说服力' 为 28 字，可接受。但 score 3 与这个评价的匹配度有问题：如果'表述模糊、缺乏量化'，为何不是 2 分？score 3 通常代表'表述可改进但整体可读'，与此处描述的'模糊不清'存在矛盾（违反分数与评价一致性规则）→ 建议将 present score 从 3 降至 2，理由：'关键成果缺乏量化表述，行动与结果边界模糊，降低信服力'",
+   "[cert] score 1、rationale '简历未列举任何专业认证或证书' - 此处逻辑正确，evidence 为空也合理。此项无问题，但提醒：bonus_checked 空数组表示无证书加分，与此项一致，无矛盾。此项通过 ✓",
+   "[ats_keywords] 包含 'SQL'、'Data Visualization' 等，但按 pass/fail 标准，加分项（bonus_checked）应以实际应用为准。当前 bonus_checked 为空数组是正确的，因为 SQL 和 BI 工具在简历中无应用证据 ✓",
+   "[vague_phrases] 列表准确，但建议补充：'iteratively refined'（迭代次数/效果未量化）、'multiple statistical models'（模型个数和性能未给出）——这两个短语在 strong_phrases 中出现但实际上也很宽泛（不影响整体判分，但为优化建议）",
+   "[overall consistency] exp score 3、proj score 3、lead score 3 集中在同一分数，且均涉及学术/实习经历。这种模式合理，但需确认三个维度的分数是否反映了不同的评价维度。当前看，exp 和 proj 都因'缺乏量化'被打 3 分，这本身逻辑成立，但与 skill score 2、present score 3 的对比中，present 应低于 exp/proj（因为表述本身的问题），建议 present 降至 2 分（见前文质疑）"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 13,
+  "measured_usage": {
+   "input": 164734,
+   "output": 10963,
+   "cache_creation": 0,
+   "cache_read": 0
+  },
+  "seconds": 266.9
+ },
+ {
+  "resume_id": "R13",
+  "error": "AnthropicInvalidRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfX4cjqWythnxJ1XnVpfH'}"
+ }
+]

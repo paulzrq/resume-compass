@@ -1,0 +1,56 @@
+Bella Shi
+Washington, D.C. | [EMAIL] | [PHONE] linkedin 
+
+EDUCATION
+Georgetown University, College of Arts and Sciences	                                                                                      Washington, DC
+Master of Science in Data Science and Analytics                                                                                                                     May 2025
+Cumulative GPA: 4.0/4.0          
+Coursework: Data Science and Analytics  Natural Language Processing  Probabilistic Modeling and Statistical Computing
+
+Taiyuan University of Technology, College of Computer Science					                Taiyuan, China                                                        
+Bachelor of Engineering in Software Engineering & Bachelor of Arts in English                                                              June 2022
+Cumulative GPA: 3.7/4.0
+Coursework: Fundamentals of Artificial Intelligence  Machine Learning   Linux and Python Programming
+
+
+
+WORK EXPERIENCE
+Beijing Baizhi Education Technology	           	           		                         				    Beijing, China
+Software Engineer Intern             	            	                                                                                                          Aug 2021 – June 2022
+Utilized Chrome WebDriver to perform scraping from employment websites and obtained over 10,000+ job details
+Developed a web automation using real-world Chrome user profiles via Selenium to bypass website bot-detection
+Orchestrated an incremental web page scrolling mechanism, facilitating the data extraction across multiple web pages
+Clusting target clients by analyzing job market trends and graphically mapped the distribution of opportunities using Matplotlib and Pyecharts to xxxx.
+Collaborated with teams to interpret scraping requirements and data parsing algorithms; analyzed and optimized the performance of scripts to reduce execution time by 30%, enhancing the precision of the extracted information.
+Identifying salary distribution in Beijing district by utilizing and comparing  k-means, 聚类 algorithms in sklearn Python based on geni . Collaborating with the team to generate weekly report on latest market trend.
+
+PROJECTS
+Analyzing Global Mental Health indicators (In – Progress) Washington, DC.    			          Sep 2023 – Present
+Gathered (API), cleaned, and analyzed mental health data across different countries and years with Python and R
+Predicted mental health issues using various ML algorithms (Naïve Bayes), achieving 96% accuracy (see website) 
+
+Visualizing National Bells Festival in Washington DC (Hackathon)		                                  Aug 2023 – Aug 2023	
+Webscraped with BeautifulSoup and Requests library and gathered 192 contracted existing North America carillons
+Visualized Bells in Washington DC utilizing Tableau Dashboard and showcased on an GIS-enabled map interfaces
+
+City House Price Analysis System Based on Scrapy            		                                                              Tianjin, China
+Project Lead (Numpy, Pandas, Keras, and Scikit-learn)				                                  Mar 2022 – July 2022
+Led the production and deployment of a house price forecasting model using Django framework and Scikit-learn
+Curated a dataset of 100K+ house prices by implementing web scraping with the Scrapy framework; captured data from 8 regions in Chinese housing market spanning 5 years of transactions and engineered 14 predictive features
+Performed data pre-processing and exploration to clean, normalize data and created visualizations with Seaborn
+Random forest 
+Presented findings through a Webservice that integrates data from a MySQL database with HTML, CSS, JavaScript, jQuery, allowing ongoing business insights to be extracted from the house price forecasting model
+
+21st Century E-commerce System                                                                                                    		 Taiyuan, China
+Project Lead                                                     							      Aug 2021 – Feb 2022
+Built an e-commerce platform for users to trade products and managed the full-stack development modules
+Designed the platform database and assessed scalability requirements to better serve on future demand needs
+Developed using data pipeline MySQL and used Redis as a secondary storage to cache and speed up access reads
+Prototyped and executed front-end functionality, including registration, login, product display, and shopping carts
+
+SKILLS AND INTERESTS
+Computer: Python, R, SQL, HTML, CSS, Linux, Git, MySQL, Oracle, C, C++, and Bash
+Packages: Numpy, Pandas, Scikit-learn, Scipy, Seaborn, Tidyverse, ggplot2, dplyr, tidyr, NLTK, BeautifulSoup, Requests
+Machine learning
+Languages: Native in Mandarin, Fluent in English
+Interests: Swimming, tennis, boxing, photography (film and digital), k-dramas, piano, acting/drama, traveling

@@ -1,0 +1,60 @@
+Sichen Lyu 
+Email: [EMAIL] Tel: [PHONE] Ithaca, NY LinkedIn 
+EDUCATION 
+Cornell University, College of Computing and Information Science      August 2022 – December 2023(Expected) 
+Master of Professional Studies, Applied Statistics, GPA: 3.7 
+Coursework: Probability Models & Inference, Natural Language Processing,  
+Linear Models with Matrices, Intro to Machine Learning, Learning with Big Messy Data, Topics in Data Science 
+Beijing Normal University, School of Mathematical Science                       September 2018 – June 2022 
+Bachelor of Science, Mathematics and Applied Mathematics, GPA: 3.7                           
+Coursework: Mathematical Analysis, Advanced Algebra, Probability, Mathematical Statistics,  
+Multivariate Statistical Analysis, Statistical Learning, Python Programming and Data Analysis 
+Honors & Awards:  
+Outstanding Graduates of BNU (Top 3%) & Outstanding Graduates of Beijing (Top 1%)  
+SKILLS 
+⚫ Data Science Techniques: SQL, Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Pytorch, 
+HuggingFace), R, GitHub, pipenv, Tableau, AB-Testing, MLFlow, AWS 
+⚫ Machine Learning: Linear Regression, Logistic Regression, Decision Tree, Random Forest, XGBoost, LightGBM, 
+SVM, CNN, RNN, LSTM, Transformer, BERT, GPT, K-Means, PCA, Natural Language Processing 
+WORK EXPERENICE 
+IBM                                         May 2023 - August 2023 
+Data Scientist Intern - Chief Analytics Office, Product Management Portfolio 
+Sentiment Analysis Improvement Project:  
+⚫ Constructed dataset using ChatGPT API to select raw data, leveraging the team to complete a manual labeling to 
+obtain the labeled dataset, conducted data pre-processing on the text dataset 
+⚫ Implemented HuggingFace BERT model (with fine-tuning) & IBM Generative AI model for sentiment 
+analysis on test dataset, conducted experiments of overall performance, run-time, and accessibility to evaluate 
+candidate models. Accomplished significant improvement of the accuracy (from 41% to 82%) and F1-score 
+(from 38% to 73%), completed end-to-end deployment 
+⚫ Delivered presentation to demonstrate IBM GenAI model on the department internal learning session, shared 
+tech documentation and model usage demo 
+Jing Dong Tech                                                           October 2021 - February 2022 
+Data Scientist Intern     
+⚫ Implemented XGBoost model to perform classification on telemarketing message campaign to select high 
+potential customers, extracted and built high related features, conducted under-sampling, outlier detection, 
+binning to construct a dataset, ended up receiving a 65% precision score with a deployed model online 
+⚫ Accomplished 18% higher new customers gain by using SQL, automated scheduling platform, BI tools to 
+provide data support, generate insight and corresponding suggestions for business operation teams to complete 
+precise marketing in the ‘new 200 customers’ promotes vitality project  
+Beijing Rockey Tech                                     February 2021 – May 2021 
+Data Analyst Intern  
+⚫ Performed AB-Testing to select a better version of the product (login process, different UI design), ended up 
+with 15% higher on evaluation rate (login completion rate, engagement of specific functions) 
+⚫ Created user portrait of the company’s Apps by using K-means, PCA based on chatting history features 
+⚫ Extracted data from database using SQL and presented insights through data for decision making, visualized data 
+using Tableau to monitor the performance (DAU, WAU, CTR) of the company’s Social Apps 
+PROJECTS 
+NLP: Name Entity Recognition              September 2022 – October 2022 
+⚫ Designed and Constructed sequence tagging models of Hidden Markov Model and implemented the Viterbi 
+algorithm for the Name Entity Recognition task on CoNLL~2003 data set and achieved a ~43 F1-score 
+⚫ Designed and Constructed FFNN (Feed Forward Neural Network) and RNN (Recurrent Neural Network) 
+using Pytorch for the Name Entity Recognition task on CoNLL~2003 data set and achieved a ~45 F1-score 
+Classification: Business Case Win & Loss Prediction       December 2020 – January 2021 
+⚫ Built a classification model to predict the label: Win or Lose, for business cases of a virtual company and 
+investigate the driver variables to the target label 
+⚫ Constructed new features based on Product Category, Quote & Customer Num, Price, Date, Industry etc. given 
+by the dataset; outliers detection, binning, dummy encoding conducted in feature engineering, utilized 
+Matplotlib API for data visualization to display the relationship between predictor variables and target variables 
+⚫ Implemented Random Forest, XGBoost, LightGBM for classification and reached a score of ~76 F1-score 
+after hyperparameter tuning (randomized search CV used), drivers of target are indicated by the feature 
+importance of the tree-based model used 

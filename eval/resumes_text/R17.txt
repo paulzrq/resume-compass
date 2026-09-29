@@ -1,0 +1,44 @@
+Xue Qin
+[EMAIL] | [PHONE] | https://www.linkedin.com/in/xue-qin-sherry/ | Arlington, VA, US 
+
+education
+Georgetown University	Washington, DC
+Master of Data Science and Analytics	Expected 05/25
+GPA: Pending, currently in first semester of program.
+ 
+University of Minnesota, Twin Cities	Minneapolis, MN
+Bachelor of Science in Business | Finance (Major); Computer Science (Minor); German (Minor) 	05/23
+GPA: 3.87/4.0 (Dean’s list from 2020-2022)
+Honors & Awards: Top 6 in the China Bridge Case Competition, Top 10 in the Tri-college Math Competition
+
+skills 
+Technical Skills: Python, R, SQL (MySQL, PostgreSQL), Java, HTML, CSS, MATLAB
+Libraries/Framework: Pandas, NumPy, Scikit-learn, Beautifulsoup, Matplotlib, SciPy
+Machine Learning: Covariance matrix optimization, Classification (Random Forest, KNN), Regression Modeling (linear, sparse, logistic, regularized), clustering(K-means)
+Stats & Experimentation: Time-Series Analysis, hypothesis testing, Monte-Carlo simulation, financial forecasting, Covariance and correlation modeling
+Language Skills: Chinese (native), English (proficient), German (proficient), Japanese (elementary)
+ 
+Work experience
+Sichuan Port and Shipping Group Yungang Technology Co., Ltd | Data Operation Intern	06/23 - 07/23
+Extracted and analyzed 300+ data outputs using SQL, crafted 100+ charts and 5+ data dashboards with Tableau, and reported key insights in daily meetings, achieving a 20% improvement in data demands solution efficiency.
+Developed a Python-based accounting write-off model, achieving a 50% reduction in processing time and enhancing efficiency for over 5000+ Accounts Receivable (A/R) write-off entries.
+Led a team of 7, collaborating with senior data analysts to clean and validate data from 300+ historical trading records across 5 branch companies by Python, integrating the data into the SPSI trading system, ensuring seamless data flow and accuracy.
+Diagnosed and rectified system bugs in collaboration with the IT department, enhancing data architecture reliability, and leveraging data insights to recommend and contribute to the blueprint of a more scalable and efficient database infrastructure.
+
+Tao Capital Management (Beijing) | Data Research Intern	06/22 - 08/22
+Employed web crawler for 1000+ medical companies' data, underwent data cleaning, and utilized Python for in-depth evaluation of company’s industrial classification, strength, and performance, highlighting 5 potential high-value investment targets.
+Processed and analyzed 3000+ global medical investment events using the Python Jieba package for text cleaning, executed Natural Language Processing (NLP) to distill key information and insights from investment events.
+Applied the Naive Bayes algorithm to forecast investment trends and leveraged Tableau for intuitive data visualization, presented key insights in the topic meetings through slides, ensuring stakeholders were well-informed of potential market shifts.
+Spearheaded industry background research cross-functionally, meticulously executed due diligence checks, and authored 8 comprehensive industry analysis reports, aiding the firm in making data-informed decisions.
+ 
+Research projects
+Apple Products Popularity Analysis | Georgetown DSAN Program Course Project	09/23 - present
+Scraped and aggregated 4000+ text-based opinions on Apple Products from Weibo, using Python, R, NewsAPI, and TwitterAPI, conducted tokenization and stopword removal, leading to an Exploratory Data Analysis (EDA) and sentiment analysis.
+Acquired mobile phone product data, developed a supervised Bayesian model, and fine-tuned it using Variance Threshold and Correlation feature selection, resulting in an 8% increase in the test accuracy to 90%.
+Engineered a Decision Tree model for both regression and classification tasks, effectively gauging customer purchase intentions.
+Generated a data-driven report with actionable insights into market dynamics, employing Association Rule Mining (ARM) to discern customer preferences for Apple products and those of competitor brands.
+ 
+E-commerce Sales Analytics project | Supervised by Kinfey Lo, Cloud Advocate, Microsoft (China) Co., Ltd.	10/22 - 12/22
+Conducted comprehensive data cleaning and EDA on a vast 4-year dataset comprising 50,000+ e-commerce sales orders using Python, pinpointed a 15% YOY sales growth, and revealed key performance metrics segmented by year, branch, and quarter.
+Crafted an RFM (Recency, Frequency, Monetary) model to segregate customers based on engagement, loyalty, and contribution.
+Presented insights from the RFM model through compelling visualizations in PowerBI, which provided crucial business insights that informed marketing strategies, leading to a 25% increase in monthly customer retention.

@@ -307,5 +307,179 @@ Collected: 2026-09-21
 - Practical experience applying software engineering best practices in a robotics codebase
 - Familiarity with edge compute architectures
 
+## JD 13: Embedded Engineering Intern (Summer 2026), Zipline (drone delivery / aerial autonomous robotics)
+Source: Zipline careers listing (via Techstars job board), https://jobs.techstars.com/companies/zipline/jobs/63567787-embedded-engineering-intern-summer-2026
+Collected: 2026-09-22
+
+### Responsibilities
+- Own an end-to-end embedded systems project on Zipline's autonomous delivery aircraft or ground systems (e.g., building an RF radio test setup to validate antenna performance, including signal injection, HIL integration, and simulation-based worst-case testing)
+- Develop firmware for a real-time coprocessor managing high-frequency signals and I/O expansion for a Linux-based camera subsystem, including board design revisions and signal-integrity/jitter/clock-alignment validation
+- Build a high-data-rate voltage/current telemetry system running continuously in an RTOS using ADCs, I2C devices, and GPIO interrupts; test rigorously and deploy to global production
+- Prototype a new perception system by integrating compute modules and sensors, flying a proof-of-concept quickly to de-risk the approach
+- Collaborate with operations teams to improve ground-system launch/landing behavior, validating changes via bench-top testing and real flight tests before global rollout
+
+### Basic Requirements
+- Completed at least the second year of undergraduate study (Master's/PhD students also eligible)
+- Pursuing a degree in Electrical Engineering, Computer Science, or Computer Engineering
+- Has designed, built, and/or deployed electromechanical systems or robots, inside or outside the classroom
+- Proficient in C, C++, Python, or Rust, with experience developing software for a real-time operating system or embedded Linux
+- Familiar with core EE concepts: reading schematics, debugging with an oscilloscope, and communication protocols (CAN, SPI, UART, etc.)
+
+### Bonus / Preferred Qualifications
+- Hands-on robotics competition or independent build experience (e.g., FRC/VEX-style projects) demonstrating physical electromechanical iteration, not just classroom/simulation work
+- Prior experience integrating sensors and compute modules into a working hardware+software prototype (perception/telemetry pipelines) rather than theoretical design only
+- Comfort receiving code-review feedback to write efficient, well-tested, low-technical-debt embedded code
+- Cross-disciplinary collaboration experience spanning electrical, firmware, and operations/mechanical stakeholders on a shared system
+
+## JD 14: Internship in Motion Generation for Agricultural Robotics, ZEISS (agriculture robotics — field automation, greenhouse deployment)
+Source: ZEISS Careers (Workday) posting — https://zeissgroup.wd3.myworkdayjobs.com/en-US/External/job/Internship-in-Agriculture-Technology-and-Robotics--f-m-x-_JR_1049137
+Collected: 2026-09-23
+
+### Responsibilities
+- Implement and evaluate state-of-the-art motion planning and control approaches for highly unstructured environments (e.g., greenhouses)
+- Develop, refactor, and maintain motion generation pipeline building blocks within a large-scale robotics codebase
+- Test and validate developed approaches on real robotic hardware deployed in greenhouse environments
+- Collaborate with an interdisciplinary, international robotics team working on agricultural automation systems
+
+### Basic Requirements
+- Pursuing a Master's degree in Robotics, Computer Science, Electrical Engineering, Mechatronics, Data Science, or a related field
+- Solid understanding of robotics fundamentals: kinematics, dynamics, motion planning, control theory, optimization, or machine learning
+- Proficiency in C++ and Python
+- High motivation and openness to learning new skills
+- Strong teamwork ability in interdisciplinary, international settings
+- Fluent English
+
+### Bonus / Preferred Qualifications
+- Hands-on experience with ROS 2, Pinocchio, Drake, MoveIt, Tesseract, ros2_control, or LeRobot
+- German language skills
+
+## JD 15: Co-op Hardware Engineer, Symbotic (warehouse/logistics robotics — mobile robot fleet hardware)
+Source: Official Symbotic careers page (Workday) — https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976
+Collected: 2026-09-24
+
+### Responsibilities
+- Support hardware engineering teams in designing, documenting, building, testing, and debugging Symbotic's autonomous mobile robot ("SymBot") hardware used in warehouse automation systems
+- Create mechanical parts and assemblies in CAD for various manufacturing processes (machining, casting, sheet metal)
+- Assemble electromechanical components and subsystems using hand tools and machine tools
+- Write Python scripts to support robot motion control and test automation
+- Debug mechanical and electro-mechanical systems, including root-cause analysis of hardware failures
+- Manage Bills of Materials (BOMs) and Engineering Change Orders (ECOs) through the product lifecycle
+- Support PLC hardware/software implementation for robot and system-level controls
+- Develop test plans and execute reliability/validation testing on hardware prototypes
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in Systems, Robotics, Mechanical, Electrical, Computer Science, or a related engineering field
+- Familiarity with Python
+- Strong analytical and problem-solving skills
+- Strong written and verbal communication skills
+- Valid driver's license; willingness to travel up to 10%
+
+### Bonus / Preferred Qualifications
+- Experience with programmable logic controllers (PLC)
+- Proficiency with SolidWorks or equivalent 3D CAD software
+- Knowledge of GD&T (Geometric Dimensioning & Tolerancing) and engineering drawing standards
+- Familiarity with manufacturing processes such as machining and sheet metal fabrication
+- Prior hands-on experience testing robotics or automation systems
+
+## JD 16: Mechanical Engineering Co-Op (Fixed Term), Blue Origin (Honeybee Robotics division) (space/planetary-exploration robotics (Mars rover mechanisms and In-Situ Resource Utilization systems) — a domain not represented elsewhere in this file)
+Source: Blue Origin careers page (Workday job listing) — https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Los-Angeles-CA/Mechanical-Engineering-Co-Op--Fixed-Term-_R71542
+Collected: 2026-09-25
+
+### Responsibilities
+- Support systems design, development, fabrication, and testing of various mechanical, electromechanical, and electrical systems for planetary exploration hardware (e.g., Mars rover mechanisms, ISRU systems)
+- Draft, update, and procure technical documents including mechanical part/assembly drawings, electrical schematics, and wiring diagrams
+- Perform original part design and/or selection of commercially available off-the-shelf (COTS) components
+- Take a hands-on learning approach, contributing tangibly to product/technology development efforts
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's degree program, preferably in Mechanical Engineering or a related field
+- Hands-on experience with hardware: mechanical assembly (fastening, power tools, machining) and/or electrical workmanship (wiring, soldering, crimping)
+- Proficiency in Microsoft Office applications (Excel, PowerPoint)
+- Must be a U.S. citizen/national, permanent resident, or otherwise authorized to work under U.S. export control regulations
+
+### Bonus / Preferred Qualifications
+- Coursework or experience in Strength of Materials, Statics/Dynamics, Basic Control Theory, or Motor Control
+- Onsite, hands-on role building/testing hardware bound for extreme planetary environments — full design-to-fabrication-to-test lifecycle rather than simulation-only work
+
+## JD 17: 2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering, Caterpillar Inc. (heavy-equipment / construction & mining autonomy — physical AI for autonomous machines, a distinct sub-domain from existing logistics/warehouse/medical/space robotics entries)
+Source: Caterpillar Careers — https://careers.caterpillar.com/en/jobs/r0000392394/2027-summer-corporate-intern-autonomy-intelligent-systems-engineering/
+Collected: 2026-09-26
+
+### Responsibilities
+- Work within Caterpillar's Physical AI Platform for Construction Autonomy team on technologies enabling machines to perceive, understand, and interact with the physical world autonomously
+- Contribute to machine perception, autonomous decision-making/navigation, machine control, digital twins, or simulation for autonomous construction/mining equipment
+- Support development and testing of robotics and automation software/architecture for real jobsite deployment
+- Collaborate cross-functionally with robotics, software, and systems engineering teams on safer, more productive autonomous jobsite operations
+- Participate in a structured 12-week, full-time technical rotation with mentorship from Caterpillar engineers
+
+### Basic Requirements
+- Full-time enrollment at an accredited 4-year university in Computer Science, Robotics Engineering, Mechatronic Engineering, or a related field
+- Minimum 12 completed credit hours prior to internship start
+- Cumulative GPA of 3.0 or higher
+- Able to relocate and work onsite five days/week at a U.S. site (IL, PA, TX, or CA)
+- U.S. work authorization; no visa sponsorship offered
+
+### Bonus / Preferred Qualifications
+- Prior technical internship, co-op, or research experience
+- Technical proficiency in Machine Learning/Deep Learning, C++, MATLAB, or Simulink
+- Leadership experience or active participation in technical student organizations
+- Genuine interest in autonomy and physical AI applied to heavy machinery
+
+## JD 18: Mechanical Engineering Intern – Innovation, iRobot (consumer/home robotics — vacuum robot R&D)
+Source: iRobot internship posting (Bedford, MA), archived via Built In job listing cache — https://builtin.com/job/mechanical-engineering-intern-innovation-spring-summer/8578226
+Collected: 2026-09-27
+
+### Responsibilities
+- Work under the guidance of iRobot engineers to plan, execute, and document innovation workstreams
+- Evaluate robotic components and subsystems through hands-on testing
+- Build and repair physical prototypes for experimental purposes
+- Provide feedback, analyze, and debug performance-related issues found during testing
+- Support design modifications using CAD and participate in design review sessions
+- Examine and characterize robotic component performance
+- Fabricate test fixtures to support engineering teams
+- Develop test metrics and run tests that evaluate new designs
+- Investigate emerging technologies relevant to consumer robotics
+- Document robot performance against specified engineering requirements
+
+### Basic Requirements
+- Currently enrolled in a bachelor's degree program in mechanical engineering
+- Outstanding academic record
+- Broad coursework spanning multiple engineering disciplines
+- Hands-on experience with machine shop tools and additive manufacturing (3D printing)
+- Proficiency with CAD software, specifically CREO
+- Able to work full-time (40 hrs/week) on-site in Bedford, MA for the internship term
+- U.S. work authorization (no visa sponsorship available)
+
+### Bonus / Preferred Qualifications
+- Mandarin fluency a plus
+- Strong independent problem-solving ability
+- Excellent written and verbal communication skills
+- Proven organizational and project management skills
+- Demonstrated teamwork and interpersonal effectiveness
+
+## JD 19: Electrical System Integration Engineer (Summer 2026 Internship), Reliable Robotics (autonomous aviation/aircraft automation systems)
+Source: The Muse (mirrors official Reliable Robotics posting) — https://www.themuse.com/jobs/reliablerobotics/electrical-system-integration-engineer-summer-2026-internship
+Collected: 2026-09-28
+
+### Responsibilities
+- Join the System Integration Engineering team and own a project through the planning, assembly, and testing phases of development
+- Work on advanced electrical systems integration in both lab settings and on real aircraft
+- Read and work from electrical wiring schematics to support system build-up and verification
+- Test and validate electronic systems, including designing/operating electrical test stands
+- Write and run code in support of test and integration tasks
+- Document results, contribute technical write-ups, and collaborate with engineers across disciplines
+
+### Basic Requirements
+- Currently at Junior or Senior standing pursuing a degree in Electrical Engineering or equivalent practical experience
+- Solid grasp of electrical engineering fundamentals
+- Ability to read and interpret electrical wiring schematics
+- Prior experience testing electronic systems and experience writing and running code
+
+### Bonus / Preferred Qualifications
+- Hands-on electronics experience gained through coursework, robotics/engineering clubs, or personal hobby projects
+- System architecture design and engineering trade-off analysis skills
+- Capability to independently design and operate electrical test stands
+- Strong measurement, technical writing, and data analysis skills
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline splits along two axes rather than one: postings skewing "robotics software" (Amazon) want general-purpose programming languages (Python/C++/Java/Go/Rust), data structures/algorithms, and object-oriented design, while postings skewing "robotics hardware/automation" (Cepheid, Bastian, ASML) want the ability to read electrical/pneumatic/mechanical schematics, hands-on familiarity with servo systems, sensors, vision systems and PLCs, and CAD tool exposure (SolidWorks, AutoCAD/AutoCAD Electrical) — a resume aimed at this field should be scored on whichever axis (or both) it targets rather than penalized for lacking the other. Hard filters are explicit and non-negotiable in several postings: J&J sets a minimum 3.0 GPA and a 50-mile residency radius, Bastian and J&J require U.S. work authorization without sponsorship, Amazon requires enrollment in a STEM bachelor's-or-higher program and age 18+, and ASML flags export-control/citizenship-sensitive access — these should be treated as gating criteria in the rubric (fail/flag if unmet) rather than weighted alongside soft skills. Class standing and major alignment matter concretely (ASML wants 2+ years completed toward ME/EE/Mechatronics/Physics; Bastian wants EE/CE majors specifically), so major-relevance and progress-toward-degree should be scored fields, not just presence of "engineering" somewhere on the resume. Tooling/coursework signals that function as differentiators rather than requirements — PLC coursework or a prior internship (Bastian), prior technical internship or open-source contribution (Amazon), FIRST Robotics program history (J&J), cleanroom/lab troubleshooting experience (ASML) — should be scored as bonus points that boost a candidate above baseline, not as required fields. Finally, soft/durable skills (communication, independent project management, troubleshooting, adaptability) appear in nearly every posting as either a basic requirement or strong preference, suggesting the rubric should reserve meaningful weight for evidence of self-directed technical projects or team-based engineering work (e.g., FRC/FSAE, senior design, robotics club) as a proxy for exactly these traits, since none of these employers can verify them from a resume alone beyond such project evidence.

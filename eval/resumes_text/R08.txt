@@ -1,0 +1,46 @@
+Yunhui Zhu
+Los Angeles, CA |  [PHONE] | [EMAIL] | www.linkedin.com/in/yunhui-zhu
+EDUCATION
+University of Southern California                                                                                                     	Los Angeles, CA
+MS in Analytics (Data Science)                                                                                                                       	Exp. May 2025
+Relevant Courses: Data Management for Analytics, Predictive Analytics, Data Warehousing
+University of British Columbia                                                                                                     	Vancouver, Canada
+BS in Computer Science combine Statistics                                                                                     	Apr 2023
+Dean's Honour List  Winter Session 2019 - 2020, Winter Session 2021 - 2022 
+Relevant Courses: Statistical Machine Learning, Advanced Relational Databases, Intermediate Visualization, Intermediate to Probability, Intermediate Data Structures and Algorithms, Advanced Statistical Analysis 
+
+SKILLS
+Technical: Python (Pandas, Numpy, ggplot2, Plotly,), SQL, R, Java, C, TypeScript, JavaScript, HTML, CSS, C++, PHP
+Tools: Microsoft suits, Tableau, R Studio, MySQL, SnowFlake, IntelliJ, WebStorm, LaTex, GitHub, Git
+Machine Learning: Regression, Decision Trees, Random Forest, KNN, K-Means Clustering, PCA, Neural Network, ANOVA
+
+WORK  EXPERIENCE
+Byte Dance, Data Analyst Intern | Beijing, China                                                                        	Jul 2022 - Sep 2022
+Collected and analyzed online and offline Maternal and Baby products data, revealing that baby clothes constitute 60% of the e-commerce market share, providing insights to guide strategic decisions aimed at expanding online product offerings
+Enhanced data accessibility through Python-based cleaning, exploratory analysis, and visualization of daily live-streaming sales data with Plotly, resulting in a significant 3% monthly revenue increase and enabling strategic product adjustments
+Authored 3 business data analysis reports including tracking and in-depth analysis of 5 abnormal situations, recommending user interface improvements to enhance upcoming month's business operations
+Zhongke Big Data Academy, Backend Developer Intern  | Zhengzhou, China                            	Jul 2021 - Sep 2021
+Contributed to create an Intelligent water conservancy application, chiefly focusing on setting up database connections
+Implemented MySQL for data extraction and transformation, while creating an intuitive user interface with advanced search and selection capabilities in the Intelligent Water Conservancy app, setting the stage for its continued development
+Executed comprehensive industry research on the state of smart water conservancy in China, leading to the identification of 2 critical challenges, and put forward some suggestions for the corresponding problems
+
+ACADEMIC PROJECTS
+Dominance in Free Stall Housed Dairy Cattle with R                                                                	Jan 2023 - Apr 2023
+Led a team to process, filter and present over 180,000 data points for a 48 dairy cow dataset from animal welfare clients
+Applied Spearman's rank correlation and Elo-rating algorithm to investigate 2 research hypotheses: one focused on the THI factor and the other tested the reliability of the dataset, revealing a 60% reliability rate for water bin data 
+Presented findings to clients through an engaging poster and PowerPoint format and conveyed detailed results to professors via official reports, highlighting a demonstrated proficiency in clear and effective communication
+Personal Habits VS. Sleep Patterns              					                       	Jan 2023 - Apr 2023             
+Guided a team in collecting and collating datasets to visualize the relationship between individuals’ sleep patterns and lifestyles using JavaScript with d3.js, CSS, and HTML
+Produced user-friendly and interactive visualizations, including a doughnut chart, scatter plot, and heatmap, effectively illustrating the influence of factors on sleep patterns and provide actionable recommendations to stakeholders
+Campus Explorer                                                                                                                                              Sep 2022 - Dec 2022
+Oversaw the team of 3 members to complete the design of a website that contains information on all UBC's courses and lecture buildings which can be updated continuously when new dataset files are provided
+Employed a technology stack comprising TypeScript for front-end, PHP for back-end, and HTML/CSS for user interface
+Developed SQL queries to enable users to seamlessly search, select, and access the desired information on the website
+
+EXTRA-CURRICULAR 
+USC SWE, Member | Los Angeles, CA                                                                                             	Sep 2023 - Present
+Cultivated outstanding in-person and email communication skills through extensive interactions with over 20 fellow members, a vital asset for fostering strong team collaboration and ensuring effective information exchange
+Strengthened time management and organizational skills by balancing academic commitments with active involvement in attending conferences
+UBC Data Science Club, Member | Vancouver, Canada 					              Sep 2021 - Apr 2023 
+Participated in brainstorming sessions to identify and succinctly summarize the most pertinent and trending data science-related topics, a practice for staying abreast of industry developments and fostering innovative solutions
+Organized the club members to work collaboratively on the projects in cooperation with faculty members

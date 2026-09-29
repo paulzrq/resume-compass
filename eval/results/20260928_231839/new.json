@@ -1,0 +1,27 @@
+[
+ {
+  "resume_id": "R01",
+  "dimension_scores": {
+   "edu": 4,
+   "exp": 4,
+   "proj": 4,
+   "skill": 5,
+   "cert": 1,
+   "lead": 1,
+   "present": 4
+  },
+  "total": 83,
+  "tier_label": "有较强竞争力",
+  "revision_rounds": 2,
+  "critic_pass": false,
+  "critic_feedback": [
+   "[edu] rationale中'名校'的表述缺乏证据支撑，evidence仅显示'Master of Quantitative Finance'和课程列表，未包含学校名称或排名信息，属于臆测简历未明确提供的信息（违反rationale需从evidence直接推出的规则）→ 删除'名校'措辞，或补充能证明学校声誉的具体证据（如学校全称、QS排名等）",
+   "[skill] score=5为满分档，但rationale仅泛泛提到'掌握主流工具'，未结合exp/proj中具体工具应用深度（如是否体现某工具的高阶用法或独特贡献）来佐证满分合理性，5分需要更硬证据支撑区分度→ 补充说明工具组合的稀缺性或深度应用证据，或考虑下调至4分"
+  ],
+  "round1_scores": {},
+  "final_snap_scores": {},
+  "n_snapshots": 0,
+  "api_calls": 11,
+  "seconds": 167.9
+ }
+]
