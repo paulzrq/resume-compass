@@ -225,6 +225,7 @@ def report_node(state: AgentState) -> dict:
     scores = {k: (v or {}).get("score", 0) for k, v in dims.items()}
     field = state.get("field") or {}
     framework = scoring.load_framework()
+    resume_text = state.get("resume_text", "")
 
     weights = field.get("weights") or {}
     base = sum(weights.get(k, 0) * (scores.get(k, 0) / 5) for k in weights)
@@ -243,6 +244,15 @@ def report_node(state: AgentState) -> dict:
                                for k, v in dims.items()},
         "dimension_evidence": {k: (v or {}).get("evidence", [])
                                for k, v in dims.items()},
+        # 和老链路 scoring.score_resume() 一样的确定性引用校验：
+        # 渲染层（网页/PDF）靠这个字段决定打不打"[未核实]"标记。
+        # 之前漏了这个字段，导致 Agent 模式下所有引用都被标成未核实。
+        "dimension_evidence_verified": {
+            k: [scoring._quote_in_resume(resume_text, q)
+                for q in ((v or {}).get("evidence") or [])
+                if isinstance(q, str) and q.strip()]
+            for k, v in dims.items()
+        },
         "ats_keywords": out.get("ats_keywords", []),
         "vague_phrases": out.get("vague_phrases", []),
         "strong_phrases": out.get("strong_phrases", []),
