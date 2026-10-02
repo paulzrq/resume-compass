@@ -208,7 +208,7 @@ def run_new(rid, text, graph, field, model):
         "critic_feedback": final_state.get("critic_feedback", []),
         "critic_corrections": final_state.get("critic_corrections", []),
         "round1_scores": dim_of(snaps[0] if snaps else None),
-        "final_snap_scores": dim_of(snaps[-1] if snaps else None),
+        "final_snap_scores": dict(fr.get("dimension_scores") or {}),
         "n_snapshots": len(snaps),
         "api_calls": CALL_COUNT["n"] - calls_before,
         "measured_usage": _usage_delta(usage_before),

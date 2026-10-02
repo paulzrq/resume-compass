@@ -34,4 +34,5 @@ class AgentState(TypedDict, total=False):
     critic_pass: bool            # critic 是否放行
     critic_corrections: list     # critic 直接修正的分数（v2：不再打回重跑）
     revision_round: int          # scorer 已跑的次数（含初次）
+    eval_snapshots: list         # Preserve scorer snapshots used by the offline evaluation harness.
     final_result: Optional[dict]  # report_node 组装的最终结果（输出）
