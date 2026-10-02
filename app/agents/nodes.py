@@ -44,7 +44,7 @@ def plan_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL) -> di
     except NotImplementedError:
         return {"plan": list(_FALLBACK_PLAN)}  # FALLBACK：prompt 未实现时全走 anchor_only
     raw = _call_llm(api_key, model, system_prompt,
-                    "请输出本份简历的取证计划 JSON 数组：")
+                    "Output the evidence-gathering plan JSON array for this resume:")
     plan = _parse_json_array(raw)
     keys = {d["key"] for d in scoring.load_framework()["dimensions"]}
     strategies = {"anchor_only", "jd_grounded", "deep_dive", "cross_check", "conservative_skip"}
@@ -54,7 +54,7 @@ def plan_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL) -> di
                or not isinstance(p.get("jd_queries"), list)
                or not all(isinstance(q, str) for q in p["jd_queries"]) for p in plan)
         or {p["dimension"] for p in plan} != keys):
-        raise ValueError("取证计划必须完整覆盖七个维度，且策略和检索词格式正确")
+        raise ValueError("The evidence-gathering plan must cover all seven dimensions with valid strategies and query formats")
     return {"plan": plan}
 
 
@@ -122,7 +122,7 @@ def _extract_message_text(content) -> str:
 
 def _validated_output(data, field):
     if not isinstance(data, dict):
-        raise ValueError("评分结果必须是 JSON 对象")
+        raise ValueError("The scoring result must be a JSON object")
     data = deepcopy(data)
     # Optional report annotations may be absent; dimensions must never be defaulted.
     for key in ("ats_keywords", "vague_phrases", "strong_phrases", "strengths", "gaps", "bonus_checked"):
@@ -146,19 +146,19 @@ def score_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL,
     except NotImplementedError:
         # FALLBACK：prompt 未实现时的最小指令（能跑通，不保证质量）
         system_prompt = (
-            "你是简历打分助手。可用工具：get_dimension_rubric 查评分锚点，"
-            "search_jd_library 检索 JD 参考，verify_quote 校验引用。\n"
-            "对 edu/exp/proj/skill/cert/lead/present 七个维度逐项打 1-5 分，"
-            "先摘证据（逐字摘自简历）、再写理由（中文35字内）、最后打分。\n"
-            "只输出一个 JSON 对象，键与 scoring._score_schema 一致，"
-            "不要 markdown 包裹、不要解释文字。"
+            "You are a resume scoring assistant. Available tools: get_dimension_rubric for scoring anchors, "
+            "search_jd_library to retrieve JD references, verify_quote to verify quotes.\n"
+            "Score the seven dimensions edu/exp/proj/skill/cert/lead/present one by one, 1-5 each: "
+            "evidence first (quoted verbatim from the resume), then rationale (English, 25 words or fewer), then score.\n"
+            "Output only a single JSON object with the same keys as scoring._score_schema; "
+            "no markdown wrapping, no explanatory text."
         )
-    user_text = f"{system_prompt}\n\n以下是简历原文，请打分：\n\n{state['resume_text']}"
+    user_text = f"{system_prompt}\n\nHere is the resume text; please score it:\n\n{state['resume_text']}"
     feedback = state.get("critic_feedback")
     if feedback:
         # 修订轮：把 critic 的质疑清单喂给 scorer，要求针对性修正
-        user_text += ("\n\n上一轮 critic 给出了以下质疑，请针对性修正后重新输出"
-                     "完整的打分 JSON（只输出 JSON，不要解释）：\n"
+        user_text += ("\n\nThe critic raised the following issues in the last round. Address each one "
+                     "and re-output the complete scoring JSON (JSON only, no explanations):\n"
                      + "\n".join(f"- {f}" for f in feedback))
     # Anthropic prompt caching：指令+简历是 ReAct 每步重发的前缀，
     # 标记 cache breakpoint 后续步骤命中缓存按 1 折计费（write 1.25x 仅第一次）。
@@ -187,11 +187,11 @@ def critique_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL) -
             state["field"], state["scorer_output"], state.get("resume_text", ""))
     except NotImplementedError:
         return {"critic_pass": True, "critic_feedback": []}  # FALLBACK：prompt 未实现时默认放行
-    raw = _call_llm(api_key, model, system_prompt, "请输出审查结果 JSON：")
+    raw = _call_llm(api_key, model, system_prompt, "Output the review result JSON:")
     # critic 输出是单个 JSON 对象，复用 scoring.py 的鲁棒解析（去围栏/抠对象）
     data = scoring._parse_json_response(raw)
     if not isinstance(data, dict) or type(data.get("pass")) is not bool:
-        raise ValueError("审查结果的 pass 必须是布尔值")
+        raise ValueError("The critic result's pass field must be a boolean")
     feedback = data.get("feedback", [])
     corrections = data.get("corrections", [])
     if (not isinstance(feedback, list) or not all(isinstance(f, str) for f in feedback)
@@ -199,7 +199,7 @@ def critique_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL) -
         or any(not isinstance(c, dict) or not isinstance(c.get("dimension"), str)
                or type(c.get("new_score")) is not int or not 1 <= c["new_score"] <= 5
                or not isinstance(c.get("reason", ""), str) for c in corrections)):
-        raise ValueError("审查纠分数据格式不正确")
+        raise ValueError("Critic correction data is malformed")
 
     # 直接改分：把 corrections 合并进 scorer_output
     scorer_output = state.get("scorer_output") or {}
@@ -209,9 +209,9 @@ def critique_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL) -
         key = correction['dimension']
         current = (scorer_output.get('dimensions') or {}).get(key)
         if key in seen or not isinstance(current, dict):
-            raise ValueError("审查纠分包含重复或未知维度")
+            raise ValueError("Critic corrections contain duplicate or unknown dimensions")
         if 'old_score' in correction and correction['old_score'] != current.get('score'):
-            raise ValueError("审查纠分的原分与评分结果不一致")
+            raise ValueError("A correction's old_score does not match the scoring result")
         seen.add(key)
     if corrections:
         dims = {k: dict(v or {})

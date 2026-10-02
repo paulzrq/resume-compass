@@ -48,11 +48,11 @@ def make_custom_field(name: str) -> dict:
     靠模型自己对这个方向在真实招聘市场上的通用理解来打分（严谨程度天然低于预设领域/成功匹配的情况）。"""
     name = name.strip()
     if not name:
-        raise ValueError("自定义方向名称不能为空")
+        raise ValueError("Custom field name cannot be empty")
     return {
         "id": CUSTOM_FIELD_ID,
         "name": name,
-        "category": "用户自定义",
+        "category": "Custom",
         "weights": dict(_CUSTOM_FIELD_WEIGHTS),
         "bonus": [],
         "gaps": [],
@@ -108,15 +108,15 @@ def match_custom_field_to_existing(name: str, framework: dict, api_key: str, top
     valid_ids = {f["id"] for f in framework["fields"]}
     field_list_desc = "\n".join(f"- {f['id']}：{f['name']}（{f['category']}）" for f in framework["fields"])
     system_prompt = (
-        "你是一个职业方向分类助手。给你一个学生自己描述的目标求职方向，"
-        "以及一份预先定义好的职业领域列表（每项包含id、名称、所属大类）。\n"
-        "请判断这个自定义方向，最多由列表里的1到3个现有领域按怎样的比例组合最能代表它，"
-        "组合权重要大致反映\"这个自定义方向在多大程度上等同于/接近该现有领域\"，所有权重之和必须等于1。\n"
-        "如果这个自定义方向其实就是列表里某个领域换了个说法（高度重合），可以只给1个领域、权重1.0；"
-        "如果确实是几个领域的交叉/复合方向，给2-3个最相关的即可，不相关或关联很弱的领域不要硬凑进来。\n\n"
-        f"预设领域列表：\n{field_list_desc}\n\n"
-        "只输出一个JSON对象作为回复，不要有任何其他文字、不要用markdown代码块包裹：\n"
-        '{"matches":[{"field_id":"列表里的某个id","weight":0到1之间的数字},...]}'
+        "You are a career-field classification assistant. You are given a target job-search direction described by a student, "
+        "plus a predefined list of career fields (each with an id, name, and parent category).\n"
+        "Decide which 1 to 3 existing fields from the list, and in what proportions, best represent this custom direction. "
+        "The weights should roughly reflect \"how much this custom direction equals/resembles each existing field\"; all weights must sum to 1.\n"
+        "If the custom direction is essentially one listed field rephrased (high overlap), you may return just that one field with weight 1.0; "
+        "If it is genuinely a cross-disciplinary blend, give the 2-3 most relevant fields only; do not force in unrelated or weakly related fields.\n\n"
+        f"Predefined field list:\n{field_list_desc}\n\n"
+        "Output only a single JSON object, with no other text and no markdown code fences:\n"
+        '{"matches":[{"field_id":"an id from the list","weight":a number between 0 and 1},...]}'
     )
     try:
         client = anthropic.Anthropic(api_key=api_key)
@@ -124,7 +124,7 @@ def match_custom_field_to_existing(name: str, framework: dict, api_key: str, top
             model=CHEAP_MODEL,
             max_tokens=512,
             system=system_prompt,
-            messages=[{"role": "user", "content": f"自定义方向：{name}"}],
+            messages=[{"role": "user", "content": f"Custom direction: {name}"}],
             output_config=_output_config(CHEAP_MODEL, _score_schema(framework)),
         )
         usage = _extract_usage(response)
@@ -184,7 +184,7 @@ def make_blended_custom_field(name: str, framework: dict, matches: list) -> dict
     return {
         "id": CUSTOM_FIELD_ID,
         "name": name,
-        "category": "用户自定义",
+        "category": "Custom",
         "weights": _round_weights_to_100(raw_weights),
         "bonus": bonus,
         "gaps": gaps,
@@ -283,29 +283,29 @@ def load_jd_reference(field_id: str) -> str:
 
 def build_system_prompt(framework: dict, field: dict, jd_reference: str = "") -> str:
     lines = [
-        "你是一名资深职业发展顾问，正在使用「简历罗盘」框架评估一名学生简历在特定领域的求职竞争力。",
-        "请严格按照以下7个通用维度的评分锚点，为这份简历逐项打1-5分。",
-        "对每个维度，请按「先摘证据、再写理由、最后打分」的顺序思考：先从简历原文里找出与该维度直接相关的具体语句"
-        "（逐字摘录，不要翻译、不要改写、不要概括），再基于这些证据写一句不超过35字的中文理由（一句话说清楚就好，不用展开），最后才给出1-5分。"
-        "如果某个维度确实没有相关证据（比如简历完全没提到），evidence可以是空数组，但要在理由里说明缺什么；"
-        "找到证据不代表就该打高分，证据的数量、含金量、与该维度的实际关联度都要纳入判断，"
-        "打分要基于简历原文的实际证据，不要臆测简历中没有写明的信息，证据不充分时倾向打更保守的分数。",
+        "You are a senior career development advisor evaluating a student resume's job competitiveness in a specific field using the Resume Compass framework.",
+        "Score this resume 1-5 on each of the 7 general dimensions below, strictly following the scoring anchors.",
+        "For each dimension, think in this order: evidence first, then rationale, then score. First find specific statements in the original resume text directly relevant to the dimension "
+        "(quote verbatim — do not translate, paraphrase, or summarize), then write a concise English rationale of no more than 25 words based on that evidence (one sentence is enough, no elaboration), and only then give the 1-5 score."
+        "If a dimension genuinely has no relevant evidence (e.g., the resume never mentions it), evidence may be an empty array, but the rationale must state what is missing; "
+        "finding evidence does not automatically merit a high score — consider the amount, quality, and actual relevance of the evidence; "
+        "score only on actual evidence from the resume text; do not speculate about unstated information, and lean conservative when evidence is thin.",
         "",
-        "## 七个通用维度与评分锚点",
+        "## The 7 general dimensions and scoring anchors",
     ]
     for d in framework["dimensions"]:
         lines.append(f"\n### {d['name']}（{d['desc']}）")
         for i, a in enumerate(d["anchors"], start=1):
-            lines.append(f"{i}分：{a}")
+            lines.append(f"{i} points: {a}")
 
-    lines.append(f"\n## 当前目标领域：{field['name']}")
+    lines.append(f"\n## Current target field: {field['name']}")
     if field["bonus"]:
-        lines.append("该领域的加分项（仅在简历中有明确证据支持时才勾选，不要臆测，宁缺毋滥）：")
+        lines.append("Bonus items for this field (check only with clear evidence in the resume; do not speculate; when in doubt, leave out):")
         for i, item in enumerate(field["bonus"]):
             label, pts = item
-            lines.append(f"[{i}] {label}（+{pts}分）")
+            lines.append(f"[{i}] {label} (+{pts} pts)")
     if field["gaps"]:
-        lines.append("\n该领域常见短板参考（供你判断是否适用于这份简历）：")
+        lines.append("\nCommon gaps for this field (reference for judging whether they apply to this resume):")
         for g in field["gaps"]:
             lines.append(f"- {g}")
     if field["id"] == CUSTOM_FIELD_ID:
@@ -313,101 +313,107 @@ def build_system_prompt(framework: dict, field: dict, jd_reference: str = "") ->
         if matched_fields:
             match_desc = "、".join(f"{m['name']}({round(m['weight'] * 100)}%)" for m in matched_fields)
             lines.append(
-                "\n注意：「" + field["name"] + "」是用户自己输入的自定义方向，不在我们预先校准好的领域库里。"
-                f"我们把它按相似程度匹配到了这些现有领域并按比例融合出了上面的权重/加分项/短板：{match_desc}。"
-                "这种融合只是一个近似，实际判断时请你结合这个自定义方向本身的特点来取舍——"
-                "如果某个融合进来的加分项/短板明显不适用于这个具体方向，不要生搬硬套，"
-                "仍以你对这个方向真实情况的理解为准。"
+                "\nNote: \"" + field["name"] + "\" is a custom direction entered by the user; it is not in our pre-calibrated field library."
+                f"We matched it to these existing fields by similarity and blended the weights/bonuses/gaps above proportionally: {match_desc}."
+                "This blending is only an approximation — use your judgment based on the custom direction itself: "
+                "if a blended bonus/gap clearly does not apply to this specific direction, do not force it; "
+                "always defer to your understanding of how this field really works."
             )
         else:
             lines.append(
-                "\n注意：「" + field["name"] + "」是用户自己输入的自定义方向，不在我们预先校准好的领域库里，"
-                "没有为它准备加分项清单、常见短板参考或真实招聘JD摘录，上面给的权重也只是通用兜底值。"
-                "请你依据自己对这个具体方向在真实招聘市场上通常看重什么的理解来打分——"
-                "比如相关专业背景、有代表性的实习或项目经历、需要的核心技能/工具、是否需要相关资质证书、"
-                "以及这类岗位常见的简历呈现方式，尽量贴近这个方向的实际情况，不要套用一个笼统通用的标准，"
-                "也不用因为没有加分项清单就完全不给加分——如果简历里有明显契合该方向的突出经历，"
-                "可以直接体现在相应维度的分数和理由里。"
+                "\nNote: \"" + field["name"] + "\" is a custom direction entered by the user, not in our pre-calibrated field library; "
+                "no bonus checklist, common-gap reference, or real JD excerpts were prepared for it, and the weights above are just generic fallbacks."
+                "Score based on your own understanding of what this specific field typically values in the real job market — "
+                "e.g., relevant academic background, representative internships or projects, core skills/tools required, whether credentials matter, "
+                "and how resumes in this field are usually presented. Stay close to this field's reality; do not apply a vague generic standard, "
+                "and do not withhold bonuses just because there is no bonus checklist — if the resume shows standout experience clearly aligned with this field, "
+                "reflect it directly in the relevant dimension scores and rationales."
             )
 
     if jd_reference:
         lines.append(
-            "\n## 该领域的真实岗位JD参考（供你校准判断，不是硬性checklist）"
+            "\n## Real JD references for this field (for calibrating your judgment, not a hard checklist)"
         )
         lines.append(
-            "以下是我们过往收集的该领域真实招聘JD摘录及对框架的分析笔记。"
-            "打分时可以参考这些JD里体现出的\"企业实际看重什么\"来校准你的判断"
-            "（例如：某项能力在真实JD里是硬性门槛还是加分项、某类经历是否被企业认可为等效经验），"
-            "但不要把某份JD的具体条目当成这份简历必须满足的清单——不同公司、不同细分方向的要求本就有差异，"
-            "以下内容仅供辅助判断，最终仍以本框架给出的7维度锚点和该领域的权重/加分项/短板为准。"
+            "Below are excerpts of real job descriptions we have collected for this field, plus analysis notes on the framework. "
+            "You may use what these JDs reveal about \"what employers actually value\" to calibrate your judgment "
+            "(e.g., whether a skill is a hard requirement or a plus in real JDs, whether certain experience counts as equivalent), "
+            "but do not treat any single JD's line items as a checklist this resume must satisfy — requirements vary across companies and subfields. "
+            "The content below is only an aid; the 7-dimension anchors and this field's weights/bonuses/gaps remain authoritative."
         )
         lines.append(f"\n{jd_reference}")
 
     lines.append(
-        "\n注意：如果简历显示学生处于本科早期阶段（大一大二），评分应按同阶段学生的合理预期校准，"
-        "不要用应届生标准苛责，但要在 stage_note 字段里如实说明这一点；如果看不出年级信息，stage_note 留空字符串。"
+        "\nNote: if the resume shows the student is in an early undergraduate stage (freshman/sophomore), "
+        "calibrate scoring to reasonable expectations for that stage instead of holding them to a graduating-senior bar, "
+        "but state this honestly in the stage_note field; if the stage cannot be determined, leave stage_note as an empty string."
     )
 
     lines.append(
-        "\n另外请额外提取 ats_keywords：逐字摘自简历原文、对ATS（招聘方简历筛选系统）有帮助的关键词或短语"
-        "（比如工具/技能名称、职位相关术语、证书名称），最多10条，去重，不要输出整句话。"
-        "如果上面提供了该领域的真实JD参考，请优先挑选那些JD里反复出现、招聘方明显看重的词汇是否在这份简历里也逐字出现过；"
-        "没有JD参考时凭你对该领域招聘惯例的判断来挑。这些词必须是简历原文里真实存在的，不能生成简历里没有的词。"
+        "\nAlso extract ats_keywords: keywords or phrases quoted verbatim from the resume text that help with ATS "
+        "(applicant tracking systems) screening (e.g., tool/skill names, role-related terms, certification names). "
+        "At most 10, deduplicated, no full sentences. "
+        "If real JD references for this field were provided above, prioritize terms that appear repeatedly in those JDs "
+        "and are clearly valued by employers — but only if they also appear verbatim in this resume; "
+        "without JD references, use your judgment of this field's hiring conventions. "
+        "Every term must genuinely exist in the resume text; never invent terms not present."
     )
 
     lines.append(
-        "\n另外请额外提取 vague_phrases：范围是简历里除了「教育背景/Education」和「技能/Skills」之外的所有部分"
-        "（比如工作经历/实习经历、项目经历、领导力与课外活动、荣誉奖项、个人总结等），按以下两个条件联合判断："
-        "(1) 以弱动词/被动式开头——这类动词只说明\"做了这件事\"，但看不出判断力、方法深度或个人贡献，"
-        "比如\"参与了\"\"协助\"\"负责\"\"参加了\"\"帮助\"\"支持\"\"使用了\""
-        "\"involved in\"\"assisted with\"\"participated in\"\"helped with\"\"responsible for\"\"supported\"\"used\"\"utilized\""
-        "这类，不要泛化到\"conducted\"\"performed\"\"handled\"\"worked on\"\"开展\"\"进行了\"\"处理\"这种更常见于扎实描述里的动词；"
-        "且 (2) 这句话里没有任何具体数字、比例、规模或明确产出——"
-        "也就是看不出量化的影响或结果。两个条件都满足才算命中。"
-        "如果弱动词后面其实跟了具体数据/规模/职责范围（比如\"参与了一个日活500万用户的项目，独立负责推荐算法模块\"），"
-        "不算，不要标。\n"
-        "命中之后，不要摘录整句话，只摘出问题所在的那个具体片段就够了——通常就是弱动词开头到第一个逗号/自然停顿处"
-        "（大概几个字到十几个字，不超过一句话的一半），不需要整句。\n"
-        "最多6条，逐字摘自原文，不要生成简历里没有的内容；如果这些部分本身写得具体、没有这类问题，"
-        "vague_phrases就返回空数组，不要为了凑数硬挑。"
+        "\nAlso extract vague_phrases: scope is every part of the resume except the \"Education\" and \"Skills\" sections "
+        "(e.g., work/internship experience, projects, leadership & extracurriculars, honors, personal summary). "
+        "A phrase counts only if BOTH conditions hold: "
+        "(1) it starts with a weak verb / passive construction — verbs that say \"did the thing\" but reveal no judgment, "
+        "method depth, or personal contribution, such as "
+        "\"involved in\"\"assisted with\"\"participated in\"\"helped with\"\"responsible for\"\"supported\"\"used\"\"utilized\"; "
+        "do not generalize to verbs more typical of solid descriptions like \"conducted\"\"performed\"\"handled\"\"worked on\"; "
+        "AND (2) the sentence contains no concrete numbers, ratios, scale, or clear outcomes — "
+        "i.e., no quantifiable impact or result is visible. Both conditions must hold. "
+        "If a weak verb is actually followed by concrete data/scale/scope "
+        "(e.g., \"participated in a project with 5M daily active users, independently owning the recommendation module\"), "
+        "it does not count — do not flag it.\n"
+        "Once flagged, do not quote the whole sentence — extract only the problematic fragment, usually from the weak verb "
+        "to the first comma/natural pause (a few words to a dozen words, no more than half a sentence).\n"
+        "At most 6, quoted verbatim from the text; never invent content not in the resume. If these sections are already "
+        "concrete and have no such issues, return an empty array — do not pad."
     )
 
     lines.append(
-        "\n另外请额外提取 strong_phrases：范围是简历里除了「教育背景/Education」和「技能/Skills」之外的所有部分"
-        "（比如工作经历/实习经历、项目经历、领导力与课外活动、荣誉奖项、个人总结等），"
-        "摘录其中写得好、有说服力的量化成果片段——"
-        "判断标准是：包含具体数字/比例/规模/明确产出，"
-        "并且清楚说明了是谁、用什么方法做到的（是\"动作+可衡量的结果\"这种组合，不是孤立的一个数字）。\n"
-        "摘录范围以包住那个核心数字/产出和紧邻的说明文字为准，不需要摘整句，但也不用像vague_phrases那样卡得很短，"
-        "只要一看就知道\"这是一条写得好的量化成果\"就行。\n"
-        "最多6条，逐字摘自原文，不要生成简历里没有的内容；如果这些部分本身没有这类量化成果，"
-        "strong_phrases就返回空数组，不要为了凑数硬挑一般般的内容。"
+        "\nAlso extract strong_phrases: same scope as vague_phrases (every part except \"Education\" and \"Skills\"). "
+        "Extract well-written, convincing quantified achievement fragments — "
+        "the bar is: contains concrete numbers/ratios/scale/clear outcomes, "
+        "AND makes clear who did it and how (an \"action + measurable result\" combination, not a lone number).\n"
+        "Extract enough to cover the core number/outcome plus adjacent context — not the whole sentence, "
+        "but enough that it reads as a strong quantified achievement on its own.\n"
+        "At most 6, quoted verbatim from the text; never invent content not in the resume. If there are no such "
+        "quantified achievements, return an empty array — do not pad with mediocre content."
     )
 
     lines.append(
-        "\n另外请提取 strengths（简历的核心优势）和 gaps（短板/建议），"
-        "分别最多4条，每条不超过25字，只挑最关键、最能体现这份简历在该领域竞争力的几点，不用穷举凑数。"
+        "\nAlso extract strengths (the resume's core strengths) and gaps (weaknesses/suggestions), "
+        "at most 4 each, no more than 25 words per item. Only the most critical points that best reflect "
+        "this resume's competitiveness in the field — do not pad."
     )
 
     lines.append(
-        "\n请只输出一个JSON对象作为回复，不要有任何其他文字、不要用markdown代码块包裹、不要输出解释。"
-        "JSON结构如下（键名必须完全一致，7个维度键名固定为 edu/exp/proj/skill/cert/lead/present）：\n"
+        "\nOutput only a single JSON object as your reply, with no other text, no markdown code fences, no explanations. "
+        "The JSON structure is as follows (key names must match exactly; the 7 dimension keys are fixed as edu/exp/proj/skill/cert/lead/present):\n"
         '{"dimensions":{'
-        '"edu":{"evidence":["逐字摘自简历原文的证据片段，最多2条，每条不超过30字，没有则为空数组"],'
-        '"rationale":"简短依据，不超过35字，中文，一句话","score":1-5的整数},'
-        '"exp":{"evidence":[...],"rationale":"...","score":1-5的整数},'
-        '"proj":{"evidence":[...],"rationale":"...","score":1-5的整数},'
-        '"skill":{"evidence":[...],"rationale":"...","score":1-5的整数},'
-        '"cert":{"evidence":[...],"rationale":"...","score":1-5的整数},'
-        '"lead":{"evidence":[...],"rationale":"...","score":1-5的整数},'
-        '"present":{"evidence":[...],"rationale":"...","score":1-5的整数}},'
+        '"edu":{"evidence":["evidence fragments quoted verbatim from the resume, at most 2, each under 30 words, empty array if none"],'
+        '"rationale":"brief justification, no more than 25 words, in English, one sentence","score":integer 1-5},'
+        '"exp":{"evidence":[...],"rationale":"...","score":integer 1-5},'
+        '"proj":{"evidence":[...],"rationale":"...","score":integer 1-5},'
+        '"skill":{"evidence":[...],"rationale":"...","score":integer 1-5},'
+        '"cert":{"evidence":[...],"rationale":"...","score":integer 1-5},'
+        '"lead":{"evidence":[...],"rationale":"...","score":integer 1-5},'
+        '"present":{"evidence":[...],"rationale":"...","score":integer 1-5}},'
         '"ats_keywords":["..."],'
         '"vague_phrases":["..."],'
         '"strong_phrases":["..."],'
-        '"bonus_checked":[适用的加分项index组成的数组，例如[0,2]，没有则为空数组],'
-        '"strengths":["优势1","优势2"],'
-        '"gaps":["短板/建议1","短板/建议2"],'
-        '"stage_note":"如学生处于早期阶段则说明，否则为空字符串"}'
+        '"bonus_checked":[array of applicable bonus item indices, e.g. [0,2], empty array if none],'
+        '"strengths":["strength 1","strength 2"],'
+        '"gaps":["gap/suggestion 1","gap/suggestion 2"],'
+        '"stage_note":"explain if the student is in an early stage, otherwise an empty string"}'
     )
     return "\n".join(lines)
 
@@ -548,7 +554,7 @@ def _score_schema(framework):
 
 def _validate_score_data(data, framework, field):
     def invalid():
-        raise _InvalidScoreResponseError("评分数据不完整或格式不正确")
+        raise _InvalidScoreResponseError("Score data is incomplete or malformed")
     if not isinstance(data, dict) or not isinstance(data.get("dimensions"), dict):
         invalid()
     for dimension in framework["dimensions"]:
@@ -613,7 +619,7 @@ def _score_resume_once(
         except (json.JSONDecodeError, _TruncatedResponseError, _InvalidScoreResponseError) as e:
             last_error = e
             continue
-    raise RuntimeError("模型未能返回完整有效的评分，已自动重试一次。请稍后重新评估；本次未生成报告。") from last_error
+    raise RuntimeError("The model did not return a complete, valid score after one automatic retry. Please re-run the assessment later; no report was generated this time.") from last_error
 
 
 def _score_resume_once_attempt(
@@ -639,7 +645,7 @@ def _score_resume_once_attempt(
     跳过这道校验、把结果里 evidence_verification_available 标成 False，由 app.py/report.py 统一
     展示一条"图片上传、无法逐字核对"的说明，而不是对每一条引用都打上误导性的"未核实"红色警告。"""
     if (resume_text is None) == (resume_image is None):
-        raise ValueError("resume_text 和 resume_image 必须且只能提供一个")
+        raise ValueError("Exactly one of resume_text and resume_image must be provided")
     has_text = resume_text is not None
 
     framework = load_framework()
@@ -660,7 +666,7 @@ def _score_resume_once_attempt(
             },
             {
                 "type": "text",
-                "text": "以上是学生简历原文（图片形式），请按上述标准评分：",
+                "text": "The above is the student resume in image form. Score it per the standards above:",
             },
         ]
     else:
@@ -707,13 +713,13 @@ def _score_resume_once_attempt(
         output_config=_output_config(model, _score_schema(framework)),
     )
     if getattr(response, "stop_reason", None) == "max_tokens":
-        raise _TruncatedResponseError("模型输出达到长度上限，评分未完成")
+        raise _TruncatedResponseError("Model output hit the length limit; scoring did not complete")
     if getattr(response, "stop_reason", None) == "refusal":
-        raise RuntimeError("模型未能评估此内容，请确认上传的是简历后重试。")
+        raise RuntimeError("The model could not evaluate this content. Please confirm the upload is a resume and try again.")
     raw_text = "".join(block.text for block in response.content
                        if getattr(block, "type", None) == "text")
     if not raw_text.strip():
-        raise _InvalidScoreResponseError("模型未返回评分文本")
+        raise _InvalidScoreResponseError("The model returned no scoring text")
     data = _parse_json_response(raw_text)
     _validate_score_data(data, framework, field)
 
@@ -833,7 +839,7 @@ def score_resume(
     不能让每次打分都各自重新匹配一遍，否则2次可能匹配到不同的领域组合，取中位数就失去意义了。
     """
     if (resume_text is None) == (resume_image is None):
-        raise ValueError("resume_text 和 resume_image 必须且只能提供一个")
+        raise ValueError("Exactly one of resume_text and resume_image must be provided")
 
     framework = load_framework()
     field, jd_reference, match_usage = resolve_field(

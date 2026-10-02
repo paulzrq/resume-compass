@@ -34,7 +34,7 @@ class AgentRegressions(unittest.TestCase):
   def record(*args,**kwargs):
    out=original(*args,**kwargs);out['eval_snapshots']=[out['scorer_output']];return out
   def llm(api_key,model,system_prompt,user_text,max_tokens=4000):
-   return json.dumps({'pass':True,'feedback':[]}) if '审查员' in system_prompt else _plan_json()
+   return json.dumps({'pass':True,'feedback':[]}) if 'review auditor' in system_prompt else _plan_json()
   with patch.object(gm,'score_node',record),patch.object(nodes,'_call_llm',llm):
    state=build_graph('test',scorer_agent=_FakeScorerAgent(),max_revisions=1).invoke(_base_state())
   self.assertEqual(len(state['eval_snapshots']),1)

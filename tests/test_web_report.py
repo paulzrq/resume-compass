@@ -9,7 +9,7 @@ class WebReportTests(unittest.TestCase):
   self.assertNotIn('<script>',html)
   self.assertNotIn('<学生>',html)
   self.assertNotIn('&lt;学生&gt;',html)
-  self.assertIn('[未核实] 原文：“证据2”',html)
+  self.assertIn('[Unverified] Source: "证据2"',html)
   self.assertIn('阶段说明',html)
   self.assertEqual(html.count('<section class="dimension">'),7)
   self.assertNotIn('\n',html)

@@ -92,22 +92,22 @@ def send_report_email(
         return "skipped"
 
     msg = MIMEMultipart()
-    msg["Subject"] = f"【简历罗盘存档】{student_name} · {field_name} · {total_score}分"
+    msg["Subject"] = f"[Resume Compass Archive] {student_name} · {field_name} · {total_score}/100"
     msg["From"] = config["sender"]
     msg["To"] = config["recipient"]
 
     has_resume_attachment = bool(resume_bytes and resume_filename)
     body = (
-        f"学生姓名：{student_name}\n"
-        f"目标方向：{field_name}\n"
-        f"综合得分：{total_score}/100（{tier_label}）\n"
-        f"评估时间：{timestamp}\n\n"
+        f"Student name: {student_name}\n"
+        f"Target field: {field_name}\n"
+        f"Overall score: {total_score}/100 ({tier_label})\n"
+        f"Evaluated at: {timestamp}\n\n"
         + (
-            "附件包含：评估报告PDF + 学生上传的原版简历。"
+            "Attachments: evaluation report PDF + the student's original uploaded resume."
             if has_resume_attachment
-            else "附件包含：评估报告PDF（没有拿到原版简历文件，只有报告）。"
+            else "Attachments: evaluation report PDF (original resume file not available; report only)."
         )
-        + "\n此邮件由简历罗盘自动发送，用于存档。"
+        + "\nThis email was sent automatically by Resume Compass for archiving."
     )
     msg.attach(MIMEText(body, "plain", "utf-8"))
 

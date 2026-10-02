@@ -52,13 +52,13 @@ class TestCostOptimizations(unittest.TestCase):
                              "k": 3, "max_chars": 1200})
         self.assertTrue(out, "swe 库应有检索结果")
         for seg in out.split("\n\n---\n\n"):
-            self.assertLessEqual(len(seg), 1200 + len("……（过长截断）"),
+            self.assertLessEqual(len(seg), 1200 + len("...(truncated)"),
                                  f"片段超长未截断：{len(seg)} 字符")
         # 默认 max_chars=1200 生效
         out_default = search.invoke({"field_id": "swe",
                                      "query": "project experience"})
         for seg in out_default.split("\n\n---\n\n"):
-            self.assertLessEqual(len(seg), 1200 + len("……（过长截断）"))
+            self.assertLessEqual(len(seg), 1200 + len("...(truncated)"))
 
     def test_score_node_marks_cache_breakpoint(self):
         fake = _CapturingScorerAgent()

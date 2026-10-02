@@ -1,7 +1,8 @@
-"""专门测试这次为了排查"有时候评估会失败"新加的三个兜底：
-1. _extract_json_object 能从带前后缀文字的响应里抠出干净JSON
-2. stop_reason=="max_tokens" 时识别为截断，并自动重试一次
-3. 重试成功后返回值和正常调用完全一样；重试次数用尽后如实抛出最后一次的错误
+"""Tests for the three safeguards added while debugging "assessments sometimes fail":
+1. _extract_json_object pulls clean JSON out of responses with surrounding text
+2. stop_reason=="max_tokens" is recognized as truncation and retried once
+3. a successful retry returns exactly what a normal call would; when retries are
+exhausted the last error is raised as-is
 """
 import sys, json
 from pathlib import Path
@@ -68,7 +69,7 @@ scoring.anthropic.Anthropic = _FlakyClient
 framework = scoring.load_framework()
 field = scoring.get_field(framework, "swe")
 result = scoring._score_resume_once(resume_text="一份简历原文", field=field, jd_reference="", api_key="fake-key")
-assert len(call_log) == 2, f"应该正好调用了2次（1次截断+1次重试成功），实际是{len(call_log)}次"
+assert len(call_log) == 2, f"expected exactly 2 calls (1 truncation + 1 successful retry), got {len(call_log)}"
 assert result["dimension_scores"]["edu"] == 3
 print("OK: 第1次被max_tokens截断，_score_resume_once自动重试一次后拿到正常结果")
 
@@ -92,9 +93,9 @@ scoring.anthropic.Anthropic = _AlwaysTruncatedClient
 try:
     scoring._score_resume_once(resume_text="一份简历原文", field=field, jd_reference="", api_key="fake-key")
     raise AssertionError("两次都截断，应该抛出异常，不应该正常返回")
-except scoring._TruncatedResponseError:
-    pass
-assert len(call_log2) == 2, f"应该正好重试1次、总共调用2次后放弃，实际是{len(call_log2)}次"
+except RuntimeError:
+    pass  # _score_resume_once wraps the last error in RuntimeError after the retry
+assert len(call_log2) == 2, f"expected exactly 1 retry (2 calls total) before giving up, got {len(call_log2)}"
 print("OK: 连续2次都截断时，重试1次后如实抛出错误，不会无限重试")
 
 print("ALL OK: 重试与JSON容错逻辑验证通过")

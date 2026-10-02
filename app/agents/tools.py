@@ -71,7 +71,7 @@ def build_tools(resume_text: str) -> list:
         for e in top:
             text = "## JD " + e.strip()
             if len(text) > max_chars:
-                text = text[:max_chars] + "……（过长截断）"
+                text = text[:max_chars] + "...(truncated)"
             out.append(text)
         return "\n\n---\n\n".join(out)
 

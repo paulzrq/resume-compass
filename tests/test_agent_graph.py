@@ -106,8 +106,8 @@ class AgentGraphTest(unittest.TestCase):
                                                 "evidence": ["原文片段"]}}}
         text = prompts.build_critic_prompt(field, fake_output,
                                            resume_text="简历原文片段")
-        for key in ['审查员', 'pass', 'feedback', 'corrections', '35',
-                    '直接修正', '四类硬伤']:
+        for key in ['review auditor', 'pass', 'feedback', 'corrections', '25',
+                    'directly correct', 'four categories of critical flaws']:
             self.assertIn(key, text)
         self.assertIn('原文片段', text)  # scorer 输出被嵌入
         self.assertIn('简历原文片段', text)  # 简历原文被嵌入（可核验证据）
@@ -133,7 +133,7 @@ class AgentGraphTest(unittest.TestCase):
                   ["edu", "exp", "proj", "skill", "cert", "lead", "present"]}
         out = nodes.report_node(self._report_state(scores))["final_result"]
         self.assertEqual(out["total"], 60)
-        self.assertEqual(out["tier_label"], "中等，需针对性提升")
+        self.assertEqual(out["tier_label"], "Average - Needs Targeted Improvement")
 
     def test_report_node_cap_binds(self):
         """base=91 但短板 3 个（>2）→ 封顶 87，够不到"顶尖竞争力"。"""
@@ -141,14 +141,14 @@ class AgentGraphTest(unittest.TestCase):
                   "cert": 2, "lead": 2, "present": 2}
         out = nodes.report_node(self._report_state(scores))["final_result"]
         self.assertEqual(out["total"], 87)
-        self.assertEqual(out["tier_label"], "有较强竞争力")
+        self.assertEqual(out["tier_label"], "Strong Competitiveness")
 
     def test_full_run_critic_passes(self):
         """planner(真实prompt+mock LLM) → score(fake) → critique(真实prompt+mock LLM放行) → report。"""
         fake = _FakeScorerAgent()
 
         def fake_llm(api_key, model, system_prompt, user_text, max_tokens=4000):
-            if '审查员' in system_prompt:  # critic 调用：直接放行
+            if 'review auditor' in system_prompt:  # critic 调用：直接放行
                 return json.dumps({'pass': True, 'feedback': []})
             return _planner_llm(api_key, model, system_prompt, user_text)
 

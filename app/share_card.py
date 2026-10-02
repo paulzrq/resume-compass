@@ -16,7 +16,7 @@ from mascots import mascot_path
 
 APP_URL = 'https://resume-compass.streamlit.app/'
 QR_CODE_PATH = Path(__file__).parent / 'assets' / 'qr_code.png'
-CARD_VERSION = 'layouts-abdef-1'
+CARD_VERSION = 'layouts-abdef-en-1'
 SCALE = 2
 BOLD_FONT = str(Path(__file__).parent / 'fonts' / 'NotoSerifCJKsc-Bold.otf')
 FONT = str(Path(__file__).parent / 'fonts' / 'NotoSerifCJKsc-Regular.otf')
@@ -58,15 +58,15 @@ def artwork(field_id):
 
 # Coordinates are in a 1080 x 1440 design grid, rendered at 2x.
 LAYOUTS = {
-    'A': dict(title=[(70, 300, '我的简历评估', 96, 735)], brand=(855, 88),
+    'A': dict(title=[(70, 300, 'My Resume Evaluation', 96, 735)], brand=(855, 88),
               compass=(915, 265, 104), person=(530, 490, 495, 590), score=(75, 590, 420, 235)),
-    'B': dict(title=[(80, 270, '我的', 130, 600), (80, 420, '简历评估', 130, 600)], brand=(80, 207),
+    'B': dict(title=[(80, 270, 'My Resume', 130, 600), (80, 420, 'Evaluation', 130, 600)], brand=(80, 207),
               compass=(885, 270, 125), person=(60, 585, 470, 535), score=(575, 680, 435, 240)),
-    'D': dict(title=[(75, 260, '我的', 137, 625), (75, 450, '简历评估', 137, 625)], brand=(845, 85),
+    'D': dict(title=[(75, 260, 'My Resume', 137, 625), (75, 450, 'Evaluation', 137, 625)], brand=(845, 85),
               compass=(875, 340, 135), person=(545, 605, 480, 490), score=(75, 685, 430, 230)),
-    'E': dict(title=[(720, 300, '我的', 132, 300), (500, 470, '简历评估', 120, 520)], brand=(855, 220),
+    'E': dict(title=[(720, 300, 'My Resume', 132, 300), (500, 470, 'Evaluation', 120, 520)], brand=(855, 220),
               compass=(235, 345, 125), person=(40, 590, 475, 520), score=(555, 715, 460, 225)),
-    'F': dict(title=[(75, 255, '我的简历评估', 112, 940)], brand=(80, 195),
+    'F': dict(title=[(75, 255, 'My Resume Evaluation', 112, 940)], brand=(80, 195),
               compass=(230, 600, 123), person=(425, 455, 590, 660), score=(75, 815, 345, 165)),
 }
 
@@ -101,7 +101,7 @@ def generate_share_card(field_id, field_name, total, layout='A'):
     colored = Image.new('RGBA', logo.size, ink)
     colored.putalpha(logo.getchannel('A'))
     card.paste(colored, coords((80, 80)), colored)
-    text(*spec['brand'], '简历罗盘', 32, 170)
+    text(*spec['brand'], 'Resume Compass', 32, 170)
     for x, y, label, size, width in spec['title']:
         text(x, y, label, size, width, True)
     # Eight-point compass with a dashed inner circle and cardinal letters.
@@ -139,11 +139,11 @@ def generate_share_card(field_id, field_name, total, layout='A'):
     divider=x+score_width+20
     line((divider,y+12,divider,y+size*.62))
     text(divider-10,y+size*.72,'/100',43,105)
-    text(x,y+size+22,'简历综合评分',59 if layout!='F' else 49,w,True)
+    text(x,y+size+22,'Overall Resume Score',59 if layout!='F' else 49,w,True)
     # Long custom directions wrap rather than becoming illegibly tiny.
-    direction='目标方向 · '+field_name
+    direction='Target field · '+field_name
     if len(direction)>22:
-        text(x,y+size+110,'目标方向 ·',28,w)
+        text(x,y+size+110,'Target field ·',28,w)
         text(x,y+size+148,field_name,28,w)
     else:
         text(x,y+size+110,direction,31,w)
@@ -158,7 +158,7 @@ def generate_share_card(field_id, field_name, total, layout='A'):
         return text(cx - width / 2, y, value, size, max_width, bold)
     line((70,1160,1010,1160))
     # AI-disclaimer line removed; the two lines above shift down a bit to fill the freed space evenly.
-    text(80,1230,'你的简历，还有哪些可能？',55,710,True)
+    text(80,1230,'What else is possible for your resume?',55,710,True)
     text(80,1312,'resume-compass.streamlit.app',28,725)
     # Static QR asset (not colour-matched to the card theme like the old generated one).
     qr_image=Image.open(QR_CODE_PATH).convert('RGB')
@@ -168,7 +168,7 @@ def generate_share_card(field_id, field_name, total, layout='A'):
     qr_x=800
     qr_y=1175
     card.paste(qr_image,coords((qr_x,qr_y)))
-    centered_text(qr_x+qr_side_design/2,qr_y+qr_side_design+18,'扫码评估简历',23,qr_side_design)
+    centered_text(qr_x+qr_side_design/2,qr_y+qr_side_design+18,'Scan to evaluate your resume',23,qr_side_design)
     output=io.BytesIO();card.save(output,format='PNG')
     return output.getvalue()
 
@@ -193,7 +193,7 @@ def render_share_preview(png):
     encoded = base64.b64encode(png).decode('ascii')
     st.markdown(
         '<div style="width:100%;display:flex;justify-content:center;margin-bottom:28px">'
-        '<img alt="简历评估分享卡" src="data:image/png;base64,' + encoded + '" '
+        '<img alt="Resume evaluation share card" src="data:image/png;base64,' + encoded + '" '
         'style="display:block;width:100%;max-width:min(720px,65vh);height:auto;'
         'border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,0.08);'
         'object-fit:contain" /></div>', unsafe_allow_html=True)
