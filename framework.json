@@ -5,116 +5,116 @@
   "tiers": [
     {
       "min": 88,
-      "label": "顶尖竞争力"
+      "label": "Top Competitiveness"
     },
     {
       "min": 72,
-      "label": "有较强竞争力"
+      "label": "Strong Competitiveness"
     },
     {
       "min": 55,
-      "label": "中等，需针对性提升"
+      "label": "Average - Needs Targeted Improvement"
     },
     {
       "min": 38,
-      "label": "竞争力较弱"
+      "label": "Below Average"
     },
     {
       "min": 0,
-      "label": "需大幅积累经历/重估方向"
+      "label": "Needs Significant Experience Building"
     }
   ],
   "dimensions": [
     {
       "key": "edu",
-      "name": "教育背景",
-      "desc": "学校层次、专业相关度、GPA/成绩单",
+      "name": "Education",
+      "desc": "School tier, major relevance, GPA/transcript",
       "anchors": [
-        "学校/专业与目标方向关联度低，GPA信息缺失或明显偏低",
-        "学校/专业尚可，但看不出与目标领域的针对性（如相关课程、辅修）",
-        "学校/专业与目标领域基本匹配，成绩中等偏上",
-        "学校层次较好，专业高度相关，成绩优异或有相关辅修/选课体现",
-        "顶尖院校/项目，专业与目标领域高度契合，成绩单极具说服力"
+        "School/major weakly related to target field; GPA missing or clearly low",
+        "Decent school/major, but no targeted fit with the field (e.g., relevant courses, minor)",
+        "School/major broadly aligned with target field; above-average grades",
+        "Strong school tier, highly relevant major, excellent grades or relevant minor/coursework",
+        "Top-tier school/program, major highly aligned with target field, highly compelling transcript"
       ]
     },
     {
       "key": "exp",
-      "name": "实习/工作经历",
-      "desc": "相关性、职责深度、成果是否量化",
+      "name": "Internship / Work Experience",
+      "desc": "Relevance, depth of responsibilities, quantified outcomes",
       "anchors": [
-        "无实习/工作经历，或经历与目标领域完全无关",
-        "有实习经历，但描述停留在打杂层面，缺乏成果量化",
-        "有1-2段相关实习，职责清晰，有一定成果描述",
-        "有多段相关实习，职责递进，成果可量化（如提升X%、节省Y小时）",
-        "有知名机构/头部公司相关实习，职责有深度，成果突出且可验证"
+        "No internship/work experience, or experience entirely unrelated to target field",
+        "Has internship experience, but descriptions stay at menial-task level with no quantified outcomes",
+        "1-2 relevant internships with clear responsibilities and some outcome descriptions",
+        "Multiple relevant internships with progressive responsibilities and quantified outcomes (e.g., improved X%, saved Y hours)",
+        "Relevant internships at well-known/leading organizations, deep responsibilities, outstanding and verifiable outcomes"
       ]
     },
     {
       "key": "proj",
-      "name": "项目经历",
-      "desc": "技术/方法运用、个人贡献、实际影响",
+      "name": "Projects",
+      "desc": "Technical/methodological depth, personal contribution, real impact",
       "anchors": [
-        "无独立项目，或项目与目标领域技术/方法无关",
-        "有课程项目，但技术深度浅，团队角色不清",
-        "有1-2个相关项目，技术/方法运用得当，有基本成果",
-        "项目有一定复杂度和创新性，个人贡献清晰，有实际影响或产出",
-        "项目接近生产级别或有实际影响力（发表、上线、获奖、被采用）"
+        "No independent projects, or projects unrelated to the target field's tech/methods",
+        "Course projects only; shallow technical depth, unclear team role",
+        "1-2 relevant projects with appropriate tech/method use and basic outcomes",
+        "Projects show complexity and innovation, clear personal contribution, real impact or output",
+        "Projects near production-grade or with real impact (published, launched, awarded, adopted)"
       ]
     },
     {
       "key": "skill",
-      "name": "技能与工具",
-      "desc": "是否覆盖领域核心技能，是否有佐证",
+      "name": "Skills & Tools",
+      "desc": "Coverage of core field skills, with evidence",
       "anchors": [
-        "技能列表与目标领域几乎不相关，或只是罗列无佐证",
-        "有基础相关技能，但缺乏使用场景佐证",
-        "技能覆盖目标领域核心工具，有项目/经历佐证",
-        "技能覆盖全面且有深度，多处经历相互印证",
-        "技能储备明显超出同龄申请者，涉及领域前沿工具/方法"
+        "Skill list barely relevant to target field, or just a list with no evidence",
+        "Basic relevant skills, but no usage context as evidence",
+        "Covers core tools of the target field, backed by projects/experience",
+        "Comprehensive and deep skill coverage, corroborated across multiple experiences",
+        "Skill set clearly beyond peers, involving cutting-edge tools/methods in the field"
       ]
     },
     {
       "key": "cert",
-      "name": "证书与考试",
-      "desc": "领域认可度高的证书/资格/考试成绩",
+      "name": "Certifications & Exams",
+      "desc": "Recognized credentials/qualifications/exam scores",
       "anchors": [
-        "无相关证书/考试成绩",
-        "有基础证书，但含金量或相关性一般",
-        "有1项与目标领域相关的认可证书或达标考试成绩",
-        "有多项高相关性证书，或核心考试成绩优异",
-        "持有该领域公认的高价值证书/资格且进度靠前"
+        "No relevant certifications/exam scores",
+        "Basic certificates, but modest prestige or relevance",
+        "At least one recognized credential or qualifying exam score relevant to the target field",
+        "Multiple highly relevant certifications, or excellent core exam scores",
+        "Holds widely recognized high-value credential(s) in the field with advanced progress"
       ]
     },
     {
       "key": "lead",
-      "name": "领导力与课外活动",
-      "desc": "组织参与、负责人角色、实际成果",
+      "name": "Leadership & Extracurriculars",
+      "desc": "Organizational involvement, leadership roles, tangible outcomes",
       "anchors": [
-        "无课外活动或领导力经历",
-        "有参与经历，但角色边缘、无实质产出",
-        "有一定的组织参与或小范围负责经历",
-        "担任过学生组织/项目的负责人角色，有具体成果",
-        "领导经历规格高、影响范围广，或成果被外部认可"
+        "No extracurricular or leadership experience",
+        "Some participation, but marginal role with no tangible output",
+        "Some organizational involvement or small-scope responsibilities",
+        "Led a student organization/project with concrete outcomes",
+        "High-caliber leadership with broad impact, or outcomes recognized externally"
       ]
     },
     {
       "key": "present",
-      "name": "简历呈现质量",
-      "desc": "结构、量化表达、语言精准度",
+      "name": "Resume Presentation",
+      "desc": "Structure, quantified expression, language precision",
       "anchors": [
-        "格式混乱、语言表达不清、大量堆砌无重点",
-        "基本可读，但缺乏量化表达，动词单一",
-        "结构清晰，多数条目有一定量化和重点",
-        "结构清晰、用词精准、量化表达充分，重点突出",
-        "呈现专业、逻辑严密，接近可直接投递的最佳范本"
+        "Disorganized formatting, unclear language, unfocused keyword stuffing",
+        "Basically readable, but lacks quantification and uses repetitive verbs",
+        "Clear structure, most bullets have some quantification and focus",
+        "Clear structure, precise wording, strong quantification, highlights stand out",
+        "Professional presentation, tight logic - close to a submission-ready model resume"
       ]
     }
   ],
   "fields": [
     {
       "id": "swe",
-      "name": "软件工程师",
-      "category": "技术与工程",
+      "name": "Software Engineer",
+      "category": "Technology & Engineering",
       "weights": {
         "edu": 10,
         "exp": 25,
@@ -126,32 +126,32 @@
       },
       "bonus": [
         [
-          "有活跃 GitHub / 开源贡献",
+          "Active GitHub / open-source contributions",
           2
         ],
         [
-          "算法竞赛（ICPC / LeetCode 周赛等）成绩突出",
+          "Strong competitive programming record (ICPC / LeetCode contests, etc.)",
           2
         ],
         [
-          "有生产环境项目上线经验",
+          "Production deployment experience",
           2
         ],
         [
-          "头部科技公司相关实习",
+          "Relevant internship at a top tech company",
           2
         ]
       ],
       "gaps": [
-        "只做过课程作业级别项目，缺乏系统设计思维",
-        "简历中体现不出代码质量/工程规范意识",
-        "技术栈罗列多但缺少实际项目支撑"
+        "Only coursework-level projects; lacks system design thinking",
+        "No evidence of code quality / engineering standards",
+        "Long tech stack list with no real projects to back it up"
       ]
     },
     {
       "id": "ds",
-      "name": "数据科学家",
-      "category": "技术与工程",
+      "name": "Data Scientist",
+      "category": "Technology & Engineering",
       "weights": {
         "edu": 16,
         "exp": 20,
@@ -163,32 +163,32 @@
       },
       "bonus": [
         [
-          "有论文发表或预印本",
+          "Published paper or preprint",
           3
         ],
         [
-          "知名数据竞赛（如Kaggle）取得名次",
+          "Placed in a well-known data competition (e.g., Kaggle)",
           2
         ],
         [
-          "有实验室科研经历",
+          "Lab research experience",
           2
         ],
         [
-          "能用数据讲清楚业务结论，有向非技术团队汇报的经历",
+          "Can explain business conclusions with data; presented to non-technical teams",
           2
         ]
       ],
       "gaps": [
-        "只做过教程/入门notebook，缺乏原创性",
-        "数学/统计基础在简历中体现不足",
-        "项目里看不到业务影响或决策落地，只有模型指标"
+        "Only tutorial / starter notebooks; lacks originality",
+        "Math/statistics foundation not evident in resume",
+        "Projects show model metrics but no business impact or real-world decisions"
       ]
     },
     {
       "id": "mle",
-      "name": "机器学习工程师",
-      "category": "技术与工程",
+      "name": "Machine Learning Engineer",
+      "category": "Technology & Engineering",
       "weights": {
         "edu": 12,
         "exp": 24,
@@ -200,32 +200,32 @@
       },
       "bonus": [
         [
-          "有模型上线/服务化部署经历",
+          "Model deployment / serving experience",
           3
         ],
         [
-          "熟悉主流深度学习框架并有实战项目",
+          "Hands-on projects with mainstream deep learning frameworks",
           2
         ],
         [
-          "有分布式训练或大规模数据处理经验",
+          "Distributed training or large-scale data processing experience",
           2
         ],
         [
-          "参与过开源ML项目或工具链建设",
+          "Contributed to open-source ML projects or tooling",
           2
         ]
       ],
       "gaps": [
-        "只做过教程/入门notebook，缺乏原创性",
-        "项目缺乏可复现的评估指标",
-        "缺少工程化/部署相关经历，停留在notebook阶段"
+        "Only tutorial / starter notebooks; lacks originality",
+        "Projects lack reproducible evaluation metrics",
+        "No engineering/deployment experience; stuck at notebook stage"
       ]
     },
     {
       "id": "engineering",
-      "name": "硬件工程师",
-      "category": "技术与工程",
+      "name": "Hardware Engineer",
+      "category": "Technology & Engineering",
       "weights": {
         "edu": 15,
         "exp": 22,
@@ -237,28 +237,28 @@
       },
       "bonus": [
         [
-          "有完整硬件/系统项目从设计到实现的经历",
+          "End-to-end hardware/system project from design to implementation",
           3
         ],
         [
-          "知名工程竞赛获奖",
+          "Won a recognized engineering competition",
           2
         ],
         [
-          "相关实验室/产线实习经历",
+          "Relevant lab / factory internship",
           2
         ]
       ],
       "gaps": [
-        "项目停留在仿真/理论层面，缺乏实物验证",
-        "简历未体现团队协作中的具体分工",
-        "缺乏对成本/可靠性等工程约束的考量体现"
+        "Projects stay at simulation/theory level; no physical validation",
+        "Team role and individual contribution unclear",
+        "No consideration of cost/reliability engineering constraints"
       ]
     },
     {
       "id": "cybersecurity",
-      "name": "网络安全工程师",
-      "category": "技术与工程",
+      "name": "Cybersecurity Engineer",
+      "category": "Technology & Engineering",
       "weights": {
         "edu": 12,
         "exp": 22,
@@ -270,32 +270,32 @@
       },
       "bonus": [
         [
-          "有CTF比赛名次或漏洞赏金（Bug Bounty）战绩",
+          "CTF placements or bug bounty track record",
           3
         ],
         [
-          "持有Security+/CEH/OSCP等认证或正在备考",
+          "Holds or pursuing Security+/CEH/OSCP etc.",
           2
         ],
         [
-          "有渗透测试或安全审计的实战项目",
+          "Hands-on pentesting or security audit projects",
           2
         ],
         [
-          "参与过开源安全工具开发或漏洞披露（CVE）",
+          "Contributed to open-source security tools or disclosed CVEs",
           2
         ]
       ],
       "gaps": [
-        "只做过教程/靶场练习，缺乏真实环境经验",
-        "简历列了很多安全工具但没有具体使用场景",
-        "缺乏安全事件应急响应或分析的具体案例"
+        "Only tutorial / target-range practice; no real-environment experience",
+        "Lists many security tools with no concrete usage context",
+        "No concrete incident response or analysis cases"
       ]
     },
     {
       "id": "robotics",
-      "name": "机器人/自动化工程师",
-      "category": "技术与工程",
+      "name": "Robotics / Automation Engineer",
+      "category": "Technology & Engineering",
       "weights": {
         "edu": 14,
         "exp": 20,
@@ -307,32 +307,32 @@
       },
       "bonus": [
         [
-          "参加过机器人竞赛（如FRC/VEX/RoboMaster）并有名次",
+          "Placed in robotics competitions (e.g., FRC/VEX/RoboMaster)",
           3
         ],
         [
-          "有完整机器人/自动化系统从设计到落地的项目经历",
+          "End-to-end robot/automation system from design to deployment",
           2
         ],
         [
-          "熟悉ROS或嵌入式系统并有实战项目",
+          "Hands-on ROS or embedded systems projects",
           2
         ],
         [
-          "有跨学科（机械+电子+软件）协作经历",
+          "Cross-disciplinary (mechanical+electronics+software) collaboration",
           2
         ]
       ],
       "gaps": [
-        "只做过仿真/理论设计，没有实物搭建经历",
-        "项目描述偏理论，缺乏具体的调试/迭代过程",
-        "缺乏软硬件结合的完整系统经验"
+        "Simulation/theory only; no physical build experience",
+        "Descriptions lean theoretical; no concrete debugging/iteration process",
+        "Lacks full-stack software-hardware system experience"
       ]
     },
     {
       "id": "fintech_eng",
-      "name": "金融科技工程师",
-      "category": "技术与工程",
+      "name": "FinTech Engineer",
+      "category": "Technology & Engineering",
       "weights": {
         "edu": 12,
         "exp": 24,
@@ -344,32 +344,32 @@
       },
       "bonus": [
         [
-          "有金融领域实际业务系统开发经历（交易/支付/风控系统）",
+          "Built real financial business systems (trading/payments/risk)",
           3
         ],
         [
-          "熟悉高并发或低延迟系统设计并有实战项目",
+          "Hands-on high-concurrency or low-latency system design",
           2
         ],
         [
-          "有量化交易或金融数据处理相关项目",
+          "Quant trading or financial data processing projects",
           2
         ],
         [
-          "参与过区块链或支付相关开源项目",
+          "Contributed to blockchain or payments open-source projects",
           1
         ]
       ],
       "gaps": [
-        "项目偏通用软件开发，缺乏金融领域业务理解",
-        "只做过课程项目，缺乏生产级系统经验",
-        "简历没有体现对金融合规/风控的基本认知"
+        "Projects are generic software dev; no fintech business understanding",
+        "Course projects only; no production-grade system experience",
+        "No demonstrated awareness of financial compliance/risk basics"
       ]
     },
     {
       "id": "finance",
-      "name": "投行分析师",
-      "category": "商业与管理",
+      "name": "Investment Banking Analyst",
+      "category": "Business & Management",
       "weights": {
         "edu": 20,
         "exp": 35,
@@ -381,32 +381,32 @@
       },
       "bonus": [
         [
-          "头部投行/基金相关实习",
+          "Internship at a top investment bank / fund",
           3
         ],
         [
-          "CFA / FRM 等证书进度靠前",
+          "CFA / FRM progress well ahead",
           2
         ],
         [
-          "商赛或建模大赛获奖",
+          "Business case or modeling competition wins",
           2
         ],
         [
-          "有扎实的财务建模作品集",
+          "Solid financial modeling portfolio",
           1
         ]
       ],
       "gaps": [
-        "实习经历偏辅助性，缺乏分析产出体现",
-        "简历未体现对市场/行业的持续关注",
-        "缺乏量化的项目/建模成果"
+        "Internship experience mostly supportive; little analytical output",
+        "No demonstrated ongoing market/industry engagement",
+        "Lacks quantified project/modeling outcomes"
       ]
     },
     {
       "id": "risk_analyst",
-      "name": "风险分析师",
-      "category": "商业与管理",
+      "name": "Risk Analyst",
+      "category": "Business & Management",
       "weights": {
         "edu": 15,
         "exp": 28,
@@ -418,32 +418,32 @@
       },
       "bonus": [
         [
-          "有信用风险或市场风险建模的具体项目经历",
+          "Concrete credit or market risk modeling project experience",
           3
         ],
         [
-          "持有FRM/CFA等认证或正在备考",
+          "Holds or pursuing FRM/CFA",
           2
         ],
         [
-          "熟练使用Python/R/SQL进行风险数据分析",
+          "Proficient in Python/R/SQL for risk data analysis",
           2
         ],
         [
-          "有压力测试或监管报告相关实习经历",
+          "Stress testing or regulatory reporting internship",
           2
         ]
       ],
       "gaps": [
-        "项目偏通用数据分析，缺乏风险管理领域的具体应用",
-        "只列了风险管理理论知识，没有实际建模/分析案例",
-        "缺乏对监管框架（如Basel/CCAR）的基本认知体现"
+        "Projects are generic data analysis; no risk-specific application",
+        "Lists risk theory with no actual modeling/analysis cases",
+        "No demonstrated knowledge of regulatory frameworks (Basel/CCAR)"
       ]
     },
     {
       "id": "actuary",
-      "name": "精算师",
-      "category": "商业与管理",
+      "name": "Actuary",
+      "category": "Business & Management",
       "weights": {
         "edu": 15,
         "exp": 15,
@@ -455,32 +455,32 @@
       },
       "bonus": [
         [
-          "已通过多门SOA/CAS精算考试",
+          "Passed multiple SOA/CAS actuarial exams",
           3
         ],
         [
-          "有精算相关实习经历",
+          "Actuarial internship experience",
           2
         ],
         [
-          "熟练使用SQL/R/Python进行精算建模",
+          "Proficient in SQL/R/Python for actuarial modeling",
           2
         ],
         [
-          "参加精算社团/竞赛并有成果",
+          "Actuarial club/competition involvement with results",
           1
         ]
       ],
       "gaps": [
-        "只提到正在准备考试，没有已通过的具体考试",
-        "缺乏量化建模或数据分析的具体项目",
-        "简历没有体现对保险/风险定价业务的理解"
+        "Only mentions preparing for exams; no passed exams specified",
+        "Lacks concrete quantitative modeling or data analysis projects",
+        "No demonstrated understanding of insurance/risk pricing business"
       ]
     },
     {
       "id": "consulting",
-      "name": "咨询顾问",
-      "category": "商业与管理",
+      "name": "Consultant",
+      "category": "Business & Management",
       "weights": {
         "edu": 18,
         "exp": 28,
@@ -492,28 +492,28 @@
       },
       "bonus": [
         [
-          "顶尖咨询公司实习或案例赛获奖",
+          "Top consulting firm internship or case competition win",
           3
         ],
         [
-          "担任大型学生组织/项目负责人",
+          "Led a large student organization/project",
           2
         ],
         [
-          "有结构化解决复杂问题的具体案例",
+          "Concrete cases of structured problem-solving",
           2
         ]
       ],
       "gaps": [
-        "领导经历多但缺乏结果导向的量化表达",
-        "简历叙事缺乏结构感（STAR法则运用不足）",
-        "缺乏跨领域/跨职能协作经历"
+        "Leadership experience listed but lacking quantified, results-oriented expression",
+        "Resume narrative lacks structure (weak STAR usage)",
+        "No cross-domain / cross-functional collaboration experience"
       ]
     },
     {
       "id": "marketing",
-      "name": "市场营销",
-      "category": "商业与管理",
+      "name": "Marketing",
+      "category": "Business & Management",
       "weights": {
         "edu": 10,
         "exp": 30,
@@ -525,28 +525,28 @@
       },
       "bonus": [
         [
-          "独立操盘过campaign并有数据结果",
+          "Ran a campaign independently with data-backed results",
           2
         ],
         [
-          "熟练使用数据分析/投放工具（GA、SEM等）",
+          "Proficient with analytics/ad tools (GA, SEM, etc.)",
           2
         ],
         [
-          "有内容创作/自媒体运营成果",
+          "Content creation / social media growth results",
           2
         ]
       ],
       "gaps": [
-        "经历多为执行层面，缺乏策略/数据分析体现",
-        "缺乏可量化的增长/转化数据",
-        "未体现对目标用户/市场的洞察能力"
+        "Experience mostly execution-level; little strategy/data analysis",
+        "Lacks quantified growth/conversion data",
+        "No demonstrated insight into target users/markets"
       ]
     },
     {
       "id": "pm",
-      "name": "产品经理",
-      "category": "商业与管理",
+      "name": "Product Manager",
+      "category": "Business & Management",
       "weights": {
         "edu": 12,
         "exp": 28,
@@ -558,28 +558,28 @@
       },
       "bonus": [
         [
-          "主导过从0到1的产品/功能",
+          "Led a 0-to-1 product/feature",
           3
         ],
         [
-          "有数据驱动决策的具体案例",
+          "Concrete data-driven decision cases",
           2
         ],
         [
-          "有技术或设计背景的跨界能力",
+          "Cross-functional edge from technical or design background",
           2
         ]
       ],
       "gaps": [
-        "经历偏运营/执行，缺乏产品思维体现",
-        "缺乏用户研究或数据支撑决策的案例",
-        "简历未体现对业务指标的理解"
+        "Experience leans operations/execution; little product thinking",
+        "No user research or data-backed decision cases",
+        "No demonstrated understanding of business metrics"
       ]
     },
     {
       "id": "ba",
-      "name": "商业分析师",
-      "category": "商业与管理",
+      "name": "Business Analyst",
+      "category": "Business & Management",
       "weights": {
         "edu": 12,
         "exp": 30,
@@ -591,28 +591,28 @@
       },
       "bonus": [
         [
-          "独立完成过端到端的数据分析项目并转化为业务建议",
+          "Completed end-to-end analysis projects turned into business recommendations",
           3
         ],
         [
-          "熟练使用SQL/Python/Tableau或Power BI等工具并有实战案例",
+          "Hands-on SQL/Python/Tableau or Power BI with real cases",
           2
         ],
         [
-          "有A/B测试或数据驱动决策的具体经历",
+          "Concrete A/B testing or data-driven decision experience",
           2
         ]
       ],
       "gaps": [
-        "经历偏数据整理/取数，缺乏从数据到业务建议的完整链条",
-        "缺乏可量化的分析成果或业务影响描述",
-        "工具使用停留在罗列层面，没有具体应用场景佐证"
+        "Experience is mostly data pulling/cleaning; no full chain from data to business recommendation",
+        "Lacks quantified analytical outcomes or business impact",
+        "Tool usage is a list with no concrete application context"
       ]
     },
     {
       "id": "ops",
-      "name": "供应链管理",
-      "category": "商业与管理",
+      "name": "Supply Chain Management",
+      "category": "Business & Management",
       "weights": {
         "edu": 10,
         "exp": 32,
@@ -624,28 +624,28 @@
       },
       "bonus": [
         [
-          "主导过流程优化并有可量化的效率/成本改善数据",
+          "Led process optimization with quantified efficiency/cost improvements",
           3
         ],
         [
-          "有跨部门/跨团队协调项目的具体案例",
+          "Concrete cross-department/team coordination cases",
           2
         ],
         [
-          "熟悉供应链/ERP系统（如SAP）并有实际使用经历",
+          "Familiar with supply chain/ERP systems (e.g., SAP) with hands-on use",
           2
         ]
       ],
       "gaps": [
-        "经历偏执行层面的日常任务，缺乏流程改进的主动性体现",
-        "缺乏对成本、效率等运营指标的量化描述",
-        "未体现跨部门协作或利益相关方沟通的具体案例"
+        "Experience is routine execution tasks; little proactive improvement",
+        "Lacks quantified cost/efficiency metrics",
+        "No concrete cross-functional collaboration cases"
       ]
     },
     {
       "id": "data_analyst",
-      "name": "数据分析师",
-      "category": "商业与管理",
+      "name": "Data Analyst",
+      "category": "Business & Management",
       "weights": {
         "edu": 12,
         "exp": 28,
@@ -657,28 +657,28 @@
       },
       "bonus": [
         [
-          "有独立搭建数据看板/自动化报表的经历",
+          "Built dashboards / automated reports independently",
           2
         ],
         [
-          "熟练使用SQL并有复杂查询/多表关联实战案例",
+          "Strong SQL with complex multi-table join cases",
           2
         ],
         [
-          "有使用统计方法支撑业务结论的具体案例",
+          "Concrete cases of statistics-backed business conclusions",
           2
         ]
       ],
       "gaps": [
-        "技能列表罗列多种工具，但缺乏实际项目佐证使用深度",
-        "分析停留在描述性统计，缺乏业务洞察或建议",
-        "简历未体现对数据准确性/口径一致性的把关意识"
+        "Long tool list with no project evidence of depth",
+        "Analysis stays descriptive; no business insight or recommendations",
+        "No demonstrated care for data accuracy / metric consistency"
       ]
     },
     {
       "id": "accounting",
-      "name": "会计师/审计师",
-      "category": "商业与管理",
+      "name": "Accountant / Auditor",
+      "category": "Business & Management",
       "weights": {
         "edu": 18,
         "exp": 30,
@@ -690,28 +690,28 @@
       },
       "bonus": [
         [
-          "CPA/ACCA等职业资格考试通过科目数多或进度领先",
+          "Many CPA/ACCA subjects passed or ahead of schedule",
           3
         ],
         [
-          "四大或知名会计师事务所相关实习经历",
+          "Big Four or reputable firm internship",
           3
         ],
         [
-          "有独立完成审计工作底稿/财务报表分析的具体案例",
+          "Concrete cases of independently completing audit workpapers / financial analysis",
           2
         ]
       ],
       "gaps": [
-        "实习经历偏基础核对/录入，缺乏分析性工作体现",
-        "证书考试进度信息缺失或含金量一般",
-        "简历未体现对准则/合规细节的严谨性"
+        "Internship was basic checking/data entry; little analytical work",
+        "Exam progress unclear or low-prestige",
+        "No demonstrated rigor on standards/compliance details"
       ]
     },
     {
       "id": "hr",
-      "name": "人力资源",
-      "category": "商业与管理",
+      "name": "Human Resources",
+      "category": "Business & Management",
       "weights": {
         "edu": 10,
         "exp": 32,
@@ -723,28 +723,28 @@
       },
       "bonus": [
         [
-          "主导过招聘/员工关系相关项目并有具体成果",
+          "Led recruiting / employee relations projects with concrete results",
           3
         ],
         [
-          "担任学生组织人力资源/HR相关负责人角色",
+          "HR lead role in a student organization",
           2
         ],
         [
-          "熟悉HRIS系统或人才数据分析",
+          "Familiar with HRIS or people analytics",
           2
         ]
       ],
       "gaps": [
-        "经历偏行政事务性工作，缺乏对招聘/员工发展等核心职能的参与体现",
-        "缺乏跨部门沟通或冲突处理的具体案例",
-        "简历未体现对组织/人才数据的分析意识"
+        "Experience is mostly administrative; little involvement in core HR functions",
+        "No concrete cross-department communication or conflict cases",
+        "No demonstrated people-data analysis awareness"
       ]
     },
     {
       "id": "sales",
-      "name": "销售",
-      "category": "商业与管理",
+      "name": "Sales",
+      "category": "Business & Management",
       "weights": {
         "edu": 8,
         "exp": 32,
@@ -756,28 +756,28 @@
       },
       "bonus": [
         [
-          "有可量化的销售业绩或客户转化数据（如完成/超额完成配额）",
+          "Quantified sales performance (met/exceeded quota)",
           3
         ],
         [
-          "熟悉CRM工具（如Salesforce）并有实战经验",
+          "Hands-on CRM experience (e.g., Salesforce)",
           2
         ],
         [
-          "有陌生开发（cold outreach）或客户关系维护的具体案例",
+          "Concrete cold outreach or account management cases",
           2
         ]
       ],
       "gaps": [
-        "经历偏辅助性质，缺乏独立负责客户或业绩指标的体现",
-        "缺乏量化的业绩/转化数据支撑",
-        "简历未体现良好的沟通/说服能力佐证"
+        "Mostly supportive roles; no independent ownership of accounts or targets",
+        "Lacks quantified performance/conversion data",
+        "No demonstrated communication/persuasion evidence"
       ]
     },
     {
       "id": "law",
-      "name": "律师",
-      "category": "专业服务与内容",
+      "name": "Lawyer",
+      "category": "Professional Services & Content",
       "weights": {
         "edu": 25,
         "exp": 25,
@@ -789,28 +789,28 @@
       },
       "bonus": [
         [
-          "顶级律所/法院实习经历",
+          "Top law firm / court internship",
           3
         ],
         [
-          "模拟法庭/法律写作竞赛获奖",
+          "Moot court / legal writing competition wins",
           2
         ],
         [
-          "法律职业资格考试通过或进度领先",
+          "Bar exam passed or well ahead",
           2
         ]
       ],
       "gaps": [
-        "实习经历偏文书整理，缺乏实质法律工作体现",
-        "缺乏法律写作/检索能力的具体佐证",
-        "未体现对特定法律领域的持续兴趣"
+        "Internship was mostly clerical; little substantive legal work",
+        "No concrete evidence of legal writing/research ability",
+        "No demonstrated sustained interest in a specific practice area"
       ]
     },
     {
       "id": "clinical_research",
-      "name": "临床研究助理",
-      "category": "专业服务与内容",
+      "name": "Clinical Research Associate",
+      "category": "Professional Services & Content",
       "weights": {
         "edu": 20,
         "exp": 28,
@@ -822,32 +822,32 @@
       },
       "bonus": [
         [
-          "持有GCP培训证书或临床研究相关认证",
+          "GCP training certificate or clinical research certification",
           3
         ],
         [
-          "有实际参与临床试验/研究项目的具体经历",
+          "Hands-on clinical trial/research project experience",
           3
         ],
         [
-          "熟悉IRB伦理审查流程或病例报告表(CRF)填写",
+          "Familiar with IRB review process or CRF completion",
           2
         ],
         [
-          "有数据核查或质控相关经验",
+          "Data verification or QC experience",
           2
         ]
       ],
       "gaps": [
-        "只有实验室科研经历，缺乏临床/患者接触相关经验",
-        "简历没有体现对法规合规（GCP/FDA）的理解",
-        "缺乏细致严谨的数据记录/文档能力佐证"
+        "Only lab research; no clinical/patient-facing experience",
+        "No demonstrated understanding of GCP/FDA compliance",
+        "Lacks evidence of meticulous documentation ability"
       ]
     },
     {
       "id": "media",
-      "name": "传媒/公关",
-      "category": "专业服务与内容",
+      "name": "Media / PR",
+      "category": "Professional Services & Content",
       "weights": {
         "edu": 8,
         "exp": 28,
@@ -859,28 +859,28 @@
       },
       "bonus": [
         [
-          "作品被公开发表/播出，有关注度证明",
+          "Work published/broadcast with audience proof",
           3
         ],
         [
-          "独立运营自媒体账号并有增长数据",
+          "Ran a social media account independently with growth data",
           2
         ],
         [
-          "知名媒体/公关公司实习经历",
+          "Well-known media/PR company internship",
           2
         ]
       ],
       "gaps": [
-        "作品集缺失或链接失效，无法验证能力",
-        "经历多为协助性质，缺乏主导创作的案例",
-        "缺乏对受众/传播效果的数据化理解"
+        "No portfolio or dead links; ability unverifiable",
+        "Mostly assisting roles; no lead creative cases",
+        "No data-driven understanding of audience/reach"
       ]
     },
     {
       "id": "film_production",
-      "name": "影视制作人",
-      "category": "专业服务与内容",
+      "name": "Film Producer",
+      "category": "Professional Services & Content",
       "weights": {
         "edu": 8,
         "exp": 25,
@@ -892,32 +892,32 @@
       },
       "bonus": [
         [
-          "有完整作品在影展/平台上映或获奖",
+          "Complete work screened at festivals/platforms or awarded",
           3
         ],
         [
-          "独立统筹过完整项目的预算与团队协调",
+          "Independently managed budget and crew for a full project",
           2
         ],
         [
-          "有剧组实习或跟组经历",
+          "On-set internship / crew experience",
           2
         ],
         [
-          "掌握剪辑/摄影/灯光等至少一项专业技能并有实战案例",
+          "Professional skill in editing/cinematography/lighting with real cases",
           2
         ]
       ],
       "gaps": [
-        "只有课程作业级别的短片，没有真实剧组经验",
-        "简历里角色和职责不清楚（挂名多但实际贡献描述少）",
-        "缺乏项目管理/预算控制的具体案例"
+        "Only coursework-level shorts; no real set experience",
+        "Unclear roles/responsibilities (many credits, little contribution detail)",
+        "No concrete project management/budget control cases"
       ]
     },
     {
       "id": "teacher",
-      "name": "教师",
-      "category": "专业服务与内容",
+      "name": "Teacher",
+      "category": "Professional Services & Content",
       "weights": {
         "edu": 18,
         "exp": 26,
@@ -929,32 +929,32 @@
       },
       "bonus": [
         [
-          "有教师资格证或在读教育学位",
+          "Teaching credential or education degree in progress",
           3
         ],
         [
-          "有课堂教学或助教实际带班经历",
+          "Real classroom teaching or TA experience leading a class",
           3
         ],
         [
-          "设计过完整课程/教案并有效果反馈",
+          "Designed complete lessons/curriculum with feedback",
           2
         ],
         [
-          "有辅导个别学生取得进步的具体案例",
+          "Concrete cases of helping individual students improve",
           2
         ]
       ],
       "gaps": [
-        "只有家教/一对一经验，缺乏课堂管理或带班经历",
-        "缺乏可衡量的教学效果（成绩提升/反馈评分）",
-        "简历叙述偏主观描述，缺乏具体教学方法"
+        "Only tutoring/1-on-1; no classroom management experience",
+        "No measurable teaching outcomes (grade gains / ratings)",
+        "Narrative is subjective; no concrete teaching methods"
       ]
     },
     {
       "id": "ux",
-      "name": "UI/UX设计师",
-      "category": "设计与创意",
+      "name": "UI/UX Designer",
+      "category": "Design & Creative",
       "weights": {
         "edu": 8,
         "exp": 20,
@@ -966,28 +966,28 @@
       },
       "bonus": [
         [
-          "有作品集链接（Behance/Dribbble等）且作品完整度高",
+          "Portfolio link (Behance/Dribbble etc.) with high completeness",
           3
         ],
         [
-          "主导过完整的用户研究到高保真原型的设计流程",
+          "Led full design process from user research to hi-fi prototype",
           2
         ],
         [
-          "熟练使用Figma等主流设计工具并有协作项目经历",
+          "Proficient in Figma with collaborative project experience",
           2
         ]
       ],
       "gaps": [
-        "作品集缺失或链接失效，无法验证设计能力",
-        "项目缺乏用户研究/可用性测试等设计方法论的体现",
-        "简历本身的视觉呈现和排版不够体现设计能力"
+        "No portfolio or dead links; design ability unverifiable",
+        "Projects lack design methodology (user research/usability testing)",
+        "Resume's own visual presentation doesn't demonstrate design ability"
       ]
     },
     {
       "id": "graphic_design",
-      "name": "平面设计师",
-      "category": "设计与创意",
+      "name": "Graphic Designer",
+      "category": "Design & Creative",
       "weights": {
         "edu": 8,
         "exp": 18,
@@ -999,32 +999,32 @@
       },
       "bonus": [
         [
-          "有作品被真实客户或品牌采用并发布",
+          "Work adopted and published by real clients/brands",
           3
         ],
         [
-          "作品集在Behance/Dribbble等平台获得较高关注度",
+          "High engagement on Behance/Dribbble",
           2
         ],
         [
-          "熟练使用Adobe全家桶/Figma并有完整项目流程",
+          "Proficient in Adobe suite/Figma with full project workflow",
           2
         ],
         [
-          "有品牌视觉系统（非单张海报）的完整设计案例",
+          "Complete brand identity system cases (not single posters)",
           2
         ]
       ],
       "gaps": [
-        "作品集只有单张视觉稿，没有完整设计流程展示（草图到成品）",
-        "缺乏真实客户/商业项目经验，全是自主练习作品",
-        "简历文字描述与作品集风格不一致，缺乏设计思路表达"
+        "Portfolio is single visuals only; no process from sketch to final",
+        "No real client/commercial work; practice pieces only",
+        "Resume copy and portfolio style inconsistent; no design rationale"
       ]
     },
     {
       "id": "architecture",
-      "name": "建筑师",
-      "category": "设计与创意",
+      "name": "Architect",
+      "category": "Design & Creative",
       "weights": {
         "edu": 15,
         "exp": 18,
@@ -1036,32 +1036,32 @@
       },
       "bonus": [
         [
-          "有获奖作品集或设计竞赛获奖",
+          "Award-winning portfolio or design competition wins",
           3
         ],
         [
-          "熟练使用Revit/Rhino/AutoCAD/Grasshopper等专业软件并有实战项目",
+          "Proficient in Revit/Rhino/AutoCAD/Grasshopper with real projects",
           2
         ],
         [
-          "参与过真实建成项目或事务所实习",
+          "Real built-project involvement or firm internship",
           2
         ],
         [
-          "有跨学科（结构/可持续设计）协作经历",
+          "Cross-disciplinary (structure/sustainable design) collaboration",
           2
         ]
       ],
       "gaps": [
-        "作品集里只有课程作业，缺乏原创性或深度迭代过程",
-        "缺乏实际项目/事务所实习经历",
-        "图纸/渲染技术表达不够专业"
+        "Portfolio is coursework only; lacks originality or deep iteration",
+        "No real project / firm internship experience",
+        "Drawings/renderings not professionally presented"
       ]
     },
     {
       "id": "game_design",
-      "name": "游戏设计师",
-      "category": "设计与创意",
+      "name": "Game Designer",
+      "category": "Design & Creative",
       "weights": {
         "edu": 10,
         "exp": 15,
@@ -1073,26 +1073,26 @@
       },
       "bonus": [
         [
-          "有上线发布或在Steam/itch.io等平台展示的完整游戏作品",
+          "Shipped a complete game on Steam/itch.io or showcased",
           3
         ],
         [
-          "熟练使用Unity/Unreal Engine并有实战项目",
+          "Hands-on Unity/Unreal Engine projects",
           2
         ],
         [
-          "参与过Game Jam并有名次或完成作品",
+          "Game Jam placements or finished entries",
           2
         ],
         [
-          "有关卡设计/系统设计的具体文档或案例",
+          "Concrete level/system design docs or cases",
           2
         ]
       ],
       "gaps": [
-        "只有课程作业demo，没有完整可玩的作品",
-        "作品集缺乏设计思路说明（只有截图没有设计文档）",
-        "技术栈列了很多但缺乏具体项目佐证"
+        "Coursework demos only; no complete playable work",
+        "Portfolio lacks design thinking (screenshots but no design docs)",
+        "Long tech list with no project evidence"
       ]
     }
   ]

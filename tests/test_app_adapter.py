@@ -45,7 +45,7 @@ def _plan_json():
 
 
 def _fake_llm(api_key, model, system_prompt, user_text, max_tokens=4000):
-    if "审查员" in system_prompt:  # critic：直接放行
+    if "review auditor" in system_prompt:  # critic：直接放行
         return json.dumps({"pass": True, "feedback": []})
     return _plan_json()  # planner
 

@@ -153,7 +153,7 @@ def _render_mascot_card(field: dict, dim_name_by_key: dict):
                 background:#ffffff; object-fit:contain; flex-shrink:0;
             ">
             <div>
-                <div style="font-size:0.78rem; color:inherit; opacity:0.72; margin-bottom:2px;">已选定目标方向</div>
+                <div style="font-size:0.78rem; color:inherit; opacity:0.72; margin-bottom:2px;">Selected target field</div>
                 <div style="font-size:1.02rem; font-weight:700; color:inherit;">{field['name']}</div>
             </div>
         </div>
@@ -225,7 +225,7 @@ def _render_score_badge(result: dict):
         <div style="display:flex; align-items:center; gap:24px; padding:8px 4px 4px;">
             {visual_html}
             <div>
-                <div style="font-size:0.9rem; color:inherit; opacity:0.72; margin-bottom:4px;">{field['name']} · 评估结果</div>
+                <div style="font-size:0.9rem; color:inherit; opacity:0.72; margin-bottom:4px;">{field['name']} · Evaluation Result</div>
                 <div style="display:flex; align-items:baseline; gap:6px; margin-bottom:8px;">
                     <span style="font-size:2.4rem; font-weight:800; line-height:1; color:inherit;">{total}</span>
                     <span style="font-size:1rem; color:inherit; opacity:0.72;">/ 100</span>
@@ -265,34 +265,34 @@ def _mascot_reel_assets():
 def _render_agent_plan_tab(tab, result, dim_name_by_key):
     """Agent 模式 tab：planner 的取证计划。"""
     with tab:
-        st.subheader("📋 取证计划")
-        st.caption("planner 先为 7 个维度制定取证策略，scorer 再按计划打分——先想后做。")
+        st.subheader("📋 Evidence Plan")
+        st.caption("The planner sets an evidence-gathering strategy for the 7 dimensions first; the scorer then scores by the plan — think before acting.")
         plan = result.get("plan") or []
         if not plan:
-            st.info("本次运行没有取证计划。")
+            st.info("No evidence plan for this run.")
             return
         st.table([{
-            "维度": dim_name_by_key.get(p.get("dimension"), p.get("dimension")),
-            "取证策略": p.get("strategy", ""),
-            "JD 检索问题": "; ".join(p.get("jd_queries") or []) or "—",
+            "Dimension": dim_name_by_key.get(p.get("dimension"), p.get("dimension")),
+            "Evidence strategy": p.get("strategy", ""),
+            "JD search queries": "; ".join(p.get("jd_queries") or []) or "—",
         } for p in plan])
 
 
 def _render_agent_scoring_tab(tab, result, dim_name_by_key):
     """Agent 模式 tab：scorer 的逐维度打分过程。"""
     with tab:
-        st.subheader("🔍 打分过程")
+        st.subheader("🔍 Scoring Process")
         st.caption(
-            f"ReAct agent 带 3 个工具逐维度打分"
-            f"（get_dimension_rubric / search_jd_library / verify_quote），"
-            f"scorer 共跑了 {result.get('revision_rounds', 0)} 轮。"
+            f"The ReAct agent scores dimension by dimension with 3 tools "
+            f"(get_dimension_rubric / search_jd_library / verify_quote); "
+            f"the scorer ran {result.get('revision_rounds', 0)} round(s)."
         )
         scores = result.get("dimension_scores", {})
         rationale = result.get("dimension_rationale", {})
         evidence = result.get("dimension_evidence", {})
         for key, score in scores.items():
             with st.expander(
-                    f"{dim_name_by_key.get(key, key)}：{score} 分", expanded=False):
+                    f"{dim_name_by_key.get(key, key)}: {score} / 5", expanded=False):
                 if rationale.get(key):
                     st.write(rationale[key])
                 for q in evidence.get(key) or []:
@@ -302,23 +302,23 @@ def _render_agent_scoring_tab(tab, result, dim_name_by_key):
 def _render_agent_critic_tab(tab, result, dim_name_by_key):
     """Agent 模式 tab：critic v2 的审计与改分。"""
     with tab:
-        st.subheader("🛡️ Critic 审计")
+        st.subheader("🛡️ Critic Audit")
         corrections = result.get("critic_corrections") or []
         if result.get("critic_pass") and not corrections:
-            st.success("critic 一次通过，没有发现硬伤。")
+            st.success("Critic passed on the first round — no critical issues found.")
         elif corrections:
-            st.warning(f"critic 发现 {len(corrections)} 处硬伤，已直接修正分数：")
+            st.warning(f"Critic found {len(corrections)} critical issue(s) and corrected the scores directly:")
             st.table([{
-                "维度": dim_name_by_key.get(c.get("dimension"), c.get("dimension")),
-                "原分": c.get("old_score"),
-                "修正后": c.get("new_score"),
-                "理由": c.get("reason", ""),
+                "Dimension": dim_name_by_key.get(c.get("dimension"), c.get("dimension")),
+                "Original": c.get("old_score"),
+                "Corrected": c.get("new_score"),
+                "Reason": c.get("reason", ""),
             } for c in corrections])
         else:
-            st.info("critic 没有通过，但未产生改分（已达修订上限，直接汇总）。")
+            st.info("Critic did not pass, but no scores were changed (revision limit reached; summarized directly).")
         feedback = result.get("critic_feedback") or []
         if feedback:
-            st.caption("critic 反馈：")
+            st.caption("Critic feedback:")
             for f in feedback:
                 st.write(f"- {f}")
 
@@ -413,10 +413,10 @@ def _render_loading_reel(target_field: Optional[dict]):
             + "background:#FFFFFF; "
             + "display:flex; flex-direction:column; align-items:center; justify-content:center; gap:28px;";
         overlay.innerHTML =
-            '<div class="rc-hint-pill">正在评估中，请稍候…</div>'
+            '<div class="rc-hint-pill">Evaluating, please wait…</div>'
             + '<div class="rc-reel-visual" id="rcReelVisual">{imgs_html}</div>'
-            + '<div><div class="rc-reel-title" id="rcReelTitle">正在读取简历并调用AI模型打分</div>'
-            + '<div class="rc-reel-sub" id="rcReelSub">评估耗时取决于模型响应，请勿重复提交</div></div>'
+            + '<div><div class="rc-reel-title" id="rcReelTitle">Reading resume and scoring with the AI model</div>'
+            + '<div class="rc-reel-sub" id="rcReelSub">Timing depends on model response; please do not resubmit</div></div>'
             + '<div class="rc-progress-dots"><span></span><span></span><span></span></div>';
         doc.body.appendChild(overlay);
         // iframe在重跑或停止时被卸载，也要移除属于它的遮罩。
@@ -456,8 +456,8 @@ def _render_loading_reel(target_field: Optional[dict]):
                 if (steps <= 0){{
                     showIdx(targetIdx);
                     imgs[targetIdx].classList.add("landed");
-                    titleEl.textContent = '正在评估 {field_name} 方向';
-                    subEl.textContent = "仍在等待模型返回，完成后会自动显示结果。";
+                    titleEl.textContent = 'Evaluating: {field_name}';
+                    subEl.textContent = "Still waiting for the model; results will appear automatically.";
                     return;
                 }}
                 idx = (idx + 1) % ORDER.length;
@@ -508,7 +508,7 @@ def render_pdf_pages_as_images(pdf_bytes: bytes, dpi: int = 150):
     try:
         import pymupdf  # PyMuPDF；新版包名是 pymupdf，import fitz 是旧写法，已弃用
     except ImportError as e:
-        raise RuntimeError("缺少依赖 pymupdf，请在venv里执行 pip install pymupdf 后重新运行") from e
+        raise RuntimeError("Missing dependency pymupdf. Run 'pip install pymupdf' in the venv, then rerun.") from e
     doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
     zoom = dpi / 72
     mat = pymupdf.Matrix(zoom, zoom)
@@ -526,7 +526,7 @@ PROJECT_DIR = APP_DIR.parent
 REPORT_DIR = PROJECT_DIR / "reports"
 REPORT_DIR.mkdir(exist_ok=True)
 
-st.set_page_config(page_title="简历罗盘", page_icon="🧭", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Resume Compass", page_icon="🧭", layout="wide", initial_sidebar_state="collapsed")
 # Hide host controls independently of optional background assets.
 st.markdown(textwrap.dedent("""
 <style>
@@ -560,7 +560,7 @@ framework = load_framework()
 field_options = {f["name"]: f["id"] for f in framework["fields"]}
 fields_by_id = {f["id"]: f for f in framework["fields"]}
 dim_name_by_key = {d["key"]: d["name"] for d in framework["dimensions"]}
-CUSTOM_OPTION_LABEL = "🖊️ 其他（自定义方向，我自己填）"
+CUSTOM_OPTION_LABEL = "🖊️ Other (custom field — I'll type it myself)"
 
 # 2026-09-19：目标领域下拉改成"先选分类、再选具体方向"的两级结构，跟 jd-reference-library/README.md
 # 里的分类表（技术与工程 / 商业与管理 / 专业服务与内容 / 设计与创意）保持一致——分类本身就是
@@ -571,14 +571,14 @@ CUSTOM_OPTION_LABEL = "🖊️ 其他（自定义方向，我自己填）"
 FIELD_CATEGORIES: list = []
 FIELDS_BY_CATEGORY: dict = {}
 for _f in framework["fields"]:
-    _cat = _f.get("category") or "其他"
+    _cat = _f.get("category") or "Other"
     if _cat not in FIELDS_BY_CATEGORY:
         FIELD_CATEGORIES.append(_cat)
         FIELDS_BY_CATEGORY[_cat] = []
     FIELDS_BY_CATEGORY[_cat].append(_f["name"])
 
-st.title("🧭 简历罗盘")
-st.caption("上传简历获取评估报告")
+st.title("🧭 Resume Compass")
+st.caption("Upload your resume to get an evaluation report")
 
 def _get_secret_api_key() -> str:
     """优先读取 Streamlit Community Cloud 后台配置的 Secrets（部署到云端用这个）。
@@ -594,7 +594,7 @@ secret_api_key = _get_secret_api_key()
 env_api_key = os.environ.get("ANTHROPIC_API_KEY", "")
 api_key = secret_api_key or env_api_key
 if not api_key:
-    st.error("评估服务尚未配置，请联系管理员。")
+    st.error("The evaluation service is not configured yet. Please contact the administrator.")
 
 # Keep operational settings server-side; students only see the assessment form.
 model = DEFAULT_MODEL
@@ -614,10 +614,10 @@ if st.session_state.view == "form":
     col1, col2 = st.columns([1, 1])
     with col1:
         uploaded = st.file_uploader(
-            "上传简历（PDF 或图片：PNG / JPG / WEBP）",
+            "Upload resume (PDF or image: PNG / JPG / WEBP)",
             type=["pdf", "png", "jpg", "jpeg", "webp"],
         )
-        student_name = st.text_input("学生姓名", placeholder="请填写学生姓名（不会从上传的文件名自动带入）")
+        student_name = st.text_input("Student name", placeholder="Enter the student name (not auto-filled from the file name)")
     with col2:
         # 2026-09-19：改成单个下拉（sac.cascader，来自 streamlit-antd-components 组件库），
         # 点开后左边是分类、右边浮出对应的方向列表，一次选完，不用先选分类再选方向两步走。
@@ -632,8 +632,8 @@ if st.session_state.view == "form":
         ] + [sac.CasItem(label=CUSTOM_OPTION_LABEL)]
         selected_path = sac.cascader(
             items=cascader_items,
-            label="目标领域",
-            placeholder="请选择方向分类 → 具体领域",
+            label="Target field",
+            placeholder="Select a category → specific field",
             key="field_cascader",
         )
         # 2026-09-19【重要坑，导致了线上KeyError报错】：sac.cascader组件自己的onChange实现
@@ -658,11 +658,11 @@ if st.session_state.view == "form":
         custom_field_name = ""
         if is_custom_field:
             custom_field_name = st.text_input(
-                "请输入目标方向名称",
-                placeholder="比如：碳中和政策研究、跨境电商运营……",
+                "Enter the target field name",
+                placeholder="e.g., carbon-neutral policy research, cross-border e-commerce operations…",
                 help=(
-                    "这个方向不在下拉列表里，没有为它预先准备好加分项清单、常见短板参考、真实招聘JD摘录，"
-                    "打分会靠模型对这个方向在真实招聘市场上的通用理解来判断，严谨程度会低于列表里的领域，仅供参考。"
+                    "This field is not in the list — no pre-built bonus checklist, common-gap reference, or real JD excerpts were prepared for it. "
+                    "Scoring will rely on the model's general understanding of this field in the real job market, and will be less rigorous than for listed fields. For reference only."
                 ),
             )
         student_meta = ""
@@ -674,14 +674,14 @@ if st.session_state.view == "form":
         or (not is_custom_field and field_name is not None)
     )
     agent_mode = st.checkbox(
-        "🤖 Agent 模式（多智能体打分）",
+        "🤖 Agent mode (multi-agent scoring)",
         value=False,
-        help=("用 LangGraph 多智能体流水线打分（planner→scorer→critic→reporter），"
-              "约需 2-3 分钟，结果页可分步查看取证计划、打分过程和 critic 审计。"
-              "关闭则用原来的单次打分链路。暂不支持图片简历。"),
+        help=("Scores with a LangGraph multi-agent pipeline (planner→scorer→critic→reporter), "
+              "takes about 2–3 minutes; the results page shows the evidence plan, scoring process, and critic audit step by step. "
+              "Turn off to use the original single-pass scoring. Image resumes are not supported yet."),
     )
     run = st.button(
-        "开始评估",
+        "Start Evaluation",
         type="primary",
         disabled=not (uploaded and api_key and student_name and field_ready),
     )
@@ -693,7 +693,7 @@ if st.session_state.view == "form":
         spinner_cm = (
             nullcontext()
             if reel_placeholder is not None
-            else st.spinner("正在读取简历并调用AI模型打分…")
+            else st.spinner("Reading resume and scoring with the AI model…")
         )
         try:
             with spinner_cm:
@@ -718,13 +718,13 @@ if st.session_state.view == "form":
                         resume_text = "\n".join(page.extract_text() or "" for page in pdf.pages)
                     if not resume_text.strip():
                         st.error(
-                            "没能从这份PDF里提取到文字，可能是扫描件图片版——"
-                            "可以试试把它导出或截图成PNG/JPG图片再上传，图片格式现在支持直接识别评估。"
+                            "Could not extract text from this PDF — it may be a scanned image. "
+                            "Try exporting or screenshotting it as a PNG/JPG image and uploading again; image uploads are now evaluated directly."
                         )
                         proceed = False
 
                 if proceed and agent_mode and resume_text is None:
-                    st.error("Agent 模式暂不支持图片简历，请上传 PDF 版本再试。")
+                    st.error("Agent mode does not support image resumes yet. Please upload a PDF version and try again.")
                     proceed = False
 
                 if proceed:
@@ -759,7 +759,7 @@ if st.session_state.view == "form":
                     st.session_state.student_meta = student_meta
                     st.session_state.view = "result"
         except Exception as e:
-            st.error(f"评估失败：{e}")
+            st.error(f"Evaluation failed: {e}")
         finally:
             _clear_loading_reel(reel_placeholder)
     if st.session_state.view == "result":
@@ -769,7 +769,7 @@ if st.session_state.view == "form":
 
 elif st.session_state.view == "result" and st.session_state.result:
     result = st.session_state.result
-    if st.button("← 重新评估另一份简历"):
+    if st.button("← Evaluate another resume"):
         st.session_state.view = "form"
         st.session_state.result = None
         st.session_state.resume_pdf_bytes = None
@@ -779,7 +779,7 @@ elif st.session_state.view == "result" and st.session_state.result:
     st.divider()
     if result.get("agent_mode"):
         tab_report, tab_plan, tab_scoring, tab_critic = st.tabs(
-            ["📄 最终报告", "📋 取证计划", "🔍 打分过程", "🛡️ Critic 审计"])
+            ["📄 Final Report", "📋 Evidence Plan", "🔍 Scoring Process", "🛡️ Critic Audit"])
         _render_agent_plan_tab(tab_plan, result, dim_name_by_key)
         _render_agent_scoring_tab(tab_scoring, result, dim_name_by_key)
         _render_agent_critic_tab(tab_critic, result, dim_name_by_key)
@@ -800,12 +800,12 @@ elif st.session_state.view == "result" and st.session_state.result:
                                    key="share-" + CARD_VERSION + "-" + st.session_state.get("assessment_id", "legacy")):
                 st.session_state.report_unlocked = True
         except Exception:
-            st.warning("分享卡暂时无法生成，请重试。")
-            if st.button("重试生成分享卡"):
+            st.warning("The share card could not be generated. Please retry.")
+            if st.button("Retry share card"):
                 st.session_state.pop("share_card_key", None)
                 st.rerun()
         if not st.session_state.get("report_unlocked", False):
-            st.caption("点击分享卡片后查看完整报告。")
+            st.caption("Tap the share card to view the full report.")
             st.stop()
 
         render_web_report(result, st.session_state.student_name, st.session_state.student_meta)
@@ -813,17 +813,17 @@ elif st.session_state.view == "result" and st.session_state.result:
         if result["field"].get("id") == CUSTOM_FIELD_ID:
             matched_fields = result["field"].get("matched_fields")
             if matched_fields:
-                match_desc = "　/　".join(
+                match_desc = " / ".join(
                     f"{m['name']} {round(m['weight'] * 100)}%" for m in matched_fields
                 )
                 st.caption(
-                    f"✏️ 目标方向「{result['field']['name']}」是你自己输入的自定义方向，"
-                    f"已自动匹配到现有领域并按比例融合出本次打分依据的权重/加分项/短板/JD参考：{match_desc}"
+                    f"✏️ Target field \"{result['field']['name']}\" is a custom field you entered. "
+                    f"It was auto-matched to existing fields, and this scoring's weights/bonuses/gaps/JD references were blended proportionally: {match_desc}"
                 )
             else:
                 st.caption(
-                    f"✏️ 目标方向「{result['field']['name']}」是你自己输入的自定义方向，"
-                    "没能自动匹配到相近的现有领域，用的是通用兜底权重，打分依据的是模型对这个方向的通用理解，仅供参考。"
+                    f"✏️ Target field \"{result['field']['name']}\" is a custom field you entered. "
+                    "It could not be matched to a similar existing field, so generic fallback weights were used, based on the model's general understanding of this field. For reference only."
                 )
 
         stability = result.get("stability")
@@ -831,8 +831,8 @@ elif st.session_state.view == "result" and st.session_state.result:
             totals = stability["total_all_runs"]
             spread = max(totals) - min(totals)
             st.caption(
-                f"🔁 稳定性模式：本次调用了{stability['runs']}次，{stability['runs']}次总分分别为 "
-                f"{' / '.join(str(t) for t in totals)}，波动{spread}分，最终各维度取中位数得到上面这个结果"
+                f"🔁 Stability mode: scored {stability['runs']} time(s); totals were "
+                f"{' / '.join(str(t) for t in totals)}, spread {spread} points. Each dimension above takes the median."
             )
 
         try:
@@ -848,40 +848,40 @@ elif st.session_state.view == "result" and st.session_state.result:
         except Exception as e:
             # 打分结果已经在上面完整展示了；PDF生成这一步单独兜底，
             # 失败也不影响用户看到刚才的评分和分析，只是拿不到PDF报告。
-            st.error(f"生成PDF报告失败：{e}（上面的评分结果不受影响，可以先看这些）")
+            st.error(f"Failed to generate the PDF report: {e} (the scores above are unaffected — you can review them first)")
             pdf_bytes, highlight_info = None, None
 
         if pdf_bytes is not None and (result.get("ats_keywords") or result.get("vague_phrases") or result.get("strong_phrases")):
             if highlight_info["attached"]:
                 parts = []
                 if highlight_info["ats_matched"]:
-                    parts.append(f"黄色/ATS关键词：{'、'.join(highlight_info['ats_matched'])}")
+                    parts.append(f"Yellow / ATS keywords: {', '.join(highlight_info['ats_matched'])}")
                 if highlight_info["strong_matched"]:
-                    parts.append(f"绿色/量化成果：{'；'.join(highlight_info['strong_matched'])}")
+                    parts.append(f"Green / quantified achievements: {'; '.join(highlight_info['strong_matched'])}")
                 if highlight_info["vague_matched"]:
-                    parts.append(f"红色/可优化表述：{'；'.join(highlight_info['vague_matched'])}")
-                st.caption("已在下方的简历原文里标注 —— " + "；".join(parts))
+                    parts.append(f"Red / phrases to improve: {'; '.join(highlight_info['vague_matched'])}")
+                st.caption("Annotated in the original resume below — " + "; ".join(parts))
             else:
-                st.warning(f"没能生成标注版简历：{highlight_info['reason']}")
+                st.warning(f"Could not generate the annotated resume: {highlight_info['reason']}")
 
         if pdf_bytes is not None:
             annotated_pdf = highlight_info.get("highlighted_resume_pdf_bytes")
             if annotated_pdf:
-                st.subheader("简历原文标注")
-                st.caption("保留原稿版式。黄色=ATS关键词，绿色=量化成果，红色=建议优化的表述。")
+                st.subheader("Annotated Original Resume")
+                st.caption("Original layout preserved. Yellow = ATS keywords, green = quantified achievements, red = phrases to improve.")
                 try:
                     page_images = render_pdf_pages_as_images(annotated_pdf, dpi=200)
                     for img_bytes in page_images:
                         encoded = base64.b64encode(img_bytes).decode("ascii")
                         st.markdown(f'<div style="max-width:1000px;margin:0 auto"><img alt="标注版简历原文" src="data:image/png;base64,{encoded}" style="width:100%;height:auto"></div>', unsafe_allow_html=True)
                 except Exception:
-                    st.info("标注预览暂时无法显示，请下载标注版简历查看。")
-                st.download_button("下载标注版简历", data=annotated_pdf,
-                                   file_name="标注版简历.pdf", mime="application/pdf")
-            out_name = f"{st.session_state.student_name}_评估_{date.today().isoformat()}.pdf"
+                    st.info("The annotation preview can't be displayed right now. Please download the annotated resume to view it.")
+                st.download_button("Download annotated resume", data=annotated_pdf,
+                                   file_name="annotated_resume.pdf", mime="application/pdf")
+            out_name = f"{st.session_state.student_name}_evaluation_{date.today().isoformat()}.pdf"
             out_path = REPORT_DIR / out_name
             out_path.write_bytes(pdf_bytes)
-            st.download_button("下载PDF报告", data=pdf_bytes, file_name=out_name, mime="application/pdf")
+            st.download_button("Download PDF report", data=pdf_bytes, file_name=out_name, mime="application/pdf")
 
             # 2026-09-19：顺手把报告存档邮件发出去——免费版Streamlit Cloud容器重启后
             # reports/文件夹会清空，邮箱是目前最省事的长期留存方式。
@@ -896,7 +896,7 @@ elif st.session_state.view == "result" and st.session_state.result:
                         pdf_bytes,
                         out_name,
                         st.session_state.student_name,
-                        result["field"].get("name", "未知方向"),
+                        result["field"].get("name", "Unknown field"),
                         result["total"],
                         result["tier_label"],
                         datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -906,11 +906,11 @@ elif st.session_state.view == "result" and st.session_state.result:
                     st.session_state.report_email_status = email_status
                 email_status = st.session_state.report_email_status
                 if email_status == "sent":
-                    st.caption("📧 报告和原版简历已自动发送存档邮件")
+                    st.caption("📧 The report and original resume were emailed for archiving")
                 else:
-                    st.caption("ℹ️ 存档邮件功能尚未配置（Secrets里没填发件邮箱/密码），已跳过发送")
+                    st.caption("ℹ️ Archive email is not configured (sender email/password missing in Secrets); skipped")
             except Exception as e:
-                st.warning(f"报告存档邮件发送失败（不影响上面的评分结果和下载）：{e}")
+                st.warning(f"Archive email failed (scores and downloads above are unaffected): {e}")
 
         usage = result.get("usage") or {}
         in_tok = usage.get("input_tokens")
@@ -933,13 +933,13 @@ elif st.session_state.view == "result" and st.session_state.result:
                 + cache_read_tok / 1_000_000 * cache_read_price
                 + out_tok / 1_000_000 * price_out
             )
-            cache_note = f"，其中 {cache_read_tok} tokens 命中缓存（按1折计费）" if cache_read_tok > 0 else ""
+            cache_note = f", including {cache_read_tok} cache-hit tokens (billed at 10%)" if cache_read_tok > 0 else ""
             st.caption(
-                f"本次调用消耗：输入 {in_tok} tokens，输出 {out_tok} tokens"
-                f"（其中思考过程 {think_tok} tokens）{cache_note}，预估费用 ${est_cost:.4f}"
+                f"This run used: {in_tok} input tokens, {out_tok} output tokens"
+                f" (incl. {think_tok} thinking tokens){cache_note}, estimated cost ${est_cost:.4f}"
             )
 
-        with st.expander("查看模型原始输出（调试用）"):
+        with st.expander("View raw model output (debug)"):
             st.code(result["raw_model_output"])
 
 else:

@@ -186,7 +186,7 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
     score_w = c.stringWidth(total_str, LATIN_FONT_BOLD, score_size)
     slash_w = _mixed_width(c, "/100", slash_size)
     score_line_w = score_w + 4 + slash_w
-    label_w = _mixed_width(c, "综合竞争力得分", label_size)
+    label_w = _mixed_width(c, "Overall Competitiveness Score", label_size)
     field_text = f"目标领域：{field['name']}"
     field_w = _mixed_width(c, field_text, field_size)
     text_block_w = max(label_w, score_line_w, field_w)
@@ -215,7 +215,7 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
     ty = y - (block_h - text_block_h) / 2  # 文字块相对插画人物垂直居中
 
     ty -= row_h_label
-    _draw_mixed(c, "综合竞争力得分", text_x, ty, label_size, color=SUB)
+    _draw_mixed(c, "Overall Competitiveness Score", text_x, ty, label_size, color=SUB)
     ty -= row_gap1 + row_h_score
     baseline_y = ty
     c.setFont(LATIN_FONT_BOLD, score_size)
@@ -236,12 +236,12 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
         _draw_mixed(c, text, MARGIN, y, 11, color=BLUE)
         return y - 16
 
-    y = section_title(y, "分项表现区间")
+    y = section_title(y, "Dimension Performance")
 
     if not result.get("evidence_verification_available", True):
         y = _draw_wrapped_mixed(
             c,
-            "ℹ️ 这份简历是以图片形式上传评估的，下面引用的原文片段没法逐字核对是否真实存在，请自行留意准确性。",
+            "ℹ️ This resume was uploaded as an image, so the quoted excerpts below could not be verified word-for-word. Please review with care.",
             MARGIN, y, 7.5, CONTENT_W, 10, color=SUB,
         )
         y -= 4
@@ -270,9 +270,9 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
         c.drawPath(p, fill=1, stroke=0)
         y -= 20
 
-        _draw_mixed(c, "薄弱", MARGIN, y, 6.5, color=SUB)
-        _draw_mixed_centred(c, "中等", PAGE_W / 2, y, 6.5, color=SUB)
-        _draw_mixed_right(c, "顶尖", PAGE_W - MARGIN, y, 6.5, color=SUB)
+        _draw_mixed(c, "Developing", MARGIN, y, 6.5, color=SUB)
+        _draw_mixed_centred(c, "Average", PAGE_W / 2, y, 6.5, color=SUB)
+        _draw_mixed_right(c, "Top", PAGE_W - MARGIN, y, 6.5, color=SUB)
         y -= 12
 
         rtext = rationale.get(key, "")
@@ -282,25 +282,25 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
         ev_list = evidence.get(key, [])
         ok_list = evidence_verified.get(key, [])
         for q, ok in zip(ev_list, ok_list):
-            mark = "" if ok else "[未核实] "
+            mark = "" if ok else "[Unverified] "
             y = new_page_if_needed(y, 20)
             y = _draw_wrapped_mixed(c, f"{mark}原文：“{q}”", MARGIN + 8, y, 7.3, CONTENT_W - 8, 10, color=SUB)
         y -= 10
 
     # ---- interpretation ----
     y = new_page_if_needed(y, 140)
-    y = section_title(y, "解读说明")
+    y = section_title(y, "Interpretation")
     col_w = (CONTENT_W - 20) / 2
     left_x, right_x = MARGIN, MARGIN + col_w + 20
     top_y = y
 
-    _draw_mixed(c, "优势", left_x, top_y, 9.5, color=BLUE)
+    _draw_mixed(c, "Strengths", left_x, top_y, 9.5, color=BLUE)
     yl = top_y - 14
     for s in result["strengths"]:
         yl = _draw_wrapped_mixed(c, "· " + s, left_x, yl, 8.3, col_w, 11)
         yl -= 4
 
-    _draw_mixed(c, "建议提升方向", right_x, top_y, 9.5, color=BLUE)
+    _draw_mixed(c, "Areas for Improvement", right_x, top_y, 9.5, color=BLUE)
     yr = top_y - 14
     for g in result["gaps"]:
         yr = _draw_wrapped_mixed(c, "· " + g, right_x, yr, 8.3, col_w, 11)
@@ -315,8 +315,8 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
     c.line(MARGIN, y, PAGE_W - MARGIN, y)
     y -= 12
     disclaimer = (
-        "本报告依据「简历罗盘」学生求职竞争力评估框架、由AI辅助阅读简历并对照既定评分锚点生成，"
-        "供内部参考，不构成对最终求职结果的保证。"
+        "This report was generated with AI assistance based on the Resume Compass student employability framework and its scoring anchors. "
+        "For internal reference only; it does not guarantee final job outcomes."
     )
     if result.get("stage_note"):
         disclaimer += " " + result["stage_note"]
@@ -342,19 +342,19 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
 
     if not resume_pdf_bytes:
         highlight_info["reason"] = (
-            "没有拿到简历原始PDF字节——如果这份简历是以图片格式上传评估的，这一段本来就会跳过"
-            "（图片没有PDF页面坐标信息，没法做关键词高亮定位）；如果上传的明明是PDF却看到这条提示，"
-            "可能是旧版本session状态，重新上传一次简历再评估即可"
+            "Original resume PDF bytes not available — for image uploads this section is skipped by design "
+            "(images have no PDF page coordinates for keyword highlighting). If you uploaded a PDF and still see this, "
+            "it may be stale session state; re-upload the resume and evaluate again."
         )
     elif not ats_keywords and not vague_phrases and not strong_phrases:
-        highlight_info["reason"] = "本次AI没有识别出可核实的标注内容"
+        highlight_info["reason"] = "The AI did not identify any verifiable content to annotate this time"
     else:
         try:
             from highlight import highlight_pdf_multi
         except Exception as e:
             highlight_info["reason"] = (
                 f"缺少依赖 pypdf，无法生成标注附页（{e}）。"
-                "请在venv里执行 pip install pypdf 后重新评估一次。"
+                "Please run 'pip install pypdf' in the venv and evaluate again."
             )
         else:
             try:
@@ -367,7 +367,7 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
                     resume_pdf_bytes, groups
                 )
                 if not ats_matched and not vague_matched and not strong_matched:
-                    highlight_info["reason"] = "内容未能在简历版面上精确定位（可能是特殊排版或扫描件）"
+                    highlight_info["reason"] = "Some content could not be precisely located on the resume layout (possibly due to unusual formatting or scans)"
                     highlighted_bytes = None
             except Exception as e:
                 highlight_info["reason"] = f"生成标注附页时出错：{e}"
@@ -383,33 +383,33 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
             c.setLineWidth(0.5)
             c.line(MARGIN, y, PAGE_W - MARGIN, y)
             y -= 20
-        y = section_title(y, "附：简历原文标注")
+        y = section_title(y, "Appendix: Annotated Original Resume")
         intro = (
-            "以下附上你上传的简历原文，做了三类标注：黄色高亮是AI识别出的、对ATS"
-            "（Applicant Tracking System，用人单位常用的简历初筛系统）筛选可能有帮助的关键词；"
-            "绿色高亮是除教育背景、技能之外的部分（工作经历、项目经历、领导力与课外活动、荣誉奖项等）"
-            "里写得好、有数据支撑的量化成果，这种写法可以多用；"
-            "红色高亮是同样这些部分里偏笼统、缺乏具体信息量、建议重新打磨的表述"
-            "（比如看不出具体做了什么、用了什么方法、产生了什么结果）。三者都仅供参考，"
-            "内容本身的含金量才是决定录用的关键。"
+            "Below is your uploaded original resume with three kinds of annotations: yellow highlights are AI-identified keywords that may help with ATS "
+            "(Applicant Tracking System, the automated resume screening systems employers use); "
+            "green highlights are well-written, data-backed quantified achievements in sections other than education and skills (work experience, projects, leadership & extracurriculars, honors, etc.) "
+            "— this style is worth using more often; "
+            "red highlights are vague, low-information phrases in those same sections that should be reworked "
+            "(e.g., unclear what was done, what methods were used, or what resulted). All three are for reference only; "
+            "what ultimately matters is the substance of your experience."
         )
         y = _draw_wrapped_mixed(c, intro, MARGIN, y, 8.5, CONTENT_W, 12, color=HexColor("#3a3a3a"))
         y -= 8
         if ats_matched:
             y = _draw_wrapped_mixed(
-                c, "黄色标注 · ATS关键词：" + "、".join(ats_matched),
+                c, "Yellow highlights · ATS keywords:" + "、".join(ats_matched),
                 MARGIN, y, 8, CONTENT_W, 11, color=INK,
             )
             y -= 4
         if strong_matched:
             y = _draw_wrapped_mixed(
-                c, "绿色标注 · 有力的量化成果：" + "；".join(strong_matched),
+                c, "Green highlights · Strong quantified achievements:" + "；".join(strong_matched),
                 MARGIN, y, 8, CONTENT_W, 11, color=HexColor("#3E8E3E"),
             )
             y -= 4
         if vague_matched:
             y = _draw_wrapped_mixed(
-                c, "红色标注 · 建议优化的表述：" + "；".join(vague_matched),
+                c, "Red highlights · Phrases to improve:" + "；".join(vague_matched),
                 MARGIN, y, 8, CONTENT_W, 11, color=HexColor("#B23A3A"),
             )
             y -= 4
@@ -419,15 +419,15 @@ def generate_pdf(result: dict, student_name: str, student_meta: str = "", resume
         strong_unmatched = [k for k in strong_phrases if k not in strong_matched]
         skipped_notes = []
         if ats_unmatched:
-            skipped_notes.append("ATS关键词：" + "、".join(ats_unmatched))
+            skipped_notes.append("ATS keywords:" + "、".join(ats_unmatched))
         if strong_unmatched:
-            skipped_notes.append("量化成果：" + "；".join(strong_unmatched))
+            skipped_notes.append("Quantified achievements:" + "；".join(strong_unmatched))
         if vague_unmatched:
-            skipped_notes.append("建议优化表述：" + "；".join(vague_unmatched))
+            skipped_notes.append("Phrases to improve:" + "；".join(vague_unmatched))
         if skipped_notes:
             y = _draw_wrapped_mixed(
                 c,
-                "以下内容未能在版面上精确定位（可能是断行/特殊排版导致），仅供参考：" + "；".join(skipped_notes),
+                "The following could not be precisely located on the layout (possibly due to line breaks / unusual formatting); for reference only:" + "；".join(skipped_notes),
                 MARGIN, y, 7, CONTENT_W, 10, color=SUB,
             )
 

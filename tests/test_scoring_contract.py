@@ -39,7 +39,7 @@ class ScoringContract(unittest.TestCase):
         self.assertEqual(client.messages.create.call_args.kwargs['output_config']['format']['type'],'json_schema')
 
     def test_two_failures_have_actionable_error(self):
-        with self.assertRaisesRegex(RuntimeError,'已自动重试一次'):
+        with self.assertRaisesRegex(RuntimeError,'automatic retry'):
             self.run_responses([response('{broken'),response('{broken')])
 
     def test_truncation_retries(self):
@@ -67,7 +67,7 @@ class ScoringContract(unittest.TestCase):
         result,_=self.run_responses([r]);self.assertEqual(result['total'],60)
 
     def test_refusal_not_retried(self):
-        with self.assertRaisesRegex(RuntimeError,'确认上传的是简历'):
+        with self.assertRaisesRegex(RuntimeError,'confirm the upload is a resume'):
             self.run_responses([response('refused','refusal')])
 
     def test_fences_and_quotes(self):
