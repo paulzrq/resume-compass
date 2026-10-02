@@ -5,6 +5,7 @@ prompt 尚未实现（Paul 还没写 prompts.py）时，各 node 走 FALLBACK �
 保证图能跑通、接线可验证；prompt 写好后自动切换到真实逻辑。
 """
 import json
+from copy import deepcopy
 
 import anthropic
 
@@ -45,7 +46,15 @@ def plan_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL) -> di
     raw = _call_llm(api_key, model, system_prompt,
                     "请输出本份简历的取证计划 JSON 数组：")
     plan = _parse_json_array(raw)
-    assert isinstance(plan, list) and len(plan) == 7, "planner 输出必须是 7 个维度的数组"
+    keys = {d["key"] for d in scoring.load_framework()["dimensions"]}
+    strategies = {"anchor_only", "jd_grounded", "deep_dive", "cross_check", "conservative_skip"}
+    if (not isinstance(plan, list) or len(plan) != len(keys)
+        or any(not isinstance(p, dict) or not isinstance(p.get("dimension"), str)
+               or p.get("strategy") not in strategies
+               or not isinstance(p.get("jd_queries"), list)
+               or not all(isinstance(q, str) for q in p["jd_queries"]) for p in plan)
+        or {p["dimension"] for p in plan} != keys):
+        raise ValueError("取证计划必须完整覆盖七个维度，且策略和检索词格式正确")
     return {"plan": plan}
 
 
@@ -61,7 +70,7 @@ def _parse_json_array(raw: str) -> list:
     text = text.strip()
     start = text.find("[")
     if start == -1:
-        return json.loads(text)  # 不是数组也交给 json.loads 报一个明白的错
+        return json.loads(text, strict=False)  # 不是数组也交给 json.loads 报一个明白的错
     depth, in_string, escape = 0, False, False
     for i in range(start, len(text)):
         ch = text[i]
@@ -79,8 +88,8 @@ def _parse_json_array(raw: str) -> list:
         elif ch == "]":
             depth -= 1
             if depth == 0:
-                return json.loads(text[start:i + 1])
-    return json.loads(text)  # 被截断时原样交给 json.loads 报错，不悄悄吞掉
+                return json.loads(text[start:i + 1], strict=False)
+    return json.loads(text, strict=False)  # 被截断时原样交给 json.loads 报错，不悄悄吞掉
 
 
 def _make_scorer_agent(api_key: str, model: str, tools: list):
@@ -109,6 +118,18 @@ def _extract_message_text(content) -> str:
         elif getattr(b, "type", None) == "text":
             parts.append(getattr(b, "text", "") or "")
     return "\n".join(parts)
+
+
+def _validated_output(data, field):
+    if not isinstance(data, dict):
+        raise ValueError("评分结果必须是 JSON 对象")
+    data = deepcopy(data)
+    # Optional report annotations may be absent; dimensions must never be defaulted.
+    for key in ("ats_keywords", "vague_phrases", "strong_phrases", "strengths", "gaps", "bonus_checked"):
+        data.setdefault(key, [])
+    data.setdefault("stage_note", "")
+    scoring._validate_score_data(data, scoring.load_framework(), field)
+    return data
 
 
 def score_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL,
@@ -147,7 +168,7 @@ def score_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL,
     result = agent.invoke({"messages": [HumanMessage(content=_cached_content)]})
     last_text = _extract_message_text(result["messages"][-1].content)
     # 复用 scoring.py 的鲁棒 JSON 解析（处理 markdown 包裹/截断兜底）
-    parsed = scoring._parse_json_response(last_text)
+    parsed = _validated_output(scoring._parse_json_response(last_text), state["field"])
     return {
         "scorer_output": parsed,
         "revision_round": state.get("revision_round", 0) + 1,
@@ -169,18 +190,35 @@ def critique_node(state: AgentState, api_key: str, model: str = DEFAULT_MODEL) -
     raw = _call_llm(api_key, model, system_prompt, "请输出审查结果 JSON：")
     # critic 输出是单个 JSON 对象，复用 scoring.py 的鲁棒解析（去围栏/抠对象）
     data = scoring._parse_json_response(raw)
-    feedback = data.get("feedback") or []
-    corrections = data.get("corrections") or []
+    if not isinstance(data, dict) or type(data.get("pass")) is not bool:
+        raise ValueError("审查结果的 pass 必须是布尔值")
+    feedback = data.get("feedback", [])
+    corrections = data.get("corrections", [])
+    if (not isinstance(feedback, list) or not all(isinstance(f, str) for f in feedback)
+        or not isinstance(corrections, list)
+        or any(not isinstance(c, dict) or not isinstance(c.get("dimension"), str)
+               or type(c.get("new_score")) is not int or not 1 <= c["new_score"] <= 5
+               or not isinstance(c.get("reason", ""), str) for c in corrections)):
+        raise ValueError("审查纠分数据格式不正确")
 
     # 直接改分：把 corrections 合并进 scorer_output
     scorer_output = state.get("scorer_output") or {}
     applied = []
+    seen = set()
+    for correction in corrections:
+        key = correction['dimension']
+        current = (scorer_output.get('dimensions') or {}).get(key)
+        if key in seen or not isinstance(current, dict):
+            raise ValueError("审查纠分包含重复或未知维度")
+        if 'old_score' in correction and correction['old_score'] != current.get('score'):
+            raise ValueError("审查纠分的原分与评分结果不一致")
+        seen.add(key)
     if corrections:
         dims = {k: dict(v or {})
                 for k, v in (scorer_output.get("dimensions") or {}).items()}
         for c in corrections:
             d, new_score = c.get("dimension"), c.get("new_score")
-            if d in dims and isinstance(new_score, int) and 1 <= new_score <= 5:
+            if d in dims and type(new_score) is int and 1 <= new_score <= 5:
                 old_score = dims[d].get("score")
                 dims[d]["score"] = new_score
                 dims[d]["rationale"] = (
@@ -220,8 +258,8 @@ def report_node(state: AgentState) -> dict:
     _score_cap 封顶 + tiers 定级），新旧链路总分口径统一，
     eval 对比时才有意义。
     """
-    out = state.get("scorer_output") or {}
-    dims = out.get("dimensions") or {}
+    out = _validated_output(state.get("scorer_output"), state.get("field") or {})
+    dims = out["dimensions"]
     scores = {k: (v or {}).get("score", 0) for k, v in dims.items()}
     field = state.get("field") or {}
     framework = scoring.load_framework()
@@ -249,8 +287,7 @@ def report_node(state: AgentState) -> dict:
         # 之前漏了这个字段，导致 Agent 模式下所有引用都被标成未核实。
         "dimension_evidence_verified": {
             k: [scoring._quote_in_resume(resume_text, q)
-                for q in ((v or {}).get("evidence") or [])
-                if isinstance(q, str) and q.strip()]
+                for q in ((v or {}).get("evidence") or [])]
             for k, v in dims.items()
         },
         "ats_keywords": out.get("ats_keywords", []),

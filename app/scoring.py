@@ -469,7 +469,7 @@ def _parse_json_response(raw: str) -> dict:
             first_line, rest = raw.split("\n", 1)
             raw = rest if first_line.strip().lower() in ("json", "") else raw
     raw = _extract_json_object(raw.strip())
-    return json.loads(raw)
+    return json.loads(raw, strict=False)
 
 
 def _normalize_for_match(text: str) -> str:
