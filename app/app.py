@@ -21,7 +21,7 @@ from PIL import Image
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from agents.app_adapter import run_agent_assessment
 from branding import logo_svg_data_uri, logo_geometry
-from home_ui import render_home_intro, render_career, career_label
+from home_ui import render_home_intro, render_career, career_label, FIELD_LABELS, CATEGORY_LABELS
 from report import generate_pdf
 from local_modules import load_current_module
 
@@ -624,10 +624,18 @@ if st.session_state.view == "form":
             student_name = "Resume"
         with col2:
             st.markdown('<div class="home-section">Career path</div>', unsafe_allow_html=True)
-            chosen = st.selectbox(
-                "Career path", options=list(fields_by_id)+[CUSTOM_FIELD_ID], index=None,
-                format_func=lambda fid: "Other / Custom career path" if fid == CUSTOM_FIELD_ID else career_label(fields_by_id[fid]),
-                placeholder="Choose a career path", label_visibility="collapsed", key="home_career")
+            english_to_id = {FIELD_LABELS.get(f["id"], f["name"]): f["id"] for f in framework["fields"]}
+            cascader_items = [sac.CasItem(label=CATEGORY_LABELS.get(cat, cat), children=[
+                sac.CasItem(label=FIELD_LABELS.get(field_options[name], name))
+                for name in FIELDS_BY_CATEGORY[cat]]) for cat in FIELD_CATEGORIES]
+            custom_label = "Other / Custom career path"
+            selected_path = sac.cascader(items=cascader_items + [sac.CasItem(label=custom_label)],
+                placeholder="Category → Career path", key="home_career_cascader")
+            # Cascader returns the full label path (category label, then leaf label); resolve the
+            # leaf by identity against english_to_id, never by position, since a custom/no-children
+            # top-level item returns a single-element path.
+            chosen = CUSTOM_FIELD_ID if custom_label in (selected_path or []) else next(
+                (english_to_id[label] for label in (selected_path or []) if label in english_to_id), None)
             is_custom_field = chosen == CUSTOM_FIELD_ID
             field_name = fields_by_id[chosen]["name"] if chosen and not is_custom_field else None
             if field_name:

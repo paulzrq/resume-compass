@@ -23,3 +23,10 @@ eval/.venv/
 
 # 原始简历（含完整个人信息）：只放本地，绝不进版本库
 eval/raw_resumes/
+
+# 人工评分校准用的真实学生简历（跟 eval/raw_resumes/ 性质一样）：只放本地
+resumes/
+
+# 临时编辑脚本/草稿，不进版本库
+.tmp_edit/
+_tmp_new_entry.txt
