@@ -21,6 +21,7 @@ from PIL import Image
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from agents.app_adapter import run_agent_assessment
 from branding import logo_svg_data_uri, logo_geometry
+from home_ui import render_home_intro, render_career, career_label
 from report import generate_pdf
 from local_modules import load_current_module
 
@@ -578,7 +579,8 @@ for _f in framework["fields"]:
     FIELDS_BY_CATEGORY[_cat].append(_f["name"])
 
 st.title("🧭 简历罗盘")
-st.caption("上传简历获取评估报告")
+if st.session_state.view != "form":
+    st.caption("上传简历获取评估报告")
 
 def _get_secret_api_key() -> str:
     """优先读取 Streamlit Community Cloud 后台配置的 Secrets（部署到云端用这个）。
@@ -594,7 +596,7 @@ secret_api_key = _get_secret_api_key()
 env_api_key = os.environ.get("ANTHROPIC_API_KEY", "")
 api_key = secret_api_key or env_api_key
 if not api_key:
-    st.error("评估服务尚未配置，请联系管理员。")
+    st.error("Assessment service is unavailable. Please contact the administrator.")
 
 # Keep operational settings server-side; students only see the assessment form.
 model = DEFAULT_MODEL
@@ -611,80 +613,42 @@ IMAGE_MEDIA_TYPES = {
 }
 
 if st.session_state.view == "form":
-    col1, col2 = st.columns([1, 1])
-    with col1:
-        uploaded = st.file_uploader(
-            "上传简历（PDF 或图片：PNG / JPG / WEBP）",
-            type=["pdf", "png", "jpg", "jpeg", "webp"],
-        )
-        student_name = st.text_input("学生姓名", placeholder="请填写学生姓名（不会从上传的文件名自动带入）")
-    with col2:
-        # 2026-09-19：改成单个下拉（sac.cascader，来自 streamlit-antd-components 组件库），
-        # 点开后左边是分类、右边浮出对应的方向列表，一次选完，不用先选分类再选方向两步走。
-        # 注意：这跟原生 <select><optgroup> 那种"一级标题加粗、二级标题缩进"的竖排样式不一样，
-        # 是Ant Design Cascader自带的左右并排展开面板样式——功能上等价（分组+一次选完+返回完整
-        # 路径），但视觉上是并排面板，这是目前这个组件库能做到的最接近方案。
-        # "自定义方向"作为一个没有children的顶层选项混在分类列表最后——Cascader对没有子级的
-        # 顶层项，点一下就直接算选完（不会尝试展开子级面板），所以这一项也是"点一次就选中"。
-        cascader_items = [
-            sac.CasItem(label=cat, children=[sac.CasItem(label=fname) for fname in FIELDS_BY_CATEGORY[cat]])
-            for cat in FIELD_CATEGORIES
-        ] + [sac.CasItem(label=CUSTOM_OPTION_LABEL)]
-        selected_path = sac.cascader(
-            items=cascader_items,
-            label="目标领域",
-            placeholder="请选择方向分类 → 具体领域",
-            key="field_cascader",
-        )
-        # 2026-09-19【重要坑，导致了线上KeyError报错】：sac.cascader组件自己的onChange实现
-        # 内部对选中路径的key数组做了 Array.from(new Set(keys)).sort() 处理——但JS的
-        # Array.sort()默认是按"字符串"比较，不是按数字大小！framework.json字段一多，key
-        # 编号超过两位数后（比如分类key=8、它下面的子项key=15），字符串比较下"15"排在"8"
-        # 前面，导致组件返回给Python的selected_path顺序被打乱（变成[子项名, 分类名]而不是
-        # 直觉的[分类名, 子项名]）。之前直接取selected_path[-1]"最后一个"，遇到这种顺序被
-        # 打乱的情况就经常取到分类名而不是真正选中的方向名，拿这个去查field_options就
-        # KeyError了——线上报错就是这么来的。
-        # 修复思路：不依赖selected_path里元素的顺序，直接找哪个元素本身就是field_options
-        # 里的一个合法方向名——不管组件内部把顺序打乱成什么样，都能准确选中。
-        is_custom_field = bool(selected_path) and CUSTOM_OPTION_LABEL in selected_path
-        field_name = None
-        if selected_path and not is_custom_field:
-            for _label in selected_path:
-                if _label in field_options:
-                    field_name = _label
-                    break
-        if field_name:
-            _render_mascot_card(fields_by_id[field_options[field_name]], dim_name_by_key)
-        custom_field_name = ""
-        if is_custom_field:
-            custom_field_name = st.text_input(
-                "请输入目标方向名称",
-                placeholder="比如：碳中和政策研究、跨境电商运营……",
-                help=(
-                    "这个方向不在下拉列表里，没有为它预先准备好加分项清单、常见短板参考、真实招聘JD摘录，"
-                    "打分会靠模型对这个方向在真实招聘市场上的通用理解来判断，严谨程度会低于列表里的领域，仅供参考。"
-                ),
-            )
-        student_meta = ""
-
-    # 2026-09-19：cascader 初始是空选择（不像旧的两个 selectbox 默认就选中第一项），
-    # 所以这里非自定义分支也要求 field_name 已经选出来，不然按钮会在还没选方向时就被点亮。
-    field_ready = (
-        (is_custom_field and bool(custom_field_name.strip()))
-        or (not is_custom_field and field_name is not None)
-    )
-    agent_mode = st.checkbox(
-        "🤖 Agent 模式（多智能体打分）",
-        value=False,
-        help=("用 LangGraph 多智能体流水线打分（planner→scorer→critic→reporter），"
-              "约需 2-3 分钟，结果页可分步查看取证计划、打分过程和 critic 审计。"
-              "关闭则用原来的单次打分链路。暂不支持图片简历。"),
-    )
-    run = st.button(
-        "开始评估",
-        type="primary",
-        disabled=not (uploaded and api_key and student_name and field_ready),
-    )
+    render_home_intro()
+    with st.container(key="home_workspace"):
+        col1, col2 = st.columns([1, 1], gap="large")
+        with col1:
+            st.markdown('<div class="home-section">Upload resume</div>', unsafe_allow_html=True)
+            uploaded = st.file_uploader(
+                "Upload resume", type=["pdf", "png", "jpg", "jpeg", "webp"],
+                label_visibility="collapsed", key="resume_upload")
+            # No identity input or inference from potentially sensitive filenames.
+            student_name = "Resume"
+        with col2:
+            st.markdown('<div class="home-section">Career path</div>', unsafe_allow_html=True)
+            chosen = st.selectbox(
+                "Career path", options=list(fields_by_id)+[CUSTOM_FIELD_ID], index=None,
+                format_func=lambda fid: "Other / Custom career path" if fid == CUSTOM_FIELD_ID else career_label(fields_by_id[fid]),
+                placeholder="Choose a career path", label_visibility="collapsed", key="home_career")
+            is_custom_field = chosen == CUSTOM_FIELD_ID
+            field_name = fields_by_id[chosen]["name"] if chosen and not is_custom_field else None
+            if field_name:
+                render_career(fields_by_id[chosen])
+            custom_field_name = ""
+            if is_custom_field:
+                custom_field_name = st.text_input("Your career path", placeholder="e.g. Climate Policy Analyst")
+                st.caption("Custom paths use the closest available scoring framework.")
+            student_meta = ""
+        st.divider()
+        options_col, action_col = st.columns([2, 1])
+        with options_col:
+            agent_mode = st.toggle("In-depth assessment", value=False, key="home_agent",
+                                   help="Experimental: multi-step analysis and review. PDF only; takes longer.")
+            st.caption("Experimental · Multi-step analysis and review · PDF only")
+        field_ready = bool(custom_field_name.strip()) if is_custom_field else bool(field_name)
+        with action_col:
+            run = st.button("Start assessment", type="primary", use_container_width=True,
+                            disabled=not (uploaded and api_key and field_ready))
+    st.markdown('<div class="home-foot">AI-assisted assessment. For reference only.</div>', unsafe_allow_html=True)
 
     if run:
         field_id = CUSTOM_FIELD_ID if is_custom_field else field_options[field_name]
@@ -724,7 +688,7 @@ if st.session_state.view == "form":
                         proceed = False
 
                 if proceed and agent_mode and resume_text is None:
-                    st.error("Agent 模式暂不支持图片简历，请上传 PDF 版本再试。")
+                    st.error("In-depth assessment supports PDF resumes only. Please upload a PDF.")
                     proceed = False
 
                 if proceed:
@@ -878,7 +842,7 @@ elif st.session_state.view == "result" and st.session_state.result:
                     st.info("标注预览暂时无法显示，请下载标注版简历查看。")
                 st.download_button("下载标注版简历", data=annotated_pdf,
                                    file_name="标注版简历.pdf", mime="application/pdf")
-            out_name = f"{st.session_state.student_name}_评估_{date.today().isoformat()}.pdf"
+            out_name = f"{st.session_state.student_name}_评估_{date.today().isoformat()}_{st.session_state.get('assessment_id', 'legacy')[:8]}.pdf"
             out_path = REPORT_DIR / out_name
             out_path.write_bytes(pdf_bytes)
             st.download_button("下载PDF报告", data=pdf_bytes, file_name=out_name, mime="application/pdf")
