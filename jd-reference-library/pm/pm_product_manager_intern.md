@@ -467,6 +467,72 @@ Collected: 2026-09-29
 - Adaptability in a fast-paced, evolving environment
 - Attention to detail and a focus on delivering high-quality work
 
+## JD 21: Apprentice Product Manager, Pinterest (non-traditional-entry apprenticeship track; social/visual-discovery & ads platform)
+Source: Official Pinterest careers site (position listing) — https://www.pinterestcareers.com/jobs/8016532/apprentice-product-manager/
+Collected: 2026-09-30
+
+### Responsibilities
+- Work alongside Pinterest Product Managers and cross-functional partners on Design, Research, and Engineering teams
+- Assist in defining product goals and translating them into concrete workstreams
+- Run experiments and analyze results to generate product insights that inform decisions
+- Manage projects end-to-end, from problem framing through shipped solution
+- Adopt and apply emerging AI tools throughout the product-development process, under mentorship from senior PMs
+
+### Basic Requirements
+- Open to candidates without a traditional tech background, including bootcamp graduates, self-taught professionals, and those without a four-year degree
+- 1+ years of collaborative professional work experience preferred
+- Strong analytical and data-driven decision-making skills
+- Self-motivated, curious about product management as a career path, with ability to quickly pick up new tools and ways of working
+- Full-time availability during business hours (current degree-seeking students are not eligible); current US work authorization required
+
+### Bonus / Preferred Qualifications
+- Demonstrated comfort experimenting with and integrating AI tools into everyday workflows
+- Prior experience collaborating cross-functionally with design, research, or engineering, even outside a formal PM role
+
+## JD 22: Product Management Intern, MBA (Summer 2026), Spotify (international/UK-based MBA audio-streaming subscription-tech track — distinct from all previously covered consumer-app, video/media-streaming, and gaming sub-tracks)
+Source: Official Spotify careers site (lifeatspotify.com) — https://www.lifeatspotify.com/jobs/2026-summer-internship-business-strategy-and-product-management-mba-london
+Collected: 2026-10-01
+
+### Responsibilities
+- Help define and drive product discovery and strategy for a Spotify product area
+- Run product requirements and collaborate with cross-functional peers across tech, business, and design
+- Work with the team to discover a product solution to a business opportunity that is valuable, usable, and feasible
+
+### Basic Requirements
+- Currently pursuing an MBA degree
+- Enthusiastic about music and motivated to build a career spanning tech, business, and design
+- Available for the approximately 10-week internship in London, starting mid-June 2026
+- Able to secure valid UK work authorization for the internship period
+
+### Bonus / Preferred Qualifications
+- Not explicitly stated in the posting
+
+## JD 23: Associate Product Manager (APM Program), Instacart (on-demand grocery-delivery, four-sided marketplace; 18-month entry-level rotational APM program)
+Source: Official Company Careers Page — https://www.instacart.careers/apm
+Collected: 2026-10-02
+
+### Responsibilities
+- Own end-to-end product success from discovery to launch across two rotations on teams such as Core Experience, Marketplace, Platform, Connected Stores, and Ads
+- Collaborate cross-functionally with Design, Engineering, Marketing, Data Science, Legal, and Analytics to drive features from ideation to execution
+- Identify new growth opportunities through quantitative research, case studies, and industry-standard methodologies
+- Apply creative problem-solving across Instacart's four-sided marketplace (customers, shoppers, retailers, advertisers)
+- Influence stakeholders throughout the company to align intent, resources, and prioritization
+- Rotate through two different product teams over the 18-month program to build broad, cross-functional PM experience
+
+### Basic Requirements
+- Bachelor's degree from an accredited institution
+- Recent graduate or up to ~2 years of work experience in technology, consulting, or banking
+- Demonstrated passion for technology and product design shown through technical education, personal projects, or business/strategy roles
+- Ability to translate user and business needs into clear product requirements
+- Leadership potential and natural ability to influence and empower diverse, cross-functional teams
+- Based in or willing to work remotely within the US or Canada
+
+### Bonus / Preferred Qualifications
+- Prior exposure to quantitative research, case studies, or data-driven product decision-making
+- Experience spanning both technical and business/strategy contexts (not purely operational execution)
+- Demonstrated customer empathy and genuine excitement for Instacart's grocery-marketplace mission
+- Comfort operating across multiple, interdependent sides of a marketplace (consumer, supply, and advertiser-facing)
+
 ## Implications for Our Framework
 - Technical PM (NVIDIA) and growth/consumer PM (TikTok, Snap) require fundamentally different things under the skill dimension: the former requires Git, cloud deployment, AI/ML technical projects, and open-source contributions as basic requirements rather than bonuses; the latter centers on SQL/Excel-type analysis tools and leans more on internship/work experience than technical depth.
 - Large companies (Google) and mid-size/startups (Gusto) emphasize different things under edu: Google values major fit and "0-to-1" founder spirit — a potential-oriented approach; Gusto sets "2+ years full-time experience plus a specific graduation window" as a hard gate — a seniority-oriented approach.

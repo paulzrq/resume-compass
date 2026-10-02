@@ -458,5 +458,81 @@ Collected: 2026-09-28
 - Detail-oriented approach to data management and quality
 - Ability to make cross-departmental connections and translate data into business insight
 
+## JD 20: Data Analyst Intern, Federal Express Corporation (FedEx) (logistics/parcel-delivery operations analytics, summer 2026)
+Source: Official FedEx careers site (position listing) — https://careers.fedex.com/data-analyst-intern-summer-2026/job/P25-324948-1
+Collected: 2026-09-30
+
+### Responsibilities
+- Analyze operational and business data to help present and deliver long-term solutions with significant impact on the business and/or customer experience
+- Build SQL queries to pull and analyze data supporting logistics/operations decisions
+- Develop dashboards and reports (Power BI preferred) to track KPIs for business stakeholders
+- Support KPI development and monitoring for operational/business performance during the 10-week program
+- Work independently and collaboratively with cross-functional teams in a fast-paced environment
+- Participate in intern-program networking and community-service events
+
+### Basic Requirements
+- Currently enrolled student or recent graduate (within 6 months of graduation) with a minimum 3.0 GPA
+- Degree in Computer Science, Computer Engineering, Engineering, Business, Business Analytics, Management, Finance, Economics, Information Security/Science/Technology, Information Systems, or Statistics
+- Working knowledge of Microsoft Word, Excel, Outlook, and PowerPoint
+- Strong analytical and recommendation-making capabilities, with excellent verbal and written communication
+- Time-management, organizational, and multi-tasking skills for a fast-paced environment
+- No prior experience required
+
+### Bonus / Preferred Qualifications
+- Graduate-level study in data analytics, systems engineering, or IT
+- Ability to build out SQL queries
+- Ability to develop dashboards (Power BI preferred)
+- Familiarity with Azure Databricks
+- KPI development experience
+- GenAI knowledge
+
+## JD 21: Business Intelligence Intern, Electronic Arts (CT - Data & Insights team; video game/interactive entertainment industry — hands-on BI/SQL/dashboarding track, an industry vertical distinct from all other entries in this file)
+Source: Official Electronic Arts careers site (posting since closed to new applications but content remains genuinely live/viewable) — https://jobs.ea.com/en_US/careers/JobDetail/Business-Intelligence-Intern/210873
+Collected: 2026-10-01
+
+### Responsibilities
+- Handle data collection, cleaning, and analysis from various sources to inform organizational decisions
+- Build and maintain data models and transformations using Power Query, DAX, and SQL
+- Develop interactive dashboards and reports in Looker and Power BI
+- Work cross-functionally to translate business requirements into analytical solutions
+- Assist in SQL development for centralized reporting infrastructure
+- Validate data accuracy through collaboration with partner teams
+- Keep current with emerging BI tools and analytics methodologies
+
+### Basic Requirements
+- Bachelor's degree or technical certificate in progress in Computer Science, Data Analytics, Business Information Systems, or a related field
+- Academic or project experience with Power BI, Power Query, DAX, and SQL
+- Understanding of relational databases and data modeling fundamentals
+- Legally authorized to work in Canada full-time for the 16-week internship (Summer 2026); undergraduate, graduating no earlier than December 2026; no visa sponsorship available
+
+### Bonus / Preferred Qualifications
+- Knowledge of SQL Server and Snowflake
+- Experience with Looker or Looker Studio
+
+## JD 22: Data Analytics Intern, Shockwave, Johnson & Johnson (MedTech - Shockwave Medical) (medical device/MedTech commercial BI & analytics, Data Platform team)
+Source: Glassdoor Job Posting (cross-confirmed via J&J careers portal and additional job-board mirrors) — https://www.glassdoor.com/job-listing/data-analytics-intern-shockwave-johnson-johnson-JV_IC1147439_KO0,31_KE32,47.htm?jl=1010030110656
+Collected: 2026-10-02
+
+### Responsibilities
+- Work closely with the Data Platform team to gather, clean, and analyze data from various sources
+- Develop and maintain BI reports and dashboards using Power BI, Tableau, or similar tools
+- Write SQL queries in Snowflake for data extraction, manipulation, and transformation
+- Collaborate with cross-functional teams to identify data needs and deliver actionable insights
+- Support data quality checks and help ensure system/data integrity
+- Monitor emerging trends in business intelligence and data analytics
+
+### Basic Requirements
+- Completion of freshman year at an accredited university
+- Currently pursuing a bachelor's degree in Data Science, Computer Science, Information Systems, Statistics, Mathematics, or a related field
+- Cumulative GPA of 2.8 or higher
+- Proficiency in SQL and Python with hands-on query/data engineering experience
+- Familiarity with BI tools such as Power BI or Tableau
+- Strong analytical and problem-solving abilities with excellent communication skills
+- Permanent U.S. work authorization (no visa sponsorship)
+
+### Bonus / Preferred Qualifications
+- Prior internship or coursework in data analytics, business intelligence, or SQL
+- Detail-oriented with a demonstrated commitment to data quality and deadlines
+
 ## Implications for Our Framework
 Across all five postings, the load-bearing tools are consistently SQL, Excel (often at an "advanced/VLOOKUP-XLOOKUP/pivot-table" level), and a BI visualization tool (Tableau or Power BI) — Python/R and statistical modeling are rarely required and, when mentioned at all, sit in the "preferred" tier rather than "basic," which sharply distinguishes this track from a Data Science/ML internship where Python, statistics, and modeling are the baseline ask. GPA thresholds (typically 3.0) and degree-progress/eligibility logistics (graduation window, work authorization, relocation) appear as hard gates in every posting, suggesting our framework should treat these as pass/fail filters rather than scored traits. None of the five postings mention a specific certification as a requirement, so certifications (e.g., Google Data Analytics, Tableau Desktop Specialist) should be weighted as a minor tie-breaking signal rather than a core scoring criterion. Finally, the "bonus" bullets consistently reward applied, business-context experience — campaign/marketing dashboards, financial reporting, ecommerce or customer-segmentation projects — over purely academic or Kaggle-style ML projects, so resume scoring should favor project descriptions that show an SQL/Excel/BI pipeline feeding a business decision or stakeholder-facing dashboard.

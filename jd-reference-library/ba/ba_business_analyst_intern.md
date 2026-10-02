@@ -496,5 +496,82 @@ Collected: 2026-09-29
 - Experience with, or willingness to learn, MS Excel, SAS, Power BI, R, Python, or SQL
 - Strong interpersonal, communication, organizational, and leadership skills
 
+## JD 21: Intern, Commercial Analytics (Jul to Dec 2026), Marriott International (hospitality — revenue management / commercial analytics track)
+Source: Official Marriott International careers site (position listing) — https://careers.marriott.com/intern-commercial-analytics-jul-to-dec-2026/job/87DB29160520E1E4E2C31E2451389B28
+Collected: 2026-09-30
+
+### Responsibilities
+- Support revenue management innovation by helping drive predictive modelling techniques used to forecast revenue
+- Analyze performance data and build analytical dashboards to give stakeholders insight into revenue and commercial metrics
+- Collaborate across departments (e.g., revenue management, sales, finance) on commercial/revenue management initiatives
+- Query and process data using SQL/Python to support recurring and ad hoc analyses
+- Build and maintain data visualizations in Power BI/Tableau to communicate findings to business stakeholders
+- Present analysis and recommendations to internal teams in a clear, business-oriented format
+
+### Basic Requirements
+- Currently enrolled in, or a recent graduate of, a university program (open to students from Singapore, Australia, France, Germany, Hong Kong, Japan, New Zealand, Switzerland, UK, or US)
+- Singapore citizenship, PR status, or a valid student/work holiday pass, given the role's Singapore location
+- Able to commit to the full six-month internship duration
+- Strong MS Office capabilities and excellent written/verbal communication and presentation skills
+- Ability to work under pressure and manage multiple tasks/deadlines
+
+### Bonus / Preferred Qualifications
+- Proficiency in data modelling and predictive analytics
+- Proficiency in data querying languages (SQL, Python)
+- Proficiency in data visualization platforms (Power BI, Tableau, etc.)
+- Financial/market data analysis competency
+- Bachelor's degree in Data Analytics preferred
+
+## JD 22: GFIT PMO IT Business Analyst Intern (Summer 2026), GlobalFoundries (semiconductor manufacturing — internal IT/PMO process-analysis track, an entirely new industry vertical distinct from all other entries in this file)
+Source: Society of Women Engineers (SWE) Career Center, mirroring GlobalFoundries U.S. Inc's official posting, "GFIT PMO IT Business Analyst Intern (Summer 2026)" https://careers.swe.org/job/gfit-pmo-it-business-analyst-intern-summer-2026/80940487 (cross-verified via BuiltIn mirror https://builtin.com/job/gfit-pmo-it-business-analyst-intern-summer-2026/7257476)
+Collected: 2026-10-01
+
+### Responsibilities
+- Meet with process owners to document processes, identify similarities/differences, and understand drivers of variation
+- Gather learnings about GlobalFoundries Information Technologies' (GFIT) major system landscape and transformation programs
+- Collect data and analyze IT project information, looking for averages, trends, and outliers
+- Propose enhancements to PMO processes and project management practices
+- Own a small data-driven capstone project focused on improving GFIT PMO efficiency, delivering a final presentation/report and tangible artifacts such as process documentation or improvement proposals
+- Participate in 1-2 projects: help build project schedules/tracking, maintain RAID logs, contribute to risk/issue resolution, and administer project repositories/reporting in tools like ServiceNow and Azure DevOps
+- Support status reporting and observe IT workflows while communicating clearly with diverse stakeholders
+
+### Basic Requirements
+- At least a sophomore at time of application, pursuing a degree in Information Technology Management or a related field
+- Minimum overall 3.0 GPA, in good academic standing
+- English fluency (written and verbal)
+- Able to work a minimum of 40 hours weekly during the internship
+
+### Bonus / Preferred Qualifications
+- Prior internship or co-op experience
+- Demonstrated prior leadership experience in the workplace, school projects, or competitions
+- Project management and problem-solving capabilities
+- Strong written and verbal communication skills; strong planning and organizational skills
+- Excel proficiency with basic statistical analysis
+- Process documentation and analysis skills
+
+## JD 23: Business Analyst Intern, Nashville SC (Major League Soccer) (professional sports team business operations/CRM & fan-data analytics)
+Source: Job Board Posting (Jobs in Football, mirroring Nashville SC's official TeamWorkOnline listing) — https://jobsinfootball.com/job/129429/business-analyst-intern-fall-2026/
+Collected: 2026-10-02
+
+### Responsibilities
+- Assist in developing strategic business solutions with KPIs and measurement strategies
+- Create reports, dashboards, and analyses used in daily business management
+- Collaborate with the Data Engineer on data retrieval techniques and process maintenance
+- Support Salesforce maintenance, including contact/account creation and duplicate-record removal
+- Perform data hygiene and integrity maintenance across multiple data sources
+- Execute special projects and ad-hoc reports addressing specific business questions
+- Research industry best practices to generate analytical insights
+
+### Basic Requirements
+- Strong communication skills and willingness to learn
+- Enthusiasm for using data to solve business problems
+- Ability to work independently and collaboratively
+- Proficiency in Microsoft Word, Excel, and PowerPoint
+- Experience with a programming language (Python, R, SQL, or similar)
+- Currently enrolled at an accredited institution, receiving college credit for the internship
+
+### Bonus / Preferred Qualifications
+- Data visualization skills preferred (Tableau, Power BI, etc.)
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is Excel (every listing) plus at least one of SQL/Tableau/Power BI/SAS/Python — employers seem to treat "spreadsheet fluency plus one query/BI tool" as the practical floor for a BA candidate rather than any single dominant tool, so the scoring framework should reward breadth across this small toolkit rather than depth in just one tool. GPA is notably absent as an explicit gate in any of these five (none state a minimum GPA), while expected graduation date/class standing and major relevance (business, economics, statistics, data/CS-adjacent fields, or industry-specific majors like public health at CVS) are used as hard filters — suggesting our framework should weight "major fit + timeline fit" more heavily than raw GPA. No posting mentions a professional certification (no CBAP, PMP, Six Sigma, etc.) as required or preferred, so certifications should be treated as a minor bonus signal at most, not a scored requirement. Finally, soft/applied signals — prior internship or coursework involving data analysis, leadership in student organizations, and the ability to "interpret data and turn it into a business action/presentation" — appear consistently as differentiators, indicating the framework should give real weight to a candidate's project/internship narrative (does it show data-to-decision reasoning and stakeholder communication) rather than credentials alone.

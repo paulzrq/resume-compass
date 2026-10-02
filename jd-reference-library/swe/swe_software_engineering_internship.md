@@ -463,6 +463,79 @@ Collected: 2026-09-29
 ### Bonus / Preferred Qualifications
 - Not explicitly itemized by the posting — Jane Street states no prior finance, OCaml, or functional-programming experience is required, and evaluates candidates primarily on general programming strength and curiosity rather than a checklist of specific tools or technologies
 
+## JD 21: Software Engineering Internship/Co-op (Fall 2026), SpaceX (aerospace/spacecraft & launch-vehicle software — flight, GNC, and mission-critical vehicle/satellite software, an entirely new industry vertical distinct from all other entries in this file)
+Source: Official SpaceX careers site (Greenhouse job board) — https://job-boards.greenhouse.io/spacex/jobs/8403219002
+Collected: 2026-09-30
+
+### Responsibilities
+- Join one of SpaceX's software engineering teams (e.g., Application Software, Dragon Software, Falcon Software, GNC, Product Security, Silicon Engineering, Starlink Software, Starshield Software, or Starship Software) based on skills and business need
+- Work closely with an assigned mentor and other engineers on a project with significant, direct impact on SpaceX's rockets, spacecraft, or satellite systems
+- Apply software programming/development knowledge in C, C++, C#, Java, JavaScript, or Python to real engineering problems on the assigned team
+- Contribute to software documentation, system diagrams, and requirements as part of the team's engineering practices
+- Debug, optimize performance, and write unit tests for software operating in mission-critical, production contexts
+- Work full-time, onsite, for a minimum of 12 consecutive weeks at one of SpaceX's sites (e.g., Hawthorne, CA; Starbase, TX; Redmond, WA; Cape Canaveral, FL; Bastrop, TX; McGregor, TX; Irvine, CA; Sunnyvale, CA)
+
+### Basic Requirements
+- Enrolled in a bachelor's degree or graduate program by the internship/co-op start date
+- 3+ months of software programming or development experience
+- Experience coding in C, C++, C#, Java, JavaScript, or Python
+- Must be a U.S. citizen, U.S. national, lawful permanent resident, Refugee, or Asylee (ITAR export-control requirement, given work on regulated space and defense technology)
+- Able to work full time, onsite, for a minimum of 12 consecutive weeks starting August or September 2026
+
+### Bonus / Preferred Qualifications
+- GPA of 3.5 or above
+- 6+ months of experience developing and deploying software that has been used (i.e., shipped, real-world software rather than coursework only)
+- Strong computer architecture and networking knowledge
+- Experience with software documentation, system diagrams, and requirements writing
+- Strong skills in debugging, performance optimization, and unit testing
+- Team leadership and interpersonal/collaboration abilities
+- Adaptability to dynamic, fast-changing environments and ability to work both independently and collaboratively
+
+## JD 22: Software Engineer, Intern (Summer 2026), Duolingo (consumer edtech product engineering — full-stack feature development for a widely used language-learning app, a new industry vertical distinct from all other entries in this file)
+Source: Official Duolingo careers site (Greenhouse job board) — https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8157171002
+Collected: 2026-10-01
+
+### Responsibilities
+- Contribute to full-stack software projects by developing, testing, and maintaining features used by Duolingo's learners
+- Develop, release, and maintain production services and/or infrastructure
+- Lead individual project priorities, deadlines, and deliverables with guidance from the team
+- Participate in code reviews and collaborate across teams to ensure code quality
+
+### Basic Requirements
+- Currently pursuing a B.S. or M.S. in Computer Science or a related technical field, graduating Fall 2026 or Spring 2027
+- Programming experience in one or more of: Java, Python, Kotlin, or Swift
+- Available for 12 consecutive weeks (one of two defined Summer 2026 cohorts: May 26–Aug 21, 2026 or June 22–Sep 18, 2026) and able to relocate to Pittsburgh, PA
+- Commitment to Duolingo's mission of making education universally accessible
+
+### Bonus / Preferred Qualifications
+- Not explicitly itemized by the posting — no separate bonus/preferred-qualifications section is listed beyond the basic requirements above
+
+## JD 23: 2027 Software Engineer Intern, Anduril Industries (defense-tech/national-security software (autonomous defense systems, export-controlled, distinct from aerospace/robotics/automotive entries already present))
+Source: Official Company Careers Page (Greenhouse-hosted) — https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007
+Collected: 2026-10-02
+
+### Responsibilities
+- Support deployed software solutions used in real-world defense systems
+- Write code to enhance and extend existing products
+- Collaborate across engineering teams to build complex functionality
+- Create performance metrics to evaluate system behavior
+- Triage and resolve software issues
+- Work on real, meaningful projects alongside experienced engineers and receive mentorship
+
+### Basic Requirements
+- Currently pursuing a bachelor's or master's degree in Computer Science, Software/Computer Engineering, Mathematics, Physics, or a related field
+- Must return to school after the internship to continue studies for at least one more quarter or semester
+- U.S. Person status required due to access to U.S. export-controlled information or facilities
+- Able to complete the full 12-week in-person internship program in Summer 2027
+- Willing to work on-site at one of the listed U.S. locations (e.g. Costa Mesa CA, Seattle WA, Boston MA, Reston VA, Colorado offices, Atlanta GA)
+
+### Bonus / Preferred Qualifications
+- Knowledge of algorithms, data structures, storage systems, and cloud infrastructure
+- Familiarity with front-end frameworks
+- Proficiency in C++, Go, Rust, Java, and/or Python
+- Action-oriented approach with a desire for real-world impact
+- Natural curiosity about technology paired with a low-ego, high-ownership, mission-oriented mindset
+
 ## Implications for Our Framework
 - proj (weight 30), the field's highest-weighted dimension, is directly validated across all five postings: Amazon requires data-structure/algorithm implementation, TikTok requires frontend componentization and open-source contribution, Meta requires debugging systems serving billions of users globally, Apple emphasizes OOD practice, and MongoDB emphasizes CTF/personal security projects — all five sub-tracks put "what you've built" at the core without exception.
 - The exp gap "projects are mostly coursework, lacking real-user/production-environment experience" is precisely validated by Meta's Production Engineer posting, which requires working on "systems deployed to production, serving billions of users globally" — exactly the part hardest for a student resume to demonstrate, and where the biggest gap typically shows up.

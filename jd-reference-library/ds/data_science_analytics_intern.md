@@ -466,6 +466,75 @@ Collected: 2026-09-29
 - Self-starter mentality
 - Previous applied business internships
 
+## JD 21: Data Science Intern, GTI Energy (nonprofit energy-research R&D institute — statistics/ML methods applied to natural-gas, methane-emissions, and net-zero research questions; a new industry vertical (energy-sector applied research) distinct from all prior ds entries, and distinct from this cycle's mle addition (Coinbase), which is a production-deployment-flavored crypto/blockchain engineering role with no research-question-driven statistics component)
+Source: GTI Energy official careers posting (UltiPro recruiting portal), cross-confirmed via Purdue Data Mine partner-internship listing and an independent job-board mirror — https://recruiting.ultipro.com/GAS1003/JobBoard/6eb19b1f-4963-9bbd-eff5-d321e7265519/OpportunityDetail?opportunityId=700e52ef-d286-42b1-ae94-a0a662db53d6
+Collected: 2026-09-30
+
+### Responsibilities
+- Perform exploratory data analyses and apply statistical modeling and machine learning approaches to answer research questions
+- Scrape and wrangle data from open-source repositories to support statistical simulations
+- Investigate research questions related to methane emissions, digitalization, and net-zero energy systems
+- Create data visualizations and dashboards to communicate insights and findings to stakeholders
+- Develop presentations and written reports to communicate findings
+- Support ongoing research efforts using a disciplined approach and standard best practices
+
+### Basic Requirements
+- Currently enrolled in or recently completed a Bachelor's or Master's degree in computer science, data science, statistics, mathematics, or a related field
+- Ability to wrangle and process data using programming libraries (e.g., tidyverse, pandas)
+- Strong programming skills, preferably in R, Python, or similar software
+- Understanding of statistical analyses (t-tests, linear regression, hypothesis testing) and familiarity with machine learning (classification, clustering, predictive modeling)
+- Strong written and oral communication skills, including the ability to explain technical concepts to non-technical audiences
+
+### Bonus / Preferred Qualifications
+- GIS experience
+- Advanced statistical knowledge: Bayesian analysis, time-series, or spatial analyses
+- Energy industry knowledge, particularly natural gas supply chains, hydrogen, or efficiency
+- Interest in environmental justice and energy policy/regulation
+
+## JD 22: Data Science Intern (2026), Figma (product/growth analytics & experimentation track — design/productivity-software SaaS, a new company and industry vertical distinct from all prior ds and mle entries in this library)
+Source: Official Figma careers site (Greenhouse job board) — https://job-boards.greenhouse.io/figma/jobs/5614980004
+Collected: 2026-10-01
+
+### Responsibilities
+- Collaborate across teams (Product, Engineering, Design) to turn open-ended business questions into well-defined data problems
+- Design experiments and evaluate metrics to guide product and growth decisions
+- Build predictive/analytical models and conduct analyses to understand user behavior and growth patterns
+- Develop tools, datasets, or dashboards that make data more accessible across the company
+- Share insights and recommendations with both technical and non-technical teammates
+
+### Basic Requirements
+- Currently pursuing a Bachelor's, Master's, or PhD in a quantitative field such as Statistics, Computer Science, Economics, Applied Math, or a related discipline
+- Proficiency in SQL and a scripting/analysis language such as Python or R
+- Foundational statistics knowledge, with exposure to experimentation, forecasting, or statistical modeling
+- Ability to structure ambiguous, open-ended questions and connect findings to concrete product/business decisions
+- The posting does not list rigid GPA/class-year cutoffs; Figma explicitly states it welcomes applicants whose experience doesn't perfectly match every listed qualification (“Grow as you go”)
+
+### Bonus / Preferred Qualifications
+- The posting does not include a separate "preferred qualifications" section; given the role's cross-functional, stakeholder-facing nature, prior exposure to A/B-testing or causal-inference coursework/projects, data-visualization tooling, and experience presenting analysis to non-technical audiences would likely be a plus
+
+## JD 23: PhD Data Scientist, Intern, Stripe (fintech payments-platform PhD research track (causal inference/experimentation/product analytics across business problems) — distinct from ds's existing Visa entry (card-network-level payments analytics), Capital One/USAA (traditional bank/insurance statistics) and Two Sigma (quant trading research); distinct from mle's roster since it involves no model deployment, serving infra, or production ML systems work)
+Source: Official Company Careers Page — https://stripe.com/jobs/listing/phd-data-scientist-intern/7874965
+Collected: 2026-10-02
+
+### Responsibilities
+- Partner closely with Data Scientists, Data Analysts, and business partners to drive business impact
+- Apply machine learning, causal inference, or advanced analytics on large datasets
+- Influence business actions and strategy by developing actionable insights
+- Drive the collection of new data and the refinement of existing data sources
+- Learn quickly by asking great questions and communicate work status clearly
+- Present findings to the Data Science team, partners, and fellow interns
+
+### Basic Requirements
+- Enrolled in a quantitative PhD program with expected graduation between winter 2026 and summer 2027
+- Proficiency in a scientific computing language (such as Python, R, etc.) and SQL
+- Hands-on experience in several of: machine learning, statistics, optimization, product analytics, causal inference, and/or experimentation
+- Ability to communicate and collaborate with multidisciplinary teams
+
+### Bonus / Preferred Qualifications
+- Experience writing and debugging data pipelines
+- Demonstrated ability to evaluate and incorporate feedback from mentors, peers, and stakeholders
+- Capacity to independently learn new systems with mentor guidance
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

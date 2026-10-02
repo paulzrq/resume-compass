@@ -465,5 +465,78 @@ Collected: 2026-09-28
 - Demonstrated interest in nonprofit or humanitarian-sector work
 - Career interest in HR, talent acquisition, or organizational development
 
+## JD 20: Human Resources Intern, Marriott International (Amsterdam Marriott Hotel) (hospitality/hotel property-level HR generalist — associate relations & administrative support track)
+Source: Official Marriott careers site (position listing) — https://careers.marriott.com/human-resources-intern/job/DD857D2CA1E9FE0E91BF983234AB5D8E
+Collected: 2026-09-30
+
+### Responsibilities
+- Serve as the initial point of contact for hotel associates' HR inquiries and support day-to-day associate relations
+- Provide administrative support including employee records management and payroll updates
+- Organize TakeCare activities and internal events to support associate engagement
+- Support new hire onboarding processes at the property
+- Prepare HR documentation such as employment contracts and offer letters
+- Assist with recruitment functions, including interview scheduling and job postings
+- Contribute to internal communications such as newsletters and town halls
+
+### Basic Requirements
+- Currently pursuing a relevant Bachelor's degree (Hotel Management students specifically eligible per program terms)
+- Strong organizational skills and ability to manage pressure/competing priorities
+- Fluent English and/or Dutch language proficiency
+- Valid work permit or documentation allowing work in the Netherlands
+- Ambitious, flexible approach with a positive attitude
+
+### Bonus / Preferred Qualifications
+- Degree focus in Hospitality Management or Human Resources
+- Proficiency in additional languages beyond English/Dutch
+
+## JD 21: 2026 Amgen Taiwan Intern Program – Human Resources Intern (Contractor), Amgen (biopharmaceutical industry HR generalist/people operations — first biotech/pharma entry in this file)
+Source: Official Amgen careers site — https://careers.amgen.com/en/job/taipei/2026-amgen-taiwan-intern-program-human-resources-intern-contractor/87/92334117792
+Collected: 2026-10-01
+
+### Responsibilities
+- Support people movement process including onboarding, offboarding and internal transfer
+- Maintain org chart, title list and recruitment update to ensure smooth HR daily operations
+- Coordinate interview scheduling and provide administrative support throughout the recruitment process
+- Prepare Townhall slides for HR sessions
+- Consolidate Amgenese Award submissions
+- Maintain the 2027 calendar
+- Execute Intern program activities to ensure an engaging intern experience
+- Support administration of the Gallup workshop & ATLA program
+- Support ad-hoc projects
+
+### Basic Requirements
+- Bachelor's or Master's student in HR, Psychology, or a related Business field
+- Fluent in English oral and written communications
+- Excellent teamwork mindset
+- Good computer skills (Microsoft PowerPoint, Excel, Word, Teams, etc.)
+- Able to commit to a six-month internship: full-time for the first two months (July-August), then 2.5-3 days/week for the remaining four months (September-December)
+
+### Bonus / Preferred Qualifications
+- None stated in the posting beyond the basic requirements above
+
+## JD 22: Intern, Labor Relations & Compliance, CN (Canadian National Railway) (unionized labor/employee relations - grievance handling, arbitration & collective bargaining support, railway/transportation)
+Source: Job Board Posting (The Muse, mirroring company's official listing) — https://www.themuse.com/jobs/cn/intern-labor-relations-compliance
+Collected: 2026-10-02
+
+### Responsibilities
+- Enter grievances into management systems and generate trend reports
+- Identify patterns in grievances and collaborate on reduction strategies
+- Research employee matters including collective agreement interpretation and accommodation issues
+- Support preparation for union conferences, arbitration, and labor-management meetings
+- Provide clerical and data entry support as needed
+
+### Basic Requirements
+- Working towards a Bachelor's Degree in Human Resources, Labor, Industrial Relations, or related field
+- Experience in or knowledge of unionized environments, collective agreements, and federal employment legislation
+- Strong stakeholder relationship-building abilities
+- Critical thinking and active listening skills
+- Proficiency with Microsoft Office Suite (Excel, Word, PowerPoint)
+- Ability to analyze processes and data
+
+### Bonus / Preferred Qualifications
+- Additional coursework or prior experience related to labor/industrial relations
+- Prior exposure to grievance or arbitration processes
+- Experience working with data trend analysis in an HR or compliance context
+
 ## Implications for Our Framework
 Across all five postings, no employer requires or even mentions SHRM/PHR-style certifications at the internship level — what they consistently ask for instead is a relevant but broad academic major (HR, Business, Psychology/Org Behavior, Communications), a minimum GPA threshold (3.0 in two of five), and soft-skill fundamentals (written/verbal communication, attention to detail, collaboration, "strong interest" in HR). This suggests our scoring should weight coursework relevance and communication/interpersonal evidence more heavily than credentialing for entry-level HR roles. Tool familiarity is treated as a plus, not a gate: Excel/Office proficiency is near-universal and baseline, while HRIS/analytics exposure (Workday, Power BI, ATS platforms, LMS tools) appears almost exclusively in the "preferred/bonus" tier rather than as a hard requirement — so resumes should be rewarded for such exposure but not penalized for lacking it. Finally, the sub-track differences matter for framing: TA/recruiting and HRBP postings lean on interpersonal/relationship-building language, while Total Rewards and L&D postings put more emphasis on data/market-research analysis and instructional-design familiarity respectively — meaning a strong HR resume should be evaluated partly against which sub-track it targets rather than a single generic "HR skills" rubric.

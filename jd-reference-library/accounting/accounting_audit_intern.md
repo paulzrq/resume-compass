@@ -461,5 +461,80 @@ Collected: 2026-09-28
 - Demonstrated professional leadership with measurable impact
 - Familiarity with the private space/aerospace industry
 
+## JD 20: College to Corporate Internship - Corporate Accounting, Vanguard (asset management/investment company corporate accounting — no investment-management firm represented elsewhere in this file)
+Source: Vanguard official internship posting, via The Muse job board — https://www.themuse.com/jobs/vanguard/college-to-corporate-internship-corporate-accounting-012f58
+Collected: 2026-09-30
+
+### Responsibilities
+- Complete a rotational-style internship assignment embedded in a key corporate accounting function (e.g., financial reporting, accounting operations, accounting policy, or risk management)
+- Lead or contribute to assignments within the assigned accounting function under the guidance of a department manager
+- Apply analytical skills to strengthen accounting processes and controls across the organization
+- Develop and deliver insights/recommendations intended to inform business operations
+- Receive structured mentorship from department managers and program coordinators throughout the internship
+
+### Basic Requirements
+- Currently pursuing an undergraduate degree, with genuine interest in accounting as a career path
+- Minimum 3.2 cumulative GPA preferred
+- Strong analytical, communication, and problem-solving abilities
+- Ability to work both independently and collaboratively in a team setting
+- Professional demeanor and adaptability to a corporate environment
+- US work authorization without need for future sponsorship
+
+### Bonus / Preferred Qualifications
+- Accounting major with stated CPA aspirations
+- Demonstrated leadership and initiative-taking experience
+- Ability to manage multiple priorities/tasks effectively
+
+## JD 21: Intern, Assurance Practice, BDO USA, LLP (mid-size Top-10 public accounting firm — external audit/assurance; BDO not yet represented in this file)
+Source: BDO USA, LLP job posting mirrored on the Illinois Department of Employment Security's official job board (IllinoisJobLink.com), Chicago, IL — https://illinoisjoblink.illinois.gov/jobs/12082714
+Collected: 2026-10-01
+
+### Responsibilities
+- Participate in a structured on-the-job training program covering Generally Accepted Accounting Principles (GAAP) and auditing standards
+- Support audit engagements at various stages using BDO's audit methodology and firm-specific tools/templates
+- Communicate with clients and relevant external parties regarding audit matters
+- Document audit work papers using firm-specific tools and templates
+- Contribute ideas and perspectives to the audit engagement team
+- Complete one assigned accounting or audit research project during the internship
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's or Master's degree program in Accounting
+- Proficiency in Microsoft Office Suite (Word, Excel, PowerPoint)
+- Actively pursuing credit hours toward CPA licensure eligibility
+
+### Bonus / Preferred Qualifications
+- Pursuing a Master's degree in Accounting
+- Demonstrated leadership experience
+- Strong written and verbal communication skills
+- Ability to work effectively in team settings
+- Positive, learning-oriented attitude
+
+## JD 22: Fund Accounting Summer Intern, Alter Domus (fund administration/fund accounting for private equity, real estate & credit funds, specialized third-party fund administrator)
+Source: Official Company Careers Page — https://careers.alterdomus.com/en/job/boston/fund-accounting-summer-intern/38735/28478702336
+Collected: 2026-10-02
+
+### Responsibilities
+- Prepare cash and journal entries and bank reconciliations
+- Assist with financial statement preparation and period end closings
+- Interact with clients through email and participate in calls
+- Participate in quarterly and annual audit functions
+- Process and track daily cash contributions and distributions for investment fund clients
+- Engage in professional development programming and networking events
+
+### Basic Requirements
+- Pursuing a Bachelor's Degree in Accounting or Finance with a strong accounting focus, or has a previous accounting internship
+- Current Junior with an expected graduation date between December 2026 and August 2027
+- Proficient with Excel
+- Ability to prioritize tasks, work on multiple assignments, and manage ambiguity
+- Strong verbal and written communication skills
+- Detail oriented with strong analytical and problem-solving skills
+- Authorized to work in the US without need for employment-based sponsorship
+
+### Bonus / Preferred Qualifications
+- Strong interest in Fund Accounting as a career
+- Demonstrated leadership, learning, and collaboration
+- Customer centric mindset
+- Ability to work independently in hybrid settings
+
 ## Implications for Our Framework
 Across all five postings, the Big Four/PwC-style firms (Deloitte, EY, PwC) consistently anchor requirements on CPA-track credit-hour progress and a GPA floor (3.0-3.3), while corporate in-house roles (Cloudflare, Robinhood) drop the CPA/GPA language entirely and instead emphasize graduation timing, tool proficiency, and soft skills like independent ownership — suggesting our scoring framework should weight CPA-eligibility and GPA heavily for public-accounting-track applications but treat them as secondary signals for corporate accounting/internal-audit roles. Microsoft Excel is the one universal hard-skill requirement across every posting regardless of sub-track, and U.S. GAAP knowledge appears specifically at the corporate financial-reporting role, so Excel fluency should be a baseline scoring criterion while GAAP/accounting-standards knowledge should be weighted more for financial-reporting than for tax or forensic tracks. Advanced/niche technical skills (SQL, Python, Tableau, Bloomberg, VBA/MATLAB) appear only as "preferred/bonus" across the board, never as a basic requirement, indicating these should boost a candidate's score but never gate eligibility. Finally, leadership experience, prior internships, and communication/analytical skills recur as differentiators in every posting's bonus section, implying the framework should reward extracurricular leadership and any prior professional experience as meaningful tie-breakers among otherwise similarly-qualified accounting candidates.

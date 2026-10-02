@@ -485,5 +485,80 @@ Collected: 2026-09-28
 - General K-12 teaching experience or a formal teaching qualification/license
 - Advanced Japanese language proficiency (JLPT N1 or N2 level)
 
+## JD 20: Teacher - Career Educator, KinderCare Learning Companies (early childhood/preschool classroom teacher at a for-profit corporate childcare chain, CDA/NAEYC credential pathway distinct from every K-12/international entry above)
+Source: Official KinderCare Careers site (kcecareers.com) job posting, "Teacher - Career Educator" — https://www.kcecareers.com/job/KNOWA0054JR10627EXTERNALENUS/Teacher-Career-Educator
+Collected: 2026-09-30
+
+### Responsibilities
+- Lead, coach, and mentor less-experienced teachers within the classroom, modeling instructional behaviors and providing feedback
+- Implement KinderCare's curriculum, customizing lessons and activities to meet each child's individual developmental needs
+- Create and maintain a safe, nurturing classroom environment that supports play-based learning
+- Build ongoing partnerships with families, communicating regularly about each child's progress
+- Support broader center operations, including contributing toward enrollment and accreditation goals
+- Cultivate relationships with families, center staff, state licensing authorities, and community/corporate partners
+
+### Basic Requirements
+- Active Child Development Associate (CDA) Credential, or eligibility/candidacy for NAEYC-recognized credentialing
+- Meets state-specific early childhood teacher qualifications, or willing to obtain them
+- CPR and First Aid Certification, or willingness to obtain
+- Physical capability to lift a minimum of 40 pounds and to bend/kneel to a child's level for engagement and supervision
+- Adequate hearing and vision to ensure child safety; English fluency for communication with children, families, and staff
+- Strong customer-service and organizational skills, comfortable multitasking in a classroom setting
+
+### Bonus / Preferred Qualifications
+- Approved state trainer status
+- 2-3 years of early childhood education experience
+- Bachelor's degree in Early Childhood Education
+
+## JD 21: Elementary School Literacy Teacher (Peace Corps Volunteer), Peace Corps (U.S. federal government international volunteer-teaching program -- 2-year overseas literacy-teaching service placement, a government-service structure distinct from the Fulbright ETA, Princeton in Asia, and JET fellowship/assistantship models already in this file)
+Source: Official Peace Corps service-assignments listing -- https://www.peacecorps.gov/ways-to-serve/service-assignments/browse-opportunities/peace-corps-volunteer/elementary-school-literacy-teacher-10180br/
+Collected: 2026-10-01
+
+### Responsibilities
+- Administer standardized literacy assessments to local elementary students and use the resulting data to identify learning needs
+- Design and implement targeted lesson plans differentiated for students' varying skill levels
+- Conduct small-group instruction sessions (roughly 3-5 students) using structured literacy-teaching approaches
+- Model effective literacy-teaching strategies alongside host-country classroom educators
+- Promote family involvement in literacy through take-home learning materials
+- Organize and help sustainably manage school libraries
+- Support digital-literacy development opportunities where feasible
+- May take on secondary community projects such as sports coaching or environmental clubs
+
+### Basic Requirements
+- Associate degree in any field plus at least two years of full-time post-secondary work experience, OR a bachelor's degree in any field, OR a high school diploma/GED plus four years of full-time post-secondary work experience
+- No prerequisite foreign-language proficiency required for this position
+- Must demonstrate motivation for and commitment to service, adaptability/open-mindedness, problem-solving/resourcefulness, and behavioral maturity/professionalism, assessed during application and interviews
+- Willingness to commit to a full 2-year volunteer term plus approximately 3 months of pre-service training, serving in the Eastern Caribbean (Dominica, Grenada, St. Lucia, or St. Vincent and the Grenadines)
+- Application deadline November 15, 2026; departure June 5, 2027
+
+### Bonus / Preferred Qualifications
+- Not explicitly itemized as a separate "preferred qualifications" section on the official posting -- eligibility is framed as the OR-combination of degree/experience above, with service readiness assessed through the four behavioral competencies rather than an itemized skills wishlist
+
+## JD 22: Montessori Assistant Teacher (Assistant Teacher II), Bezos Academy (Day1 Academies) (tuition-free nonprofit Montessori preschool for under-resourced communities, distinct from corporate for-profit childcare)
+Source: Official Organization Careers Page (Greenhouse job board) — https://job-boards.greenhouse.io/day1academies/jobs/8784748002
+Collected: 2026-10-02
+
+### Responsibilities
+- Support lead teachers in delivering Montessori-method lessons and activities to preschool-age children
+- Observe and document individual children's development and learning progress
+- Facilitate literacy and math skill-building activities within the Montessori classroom
+- Maintain a safe, orderly, and engaging Montessori classroom environment
+- Build relationships with children, support diverse learners, and help implement individual behavior support plans
+- Independently supervise children during transitions, mealtimes, and outdoor activities
+- Participate in staff meetings and conduct family conferences to communicate on student progress
+
+### Basic Requirements
+- Bachelor's degree, OR an associate's degree plus two years of experience with children, OR four years of professional experience working with K-3rd grade children
+- Willingness to obtain a Primary Montessori credential from a MACTE-accredited institution within two years if not already held
+- Pass required background checks and TB screening
+- Ability to lift at least 40 lbs and have reliable transportation to the school site
+
+### Bonus / Preferred Qualifications
+- Associate's degree or higher in early childhood education
+- Prior Montessori preschool teaching experience
+- Experience working with children with special needs
+- Experience serving low-income or under-resourced communities
+- Bilingual/Spanish fluency (required for certain locations)
+
 ## Implications for Our Framework
 Across all five postings, the single most consistent hard filter is availability/commitment, not credentials: every posting specifies an exact date range and full-time (or near-full-time) hours with little flexibility, so a resume that can't plausibly support a multi-week uninterrupted commitment should score poorly regardless of other strengths. Formal teaching credentials are almost never required — none of these five postings requires an education major, a teaching certification, or even completed coursework in pedagogy, and several (Breakthrough SV, City Year, TFA) explicitly state that prior teaching experience is not necessary and is replaced by trainability, adaptability, and conviction/mission-fit language. Where a GPA or degree threshold does appear (TFA's 2.5 GPA and bachelor's-by-training-date, PASE's "currently enrolled" status), it functions as a low, coarse eligibility bar rather than a differentiator — it screens out but doesn't rank. Background checks and citizenship/work-authorization status recur as binary eligibility gates (City Year, Breakthrough SV) that a scoring rubric should treat as pass/fail flags rather than weighted signals, since resumes rarely surface this data directly. The real differentiators that separate a strong from an average candidate are prior informal experience with youth — camp counselor, tutoring, after-school program, babysitting/mentoring, RA roles — plus evidence of self-directed achievement, leadership under ambiguity, and cross-background collaboration (TFA's language is the most explicit here, but Breakthrough and PASE echo it via "varying levels of teaching/tutoring experience" and "prior experience working with youth"). This implies a resume-scoring rubric for this field should weight demonstrated informal youth-facing experience and evidence of grit/leadership/adaptability heavily as the primary quality signal, treat GPA/degree-in-progress and availability as coarse eligibility gates rather than scored merits, and not penalize the absence of formal education coursework or certification, since none of these real-world entry postings require it.

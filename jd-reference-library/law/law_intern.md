@@ -444,6 +444,74 @@ Collected: 2026-09-28
 - Veterans' preference documentation considered if applicable
 - Prior coursework or interest in FOIA/Privacy Act, federal criminal law, or government records/litigation practice
 
+## JD 20: Intern, Housing Law Unit (Summer 2026), Legal Aid DC (civil legal aid — housing/poverty law, direct client-services track)
+Source: National Legal Aid & Defender Association (NLADA) job board — Legal Aid DC posting — https://www.nlada.org/node/85626
+Collected: 2026-09-30
+
+### Responsibilities
+- Conduct legal and factual research on housing-law matters
+- Draft pleadings, motions, reasonable accommodation requests, client correspondence, and other legal writing
+- Assist with client intake interviews and prepare for client meetings and hearings
+- Observe court or administrative hearings and take detailed notes
+- Support discovery processes and draft related documentation
+- Assist with the Landlord & Tenant courthouse project
+
+### Basic Requirements
+- Current law school student or graduate with a genuine interest in public interest and/or housing law
+- Able to commit to a 10-week, full-time summer internship based in Washington, DC
+- Must submit a cover letter, resume, writing sample, and transcript or matriculation letter as part of the application
+
+### Bonus / Preferred Qualifications
+- Not separately itemized in the posting; the listing's sole stated filter is genuine interest in public-interest/housing law rather than academic rank or prior credentials
+
+## JD 21: 2026 Post-Conviction Litigation Summer Law Student Intern, Innocence Project (New York) (wrongful-conviction/post-conviction DNA and exoneration litigation — a distinct practice track from the general criminal-defense, prosecutor, and civil-rights nonprofit entries already in this file)
+Source: Idealist.org nonprofit internship posting (mirrors the Innocence Project's official Workable application listing) — https://www.idealist.org/en/nonprofit-internship/9682cfef451d45f0836110e23dcfaf13-2026-post-conviction-litigation-summer-law-student-intern-innocence-project-new-york
+Collected: 2026-10-01
+
+### Responsibilities
+- Conduct legal research and draft memos supporting litigation and client representation
+- Assist in writing claims or entire motions for post-conviction DNA testing and/or post-conviction relief
+- Create discovery and trial transcript digests
+- Develop investigation plans
+- Communicate with clients, families, courts, and prosecutors
+- Prepare for evidentiary hearings
+
+### Basic Requirements
+- Rising 2L or 3L law student
+- Legally authorized to work in the U.S.
+- Demonstrated interest in indigent defense, racial justice, and innocence work
+- Strong legal research and persuasive writing abilities
+
+### Bonus / Preferred Qualifications
+- Commitment to racial justice and social equity
+- Experience with client-centered legal representation
+- Strong interpersonal communication skills
+- Personal connections to the criminal legal system (candidates with such connections are explicitly encouraged to apply)
+
+## JD 22: Summer Legal Associate (1L) - Summer 2026, Visa Inc. (in-house legal, global payments/fintech industry — rotational 1L program)
+Source: Job Board Posting (The Muse, mirroring Visa's official listing) — https://www.themuse.com/jobs/visa/summer-legal-associate-1l-summer-2026
+Collected: 2026-10-02
+
+### Responsibilities
+- Shadow members of Visa's Legal Department across practice areas
+- Work on projects spanning litigation, M&A, employment, data privacy, trademark, IP, and regulatory matters
+- Conduct legal research and support matter work for assigned attorneys
+- Deliver an end-of-summer presentation to senior legal leadership
+- Participate in intern cohort social and networking events
+
+### Basic Requirements
+- First-year (1L) law student in good standing at an ABA-accredited law school
+- U.S. work authorization (no visa sponsorship available)
+- Strong legal research and writing skills
+- Available for the full summer program in Foster City, CA (Bay Area, hybrid)
+
+### Bonus / Preferred Qualifications
+- Demonstrated academic excellence and leadership ability
+- Strong communication skills and strategic thinking
+- Prior exposure to corporate, regulatory, or technology/payments-industry legal issues
+- Innovative, entrepreneurial mindset suited to a fast-moving in-house environment
+- Teamwork and attention to detail in a cross-functional setting
+
 ## Implications for Our Framework
 - The applicability of the cert dimension depends heavily on jurisdiction: Zhong Lun explicitly lists "passed the legal qualification exam" as a preferred condition — a strong signal in Chinese "red-circle" firm screening — while all three U.S. postings (LP, Microsoft, Finnegan) make no mention of the bar exam at the internship/1L stage. If the cert dimension's weight (currently 12) doesn't account for jurisdiction, it will systematically undervalue U.S.-track candidates and overweight this factor for them.
 - U.S.-track "certification-type" bonus items should be replaced with writing/competition signals: neither LP nor Finnegan asks about bar-exam progress, focusing instead on law review, moot court, and journal experience — bonus item ② should carry more weight than bonus item ③ (bar-exam progress) for the U.S. track.

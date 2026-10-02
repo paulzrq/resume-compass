@@ -465,6 +465,74 @@ Collected: 2026-09-29
 - Exposure to cloud platforms (AWS, Azure, GCP)
 - Knowledge of model deployment workflows
 
+## JD 21: Machine Learning Engineer Intern, Coinbase (cryptocurrency exchange/blockchain platform — production-scale ML model deployment and pipelines track; a new industry vertical (crypto/blockchain fintech) distinct from all prior mle entries, and distinct from this cycle's ds addition (GTI Energy), which is a statistics/research-flavored applied-science role with no deployment component)
+Source: Official Coinbase careers site (Greenhouse-powered posting) — https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441
+Collected: 2026-09-30
+
+### Responsibilities
+- Develop, deploy, and operate machine learning models and pipelines at production scale
+- Drive an end-to-end research project applying modern ML techniques to solve a defined business problem
+- Partner with senior engineers and product teams to identify new ML applications for blockchain and crypto use cases
+- Present findings and recommendations to cross-functional stakeholders at the conclusion of the internship
+
+### Basic Requirements
+- Currently pursuing a Ph.D. with published or in-progress research in machine learning, deep learning, or a related field
+- Demonstrated proficiency building and training models using ML frameworks such as PyTorch or TensorFlow
+- Experience applying ML techniques including supervised learning, unsupervised learning, or reinforcement learning to structured or unstructured datasets
+- Familiarity with software engineering fundamentals including version control, testing, and production-quality Python code
+- Responsible use of generative AI tools, maintaining human oversight to deliver business-ready outputs
+
+### Bonus / Preferred Qualifications
+- Not separately itemized in the posting — the required-qualifications list above (PhD-level research plus production-quality engineering) already sets the bar for this role
+
+## JD 22: Machine Learning Engineer Intern, Agentic ML (Summer 2026), Robinhood (consumer fintech/trading platform — production deployment of agentic/LLM systems, with model monitoring and rollback, a new industry vertical (consumer brokerage fintech) distinct from Coinbase's crypto/blockchain focus and from all ds-field entries)
+Source: Official Robinhood careers site (Greenhouse job board) — https://job-boards.greenhouse.io/robinhood/jobs/7163239
+Collected: 2026-10-01
+
+### Responsibilities
+- Build and prototype tools and workflows for agent development that support rapid prototyping
+- Assist in building platform solutions to support scalable experimentation and synthetic dataset generation
+- Maintain feedback and optimization pipelines that incorporate both automated metrics and human-in-the-loop evaluation
+- Support fine-tuned models in production environments, including evaluation and rollback strategies
+- Collaborate closely with applied AI/ML teams to translate state-of-the-art research in agentic reasoning into production systems
+
+### Basic Requirements
+- Currently pursuing a degree in Computer Science, Data Science, Statistics, Engineering, or a related technical field
+- Expected graduation Winter 2026 or Spring 2027
+- Solid foundation in software engineering, machine learning principles, algorithms, and data structures
+- Familiarity with Python and basic ML frameworks (e.g., scikit-learn, PyTorch, or TensorFlow)
+- Interest in building agentic systems and large language models
+- Collaborative mindset and strong communication skills
+
+### Bonus / Preferred Qualifications
+- Not separately itemized in the posting — "interest in building agentic systems and large language models" and prior experience supporting models in production are folded into the basic requirements above
+
+## JD 23: Software Engineer Intern, ML/AI, Electronic Arts (EA) (gaming-industry ML engineering — deploying/optimizing ML models for AI-driven gameplay and content systems on cloud infra; distinct domain from all existing mle entries, and distinct in sub-type from ds's Riot Games entry, which is live-ops analytics rather than ML engineering/deployment)
+Source: Official Company Careers Page (EA Jobs) — https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-ML-AI/210877
+Collected: 2026-10-02
+
+### Responsibilities
+- Design and optimize machine learning models for AI-driven gameplay and content systems
+- Develop ML tools, libraries, and infrastructure supporting the full ML lifecycle
+- Build cloud-based solutions using AWS, GCP, or Azure for scalable ML workloads
+- Optimize performance, scalability, and cost efficiency of deployed AI systems
+- Document findings through technical reports, demos, and stakeholder presentations
+- Contribute to knowledge sharing via internal publications or open-source initiatives
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's or Master's degree program in Computer Science or a related field
+- Foundation in machine learning, deep learning, and data-driven system design
+- Proficiency in Python with deep learning frameworks such as PyTorch
+- Familiarity with cloud platforms and cloud-native tools (e.g., Docker)
+- Strong computer science fundamentals (algorithms, data structures, design principles)
+- Graduation date between December 2026 and June 2027; legal authorization to work full-time in Canada (no visa sponsorship)
+
+### Bonus / Preferred Qualifications
+- Hands-on experience deploying ML models in real-time interactive applications
+- Familiarity across multiple cloud platforms (AWS, GCP, and Azure) rather than just one
+- Track record of contributing to internal technical publications or open-source ML projects
+- Experience building reusable ML tooling/infrastructure spanning the full model lifecycle
+
 ## Implications for Our Framework
 - Educational-background thresholds vary enormously across sub-tracks and cannot share one rubric: AI research generally requires an enrolled PhD with top-venue publications, while data analytics only requires a master's/MBA and data engineering only a bachelor's/master's — scoring edu without splitting by sub-type will systematically undervalue analytics/engineering candidates.
 - The "hands-on deep-learning framework experience" bonus item does not generalize across sub-tracks: Meta and HRL both require PyTorch/JAX, but Airbnb's technical requirement is "SQL-first, Python/R secondary," and TikTok requires SQL + ETL + big-data stack with no model-training requirement at all.

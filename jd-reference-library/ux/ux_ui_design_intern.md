@@ -458,5 +458,78 @@ Collected: 2026-09-28
 - Group or team project experience
 - Active personal use of the Duolingo app
 
+## JD 20: Apprentice Product Designer, Pinterest (visual-discovery/social platform — non-degree apprenticeship track for career-changers, distinct from all other entries' enrolled-student internships)
+Source: Official Pinterest careers posting (now closed), mirrored in full on Built In — https://builtin.com/job/apprentice-product-designer/10071108 (also cross-verified via startup.jobs mirror: https://startup.jobs/apprentice-product-designer-pinterest-5546881; original: https://www.pinterestcareers.com/jobs/8016473/apprentice-product-designer/)
+Collected: 2026-09-30
+
+### Responsibilities
+- Work alongside Pinterest Product Designers and partners on Research, Product Management, and Engineering teams on a high-impact project
+- Learn the full design process end-to-end, from ideation and exploration through executing and implementing shipped work
+- Collaborate closely with an assigned mentor throughout the up-to-one-year apprenticeship
+- Leverage AI tools to enhance design workflow and cross-functional collaboration
+- Participate in structured learning and development opportunities alongside the design team
+
+### Basic Requirements
+- Non-traditional tech background welcomed (bootcamp graduates, self-taught designers, career re-entrants); no design degree required, and current degree-seeking students are ineligible
+- 1+ years of professional collaborative work experience preferred
+- Practical experience with design tools such as Figma, Sketch, Photoshop, or Illustrator
+- Full-time availability (40+ hours/week) during business hours for the duration of the program
+- Authorized to work full-time in the United States
+
+### Bonus / Preferred Qualifications
+- Self-motivated, proactive learner/builder mindset with genuine curiosity about a product design career
+- Ability to quickly adopt and apply emerging AI tools in the design process
+- Strong communication and collaboration skills, with decision-making quality and craft focus
+
+## JD 21: Spring 2026 UX Intern (Bachelors), Ansys (engineering simulation / CAD-CAE software UX design — a new industry vertical, engineering/simulation software, not represented elsewhere in this file)
+Source: Official Ansys careers site — https://careers.ansys.com/job/Canonsburg-Spring-2026-UX-Intern-%28Bachelors%29-PA-15317/1311822000
+Collected: 2026-10-01
+
+### Responsibilities
+- Design, develop, and evaluate cutting-edge user interfaces for Ansys engineering simulation products
+- Showcase proficiency in visual design principles with meticulous attention to detail
+- Display strong comprehension of typography and color theory
+- Build expertise with creative software such as Adobe Creative Suite or comparable tools
+- Assess, prioritize, and address UX-related software challenges
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in UX/UI design
+- Hands-on experience with Figma and CAD/CAE software
+- Demonstrated organizational abilities and deadline-management skills
+- Knowledge of software development workflows and cross-team communication
+
+### Bonus / Preferred Qualifications
+- HCI certification (completed or in-progress)
+- Experience with modeling and simulation platforms
+- Proficiency in Adobe Creative Suite
+- Ability to iterate designs responsively based on feedback
+- Strong written and verbal communication across various formats
+- Quick prototyping capabilities using available tools
+
+## JD 22: Digital Product Design Undergraduate Internship, Nike, Inc. (consumer apparel/footwear brand, brand-driven digital product & visual design track)
+Source: Official Company Careers Page — https://careers.nike.com/digital-product-design-undergraduate-internship/job/R-69072
+Collected: 2026-10-02
+
+### Responsibilities
+- Develop wireframes, visual comps, user flows, and prototypes that represent the Nike brand
+- Engage in research, cross-functional collaboration, and strategic storytelling
+- Own well-defined tasks and small projects with predetermined scope
+- Iterate design concepts from initial briefing through final delivery
+- Produce independent design solutions while supporting teammates
+- Work with senior team members to meet project objectives and timelines
+
+### Basic Requirements
+- Full-time college student graduating between December 2026 and June 2027
+- Major in Interactive/Digital Design, Product Design, Digital Art Direction, or related field
+- Portfolio demonstrating inspiration, concept development, storytelling, and finished designs
+- Proficiency in Figma, Adobe Creative Cloud, and Keynote
+- Strong foundation in typography, layout, composition, and systems design
+- Passion for the Nike brand and sports with commitment to quality work
+
+### Bonus / Preferred Qualifications
+- Familiarity with digital product company design processes
+- Curiosity about innovation and technology trends
+- Understanding of current digital tools and industry developments
+
 ## Implications for Our Framework
 Across all five postings a portfolio or "creative materials" requirement is non-negotiable — even research- and healthcare-leaning roles ask for demonstrated work — so portfolio quality should be weighted at least as heavily as GPA or coursework in any scoring rubric. Figma appears explicitly in four of five listings (with Sketch/Adobe Creative Suite as secondary tools), confirming it's the de facto baseline tool expectation for this field, while basic front-end literacy (HTML/CSS/JS) shows up as a differentiator at product-focused startups. Major flexibility is notable: acceptable degrees range from Design and HCI to Computer Science, Engineering, and Psychology, suggesting the framework should treat "design-adjacent degree + strong portfolio" as roughly equivalent to a pure design major rather than penalizing non-traditional majors. Finally, research/process fluency (user interviews, journey mapping, usability testing, mixed-methods research) recurs across big tech, research-specific, and healthcare roles alike, so process/methodology evidence in a resume or portfolio case study should be scored as a meaningful signal, not just visual polish.

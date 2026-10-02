@@ -485,5 +485,76 @@ Collected: 2026-09-29
 - Reporting and analysis experience
 - Control testing background
 
+## JD 21: Consulting Financial Services Risk Management Intern, EY (Big-4 risk advisory consulting track — client-facing FSRM engagements across banks, insurers, and asset managers, distinct from the in-house corporate/bank risk functions already in this library)
+Source: Official EY US early careers site (position listing) — https://usearlycareers.ey.com/job/san-francisco/usa-consulting-financial-services-risk-management-intern-summer-2026/39053/85914260992
+Collected: 2026-09-30
+
+### Responsibilities
+- Support Financial Services Risk Management (FSRM) engagement teams in assessing and improving financial-services clients' governance, risk, and compliance (GRC) activities
+- Help identify and manage risk exposures for clients such as banks, insurers, and asset managers, leveraging emerging technologies
+- Collaborate with data, analytics, and technology teams to build risk solutions spanning cloud, cyber, and ESG risk domains
+- Contribute to client deliverables that evaluate the efficiency, effectiveness, and balanced risk coverage of a client's risk and compliance program
+- Participate in client engagements that may require travel and work beyond standard hours
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Finance, Business, Economics, Statistics, Accounting, Management, Computational/Quantitative Finance, Mathematics, Computer Science, Data Science, or a related field
+- Exceptional communication and interpersonal skills
+- Strong analytical and problem-solving abilities
+- An inclusive mindset that values diverse perspectives
+- Willingness to travel to client sites and work extended hours as needed; reliable transportation and a valid driver's license are strongly recommended
+
+### Bonus / Preferred Qualifications
+- Purpose-driven, growth-oriented mindset with a demonstrated passion for continuous learning
+- Proven analytical skills paired with a technology foundation
+- Familiarity with firm-approved AI tools, including Microsoft Copilot
+
+## JD 22: Credit Risk Management Department – Risk Analytics/Model Intern, Bank of China, U.S.A. (New York; credit-risk model governance, stress testing, and CECL data intern — a foreign-bank U.S. subsidiary track distinct from all other entries in this file)
+Source: Bank of China USA official careers site (iCIMS job board) — https://careers-bocusa.icims.com/jobs/4082/credit-risk-management-department-risk-analytics---model-intern/job
+Collected: 2026-10-01
+
+### Responsibilities
+- Coordinate credit risk rating requests and generate reports using established model frameworks
+- Assist with quarterly stress test execution, result aggregation, and analytical reporting
+- Update model governance documentation to support enterprise risk management reviews and help resolve audit findings
+- Collect, validate, and format data from multiple sources, including CECL scenarios and loan history
+- Provide administrative support such as invoicing, meeting coordination, and presentation preparation
+
+### Basic Requirements
+- Pursuing/holding an advanced degree in a quantitative discipline (mathematics, statistics, physics, computer science, financial engineering, or related field)
+- Programming proficiency in VBA, Python, and SQL
+- Strong written and verbal communication skills
+- Strong organizational and time-management skills
+- Ability to work both collaboratively and independently
+- Basic finance domain knowledge
+- Analytical and problem-solving skills
+
+### Bonus / Preferred Qualifications
+- The posting does not list a separate bonus/preferred section beyond the required skills above (no FRM/CFA, CCAR, or Basel-framework language appears in the listing)
+
+## JD 23: Campus - Risk Analyst Program Intern (Flexible Hybrid), Fannie Mae (Single-Family Collateral Risk Management, GSE mortgage-collateral/operational risk)
+Source: Official Company Careers Page (Fannie Mae SmartRecruiters ATS) — https://jobs.smartrecruiters.com/FannieMae/744000008434367
+Collected: 2026-10-02
+
+### Responsibilities
+- Support risk-based business proposal analyses and documentation for Single-Family Collateral Risk teams
+- Assist application developers and project managers with enhancement planning and coordination
+- Conduct research and manage deliverables for complex risk projects
+- Gather and prepare business analysis data with stakeholder reporting
+- Participate in operating procedure reviews and internal control documentation
+- Support development and monitoring of key performance and risk indicators
+- Help integrate advanced technology and AI into business processes
+
+### Basic Requirements
+- Authorization to work in the U.S. without current or future sponsorship
+- Preferred cumulative GPA of 3.0 or higher
+- Rising senior enrolled in a bachelor's degree program (expected graduation ~2026)
+- Majors in Business Administration, Management, Finance, Information Systems, Real Estate, or Risk Management
+
+### Bonus / Preferred Qualifications
+- Demonstrated leadership and teamwork experience
+- Strong analytical background with a self-starter, results-oriented mindset
+- Strong written and oral communication skills
+- Technology fluency / interest in applying AI to risk and business processes
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic timing and citizenship/work-authorization status, not technical skill: every posting specifies an expected graduation window tied to penultimate-year or graduating-senior status (BofA: Nov 2026-Aug 2027; Citi and Morgan Stanley similarly tied to the 2026/2027 cycle), and three of the five (BofA, Citi, Morgan Stanley) explicitly require U.S. work authorization without future sponsorship, which functions as a binary pass/fail gate rather than a scored trait. A minimum GPA threshold appears in three of five postings and clusters tightly between 3.0 and 3.3, suggesting a rubric should treat GPA as a soft-cutoff signal (present/absent and roughly where it falls in that 3.0-3.3+ band) rather than a finely graded continuous score. None of the postings demand hard technical tools (no SQL, Python, or VaR-modeling requirement appears anywhere), which is notable for a "risk" role and implies that at the internship level, technical/quantitative tooling is a differentiator rather than a baseline — resumes that show Excel modeling, a finance/quant/econ/stats major, or prior risk-adjacent coursework should score above a generic business major even though none of these postings strictly require it. What is treated as universal baseline "soft" language is communication skills, analytical/problem-solving ability, attention to detail, and a demonstrated interest in markets/regulation — these appear in every single posting almost verbatim, so a resume-scoring rubric should weight evidence of these (leadership roles, case competitions, research, relevant coursework projects) heavily as baseline credibility rather than as bonus differentiators. True bonus/differentiator signal across postings is a quant-adjacent major (math, statistics, engineering) layered on top of the eligible business/finance majors, prior exposure to specific risk types (market, credit, liquidity, operational), and international/cross-cultural exposure (Citi, JPM AM). Given this pattern, the risk_analyst rubric should be structured as: (1) hard-gate checks for graduation timing and work authorization language when present on the resume/cover context, (2) a GPA band check calibrated to the observed 3.0-3.3 threshold, (3) a moderate-weight core score for communication/analytical soft-skill evidence and any finance/business/quant major, and (4) bonus points layered on top for quantitative coursework, Excel/data tools, or explicit risk-domain exposure — reflecting that these postings screen broadly on fit and eligibility first, and reserve technical specificity as upside rather than a floor.

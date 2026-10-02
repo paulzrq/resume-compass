@@ -461,5 +461,82 @@ Collected: 2026-09-28
 ### Bonus / Preferred Qualifications
 - Combines real on-set camera/audio operation with hands-on post-production editing experience, a distinctive dual-skillset combination for a reality-TV production environment
 
+## JD 20: Production Health & Safety Intern, Netflix (Studio operations track — on-set safety/compliance support, distinct from every creative, PA, post-production, VFX, and documentary track already in this file)
+Source: Netflix internship posting mirrored on TCV Portfolio Jobs board, "Production Health & Safety Intern (Summer 2026)" — https://portfoliojobs.tcv.com/companies/netflix/jobs/65982614-production-health-safety-intern-summer-2026
+Collected: 2026-09-30
+
+### Responsibilities
+- Gain foundational knowledge of film/TV production health & safety practices, including construction, stunts, and special-effects (SPFX) best practices
+- Support implementation of health and safety management programs across live productions
+- Collaborate with production stakeholders (production management, department heads) to identify and mitigate on-set hazards
+- Learn and apply federal, state, and local safety regulations (OSHA, Cal/OSHA, EPA, WorkSafe BC) to production environments
+- Shadow Production Health & Safety managers on set and in corporate settings
+- Assist with incident investigation and first-response procedures; attend industry lectures and internal Netflix events
+
+### Basic Requirements
+- Currently enrolled undergraduate, graduate, or PhD student, authorized to work in the USA, with expected graduation between December 2026 and May/June 2027
+- Interest in the motion picture industry combined with health & safety or environmental safety
+- Must reside in the New York area for the internship duration and be willing to travel periodically (including to Los Angeles)
+- Proficiency with Google Suite, Microsoft Office, and Adobe software
+
+### Bonus / Preferred Qualifications
+- Prior video editing software experience
+- Self-starter mentality with strong resourcefulness
+- Strong written and verbal communication skills
+- Ability to maintain confidentiality when handling sensitive incident/safety information
+
+## JD 21: Studio Physical Production Intern, Summer/Fall 2026, The Walt Disney Studios (feature-film physical/below-the-line production office — slate-wide crew and contract tracking across roughly twenty films using industry-standard Movie Magic Scheduling software, a major-studio tentpole physical-production track distinct from A24's indie scripted physical-production office support already in this file)
+Source: Official Disney Careers job posting — https://jobs.disneycareers.com/job/burbank/studio-physical-production-intern-summer-fall-2026/391/89106884800
+Collected: 2026-10-01
+
+### Responsibilities
+- Assist Production Executives, Managers, and Coordinators across roughly twenty films moving through development, prep, production, and wrap
+- Provide administrative support including scheduling, desk coverage, and phone management
+- Review and analyze scripts for the production team
+- Attend studio meetings and production gatherings
+- Distribute and track contracts for below-the-line crew positions
+- Support crew tracking and scheduling research using Movie Magic Scheduling software
+- Maintain digital assets on department servers
+
+### Basic Requirements
+- Proficiency with Microsoft Office applications
+- Experience collaborating on and managing multiple concurrent projects
+- Strong research skills and ability to present information clearly
+- Ability to multitask in a fast-paced environment
+- General understanding of film production and industry concepts
+- Attention to detail and ability to prioritize competing tasks
+- Must be 18+, currently enrolled in an accredited institution, possess unrestricted U.S. work authorization, and not have completed one year of continuous Disney internship employment
+- Able to work Monday-Friday, 9am-6pm PST (40 hrs/week) on-site in Burbank, CA from June through December 2026, providing own housing and transportation
+
+### Bonus / Preferred Qualifications
+- Previous production internship experience
+- Experience with Movie Magic Scheduling software
+- Currently enrolled in an accredited Film/Video Production program
+
+## JD 22: LIVE! with Kelly and Mark Production Intern, Disney Entertainment Television (LIVE! with Kelly and Mark) (live daily syndicated studio talk show production, NY — audience/guest logistics for a live taping, distinct from scripted/doc/news-magazine production)
+Source: Official Organization Careers Page (disneycareers.com) — https://www.disneycareers.com/en/job/new-york/live-with-kelly-and-mark-production-intern-spring-2027/391/100955813408
+Collected: 2026-10-02
+
+### Responsibilities
+- Manage audience operations during live tapings, including distributing raffle tickets and giveaway prizes
+- Prepare green rooms and coordinate paperwork with celebrity guests
+- Assist producers with research for lifestyle segments and celebrity interview preparation
+- Source talking points for on-air content
+- Log show notes and manage production-related documentation
+- Support producers and production teams with varied projects and needs as assigned
+- Gain hands-on experience in both production office and studio floor environments
+
+### Basic Requirements
+- Demonstrated interest in pursuing a career in television production, media, or entertainment industry
+- Coursework in Broadcast Journalism, Communications, Film & Television, Screenwriting, or related field
+- Professional verbal and written communication skills
+- Ability to independently complete assigned projects and manage priorities
+- Proficiency with Microsoft Office Suite (Outlook, Excel, Word, PowerPoint)
+- Currently enrolled as junior/senior undergraduate student, minimum age 18, unrestricted work authorization
+- Able to maintain the fixed weekday schedule and provide own NY-area housing and transportation
+
+### Bonus / Preferred Qualifications
+- Previous experience in entertainment or production
+
 ## Implications for Our Framework
 Across all five postings, the recurring baseline is administrative/organizational competence rather than creative craft: Microsoft Office (every posting), Google Sheets, and general "strong organization/communication/attention to detail" language appear far more often than any camera or editing skill, meaning a rubric should treat basic office-software fluency as table stakes, not a differentiator. The hardest filters that would eliminate a candidate outright are logistical and eligibility-based, not skill-based: enrollment status and class year (sophomore+, rising junior/senior, or "on placement year"), work authorization/visa sponsorship (explicit in both NBCUniversal and WBD postings), minimum age (18+), and hard availability windows (16-24 hrs/week, specific in-office days, multi-month date ranges) — a resume or application that can't clear these should be scored down regardless of otherwise-strong experience, since real recruiters use them as pass/fail gates before reading further. Major/field of study is a semi-hard filter used inconsistently (Media Res explicitly requires TV/Film Production or Critical Studies; others just ask for "passion" or "related field"), so it should be weighted as a moderate positive rather than a strict requirement. GPA thresholds (3.0 at both NBCUniversal and WBD) and reliable transportation/driver's license (Totally TV, implied by on-set duties generally) function as secondary hard filters worth flagging when present or absent. The clearest bonus/differentiator tier across postings is production-specific software and tools beyond generic Office — Premiere Pro, Scenechronize, Airtable, Smartsheet, Dropbox/SharePoint — plus demonstrated hands-on production exposure (student films, prior internships, script coverage, series tracking) and niche fit signals (bilingual Spanish for a bilingual market, sports-content familiarity for a sports-adjacent role, comedy/writing/music background for a comedy-focused shop); these should be scored as meaningful upside rather than baseline expectations. Practically, this implies a film_production scoring rubric should weight eligibility/logistics as gating criteria, treat generic office/organizational skills as a low-weight baseline, give moderate credit for relevant coursework or major, and reserve the highest positive weight for named production/post-production software proficiency and concrete on-set or post-production project experience, since that is what separates a merely-eligible applicant from a standout one in every posting reviewed.

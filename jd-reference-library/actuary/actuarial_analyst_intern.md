@@ -489,5 +489,73 @@ Collected: 2026-09-29
 - Enthusiasm about and genuine interest in the insurance industry
 - Global perspective and a team-oriented track record
 
+## JD 21: Actuarial Development Program Intern, Genworth Financial (long-term care (LTC) insurance specialist — a distinct product line from all P&C/health/life/reinsurance/retirement entries already in this file)
+Source: Genworth Financial internship posting (Summer 2026 Actuarial Development Program Intern, Req ID REQ-250306), mirrored via BuiltIn job board from the official Genworth Workday careers system; corroborated by the official Genworth Actuarial Development Program page (careers.genworth.com/us/en/Students-and-Graduates) — https://builtin.com/job/genworth-actuarial-development-program-intern-summer-2026/6682675
+Collected: 2026-09-30
+
+### Responsibilities
+- Work on real-world actuarial problems for Genworth's long-term care (LTC) insurance business within a fast-paced financial services environment
+- Apply advanced Excel techniques and programming skills to analyze large datasets
+- Gain hands-on exposure to specialized actuarial software (GGY AXIS, MG-ALFA, PolySystems) used for LTC pricing and valuation modeling
+- Attend on-site technical and professional development classes throughout the 10-12 week summer program
+- Participate in sponsored community service events and build professional networks with peers and actuarial mentors
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Actuarial Science, Mathematics, Statistics, or a related quantitative field
+- Strong mathematical background and high aspirations for an actuarial career
+- Demonstrated proficiency in oral and written communication
+- Must be authorized to work in the U.S. without employer sponsorship (Genworth will not sponsor new applicants for this role)
+
+### Bonus / Preferred Qualifications
+- Minimum 3.2 GPA (on a 4.0 scale)
+- Completed, or scheduled to take, at least one actuarial examination (SOA/CAS)
+
+## JD 22: Pricing Actuarial Analyst Intern, Allstate (property & casualty insurer — auto/homeowners/specialty/business insurance rate-pricing track, fully remote/virtual internship)
+Source: Official Allstate careers site posting, cross-verified via The Muse mirror — https://www.allstate.jobs/job/23652897 (also https://www.themuse.com/jobs/allstate/pricing-actuarial-analyst-intern-1e9d0c)
+Collected: 2026-10-01
+
+### Responsibilities
+- Conduct rate reviews for assigned states and product lines, examining profit/loss results and underwriting-loss trend projections, and assess rate competitiveness
+- Complete detailed analytical work and develop rate package proposals for business partners across auto, homeowners, specialty, or business insurance lines
+- Prepare internal and external communications, including regulatory interactions, supporting rate and rule changes
+
+### Basic Requirements
+- Currently pursuing a Bachelor's degree in Actuarial Science, Mathematics, Statistics, or a related field
+- Minimum 3.0 GPA; must be a full-time student
+- Graduation date between February 19, 2027 and August 20, 2028
+- Pursuing an actuarial designation
+- Proficiency in Microsoft Office (intermediate Excel and Word, beginner Outlook, basic PowerPoint)
+- Strong written and verbal communication skills
+- Ability to manage multiple concurrent assignments
+- Fully remote/virtual internship (no on-site requirement stated)
+
+### Bonus / Preferred Qualifications
+- Demonstrated data analysis and decision-making capabilities
+- Standard knowledge of data sources
+- No stated preference in this posting for passed actuarial exams or programming-language proficiency (SQL/R/Python)
+
+## JD 23: Summer Scholar – Actuarial, Consultative Offerings, Government & Public Services, Deloitte Consulting LLP (Big 4 actuarial consulting for government/public-sector clients, early-identification Summer Scholar program (distinct from insurer-side and reinsurance-broker roles already listed))
+Source: Official Company Careers Page — https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-Actuarial/362392
+Collected: 2026-10-02
+
+### Responsibilities
+- Builds financial and mathematical models to improve organizational performance for government and public-sector clients
+- Analyzes large data sets using statistical methods to quantify risk and interpret trends
+- Advises clients on complex business problems by translating data-driven insights into actionable recommendations
+- Supports actuarial consulting engagements within Deloitte's Government & Public Services practice
+
+### Basic Requirements
+- Currently enrolled in an accredited college or university, expected to graduate by Summer 2028
+- Pursuing a degree in Actuarial Science, Mathematics, Statistics, or a related/equivalent program
+- 3.0 cumulative GPA required
+- Must be able to obtain U.S. Security Clearance
+- Legally authorized to work in the United States without employer sponsorship
+- At least 18 years of age
+- Must reside within commutable distance of assigned office and be able to travel up to 50%
+
+### Bonus / Preferred Qualifications
+- 3.4 cumulative GPA preferred
+- Prior internship, project, or coursework experience in actuarial science, mathematics, or statistics
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard filters are academic major (actuarial science, math, statistics, economics, finance, or another explicitly "quantitative" field), current enrollment/class standing (three postings specify rising junior/senior or an anticipated 2027-2028 graduation window), and unrestricted US work authorization without visa sponsorship (stated explicitly by WTW, Milliman, and CSAA) — a resume missing any of these should be scored as failing a threshold condition rather than merely losing points. GPA appears as a soft-to-hard cutoff in three of five postings (3.0 at Liberty Mutual and WTW, a notably higher 3.5 at Milliman), while Elevance Health and CSAA omit a stated GPA, so the rubric should treat GPA as a weighted signal capped by whatever the specific posting states rather than a universal fixed threshold. Passing at least one actuarial exam (SOA/CAS) is the single most consistent differentiator — it is a hard requirement at Milliman but only a "preferred, not required" bonus at Liberty Mutual, WTW, and CSAA — meaning it should be weighted heavily as a bonus signal and only treated as a gate when the target posting explicitly demands it. Microsoft Excel proficiency is the universal baseline technical skill mentioned in every posting, while more advanced tooling (R, Python, SAS, SQL, VBA) is consistently framed as a preferred/bonus differentiator rather than a baseline expectation, so a rubric should award only modest baseline credit for "Excel" and reserve larger bonus weight for programming/statistical-tool experience and any AI-tool familiarity (as Elevance Health now explicitly calls out). Soft skills — analytical/problem-solving ability, written and verbal communication, leadership through campus organizations or academic projects, and prior analyst-type internship experience — appear in nearly every posting as qualitative preferred traits, suggesting the scorer should give these meaningful but secondary weight (evidenced through leadership roles, clubs like Gamma Iota Sigma, or prior internships) rather than the primary basis for scoring. Overall, the rubric for this role should be structured as: hard-gate on major/enrollment/work authorization, weighted-threshold on GPA, large bonus weight on exams passed and quantitative programming tools, moderate weight on Excel/Office proficiency as a floor skill, and secondary weight on demonstrated leadership/communication/prior internship experience.

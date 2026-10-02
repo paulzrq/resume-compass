@@ -475,6 +475,79 @@ Collected: 2026-09-29
 - Genuine interest in pricing and commercial strategy specifically, rather than generalist strategy consulting
 - Ability to thrive in a fast-paced, entrepreneurial, collaborative environment
 
+## JD 21: Strategy Insights & Planning Associate, ZS Associates (Intern) (pure-play life-sciences/pharma commercial strategy & analytics consulting boutique — distinct from IQVIA's broader healthcare data/technology-driven advisory practice already in this file)
+Source: BuiltIn NYC job board (mirroring ZS Associates' official careers site, jobs.zs.com) — https://builtinnyc.com/job/strategy-insights-planning-associate-intern-north-america-university-students/281802
+Collected: 2026-09-30
+
+### Responsibilities
+- Apply structured problem-solving frameworks to address client business challenges in the pharmaceutical/life-sciences space
+- Conduct market and desk research to generate client-ready insights
+- Build custom quantitative analyses using Excel, Access, Confirmit, and ZS's proprietary analytics tools
+- Synthesize findings and communicate results directly to clients and internal ZS project teams
+- Partner with client and internal teams to support solution implementation
+- Own assigned project deliverables and manage related timelines
+
+### Basic Requirements
+- Currently entering the second-to-last year of a bachelor's or master's degree program
+- Strong academic performance in quantitative/analytical coursework
+- Proficiency in Microsoft Office Suite
+- Strong written and oral communication skills
+- Attention to detail and a quality-focused mindset
+- Ability to collaborate effectively in team settings
+
+### Bonus / Preferred Qualifications
+- Academic background in business, economics, marketing, psychology, life sciences, engineering, applied mathematics, or statistics
+- High motivation, strong work ethic, maturity, and personal initiative
+- Emotional intelligence, empathy, and adaptability
+- Self-discipline in organizing and planning tasks
+
+## JD 22: Consulting Intern, AI & Data (all genders), Roland Berger (a top-tier global strategy consulting firm's dedicated AI/data-analytics strategy track — a data-driven specialization distinct from all the generalist MBB/Big-4/Kearney strategy tracks and the economics/litigation boutiques already in this file)
+Source: Official Roland Berger careers site — https://www.rolandberger.com/en/Join/All-Jobs/Consulting-Intern-AI-Data-(all-genders)-REF1656B.html
+Collected: 2026-10-01
+
+### Responsibilities
+- Join consulting project teams that use data to solve real business problems for clients
+- Conduct quantitative analysis for strategy projects, including market sizing, customer segmentation, and pricing optimization
+- Develop predictive models, KPI frameworks, and dashboards to support client engagements
+- Support preparation of client workshops and executive-level presentations
+- Translate complex analytical findings into clear insights for non-technical audiences
+- Contribute to cross-functional project teams spanning strategy and data/analytics specialists
+
+### Basic Requirements
+- Currently pursuing a degree in a quantitative or business-related field (Economics, Mathematics, Data Science, Business Informatics, or similar)
+- Practical experience with machine learning and data visualization tools (e.g., Power BI)
+- Proficiency in at least one programming language, preferably Python
+- Experience handling large datasets using tools such as Azure, Databricks, or SQL
+- Strong communication abilities for explaining analytical concepts to non-technical stakeholders
+- Fluent in English and German
+
+### Bonus / Preferred Qualifications
+- Strategic mindset combined with a collaborative, team-oriented approach
+- (The posting lists no additional bonus/preferred qualifications beyond the basic requirements above)
+
+## JD 23: Associate Consultant – Financial Services (Associate Consulting Programme), Capco (financial-services-focused management & digital transformation consulting boutique)
+Source: Official Company Careers Page (Greenhouse job board) — https://job-boards.greenhouse.io/capco/jobs/7775700
+Collected: 2026-10-02
+
+### Responsibilities
+- Support transformation initiatives across Financial Services, conducting research, data analysis, and process mapping to solve client problems
+- Develop key project artefacts including requirements, presentations, and analysis outputs while contributing to business analysis, testing, and operational change
+- Participate in client meetings and workshops, collaborating with stakeholders and using tools, accelerators, and AI to deliver data-driven outcomes
+- Complete a two-week immersive training phase covering consulting fundamentals before joining live client engagements
+- Work alongside mentors and consulting teams on real Financial Services client delivery
+
+### Basic Requirements
+- University graduate with strong communication, presentation, analytical, and problem-solving skills, able to structure complex information clearly
+- Interest in Consulting and Financial Services, with curiosity and knowledge of trends across one or more relevant domains
+- Experience using AI tools and a strong interest in how AI is shaping the future of work
+- Proactive, curious, and collaborative mindset with strong attention to detail
+
+### Bonus / Preferred Qualifications
+- 6+ months' experience in consulting, financial services, fintech, or technology
+- Familiarity with data analysis tools or emerging technologies
+- Experience working in team-based or cross-functional project environments
+- Demonstrated interest in Financial Services trends or AI-enabled tooling
+
 ## Implications for Our Framework
 - MBB (Bain) sets almost no hard GPA or major requirement, relying instead on case interviews and live structured problem-solving to filter candidates — this aligns with the consulting field's highest single weight going to leadership (25): MBB is essentially hiring "future engagement leads," not a specific technical skill set.
 - Technology consulting (Accenture) explicitly requires a STEM/business/engineering background and emphasizes sensitivity to trends like cloud and data/AI — showing that within the broader "consulting" category, the implicit weight of skill tools and edu-major fit is significantly higher for the tech-consulting sub-track than for strategy consulting.

@@ -476,5 +476,80 @@ Collected: 2026-09-28
 - Evidence of a meticulous, well-documented ideation/creative process
 - Demonstrated awareness of current creative industry trends and openness to new tools/technology
 
+## JD 20: Graphic Design Intern, The LEGO Group (LEGO Design team — illustration/product-graphics for physical toy elements and stickers, distinct from Hasbro's packaging & brand-identity sub-track)
+Source: Official LEGO careers site (position listing) — https://www.lego.com/en-us/careers/job/graphic-design-internship-lego-design-c3af1d303d1610020ae2bbedbfdb0000
+Collected: 2026-09-30
+
+### Responsibilities
+- Create engaging graphics and illustrations for LEGO model elements and stickers
+- Produce visual designs that enhance the physical play experience of LEGO sets
+- Contribute illustration work to the overall visual identity of LEGO products
+- Collaborate with established in-house designers on the LEGO Design graphic design team over a 4-month internship (Billund, Denmark; spring March-June or autumn September-December session)
+
+### Basic Requirements
+- Currently pursuing a degree in Illustration, Graphic Design, or a related field, with the internship aligned to the academic program
+- Proficiency with Adobe Creative Suite (Photoshop, Illustrator, InDesign)
+- Competency in Procreate
+- Strong drawing and illustration skills / a demonstrated passion for illustration
+- Must submit a portfolio, CV, and cover letter, all in English, indicating a spring or autumn session preference
+
+### Bonus / Preferred Qualifications
+- Not separately itemized in the posting — "Who Can Apply?" lists only the basic requirements above; no distinct "preferred" or "nice to have" section is present on the official listing
+
+## JD 21: Graphic Design Summer Intern, Authentic Brands Group (global brand management/licensing holding company — fashion & lifestyle brand portfolio, e.g. Reebok, Juicy Couture, Brooks Brothers, an industry vertical distinct from all other entries in this file)
+Source: Official Authentic Brands Group careers site (Greenhouse job board) — https://job-boards.greenhouse.io/authenticbrandsgroup/jobs/5536247004
+Collected: 2026-10-01
+
+### Responsibilities
+- Conduct brand and trend research
+- Assist the Graphic Designer with a range of print and digital projects
+- Follow brand guidelines and complete projects according to deadlines
+- Assemble final presentation materials as needed
+
+### Basic Requirements
+- Currently enrolled university student studying graphic design, fashion, or marketing
+- Strong creative and analytical skills
+- Proficiency in InDesign, Adobe Photoshop, and Illustrator
+- Basic knowledge of layouts, typography, line composition, colour, and other graphic design fundamentals
+- Detail oriented
+- Ability to work in a high-paced, collaborative environment
+- Internship runs June-September, based in London, England
+- Must submit a compelling graphic design portfolio alongside resume/CV (cover letter optional)
+
+### Bonus / Preferred Qualifications
+- Graphic Design major with a compelling portfolio
+- After Effects experience
+- A passionate following of latest design trends, technology, and social media
+
+## JD 22: Graphic Design Internship - Spring 2027, Rush Street Interactive (NYSE: RSI) (iGaming/online sports betting & casino operator, remote marketing-campaign graphic design (BetRivers, RushBet))
+Source: Official Company Careers Page (Greenhouse Job Board) — https://job-boards.greenhouse.io/rushstreetinteractive/jobs/6185808004
+Collected: 2026-10-02
+
+### Responsibilities
+- Design visual assets for digital campaigns including social media, banner ads, email, and app/web promotions
+- Create graphics for sports betting promotions, odds boosts, casino game launches, and seasonal campaigns
+- Maintain brand consistency across typography, color, and visual identity guidelines
+- Collaborate with marketing and content teams on campaign execution
+- Resize and adapt designs for multiple formats and platforms (mobile, web, social)
+- Contribute ideas for social media and promotional content
+- Organize and manage design files, templates, and brand assets
+
+### Basic Requirements
+- Currently pursuing or recently completed a degree/certificate in graphic design, visual communication, or related field
+- Portfolio demonstrating competency in layout, typography, and color
+- Working knowledge of Adobe Creative Suite (Photoshop, Illustrator)
+- Basic understanding of composition, hierarchy, and visual communication
+- Ability to receive feedback and iterate quickly
+- Strong attention to detail and consistency
+
+### Bonus / Preferred Qualifications
+- InDesign proficiency
+- Figma or collaborative design tool experience
+- Motion design or animation skills (After Effects, Rive)
+- Familiarity with AI design tools (ChatGPT, Midjourney, Leonardo)
+- Prior internship, freelance, or agency-style coursework experience
+- Interest in sports, gaming, iGaming, or entertainment brands
+- Knowledge of sports betting or casino gaming
+
 ## Implications for Our Framework
 Across all five postings, Adobe Creative Suite (specifically Illustrator and Photoshop, with InDesign and Keynote also named by Disney) is the universal baseline tool expectation, while Figma appears as a fast-rising second standard (required outright by Ripple and Nike, listed as a bonus by SAP) — a resume that shows neither Adobe nor Figma exposure should score low on tools regardless of other strengths. A portfolio or work-sample link is treated as a hard gate in four of the five postings (Ripple, Disney, SAP, Nike all state applications are incomplete or deprioritized without one), so the rubric should treat "portfolio link present on resume" as a near-mandatory pass/fail criterion rather than a minor bonus, and should credit resumes that name specific portfolio platforms or projects over ones that only claim design skill in prose. Degree/major alignment is a soft-to-medium filter — most postings prefer graphic design, visual communications, or a closely related creative major but explicitly accept adjacent fields (illustration, fine art, photography, communications design), so the rubric should reward relevant coursework/major without hard-rejecting adjacent majors. Work authorization, age minimum (18), and willingness to relocate/work on-site full-time are hard eligibility filters at Disney and DreamWorks specifically, suggesting the rubric should flag (not necessarily penalize) resumes that don't address location/authorization for site-based roles. Motion design, video/animation (After Effects, Premiere), 3D tools (Maya, Blender, ZBrush), and UI/prototyping familiarity (Adobe XD, InVision) consistently appear as differentiators/bonuses rather than requirements, meaning a scoring rubric should weight these as score-boosting extras layered on top of a solid Adobe+portfolio+relevant-major core, not as baseline expectations. Finally, soft skills — ability to take art direction, manage multiple projects under deadline, and collaborate within an established brand system — are called out repeatedly enough (Disney, SAP, Ripple, Nike) that the rubric should allocate meaningful weight to resume evidence of deadline-driven, feedback-incorporating, or team-based design work (e.g., agency/studio experience, class critiques, client projects) rather than only counting solo creative projects.

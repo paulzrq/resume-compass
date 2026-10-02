@@ -473,5 +473,80 @@ Collected: 2026-09-28
 - Prior architecture internship or firm experience preferred
 - Exposure to Ware Malcomb's core sectors (office, industrial, science & technology, healthcare, multifamily, retail, hospitality, public/institutional)
 
+## JD 20: WDW Architecture Intern, Spring 2027, The Walt Disney Company / Walt Disney Imagineering (in-house theme-park facility architecture — existing-conditions documentation & renovation work inside an operating resort, distinct from every ground-up AEC-firm track already covered)
+Source: Official Walt Disney Company careers posting, mirrored via the Student Veterans of America career job board (sourced from Disney's own ATS feed) — https://career.studentveterans.org/job/8947/wdw-architecture-intern-spring-2027/ (original listing: https://jobs.disneycareers.com/job/lake-buena-vista/wdw-architecture-intern-spring-2027/391/99653752352)
+Collected: 2026-09-30
+
+### Responsibilities
+- Assist in gathering and organizing documentation, including historical documents, field measurements, photos, and notes
+- Support preparation of architectural drawings and models under licensed architect guidance
+- Participate in on-site visits to verify existing conditions and update documentation
+- Assist in organizing project files, updating logs, and preparing close-out materials
+- Attend design reviews to observe workflows and learn from multidisciplinary discussions
+- Maintain awareness of project deadlines and communicate potential scheduling conflicts
+
+### Basic Requirements
+- Currently enrolled in a Bachelor's or Post Graduate degree program in Architecture at an accredited institution, with Junior, Senior, or Graduate student status by arrival date
+- Minimum age 18 with unrestricted work authorization
+- Fully available Monday through Friday (with occasional weekends/holidays per project need), up to 40 hours each week
+- Proficiency with Revit and BIM software
+- Comfortable with Microsoft Office applications (Word, Excel, PowerPoint, Outlook)
+- Reliable transportation to/from the work location
+- Portfolio submission required (link must be included on resume for full consideration)
+
+### Bonus / Preferred Qualifications
+- Cumulative GPA of 3.0 or higher (no rounding)
+- Interest in creative problem-solving and sustainable design
+- Experience with group design projects or studio collaboration
+- Familiarity with Bluebeam software
+- Prior construction site or field verification exposure
+
+## JD 21: Architectural Summer Intern, STUDIOS Architecture (workplace/corporate interior & commercial-interiors architecture specialist — a workplace-design sub-track not represented elsewhere in this file)
+Source: Official employer job posting, mirrored via Cornell University Career Services job board — https://career.cornell.edu/jobs/studios-architecture-architectural-summer-intern/
+Collected: 2026-10-01
+
+### Responsibilities
+- Engage in design discussions and contribute to multiple concurrent project teams
+- Create presentation materials, including renderings and physical models
+- Produce construction documentation for active projects
+- Perform design calculations and compile architectural data
+- Assist with on-site construction administration
+
+### Basic Requirements
+- Available for a full-time, 3-month internship (start/end dates negotiable)
+- Strong portfolio demonstrating intelligent, innovative design conceptualization
+- Proficiency in Revit for design and documentation
+- Ability to work both independently and collaboratively on complex projects
+- Strong communication and analytical problem-solving skills
+
+### Bonus / Preferred Qualifications
+- Experience with Rhino, AutoCAD, Grasshopper, and SketchUp
+- Interest in complex commercial, civic, academic, or cultural projects
+- Focus on building performance and sustainability strategies
+
+## JD 22: Architecture Designer: Civic + Cultural, LPA Design Studios (integrated architecture/engineering/landscape firm, sustainability-driven carbon-focused design, Civic & Cultural building typology, Irvine CA)
+Source: Official Firm Careers Page (Ashby job board linked from LPA's own careers site) — https://jobs.ashbyhq.com/lpadesignstudios/0d5bd955-7800-4ae6-a266-c1e3a4d42567
+Collected: 2026-10-02
+
+### Responsibilities
+- Participate in the integrated design process alongside other disciplines (engineering, landscape, interiors) at LPA
+- Assist Design Coordinators and Project Leaders in executing specific project assignments
+- Prepare presentations and documentation for schematic design, design development, and construction documents
+- Assist in research on products and construction methods related to projects
+- Review and process construction administration documents
+- Attend construction meetings and field visits to build understanding of detailing and coordination
+
+### Basic Requirements
+- Bachelor's or Master's degree in Architecture or a related field
+- 2+ years of experience across all phases of architecture projects
+- Enthusiastic commitment to the multidisciplinary, integrated design process and team environment
+- Effective written and verbal communication skills
+- Commitment to building a long-term professional career
+
+### Bonus / Preferred Qualifications
+- Experience with Revit
+- Experience with Rhino
+- Proficiency in Adobe Creative Suite
+
 ## Implications for Our Framework
 Across all five postings, three software families recur as the de facto baseline: Revit (named in every single posting, usually as "preferred" or "proficiency," but functionally expected), AutoCAD (named in four of five), and a secondary 3D/visualization layer (Rhino, SketchUp, Grasshopper, Lumion/Enscape/Twinmotion) that shows up as differentiation rather than a strict floor; Adobe Creative Suite appears in three postings specifically for presentation/graphic output rather than modeling. The hardest, most consistently enforced filter is NOT software but degree status and accreditation: SOM, HOK, Jacobs, Mead & Hunt, and DLR Group all explicitly gate on enrollment in (or completion of) an accredited/NAAB architecture program and a minimum class standing (rising junior or "3rd/4th/5th year," or 4+ completed semesters for Mead & Hunt), meaning a resume from a non-accredited or unrelated program should be scored down hard regardless of software skills listed. A portfolio submission is treated as a hard gate at the more design-forward firms (SOM, HOK, DLR Group explicitly say "to be considered, submit a portfolio") but is only a soft preference at the engineering-leaning firms (Jacobs, Mead & Hunt), so the scoring rubric should weight portfolio evidence heavily when present but not zero out a resume for its absence at every firm type. GPA is almost never a stated cutoff (only Jacobs names 3.0, and only as "preferred," not required), so a rubric that penalizes missing GPA heavily would be miscalibrated against real hiring practice. Work authorization is rarely spelled out in detail except at Mead & Hunt, which explicitly states it will not sponsor visas — a signal that international-student status is a real, if usually unstated, screening factor for smaller/regional firms even when the posting is silent. Prior internship experience, sustainability/LEED awareness, and physical model-building or hand-drafting ability appear consistently in the "bonus" tier rather than the basic tier, confirming these should be treated as score boosters rather than requirements. Net implication for the "architecture" scoring field: weight (1) accredited-program enrollment/class standing and (2) demonstrated Revit/AutoCAD + one visualization tool most heavily as pass/fail-adjacent signals, (3) treat portfolio presence as a strong positive modifier rather than an absolute requirement, and (4) treat GPA, prior internships, LEED/sustainability exposure, and Adobe/rendering-tool fluency as secondary differentiators that should raise a score but not by themselves disqualify a resume that is missing them.

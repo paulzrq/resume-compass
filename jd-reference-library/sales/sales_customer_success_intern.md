@@ -450,5 +450,75 @@ Collected: 2026-09-28
 - Prior team-oriented work experience
 - Multilingual ability, particularly Spanish proficiency
 
+## JD 20: Intern - Associate Portfolio Executive, C.H. Robinson (Third-party logistics/freight brokerage — supply chain sales & carrier negotiation track)
+Source: Official C.H. Robinson careers site (position listing) — https://www.chrobinson.com/about-us/careers/jobs/milwaukee/intern-associate-portfolio-executive-starting-2027/r49512/
+Collected: 2026-09-30
+
+### Responsibilities
+- Work alongside industry professionals to learn internal business processes and supply chain best practices
+- Build strong relationships internally across teams and externally with customers, carriers, and suppliers
+- Learn and effectively use best-in-class technology systems, including C.H. Robinson's proprietary global supply chain platform, Navisphere
+- Learn and apply skills across multiple areas of the transportation and logistics industry, including sales and negotiation, operations management, and transportation information systems
+
+### Basic Requirements
+- Undergraduate education at a Junior or Senior level (pursuing a business, sales, marketing, supply chain, communications, or related major is a plus)
+- Excellent communication skills, verbal and written
+- Ability to thrive in a deadline-driven, team environment while also delivering independent results
+- Relationship-building skills; driven, enthusiastic, and highly motivated
+- High attention to detail and ability to multitask
+
+### Bonus / Preferred Qualifications
+- No separately itemized "bonus" section beyond the preferred qualifications above; the posting additionally states the company "values a diverse and inclusive work environment"
+
+## JD 21: Summer Sales Intern, ADP (payroll & human capital management (HCM) software — B2B field/outside sales track, HR-tech vertical not yet represented in this file)
+Source: Official ADP careers site — https://jobs.adp.com/en/jobs/276378/summer-sales-intern/
+Collected: 2026-10-01
+
+### Responsibilities
+- Work alongside a dedicated Sales Representative to build relationships with decision-makers in an assigned territory
+- Create and implement strategies to identify prospects for ADP's payroll and HR solutions
+- Identify referral opportunities among existing and potential clients
+- Participate in training sessions to enhance sales abilities
+
+### Basic Requirements
+- Currently enrolled in school, having completed at least three years of a four-year bachelor's degree program
+- Self-starter with an upbeat, persistent approach to cold calling and no fear of rejection
+- Strong time management and clear communication across multiple formats
+- Able to adapt quickly and find solutions amid fast-paced operational changes
+
+### Bonus / Preferred Qualifications
+- Prior sales background
+- Demonstrated leadership and collaborative skills
+- Ability to handle sensitive information appropriately
+- Proficiency with Microsoft Office Suite (Word, Excel, PowerPoint)
+
+## JD 22: Ticket Sales and Service Intern, Springfield Thunderbirds (AHL) (sports/live-event ticket sales, B2C cold-calling and group sales)
+Source: TeamWork Online Job Posting (sports/entertainment industry job board, official team listing) — https://www.teamworkonline.com/hockey-jobs/theahl/springfield-thunderbirds/ticket-sales-intern-2186354
+Collected: 2026-10-02
+
+### Responsibilities
+- Assist the sales team with brand activation and fulfillment of group and ticket packages
+- Make cold calls to members and prospective members to generate ticket sales
+- Create and implement unique fan experiences for members during games
+- Assist with implementation of events, player appearances, and community programs
+- Participate in Front Office Mentor Sessions
+- Build personal brand and professional network via LinkedIn
+- Perform other duties as assigned, including physical tasks (lifting up to 25 lbs)
+
+### Basic Requirements
+- Able to attend all home games during the 2026-27 season (highly encouraged)
+- Able to work 2-3 days per week in the office (highly preferred)
+- Initiative-taking and resourceful problem-solving skills
+- Excellent communication and relationship-building abilities
+- Strong attention to detail and ability to multi-task
+- Comfortable operating in a fast-paced, game-day environment
+- Strong character and a positive, fun attitude
+
+### Bonus / Preferred Qualifications
+- Prior cold-calling or outbound sales experience
+- Demonstrated interest in sports business or ticket/event sales careers
+- Experience building and maintaining client/fan relationships
+- Comfort working evenings/weekends around a live-event game schedule
+
 ## Implications for Our Framework
 Across all five postings, employers rarely demand prior quota-carrying sales experience at the internship level — instead they consistently weight communication skills, "comfort with outbound/cold outreach," attention to detail, and the ability to self-manage multiple priorities in a fast-paced environment, meaning leadership or high-touch communication roles (e.g., campus orgs, tutoring, retail/customer-facing jobs) can reasonably substitute for direct sales experience on a resume. CRM familiarity (Salesforce, HubSpot) appears only as a "preferred, not required" bonus rather than a baseline filter, so our scoring should treat it as a plus-signal, not a gate. Quantifiable results/metrics-driven experience matters more as a proxy trait (data-driven mindset, Excel/Sheets proficiency, prior reporting or project work) than as literal sales-quota history — postings from data-heavy tracks (TikTok Shop, Salesforce-adjacent roles) explicitly reward analytical/spreadsheet skills alongside soft skills. Finally, sector fit and domain curiosity (e.g., "interest in identity security," "interest in e-commerce/creator economy," "passion for a career in sales") show up as differentiators across nearly every posting, suggesting our framework should credit resumes that show demonstrated interest in the specific industry/product category, not just generic "sales experience."

@@ -481,6 +481,80 @@ Collected: 2026-09-29
 ### Bonus / Preferred Qualifications
 - Experience with modern AI concepts such as Large Language Models (LLMs) and agentic systems is highly desirable
 
+## JD 21: Financial Analyst, Private Wealth Management, Goldman Sachs (Private Wealth Management — advisory to high-net-worth clients, distinct from the institutional-facing IB/PE/HF/AM/S&T tracks already covered)
+Source: Goldman Sachs official careers site (higher.gs.com) — position listing
+https://higher.gs.com/roles/179269
+Collected: 2026-09-30
+
+### Responsibilities
+- Collaborate with Private Wealth Advisors to implement wealth management strategies for high-net-worth individuals, families, foundations, and endowments in Southeast Asia
+- Analyze client portfolios for risk and return characteristics and support rebalancing decisions across asset classes
+- Execute client transactions and provide trading support across equities, fixed income, and alternative investments
+- Develop marketing presentations and investment proposals covering multiple asset classes for client meetings
+- Research internal and external investment vehicles and relay Goldman Sachs' market and investment views to advisors
+- Support relationship management and business development, including prospect research, for private wealth clients
+
+### Basic Requirements
+- Bachelor's degree
+- Experience with or working knowledge of foreign exchange investment instruments
+- Proficiency with Microsoft Office and Bloomberg/Reuters platforms
+- Strong analytical, interpersonal, and written/verbal communication skills
+- Demonstrated interest in financial markets and sound investment instincts
+- Ability to work in a fast-paced environment and think clearly under pressure
+
+### Bonus / Preferred Qualifications
+- Entrepreneurial thinking and creative problem-solving ability
+- Strong attention to detail and team-oriented collaboration
+- Leadership capabilities and commercial instincts
+
+## JD 22: Redburn Execution Services Summer Intern Programme (2027), Rothschild & Co / Redburn (equities execution services — sales trading & algorithmic trading at a boutique agency broker, distinct from the bulge-bracket dealer-desk Sales & Trading programs already in this file)
+Source: Official Rothschild & Co careers site — https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/2027-uk-rothschild-co-redburn-execution-services-summer-intern-programme-london/
+Collected: 2026-10-01
+
+### Responsibilities
+- Complete an intensive classroom training programme covering technical skills (accounting, valuation, and financial modelling) before joining a desk
+- Attend internally led presentations, networking events, and learning sessions throughout the 10-week programme
+- Join an allocated execution team and receive meaningful responsibility soon after joining the desk
+- Work alongside sales traders and algorithmic-trading specialists delivering client execution solutions across European and North American equity markets
+- Support client service and trading-operations activities within the execution business
+
+### Basic Requirements
+- Currently a second-year or penultimate-year university student (not in final year)
+- On track for a minimum 2:1 degree (or equivalent)
+- Genuine interest in finance with good commercial awareness
+- Strong written and verbal communication skills
+- Solid quantitative, numerical, and analytical abilities
+
+### Bonus / Preferred Qualifications
+- The posting does not list a distinct "preferred qualifications" section; beyond the basic requirements, it emphasizes independent thinking and creative problem-solving, adaptability and resilience in a changing environment, and a self-motivated, positive, team-oriented approach to learning
+
+## JD 23: U.S. Summer Internship Program, Eastdil Secured (Real Estate Investment Banking / Capital Markets Advisory (sell-side real estate advisory, distinct from principal real estate PE investing))
+Source: Official Company Careers Page — https://www.eastdilsecured.com/?p=1857
+Collected: 2026-10-02
+
+### Responsibilities
+- Complete training on commercial real estate fundamentals, financial analysis, Excel, and Argus Enterprise
+- Execute financial modeling, underwriting, and practical exercises across multiple property types
+- Analyze property financial data including rent rolls, operating statements, and cash flows
+- Conduct research supporting live transactions and client presentations
+- Complete case studies to develop analytical and finance skills
+- Prepare and present research projects
+- Collaborate on a capstone project applying skills developed during the program
+
+### Basic Requirements
+- Pursuing a bachelor's or master's degree with expected graduation in 2027-2028
+- Prior professional experience via internships, part-time/full-time work, or extracurricular involvement
+- Strong analytical, written, and verbal communication skills
+- Demonstrated interest in building a career in financial services with a focus on commercial real estate finance
+- Ability to perform in a demanding, fast-paced, highly focused environment
+- Self-motivated, proactive, organized, adaptable, and detail-oriented
+
+### Bonus / Preferred Qualifications
+- Strong personal accountability and sense of urgency for achieving results
+- Excellent teamwork and collaboration ability in a close-knit deal-team setting
+- Broad exposure interest across transaction types and asset classes (office, multifamily, industrial, hospitality, etc.)
+- Comfort with Argus Enterprise or similar real estate modeling/underwriting software a plus
+
 ## Implications for Our Framework
 - GPA-threshold sensitivity varies by firm and should be split into sub-tracks within the edu dimension: T. Rowe Price (asset management) sets a clear hard floor (3.5) with an earlier recruiting timeline, J.P. Morgan (IB) sets a lower floor (3.2), while Blackstone (PE), Morgan Stanley (S&T), and Amazon (corporate finance) give no explicit GPA figure.
 - The skill profile for S&T diverges sharply from IB/PE/AM: Morgan Stanley explicitly states no finance-major requirement, focusing instead on numerical aptitude and composure under pressure, with no mention of modeling, valuation, or industry research anywhere in the posting — the "financial modeling portfolio" bonus item has low marginal value for S&T and should be flagged as "IB/PE/AM/research-track only."

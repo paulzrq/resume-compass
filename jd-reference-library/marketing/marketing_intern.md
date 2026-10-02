@@ -465,6 +465,74 @@ Collected: 2026-09-29
 - Copywriting, editing, and visual-storytelling skills
 - Strong data-analysis experience
 
+## JD 21: Marketing Intern, Summer 2026 (Marketing Track), Spotify (music-streaming platform artist/consumer marketing — distinct from all covered sub-tracks)
+Source: Official Spotify careers site (Lever ATS posting) — https://jobs.lever.co/spotify/4d67d41a-ed72-4b48-bc93-8909d9b6824a
+Collected: 2026-09-30
+
+### Responsibilities
+- Support development and execution of marketing campaigns in partnership with internal marketing teams and external agency/production partners
+- Assist with campaign approvals processes across local and global markets
+- Contribute to artist marketing, partner marketing, original content marketing, or consumer marketing initiatives depending on team placement
+- Collaborate on brand management, creative development, and strategic initiatives within a large marketing organization
+- Help shape how artists and fans perceive Spotify and its creators, supporting global music and content marketing efforts
+
+### Basic Requirements
+- Pursuing a Bachelor's or Master's degree in Marketing or a related field, graduating 2026 or 2027
+- Valid UK work authorization covering the full internship period (mid-June to August 2026)
+- Available to work in-office 3 days/week for approximately 10 weeks (June 15 – August 21, 2026)
+- Strong proficiency in Excel, PowerPoint, and Google Slides
+
+### Bonus / Preferred Qualifications
+- Knowledge of, interest in, and passion for the global music landscape and business
+- High self-motivation and a demonstrated track record of strong collaboration
+- Curiosity about content development, storytelling, and consumer messaging
+- Passion for the entertainment industry
+
+## JD 22: Summer 2026 Intern, Brand Marketing, Excel Sports Management (sports agency / athlete & brand sponsorship marketing -- client representation, sponsorship activation, and partnership-marketing track, a new industry vertical distinct from all other entries in this file)
+Source: Official Excel Sports Management careers posting (Greenhouse job board) -- https://job-boards.greenhouse.io/excelsportsmanagement/jobs/4673040005
+Collected: 2026-10-01
+
+### Responsibilities
+- Support the Brand Marketing team with research and brainstorming to create new market opportunities for clients, plus confidential client projects
+- Assist with management and data tracking/upload of client deliverables
+- Learn the coordination and planning process for marketing events, appearances, and sponsorship activations, including negotiation and execution of marketing contracts
+- Learn how to pitch new brands/clients and build/maintain client relationships that lead to enhanced partnerships
+- Help support day-to-day management of sponsorship marketing and activation initiatives, including client-vendor coordination and creation of activation briefs, recaps, and event itineraries
+- Support client status calls (scheduling, agendas, status documents) and conduct industry research/analysis to inform recommendations
+
+### Basic Requirements
+- Available to work under 30 hours per week (24-29.9 hours/week during the session)
+- Able to report to the New York office approximately 3 days per week
+- Senior standing in college (completed junior year), OR currently enrolled in graduate school, OR holds a bachelor's or postgraduate degree
+- Not eligible for visa sponsorship
+
+### Bonus / Preferred Qualifications
+- None explicitly stated in the posting; only the basic eligibility requirements above are listed
+
+## JD 23: Events, Field Marketing & ABM Intern - Summer 2026, Bandwidth Inc. (field marketing/events/ABM, B2B SaaS communications-platform tech)
+Source: Job Board Posting (Built In, mirroring the official Bandwidth Greenhouse career listing) — https://builtin.com/job/events-field-marketing-abm-intern-summer-2026/7658418
+Collected: 2026-10-02
+
+### Responsibilities
+- Collaborate with field marketing managers on targeted campaign programs and ABM strategies
+- Work with the Senior Event Manager on hospitality events, tradeshows, and webinars
+- Draft emails, presentations, and collateral for field marketing programs
+- Conduct pre- and post-event planning activities
+- Research venues, tradeshows, and event vendor options
+- Research target accounts and contacts for field marketing programs
+- Evaluate gifting options and propose new field marketing initiatives
+
+### Basic Requirements
+- Currently enrolled in a 4-year college program
+- Studying marketing, business, writing, or communications
+- Proficiency with Google Suite, Microsoft PowerPoint, Word, and Excel
+
+### Bonus / Preferred Qualifications
+- Detail-oriented and highly organized when managing multiple event/campaign workstreams
+- Outgoing, personable demeanor suited to hospitality/event and account engagement
+- Strong written communication skills for collateral and presentation drafting
+- Interest in learning marketing technology stack tools used for ABM targeting
+
 ## Implications for Our Framework
 - The brand-management posting (Unilever) never mentions any specific marketing tool in its basic requirements, while the digital/growth-marketing posting (Hill House Home) names Meta, TikTok, and Google plus CAC/ROAS metrics directly in the job duties — bonus item ② ("proficient with data-analysis/ad-platform tools") carries far more real weight for growth marketing than for brand management, and the two should not share one skill rubric.
 - Product marketing (IBM) is the only track to state A/B testing and Excel/Python/Tableau explicitly in the basic requirements, showing it emphasizes "strategy + data" more than brand or content marketing — gap ② ("lacks quantifiable growth/conversion data") should carry heavier deduction weight when evaluating product-marketing resumes.

@@ -504,5 +504,82 @@ Collected: 2026-09-29
 - Open-source contributions to robotics or computer-vision projects demonstrating strong problem-solving ability
 - Publications at top-tier robotics/vision/ML venues (CVPR, ICCV, NeurIPS, ICRA, IROS, etc.)
 
+## JD 21: Internship, Controls & Software Automation Engineer, Cell Manufacturing (Fall 2026), Tesla (EV battery gigafactory automation — PLC controls, virtual commissioning, and machine-vision inspection for cell manufacturing lines; a manufacturing-automation sub-track distinct from all existing entries)
+Source: Tesla Careers listing, mirrored via the ev.careers EV-industry job board (job ID 472451149) — https://ev.careers/jobs/472451149-internship-controls-software-automation-engineer-cell-manufacturing-fall-2026
+Collected: 2026-09-30
+
+### Responsibilities
+- Review vendor electrical control panel designs against Tesla engineering standards and troubleshoot control issues on the factory floor (circuit protectors, sensors, PLCs), ensuring compliance with standards such as NFPA 79, IEC 60204-1, and UL508A
+- Develop and maintain software controls and equipment-interfacing code supporting cell manufacturing production lines, including integration with production databases
+- Build 3D/2D virtual commissioning simulation models to validate PLC logic, HMI screens, and robot programs before they go live on the line
+- Develop and maintain production-critical industrial machine-vision software used for battery cell inspection and analysis
+- Implement improvement projects on existing automation equipment and support root-cause troubleshooting during commissioning and production ramp
+
+### Basic Requirements
+- Currently pursuing a degree in Mechatronics, Computer Science, Electrical Engineering, or a related field
+- Basic understanding of electrical control panel design
+- Familiarity with software/collaboration tools such as GitHub, Splunk, and Jira
+- Some exposure to industrial machine-vision cameras/systems
+
+### Bonus / Preferred Qualifications
+- Experience with virtual commissioning tools
+- PLC/microcontroller programming proficiency (C/C++, Python, Java, or Structured Text)
+- Web development skills
+- CAD software familiarity
+- Solid software fundamentals, including Git workflows and testing concepts
+
+## JD 22: Hardware Intern, AMP Robotics (AI-powered robotic recycling / waste-sortation systems — a circular-economy & waste-management robotics vertical not represented elsewhere in this file)
+Source: Built In job listing "Hardware Intern" (mirrors AMP Robotics' official Greenhouse posting; Louisville, CO) — https://builtin.com/job/hardware-intern/8507575
+Collected: 2026-10-01
+
+### Responsibilities
+- Adapt existing technology to allow rapid testing of different sortation approaches
+- Develop laboratory testing approaches to validate sorting effectiveness
+- Participate in the design and concepting of sorting-system prototypes
+- Assist with laboratory trials evaluating prototype performance
+- Present internship findings and results in a final presentation
+
+### Basic Requirements
+- Completion of Junior-level coursework toward a Bachelor's degree in Mechanical Engineering or a related field, with a 3.0+ GPA
+- Proficiency in CAD software
+- Mechanical assembly knowledge
+- Familiarity with basic fabrication processes and tools
+
+### Bonus / Preferred Qualifications
+- Electrical circuit knowledge
+- Basic motors and controls skills
+- Welding, machining, or sheet-metal fabrication experience
+- Examples of personal hands-on design/build projects
+
+## JD 23: Reliability Engineer, Intern, Nuro (autonomous delivery vehicle hardware reliability/validation engineering (ground-based last-mile delivery robot, distinct from trucking lidar/sensor hardware or drone embedded roles))
+Source: Official Company Careers Page (Nuro, hosted via Greenhouse) — https://nuro.ai/careersitem?gh_jid=7673849
+Collected: 2026-10-02
+
+### Responsibilities
+- Execute reliability test planning, setup, and documentation for autonomous vehicle hardware systems including sensors and compute platforms
+- Design sensor integration components and test fixtures using NX and Teamcenter CAD software
+- Prototype and fabricate structural components, testing jigs, and fit-check parts using 3D printers and in-house tools
+- Build and maintain hands-on test setups and validation hardware for development and reliability testing
+- Collect, organize, and analyze test data to inform design improvements and validation decisions
+- Support failure investigations by documenting test conditions and conducting structured root-cause analysis
+- Collaborate across mechanical, electrical, systems, and operations teams on hardware robustness improvements
+
+### Basic Requirements
+- Currently pursuing a B.S., M.S., or Ph.D. in Electrical Engineering
+- Hands-on experience designing, assembling, debugging, and testing electrical or electromechanical systems
+- Familiarity with lab environments and prototyping tools
+- Competency with bench-level measurement equipment (oscilloscopes, multimeters, power supplies, DAQs)
+- Understanding of electrical hardware integration, power distribution, and reliability principles
+- Clear technical documentation and communication abilities
+- Experience with Python, MATLAB, or JMP for data analysis
+
+### Bonus / Preferred Qualifications
+- Prior internship or co-op in electrical, reliability, validation, or hardware engineering
+- Experience with thermal cycling, vibration, shock, and IP verification testing
+- Knowledge of automotive electrical validation standards (LV 124, ISO 16750, JEDEC)
+- Structured root-cause analysis and complex hardware debugging skills
+- Familiarity with DOE, Weibull analysis, and life data analysis tools
+- Experience building custom test setups and fixtures
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline splits along two axes rather than one: postings skewing "robotics software" (Amazon) want general-purpose programming languages (Python/C++/Java/Go/Rust), data structures/algorithms, and object-oriented design, while postings skewing "robotics hardware/automation" (Cepheid, Bastian, ASML) want the ability to read electrical/pneumatic/mechanical schematics, hands-on familiarity with servo systems, sensors, vision systems and PLCs, and CAD tool exposure (SolidWorks, AutoCAD/AutoCAD Electrical) — a resume aimed at this field should be scored on whichever axis (or both) it targets rather than penalized for lacking the other. Hard filters are explicit and non-negotiable in several postings: J&J sets a minimum 3.0 GPA and a 50-mile residency radius, Bastian and J&J require U.S. work authorization without sponsorship, Amazon requires enrollment in a STEM bachelor's-or-higher program and age 18+, and ASML flags export-control/citizenship-sensitive access — these should be treated as gating criteria in the rubric (fail/flag if unmet) rather than weighted alongside soft skills. Class standing and major alignment matter concretely (ASML wants 2+ years completed toward ME/EE/Mechatronics/Physics; Bastian wants EE/CE majors specifically), so major-relevance and progress-toward-degree should be scored fields, not just presence of "engineering" somewhere on the resume. Tooling/coursework signals that function as differentiators rather than requirements — PLC coursework or a prior internship (Bastian), prior technical internship or open-source contribution (Amazon), FIRST Robotics program history (J&J), cleanroom/lab troubleshooting experience (ASML) — should be scored as bonus points that boost a candidate above baseline, not as required fields. Finally, soft/durable skills (communication, independent project management, troubleshooting, adaptability) appear in nearly every posting as either a basic requirement or strong preference, suggesting the rubric should reserve meaningful weight for evidence of self-directed technical projects or team-based engineering work (e.g., FRC/FSAE, senior design, robotics club) as a proxy for exactly these traits, since none of these employers can verify them from a resume alone beyond such project evidence.

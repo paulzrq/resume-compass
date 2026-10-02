@@ -473,6 +473,75 @@ Collected: 2026-09-29
 - Motion control systems design experience
 - Prior internship experience developing mechanical assemblies for commercial products
 
+## JD 21: Mechanical Engineer Intern - Bachelor's, Applied Materials (semiconductor capital-equipment / fab-tool manufacturing track — designs the hardware that builds chips, distinct from Intel's chip-fabrication process-development track already in this file)
+Source: Applied Materials Careers site (position listing)
+https://jobs.appliedmaterials.com/job/santa-clara/2026-summer-mechanical-engineer-intern-bachelor-s/95/94206659664
+Collected: 2026-09-30
+
+### Responsibilities
+- Design and release mechanical fixtures and tooling that enable safe, repeatable pilot builds/repairs
+- Build prototype assemblies and conduct performance tolerance analysis to prevent interference issues
+- Support solving engineering issues to ensure hardware fit, form, and function
+- Conduct tests for new hardware to meet engineering spec requirements
+- Develop documentation and procedures for new products during the manufacturing transition phase
+- Collaborate with cross-functional teams to troubleshoot build issues, standardize mechanical interfaces, and work with suppliers to procure newly designed parts
+
+### Basic Requirements
+- BS in Mechanical Engineering or related field
+- Comfortable working hands-on with hardware in a fast-paced, collaborative environment
+
+### Bonus / Preferred Qualifications
+- GPA of 3.0 or above
+- Proficiency in mechanical CAD tools (NX), GD&T, and model-based design
+- PLM / configuration control experience (e.g., Teamcenter, part number creation)
+- Manufacturing-focused design skills including tolerance stack-ups and DFM/DFA
+- FEA analysis capability
+
+## JD 22: 2027 Intern - Product Engineering, John Deere (agricultural/industrial equipment manufacturing engineering — Product, Factory, and Weld Engineering track; an agricultural-machinery vertical distinct from the automotive, aerospace, heavy-construction-equipment, and industrial-automation tracks already in this file)
+Source: Official John Deere careers site (Eightfold-powered ATS) — https://jobs.deere.com/eightfold/job/Fargo-2027-Intern-Product-Engineering-Nort-58102/1425418200/
+Collected: 2026-10-01
+
+### Responsibilities
+- Support foundational engineering practices across Product, Factory, and Weld Engineering functions for agricultural and industrial equipment
+- Contribute to engineering work aimed at advancing technology for agriculture, infrastructure, and global food security
+- Apply computer-aided design (CAD), engineering tools, and/or programming languages to real product-development tasks
+- Receive structured mentorship and career-development support while gaining hands-on exposure across multiple engineering disciplines
+- Build professional community through intern mentorship networks and cross-functional collaboration
+
+### Basic Requirements
+- Currently pursuing a Bachelor's or Master's degree in Agricultural Engineering, Computer Engineering, Electrical Engineering, Industrial Engineering, Mechanical Engineering, or a related field
+- Minimum 2.8 cumulative GPA (4.0 scale)
+- Previous internship, co-op, or project-focused research experience
+- Skill in using computer-aided design, engineering tools, and/or programming languages
+- Willingness to relocate domestically to Midwest or Southeast U.S. facilities
+- Must be 18 years of age or older
+
+### Bonus / Preferred Qualifications
+- The posting does not list separate preferred/bonus qualifications beyond the requirements above
+
+## JD 23: Hardware Test and Reliability Intern, Skydio (autonomous drone hardware test & reliability validation)
+Source: Official Company Careers Page — https://www.skydio.com/jobs/7506850003
+Collected: 2026-10-02
+
+### Responsibilities
+- Own the design and implementation of hardware and software systems to execute comprehensive performance and reliability validation
+- Examine data through statistical analysis and thorough documentation to identify patterns driving product enhancements
+- Conduct failure investigations to determine underlying causes and develop solutions across engineering disciplines
+- Contribute to design review sessions with reliability considerations throughout development
+
+### Basic Requirements
+- Knowledge of testing methodologies and ability to identify process weaknesses
+- Methodical problem-solving approach for electro-mechanical system issues
+- Programming experience (Python or comparable languages) for automation and analysis
+- Demonstrated eagerness to master multiple engineering domains
+- Strong communication and cross-functional collaboration abilities
+- Understanding of environmental testing, stress testing, and accelerated life assessment approaches
+
+### Bonus / Preferred Qualifications
+- First-principles engineering thinking applied to test design
+- Developed intuition for how to test effectively and how not to test
+- Experience across multiple engineering domains (electrical, mechanical, software)
+
 ## Implications for Our Framework
 - The five postings show the skill dimension means very different things by sub-track: mechanical focuses on CAD/GD&T (Tesla), electrical/hardware requires circuit design, chip architecture, RF, HDL, and lab-instrument operation (Apple), and robotics requires breadth across multiple tool domains (Amazon). Recommend splitting into sub-track-specific tool checklists rather than one generic library.
 - The acceptable range of majors for edu is broader than expected: Intel's manufacturing/process track explicitly accepts chemical engineering, materials science, chemistry, and physics — the edu dimension should not over-penalize non-ME/EE backgrounds under the manufacturing/process sub-track.

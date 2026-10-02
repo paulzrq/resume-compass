@@ -449,5 +449,73 @@ Collected: 2026-09-28
 - Mobile/casual game design familiarity
 - Background in data analysis or player behavior research
 
+## JD 20: Quest Designer Intern, Guerrilla Games (Sony first-party studio — live-service quest/content design for the multiplayer title "Hunter's Gathering," distinct from the single-player RPG level-design roles already covered)
+Source: Official Guerrilla Games careers site (Greenhouse job board), "Quest Designer Intern" — https://job-boards.greenhouse.io/guerrilla-games/jobs/5835501004
+Collected: 2026-09-30
+
+### Responsibilities
+- Assist the quest team with supporting the live "Hunter's Gathering" game through familiarization with all shipped content
+- Keep design documentation up to date for QA and design teams, covering both live content and future work
+- Build new and exciting quest activities
+- Work cross-discipline with the quest, design, and QA teams to maintain and expand live, shipped content
+
+### Basic Requirements
+- Currently enrolled in a Dutch educational institution in a relevant field of study
+- Able to work on-site at the Guerrilla Games Amsterdam studio
+- Legally able to live and work in the Netherlands
+- Available for an internship starting September 2026
+
+### Bonus / Preferred Qualifications
+- A passion for story-driven content in both single-player and multiplayer games
+- Experience with 3D world and level building tools
+- A technical background in programming or scripting, with visual/node-based editors preferred
+- Demonstrated understanding of narrative design, level design, visual scripting, and encounter design
+
+## JD 21: Intern, Game Designer, Garena (Sea Limited) (Southeast Asian mobile live-service games publisher/developer, best known for Free Fire — the first Southeast Asia-headquartered studio in this file, distinct from Tencent/Level Infinite's China-based publishing-side role)
+Source: Official Garena careers site — https://careers.garena.com/global/careers/J02105882
+Collected: 2026-10-01
+
+### Responsibilities
+- Assist in designing and iterating game mechanics, systems, and levels with supervision
+- Support development of gameplay loops and player progression models
+- Help create, maintain, or update design documentation including GDDs and feature specs
+- Collaborate with the game design and development team on feature implementation
+- Assist in organizing playtests and analyzing player feedback
+
+### Basic Requirements
+- Bachelor's degree in Game Design, Computer Science, or a related field
+- Proficiency in game development tools such as Unity, Unreal Engine, or Roblox Studio
+- Basic understanding of game design principles, mechanics, and user experience
+- Basic knowledge of design tools and documentation practices
+- Strong willingness to learn and receive feedback
+- Strong communication skills to collaborate effectively with team members
+
+### Bonus / Preferred Qualifications
+- Portfolio demonstrating personal projects, game jam participation, or coursework (the posting does not list any further "preferred" items beyond this single bonus line)
+
+## JD 22: CONTRACT - Associate Level Game Designer (NST), Nintendo / Nintendo Software Technology (NST) (Nintendo first-party in-house studio, entry-level/associate level design contract track, Redmond WA)
+Source: Official Studio Careers Page (careers.nintendo.com) — https://careers.nintendo.com/jobs/4426184009/
+Collected: 2026-10-02
+
+### Responsibilities
+- Implements design specifications into playable prototypes using various software tools
+- Quickly revises implementation based on changes required to continue iterating on design concepts
+- Assists in designing prototypes to iterate concepts into a more complete idea
+- Assists and maintains gameplay mechanics within a game
+- Creates areas of user-interface design and maintains assigned product localization under direction of senior designers
+- Writes and maintains assigned design documentation
+- Reviews, analyzes, and tests products under development to ensure Nintendo's quality standards
+
+### Basic Requirements
+- 0-2 years of level design for video games or relevant experience
+- Understanding of interactive software methodologies, production pipelines, and Nintendo quality standards
+- Proven proficiency with a commercial 2D/3D game editor (e.g., Unity, Unreal)
+- Basic PC skills (Word, Excel, PowerPoint)
+- Undergraduate degree in Game Design, Computer Science, or equivalent
+- Must be legally eligible to work in the US; visa sponsorship not available
+
+### Bonus / Preferred Qualifications
+- Studies in music, art, film, television/broadcasting, or multimedia a plus
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard baseline is engine familiarity with Unreal or Unity (explicitly named by Riot, Ubisoft, and Activision Blizzard, implied by Roblox's own engine), plus a portfolio or prior design artifact — Larian and Ubisoft require a portfolio outright, Activision Blizzard requires a portfolio link, and Riot treats prototypes/mods/school-projects as a strong differentiator even though it is not absolutely mandatory. Scripting or programming ability (C++, C#, Python, or Blueprints) shows up as a hard requirement specifically where the role leans "technical game design" (Riot) or systems/multiplayer design (Activision Blizzard), but is notably absent or de-emphasized for the more narrative/level-design-flavored roles (Larian, Roblox), suggesting the rubric should weight coding skill conditionally on the specific design sub-track rather than as a universal must-have. Hard filters that resumes must clear before soft skills even matter are graduation timing/class standing (Riot's 2025/2026 grad year, Activision Blizzard's Dec 2026-Jul 2027 window, GPA minimums where stated), work authorization and location/relocation (explicit H-1B exclusion at Roblox, US residency at Activision Blizzard, mandatory on-site commitment at Larian and Ubisoft), and full-time availability for a fixed internship term (12 weeks at Riot/Roblox/Activision Blizzard, 6 months at Ubisoft) — these are pass/fail gates independent of design talent and should be scored as disqualifying rather than merely deducting points. Genre- or game-specific domain knowledge is treated as a strong bonus or even near-requirement in some cases (Riot wants deep, ranked-level familiarity with Teamfight Tactics itself; Larian wants CRPG enthusiasm matching its RPG catalog), which implies the rubric should reward resumes that show targeted, studio-relevant game literacy rather than generic "I love games" statements. Soft skills — communication, documentation ability, feedback receptiveness, collaboration, and data-driven iteration — appear in every single posting as baseline requirements, more consistently than any single technical skill, so the scoring rubric should not under-weight writing/communication evidence (e.g., design docs, blog posts, presentations) relative to technical engine bullet points. Finally, because most of these are explicitly framed for students/new grads with modest technical bars (Larian and Roblox list almost no hard technical skills at all), a resume-scoring rubric for this field should avoid over-penalizing candidates who lack deep programming backgrounds and instead prioritize portfolio evidence, shipped/prototyped work, and communicated design thinking as the primary differentiators, reserving heavy weight for programming/engine skills only when the target posting is explicitly a "technical design" or systems/multiplayer track.

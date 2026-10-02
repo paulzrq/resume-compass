@@ -503,5 +503,77 @@ Collected: 2026-09-29
 - Ability to lead and handle ambiguity effectively
 - Resourceful, team-oriented mindset
 
+## JD 21: Student Developer, Chainalysis (blockchain analytics / crypto-compliance & investigations data platform — B2B SaaS serving law enforcement, regulators, and financial institutions; distinct from the exchange, custody, and stablecoin-issuer crypto tracks already covered in this file)
+Source: Chainalysis's own job posting, mirrored on the Accel and DCG portfolio job boards (identical listing cross-verified on both), "Student Developer - Aarhus Office" — https://jobs.accel.com/companies/chainalysis/jobs/76128064-software-engineering-internship-aarhus-office
+Collected: 2026-09-30 (posted 2026-04-24 for the September 2026-February 2027 student-developer cohort; listing has since closed to new applications, content verified as authentic via two independent portfolio-board mirrors of the same posting)
+
+### Responsibilities
+- Work with a dedicated mentor and engineering team to build and maintain data pipelines and infrastructure supporting Chainalysis's blockchain analysis platform
+- Develop and ship production code using modern cloud technologies (AWS, GCP) as part of a structured, multi-month student-developer cohort
+- Collaborate with engineers, product managers, and designers to solve real-world problems on the data platform
+- Debug production issues and participate in blameless post-mortem processes
+- Participate in code and architecture reviews with the broader engineering team
+
+### Basic Requirements
+- Currently pursuing a Computer Science or similar technical degree, with expected graduation in 2027
+- Prior internship or work experience in application development or data engineering, demonstrated through internships, competitions, open-source contributions, or publications
+- Exposure to or familiarity with technologies such as React/Angular, Kafka, Spring Boot, and PostgreSQL
+- A customer-centric mindset focused on shipping performant, scalable, well-tested code
+- Available on-site in Aarhus, Denmark for the duration of the cohort
+
+### Bonus / Preferred Qualifications
+- Posting lists no separate itemized "preferred" tier; interest in cryptocurrency and blockchain technology is called out within the core requirements as a differentiating signal layered on top of the technical bar, similar in structure to the Robinhood (JD 2) and Plaid (JD 3) "fintech passion" framing
+- Given the compliance/investigations nature of Chainalysis's product, demonstrated awareness of data integrity, risk, or regulatory/compliance considerations in prior projects would plausibly stand out, though the posting itself does not state this explicitly
+
+## JD 22: Internship Programme 2027, Software Engineer (Python track), Revolut (global neobank / digital-banking super-app spanning consumer banking, crypto, and trading features across many countries — a multi-market super-app sub-track distinct from Wise's cross-border-remittance-only focus and SoFi's US-only neobank platform)
+Source: Official Revolut careers site, "Internship Programme 2027: Software Engineer (Python)" — https://www.revolut.com/en-US/careers/position/internship-programme-2027-software-engineer-python-41b145ef-e5b7-4b87-9217-1ca8d5c5a0e5/
+Collected: 2026-10-01
+
+### Responsibilities
+- Develop well-designed, scalable APIs supporting Revolut's product and data platform
+- Build data pipelines for reporting, analytics, and data-science use cases
+- Collaborate within cross-functional teams on data models and data flows
+- Work alongside engineers specializing in distributed systems (Kafka, Airflow, Kubernetes)
+- Present progress and outcomes to global teams while receiving structured mentorship
+- Manage assigned tasks independently within the broader internship programme
+
+### Basic Requirements
+- Currently in the penultimate year of a Bachelor's or Master's degree in Computer Science, Mathematics, Physics, or a similar field, graduating 2028
+- Portfolio demonstrating coding projects or open-source contributions
+- Proficiency with Python 3 and SQL/PostgreSQL
+- Problem-solving mindset with a proactive, results-driven approach
+- Fluent English with strong written/verbal communication skills
+- Full-time availability for Summer 2027; able to attend the office at least 3 days/week (hybrid role across offices including Barcelona, Dubai, Krakow, Lisbon, London, and Madrid)
+- Comfortable working in a fast-paced, diverse, global team environment
+
+### Bonus / Preferred Qualifications
+- Posting lists no separate itemized "preferred" tier; broader stack exposure mentioned in the listing (Kafka, Airflow, Kubernetes, Docker, GCP, test-driven development) is framed as something gained on the job rather than a stated entry-level bonus
+- Prior exposure to distributed-systems concepts or data-pipeline/ETL work would plausibly be a differentiator given the role's emphasis on data pipelines and collaboration with distributed-systems engineers, though the posting does not state this explicitly
+
+## JD 23: Summer 2026 Backend Engineering Intern, Intuit (consumer tax-prep & small-business accounting/personal-finance software platform (TurboTax, QuickBooks, Credit Karma, Mailchimp))
+Source: Official Company Careers Page — https://jobs.intuit.com/job/mountain-view/summer-2026-backend-engineering-intern/27595/87369451024
+Collected: 2026-10-02
+
+### Responsibilities
+- Assist in designing, developing, and testing software applications and systems
+- Contribute to code reviews and ensure adherence to coding standards
+- Participate in debugging and resolving software defects
+- Collaborate with team members to understand requirements and deliver solutions
+- Support deployment and maintenance of software
+
+### Basic Requirements
+- Experience developing web applications using server-side languages (Java, Python, Node.js)
+- Familiarity with database technologies (MySQL, PostgreSQL, MongoDB)
+- Understanding of RESTful API design principles and API integrations
+- Experience with server frameworks (Express, Spring MVC, Django)
+- Solid grasp of object-oriented design and programming fundamentals
+- Currently enrolled in a Bachelor's or Master's degree in Computer Science or related field, graduating at least 4 months after the internship ends
+- Legal authorization to work full-time in the US; able to work onsite a minimum of 3 days/week (Mountain View, San Diego, New York, or Atlanta)
+
+### Bonus / Preferred Qualifications
+- Exposure to AI programs, tools, and concepts
+- Familiarity with Agile methodologies and the software development lifecycle
+- Self-starter attitude with strong independent problem-solving and task-delivery history
+
 ## Implications for Our Framework
 Across all five postings, the hard technical floor is remarkably consistent and modest: general-purpose programming proficiency (most commonly Python, Java, Go, JavaScript, or C/C++) demonstrated through coursework, personal projects, hackathons, or a prior internship — none of these companies demand fintech-specific experience as an entry bar, they demand solid CS fundamentals plus evidence of having actually shipped something. The recurring hard filters that function as eligibility gates rather than scoring signals are: current full-time enrollment in a CS/Engineering/quantitative degree program with a specific expected graduation window (Winter 2026/Spring 2027 at Robinhood and Plaid), in-person or hybrid location requirements tied to specific cities (Menlo Park, SF, NYC), and work authorization — three of five postings (Stripe, Robinhood, Affirm/Plaid) explicitly restrict to US citizens/permanent residents/student visa holders or state no sponsorship is offered, which should be treated as a binary pass/fail screen rather than a weighted rubric item since a resume that is otherwise perfect but fails this gate would not advance in real hiring. GPA is notably absent as an explicit criterion in every posting collected, suggesting a resume scorer should not over-weight GPA relative to demonstrated project/internship experience. The clearest differentiators/bonus signals across postings are: genuine "fintech passion" or domain interest called out explicitly by name at Robinhood, Plaid, and Affirm (suggesting resumes that show payments/banking/trading-adjacent side projects or coursework should score meaningfully higher than generic CS resumes); breadth across the stack (backend systems, databases/transactions, and increasingly frontend/API/cloud familiarity per Affirm); and, notably new in the Coinbase posting, fluency with generative-AI-assisted development workflows as a core rather than bonus expectation, which the rubric should start weighting given it appears to be shifting from differentiator to baseline expectation. Overall, this implies a scoring rubric for this field should weight (1) core programming/CS-fundamentals evidence heavily as a baseline, (2) shipped project/internship experience as the primary differentiator, (3) explicit fintech/payments/banking domain signal as a moderate bonus, (4) AI-tool fluency as an emerging bonus trending toward baseline, and (5) treat degree program, graduation timing, location, and work authorization as gating checks rather than continuous score inputs, since none of these companies substitute a strong technical profile for missing eligibility.

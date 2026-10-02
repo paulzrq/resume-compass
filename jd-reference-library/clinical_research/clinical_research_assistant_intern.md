@@ -477,5 +477,74 @@ Collected: 2026-09-28
 - Customer service or public-facing occupational experience
 - Spanish language proficiency
 
+## JD 20: Clinical Trial Assistant (CTA) Intern, Johnson & Johnson (Global Clinical Operations Israel — trial-documentation/ethics-committee liaison sub-track; first J&J entry in this file)
+Source: Official Johnson & Johnson careers site (position listing) — https://www.careers.jnj.com/en/jobs/r-069804/clinical-trial-assistant-intern/
+Collected: 2026-09-30
+
+### Responsibilities
+- Rotate across 2-3 teams within J&J's Global Clinical Operations (GCO) Israel organization over a 6-month internship
+- Support trial documentation and study start-up activities, ensuring timely collection of necessary study materials
+- Provide logistical support during study execution and study-closure phases
+- Participate in 2-3 on-site monitoring visits alongside experienced clinical trial staff
+- Maintain ongoing communication with internal study teams and external partners, including investigators and ethics committees
+- Receive structured guidance and mentoring from clinical operations colleagues throughout the internship
+
+### Basic Requirements
+- Bachelor's degree (BA or BS) in Life Sciences, Nursing, or a related field
+- Proficiency in English and strong working knowledge of MS Office
+- Excellent organizational and interpersonal skills
+- Based in Kibbutz Shefayim, Center District, Israel, for the 6-month internship program
+
+### Bonus / Preferred Qualifications
+- The posting does not itemize separate preferred/bonus qualifications beyond the minimum requirements listed above
+
+## JD 21: Grad Intern – R&D (CPO - Early Development), Amgen (large biotech — early-phase (Phase 0-1b/2) clinical trial support, grad-student clinical trial management career-pathway track; first Amgen entry in this file)
+Source: Official Amgen careers site posting (Job ID R-231417) — https://careers.amgen.com/en/job/thousand-oaks/grad-intern-r-and-d-cpo-early-development/87/89704255344
+Collected: 2026-10-01
+
+### Responsibilities
+- Learn Good Clinical Practice (GCP), ICH guidelines, and Amgen procedures for conducting Phase 0-1b/2 clinical trials across varying therapeutic areas
+- Contribute to clinical trial deliverables including pharmacy manuals, informed consent forms, and training materials
+- Work on a longitudinal departmental project addressing an organizational need within the Clinical Program Operations (CPO) function
+- Deliver at least one lecture/presentation to clinical research staff during the internship
+- Gain exposure to clinical trial management career pathways within early-phase drug development
+
+### Basic Requirements
+- Must be at least 18 years old
+- Bachelor's degree from an accredited institution
+- Currently enrolled in an MBA, Master's, PharmD, or PhD program, having completed the first year of that program before the internship starts
+- Must be based in the U.S. for the duration of the internship and authorized to work in the U.S.
+- Not currently employed at the start date of the internship
+
+### Bonus / Preferred Qualifications
+- Degree focus in biological or physical sciences
+- Strong critical-thinking skills and ability to work independently
+- Strong attention to detail
+- Excellent written and oral communication skills
+- Strong interpersonal skills
+
+## JD 22: Data Management Summer Intern, Memorial Sloan Kettering Cancer Center (Prostate Cancer Clinical Trials Consortium / PCCTC) (academic cancer center, multi-site oncology trials consortium (PCCTC) — remote clinical data management/query resolution, distinct from site-based CRC or sponsor-side clinical ops roles)
+Source: Official Organization Careers Page — https://careers.mskcc.org/vacancies/93445-data-management-summer-intern
+Collected: 2026-10-02
+
+### Responsibilities
+- Work directly with the Data Management team, gaining hands-on experience with the data review aspects of clinical research
+- Perform query management on clinical trial data
+- Conduct data cleaning and reconciliation for ongoing studies
+- Meet and learn from staff in other PCCTC divisions (Business Operations, Clinical Operations, Data Sciences, Correlative Sciences, Monitoring)
+- Complete a 10-week, full-time remote internship supporting a multi-site prostate cancer clinical trials consortium
+
+### Basic Requirements
+- Actively enrolled in a formal bachelor's degree program
+- Able to work remotely from a US-based location, 5 full days a week, 9am-5pm EST
+- Attention to detail and strong computer skills
+- Excellent communication and collaboration skills
+- Ability to multi-task
+
+### Bonus / Preferred Qualifications
+- Interest in pursuing a career in clinical research, healthcare, or data management
+- Prior exposure to data cleaning/reconciliation workflows or clinical trial data review
+- Comfort working independently in a fully remote, multi-division research environment
+
 ## Implications for Our Framework
 Across these five postings, the same role title ("clinical research intern/coordinator/CRA") spans a surprisingly wide credential band, from Ochsner's high-school-diploma-plus-soft-skills entry point to Pfizer's 3.3-GPA STEM-major screen and Mayo's 3.5-GPA pre-health pipeline, which means a resume-scoring rubric for this field cannot assume one fixed minimum bar and should instead score against the likely tier of employer (large pharma vs. hospital-system training program vs. CRO new-grad program vs. academic research-administration role). GPA and declared major function as explicit hard filters only at the two most competitive, most STEM-branded programs (Pfizer, Mayo); the CRO (Parexel) and hospital-system (Ochsner, UNC) postings instead gate on degree recency, demeanor, or plain willingness to learn, so a rubric that heavily weights GPA/major fit risks under-scoring perfectly viable candidates for hospital- and CRO-track roles. Notably, none of the five postings list GCP or CITI certification as a pre-hire requirement — Parexel explicitly states this training is delivered after hire — so a resume that already lists completed GCP/CITI training, IRB protocol experience, or REDCap/EDC familiarity should be scored as a genuine differentiator/bonus rather than as baseline table stakes. Work authorization and on-site/commute commitment appear as hard, binary filters (Pfizer's no-sponsorship language, UNC's full-time in-person hours), so a rubric should treat clearly-stated work authorization and location flexibility as pass/fail gates rather than as weighted scoring factors. Prior clinical, lab, or healthcare experience is uniformly framed as a "preferred/bonus" attribute rather than a baseline requirement in every posting found, which argues against heavily penalizing first-time applicants for lacking hands-on research hours, while still rewarding candidates who show shadowing hours, patient-facing healthcare experience (CNA/EMT/MA), or committee/IRB exposure. Finally, soft-skill language — "personable," "adaptable," "naturally curious," "eager to learn," strong letters of reference — recurs across the hospital and pipeline-program postings specifically, suggesting that for this role family (unlike, say, a technical CRA monitoring role further into the pipeline) demonstrated interpersonal/communication signals on a resume (patient-facing jobs, volunteering, leadership) should carry real scoring weight alongside GPA and coursework, not be treated as an afterthought.

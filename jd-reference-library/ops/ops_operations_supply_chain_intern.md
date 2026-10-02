@@ -447,5 +447,80 @@ Collected: 2026-09-28
 - Experience or coursework involving cross-functional collaboration
 - Demonstrated interest in cost-reduction/efficiency-improvement analysis
 
+## JD 20: Supply Chain Trainee Program Internship (SCTPi), Anheuser-Busch (beverage alcohol brewing & distribution — Sales & Distribution Center / Brewery rotational program, distinct from Coca-Cola's technical CPG track and PepsiCo's strategic sourcing track already in this file)
+Source: Job board mirror of Anheuser-Busch's official Supply Chain Trainee Program Internship posting (BuiltIn Colorado) — https://www.builtincolorado.com/job/logistics-internship/10909904
+Collected: 2026-09-30
+
+### Responsibilities
+- Complete a 10-week rotational internship placed at a Sales & Distribution Center, Brewery/Brewery Warehouse, or Corporate Headquarters
+- Own a project intended to improve supply chain operations, delivering measurable business impact
+- Gain exposure to support functions and senior leadership throughout the program
+- Complete leadership and functional-skill training modules
+- Present final project results and outcomes to the North American Logistics Leadership Team
+
+### Basic Requirements
+- Currently enrolled university student with a minimum 3.0 GPA
+- Geographic and functional mobility — open to experiencing different functions and locations across the U.S. during the internship
+- Ability to leverage data to solve complex problems
+- Demonstrated leadership through work or extracurricular involvement
+- Self-motivated with strong teamwork and active-listening skills; able to manage multiple projects in a fast-paced environment
+- F-1 visa holders and candidates requiring work-visa sponsorship are not eligible
+
+### Bonus / Preferred Qualifications
+- Background in supply chain, engineering, or business (though all majors are accepted)
+- Comfort with ambiguity and managing multiple concurrent projects simultaneously
+- Track record of questioning the status quo and seeking process-improvement opportunities
+
+## JD 21: Intern - Supply Chain (Summer 2026), Alaska Airlines (airline industry — sourcing/supplier-performance management, an entirely new industry vertical distinct from all other entries in this file)
+Source: Official Alaska Airlines Careers site (iCIMS job board) — https://corporatejobs-alaskaair.icims.com/jobs/16994/intern---supply-chain-%28summer-2026%29/job
+Collected: 2026-10-01
+
+### Responsibilities
+- Evaluate sourcing categories for supplier performance management
+- Collaborate with subject matter experts on documentation
+- Conduct interviews with managers to identify key performance metrics
+- Review contracts and Service Level Agreements (SLAs)
+- Prototype performance dashboards using analytics tools
+- Present findings and recommendations to leadership
+
+### Basic Requirements
+- Currently pursuing a bachelor's degree in Supply Chain, Business Administration, or a related field
+- Junior or higher academic standing at time of application, with at least one semester/quarter remaining after the internship
+- Demonstrated analytical and problem-solving abilities, including financial analysis
+- Proficiency with Microsoft Office products
+- Strong communication skills for presenting complex information clearly
+- Minimum age 18; high school diploma or equivalent; U.S. work authorization required
+
+### Bonus / Preferred Qualifications
+- Experience with Tableau or Power BI
+- Prior coursework or experience in supply chain, procurement, or related areas
+- Data collection and analysis background
+
+## JD 22: Year Round Intern - Supply Chain, Union Pacific Railroad (rail freight transportation/logistics operations)
+Source: Official Company Careers Page (up.jobs) — https://up.jobs/job/Omaha-Year-Round-Intern-Supply-Chain-NE-68000/1424960500/
+Collected: 2026-10-02
+
+### Responsibilities
+- Learn and perform core Supply Chain department business group work tasks, processes, and customer services
+- Examine data and handle customer questions while partnering with external organizations
+- Provide operational assistance to department supervisors
+- Create and execute project plans and carry out team assignments
+- Expand professional networks across departments and the organization
+- Support project management initiatives and complete administrative duties
+
+### Basic Requirements
+- Full-time student status with at least one year of college credit toward an undergraduate degree
+- Supply Chain Management, Logistics/Transportation, or business-related degree preferred
+- Strong verbal and written communication abilities
+- Basic organizational and time management competencies
+- Proficient in Microsoft Office (Excel, PowerPoint, Word)
+- Foundational understanding of supply chain concepts and processes
+- Authorized to work in the US without sponsorship, 18 years or older
+
+### Bonus / Preferred Qualifications
+- GPA of 3.0 or higher
+- Intermediate computer proficiency and capacity to learn Union Pacific's internal systems
+- Advanced analytical and problem-solving skills
+
 ## Implications for Our Framework
 Across all five postings, the recurring hard-skill baseline is spreadsheet/data fluency (Excel is explicit in 3 of 5; SQL/Power BI and ERP familiarity appear as differentiators rather than requirements), suggesting the framework should treat basic Excel as table-stakes and score SQL/ERP/analytics-tool exposure as a meaningful bonus rather than a core requirement. Analytical rigor and communication skills are weighted more heavily than field/warehouse experience — even the two most "hands-on" roles (Amazon Area Manager, Honeywell Supply Chain) foreground people-management, communication, and process-improvement framing over physical operations experience, so resumes should be credited for data-driven decision-making and cross-functional communication evidence at least as much as for literal warehouse/logistics work. GPA and graduation-timeline gating (3.0+ GPA, specific graduation windows, no-sponsorship clauses) matter procedurally but aren't differentiators worth much scoring weight since they're pass/fail eligibility filters, not competitive signals. Finally, prior internships, case-competition participation, and major relevance (supply chain, operations, business, engineering, economics) function as the strongest positive signals across postings, so the framework should reward directly relevant coursework/majors and any prior internship or case-competition experience in operations/supply chain more than generic leadership titles.

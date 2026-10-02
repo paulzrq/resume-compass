@@ -1,0 +1,820 @@
+{
+ "swe": {
+  "role_title": "2027 Software Engineer Intern",
+  "company": "Anduril Industries",
+  "subtrack_note": "defense-tech/national-security software (autonomous defense systems, export-controlled, distinct from aerospace/robotics/automotive entries already present)",
+  "source_description": "Official Company Careers Page (Greenhouse-hosted)",
+  "source_url": "https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Support deployed software solutions used in real-world defense systems",
+   "Write code to enhance and extend existing products",
+   "Collaborate across engineering teams to build complex functionality",
+   "Create performance metrics to evaluate system behavior",
+   "Triage and resolve software issues",
+   "Work on real, meaningful projects alongside experienced engineers and receive mentorship"
+  ],
+  "basic_requirements": [
+   "Currently pursuing a bachelor's or master's degree in Computer Science, Software/Computer Engineering, Mathematics, Physics, or a related field",
+   "Must return to school after the internship to continue studies for at least one more quarter or semester",
+   "U.S. Person status required due to access to U.S. export-controlled information or facilities",
+   "Able to complete the full 12-week in-person internship program in Summer 2027",
+   "Willing to work on-site at one of the listed U.S. locations (e.g. Costa Mesa CA, Seattle WA, Boston MA, Reston VA, Colorado offices, Atlanta GA)"
+  ],
+  "bonus_qualifications": [
+   "Knowledge of algorithms, data structures, storage systems, and cloud infrastructure",
+   "Familiarity with front-end frameworks",
+   "Proficiency in C++, Go, Rust, Java, and/or Python",
+   "Action-oriented approach with a desire for real-world impact",
+   "Natural curiosity about technology paired with a low-ego, high-ownership, mission-oriented mindset"
+  ]
+ },
+ "ds": {
+  "role_title": "PhD Data Scientist, Intern",
+  "company": "Stripe",
+  "subtrack_note": "fintech payments-platform PhD research track (causal inference/experimentation/product analytics across business problems) — distinct from ds's existing Visa entry (card-network-level payments analytics), Capital One/USAA (traditional bank/insurance statistics) and Two Sigma (quant trading research); distinct from mle's roster since it involves no model deployment, serving infra, or production ML systems work",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://stripe.com/jobs/listing/phd-data-scientist-intern/7874965",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Partner closely with Data Scientists, Data Analysts, and business partners to drive business impact",
+   "Apply machine learning, causal inference, or advanced analytics on large datasets",
+   "Influence business actions and strategy by developing actionable insights",
+   "Drive the collection of new data and the refinement of existing data sources",
+   "Learn quickly by asking great questions and communicate work status clearly",
+   "Present findings to the Data Science team, partners, and fellow interns"
+  ],
+  "basic_requirements": [
+   "Enrolled in a quantitative PhD program with expected graduation between winter 2026 and summer 2027",
+   "Proficiency in a scientific computing language (such as Python, R, etc.) and SQL",
+   "Hands-on experience in several of: machine learning, statistics, optimization, product analytics, causal inference, and/or experimentation",
+   "Ability to communicate and collaborate with multidisciplinary teams"
+  ],
+  "bonus_qualifications": [
+   "Experience writing and debugging data pipelines",
+   "Demonstrated ability to evaluate and incorporate feedback from mentors, peers, and stakeholders",
+   "Capacity to independently learn new systems with mentor guidance"
+  ]
+ },
+ "mle": {
+  "role_title": "Software Engineer Intern, ML/AI",
+  "company": "Electronic Arts (EA)",
+  "subtrack_note": "gaming-industry ML engineering — deploying/optimizing ML models for AI-driven gameplay and content systems on cloud infra; distinct domain from all existing mle entries, and distinct in sub-type from ds's Riot Games entry, which is live-ops analytics rather than ML engineering/deployment",
+  "source_description": "Official Company Careers Page (EA Jobs)",
+  "source_url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-ML-AI/210877",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Design and optimize machine learning models for AI-driven gameplay and content systems",
+   "Develop ML tools, libraries, and infrastructure supporting the full ML lifecycle",
+   "Build cloud-based solutions using AWS, GCP, or Azure for scalable ML workloads",
+   "Optimize performance, scalability, and cost efficiency of deployed AI systems",
+   "Document findings through technical reports, demos, and stakeholder presentations",
+   "Contribute to knowledge sharing via internal publications or open-source initiatives"
+  ],
+  "basic_requirements": [
+   "Currently enrolled in a Bachelor's or Master's degree program in Computer Science or a related field",
+   "Foundation in machine learning, deep learning, and data-driven system design",
+   "Proficiency in Python with deep learning frameworks such as PyTorch",
+   "Familiarity with cloud platforms and cloud-native tools (e.g., Docker)",
+   "Strong computer science fundamentals (algorithms, data structures, design principles)",
+   "Graduation date between December 2026 and June 2027; legal authorization to work full-time in Canada (no visa sponsorship)"
+  ],
+  "bonus_qualifications": [
+   "Hands-on experience deploying ML models in real-time interactive applications",
+   "Familiarity across multiple cloud platforms (AWS, GCP, and Azure) rather than just one",
+   "Track record of contributing to internal technical publications or open-source ML projects",
+   "Experience building reusable ML tooling/infrastructure spanning the full model lifecycle"
+  ]
+ },
+ "engineering": {
+  "role_title": "Hardware Test and Reliability Intern",
+  "company": "Skydio",
+  "subtrack_note": "autonomous drone hardware test & reliability validation",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://www.skydio.com/jobs/7506850003",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Own the design and implementation of hardware and software systems to execute comprehensive performance and reliability validation",
+   "Examine data through statistical analysis and thorough documentation to identify patterns driving product enhancements",
+   "Conduct failure investigations to determine underlying causes and develop solutions across engineering disciplines",
+   "Contribute to design review sessions with reliability considerations throughout development"
+  ],
+  "basic_requirements": [
+   "Knowledge of testing methodologies and ability to identify process weaknesses",
+   "Methodical problem-solving approach for electro-mechanical system issues",
+   "Programming experience (Python or comparable languages) for automation and analysis",
+   "Demonstrated eagerness to master multiple engineering domains",
+   "Strong communication and cross-functional collaboration abilities",
+   "Understanding of environmental testing, stress testing, and accelerated life assessment approaches"
+  ],
+  "bonus_qualifications": [
+   "First-principles engineering thinking applied to test design",
+   "Developed intuition for how to test effectively and how not to test",
+   "Experience across multiple engineering domains (electrical, mechanical, software)"
+  ]
+ },
+ "cybersecurity": {
+  "role_title": "2026 Guardian Summer Intern, Cybersecurity Assurance",
+  "company": "Guardian Life Insurance Company of America",
+  "subtrack_note": "life/disability insurance carrier, in-house security assurance — red-team testing + SCA/DAST vulnerability triage",
+  "source_description": "Official RippleMatch/Greenhouse Job Posting for Guardian Life's campus internship program",
+  "source_url": "https://job-boards.greenhouse.io/ripplematchinterns/jobs/8225879002",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Assist in planning and executing Red Team exercises, including manual and automated testing",
+   "Help identify risks through Software Composition Analysis (SCA) and DAST (Dynamic Application Security Testing) scans",
+   "Triage security findings and monitor remediation progress",
+   "Learn from mentors and senior leaders across the organization",
+   "Network with colleagues and fellow interns across the summer cohort"
+  ],
+  "basic_requirements": [
+   "Rising senior, graduating May 2027",
+   "Pursuing an undergraduate degree in Cybersecurity, Computer Science, Computer Engineering, or a related technical field",
+   "Basic knowledge of security concepts and web technologies",
+   "Strong communication and critical-thinking skills",
+   "Eligible to work in the U.S. without company sponsorship (no F-1 OPT, TN, or H-1B)",
+   "Available for the full program dates (May 28 - Aug 7, 2026)"
+  ],
+  "bonus_qualifications": [
+   "Enthusiasm for ethical hacking and secure software development",
+   "Prior exposure to vulnerability scanning or penetration-testing tools",
+   "Familiarity with remediation-tracking/triage workflows"
+  ]
+ },
+ "robotics": {
+  "role_title": "Reliability Engineer, Intern",
+  "company": "Nuro",
+  "subtrack_note": "autonomous delivery vehicle hardware reliability/validation engineering (ground-based last-mile delivery robot, distinct from trucking lidar/sensor hardware or drone embedded roles)",
+  "source_description": "Official Company Careers Page (Nuro, hosted via Greenhouse)",
+  "source_url": "https://nuro.ai/careersitem?gh_jid=7673849",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Execute reliability test planning, setup, and documentation for autonomous vehicle hardware systems including sensors and compute platforms",
+   "Design sensor integration components and test fixtures using NX and Teamcenter CAD software",
+   "Prototype and fabricate structural components, testing jigs, and fit-check parts using 3D printers and in-house tools",
+   "Build and maintain hands-on test setups and validation hardware for development and reliability testing",
+   "Collect, organize, and analyze test data to inform design improvements and validation decisions",
+   "Support failure investigations by documenting test conditions and conducting structured root-cause analysis",
+   "Collaborate across mechanical, electrical, systems, and operations teams on hardware robustness improvements"
+  ],
+  "basic_requirements": [
+   "Currently pursuing a B.S., M.S., or Ph.D. in Electrical Engineering",
+   "Hands-on experience designing, assembling, debugging, and testing electrical or electromechanical systems",
+   "Familiarity with lab environments and prototyping tools",
+   "Competency with bench-level measurement equipment (oscilloscopes, multimeters, power supplies, DAQs)",
+   "Understanding of electrical hardware integration, power distribution, and reliability principles",
+   "Clear technical documentation and communication abilities",
+   "Experience with Python, MATLAB, or JMP for data analysis"
+  ],
+  "bonus_qualifications": [
+   "Prior internship or co-op in electrical, reliability, validation, or hardware engineering",
+   "Experience with thermal cycling, vibration, shock, and IP verification testing",
+   "Knowledge of automotive electrical validation standards (LV 124, ISO 16750, JEDEC)",
+   "Structured root-cause analysis and complex hardware debugging skills",
+   "Familiarity with DOE, Weibull analysis, and life data analysis tools",
+   "Experience building custom test setups and fixtures"
+  ]
+ },
+ "fintech_eng": {
+  "role_title": "Summer 2026 Backend Engineering Intern",
+  "company": "Intuit",
+  "subtrack_note": "consumer tax-prep & small-business accounting/personal-finance software platform (TurboTax, QuickBooks, Credit Karma, Mailchimp)",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://jobs.intuit.com/job/mountain-view/summer-2026-backend-engineering-intern/27595/87369451024",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Assist in designing, developing, and testing software applications and systems",
+   "Contribute to code reviews and ensure adherence to coding standards",
+   "Participate in debugging and resolving software defects",
+   "Collaborate with team members to understand requirements and deliver solutions",
+   "Support deployment and maintenance of software"
+  ],
+  "basic_requirements": [
+   "Experience developing web applications using server-side languages (Java, Python, Node.js)",
+   "Familiarity with database technologies (MySQL, PostgreSQL, MongoDB)",
+   "Understanding of RESTful API design principles and API integrations",
+   "Experience with server frameworks (Express, Spring MVC, Django)",
+   "Solid grasp of object-oriented design and programming fundamentals",
+   "Currently enrolled in a Bachelor's or Master's degree in Computer Science or related field, graduating at least 4 months after the internship ends",
+   "Legal authorization to work full-time in the US; able to work onsite a minimum of 3 days/week (Mountain View, San Diego, New York, or Atlanta)"
+  ],
+  "bonus_qualifications": [
+   "Exposure to AI programs, tools, and concepts",
+   "Familiarity with Agile methodologies and the software development lifecycle",
+   "Self-starter attitude with strong independent problem-solving and task-delivery history"
+  ]
+ },
+ "finance": {
+  "role_title": "U.S. Summer Internship Program",
+  "company": "Eastdil Secured",
+  "subtrack_note": "Real Estate Investment Banking / Capital Markets Advisory (sell-side real estate advisory, distinct from principal real estate PE investing)",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://www.eastdilsecured.com/?p=1857",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Complete training on commercial real estate fundamentals, financial analysis, Excel, and Argus Enterprise",
+   "Execute financial modeling, underwriting, and practical exercises across multiple property types",
+   "Analyze property financial data including rent rolls, operating statements, and cash flows",
+   "Conduct research supporting live transactions and client presentations",
+   "Complete case studies to develop analytical and finance skills",
+   "Prepare and present research projects",
+   "Collaborate on a capstone project applying skills developed during the program"
+  ],
+  "basic_requirements": [
+   "Pursuing a bachelor's or master's degree with expected graduation in 2027-2028",
+   "Prior professional experience via internships, part-time/full-time work, or extracurricular involvement",
+   "Strong analytical, written, and verbal communication skills",
+   "Demonstrated interest in building a career in financial services with a focus on commercial real estate finance",
+   "Ability to perform in a demanding, fast-paced, highly focused environment",
+   "Self-motivated, proactive, organized, adaptable, and detail-oriented"
+  ],
+  "bonus_qualifications": [
+   "Strong personal accountability and sense of urgency for achieving results",
+   "Excellent teamwork and collaboration ability in a close-knit deal-team setting",
+   "Broad exposure interest across transaction types and asset classes (office, multifamily, industrial, hospitality, etc.)",
+   "Comfort with Argus Enterprise or similar real estate modeling/underwriting software a plus"
+  ]
+ },
+ "risk_analyst": {
+  "role_title": "Campus - Risk Analyst Program Intern (Flexible Hybrid)",
+  "company": "Fannie Mae",
+  "subtrack_note": "Single-Family Collateral Risk Management, GSE mortgage-collateral/operational risk",
+  "source_description": "Official Company Careers Page (Fannie Mae SmartRecruiters ATS)",
+  "source_url": "https://jobs.smartrecruiters.com/FannieMae/744000008434367",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Support risk-based business proposal analyses and documentation for Single-Family Collateral Risk teams",
+   "Assist application developers and project managers with enhancement planning and coordination",
+   "Conduct research and manage deliverables for complex risk projects",
+   "Gather and prepare business analysis data with stakeholder reporting",
+   "Participate in operating procedure reviews and internal control documentation",
+   "Support development and monitoring of key performance and risk indicators",
+   "Help integrate advanced technology and AI into business processes"
+  ],
+  "basic_requirements": [
+   "Authorization to work in the U.S. without current or future sponsorship",
+   "Preferred cumulative GPA of 3.0 or higher",
+   "Rising senior enrolled in a bachelor's degree program (expected graduation ~2026)",
+   "Majors in Business Administration, Management, Finance, Information Systems, Real Estate, or Risk Management"
+  ],
+  "bonus_qualifications": [
+   "Demonstrated leadership and teamwork experience",
+   "Strong analytical background with a self-starter, results-oriented mindset",
+   "Strong written and oral communication skills",
+   "Technology fluency / interest in applying AI to risk and business processes"
+  ]
+ },
+ "actuary": {
+  "role_title": "Summer Scholar – Actuarial, Consultative Offerings, Government & Public Services",
+  "company": "Deloitte Consulting LLP",
+  "subtrack_note": "Big 4 actuarial consulting for government/public-sector clients, early-identification Summer Scholar program (distinct from insurer-side and reinsurance-broker roles already listed)",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-Actuarial/362392",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Builds financial and mathematical models to improve organizational performance for government and public-sector clients",
+   "Analyzes large data sets using statistical methods to quantify risk and interpret trends",
+   "Advises clients on complex business problems by translating data-driven insights into actionable recommendations",
+   "Supports actuarial consulting engagements within Deloitte's Government & Public Services practice"
+  ],
+  "basic_requirements": [
+   "Currently enrolled in an accredited college or university, expected to graduate by Summer 2028",
+   "Pursuing a degree in Actuarial Science, Mathematics, Statistics, or a related/equivalent program",
+   "3.0 cumulative GPA required",
+   "Must be able to obtain U.S. Security Clearance",
+   "Legally authorized to work in the United States without employer sponsorship",
+   "At least 18 years of age",
+   "Must reside within commutable distance of assigned office and be able to travel up to 50%"
+  ],
+  "bonus_qualifications": [
+   "3.4 cumulative GPA preferred",
+   "Prior internship, project, or coursework experience in actuarial science, mathematics, or statistics"
+  ]
+ },
+ "consulting": {
+  "role_title": "Associate Consultant – Financial Services (Associate Consulting Programme)",
+  "company": "Capco",
+  "subtrack_note": "financial-services-focused management & digital transformation consulting boutique",
+  "source_description": "Official Company Careers Page (Greenhouse job board)",
+  "source_url": "https://job-boards.greenhouse.io/capco/jobs/7775700",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Support transformation initiatives across Financial Services, conducting research, data analysis, and process mapping to solve client problems",
+   "Develop key project artefacts including requirements, presentations, and analysis outputs while contributing to business analysis, testing, and operational change",
+   "Participate in client meetings and workshops, collaborating with stakeholders and using tools, accelerators, and AI to deliver data-driven outcomes",
+   "Complete a two-week immersive training phase covering consulting fundamentals before joining live client engagements",
+   "Work alongside mentors and consulting teams on real Financial Services client delivery"
+  ],
+  "basic_requirements": [
+   "University graduate with strong communication, presentation, analytical, and problem-solving skills, able to structure complex information clearly",
+   "Interest in Consulting and Financial Services, with curiosity and knowledge of trends across one or more relevant domains",
+   "Experience using AI tools and a strong interest in how AI is shaping the future of work",
+   "Proactive, curious, and collaborative mindset with strong attention to detail"
+  ],
+  "bonus_qualifications": [
+   "6+ months' experience in consulting, financial services, fintech, or technology",
+   "Familiarity with data analysis tools or emerging technologies",
+   "Experience working in team-based or cross-functional project environments",
+   "Demonstrated interest in Financial Services trends or AI-enabled tooling"
+  ]
+ },
+ "marketing": {
+  "role_title": "Events, Field Marketing & ABM Intern - Summer 2026",
+  "company": "Bandwidth Inc.",
+  "subtrack_note": "field marketing/events/ABM, B2B SaaS communications-platform tech",
+  "source_description": "Job Board Posting (Built In, mirroring the official Bandwidth Greenhouse career listing)",
+  "source_url": "https://builtin.com/job/events-field-marketing-abm-intern-summer-2026/7658418",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Collaborate with field marketing managers on targeted campaign programs and ABM strategies",
+   "Work with the Senior Event Manager on hospitality events, tradeshows, and webinars",
+   "Draft emails, presentations, and collateral for field marketing programs",
+   "Conduct pre- and post-event planning activities",
+   "Research venues, tradeshows, and event vendor options",
+   "Research target accounts and contacts for field marketing programs",
+   "Evaluate gifting options and propose new field marketing initiatives"
+  ],
+  "basic_requirements": [
+   "Currently enrolled in a 4-year college program",
+   "Studying marketing, business, writing, or communications",
+   "Proficiency with Google Suite, Microsoft PowerPoint, Word, and Excel"
+  ],
+  "bonus_qualifications": [
+   "Detail-oriented and highly organized when managing multiple event/campaign workstreams",
+   "Outgoing, personable demeanor suited to hospitality/event and account engagement",
+   "Strong written communication skills for collateral and presentation drafting",
+   "Interest in learning marketing technology stack tools used for ABM targeting"
+  ]
+ },
+ "pm": {
+  "role_title": "Associate Product Manager (APM Program)",
+  "company": "Instacart",
+  "subtrack_note": "on-demand grocery-delivery, four-sided marketplace; 18-month entry-level rotational APM program",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://www.instacart.careers/apm",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Own end-to-end product success from discovery to launch across two rotations on teams such as Core Experience, Marketplace, Platform, Connected Stores, and Ads",
+   "Collaborate cross-functionally with Design, Engineering, Marketing, Data Science, Legal, and Analytics to drive features from ideation to execution",
+   "Identify new growth opportunities through quantitative research, case studies, and industry-standard methodologies",
+   "Apply creative problem-solving across Instacart's four-sided marketplace (customers, shoppers, retailers, advertisers)",
+   "Influence stakeholders throughout the company to align intent, resources, and prioritization",
+   "Rotate through two different product teams over the 18-month program to build broad, cross-functional PM experience"
+  ],
+  "basic_requirements": [
+   "Bachelor's degree from an accredited institution",
+   "Recent graduate or up to ~2 years of work experience in technology, consulting, or banking",
+   "Demonstrated passion for technology and product design shown through technical education, personal projects, or business/strategy roles",
+   "Ability to translate user and business needs into clear product requirements",
+   "Leadership potential and natural ability to influence and empower diverse, cross-functional teams",
+   "Based in or willing to work remotely within the US or Canada"
+  ],
+  "bonus_qualifications": [
+   "Prior exposure to quantitative research, case studies, or data-driven product decision-making",
+   "Experience spanning both technical and business/strategy contexts (not purely operational execution)",
+   "Demonstrated customer empathy and genuine excitement for Instacart's grocery-marketplace mission",
+   "Comfort operating across multiple, interdependent sides of a marketplace (consumer, supply, and advertiser-facing)"
+  ]
+ },
+ "ba": {
+  "role_title": "Business Analyst Intern",
+  "company": "Nashville SC (Major League Soccer)",
+  "subtrack_note": "professional sports team business operations/CRM & fan-data analytics",
+  "source_description": "Job Board Posting (Jobs in Football, mirroring Nashville SC's official TeamWorkOnline listing)",
+  "source_url": "https://jobsinfootball.com/job/129429/business-analyst-intern-fall-2026/",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Assist in developing strategic business solutions with KPIs and measurement strategies",
+   "Create reports, dashboards, and analyses used in daily business management",
+   "Collaborate with the Data Engineer on data retrieval techniques and process maintenance",
+   "Support Salesforce maintenance, including contact/account creation and duplicate-record removal",
+   "Perform data hygiene and integrity maintenance across multiple data sources",
+   "Execute special projects and ad-hoc reports addressing specific business questions",
+   "Research industry best practices to generate analytical insights"
+  ],
+  "basic_requirements": [
+   "Strong communication skills and willingness to learn",
+   "Enthusiasm for using data to solve business problems",
+   "Ability to work independently and collaboratively",
+   "Proficiency in Microsoft Word, Excel, and PowerPoint",
+   "Experience with a programming language (Python, R, SQL, or similar)",
+   "Currently enrolled at an accredited institution, receiving college credit for the internship"
+  ],
+  "bonus_qualifications": [
+   "Data visualization skills preferred (Tableau, Power BI, etc.)"
+  ]
+ },
+ "ops": {
+  "role_title": "Year Round Intern - Supply Chain",
+  "company": "Union Pacific Railroad",
+  "subtrack_note": "rail freight transportation/logistics operations",
+  "source_description": "Official Company Careers Page (up.jobs)",
+  "source_url": "https://up.jobs/job/Omaha-Year-Round-Intern-Supply-Chain-NE-68000/1424960500/",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Learn and perform core Supply Chain department business group work tasks, processes, and customer services",
+   "Examine data and handle customer questions while partnering with external organizations",
+   "Provide operational assistance to department supervisors",
+   "Create and execute project plans and carry out team assignments",
+   "Expand professional networks across departments and the organization",
+   "Support project management initiatives and complete administrative duties"
+  ],
+  "basic_requirements": [
+   "Full-time student status with at least one year of college credit toward an undergraduate degree",
+   "Supply Chain Management, Logistics/Transportation, or business-related degree preferred",
+   "Strong verbal and written communication abilities",
+   "Basic organizational and time management competencies",
+   "Proficient in Microsoft Office (Excel, PowerPoint, Word)",
+   "Foundational understanding of supply chain concepts and processes",
+   "Authorized to work in the US without sponsorship, 18 years or older"
+  ],
+  "bonus_qualifications": [
+   "GPA of 3.0 or higher",
+   "Intermediate computer proficiency and capacity to learn Union Pacific's internal systems",
+   "Advanced analytical and problem-solving skills"
+  ]
+ },
+ "data_analyst": {
+  "role_title": "Data Analytics Intern, Shockwave",
+  "company": "Johnson & Johnson (MedTech - Shockwave Medical)",
+  "subtrack_note": "medical device/MedTech commercial BI & analytics, Data Platform team",
+  "source_description": "Glassdoor Job Posting (cross-confirmed via J&J careers portal and additional job-board mirrors)",
+  "source_url": "https://www.glassdoor.com/job-listing/data-analytics-intern-shockwave-johnson-johnson-JV_IC1147439_KO0,31_KE32,47.htm?jl=1010030110656",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Work closely with the Data Platform team to gather, clean, and analyze data from various sources",
+   "Develop and maintain BI reports and dashboards using Power BI, Tableau, or similar tools",
+   "Write SQL queries in Snowflake for data extraction, manipulation, and transformation",
+   "Collaborate with cross-functional teams to identify data needs and deliver actionable insights",
+   "Support data quality checks and help ensure system/data integrity",
+   "Monitor emerging trends in business intelligence and data analytics"
+  ],
+  "basic_requirements": [
+   "Completion of freshman year at an accredited university",
+   "Currently pursuing a bachelor's degree in Data Science, Computer Science, Information Systems, Statistics, Mathematics, or a related field",
+   "Cumulative GPA of 2.8 or higher",
+   "Proficiency in SQL and Python with hands-on query/data engineering experience",
+   "Familiarity with BI tools such as Power BI or Tableau",
+   "Strong analytical and problem-solving abilities with excellent communication skills",
+   "Permanent U.S. work authorization (no visa sponsorship)"
+  ],
+  "bonus_qualifications": [
+   "Prior internship or coursework in data analytics, business intelligence, or SQL",
+   "Detail-oriented with a demonstrated commitment to data quality and deadlines"
+  ]
+ },
+ "accounting": {
+  "role_title": "Fund Accounting Summer Intern",
+  "company": "Alter Domus",
+  "subtrack_note": "fund administration/fund accounting for private equity, real estate & credit funds, specialized third-party fund administrator",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://careers.alterdomus.com/en/job/boston/fund-accounting-summer-intern/38735/28478702336",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Prepare cash and journal entries and bank reconciliations",
+   "Assist with financial statement preparation and period end closings",
+   "Interact with clients through email and participate in calls",
+   "Participate in quarterly and annual audit functions",
+   "Process and track daily cash contributions and distributions for investment fund clients",
+   "Engage in professional development programming and networking events"
+  ],
+  "basic_requirements": [
+   "Pursuing a Bachelor's Degree in Accounting or Finance with a strong accounting focus, or has a previous accounting internship",
+   "Current Junior with an expected graduation date between December 2026 and August 2027",
+   "Proficient with Excel",
+   "Ability to prioritize tasks, work on multiple assignments, and manage ambiguity",
+   "Strong verbal and written communication skills",
+   "Detail oriented with strong analytical and problem-solving skills",
+   "Authorized to work in the US without need for employment-based sponsorship"
+  ],
+  "bonus_qualifications": [
+   "Strong interest in Fund Accounting as a career",
+   "Demonstrated leadership, learning, and collaboration",
+   "Customer centric mindset",
+   "Ability to work independently in hybrid settings"
+  ]
+ },
+ "hr": {
+  "role_title": "Intern, Labor Relations & Compliance",
+  "company": "CN (Canadian National Railway)",
+  "subtrack_note": "unionized labor/employee relations - grievance handling, arbitration & collective bargaining support, railway/transportation",
+  "source_description": "Job Board Posting (The Muse, mirroring company's official listing)",
+  "source_url": "https://www.themuse.com/jobs/cn/intern-labor-relations-compliance",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Enter grievances into management systems and generate trend reports",
+   "Identify patterns in grievances and collaborate on reduction strategies",
+   "Research employee matters including collective agreement interpretation and accommodation issues",
+   "Support preparation for union conferences, arbitration, and labor-management meetings",
+   "Provide clerical and data entry support as needed"
+  ],
+  "basic_requirements": [
+   "Working towards a Bachelor's Degree in Human Resources, Labor, Industrial Relations, or related field",
+   "Experience in or knowledge of unionized environments, collective agreements, and federal employment legislation",
+   "Strong stakeholder relationship-building abilities",
+   "Critical thinking and active listening skills",
+   "Proficiency with Microsoft Office Suite (Excel, Word, PowerPoint)",
+   "Ability to analyze processes and data"
+  ],
+  "bonus_qualifications": [
+   "Additional coursework or prior experience related to labor/industrial relations",
+   "Prior exposure to grievance or arbitration processes",
+   "Experience working with data trend analysis in an HR or compliance context"
+  ]
+ },
+ "sales": {
+  "role_title": "Ticket Sales and Service Intern",
+  "company": "Springfield Thunderbirds (AHL)",
+  "subtrack_note": "sports/live-event ticket sales, B2C cold-calling and group sales",
+  "source_description": "TeamWork Online Job Posting (sports/entertainment industry job board, official team listing)",
+  "source_url": "https://www.teamworkonline.com/hockey-jobs/theahl/springfield-thunderbirds/ticket-sales-intern-2186354",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Assist the sales team with brand activation and fulfillment of group and ticket packages",
+   "Make cold calls to members and prospective members to generate ticket sales",
+   "Create and implement unique fan experiences for members during games",
+   "Assist with implementation of events, player appearances, and community programs",
+   "Participate in Front Office Mentor Sessions",
+   "Build personal brand and professional network via LinkedIn",
+   "Perform other duties as assigned, including physical tasks (lifting up to 25 lbs)"
+  ],
+  "basic_requirements": [
+   "Able to attend all home games during the 2026-27 season (highly encouraged)",
+   "Able to work 2-3 days per week in the office (highly preferred)",
+   "Initiative-taking and resourceful problem-solving skills",
+   "Excellent communication and relationship-building abilities",
+   "Strong attention to detail and ability to multi-task",
+   "Comfortable operating in a fast-paced, game-day environment",
+   "Strong character and a positive, fun attitude"
+  ],
+  "bonus_qualifications": [
+   "Prior cold-calling or outbound sales experience",
+   "Demonstrated interest in sports business or ticket/event sales careers",
+   "Experience building and maintaining client/fan relationships",
+   "Comfort working evenings/weekends around a live-event game schedule"
+  ]
+ },
+ "law": {
+  "role_title": "Summer Legal Associate (1L) - Summer 2026",
+  "company": "Visa Inc.",
+  "subtrack_note": "in-house legal, global payments/fintech industry — rotational 1L program",
+  "source_description": "Job Board Posting (The Muse, mirroring Visa's official listing)",
+  "source_url": "https://www.themuse.com/jobs/visa/summer-legal-associate-1l-summer-2026",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Shadow members of Visa's Legal Department across practice areas",
+   "Work on projects spanning litigation, M&A, employment, data privacy, trademark, IP, and regulatory matters",
+   "Conduct legal research and support matter work for assigned attorneys",
+   "Deliver an end-of-summer presentation to senior legal leadership",
+   "Participate in intern cohort social and networking events"
+  ],
+  "basic_requirements": [
+   "First-year (1L) law student in good standing at an ABA-accredited law school",
+   "U.S. work authorization (no visa sponsorship available)",
+   "Strong legal research and writing skills",
+   "Available for the full summer program in Foster City, CA (Bay Area, hybrid)"
+  ],
+  "bonus_qualifications": [
+   "Demonstrated academic excellence and leadership ability",
+   "Strong communication skills and strategic thinking",
+   "Prior exposure to corporate, regulatory, or technology/payments-industry legal issues",
+   "Innovative, entrepreneurial mindset suited to a fast-moving in-house environment",
+   "Teamwork and attention to detail in a cross-functional setting"
+  ]
+ },
+ "clinical_research": {
+  "role_title": "Data Management Summer Intern",
+  "company": "Memorial Sloan Kettering Cancer Center (Prostate Cancer Clinical Trials Consortium / PCCTC)",
+  "subtrack_note": "academic cancer center, multi-site oncology trials consortium (PCCTC) — remote clinical data management/query resolution, distinct from site-based CRC or sponsor-side clinical ops roles",
+  "source_description": "Official Organization Careers Page",
+  "source_url": "https://careers.mskcc.org/vacancies/93445-data-management-summer-intern",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Work directly with the Data Management team, gaining hands-on experience with the data review aspects of clinical research",
+   "Perform query management on clinical trial data",
+   "Conduct data cleaning and reconciliation for ongoing studies",
+   "Meet and learn from staff in other PCCTC divisions (Business Operations, Clinical Operations, Data Sciences, Correlative Sciences, Monitoring)",
+   "Complete a 10-week, full-time remote internship supporting a multi-site prostate cancer clinical trials consortium"
+  ],
+  "basic_requirements": [
+   "Actively enrolled in a formal bachelor's degree program",
+   "Able to work remotely from a US-based location, 5 full days a week, 9am-5pm EST",
+   "Attention to detail and strong computer skills",
+   "Excellent communication and collaboration skills",
+   "Ability to multi-task"
+  ],
+  "bonus_qualifications": [
+   "Interest in pursuing a career in clinical research, healthcare, or data management",
+   "Prior exposure to data cleaning/reconciliation workflows or clinical trial data review",
+   "Comfort working independently in a fully remote, multi-division research environment"
+  ]
+ },
+ "media": {
+  "role_title": "Crisis Management & Litigation Communications Internship",
+  "company": "APCO Worldwide",
+  "subtrack_note": "crisis & litigation communications specialty PR agency practice, distinct from general/corporate/political PR agencies already listed",
+  "source_description": "Job Board Posting (Indeed, listing APCO Worldwide's official internship)",
+  "source_url": "https://www.indeed.com/viewjob?jk=ca918ef128934540",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Conduct rapid research and media monitoring to inform client crisis strategy",
+   "Contribute to scenario planning and stakeholder mapping exercises",
+   "Draft communications materials including holding statements, Q&As, and backgrounders",
+   "Assist in developing client proposals",
+   "Track issues, breaking news events, and competitor activity",
+   "Compile and maintain media contact lists"
+  ],
+  "basic_requirements": [
+   "Demonstrated interest in communications, journalism, or political science",
+   "Strong written and verbal communication plus research skills",
+   "Ability to work effectively in fast-paced, distributed team environments",
+   "Organized with meticulous attention to detail; able to multitask independently",
+   "Proficient in Microsoft Office Suite",
+   "Available 40 hours/week, Monday-Friday",
+   "US work authorization required (CPT/OPT/Post-OPT status ineligible)"
+  ],
+  "bonus_qualifications": [
+   "Entrepreneurial mindset with strong critical-thinking skills",
+   "Prior exposure to issues/crisis management, litigation support, or public affairs coursework or activities",
+   "Comfort synthesizing fast-moving news and legal developments into client-ready messaging"
+  ]
+ },
+ "film_production": {
+  "role_title": "LIVE! with Kelly and Mark Production Intern",
+  "company": "Disney Entertainment Television (LIVE! with Kelly and Mark)",
+  "subtrack_note": "live daily syndicated studio talk show production, NY — audience/guest logistics for a live taping, distinct from scripted/doc/news-magazine production",
+  "source_description": "Official Organization Careers Page (disneycareers.com)",
+  "source_url": "https://www.disneycareers.com/en/job/new-york/live-with-kelly-and-mark-production-intern-spring-2027/391/100955813408",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Manage audience operations during live tapings, including distributing raffle tickets and giveaway prizes",
+   "Prepare green rooms and coordinate paperwork with celebrity guests",
+   "Assist producers with research for lifestyle segments and celebrity interview preparation",
+   "Source talking points for on-air content",
+   "Log show notes and manage production-related documentation",
+   "Support producers and production teams with varied projects and needs as assigned",
+   "Gain hands-on experience in both production office and studio floor environments"
+  ],
+  "basic_requirements": [
+   "Demonstrated interest in pursuing a career in television production, media, or entertainment industry",
+   "Coursework in Broadcast Journalism, Communications, Film & Television, Screenwriting, or related field",
+   "Professional verbal and written communication skills",
+   "Ability to independently complete assigned projects and manage priorities",
+   "Proficiency with Microsoft Office Suite (Outlook, Excel, Word, PowerPoint)",
+   "Currently enrolled as junior/senior undergraduate student, minimum age 18, unrestricted work authorization",
+   "Able to maintain the fixed weekday schedule and provide own NY-area housing and transportation"
+  ],
+  "bonus_qualifications": [
+   "Previous experience in entertainment or production"
+  ]
+ },
+ "teacher": {
+  "role_title": "Montessori Assistant Teacher (Assistant Teacher II)",
+  "company": "Bezos Academy (Day1 Academies)",
+  "subtrack_note": "tuition-free nonprofit Montessori preschool for under-resourced communities, distinct from corporate for-profit childcare",
+  "source_description": "Official Organization Careers Page (Greenhouse job board)",
+  "source_url": "https://job-boards.greenhouse.io/day1academies/jobs/8784748002",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Support lead teachers in delivering Montessori-method lessons and activities to preschool-age children",
+   "Observe and document individual children's development and learning progress",
+   "Facilitate literacy and math skill-building activities within the Montessori classroom",
+   "Maintain a safe, orderly, and engaging Montessori classroom environment",
+   "Build relationships with children, support diverse learners, and help implement individual behavior support plans",
+   "Independently supervise children during transitions, mealtimes, and outdoor activities",
+   "Participate in staff meetings and conduct family conferences to communicate on student progress"
+  ],
+  "basic_requirements": [
+   "Bachelor's degree, OR an associate's degree plus two years of experience with children, OR four years of professional experience working with K-3rd grade children",
+   "Willingness to obtain a Primary Montessori credential from a MACTE-accredited institution within two years if not already held",
+   "Pass required background checks and TB screening",
+   "Ability to lift at least 40 lbs and have reliable transportation to the school site"
+  ],
+  "bonus_qualifications": [
+   "Associate's degree or higher in early childhood education",
+   "Prior Montessori preschool teaching experience",
+   "Experience working with children with special needs",
+   "Experience serving low-income or under-resourced communities",
+   "Bilingual/Spanish fluency (required for certain locations)"
+  ]
+ },
+ "ux": {
+  "role_title": "Digital Product Design Undergraduate Internship",
+  "company": "Nike, Inc.",
+  "subtrack_note": "consumer apparel/footwear brand, brand-driven digital product & visual design track",
+  "source_description": "Official Company Careers Page",
+  "source_url": "https://careers.nike.com/digital-product-design-undergraduate-internship/job/R-69072",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Develop wireframes, visual comps, user flows, and prototypes that represent the Nike brand",
+   "Engage in research, cross-functional collaboration, and strategic storytelling",
+   "Own well-defined tasks and small projects with predetermined scope",
+   "Iterate design concepts from initial briefing through final delivery",
+   "Produce independent design solutions while supporting teammates",
+   "Work with senior team members to meet project objectives and timelines"
+  ],
+  "basic_requirements": [
+   "Full-time college student graduating between December 2026 and June 2027",
+   "Major in Interactive/Digital Design, Product Design, Digital Art Direction, or related field",
+   "Portfolio demonstrating inspiration, concept development, storytelling, and finished designs",
+   "Proficiency in Figma, Adobe Creative Cloud, and Keynote",
+   "Strong foundation in typography, layout, composition, and systems design",
+   "Passion for the Nike brand and sports with commitment to quality work"
+  ],
+  "bonus_qualifications": [
+   "Familiarity with digital product company design processes",
+   "Curiosity about innovation and technology trends",
+   "Understanding of current digital tools and industry developments"
+  ]
+ },
+ "graphic_design": {
+  "role_title": "Graphic Design Internship - Spring 2027",
+  "company": "Rush Street Interactive (NYSE: RSI)",
+  "subtrack_note": "iGaming/online sports betting & casino operator, remote marketing-campaign graphic design (BetRivers, RushBet)",
+  "source_description": "Official Company Careers Page (Greenhouse Job Board)",
+  "source_url": "https://job-boards.greenhouse.io/rushstreetinteractive/jobs/6185808004",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Design visual assets for digital campaigns including social media, banner ads, email, and app/web promotions",
+   "Create graphics for sports betting promotions, odds boosts, casino game launches, and seasonal campaigns",
+   "Maintain brand consistency across typography, color, and visual identity guidelines",
+   "Collaborate with marketing and content teams on campaign execution",
+   "Resize and adapt designs for multiple formats and platforms (mobile, web, social)",
+   "Contribute ideas for social media and promotional content",
+   "Organize and manage design files, templates, and brand assets"
+  ],
+  "basic_requirements": [
+   "Currently pursuing or recently completed a degree/certificate in graphic design, visual communication, or related field",
+   "Portfolio demonstrating competency in layout, typography, and color",
+   "Working knowledge of Adobe Creative Suite (Photoshop, Illustrator)",
+   "Basic understanding of composition, hierarchy, and visual communication",
+   "Ability to receive feedback and iterate quickly",
+   "Strong attention to detail and consistency"
+  ],
+  "bonus_qualifications": [
+   "InDesign proficiency",
+   "Figma or collaborative design tool experience",
+   "Motion design or animation skills (After Effects, Rive)",
+   "Familiarity with AI design tools (ChatGPT, Midjourney, Leonardo)",
+   "Prior internship, freelance, or agency-style coursework experience",
+   "Interest in sports, gaming, iGaming, or entertainment brands",
+   "Knowledge of sports betting or casino gaming"
+  ]
+ },
+ "architecture": {
+  "role_title": "Architecture Designer: Civic + Cultural",
+  "company": "LPA Design Studios",
+  "subtrack_note": "integrated architecture/engineering/landscape firm, sustainability-driven carbon-focused design, Civic & Cultural building typology, Irvine CA",
+  "source_description": "Official Firm Careers Page (Ashby job board linked from LPA's own careers site)",
+  "source_url": "https://jobs.ashbyhq.com/lpadesignstudios/0d5bd955-7800-4ae6-a266-c1e3a4d42567",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Participate in the integrated design process alongside other disciplines (engineering, landscape, interiors) at LPA",
+   "Assist Design Coordinators and Project Leaders in executing specific project assignments",
+   "Prepare presentations and documentation for schematic design, design development, and construction documents",
+   "Assist in research on products and construction methods related to projects",
+   "Review and process construction administration documents",
+   "Attend construction meetings and field visits to build understanding of detailing and coordination"
+  ],
+  "basic_requirements": [
+   "Bachelor's or Master's degree in Architecture or a related field",
+   "2+ years of experience across all phases of architecture projects",
+   "Enthusiastic commitment to the multidisciplinary, integrated design process and team environment",
+   "Effective written and verbal communication skills",
+   "Commitment to building a long-term professional career"
+  ],
+  "bonus_qualifications": [
+   "Experience with Revit",
+   "Experience with Rhino",
+   "Proficiency in Adobe Creative Suite"
+  ]
+ },
+ "game_design": {
+  "role_title": "CONTRACT - Associate Level Game Designer (NST)",
+  "company": "Nintendo / Nintendo Software Technology (NST)",
+  "subtrack_note": "Nintendo first-party in-house studio, entry-level/associate level design contract track, Redmond WA",
+  "source_description": "Official Studio Careers Page (careers.nintendo.com)",
+  "source_url": "https://careers.nintendo.com/jobs/4426184009/",
+  "collected_date": "2026-10-02",
+  "responsibilities": [
+   "Implements design specifications into playable prototypes using various software tools",
+   "Quickly revises implementation based on changes required to continue iterating on design concepts",
+   "Assists in designing prototypes to iterate concepts into a more complete idea",
+   "Assists and maintains gameplay mechanics within a game",
+   "Creates areas of user-interface design and maintains assigned product localization under direction of senior designers",
+   "Writes and maintains assigned design documentation",
+   "Reviews, analyzes, and tests products under development to ensure Nintendo's quality standards"
+  ],
+  "basic_requirements": [
+   "0-2 years of level design for video games or relevant experience",
+   "Understanding of interactive software methodologies, production pipelines, and Nintendo quality standards",
+   "Proven proficiency with a commercial 2D/3D game editor (e.g., Unity, Unreal)",
+   "Basic PC skills (Word, Excel, PowerPoint)",
+   "Undergraduate degree in Game Design, Computer Science, or equivalent",
+   "Must be legally eligible to work in the US; visa sponsorship not available"
+  ],
+  "bonus_qualifications": [
+   "Studies in music, art, film, television/broadcasting, or multimedia a plus"
+  ]
+ }
+}

@@ -478,5 +478,74 @@ Collected: 2026-09-29
 - Prior experience with email security or SaaS security tooling
 - Demonstrated ability to learn independently in a hybrid team environment
 
+## JD 21: Security Engineer Intern, Secure Digital Assets Operations (Summer 2026), Ripple (cryptocurrency/blockchain fintech — digital-asset custody and key-management security, distinct from Visa's card-network AppSec+pentest+IAM track)
+Source: Official Ripple careers site (position listing)  https://ripple.com/careers/all-jobs/job/7467118
+Collected: 2026-09-30
+
+### Responsibilities
+- Define baseline security configurations and operational procedures to secure high-value digital asset solutions and transactions
+- Develop a dashboard that pulls in key details via APIs and other methods to track and visualize adherence to these configurations and processes
+- Define a process to alert relevant personnel about high-risk events that require remediation
+- Work cross-functionally with security and digital-asset operations stakeholders to validate controls against real transaction workflows
+
+### Basic Requirements
+- Currently enrolled in a Graduate or PhD degree program, preferably Computer Science, Information Technology, or a related field
+- Available for a 12-week internship in Summer 2026, starting May or June, with intent to return to the degree program afterward
+- Proficiency in at least one programming language, with the ability to build lightweight dashboards/scripts via APIs
+- Ability to handle sensitive work with discretion and integrity, and to communicate clearly across stakeholder levels
+- Comfort operating under ambiguity and a commitment to continuous learning
+
+### Bonus / Preferred Qualifications
+- Strong proven interest and passion in crypto, blockchain, and web3 (explicitly called out as a differentiator, not a baseline requirement)
+- Hands-on experience setting up, configuring, and securing digital asset exchange and wallet solutions
+- Intermediate understanding of digital-asset key management solutions and key management best practices
+- Note: the posting does not itemize CTF/bug-bounty results or vendor certifications (Security+/CEH/OSCP) as bonus signals — its differentiators are domain-specific (crypto/key-management depth) rather than generic security credentials
+
+## JD 22: Summer Associate Internship (Penetration Tester), Navy Federal Credit Union (credit union / member-owned financial cooperative — a dedicated, full-lifecycle penetration-testing internship distinct from Visa's broader AppSec+pentest+IAM track and from Wells Fargo's generalist bank security internship)
+Source: The Muse "Summer Associate Internship (Penetration Tester)" (mirrors Navy Federal Credit Union's official careers posting) — https://www.themuse.com/jobs/navyfederalcreditunion/summer-associate-internship-penetration-tester-f4bcaa
+Collected: 2026-10-01
+
+### Responsibilities
+- Perform application, network, wireless, and/or mobile application penetration tests
+- Complete projects related to building, managing, and running a penetration testing program
+- Assist across the full penetration-testing lifecycle, including pre-engagement, execution, and reporting phases
+
+### Basic Requirements
+- Currently pursuing an accredited degree, with anticipated graduation of December 2026 or later
+- Knowledge of the MITRE ATT&CK and/or CAPEC frameworks
+- Experience with Active Directory environments
+- Proficiency with both Linux and Windows systems
+- Coding experience in languages such as Python, Bash, PowerShell, Go, or Rust
+- Networking fundamentals spanning IPv4/IPv6, DNS, TCP/UDP, TLS/SSL, and HTTP
+- Understanding of cryptographic methods and encryption best practices
+- Strong communication, presentation, and analytical abilities
+
+### Bonus / Preferred Qualifications
+- Note: the posting lists all qualifications under a single "Qualifications" heading and does not call out a separate bonus/preferred-qualifications tier
+
+## JD 23: 2026 Guardian Summer Intern, Cybersecurity Assurance, Guardian Life Insurance Company of America (life/disability insurance carrier, in-house security assurance — red-team testing + SCA/DAST vulnerability triage)
+Source: Official RippleMatch/Greenhouse Job Posting for Guardian Life's campus internship program — https://job-boards.greenhouse.io/ripplematchinterns/jobs/8225879002
+Collected: 2026-10-02
+
+### Responsibilities
+- Assist in planning and executing Red Team exercises, including manual and automated testing
+- Help identify risks through Software Composition Analysis (SCA) and DAST (Dynamic Application Security Testing) scans
+- Triage security findings and monitor remediation progress
+- Learn from mentors and senior leaders across the organization
+- Network with colleagues and fellow interns across the summer cohort
+
+### Basic Requirements
+- Rising senior, graduating May 2027
+- Pursuing an undergraduate degree in Cybersecurity, Computer Science, Computer Engineering, or a related technical field
+- Basic knowledge of security concepts and web technologies
+- Strong communication and critical-thinking skills
+- Eligible to work in the U.S. without company sponsorship (no F-1 OPT, TN, or H-1B)
+- Available for the full program dates (May 28 - Aug 7, 2026)
+
+### Bonus / Preferred Qualifications
+- Enthusiasm for ethical hacking and secure software development
+- Prior exposure to vulnerability scanning or penetration-testing tools
+- Familiarity with remediation-tracking/triage workflows
+
 ## Implications for Our Framework
 Across all five postings, the recurring technical baseline is programming fluency (Python shows up in every single listing, often alongside Java, C/C++, or scripting more generally) paired with foundational security literacy — networking protocols, OS internals (Windows/Linux), and either OWASP-style vulnerability knowledge or SOC/incident-response concepts depending on the track. The hard filters that gate candidates before any technical evaluation are non-technical: enrollment status and major (CS/cybersecurity/IT or "related technical field" in every posting), work authorization (Wells Fargo and Motorola both explicitly reject candidates needing visa sponsorship), and in two cases physical/security constraints (Leidos requires U.S. citizenship plus Secret-clearance eligibility; Motorola requires living within an hour of a specific city for a hybrid seat). GPA and class standing appear as filters only in the consulting-track posting (PwC's 3.3 GPA preference and third/fourth-year standing requirement), suggesting these matter more for prestige/Big 4 pipelines than for engineering-heavy or SOC roles, where the emphasis shifts to demonstrated tooling exposure. Certifications (Security+, CEH, OSCP) and CTF/security-research participation consistently sit in the "bonus" tier rather than being required anywhere, as do cloud platforms (AWS/Azure/GCP), containerization (Docker/Kubernetes), and DevSecOps/IaC security — these read as differentiators that separate a strong applicant from an average one rather than baseline expectations. For the resume-scoring rubric, this implies core weight should go to: (1) major/degree-in-progress relevance, (2) at least one general-purpose programming language, and (3) any concrete evidence of networking or OS fundamentals or hands-on security tooling (Wireshark, Burp Suite, ELK, SIEM/EDR exposure) — while certifications, cloud/container security, and CTF participation should be scored as meaningful upward adjustments rather than pass/fail criteria. The rubric should also be flexible enough to recognize that "Cybersecurity Engineer Intern" postings vary substantially by employer type — defense/government roles will weight clearance-eligible citizenship and low-level tooling (Vagrant, Jenkins) more heavily, while consulting-track roles will weight GPA, class standing, and framework/GRC knowledge instead of hands-on engineering skill.
