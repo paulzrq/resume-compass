@@ -13,7 +13,7 @@ class AgentRegressions(unittest.TestCase):
  def test_duplicate_plan_dimension_rejected(self):
   plan=json.loads(_plan_json());plan[-1]=plan[0]
   with patch.object(nodes,'_call_llm',return_value=json.dumps(plan)):
-   with self.assertRaises(ValueError):nodes.plan_node(_base_state(),'test')
+   with self.assertRaises(RuntimeError):nodes.plan_node(_base_state(),'test')
  def test_missing_dimension_and_duplicate_bonus_rejected(self):
   state=_base_state();out=_scorer_json();del out['dimensions']['edu'];state['scorer_output']=out
   with self.assertRaises(scoring._InvalidScoreResponseError):nodes.report_node(state)
@@ -27,7 +27,7 @@ class AgentRegressions(unittest.TestCase):
   state=_base_state();state['scorer_output']=_scorer_json()
   for output in [{'pass':'false','feedback':[]},{'pass':False,'corrections':[{'dimension':'edu','new_score':True}]}]:
    with patch.object(nodes,'_call_llm',return_value=json.dumps(output)):
-    with self.assertRaises(ValueError):nodes.critique_node(state,'test')
+    with self.assertRaises(RuntimeError):nodes.critique_node(state,'test')
  def test_graph_retains_eval_snapshots(self):
   import agents.graph as gm
   original=nodes.score_node

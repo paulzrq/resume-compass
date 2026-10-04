@@ -105,6 +105,11 @@ def build_scorer_prompt(field: dict, plan: list) -> str:
         f"{b[0]} (+{b[1]} pts)" if isinstance(b, (list, tuple)) else str(b)
         for b in bonus)
     plan_txt = _json.dumps(plan, ensure_ascii=False, indent=1)
+    from scoring import load_framework
+    rubric_txt = "\n".join(
+        d["key"] + ": " + "; ".join(f"{i}={a}" for i, a in enumerate(d["anchors"], 1))
+        for d in load_framework()["dimensions"])
+
     return f"""You are the resume scoring agent (scorer). Your job is to score strictly according to the evidence-gathering plan below; you do not question the plan itself unless an item is clearly unexecutable, in which case explain the deviation in stage_note.
 
 ## Target field
@@ -115,14 +120,25 @@ def build_scorer_prompt(field: dict, plan: list) -> str:
 ## Evidence-gathering plan (created by the planner; must be followed)
 {plan_txt}
 
+## Scoring anchors (already retrieved; use directly, do not fetch again)
+{rubric_txt}
+
+## Efficient evidence gathering
+Batch independent JD searches in the same tool round; reuse relevant retrieved passages
+across dimensions. At most two search rounds per dimension. Keep evidence to the 1-3
+most relevant short verbatim quotes per dimension. Verify all quotes together using
+verify_quotes (up to 21 quotes); use verify_quote only to recheck individual replacements.
+Do not repeat a successful lookup or verification. After evidence gathering, output the
+complete scoring JSON without narrating your process.
+
 ## Available tools and when to call them
-1. get_dimension_rubric(dimension_key): look up the 1-5 scoring anchors for a dimension on demand. Required when: (1) evidence falls between two anchor tiers and you hesitate; (2) the dimension's plan strategy is jd_grounded / deep_dive; (3) you are about to give an extreme score of 1 or 5. May skip when evidence verbatim-matches an anchor tier and the call is obvious. Scoring must follow the anchors, never gut feeling.
+1. get_dimension_rubric(dimension_key): look up the 1-5 scoring anchors for a dimension on demand. Use the supplied anchors first; a lookup is only needed if they are missing. Apply anchors when: (1) evidence falls between two anchor tiers and you hesitate; (2) the dimension's plan strategy is jd_grounded / deep_dive; (3) you are about to give an extreme score of 1 or 5. May skip when evidence verbatim-matches an anchor tier and the call is obvious. Scoring must follow the anchors, never gut feeling.
 2. search_jd_library(field_id, query, k): driven by the dimension's strategy in the plan:
    - anchor_only: do not call; score directly.
    - jd_grounded / deep_dive: must call first, using the dimension's jd_queries from the plan (k=2 each), calibrating the scoring scale against retrieved JD requirements; if results are irrelevant, you may try different keywords for one more round — at most two rounds, then you must score.
    - conservative_skip: the planner already judged this dimension evidence-free. Do a quick keyword scan of the resume to confirm nothing was missed, then score 1 directly with no JD retrieval.
    - cross_check: when scoring, deliberately check related evidence in other dimensions for contradictions or corroboration.
-3. verify_quote(quote): verify every evidence quote after writing; quotes returning False must be deleted or re-sourced — never leave them in the output.
+3. verify_quotes(quotes): verify every evidence quote together in one batch after writing; quotes returning False must be deleted or re-sourced — never leave them in the output.
 
 ## Iron rules of scoring
 1. Order: evidence first → rationale second → score last. Evidence must be fragments quoted verbatim from the resume text, not your paraphrase or summary.

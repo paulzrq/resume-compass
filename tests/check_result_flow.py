@@ -13,6 +13,13 @@ from unittest.mock import MagicMock
 client=MagicMock();client.messages.create.return_value=response(json.dumps(fixture()))
 with patch.object(scoring.anthropic,'Anthropic',return_value=client):
  result=scoring.score_resume(resume_text='示例项目',field_id='teacher',api_key='test')
+if '--agent' in sys.argv:
+ from agents.app_adapter import run_agent_assessment
+ from agents import nodes
+ from test_app_adapter import _FakeScorerAgent, _fake_llm
+ with patch.object(nodes, '_call_llm', _fake_llm):
+  result=run_agent_assessment(resume_text='Synthetic test resume',field_id='teacher',api_key='test',scorer_agent=_FakeScorerAgent())
+ print('PASS offline In-depth graph → result')
 app=AppTest.from_file(str(ROOT/'app/app.py'),default_timeout=30)
 for k,v in dict(view='result',result=result,report_unlocked=False,assessment_id='offline-test',student_name='虚构测试',student_meta='',resume_pdf_bytes=None,resume_original_bytes=None,resume_original_filename=None).items():app.session_state[k]=v
 with patch.object(share_card,'render_share_button',return_value=False) as share,patch.object(report,'generate_pdf',wraps=report.generate_pdf) as pdf,patch.object(emailer,'send_report_email',return_value='skipped') as mail,patch.object(Path,'write_bytes',return_value=0):

@@ -5,6 +5,7 @@
   jd_queries，英文查英文；标题命中双倍权重；无结果返回空字符串）。
   v2 可换成向量检索（embedding + 余弦相似度），面试可讲。
 """
+from functools import lru_cache
 import scoring
 from langchain_core.tools import tool
 
@@ -13,6 +14,9 @@ def build_tools(resume_text: str) -> list:
     """按本次简历组装 tools。verify_quote 需要闭包绑定简历原文，
     所以 tools 不能在 build_graph 时一次性建好，必须每次打分现组装。"""
     framework = scoring.load_framework()
+
+    # Cache only within this assessment; never share resume data across sessions.
+    load_jd = lru_cache(maxsize=8)(scoring.load_jd_reference)
 
     @tool
     def get_dimension_rubric(dimension_key: str) -> str:
@@ -46,7 +50,9 @@ def build_tools(resume_text: str) -> list:
         #       不要返回——复用 scoring._strip_internal_notes。
         #   v2（加分项）：换成向量检索（embedding + 余弦相似度），面试可讲。
         # 契约：返回字符串；无结果时返回 ""（不要抛异常，scorer 会继续）。
-        md = scoring.load_jd_reference(field_id)  # 复用：已去内部笔记、已限条数
+        k = max(1, min(k, 2))
+        max_chars = max(1, min(max_chars, 1200))
+        md = load_jd(field_id)  # 复用：已去内部笔记、已限条数
         if not md.strip():
             return ""
         entries = md.split("\n## JD ")[1:]  # 按条目切分，第一段是 H1 标题
@@ -84,4 +90,13 @@ def build_tools(resume_text: str) -> list:
         # 直接复用 scoring.py 的现成校验（含"PDF 提取丢空格"的兜底逻辑）
         return scoring._quote_in_resume(resume_text, quote)
 
-    return [get_dimension_rubric, search_jd_library, verify_quote]
+    @tool
+    def verify_quotes(quotes: list[str]) -> list[bool]:
+        """Verify up to 21 evidence quotes in one call; results preserve input order.
+        Submit all dimensions together. False means remove or re-source the quote.
+        """
+        if len(quotes) > 21:
+            raise ValueError("Submit at most 21 quotes per batch")
+        return [scoring._quote_in_resume(resume_text, q) for q in quotes]
+
+    return [get_dimension_rubric, search_jd_library, verify_quote, verify_quotes]

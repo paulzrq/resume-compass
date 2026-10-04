@@ -15,13 +15,12 @@ from typing import Optional
 import pdfplumber
 import streamlit as st
 import streamlit.components.v1 as components
-import streamlit_antd_components as sac
 from PIL import Image
 
 from scoring import load_framework, score_resume, DEFAULT_MODEL, CHEAP_MODEL, CUSTOM_FIELD_ID
 from agents.app_adapter import run_agent_assessment
 from branding import logo_svg_data_uri, logo_geometry
-from home_ui import render_home_intro, render_career, career_label, FIELD_LABELS, CATEGORY_LABELS
+from home_ui import render_home_intro, render_career_picker, career_label, FIELD_LABELS, CATEGORY_LABELS
 from report import generate_pdf
 from local_modules import load_current_module
 
@@ -624,22 +623,17 @@ if st.session_state.view == "form":
             student_name = "Resume"
         with col2:
             st.markdown('<div class="home-section">Career path</div>', unsafe_allow_html=True)
-            english_to_id = {FIELD_LABELS.get(f["id"], f["name"]): f["id"] for f in framework["fields"]}
-            cascader_items = [sac.CasItem(label=CATEGORY_LABELS.get(cat, cat), children=[
-                sac.CasItem(label=FIELD_LABELS.get(field_options[name], name))
-                for name in FIELDS_BY_CATEGORY[cat]]) for cat in FIELD_CATEGORIES]
-            custom_label = "Other / Custom career path"
-            selected_path = sac.cascader(items=cascader_items + [sac.CasItem(label=custom_label)],
-                placeholder="Category → Career path", key="home_career_cascader")
-            # Cascader returns the full label path (category label, then leaf label); resolve the
-            # leaf by identity against english_to_id, never by position, since a custom/no-children
-            # top-level item returns a single-element path.
-            chosen = CUSTOM_FIELD_ID if custom_label in (selected_path or []) else next(
-                (english_to_id[label] for label in (selected_path or []) if label in english_to_id), None)
-            is_custom_field = chosen == CUSTOM_FIELD_ID
+            # 2026-10-02: cascader (iframe 组件) -> st.popover-based 卡片选择器，见 home_ui.py
+            # render_career_picker 顶部注释：解决的是浮层被 iframe 包围盒裁切、顶开左右列高度
+            # 的问题。
+            chosen, is_custom_field = render_career_picker(
+                fields_by_id=fields_by_id,
+                field_categories=FIELD_CATEGORIES,
+                fields_by_category=FIELDS_BY_CATEGORY,
+                field_options=field_options,
+                custom_field_id=CUSTOM_FIELD_ID,
+            )
             field_name = fields_by_id[chosen]["name"] if chosen and not is_custom_field else None
-            if field_name:
-                render_career(fields_by_id[chosen])
             custom_field_name = ""
             if is_custom_field:
                 custom_field_name = st.text_input("Your career path", placeholder="e.g. Climate Policy Analyst")
