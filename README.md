@@ -1,18 +1,164 @@
-# 简历罗盘 · 项目文件夹
+# Resume Compass
 
-用于「学生简历竞争力评估系统」的持久化数据，跨对话/跨会话保留。
+AI-assisted resume assessment for **Grace Harbor Academy (仁港学院)**. Upload a resume, choose a career path, and receive evidence-based feedback on how the resume presents your qualifications for that role.
 
-## 文件结构
+[Open the app](https://resume-compass.streamlit.app/)
 
-- `framework.json` — 评估框架的标准数据源：7个通用维度（含评分锚点）、**29个领域**的权重/加分项/常见短板、分级标准。是本项目的唯一真相来源（single source of truth）。以后调整权重、增删领域，都改这份文件。
-- `jd-reference-library/` — 分领域的真实JD参考库，**已接入打分逻辑**（`app/scoring.py` 会自动读取对应领域的文件塞进评分prompt里，不是摆设）。目录结构是 `jd-reference-library/<领域id>/<描述性文件名>.md`，一个领域一个子文件夹、通常只有1个主文件（文件名不强制统一，但要能一眼看出是这个领域专属的，不要和别的领域共用同一份内容/标题——2026-09-18之前 `ds`（数据科学家）和 `mle`（机器学习工程师）两个领域曾共用过同一份文件和标题，已经拆分并各自改名为 `data_science_analytics_intern.md`（标题 *Data Science / Analytics*）和 `machine_learning_engineer_intern.md`（标题 *Machine Learning Engineering*），今后再拆分领域时要照此处理）。
-  - 每个文件结构统一为：H1标题=领域英文名，H2=每条JD记录（`## JD N: Role Title, Company (note)`，附 `Source:` 来源链接 + `Collected: 日期`），内含三个固定顺序的H3子小节：`Responsibilities`（岗位实际工作内容）→ `Basic Requirements`（基本要求）→ `Bonus / Preferred Qualifications`（加分项）；文件末尾再加一个H2 `Implications for Our Framework`（写给我们自己看的分析笔记，评分时会自动过滤掉、不会喂给模型）。
-  - **JD库内容全部是英文**。每个领域最初由人工研究收集了5份真实岗位JD打底（2026-08-28～09-01），此后由每天自动运行的定时任务（"JD库每日自动更新"）给每个领域研究并追加1条新的真实JD（同样用英文，且要求`公司+核心岗位性质`不能和该领域已有条目、以及有选题重叠风险的相邻领域（如ds/mle）重复）。目前（2026-09-18）每个领域共9条JD，累计261条。
-  - 这个定时任务会在 `jd-reference-library/.auto_jd_run_count.txt` 里记录已经连续运行的天数，累计满30天会自动把自己暂停（`enabled: false`）并提醒Paul决定要不要继续/设上限——这是唯一控制JD库无限增长的机制，改动前留意一下这个计数文件和对应定时任务的状态。
-- `reports/` — 存放具体学生的评估结果PDF报告（目前是逐份生成，暂无批量汇总功能）。
+## Features
 
-## 后续规划
+- **28 career paths**, organized into four categories with a two-level selector.
+- **PDF and image uploads** (PNG, JPG/JPEG, and WEBP) for standard assessments.
+- **Seven scoring dimensions**, with role-specific weights and scoring anchors.
+- **Experimental In-depth assessment** for text-readable PDFs, using an evidence planner, a tool-assisted scorer, and a review auditor.
+- **Personalized share cards** with role-specific characters and colors. One of five layouts—A, B, D, E, or F—is selected for each assessment.
+- **Responsive web reports** for phones and desktops, with a downloadable PDF and resume annotations where available.
+- An English interface and English assessment instructions. Verbatim resume evidence retains its original language.
+- Mobile layouts and system-aware light/dark styling on the home screen.
 
-- 每次新增JD参考，同步检查是否需要微调 `framework.json` 里对应领域的权重或加分项。
-- 定期(比如每次JD库有大批量更新后)抽查一下各领域JD文件的标题和内容是不是还专属于自己这个领域，避免再出现类似ds/mle当初共用一份文件的情况。
-- 目标是把这套框架和数据沉淀到可以支撑一个独立应用（网页/小程序），而不是仅停留在对话里——`framework.json` 就是为了这个目的设计的结构化数据层，将来后端/前端都可以直接读取它。
+## Assessment flow
+
+1. Upload a resume and select a category and career path.
+2. Optionally enable **In-depth assessment** for a PDF.
+3. Start the assessment. The app first displays a share card.
+4. Use the share action to reveal the report and generate the downloadable PDF.
+
+Native sharing depends on browser and device support. The share action is a report-unlock interaction; it does **not** verify that a user actually published a post or sent a message in WeChat or another app.
+
+### Standard assessment
+
+The app extracts PDF text, or submits an uploaded image for visual analysis, and requests structured scores from Anthropic Claude. Python validates the response and calculates the weighted total. The default is one scoring run.
+
+### In-depth assessment
+
+The LangGraph pipeline follows **Plan → Score → Review → Report**:
+
+- **Planner:** chooses an evidence-gathering strategy for each dimension.
+- **Scorer:** uses scoring anchors, local job-description references, and quote verification to assess the resume.
+- **Reviewer:** audits the result and can correct dimension scores.
+- **Report step:** calculates the total deterministically and assembles the result.
+
+The app uses one scoring round with review, rather than routinely sending the resume back through another scoring round. Invalid model responses may trigger one automatic retry. Tool use can still require multiple model requests, so In-depth mode generally takes longer and costs more than standard assessment.
+
+Cost controls include batched quote verification, scoring anchors supplied together, prompt caching in the tool-assisted scoring flow, and bounded JD excerpts: at most two entries per search, with up to 1,200 characters per entry before the truncation marker. Retrieved JD text is cached within an assessment. These controls do not guarantee a fixed latency or price.
+
+## Scoring framework
+
+`framework.json` defines the dimensions, scoring anchors, career paths, weights, bonus rules, and tiers. It is the source of truth for scoring configuration.
+
+| Dimension | Key |
+| --- | --- |
+| Education | `edu` |
+| Internship / Work Experience | `exp` |
+| Projects | `proj` |
+| Skills & Tools | `skill` |
+| Certifications & Exams | `cert` |
+| Leadership & Extracurriculars | `lead` |
+| Resume Presentation | `present` |
+
+Each dimension is scored from 1 to 5. Python applies field weights, eligible bonuses, and score caps to calculate the final score out of 100. AI assessments are advisory; they are not hiring decisions or guarantees of career outcomes.
+
+## Run locally
+
+Use **Python 3.12** and create a fresh virtual environment for your operating system.
+
+```bash
+git clone https://github.com/paulzrq/resume-compass.git
+cd resume-compass
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r app/requirements.txt
+```
+
+Configure the API key in `.streamlit/secrets.toml` at the repository root:
+
+```toml
+ANTHROPIC_API_KEY = "your-api-key"
+```
+
+Alternatively, provide `ANTHROPIC_API_KEY` through your environment. Streamlit Secrets take precedence over the environment variable. The public interface does not ask students to enter an API key.
+
+Start the app from the repository root:
+
+```bash
+python -m streamlit run app/app.py
+```
+
+Do not reuse a virtual environment copied from another machine or operating system. Model identifiers are configured in `app/scoring.py`; the API account must have access to the configured model. API usage is billed separately from hosting.
+
+## Optional email archive
+
+When email is configured, the report workflow can send the generated report and original resume as attachments. The current implementation uses Gmail SMTP with STARTTLS on port 587.
+
+Add these settings to Streamlit Secrets only if email archival is intended:
+
+```toml
+SMTP_SENDER_EMAIL = "sender@example.com"
+SMTP_SENDER_PASSWORD = "your-app-password"
+REPORT_RECIPIENT_EMAIL = "archive@example.com"
+```
+
+If the recipient is omitted, the sender address is used. Without sender credentials, email archival is skipped. Review the destination and obtain appropriate consent before using this feature with student data.
+
+## Development checks
+
+Run from the repository root with dependencies installed:
+
+```bash
+python -m unittest discover -s tests -p 'test_*.py'
+python tests/check_result_flow.py
+python tests/check_result_flow.py --agent
+```
+
+These checks use mocked model responses. The result-flow checks cover the share gate, report rendering, PDF creation, and rerun behavior while mocking email delivery and report-file writes. They do not validate live API access, production latency, native mobile sharing, or the full browser layout.
+
+Before deployment, also inspect the app in a browser at desktop and mobile widths, in light and dark modes. Use synthetic resumes for development and live API smoke tests.
+
+## Deployment
+
+The hosted app runs on Streamlit Community Cloud:
+
+- Repository: `paulzrq/resume-compass`
+- Branch: `main`
+- Entry point: `app/app.py`
+- Python version: **3.12**
+
+Configure `ANTHROPIC_API_KEY` in the app's Streamlit Cloud Secrets. Configure the optional email settings there if needed.
+
+**Pushing to `main` triggers deployment to the live app.** Verify locally and inspect the staged files before pushing. Python 3.12 is the deployment baseline; review dependency compatibility before changing it, especially the pinned `cryptography` version.
+
+## Repository map
+
+```text
+app/
+  app.py                 Streamlit entry point and assessment/report workflow
+  home_ui.py             Home screen, career picker, and responsive styling
+  scoring.py             Standard scoring, validation, and JD loading
+  agents/                In-depth graph, prompts, nodes, and tools
+  web_report.py          Responsive HTML report
+  report.py              PDF report generation
+  share_card.py          Share-card generation and sharing interface
+  highlight.py           Resume annotation helpers
+  emailer.py             Optional email archival
+  mascots.py             Career-character mapping
+  mascots/               Original career illustrations
+  mascots_transparent/   Transparent illustrations for the home screen
+  assets/                Static visual assets
+  fonts/                 Bundled fonts
+  requirements.txt       Runtime dependencies
+framework.json           Scoring configuration
+jd-reference-library/    Career-specific job-description references
+tests/                   Offline regression and result-flow checks
+eval/                    Evaluation tooling
+```
+
+JD references are organized by field ID. Entries include source information and sections for responsibilities, basic requirements, and preferred qualifications. Internal “Implications for Our Framework” notes are excluded from model input. The standard scoring path caps injected JD entries independently of the library's total size.
+
+## Data handling and limitations
+
+- Resume content is sent to Anthropic for assessment. Optional email archival sends the report and original resume to the configured recipient.
+- Keep API keys, SMTP credentials, real resumes, generated student reports, and private evaluation data out of this public repository.
+- `reports/`, `resumes/`, `eval/raw_resumes/`, `app/samples/`, and local secrets are excluded from version control. Inspect staged files before every commit.
+- Streamlit Cloud's local filesystem is temporary. Downloaded files or an explicitly configured archive are needed for long-term retention.
+- The app does not currently provide a user login gate or per-user spending quota. Account-level API controls and access management should be considered before broader rollout.
+- Scanned PDFs may not provide usable extracted text. Standard image assessment is available, but image inputs do not support the same text-based quote verification as readable PDFs. In-depth mode requires PDF text.
+- Native share-sheet behavior varies by browser and operating system; browser sharing cannot prove that a social post was published.
