@@ -46,19 +46,9 @@ def _mascot_transparent_b64(field_id: str):
 # 在 Python 这边直接判断，把对应的颜色字面量拼进 CSS 里，而不是指望浏览器端的 CSS 变量。
 def _theme_tokens():
     """返回当前主题（深色/浅色）对应的一组颜色字面量，直接拼进自定义 CSS 里用。"""
-    try:
-        dark = st.context.theme.type == "dark"
-    except Exception:
-        dark = False
-    if dark:
-        return dict(
-            bg="#1c1c1e", bg2="#2a2a2d", text="#f5f5f7", sub_text="#f5f5f7",
-            border="#ffffff1f", dropzone_bg="#ffffff0a", hover_bg="#333336",
-        )
-    return dict(
-        bg="#ffffff", bg2="#f5f5f7", text="#1d1d1f", sub_text="#1d1d1f",
-        border="#88888822", dropzone_bg="#8b9aaa0d", hover_bg="#ffffff",
-    )
+    return {key: f"var(--rc-home-{key})" for key in
+            ("bg", "bg2", "text", "sub_text", "border", "dropzone_bg", "hover_bg")}
+
 
 
 # 2026-10-03：加了个全局 max-width（居中），不然 app.py 里 layout="wide" 会让整个首页一路铺到
@@ -236,6 +226,46 @@ def _build_css(t):
 .career-card .mascot-bleed{{animation:homeCareerImgIn .32s .05s cubic-bezier(.22,.9,.32,1) backwards!important}}
 @media(max-width:640px){{.st-key-home_career_card{{height:260px!important;flex:0 0 260px!important}}.career-card{{padding:14px 14px 14px 20px}}.career-card .mascot-bleed{{width:210px;height:210px}}}}
 '''
+    css += """
+:root{--rc-home-bg:#fff;--rc-home-bg2:#f5f5f7;--rc-home-text:#1d1d1f;--rc-home-sub_text:#55555c;--rc-home-border:#88888822;--rc-home-dropzone_bg:#f8f9fb;--rc-home-hover_bg:#eaeaf0;--rc-home-role:var(--accent,#64427a)}
+@media(prefers-color-scheme:dark){
+:root{--rc-home-bg:#1c1c1e;--rc-home-bg2:#29292d;--rc-home-text:#f5f5f7;--rc-home-sub_text:#c2c2ca;--rc-home-border:#ffffff26;--rc-home-dropzone_bg:#242429;--rc-home-hover_bg:#38383f;--rc-home-role:#ececf4}
+}
+.career-card .role{color:var(--rc-home-role)}
+.career-card .cat{color:var(--rc-home-sub_text);opacity:1}
+.st-key-home_workspace{color:var(--rc-home-text)}
+.st-key-home_workspace [data-testid="stFileUploaderDropzoneInstructions"]{color:var(--rc-home-sub_text)}
+@media(prefers-color-scheme:dark){.st-key-home_workspace [data-testid="stFileUploaderDropzone"] button{color:#75b7ff;border-color:#75b7ff66}}
+@media(max-width:640px){
+.home-hero{padding:16px 0 20px}
+.home-hero h2{font-size:clamp(28px,8vw,36px)!important;line-height:1.15;letter-spacing:-1px}
+.home-hero p{font-size:15px;line-height:1.5;margin-top:12px}
+.st-key-home_workspace{padding:18px 12px;border-radius:18px}
+.st-key-home_workspace [data-testid="stHorizontalBlock"]{flex-direction:column;gap:20px}
+.st-key-home_workspace [data-testid="stColumn"]{width:100%!important;flex:1 1 auto!important;min-width:0!important}
+.home-section{margin-bottom:10px}
+.st-key-home_workspace [data-testid="stFileUploader"]{height:190px!important;min-height:190px!important;max-height:190px!important}
+.st-key-home_workspace [data-testid="stFileUploaderDropzone"]{gap:8px;padding:12px}
+.st-key-home_workspace [data-testid="stFileUploaderDropzone"]::before{content:"Upload your resume";font-size:16px;margin-top:0}
+.st-key-home_workspace [data-testid="stFileUploaderFile"]{max-width:94%;padding:12px;min-width:0}
+.st-key-home_career_card{height:auto!important;min-height:260px;flex:0 0 auto!important;border-radius:18px}
+.st-key-home_career_card:has(.st-key-home_career_role_scroll){height:320px!important;flex:0 0 320px!important}
+.st-key-home_career_card:has(.career-card){height:240px!important;flex:0 0 240px!important}
+.st-key-home_career_menu_list{gap:8px!important;max-width:100%}
+.st-key-home_career_menu_list [data-testid="stElementContainer"]{max-width:100%!important;min-width:0}
+.st-key-home_career_menu_list button{min-height:44px!important;max-width:100%;padding:8px 12px!important;white-space:normal}
+.st-key-home_career_menu_list button p{font-size:14px;overflow-wrap:anywhere}
+.st-key-home_career_back_wrap button{width:44px;height:44px;min-height:44px}
+.menu-title.with-back{padding-left:44px;min-height:36px}
+.career-card{padding:40px 12px 12px;gap:8px}
+.career-card .role{font-size:18px}
+.career-card .mascot-bleed{width:150px;height:190px;max-width:48%}
+.menu-title .n{display:block;margin-top:4px}
+}
+@media(prefers-reduced-motion:reduce){
+.menu-title,.career-card,.st-key-home_career_menu_list,.st-key-home_career_menu_list [data-testid="stElementContainer"],.career-card .mascot-bleed{animation:none!important}
+}
+"""
     return css
 
 
